@@ -1,0 +1,88 @@
+name: assistant_dinkum_app
+description: Assistant for Dinkum
+version: 0.0.1+0 # dart scripts\version_num_script.dart
+publish_to: none
+
+environment:
+  sdk: '>=2.17.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+
+  # AssistantApps
+  assistantapps_flutter_common:
+    # git: https://github.com/AssistantApps/Flutter.Common.git
+    path: 'C:\Development\Projects\AssistantApps\assistantapps_flutter_common'
+
+  # Base
+  get_it: 7.2.0
+  http: 0.13.4
+  flutter_redux: 0.10.0
+  redux: 5.0.0
+
+  # UI
+  adaptive_theme: 3.1.1
+  auto_animated: 3.1.0
+  bitsdojo_window: 0.1.2
+  breakpoint: 1.2.0
+  flutter_staggered_grid_view: 0.6.2
+  flutter_svg: 1.0.3
+
+  # Misc
+  after_layout: 1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 2.0.0
+  pubspec_parse: 1.2.0
+  flutter_launcher_icons: 0.10.0
+
+dependency_overrides:
+  # flutter_staggered_grid_view: 0.6.2
+
+flutter_icons: ## flutter pub run flutter_launcher_icons:main
+  ios: true
+  android: true
+  min_sdk_android: 23
+  image_path: 'assets/images/fullSizeIcon.png'
+  # adaptive_icon_background: 'assets/images/fullSizeIconAdaptiveBg.png'
+  # adaptive_icon_foreground: 'assets/images/fullSizeIconAdaptiveFg.png'
+  web:
+    generate: true
+    image_path: 'assets/images/fullSizeIcon-outline.png'
+    background_color: '#000000'
+    theme_color: '#7F2F14'
+  windows:
+    generate: true
+    image_path: 'assets/images/fullSizeIcon-outline.png'
+    icon_size: 48 # min:48, max:256, default: 48
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/json/
+    - assets/images/
+    - assets/images/bugs/
+    - assets/images/critters/
+    - assets/images/fish/
+    - assets/images/items/
+    - assets/images/licences/
+    - assets/images/milestones/
+    - assets/images/people/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto/Roboto-Medium.ttf
+        - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto/Roboto-Light.ttf
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito/Nunito-Bold.ttf
