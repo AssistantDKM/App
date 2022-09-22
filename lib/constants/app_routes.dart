@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../pages/animal_pages.dart';
 import '../pages/food_pages.dart';
 import '../pages/home_page.dart';
+import '../pages/licences_pages.dart';
 import '../pages/people_pages.dart';
 import '../pages/settings_page.dart';
 import 'analytics_event.dart';
@@ -25,6 +26,7 @@ class Routes {
 
   static const String crafting = '/crafting';
   static const String people = '/people';
+  static const String licence = '/licence';
 
   static const String itemIdParam = 'itemId';
   static const String bugDetails = '/bug/:$itemIdParam';
@@ -83,6 +85,10 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
     Routes.people: (context) => PeopleListPage(
           analyticsEvent: AnalyticsEvent.people,
           title: 'People',
+        ),
+    Routes.licence: (context) => LicencesListPage(
+          analyticsEvent: AnalyticsEvent.licence,
+          title: 'Licence',
         ),
   };
   return routes;

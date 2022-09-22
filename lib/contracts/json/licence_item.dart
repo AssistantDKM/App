@@ -11,14 +11,13 @@ import '../interface/item_list_page_type.dart';
 
 class LicenceItem extends ItemListPageType {
   final int id;
-  final String name;
   final String description;
   final List<LicenceLevel> levels;
   final String imageUrl;
 
   LicenceItem({
     required this.id,
-    required this.name,
+    required name,
     required this.description,
     required this.levels,
     required this.imageUrl,

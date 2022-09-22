@@ -79,7 +79,7 @@ class HomePage extends StatelessWidget {
           context,
           AppImage.licencesLogo,
           'Licences',
-          Routes.bugs,
+          Routes.licence,
         ),
       ),
       smallLanscapeRectTile(
