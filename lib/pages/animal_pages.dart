@@ -72,6 +72,7 @@ class AnimalDetailsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return ItemDetailsPage<AnimalItem>(
       title: title,
+      isInDetailPane: isInDetailPane,
       getItemFunc: () => getGenericRepo(appJson).getAnimalItem(context, itemId),
       getName: (loadedItem) => loadedItem.name,
       contractToWidgetList: (loadedItem) {
