@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
+import '../components/pageElements/item_page_components.dart';
 import '../components/tilePreseneters/people_tile_presenter.dart';
 import '../constants/app_misc.dart';
 import '../contracts/json/people_item.dart';
@@ -73,17 +74,20 @@ class PeopleDetailsPage extends StatelessWidget {
           Center(child: networkImage(loadedItem.imageUrl)),
           genericItemName(loadedItem.name),
           genericItemDescription(loadedItem.occupation),
+          genericItemDescription(loadedItem.building),
         ];
 
-        // if (loadedItem.habitats.isNotEmpty) {
-        //   descripWidgets.addAll(loadSections(
-        //     'Habitats',
-        //     loadedItem.habitats
-        //         .map((habitat) => habitatValues.reverse[habitat] ?? '')
-        //         .where((element) => element.isNotEmpty)
-        //         .toList(),
-        //   ));
-        // }
+        descripWidgets.addAll(loadSections(
+          'Favourite Food',
+          [loadedItem.favouriteFood],
+        ));
+
+        if (loadedItem.dislikes.isNotEmpty) {
+          descripWidgets.addAll(loadSections(
+            'Dislikes',
+            loadedItem.dislikes.where((element) => element.isNotEmpty).toList(),
+          ));
+        }
 
         return descripWidgets;
       },
