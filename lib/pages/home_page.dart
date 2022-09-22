@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
         baseHomeCard(
           context,
           AppImage.animalsLogo,
-          'All Animals',
+          'Animals',
           Routes.animals,
         ),
       ),
@@ -47,13 +47,11 @@ class HomePage extends StatelessWidget {
           context,
           AppImage.itemsLogo,
           'Items',
-          Routes.bugs,
+          Routes.crafting,
         ),
       ),
-      StaggeredGridTile.count(
-        crossAxisCellCount: 2,
-        mainAxisCellCount: 1,
-        child: baseHomeCard(
+      smallLanscapeRectTile(
+        baseHomeCard(
           context,
           AppImage.fishLogo,
           'Fish',
@@ -63,25 +61,29 @@ class HomePage extends StatelessWidget {
       largeSquareTile(
         baseHomeCard(
           context,
+          AppImage.foodLogo,
+          'Food',
+          Routes.food,
+        ),
+      ),
+      smallLanscapeRectTile(
+        baseHomeCard(
+          context,
           AppImage.peopleLogo,
           'People',
           Routes.bugs,
         ),
       ),
-      StaggeredGridTile.count(
-        crossAxisCellCount: 2,
-        mainAxisCellCount: 1,
-        child: baseHomeCard(
+      smallLanscapeRectTile(
+        baseHomeCard(
           context,
           AppImage.licencesLogo,
           'Licences',
           Routes.bugs,
         ),
       ),
-      StaggeredGridTile.count(
-        crossAxisCellCount: 2,
-        mainAxisCellCount: 1,
-        child: baseHomeCard(
+      smallLanscapeRectTile(
+        baseHomeCard(
           context,
           AppImage.milestonesLogo,
           'Milestones',
@@ -94,10 +96,8 @@ class HomePage extends StatelessWidget {
       appBar: homePageAppBar('Home'),
       drawer: const AppDrawer(),
       builder: (scaffoldContext) => animateWidgetIn(
-        child: responsiveStaggeredGrid(
-          items: itemBuilders,
-          // itemCount: itemBuilders.length,
-          // itemBuilder: (gridItemCtx, index) => itemBuilders[index](gridItemCtx),
+        child: SingleChildScrollView(
+          child: responsiveStaggeredGrid(items: itemBuilders),
         ),
       ),
       // bottomNavigationBar: const BottomNavbar(currentRoute: Routes.home),
@@ -146,6 +146,14 @@ StaggeredGridTile largeSquareTile(Widget innerChild) {
   return StaggeredGridTile.count(
     crossAxisCellCount: 2,
     mainAxisCellCount: 2,
+    child: innerChild,
+  );
+}
+
+StaggeredGridTile smallLanscapeRectTile(Widget innerChild) {
+  return StaggeredGridTile.count(
+    crossAxisCellCount: 2,
+    mainAxisCellCount: 1,
     child: innerChild,
   );
 }

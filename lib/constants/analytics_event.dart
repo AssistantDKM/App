@@ -10,4 +10,10 @@ class AnalyticsEvent {
   static const String bugsPage = 'Bugs_Page_View';
   static const String crittersPage = 'Critters_Page_View';
   static const String fishPage = 'Fish_Page_View';
+
+  static const String food = 'Food_Page_View';
+  static const String consumable = 'Consumable_Page_View';
+  static const String cooking = 'Cooking_Page_View';
+
+  static const String crafting = 'Crafting_Page_View';
 }

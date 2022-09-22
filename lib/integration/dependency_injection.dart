@@ -8,6 +8,8 @@ import '../services/base/loadingwidget_service.dart';
 import '../services/base/path_service.dart';
 import '../services/base/theme_service.dart';
 import '../services/json/animal_repository.dart';
+import '../services/json/crafting_repository.dart';
+import '../services/json/food_repository.dart';
 
 final getIt = GetIt.instance;
 
@@ -28,8 +30,18 @@ void initDependencyInjection(EnvironmentSettings env) {
     // snackbar: SnackbarService(),
   );
 
+  // getIt.registerSingleton(BugRepository());
+
   getIt.registerFactoryParam<AnimalRepository, String, String>(
     (String key, String unused) => AnimalRepository(key),
+  );
+
+  getIt.registerFactoryParam<FoodRepository, String, String>(
+    (String key, String unused) => FoodRepository(key),
+  );
+
+  getIt.registerFactoryParam<CraftingRepository, String, String>(
+    (String key, String unused) => CraftingRepository(key),
   );
 }
 
@@ -37,3 +49,9 @@ EnvironmentSettings getEnv() => getIt<EnvironmentSettings>();
 
 AnimalRepository getGenericRepo(String key) =>
     getIt<AnimalRepository>(param1: key, param2: 'di');
+
+FoodRepository getFoodRepo(String key) =>
+    getIt<FoodRepository>(param1: key, param2: 'di');
+
+CraftingRepository getCraftingRepo(String key) =>
+    getIt<CraftingRepository>(param1: key, param2: 'di');

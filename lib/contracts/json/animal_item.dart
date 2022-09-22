@@ -12,7 +12,6 @@ import 'enum/habitat.dart';
 
 class AnimalItem extends ItemListPageType {
   final int id;
-  final String name;
   final String description;
   final List<Habitat> habitats;
   final Availability availability;
@@ -21,13 +20,13 @@ class AnimalItem extends ItemListPageType {
 
   AnimalItem({
     required this.id,
-    required this.name,
+    required name,
     required this.description,
     required this.habitats,
     required this.availability,
     required this.sellPrice,
     required this.imageUrl,
-  }) : super(id.toString());
+  }) : super(id.toString(), name);
 
   factory AnimalItem.fromJson(String str) =>
       AnimalItem.fromMap(json.decode(str));

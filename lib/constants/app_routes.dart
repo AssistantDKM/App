@@ -3,6 +3,7 @@ import 'package:assistant_dinkum_app/constants/app_json.dart';
 import 'package:flutter/material.dart';
 
 import '../pages/animal_pages.dart';
+import '../pages/food_pages.dart';
 import '../pages/home_page.dart';
 import '../pages/settings_page.dart';
 
@@ -16,6 +17,12 @@ class Routes {
   static const String bugs = '/bugs';
   static const String critters = '/critters';
   static const String fish = '/fish';
+
+  static const String food = '/food';
+  static const String consumable = '/consumable';
+  static const String cooking = '/cooking';
+
+  static const String crafting = '/crafting';
 
   static const String itemIdParam = 'itemId';
   static const String bugDetails = '/bug/:$itemIdParam';
@@ -47,6 +54,28 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
           analyticsEvent: AnalyticsEvent.fishPage,
           appJsons: const [AppJson.fish],
           title: 'Fish',
+        ),
+
+    Routes.food: (context) => FoodListPage(
+          analyticsEvent: AnalyticsEvent.food,
+          appJsons: const [AppJson.consumables, AppJson.cooking],
+          title: 'Food',
+        ),
+    Routes.consumable: (context) => FoodListPage(
+          analyticsEvent: AnalyticsEvent.consumable,
+          appJsons: const [AppJson.consumables],
+          title: 'Consumable',
+        ),
+    Routes.cooking: (context) => FoodListPage(
+          analyticsEvent: AnalyticsEvent.cooking,
+          appJsons: const [AppJson.cooking],
+          title: 'Cooking',
+        ),
+
+    Routes.crafting: (context) => FoodListPage(
+          analyticsEvent: AnalyticsEvent.crafting,
+          appJsons: const [AppJson.crafting],
+          title: 'Crafting',
         ),
   };
   return routes;

@@ -3,23 +3,19 @@ import 'package:flutter/material.dart';
 
 import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
-import '../components/pageElements/item_page_components.dart';
-import '../components/tilePreseneters/animal_tile_presenter.dart';
+import '../components/tilePreseneters/crafting_tile_presenter.dart';
 import '../constants/app_colour.dart';
 import '../constants/app_image.dart';
 import '../constants/app_misc.dart';
-import '../contracts/json/animal_item.dart';
-import '../contracts/json/enum/habitat.dart';
-import '../contracts/json/enum/season.dart';
-import '../contracts/json/enum/time.dart';
+import '../contracts/json/crafting_item.dart';
 import '../integration/dependency_injection.dart';
 
-class AnimalsListPage extends StatelessWidget {
+class CraftingListPage extends StatelessWidget {
   final String analyticsEvent;
   final List<String> appJsons;
   final String title;
 
-  AnimalsListPage({
+  CraftingListPage({
     Key? key,
     required this.analyticsEvent,
     required this.appJsons,
@@ -30,18 +26,18 @@ class AnimalsListPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ItemsListPage<AnimalItem>(
+    return ItemsListPage<CraftingItem>(
       analyticsEvent: analyticsEvent,
       title: title,
-      getItemsFunc: () => getCombinedAnimalItems(context, appJsons),
-      listItemDisplayer: animalTilePresenter,
+      getItemsFunc: () => getCombinedCraftingItems(context, appJsons),
+      listItemDisplayer: craftingTilePresenter,
       detailPageFunc: (
         String id,
         bool isInDetailPane,
         void Function(Widget)? updateDetailView,
       ) {
         List<String> comboId = id.split(itemPageSplitMarker);
-        return AnimalDetailsPage(
+        return FoodDetailsPage(
           comboId.last,
           title: title,
           appJson: comboId.first,
@@ -53,14 +49,14 @@ class AnimalsListPage extends StatelessWidget {
   }
 }
 
-class AnimalDetailsPage extends StatelessWidget {
+class FoodDetailsPage extends StatelessWidget {
   final String itemId;
   final String title;
   final String appJson;
   final bool isInDetailPane;
   final void Function(Widget newDetailView)? updateDetailView;
 
-  const AnimalDetailsPage(
+  const FoodDetailsPage(
     this.itemId, {
     Key? key,
     required this.title,
@@ -71,10 +67,10 @@ class AnimalDetailsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ItemDetailsPage<AnimalItem>(
+    return ItemDetailsPage<CraftingItem>(
       title: title,
       isInDetailPane: isInDetailPane,
-      getItemFunc: () => getGenericRepo(appJson).getItem(context, itemId),
+      getItemFunc: () => getCraftingRepo(appJson).getItem(context, itemId),
       getName: (loadedItem) => loadedItem.name,
       contractToWidgetList: (loadedItem) {
         List<Widget> descripWidgets = [
@@ -95,35 +91,17 @@ class AnimalDetailsPage extends StatelessWidget {
           ),
         ];
 
-        if (loadedItem.habitats.isNotEmpty) {
-          descripWidgets.addAll(loadSections(
-            'Habitats',
-            loadedItem.habitats
-                .map((habitat) => habitatValues.reverse[habitat] ?? '')
-                .where((element) => element.isNotEmpty)
-                .toList(),
-          ));
-        }
+//effects
 
-        if (loadedItem.availability.seasons.isNotEmpty) {
-          descripWidgets.addAll(loadSections(
-            'Seasons',
-            loadedItem.availability.seasons
-                .map((season) => seasonValues.reverse[season] ?? '')
-                .where((element) => element.isNotEmpty)
-                .toList(),
-          ));
-        }
-
-        if (loadedItem.availability.times.isNotEmpty) {
-          descripWidgets.addAll(loadSections(
-            'Times',
-            loadedItem.availability.times
-                .map((time) => timeValues.reverse[time] ?? '')
-                .where((element) => element.isNotEmpty)
-                .toList(),
-          ));
-        }
+        // if (loadedItem.habitats.isNotEmpty) {
+        //   descripWidgets.addAll(loadSections(
+        //     'Habitats',
+        //     loadedItem.habitats
+        //         .map((habitat) => habitatValues.reverse[habitat] ?? '')
+        //         .where((element) => element.isNotEmpty)
+        //         .toList(),
+        //   ));
+        // }
 
         return descripWidgets;
       },
@@ -131,17 +109,17 @@ class AnimalDetailsPage extends StatelessWidget {
   }
 }
 
-Future<ResultWithValue<List<AnimalItem>>> getCombinedAnimalItems(
+Future<ResultWithValue<List<CraftingItem>>> getCombinedCraftingItems(
     BuildContext funcCtx, List<String> appJsons) async {
-  List<AnimalItem> result = List.empty(growable: true);
+  List<CraftingItem> result = List.empty(growable: true);
 
   for (String appJson in appJsons) {
-    ResultWithValue<List<AnimalItem>> genericRepoResult =
-        await getGenericRepo(appJson).getItems(funcCtx);
+    ResultWithValue<List<CraftingItem>> genericRepoResult =
+        await getCraftingRepo(appJson).getItems(funcCtx);
     if (genericRepoResult.isSuccess) {
-      result.addAll(genericRepoResult.value.map((animal) {
-        animal.itemId = '$appJson$itemPageSplitMarker${animal.id}';
-        return animal;
+      result.addAll(genericRepoResult.value.map((food) {
+        food.itemId = '$appJson$itemPageSplitMarker${food.id}';
+        return food;
       }));
     }
   }

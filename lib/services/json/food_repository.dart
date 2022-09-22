@@ -1,12 +1,12 @@
-import '../../contracts/json/animal_item.dart';
+import '../../contracts/json/food_item.dart';
 import 'base_game_item_repository.dart';
 
-class AnimalRepository extends BaseGameItemRepository<AnimalItem> {
-  AnimalRepository(appJson)
+class FoodRepository extends BaseGameItemRepository<FoodItem> {
+  FoodRepository(appJson)
       : super(
           appJson: appJson,
-          repoName: 'AnimalRepository',
-          fromMap: AnimalItem.fromMap,
+          repoName: 'FoodRepository',
+          fromMap: FoodItem.fromMap,
           compare: (a, b) => a.name.compareTo(b.name),
           findItemById: (r, itemIdInt) => r.id == int.parse(itemIdInt),
         );
