@@ -10,6 +10,10 @@ import '../services/base/theme_service.dart';
 import '../services/json/animal_repository.dart';
 import '../services/json/crafting_repository.dart';
 import '../services/json/food_repository.dart';
+import '../services/json/furniture_repository.dart';
+import '../services/json/licence_repository.dart';
+import '../services/json/milestone_repository.dart';
+import '../services/json/people_repository.dart';
 
 final getIt = GetIt.instance;
 
@@ -30,7 +34,10 @@ void initDependencyInjection(EnvironmentSettings env) {
     // snackbar: SnackbarService(),
   );
 
-  // getIt.registerSingleton(BugRepository());
+  getIt.registerSingleton(PeopleRepository());
+  getIt.registerSingleton(LicenceRepository());
+  getIt.registerSingleton(MilestoneRepository());
+  getIt.registerSingleton(FurnitureRepository());
 
   getIt.registerFactoryParam<AnimalRepository, String, String>(
     (String key, String unused) => AnimalRepository(key),
@@ -46,6 +53,11 @@ void initDependencyInjection(EnvironmentSettings env) {
 }
 
 EnvironmentSettings getEnv() => getIt<EnvironmentSettings>();
+
+PeopleRepository getPeopleRepo() => getIt<PeopleRepository>();
+LicenceRepository getLicenceRepo() => getIt<LicenceRepository>();
+MilestoneRepository getMilestoneRepo() => getIt<MilestoneRepository>();
+FurnitureRepository getFurnitureRepo() => getIt<FurnitureRepository>();
 
 AnimalRepository getGenericRepo(String key) =>
     getIt<AnimalRepository>(param1: key, param2: 'di');

@@ -71,7 +71,7 @@ class HomePage extends StatelessWidget {
           context,
           AppImage.peopleLogo,
           'People',
-          Routes.bugs,
+          Routes.people,
         ),
       ),
       smallLanscapeRectTile(

@@ -1,15 +1,10 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:settings_ui/settings_ui.dart';
 
-import 'package:assistant_dinkum_app/constants/app_routes.dart';
-import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-
-import '../components/adaptive/homepage_appbar.dart';
 import '../components/drawer.dart';
 import '../constants/analytics_event.dart';
-import '../constants/app_image.dart';
 import '../contracts/redux/app_state.dart';
 import '../redux/setting/settingViewModel.dart';
 
@@ -22,7 +17,11 @@ class SettingsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return getBaseWidget().appScaffold(
       context,
-      appBar: homePageAppBar('Settings'),
+      appBar: getBaseWidget().appBarForSubPage(
+        context,
+        title: const Text('Settings'),
+        showHomeAction: true,
+      ),
       drawer: const AppDrawer(),
       builder: (scaffoldContext) => animateWidgetIn(
         child: StoreConnector<AppState, SettingViewModel>(

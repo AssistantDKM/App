@@ -1,11 +1,12 @@
-import 'package:assistant_dinkum_app/constants/analytics_event.dart';
-import 'package:assistant_dinkum_app/constants/app_json.dart';
 import 'package:flutter/material.dart';
 
 import '../pages/animal_pages.dart';
 import '../pages/food_pages.dart';
 import '../pages/home_page.dart';
+import '../pages/people_pages.dart';
 import '../pages/settings_page.dart';
+import 'analytics_event.dart';
+import 'app_json.dart';
 
 class Routes {
   static const String home = '/home';
@@ -23,6 +24,7 @@ class Routes {
   static const String cooking = '/cooking';
 
   static const String crafting = '/crafting';
+  static const String people = '/people';
 
   static const String itemIdParam = 'itemId';
   static const String bugDetails = '/bug/:$itemIdParam';
@@ -76,6 +78,11 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
           analyticsEvent: AnalyticsEvent.crafting,
           appJsons: const [AppJson.crafting],
           title: 'Crafting',
+        ),
+
+    Routes.people: (context) => PeopleListPage(
+          analyticsEvent: AnalyticsEvent.people,
+          title: 'People',
         ),
   };
   return routes;

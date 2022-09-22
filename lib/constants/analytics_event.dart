@@ -16,4 +16,6 @@ class AnalyticsEvent {
   static const String cooking = 'Cooking_Page_View';
 
   static const String crafting = 'Crafting_Page_View';
+
+  static const String people = 'People_Page_View';
 }
