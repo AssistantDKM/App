@@ -1,7 +1,6 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../../constants/app_padding.dart';
 import '../../contracts/interface/item_list_page_type.dart';
 import '../common/cached_future_builder.dart';
 import '../scaffoldTemplates/generic_page_scaffold.dart';

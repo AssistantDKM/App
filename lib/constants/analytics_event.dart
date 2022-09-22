@@ -4,6 +4,7 @@ class AnalyticsEvent {
   static const String darkMode = 'DarkMode';
   //pages
   static const String homePage = 'Home_Page_View';
+  static const String settingsPage = 'Settings_Page_View';
 
   static const String animalsPage = 'Animals_Page_View';
   static const String bugsPage = 'Bugs_Page_View';

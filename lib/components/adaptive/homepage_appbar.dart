@@ -2,6 +2,7 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/cupertino.dart' show ObstructingPreferredSizeWidget;
 import 'package:flutter/material.dart';
 
+import '../../constants/app_routes.dart';
 import 'app_appbar.dart';
 
 class HomePageAppBar extends StatelessWidget
@@ -22,13 +23,13 @@ class HomePageAppBar extends StatelessWidget
 
   @override
   Widget build(BuildContext context) {
-    // actions?.add(ActionItem(
-    //   icon: Icons.settings,
-    //   onPressed: () async => await getNavigation().navigateAsync(
-    //     context,
-    //     navigateToNamed: Routes.settings,
-    //   ),
-    // ));
+    actions?.add(ActionItem(
+      icon: Icons.settings,
+      onPressed: () async => await getNavigation().navigateAsync(
+        context,
+        navigateToNamed: Routes.settings,
+      ),
+    ));
     return _androidAppBarActions(context, Text(title), actions);
   }
 

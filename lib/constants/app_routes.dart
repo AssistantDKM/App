@@ -4,10 +4,12 @@ import 'package:flutter/material.dart';
 
 import '../pages/animal_pages.dart';
 import '../pages/home_page.dart';
+import '../pages/settings_page.dart';
 
 class Routes {
   static const String home = '/home';
   static const String about = '/about';
+  static const String settings = '/settings';
 
   // Details pages
   static const String animals = '/animals';
@@ -22,6 +24,7 @@ class Routes {
 Map<String, Widget Function(BuildContext)> initNamedRoutes() {
   Map<String, WidgetBuilder> routes = {
     Routes.home: (context) => HomePage(),
+    Routes.settings: (context) => SettingsPage(),
     // Routes.about: (context) => const AboutPage(),
 
     // Details pages
