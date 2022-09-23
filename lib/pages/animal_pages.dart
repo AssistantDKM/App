@@ -1,19 +1,20 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_redux/flutter_redux.dart';
 
 import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
 import '../components/pageElements/item_page_components.dart';
 import '../components/tilePreseneters/item_base_tile_presenter.dart';
-import '../constants/app_colour.dart';
-import '../constants/app_image.dart';
 import '../constants/app_misc.dart';
 import '../contracts/json/animal_item.dart';
 import '../contracts/json/enum/habitat.dart';
 import '../contracts/json/enum/season.dart';
 import '../contracts/json/enum/time.dart';
+import '../contracts/redux/app_state.dart';
 import '../helper/image_helper.dart';
 import '../integration/dependency_injection.dart';
+import '../redux/setting/setting_viewmodel.dart';
 
 class AnimalsListPage extends StatelessWidget {
   final String analyticsEvent;
@@ -72,51 +73,54 @@ class AnimalDetailsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ItemDetailsPage<AnimalItem>(
-      title: title,
-      isInDetailPane: isInDetailPane,
-      getItemFunc: () => getGenericRepo(appJson).getItem(context, itemId),
-      getName: (loadedItem) => loadedItem.name,
-      contractToWidgetList: (loadedItem) {
-        List<Widget> descripWidgets = [
-          Center(child: localImage(networkImageToLocal(loadedItem.imageUrl))),
-          genericItemName(loadedItem.name),
-          pageDefaultPadding(genericItemDescription(loadedItem.description)),
-          dinkumPrice(loadedItem.sellPrice.toString()),
-        ];
+    return StoreConnector<AppState, SettingViewModel>(
+      converter: (store) => SettingViewModel.fromStore(store),
+      builder: (_, viewModel) => ItemDetailsPage<AnimalItem>(
+        title: title,
+        isInDetailPane: isInDetailPane,
+        getItemFunc: () => getGenericRepo(appJson).getItem(context, itemId),
+        getName: (loadedItem) => loadedItem.name,
+        contractToWidgetList: (loadedItem) {
+          List<Widget> descripWidgets = [
+            Center(child: localImage(networkImageToLocal(loadedItem.imageUrl))),
+            genericItemName(loadedItem.name),
+            pageDefaultPadding(genericItemDescription(loadedItem.description)),
+            dinkumPrice(context, loadedItem.sellPrice),
+          ];
 
-        if (loadedItem.habitats.isNotEmpty) {
-          descripWidgets.addAll(loadSections(
-            'Habitats',
-            loadedItem.habitats
-                .map((habitat) => habitatValues.reverse[habitat] ?? '')
-                .where((element) => element.isNotEmpty)
-                .toList(),
-          ));
-        }
+          if (loadedItem.habitats.isNotEmpty) {
+            descripWidgets.addAll(loadSections(
+              'Habitats',
+              loadedItem.habitats
+                  .map((habitat) => habitatValues.reverse[habitat] ?? '')
+                  .where((element) => element.isNotEmpty)
+                  .toList(),
+            ));
+          }
 
-        if (loadedItem.availability.seasons.isNotEmpty) {
-          descripWidgets.addAll(loadSections(
-            'Seasons',
-            loadedItem.availability.seasons
-                .map((season) => seasonValues.reverse[season] ?? '')
-                .where((element) => element.isNotEmpty)
-                .toList(),
-          ));
-        }
+          if (loadedItem.availability.seasons.isNotEmpty) {
+            descripWidgets.addAll(loadSections(
+              'Seasons',
+              loadedItem.availability.seasons
+                  .map((season) => seasonValues.reverse[season] ?? '')
+                  .where((element) => element.isNotEmpty)
+                  .toList(),
+            ));
+          }
 
-        if (loadedItem.availability.times.isNotEmpty) {
-          descripWidgets.addAll(loadSections(
-            'Times',
-            loadedItem.availability.times
-                .map((time) => timeValues.reverse[time] ?? '')
-                .where((element) => element.isNotEmpty)
-                .toList(),
-          ));
-        }
+          if (loadedItem.availability.times.isNotEmpty) {
+            descripWidgets.addAll(loadSections(
+              'Times',
+              loadedItem.availability.times
+                  .map((time) => timeValues.reverse[time] ?? '')
+                  .where((element) => element.isNotEmpty)
+                  .toList(),
+            ));
+          }
 
-        return descripWidgets;
-      },
+          return descripWidgets;
+        },
+      ),
     );
   }
 }

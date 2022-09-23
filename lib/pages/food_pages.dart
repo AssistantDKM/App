@@ -1,5 +1,6 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_redux/flutter_redux.dart';
 
 import '../components/chip/effect_chip_presenter.dart';
 import '../components/pageElements/item_details_page.dart';
@@ -7,13 +8,13 @@ import '../components/pageElements/item_list_page.dart';
 import '../components/pageElements/item_page_components.dart';
 import '../components/tilePreseneters/item_base_tile_presenter.dart';
 import '../components/tilePreseneters/required_item_tile_presenter.dart';
-import '../constants/app_colour.dart';
-import '../constants/app_image.dart';
 import '../constants/app_misc.dart';
 import '../contracts/json/food_item.dart';
 import '../contracts/json/required_item.dart';
+import '../contracts/redux/app_state.dart';
 import '../helper/image_helper.dart';
 import '../integration/dependency_injection.dart';
+import '../redux/setting/setting_viewmodel.dart';
 
 class FoodListPage extends StatelessWidget {
   final String analyticsEvent;
@@ -72,47 +73,51 @@ class FoodDetailsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ItemDetailsPage<FoodItem>(
-      title: title,
-      isInDetailPane: isInDetailPane,
-      getItemFunc: () => getFoodRepo(appJson).getItem(context, itemId),
-      getName: (loadedItem) => loadedItem.name,
-      contractToWidgetList: (loadedItem) {
-        List<Widget> descripWidgets = [
-          Center(child: localImage(networkImageToLocal(loadedItem.imageUrl))),
-          genericItemName(loadedItem.name),
-          pageDefaultPadding(genericItemDescription(loadedItem.description)),
-          dinkumPrice(loadedItem.sellPrice.toString()),
-        ];
+    return StoreConnector<AppState, SettingViewModel>(
+      converter: (store) => SettingViewModel.fromStore(store),
+      builder: (_, viewModel) => ItemDetailsPage<FoodItem>(
+        title: title,
+        isInDetailPane: isInDetailPane,
+        getItemFunc: () => getFoodRepo(appJson).getItem(context, itemId),
+        getName: (loadedItem) => loadedItem.name,
+        contractToWidgetList: (loadedItem) {
+          List<Widget> descripWidgets = [
+            Center(child: localImage(networkImageToLocal(loadedItem.imageUrl))),
+            genericItemName(loadedItem.name),
+            pageDefaultPadding(genericItemDescription(loadedItem.description)),
+            dinkumPrice(context, loadedItem.sellPrice),
+          ];
 
-        if (loadedItem.effects.isNotEmpty) {
-          descripWidgets.add(emptySpace2x());
-          descripWidgets.add(genericItemGroup('Effects'));
-          descripWidgets.add(flatCard(
-            child: Padding(
-              padding: const EdgeInsets.symmetric(vertical: 4),
-              child: Wrap(
-                alignment: WrapAlignment.center,
-                children: loadedItem.effects
-                    .map((item) => effectChipPresenter(context, item))
-                    .toList(),
+          if (loadedItem.effects.isNotEmpty) {
+            descripWidgets.add(emptySpace2x());
+            descripWidgets.add(genericItemGroup('Effects'));
+            descripWidgets.add(flatCard(
+              child: Padding(
+                padding: const EdgeInsets.symmetric(vertical: 4),
+                child: Wrap(
+                  alignment: WrapAlignment.center,
+                  children: loadedItem.effects
+                      .map((item) => effectChipPresenter(context, item))
+                      .toList(),
+                ),
               ),
-            ),
-          ));
-        }
-
-        if (loadedItem.materials.isNotEmpty) {
-          descripWidgets.add(emptySpace2x());
-          descripWidgets.add(genericItemGroup('Required Items'));
-          for (RequiredItem material in loadedItem.materials) {
-            descripWidgets.add(
-              flatCard(child: requiredItemTilePresenter(context, material, 0)),
-            );
+            ));
           }
-        }
 
-        return descripWidgets;
-      },
+          if (loadedItem.materials.isNotEmpty) {
+            descripWidgets.add(emptySpace2x());
+            descripWidgets.add(genericItemGroup('Required Items'));
+            for (RequiredItem material in loadedItem.materials) {
+              descripWidgets.add(
+                flatCard(
+                    child: requiredItemTilePresenter(context, material, 0)),
+              );
+            }
+          }
+
+          return descripWidgets;
+        },
+      ),
     );
   }
 }

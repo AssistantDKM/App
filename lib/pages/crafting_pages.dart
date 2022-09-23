@@ -1,18 +1,19 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_redux/flutter_redux.dart';
 
 import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
 import '../components/pageElements/item_page_components.dart';
 import '../components/tilePreseneters/item_base_tile_presenter.dart';
 import '../components/tilePreseneters/required_item_tile_presenter.dart';
-import '../constants/app_colour.dart';
-import '../constants/app_image.dart';
 import '../constants/app_misc.dart';
 import '../contracts/json/crafting_item.dart';
 import '../contracts/json/required_item.dart';
+import '../contracts/redux/app_state.dart';
 import '../helper/image_helper.dart';
 import '../integration/dependency_injection.dart';
+import '../redux/setting/setting_viewmodel.dart';
 
 class CraftingListPage extends StatelessWidget {
   final String analyticsEvent;
@@ -71,31 +72,35 @@ class FoodDetailsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ItemDetailsPage<CraftingItem>(
-      title: title,
-      isInDetailPane: isInDetailPane,
-      getItemFunc: () => getCraftingRepo(appJson).getItem(context, itemId),
-      getName: (loadedItem) => loadedItem.name,
-      contractToWidgetList: (loadedItem) {
-        List<Widget> descripWidgets = [
-          Center(child: localImage(networkImageToLocal(loadedItem.imageUrl))),
-          genericItemName(loadedItem.name),
-          pageDefaultPadding(genericItemDescription(loadedItem.description)),
-          dinkumPrice(loadedItem.sellPrice.toString()),
-        ];
+    return StoreConnector<AppState, SettingViewModel>(
+      converter: (store) => SettingViewModel.fromStore(store),
+      builder: (_, viewModel) => ItemDetailsPage<CraftingItem>(
+        title: title,
+        isInDetailPane: isInDetailPane,
+        getItemFunc: () => getCraftingRepo(appJson).getItem(context, itemId),
+        getName: (loadedItem) => loadedItem.name,
+        contractToWidgetList: (loadedItem) {
+          List<Widget> descripWidgets = [
+            Center(child: localImage(networkImageToLocal(loadedItem.imageUrl))),
+            genericItemName(loadedItem.name),
+            pageDefaultPadding(genericItemDescription(loadedItem.description)),
+            dinkumPrice(context, loadedItem.sellPrice),
+          ];
 
-        if (loadedItem.materials.isNotEmpty) {
-          descripWidgets.add(emptySpace2x());
-          descripWidgets.add(genericItemGroup('Required Items'));
-          for (RequiredItem material in loadedItem.materials) {
-            descripWidgets.add(
-              flatCard(child: requiredItemTilePresenter(context, material, 0)),
-            );
+          if (loadedItem.materials.isNotEmpty) {
+            descripWidgets.add(emptySpace2x());
+            descripWidgets.add(genericItemGroup('Required Items'));
+            for (RequiredItem material in loadedItem.materials) {
+              descripWidgets.add(
+                flatCard(
+                    child: requiredItemTilePresenter(context, material, 0)),
+              );
+            }
           }
-        }
 
-        return descripWidgets;
-      },
+          return descripWidgets;
+        },
+      ),
     );
   }
 }
