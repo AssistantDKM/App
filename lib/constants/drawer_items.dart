@@ -4,7 +4,6 @@ import 'package:wiredash/wiredash.dart';
 
 import '../contracts/custom_menu.dart';
 import '../redux/setting/drawer_settings_viewmodel.dart';
-import 'app_image.dart';
 import 'app_routes.dart';
 
 const double imageSize = 52;

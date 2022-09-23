@@ -1,5 +1,5 @@
-import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:adaptive_theme/adaptive_theme.dart';
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
@@ -10,8 +10,6 @@ import '../../contracts/redux/app_state.dart';
 import '../../env/app_version_num.dart';
 import '../../integration/dependency_injection.dart';
 import '../../redux/setting/appshell_viewmodel.dart';
-import '../../redux/setting/drawer_settings_viewmodel.dart';
-import '../../redux/setting/setting_viewmodel.dart';
 import '../../theme/themes.dart';
 import '../windows_title_bar.dart';
 

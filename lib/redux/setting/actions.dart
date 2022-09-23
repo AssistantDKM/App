@@ -1,4 +1,4 @@
-import '../base/persistToStorage.dart';
+import '../base/persist_to_storage.dart';
 
 class ChangeLanguageAction extends PersistToStorage {
   final String languageCode;

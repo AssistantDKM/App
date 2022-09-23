@@ -5,7 +5,7 @@ import 'package:redux/redux.dart';
 
 import '../../constants/app_local_storage_key.dart';
 import '../../contracts/redux/app_state.dart';
-import '../base/persistToStorage.dart';
+import '../base/persist_to_storage.dart';
 
 class LocalStorageMiddleware extends MiddlewareClass<AppState> {
   @override

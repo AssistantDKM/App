@@ -11,14 +11,13 @@ import 'milestone_level.dart';
 
 class MilestoneItem extends ItemListPageType {
   final int id;
-  final String name;
   final String description;
   final List<MilestoneLevel> levels;
   final String imageUrl;
 
   MilestoneItem({
     required this.id,
-    required this.name,
+    required name,
     required this.description,
     required this.levels,
     required this.imageUrl,
