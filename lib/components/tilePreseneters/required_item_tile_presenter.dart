@@ -2,15 +2,15 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../contracts/json/required_item.dart';
+import '../../helper/image_helper.dart';
 
 Widget requiredItemTilePresenter(
-    BuildContext context, RequiredItem reqItem, int index) {
-  String localImage =
-      reqItem.imageUrl.replaceAll('https://api.dinkumapi.com/', 'assets/');
+    BuildContext context, RequiredItem item, int index) {
+  String localImage = networkImageToLocal(item.imageUrl);
   return genericListTile(
     context,
     leadingImage: localImage,
-    name: reqItem.name,
-    quantity: reqItem.amount,
+    name: item.name,
+    quantity: item.amount,
   );
 }

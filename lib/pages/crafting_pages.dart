@@ -9,6 +9,7 @@ import '../constants/app_colour.dart';
 import '../constants/app_image.dart';
 import '../constants/app_misc.dart';
 import '../contracts/json/crafting_item.dart';
+import '../helper/image_helper.dart';
 import '../integration/dependency_injection.dart';
 
 class CraftingListPage extends StatelessWidget {
@@ -75,7 +76,7 @@ class FoodDetailsPage extends StatelessWidget {
       getName: (loadedItem) => loadedItem.name,
       contractToWidgetList: (loadedItem) {
         List<Widget> descripWidgets = [
-          Center(child: networkImage(loadedItem.imageUrl)),
+          Center(child: localImage(networkImageToLocal(loadedItem.imageUrl))),
           genericItemName(loadedItem.name),
           pageDefaultPadding(genericItemDescription(loadedItem.description)),
           Chip(

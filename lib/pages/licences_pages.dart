@@ -8,6 +8,7 @@ import '../components/tilePreseneters/licence_tile_presenter.dart';
 import '../constants/app_misc.dart';
 import '../contracts/json/licence_item.dart';
 import '../contracts/json/licence_level_item.dart';
+import '../helper/image_helper.dart';
 import '../integration/dependency_injection.dart';
 
 class LicencesListPage extends StatelessWidget {
@@ -72,8 +73,7 @@ class LicenceDetailsPage extends StatelessWidget {
       getName: (loadedItem) => loadedItem.name,
       contractToWidgetList: (loadedItem) {
         List<Widget> descripWidgets = [
-          emptySpace1x(),
-          Center(child: networkImage(loadedItem.imageUrl)),
+          Center(child: localImage(networkImageToLocal(loadedItem.imageUrl))),
           genericItemName(loadedItem.name),
           pageDefaultPadding(genericItemDescription(loadedItem.description)),
         ];
@@ -81,10 +81,20 @@ class LicenceDetailsPage extends StatelessWidget {
         if (loadedItem.levels.isNotEmpty) {
           descripWidgets.add(emptySpace2x());
           descripWidgets.add(genericItemGroup('Levels'));
+
+          bool enableLeading =
+              loadedItem.levels.any((lvl) => lvl.skillLevel > 0);
           for (LicenceLevel level in loadedItem.levels) {
             descripWidgets.add(emptySpace1x());
             descripWidgets.add(
-              flatCard(child: licenceLevelTilePresenter(context, level, 0)),
+              flatCard(
+                child: licenceLevelTilePresenter(
+                  context,
+                  level,
+                  !enableLeading,
+                  0,
+                ),
+              ),
             );
           }
         }

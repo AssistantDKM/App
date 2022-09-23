@@ -75,7 +75,8 @@ class ItemDetailsPage<T extends ItemListPageType> extends StatelessWidget {
       return getLoading().customErrorWidget(context);
     }
 
-    List<Widget> widgets = contractToWidgetList(snapshot.value);
+    List<Widget> widgets = [emptySpace1x()];
+    widgets.addAll(contractToWidgetList(snapshot.value));
     widgets.add(emptySpace10x());
 
     return listWithScrollbar(

@@ -7,6 +7,7 @@ import '../components/pageElements/item_page_components.dart';
 import '../components/tilePreseneters/people_tile_presenter.dart';
 import '../constants/app_misc.dart';
 import '../contracts/json/people_item.dart';
+import '../helper/image_helper.dart';
 import '../integration/dependency_injection.dart';
 
 class PeopleListPage extends StatelessWidget {
@@ -64,6 +65,8 @@ class PeopleDetailsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double deviceWidth = MediaQuery.of(context).size.width;
+
     return ItemDetailsPage<PeopleItem>(
       title: title,
       isInDetailPane: isInDetailPane,
@@ -71,16 +74,23 @@ class PeopleDetailsPage extends StatelessWidget {
       getName: (loadedItem) => loadedItem.name,
       contractToWidgetList: (loadedItem) {
         List<Widget> descripWidgets = [
-          Center(child: networkImage(loadedItem.imageUrl)),
+          Center(
+            child: ConstrainedBox(
+              constraints: BoxConstraints(maxWidth: (deviceWidth / 2)),
+              child: localImage(networkImageToLocal(loadedItem.imageUrl)),
+            ),
+          ),
           genericItemName(loadedItem.name),
           pageDefaultPadding(genericItemDescription(loadedItem.occupation)),
           pageDefaultPadding(genericItemDescription(loadedItem.building)),
         ];
 
-        descripWidgets.addAll(loadSections(
-          'Favourite Food',
-          [loadedItem.favouriteFood],
-        ));
+        if (loadedItem.favouriteFood.isNotEmpty) {
+          descripWidgets.addAll(loadSections(
+            'Favourite Food',
+            [loadedItem.favouriteFood],
+          ));
+        }
 
         if (loadedItem.dislikes.isNotEmpty) {
           descripWidgets.addAll(loadSections(

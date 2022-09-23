@@ -1,6 +1,3 @@
-import 'package:assistant_dinkum_app/components/tilePreseneters/required_item_tile_presenter.dart';
-import 'package:assistant_dinkum_app/contracts/json/enum/food_effect.dart';
-import 'package:assistant_dinkum_app/contracts/json/required_item.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
@@ -9,10 +6,13 @@ import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
 import '../components/pageElements/item_page_components.dart';
 import '../components/tilePreseneters/food_tile_presenter.dart';
+import '../components/tilePreseneters/required_item_tile_presenter.dart';
 import '../constants/app_colour.dart';
 import '../constants/app_image.dart';
 import '../constants/app_misc.dart';
 import '../contracts/json/food_item.dart';
+import '../contracts/json/required_item.dart';
+import '../helper/image_helper.dart';
 import '../integration/dependency_injection.dart';
 
 class FoodListPage extends StatelessWidget {
@@ -79,7 +79,7 @@ class FoodDetailsPage extends StatelessWidget {
       getName: (loadedItem) => loadedItem.name,
       contractToWidgetList: (loadedItem) {
         List<Widget> descripWidgets = [
-          Center(child: networkImage(loadedItem.imageUrl)),
+          Center(child: localImage(networkImageToLocal(loadedItem.imageUrl))),
           genericItemName(loadedItem.name),
           pageDefaultPadding(genericItemDescription(loadedItem.description)),
           Chip(

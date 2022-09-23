@@ -12,6 +12,7 @@ import '../contracts/json/animal_item.dart';
 import '../contracts/json/enum/habitat.dart';
 import '../contracts/json/enum/season.dart';
 import '../contracts/json/enum/time.dart';
+import '../helper/image_helper.dart';
 import '../integration/dependency_injection.dart';
 
 class AnimalsListPage extends StatelessWidget {
@@ -78,7 +79,7 @@ class AnimalDetailsPage extends StatelessWidget {
       getName: (loadedItem) => loadedItem.name,
       contractToWidgetList: (loadedItem) {
         List<Widget> descripWidgets = [
-          Center(child: networkImage(loadedItem.imageUrl)),
+          Center(child: localImage(networkImageToLocal(loadedItem.imageUrl))),
           genericItemName(loadedItem.name),
           pageDefaultPadding(genericItemDescription(loadedItem.description)),
           Chip(

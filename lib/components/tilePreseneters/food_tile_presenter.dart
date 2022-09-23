@@ -2,13 +2,13 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../contracts/json/food_item.dart';
+import '../../helper/image_helper.dart';
 
-Widget foodTilePresenter(BuildContext context, FoodItem food, int index) {
-  String localImage =
-      food.imageUrl.replaceAll('https://api.dinkumapi.com/', '');
+Widget foodTilePresenter(BuildContext context, FoodItem item, int index) {
+  String localImage = networkImageToLocal(item.imageUrl);
   return genericListTile(
     context,
-    leadingImage: 'assets/$localImage',
-    name: food.name,
+    leadingImage: localImage,
+    name: item.name,
   );
 }
