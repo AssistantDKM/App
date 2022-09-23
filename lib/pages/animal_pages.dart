@@ -82,18 +82,7 @@ class AnimalDetailsPage extends StatelessWidget {
           Center(child: localImage(networkImageToLocal(loadedItem.imageUrl))),
           genericItemName(loadedItem.name),
           pageDefaultPadding(genericItemDescription(loadedItem.description)),
-          Chip(
-            label: Row(
-              mainAxisSize: MainAxisSize.min,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                emptySpace1x(),
-                Text(loadedItem.sellPrice.toString()),
-                localImage(AppImage.coin, width: 32, height: 32),
-              ],
-            ),
-            backgroundColor: AppColour.moneyTagColour,
-          ),
+          dinkumPrice(loadedItem.sellPrice.toString()),
         ];
 
         if (loadedItem.habitats.isNotEmpty) {
