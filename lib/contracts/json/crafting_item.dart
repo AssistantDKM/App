@@ -45,7 +45,7 @@ class CraftingItem extends ItemListPageType {
         materials: readListSafe(
           json,
           'materials',
-          (x) => RequiredItem.fromJson(x),
+          (x) => RequiredItem.fromMap(x),
         ),
         licenceRequirement: json["licence"] == null
             ? null

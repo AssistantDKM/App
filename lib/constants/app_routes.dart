@@ -1,15 +1,13 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_redux/flutter_redux.dart';
 
-import '../contracts/redux/app_state.dart';
 import '../pages/animal_pages.dart';
+import '../pages/crafting_pages.dart';
 import '../pages/food_pages.dart';
 import '../pages/home_page.dart';
 import '../pages/licences_pages.dart';
 import '../pages/people_pages.dart';
 import '../pages/settings_page.dart';
-import '../redux/setting/what_is_new_settings_viewmodel.dart';
 import 'analytics_event.dart';
 import 'app_json.dart';
 
@@ -112,7 +110,7 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
           title: 'Cooking',
         ),
 
-    Routes.crafting: (context) => FoodListPage(
+    Routes.crafting: (context) => CraftingListPage(
           analyticsEvent: AnalyticsEvent.crafting,
           appJsons: const [AppJson.crafting],
           title: 'Crafting',

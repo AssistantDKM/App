@@ -5,10 +5,12 @@ import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
 import '../components/pageElements/item_page_components.dart';
 import '../components/tilePreseneters/crafting_tile_presenter.dart';
+import '../components/tilePreseneters/required_item_tile_presenter.dart';
 import '../constants/app_colour.dart';
 import '../constants/app_image.dart';
 import '../constants/app_misc.dart';
 import '../contracts/json/crafting_item.dart';
+import '../contracts/json/required_item.dart';
 import '../helper/image_helper.dart';
 import '../integration/dependency_injection.dart';
 
@@ -93,17 +95,15 @@ class FoodDetailsPage extends StatelessWidget {
           ),
         ];
 
-//effects
-
-        // if (loadedItem.habitats.isNotEmpty) {
-        //   descripWidgets.addAll(loadSections(
-        //     'Habitats',
-        //     loadedItem.habitats
-        //         .map((habitat) => habitatValues.reverse[habitat] ?? '')
-        //         .where((element) => element.isNotEmpty)
-        //         .toList(),
-        //   ));
-        // }
+        if (loadedItem.materials.isNotEmpty) {
+          descripWidgets.add(emptySpace2x());
+          descripWidgets.add(genericItemGroup('Required Items'));
+          for (RequiredItem material in loadedItem.materials) {
+            descripWidgets.add(
+              flatCard(child: requiredItemTilePresenter(context, material, 0)),
+            );
+          }
+        }
 
         return descripWidgets;
       },
@@ -119,9 +119,9 @@ Future<ResultWithValue<List<CraftingItem>>> getCombinedCraftingItems(
     ResultWithValue<List<CraftingItem>> genericRepoResult =
         await getCraftingRepo(appJson).getItems(funcCtx);
     if (genericRepoResult.isSuccess) {
-      result.addAll(genericRepoResult.value.map((food) {
-        food.itemId = '$appJson$itemPageSplitMarker${food.id}';
-        return food;
+      result.addAll(genericRepoResult.value.map((item) {
+        item.itemId = '$appJson$itemPageSplitMarker${item.id}';
+        return item;
       }));
     }
   }
