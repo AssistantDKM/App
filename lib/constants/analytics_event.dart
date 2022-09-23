@@ -2,7 +2,8 @@ class AnalyticsEvent {
   static const String unknown = 'Unknown';
   static const String appLoad = 'App_Load';
   static const String darkMode = 'DarkMode';
-  //pages
+
+  // pages
   static const String homePage = 'Home_Page_View';
   static const String settingsPage = 'Settings_Page_View';
   static const String patronListPage = "Patron_List_Page_View";
@@ -20,4 +21,7 @@ class AnalyticsEvent {
   static const String crafting = 'Crafting_Page_View';
   static const String people = 'People_Page_View';
   static const String licence = 'Licence_Page_View';
+
+  // user_events
+  static const String patreonOAuthLogin = 'Patreon_OAuth_Login';
 }

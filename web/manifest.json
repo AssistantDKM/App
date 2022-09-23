@@ -1,6 +1,6 @@
 {
-  "name": "kurtlourens_cv",
-  "short_name": "kurtlourens_cv",
+  "name": "Assistant for Dinkum",
+  "short_name": "Assistant for Dinkum",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#000000",

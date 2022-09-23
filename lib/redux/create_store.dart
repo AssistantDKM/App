@@ -8,13 +8,12 @@ import 'middleware/local_storage_middleware.dart';
 
 Future<Store<AppState>> createStore() async {
   List<void Function(Store<AppState>, dynamic, void Function(dynamic))>
-      middlewares = List.empty(growable: true);
+      middlewares = [LocalStorageMiddleware()];
   Map<String, dynamic> stateMap = <String, dynamic>{};
   ResultWithValue<Map<String, dynamic>> stateMapResult =
       await getStorageRepo().loadFromStorage(LocalStorageKey.appState);
   if (stateMapResult.isSuccess) {
     stateMap = stateMapResult.value;
-    middlewares.add(LocalStorageMiddleware());
   } else {
     getLog().e('createStore');
   }

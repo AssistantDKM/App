@@ -50,7 +50,7 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
     Routes.settings: (context) => SettingsPage(),
     Routes.about: (context) => AboutPage(
           key: const Key('AboutPage'),
-          appType: AssistantAppType.NMS,
+          appType: AssistantAppType.DKM,
           aboutPageWidgetsFunc: (BuildContext ctx) {
             return [
               emptySpace(0.5),

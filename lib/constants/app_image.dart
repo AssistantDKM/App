@@ -6,12 +6,11 @@ class AppImage {
   static const String customLoading = '${base}loading.png';
   static const String coin = '${base}coin.png';
   static const String permitPoint = '${base}permitPoint.png';
+  static const String assistantApps = '${base}assistantApps.png';
   static const String error = '${base}error.png';
 
   static const String drawerHeader = '${base}drawer/DrawerHeader.png';
-  static const String whatIsNew = '${base}drawer/whatIsNew.png';
-  static const String language = '${base}drawer/language.png';
-  static const String cart = '${base}drawer/cart.png';
+  static const String patreon = '${base}drawer/patreonTile.png';
 
   static const String discord = '${base}social/discord.png';
   static const String reddit = '${base}social/reddit.png';

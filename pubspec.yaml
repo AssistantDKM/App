@@ -33,7 +33,7 @@ dependencies:
   flutter_staggered_grid_view: 0.6.2
   flutter_svg: 1.0.3
   settings_ui: 2.0.2
-  wiredash: 1.0.0
+  wiredash: 1.5.0
 
   # Misc
   after_layout: 1.2.0
@@ -44,6 +44,8 @@ dev_dependencies:
   flutter_lints: 2.0.0
   pubspec_parse: 1.2.0
   flutter_launcher_icons: 0.10.0
+  path: 1.8.2
+  git: 2.0.0
 
 dependency_overrides:
   # flutter_staggered_grid_view: 0.6.2

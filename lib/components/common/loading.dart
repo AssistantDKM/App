@@ -11,7 +11,7 @@ class CustomSpinner extends StatefulWidget {
     Key? key,
     this.height = 50.0,
     this.width = 50.0,
-    this.spinDuration = const Duration(seconds: 2),
+    this.spinDuration = const Duration(seconds: 5),
   }) : super(key: key);
 
   @override

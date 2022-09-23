@@ -1,5 +1,6 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
+import 'package:wiredash/wiredash.dart';
 
 import '../contracts/custom_menu.dart';
 import '../redux/setting/drawer_settings_viewmodel.dart';
@@ -105,27 +106,20 @@ List<CustomMenu> getMenuOptionsSection3(
       getCorrectlySizedImageFromIcon(context, icon, colour: drawerIconColour);
 
   return [
-    CustomMenu(
-      icon: localGetFromIcon(Icons.sync),
-      drawerIcon: localGetDrawerFromIcon(Icons.sync),
-      title: LocaleKey.synchronize,
-      navigateToNamed: Routes.syncPage,
-    ),
+    // CustomMenu(
+    //   icon: localGetFromIcon(Icons.sync),
+    //   drawerIcon: localGetDrawerFromIcon(Icons.sync),
+    //   title: LocaleKey.synchronize,
+    //   navigateToNamed: Routes.syncPage,
+    // ),
     CustomMenu(
       icon: localGetFromIcon(Icons.feedback),
       drawerIcon: localGetDrawerFromIcon(Icons.feedback),
       title: LocaleKey.feedback,
-      navigateToNamed: Routes.feedback,
+      onTap: (tapCtx) {
+        Wiredash.of(context).show(inheritMaterialTheme: true);
+      },
     ),
-    // if (!isApple) ...[
-    //   CustomMenu(
-    //     icon: localGetFromIcon(Icons.share),
-    //     drawerIcon: localGetDrawerFromIcon(Icons.share),
-    //     title: LocaleKey.share,
-    //     hideInCustom: true,
-    //     onTap: (BuildContext navContext) => shareText(LocaleKey.shareContent),
-    //   )
-    // ],
     CustomMenu(
       icon: localGetFromIcon(Icons.help),
       drawerIcon: localGetDrawerFromIcon(Icons.help),
@@ -133,21 +127,21 @@ List<CustomMenu> getMenuOptionsSection3(
       hideInCustom: true,
       navigateToNamed: Routes.about,
     ),
-    CustomMenu(
-      icon: getListTileImage(AppImage.twitter, size: imageSize),
-      drawerIcon: getListTileImage(AppImage.twitter),
-      title: LocaleKey.social,
-      navigateToNamed: Routes.socialLinks,
-    ),
+    // CustomMenu(
+    //   icon: getListTileImage(AppImage.twitter, size: imageSize),
+    //   drawerIcon: getListTileImage(AppImage.twitter),
+    //   title: LocaleKey.social,
+    //   navigateToNamed: Routes.socialLinks,
+    // ),
   ];
 }
 
-List<CustomMenu> getMenuOptions(
-    BuildContext context, DrawerSettingsViewModel vm) {
-  Color drawerIconColour = getTheme().getDarkModeSecondaryColour();
-  return [
-    ...getMenuOptionsSection1(context, vm, drawerIconColour),
-    ...getMenuOptionsSection2(context, vm, drawerIconColour),
-    ...getMenuOptionsSection3(context, vm, drawerIconColour),
-  ];
-}
+// List<CustomMenu> getMenuOptions(
+//     BuildContext context, DrawerSettingsViewModel vm) {
+//   Color drawerIconColour = getTheme().getDarkModeSecondaryColour();
+//   return [
+//     ...getMenuOptionsSection1(context, vm, drawerIconColour),
+//     ...getMenuOptionsSection2(context, vm, drawerIconColour),
+//     ...getMenuOptionsSection3(context, vm, drawerIconColour),
+//   ];
+// }

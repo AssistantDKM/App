@@ -2,7 +2,6 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:wiredash/wiredash.dart';
 import 'package:redux/redux.dart';
 
 import 'components/adaptive/app_shell.dart';
@@ -22,7 +21,8 @@ class DinkumApp extends StatefulWidget {
 }
 
 class _DinkumAppState extends State<DinkumApp> {
-  late Store<AppState>? store;
+  // ignore: avoid_init_to_null
+  Store<AppState>? store = null;
   late TranslationsDelegate _newLocaleDelegate;
 
   @override
@@ -68,16 +68,12 @@ class _DinkumAppState extends State<DinkumApp> {
       );
     }
 
-    return Wiredash(
-      projectId: getEnv().wiredashProjectId,
-      secret: getEnv().wiredashSecret,
-      child: StoreProvider(
-        store: store!,
-        child: AppShell(
-          key: const Key('app-shell'),
-          newLocaleDelegate: _newLocaleDelegate,
-          onLocaleChange: _onLocaleChange,
-        ),
+    return StoreProvider(
+      store: store!,
+      child: AppShell(
+        key: const Key('app-shell'),
+        newLocaleDelegate: _newLocaleDelegate,
+        onLocaleChange: _onLocaleChange,
       ),
     );
   }

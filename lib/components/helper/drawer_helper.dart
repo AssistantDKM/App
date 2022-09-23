@@ -2,6 +2,7 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:assistantapps_flutter_common/contracts/misc/versionDetail.dart';
 import 'package:flutter/material.dart';
 
+import '../../constants/app_image.dart';
 import '../../constants/drawer_items.dart';
 import '../../contracts/custom_menu.dart';
 import '../../redux/setting/drawer_settings_viewmodel.dart';
@@ -15,11 +16,11 @@ List<Widget> getDrawerItems(BuildContext context, DrawerSettingsViewModel vm) {
     context,
     getMenuOptionsSection1(context, vm, drawerIconColour),
   ));
-  widgets.add(customDivider());
-  widgets.addAll(_mapToDrawerItem(
-    context,
-    getMenuOptionsSection2(context, vm, drawerIconColour),
-  ));
+  // widgets.add(customDivider());
+  // widgets.addAll(_mapToDrawerItem(
+  //   context,
+  //   getMenuOptionsSection2(context, vm, drawerIconColour),
+  // ));
   widgets.add(customDivider());
   widgets.addAll(_mapToDrawerItem(
     context,
@@ -50,6 +51,21 @@ List<Widget> getDrawerItems(BuildContext context, DrawerSettingsViewModel vm) {
       },
     ),
   );
+  widgets.add(_drawerItem(
+    context,
+    image: getListTileImage(AppImage.assistantApps),
+    title: getTranslations().fromKey(LocaleKey.assistantApps),
+    onTap: (_) {
+      adaptiveBottomModalSheet(
+        context,
+        hasRoundedCorners: true,
+        builder: (BuildContext innerC) => AssistantAppsModalBottomSheet(
+          appType: AssistantAppType.DKM,
+        ),
+      );
+    },
+  ));
+  widgets.add(emptySpace3x());
   widgets.add(emptySpace3x());
 
   return widgets;
