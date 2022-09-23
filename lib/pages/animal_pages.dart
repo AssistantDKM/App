@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
 import '../components/pageElements/item_page_components.dart';
-import '../components/tilePreseneters/animal_tile_presenter.dart';
+import '../components/tilePreseneters/item_base_tile_presenter.dart';
 import '../constants/app_colour.dart';
 import '../constants/app_image.dart';
 import '../constants/app_misc.dart';
@@ -35,7 +35,7 @@ class AnimalsListPage extends StatelessWidget {
       analyticsEvent: analyticsEvent,
       title: title,
       getItemsFunc: () => getCombinedAnimalItems(context, appJsons),
-      listItemDisplayer: animalTilePresenter,
+      listItemDisplayer: itemBaseTilePresenter,
       detailPageFunc: (
         String id,
         bool isInDetailPane,

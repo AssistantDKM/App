@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
 import '../components/pageElements/item_page_components.dart';
+import '../components/tilePreseneters/item_base_tile_presenter.dart';
 import '../components/tilePreseneters/licence_tile_presenter.dart';
 import '../constants/app_misc.dart';
 import '../contracts/json/licence_item.dart';
@@ -29,7 +30,7 @@ class LicencesListPage extends StatelessWidget {
       analyticsEvent: analyticsEvent,
       title: title,
       getItemsFunc: () => getLicenceRepo().getItems(context),
-      listItemDisplayer: licenceTilePresenter,
+      listItemDisplayer: itemBaseTilePresenter,
       detailPageFunc: (
         String id,
         bool isInDetailPane,

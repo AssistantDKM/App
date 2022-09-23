@@ -5,7 +5,7 @@ import '../components/chip/effect_chip_presenter.dart';
 import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
 import '../components/pageElements/item_page_components.dart';
-import '../components/tilePreseneters/food_tile_presenter.dart';
+import '../components/tilePreseneters/item_base_tile_presenter.dart';
 import '../components/tilePreseneters/required_item_tile_presenter.dart';
 import '../constants/app_colour.dart';
 import '../constants/app_image.dart';
@@ -35,7 +35,7 @@ class FoodListPage extends StatelessWidget {
       analyticsEvent: analyticsEvent,
       title: title,
       getItemsFunc: () => getCombinedFoodItems(context, appJsons),
-      listItemDisplayer: foodTilePresenter,
+      listItemDisplayer: itemBaseTilePresenter,
       detailPageFunc: (
         String id,
         bool isInDetailPane,

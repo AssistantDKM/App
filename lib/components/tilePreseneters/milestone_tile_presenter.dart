@@ -2,19 +2,7 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants/app_image.dart';
-import '../../contracts/json/milestone_item.dart';
 import '../../contracts/json/milestone_level.dart';
-import '../../helper/image_helper.dart';
-
-Widget milestoneTilePresenter(
-    BuildContext context, MilestoneItem item, int index) {
-  String localImage = networkImageToLocal(item.imageUrl);
-  return genericListTile(
-    context,
-    leadingImage: localImage,
-    name: item.name,
-  );
-}
 
 Widget milestoneLevelTilePresenter(
   BuildContext context,

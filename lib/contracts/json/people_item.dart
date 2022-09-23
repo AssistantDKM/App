@@ -6,15 +6,14 @@ import 'dart:convert';
 
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
-import '../interface/item_list_page_type.dart';
+import '../interface/item_base_presenter.dart';
 
-class PeopleItem extends ItemListPageType {
+class PeopleItem extends ItemBasePresenter {
   final int id;
   final String occupation;
   final String favouriteFood;
   final List<String> dislikes;
   final String building;
-  final String imageUrl;
 
   PeopleItem({
     required this.id,
@@ -23,8 +22,8 @@ class PeopleItem extends ItemListPageType {
     required this.favouriteFood,
     required this.dislikes,
     required this.building,
-    required this.imageUrl,
-  }) : super(id.toString(), name);
+    required imageUrl,
+  }) : super(id.toString(), name, imageUrl);
 
   factory PeopleItem.fromJson(String str) =>
       PeopleItem.fromMap(json.decode(str));

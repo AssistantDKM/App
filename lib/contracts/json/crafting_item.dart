@@ -6,12 +6,12 @@ import 'dart:convert';
 
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
-import '../interface/item_list_page_type.dart';
+import '../interface/item_base_presenter.dart';
 import 'required_item.dart';
 import 'enum/item_category.dart';
 import 'item_licence_requirement.dart';
 
-class CraftingItem extends ItemListPageType {
+class CraftingItem extends ItemBasePresenter {
   final int id;
   final String description;
   final ItemCategory category;
@@ -19,7 +19,6 @@ class CraftingItem extends ItemListPageType {
   final int totalProduced;
   final ItemLicenceRequirement? licenceRequirement;
   final int sellPrice;
-  final String imageUrl;
 
   CraftingItem({
     required this.id,
@@ -30,8 +29,8 @@ class CraftingItem extends ItemListPageType {
     required this.totalProduced,
     required this.licenceRequirement,
     required this.sellPrice,
-    required this.imageUrl,
-  }) : super(id.toString(), name);
+    required imageUrl,
+  }) : super(id.toString(), name, imageUrl);
 
   factory CraftingItem.fromJson(String str) =>
       CraftingItem.fromMap(json.decode(str));

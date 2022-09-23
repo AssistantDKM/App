@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
 import '../components/pageElements/item_page_components.dart';
-import '../components/tilePreseneters/people_tile_presenter.dart';
+import '../components/tilePreseneters/item_base_tile_presenter.dart';
 import '../constants/app_misc.dart';
 import '../contracts/json/people_item.dart';
 import '../helper/image_helper.dart';
@@ -28,7 +28,7 @@ class PeopleListPage extends StatelessWidget {
       analyticsEvent: analyticsEvent,
       title: title,
       getItemsFunc: () => getPeopleRepo().getItems(context),
-      listItemDisplayer: peopleTilePresenter,
+      listItemDisplayer: itemBaseTilePresenter,
       detailPageFunc: (
         String id,
         bool isInDetailPane,

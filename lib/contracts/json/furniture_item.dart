@@ -6,9 +6,9 @@ import 'dart:convert';
 
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
-import '../interface/item_list_page_type.dart';
+import '../interface/item_base_presenter.dart';
 
-class FurnitureItem extends ItemListPageType {
+class FurnitureItem extends ItemBasePresenter {
   final int id;
   final String description;
   final int sellPrice;
@@ -20,7 +20,7 @@ class FurnitureItem extends ItemListPageType {
     required this.description,
     required this.sellPrice,
     required this.furnitureItemSet,
-  }) : super(id.toString(), name);
+  }) : super(id.toString(), name, '');
 
   factory FurnitureItem.fromJson(String str) =>
       FurnitureItem.fromMap(json.decode(str));

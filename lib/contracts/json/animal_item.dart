@@ -6,17 +6,16 @@ import 'dart:convert';
 
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
-import '../interface/item_list_page_type.dart';
+import '../interface/item_base_presenter.dart';
 import 'availability.dart';
 import 'enum/habitat.dart';
 
-class AnimalItem extends ItemListPageType {
+class AnimalItem extends ItemBasePresenter {
   final int id;
   final String description;
   final List<Habitat> habitats;
   final Availability availability;
   final int sellPrice;
-  final String imageUrl;
 
   AnimalItem({
     required this.id,
@@ -25,8 +24,8 @@ class AnimalItem extends ItemListPageType {
     required this.habitats,
     required this.availability,
     required this.sellPrice,
-    required this.imageUrl,
-  }) : super(id.toString(), name);
+    required imageUrl,
+  }) : super(id.toString(), name, imageUrl);
 
   factory AnimalItem.fromJson(String str) =>
       AnimalItem.fromMap(json.decode(str));

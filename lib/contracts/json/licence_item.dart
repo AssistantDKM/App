@@ -4,24 +4,23 @@
 
 import 'dart:convert';
 
-import 'package:assistant_dinkum_app/contracts/json/licence_level_item.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
-import '../interface/item_list_page_type.dart';
+import './licence_level_item.dart';
+import '../interface/item_base_presenter.dart';
 
-class LicenceItem extends ItemListPageType {
+class LicenceItem extends ItemBasePresenter {
   final int id;
   final String description;
   final List<LicenceLevel> levels;
-  final String imageUrl;
 
   LicenceItem({
     required this.id,
     required name,
     required this.description,
     required this.levels,
-    required this.imageUrl,
-  }) : super(id.toString(), name);
+    required imageUrl,
+  }) : super(id.toString(), name, imageUrl);
 
   factory LicenceItem.fromJson(String str) =>
       LicenceItem.fromMap(json.decode(str));

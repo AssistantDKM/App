@@ -1,9 +1,9 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../../contracts/interface/item_list_page_type.dart';
+import '../../contracts/interface/item_base_presenter.dart';
 
-class ItemsListPage<T extends ItemListPageType> extends StatelessWidget {
+class ItemsListPage<T extends ItemBasePresenter> extends StatelessWidget {
   final String title;
   final Future<ResultWithValue<List<T>>> Function() getItemsFunc;
   final Widget Function(BuildContext, T, int) listItemDisplayer;

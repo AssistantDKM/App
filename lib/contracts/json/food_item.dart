@@ -6,19 +6,18 @@ import 'dart:convert';
 
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
-import '../interface/item_list_page_type.dart';
+import '../interface/item_base_presenter.dart';
 import 'enum/food_category.dart';
 import 'enum/food_effect.dart';
 import 'required_item.dart';
 
-class FoodItem extends ItemListPageType {
+class FoodItem extends ItemBasePresenter {
   final int id;
   final String description;
   final FoodCategory category;
   final List<FoodEffect> effects;
   final List<RequiredItem> materials;
   final int sellPrice;
-  final String imageUrl;
 
   FoodItem({
     required this.id,
@@ -28,8 +27,8 @@ class FoodItem extends ItemListPageType {
     required this.effects,
     required this.materials,
     required this.sellPrice,
-    required this.imageUrl,
-  }) : super(id.toString(), name);
+    required imageUrl,
+  }) : super(id.toString(), name, imageUrl);
 
   factory FoodItem.fromJson(String str) => FoodItem.fromMap(json.decode(str));
 

@@ -1,11 +1,14 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../../contracts/json/crafting_item.dart';
+import '../../contracts/interface/item_base_presenter.dart';
 import '../../helper/image_helper.dart';
 
-Widget craftingTilePresenter(
-    BuildContext context, CraftingItem item, int index) {
+Widget itemBaseTilePresenter(
+  BuildContext context,
+  ItemBasePresenter item,
+  int index,
+) {
   String localImage = networkImageToLocal(item.imageUrl);
   return ListTile(
     leading: ConstrainedBox(

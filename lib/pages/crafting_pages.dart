@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
 import '../components/pageElements/item_page_components.dart';
-import '../components/tilePreseneters/crafting_tile_presenter.dart';
+import '../components/tilePreseneters/item_base_tile_presenter.dart';
 import '../components/tilePreseneters/required_item_tile_presenter.dart';
 import '../constants/app_colour.dart';
 import '../constants/app_image.dart';
@@ -34,7 +34,7 @@ class CraftingListPage extends StatelessWidget {
       analyticsEvent: analyticsEvent,
       title: title,
       getItemsFunc: () => getCombinedCraftingItems(context, appJsons),
-      listItemDisplayer: craftingTilePresenter,
+      listItemDisplayer: itemBaseTilePresenter,
       detailPageFunc: (
         String id,
         bool isInDetailPane,
