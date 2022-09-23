@@ -1,6 +1,5 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
 import '../components/adaptive/homepage_appbar.dart';
 import '../components/drawer.dart';
@@ -17,78 +16,60 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<StaggeredGridTile> itemBuilders = [
+    List<StaggeredGridTileItem> itemBuilders = [
       largeSquareTile(
-        baseHomeCard(
-          context,
-          AppImage.animalsLogo,
-          'Animals',
-          Routes.animals,
-        ),
+        context,
+        AppImage.animalsLogo,
+        'Animals',
+        Routes.animals,
       ),
       smallSquareTile(
-        baseHomeCard(
-          context,
-          AppImage.bugsLogo,
-          'Bugs',
-          Routes.bugs,
-        ),
+        context,
+        AppImage.bugsLogo,
+        'Bugs',
+        Routes.bugs,
       ),
       smallSquareTile(
-        baseHomeCard(
-          context,
-          AppImage.crittersLogo,
-          'Critters',
-          Routes.critters,
-        ),
+        context,
+        AppImage.crittersLogo,
+        'Critters',
+        Routes.critters,
       ),
       largeSquareTile(
-        baseHomeCard(
-          context,
-          AppImage.itemsLogo,
-          'Items',
-          Routes.crafting,
-        ),
+        context,
+        AppImage.itemsLogo,
+        'Items',
+        Routes.crafting,
       ),
       smallLanscapeRectTile(
-        baseHomeCard(
-          context,
-          AppImage.fishLogo,
-          'Fish',
-          Routes.fish,
-        ),
+        context,
+        AppImage.fishLogo,
+        'Fish',
+        Routes.fish,
       ),
       largeSquareTile(
-        baseHomeCard(
-          context,
-          AppImage.foodLogo,
-          'Food',
-          Routes.food,
-        ),
+        context,
+        AppImage.foodLogo,
+        'Food',
+        Routes.food,
       ),
       smallLanscapeRectTile(
-        baseHomeCard(
-          context,
-          AppImage.peopleLogo,
-          'People',
-          Routes.people,
-        ),
+        context,
+        AppImage.peopleLogo,
+        'People',
+        Routes.people,
       ),
       smallLanscapeRectTile(
-        baseHomeCard(
-          context,
-          AppImage.licencesLogo,
-          'Licences',
-          Routes.licence,
-        ),
+        context,
+        AppImage.licencesLogo,
+        'Licences',
+        Routes.licence,
       ),
       smallLanscapeRectTile(
-        baseHomeCard(
-          context,
-          AppImage.milestonesLogo,
-          'Milestones',
-          Routes.milestone,
-        ),
+        context,
+        AppImage.milestonesLogo,
+        'Milestones',
+        Routes.milestone,
       ),
     ];
     return getBaseWidget().appScaffold(
@@ -142,26 +123,17 @@ Widget baseHomeCard(
   );
 }
 
-StaggeredGridTile largeSquareTile(Widget innerChild) {
-  return StaggeredGridTile.count(
-    crossAxisCellCount: 2,
-    mainAxisCellCount: 2,
-    child: innerChild,
-  );
-}
+StaggeredGridTileItem largeSquareTile(BuildContext homeCardCtx,
+        String imagePath, String text, String navigateToNamed) =>
+    StaggeredGridTileItem(
+        2, 2, baseHomeCard(homeCardCtx, imagePath, text, navigateToNamed));
 
-StaggeredGridTile smallLanscapeRectTile(Widget innerChild) {
-  return StaggeredGridTile.count(
-    crossAxisCellCount: 2,
-    mainAxisCellCount: 1,
-    child: innerChild,
-  );
-}
+StaggeredGridTileItem smallLanscapeRectTile(BuildContext homeCardCtx,
+        String imagePath, String text, String navigateToNamed) =>
+    StaggeredGridTileItem(
+        2, 1, baseHomeCard(homeCardCtx, imagePath, text, navigateToNamed));
 
-StaggeredGridTile smallSquareTile(Widget innerChild) {
-  return StaggeredGridTile.count(
-    crossAxisCellCount: 1,
-    mainAxisCellCount: 1,
-    child: innerChild,
-  );
-}
+StaggeredGridTileItem smallSquareTile(BuildContext homeCardCtx,
+        String imagePath, String text, String navigateToNamed) =>
+    StaggeredGridTileItem(
+        1, 1, baseHomeCard(homeCardCtx, imagePath, text, navigateToNamed));

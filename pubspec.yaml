@@ -28,7 +28,6 @@ dependencies:
   adaptive_theme: 3.1.1
   bitsdojo_window: 0.1.2
   breakpoint: 1.2.0
-  flutter_staggered_grid_view: 0.6.2
   settings_ui: 2.0.2
   wiredash: 1.5.0
 
