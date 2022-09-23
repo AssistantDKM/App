@@ -12,7 +12,7 @@ ThemeData getDynamicTheme(Brightness brightness) {
 ThemeData darkTheme() {
   final base = ThemeData.dark();
   final primary = HexColor('7F2F14');
-  final secondary = HexColor('AC9919');
+  final secondary = HexColor('147f2f');
   return base.copyWith(
     primaryColor: primary,
     // accentColor: secondary, //DEPRECATED

@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_redux/flutter_redux.dart';
 
 import '../constants/app_image.dart';
+import '../contracts/redux/app_state.dart';
+import '../redux/setting/drawer_settings_viewmodel.dart';
 import 'helper/drawer_helper.dart';
 
 class AppDrawer extends StatelessWidget {
@@ -8,7 +11,7 @@ class AppDrawer extends StatelessWidget {
 
   //
   Widget drawerWrapper(BuildContext drawerCtx, List<Widget> widgets) {
-    String path = AppImage.drawer;
+    String path = AppImage.drawerHeader;
     return Drawer(
       child: ListView(
         children: [
@@ -34,9 +37,12 @@ class AppDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return drawerWrapper(
-      context,
-      getDrawerItems(context),
+    return StoreConnector<AppState, DrawerSettingsViewModel>(
+      converter: (store) => DrawerSettingsViewModel.fromStore(store),
+      builder: (storeCtx, viewModel) => drawerWrapper(
+        context,
+        getDrawerItems(context, viewModel),
+      ),
     );
   }
 }

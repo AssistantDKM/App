@@ -2,16 +2,30 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:assistantapps_flutter_common/contracts/misc/versionDetail.dart';
 import 'package:flutter/material.dart';
 
-List<Widget> getDrawerItems(context) {
+import '../../constants/drawer_items.dart';
+import '../../contracts/custom_menu.dart';
+import '../../redux/setting/drawer_settings_viewmodel.dart';
+
+List<Widget> getDrawerItems(BuildContext context, DrawerSettingsViewModel vm) {
   List<Widget> widgets = List.empty(growable: true);
   Color drawerIconColour = getTheme().getDarkModeSecondaryColour();
 
-  // widgets.add(emptySpace(0.5));
-  // widgets.addAll(_mapToDrawerItem(
-  //   context,
-  //   getMenuOptionsSection1(context, drawerIconColour),
-  // ));
-  // widgets.add(customDivider());
+  widgets.add(emptySpace(0.5));
+  widgets.addAll(_mapToDrawerItem(
+    context,
+    getMenuOptionsSection1(context, vm, drawerIconColour),
+  ));
+  widgets.add(customDivider());
+  widgets.addAll(_mapToDrawerItem(
+    context,
+    getMenuOptionsSection2(context, vm, drawerIconColour),
+  ));
+  widgets.add(customDivider());
+  widgets.addAll(_mapToDrawerItem(
+    context,
+    getMenuOptionsSection3(context, vm, drawerIconColour),
+  ));
+  widgets.add(customDivider());
 
   widgets.add(
     FutureBuilder<ResultWithValue<VersionDetail>>(
@@ -68,17 +82,16 @@ Widget _drawerItem(
   return tile;
 }
 
-// List<Widget> _mapToDrawerItem(
-//     BuildContext context, List<HomepageMenuItem> menus) {
-//   List<Widget> widgets = List.empty(growable: true);
-//   for (HomepageMenuItem menu in menus) {
-//     widgets.add(_drawerItem(
-//       context,
-//       title: menu.title,
-//       image: menu.image,
-//       navigateToNamed: menu.navigateToNamed,
-//       onTap: menu.onTap,
-//     ));
-//   }
-//   return widgets;
-// }
+List<Widget> _mapToDrawerItem(BuildContext context, List<CustomMenu> menus) {
+  List<Widget> widgets = List.empty(growable: true);
+  for (CustomMenu menu in menus) {
+    widgets.add(_drawerItem(
+      context,
+      title: getTranslations().fromKey(menu.title),
+      image: menu.drawerIcon,
+      navigateToNamed: menu.navigateToNamed,
+      onTap: menu.onTap,
+    ));
+  }
+  return widgets;
+}

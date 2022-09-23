@@ -1,11 +1,15 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_redux/flutter_redux.dart';
 
+import '../contracts/redux/app_state.dart';
 import '../pages/animal_pages.dart';
 import '../pages/food_pages.dart';
 import '../pages/home_page.dart';
 import '../pages/licences_pages.dart';
 import '../pages/people_pages.dart';
 import '../pages/settings_page.dart';
+import '../redux/setting/what_is_new_settings_viewmodel.dart';
 import 'analytics_event.dart';
 import 'app_json.dart';
 
@@ -13,6 +17,14 @@ class Routes {
   static const String home = '/home';
   static const String about = '/about';
   static const String settings = '/settings';
+  static const String whatIsNew = '/whatIsNew';
+  static const String patronListPage = '/patronListPage';
+  static const String favourites = '/favourites';
+  static const String cart = '/cart';
+  static const String newsPage = '/newsPage';
+  static const String syncPage = '/syncPage';
+  static const String feedback = '/feedback';
+  static const String socialLinks = '/socialLinks';
 
   // Details pages
   static const String animals = '/animals';
@@ -36,7 +48,31 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
   Map<String, WidgetBuilder> routes = {
     Routes.home: (context) => HomePage(),
     Routes.settings: (context) => SettingsPage(),
-    // Routes.about: (context) => const AboutPage(),
+    Routes.about: (context) => AboutPage(
+          key: const Key('AboutPage'),
+          appType: AssistantAppType.NMS,
+          aboutPageWidgetsFunc: (BuildContext ctx) {
+            return [
+              emptySpace(0.5),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8),
+                child: Text(
+                  getTranslations().fromKey(LocaleKey.aboutContent),
+                  textAlign: TextAlign.center,
+                  overflow: TextOverflow.ellipsis,
+                  maxLines: 50,
+                  style: const TextStyle(fontSize: 16),
+                ),
+              ),
+            ];
+          },
+        ),
+    Routes.patronListPage: (context) =>
+        PatronListPage(AnalyticsEvent.patronListPage),
+    Routes.whatIsNew: (context) => WhatIsNewPage(
+          AnalyticsEvent.whatIsNewDetailPage,
+          selectedLanguage: 'en',
+        ),
 
     // Details pages
     Routes.animals: (context) => AnimalsListPage(

@@ -6,7 +6,7 @@ import 'package:settings_ui/settings_ui.dart';
 import '../components/drawer.dart';
 import '../constants/analytics_event.dart';
 import '../contracts/redux/app_state.dart';
-import '../redux/setting/settingViewModel.dart';
+import '../redux/setting/setting_viewmodel.dart';
 
 class SettingsPage extends StatelessWidget {
   SettingsPage({Key? key}) : super(key: key) {
@@ -43,6 +43,7 @@ class SettingsPage extends StatelessWidget {
       SettingsTile.navigation(
         leading: const Icon(Icons.language),
         title: const Text('Language'),
+        enabled: false,
         value: Text(getTranslations().fromKey(currentLocale.name)),
         trailing: SizedBox(
           width: 50,

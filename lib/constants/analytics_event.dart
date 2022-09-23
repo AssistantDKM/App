@@ -5,6 +5,8 @@ class AnalyticsEvent {
   //pages
   static const String homePage = 'Home_Page_View';
   static const String settingsPage = 'Settings_Page_View';
+  static const String patronListPage = "Patron_List_Page_View";
+  static const String whatIsNewDetailPage = "What_Is_New_Detail_Page_View";
 
   static const String animalsPage = 'Animals_Page_View';
   static const String bugsPage = 'Bugs_Page_View';

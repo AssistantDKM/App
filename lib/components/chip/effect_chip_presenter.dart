@@ -11,6 +11,7 @@ Widget effectChipPresenter(BuildContext context, FoodEffect effect) {
   bool isMinuteBased = false;
   switch (effect.type) {
     case 'Health':
+    case 'Health Regen':
       localImageStr = AppImage.health;
       break;
     case 'HealthPlus':
@@ -47,6 +48,14 @@ Widget effectChipPresenter(BuildContext context, FoodEffect effect) {
       break;
     case 'Weapon Buff':
       localImageStr = AppImage.weapon;
+      isMinuteBased = true;
+      break;
+    case 'Farming Buff':
+      localImageStr = AppImage.farming;
+      isMinuteBased = true;
+      break;
+    case 'Hunting Buff':
+      localImageStr = AppImage.hunting;
       isMinuteBased = true;
       break;
   }

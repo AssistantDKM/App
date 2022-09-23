@@ -2,6 +2,7 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:wiredash/wiredash.dart';
 import 'package:redux/redux.dart';
 
 import 'components/adaptive/app_shell.dart';
@@ -67,12 +68,16 @@ class _DinkumAppState extends State<DinkumApp> {
       );
     }
 
-    return StoreProvider(
-      store: store!,
-      child: AppShell(
-        key: const Key('app-shell'),
-        newLocaleDelegate: _newLocaleDelegate,
-        onLocaleChange: _onLocaleChange,
+    return Wiredash(
+      projectId: getEnv().wiredashProjectId,
+      secret: getEnv().wiredashSecret,
+      child: StoreProvider(
+        store: store!,
+        child: AppShell(
+          key: const Key('app-shell'),
+          newLocaleDelegate: _newLocaleDelegate,
+          onLocaleChange: _onLocaleChange,
+        ),
       ),
     );
   }
