@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
+import '../components/pageElements/item_page_components.dart';
 import '../components/tilePreseneters/licence_tile_presenter.dart';
 import '../constants/app_misc.dart';
 import '../contracts/json/licence_item.dart';
@@ -74,13 +75,14 @@ class LicenceDetailsPage extends StatelessWidget {
           emptySpace1x(),
           Center(child: networkImage(loadedItem.imageUrl)),
           genericItemName(loadedItem.name),
-          genericItemDescription(loadedItem.description),
+          pageDefaultPadding(genericItemDescription(loadedItem.description)),
         ];
 
         if (loadedItem.levels.isNotEmpty) {
           descripWidgets.add(emptySpace2x());
           descripWidgets.add(genericItemGroup('Levels'));
           for (LicenceLevel level in loadedItem.levels) {
+            descripWidgets.add(emptySpace1x());
             descripWidgets.add(
               flatCard(child: licenceLevelTilePresenter(context, level, 0)),
             );

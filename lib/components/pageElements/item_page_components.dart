@@ -23,3 +23,8 @@ List<Widget> loadSections(String sectionName, List<String> items) => [
         ),
       ),
     ];
+
+Widget pageDefaultPadding(Widget inner) => Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 8),
+      child: inner,
+    );

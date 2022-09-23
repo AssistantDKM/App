@@ -8,6 +8,7 @@ class AppImage {
   static const String error = '${base}error.png';
 
   static const String coin = '${base}coin.png';
+  static const String permitPoint = '${base}permitPoint.png';
 
   static const String stats = '${base}stats/';
   static const String health = '${stats}health.png';

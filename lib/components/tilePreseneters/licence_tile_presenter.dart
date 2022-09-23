@@ -1,3 +1,4 @@
+import 'package:assistant_dinkum_app/constants/app_image.dart';
 import 'package:assistant_dinkum_app/contracts/json/licence_item.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
@@ -22,16 +23,30 @@ Widget licenceLevelTilePresenter(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Text(item.skillLevel.toString()),
+        const Text('XP'),
       ],
     ),
-    title: Text(item.cost.toString()),
+    title: Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Text(item.cost.toString()),
+        localImage(AppImage.permitPoint, width: 24, height: 24),
+      ],
+    ),
     subtitle: Text(item.description, maxLines: 1),
-    trailing: Column(
+    trailing: const Icon(Icons.info_outline),
+  );
+
+  /**
+   * Column(
       mainAxisSize: MainAxisSize.min,
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Text(item.unlockedRecipes.length.toString()),
+        const Text('Recipes unlocked'),
       ],
     ),
-  );
+  )
+  
+   */
 }

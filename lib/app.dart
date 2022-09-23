@@ -71,6 +71,7 @@ class _DinkumAppState extends State<DinkumApp> {
       store: store!,
       child: AppShell(
         key: const Key('app-shell'),
+        newLocaleDelegate: _newLocaleDelegate,
         onLocaleChange: _onLocaleChange,
       ),
     );

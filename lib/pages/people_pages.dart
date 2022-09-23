@@ -73,8 +73,8 @@ class PeopleDetailsPage extends StatelessWidget {
         List<Widget> descripWidgets = [
           Center(child: networkImage(loadedItem.imageUrl)),
           genericItemName(loadedItem.name),
-          genericItemDescription(loadedItem.occupation),
-          genericItemDescription(loadedItem.building),
+          pageDefaultPadding(genericItemDescription(loadedItem.occupation)),
+          pageDefaultPadding(genericItemDescription(loadedItem.building)),
         ];
 
         descripWidgets.addAll(loadSections(

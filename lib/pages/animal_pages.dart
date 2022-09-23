@@ -80,7 +80,7 @@ class AnimalDetailsPage extends StatelessWidget {
         List<Widget> descripWidgets = [
           Center(child: networkImage(loadedItem.imageUrl)),
           genericItemName(loadedItem.name),
-          genericItemDescription(loadedItem.description),
+          pageDefaultPadding(genericItemDescription(loadedItem.description)),
           Chip(
             label: Row(
               mainAxisSize: MainAxisSize.min,
