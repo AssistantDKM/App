@@ -8,6 +8,7 @@ import '../../contracts/json/enum/food_effect.dart';
 Widget effectChipPresenter(BuildContext context, FoodEffect effect) {
   String localImageStr = AppImage.customLoading;
   String valueStr = effect.value.toString();
+  bool isMinuteBased = false;
   switch (effect.type) {
     case 'Health':
       localImageStr = AppImage.health;
@@ -26,23 +27,32 @@ Widget effectChipPresenter(BuildContext context, FoodEffect effect) {
       break;
     case 'Defence Buff':
       localImageStr = AppImage.defence;
+      isMinuteBased = true;
       break;
     case 'Attack Buff':
       localImageStr = AppImage.weapon;
+      isMinuteBased = true;
       break;
     case 'Speed Buff':
       localImageStr = AppImage.speed;
+      isMinuteBased = true;
       break;
     case 'Mining Buff':
       localImageStr = AppImage.mining;
+      isMinuteBased = true;
       break;
     case 'Fishing Buff':
       localImageStr = AppImage.fishing;
-      valueStr = '${(effect.value / 60).toStringAsFixed(0)}min';
+      isMinuteBased = true;
       break;
     case 'Weapon Buff':
       localImageStr = AppImage.weapon;
+      isMinuteBased = true;
       break;
+  }
+
+  if (isMinuteBased) {
+    valueStr = '${(effect.value / 60).toStringAsFixed(0)}min';
   }
 
   return Padding(
