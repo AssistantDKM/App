@@ -21,6 +21,7 @@ class AnalyticsEvent {
   static const String crafting = 'Crafting_Page_View';
   static const String people = 'People_Page_View';
   static const String licence = 'Licence_Page_View';
+  static const String milestone = 'Milestone_Page_View';
 
   // user_events
   static const String patreonOAuthLogin = 'Patreon_OAuth_Login';

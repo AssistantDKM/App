@@ -6,6 +6,7 @@ import '../pages/crafting_pages.dart';
 import '../pages/food_pages.dart';
 import '../pages/home_page.dart';
 import '../pages/licences_pages.dart';
+import '../pages/milestones_pages.dart';
 import '../pages/people_pages.dart';
 import '../pages/settings_page.dart';
 import 'analytics_event.dart';
@@ -37,6 +38,7 @@ class Routes {
   static const String crafting = '/crafting';
   static const String people = '/people';
   static const String licence = '/licence';
+  static const String milestone = '/milestone';
 
   static const String itemIdParam = 'itemId';
   static const String bugDetails = '/bug/:$itemIdParam';
@@ -123,6 +125,10 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
     Routes.licence: (context) => LicencesListPage(
           analyticsEvent: AnalyticsEvent.licence,
           title: 'Licence',
+        ),
+    Routes.milestone: (context) => MilestonesListPage(
+          analyticsEvent: AnalyticsEvent.milestone,
+          title: 'Milestone',
         ),
   };
   return routes;

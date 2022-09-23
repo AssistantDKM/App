@@ -87,7 +87,7 @@ class HomePage extends StatelessWidget {
           context,
           AppImage.milestonesLogo,
           'Milestones',
-          Routes.bugs,
+          Routes.milestone,
         ),
       ),
     ];
