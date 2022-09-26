@@ -116,7 +116,7 @@ List<CustomMenu> getMenuOptionsSection3(
       drawerIcon: localGetDrawerFromIcon(Icons.feedback),
       title: LocaleKey.feedback,
       onTap: (tapCtx) {
-        Wiredash.of(context).show(inheritMaterialTheme: true);
+        Wiredash.of(tapCtx).show(inheritMaterialTheme: true);
       },
     ),
     CustomMenu(
