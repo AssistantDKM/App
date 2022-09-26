@@ -10,7 +10,7 @@ Future main() async {
     isProduction: true,
 
     // AssistantApps
-    assistantAppsApiUrl: assistantAppsApiUrl,
+    assistantAppsApiUrl: 'https://api.assistantapps.com',
     assistantAppsAppGuid: assistantAppsAppGuid,
     currentWhatIsNewGuid: currentWhatIsNewGuid,
 

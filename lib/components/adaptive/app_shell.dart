@@ -2,6 +2,7 @@ import 'package:adaptive_theme/adaptive_theme.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:wiredash/wiredash.dart';
 
@@ -26,6 +27,11 @@ class AppShell extends StatelessWidget {
   Widget build(BuildContext context) {
     getLog().i("main rebuild");
     Map<String, Widget Function(BuildContext)> routes = initNamedRoutes();
+    List<LocalizationsDelegate<dynamic>> localizationsDelegates = [
+      newLocaleDelegate,
+      GlobalMaterialLocalizations.delegate, //provides localised strings
+      GlobalWidgetsLocalizations.delegate, //provides RTL support
+    ];
     return StoreConnector<AppState, AppShellViewModel>(
       converter: (store) => AppShellViewModel.fromStore(store),
       builder: (storeCtx, viewModel) => AdaptiveTheme(
@@ -41,6 +47,7 @@ class AppShell extends StatelessWidget {
             initialRoute: Routes.home,
             viewModel: viewModel,
             routes: routes,
+            localizationsDelegates: localizationsDelegates,
             supportedLocales: getLanguage().supportedLocales(),
           );
         },
@@ -56,6 +63,7 @@ class AppShell extends StatelessWidget {
     required String initialRoute,
     required AppShellViewModel viewModel,
     required Map<String, Widget Function(BuildContext)> routes,
+    required List<LocalizationsDelegate<dynamic>> localizationsDelegates,
     required List<Locale> supportedLocales,
   }) {
     ScrollBehavior? scrollBehavior;
@@ -95,6 +103,7 @@ class AppShell extends StatelessWidget {
         initialRoute: initialRoute,
         routes: routes,
         scrollBehavior: scrollBehavior,
+        localizationsDelegates: localizationsDelegates,
         supportedLocales: supportedLocales,
       ),
     );
