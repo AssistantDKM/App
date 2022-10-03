@@ -9,11 +9,19 @@ Widget itemBaseTilePresenter(
   ItemBasePresenter item,
   int index,
 ) {
-  String localImage = networkImageToLocal(item.imageUrl);
+  Widget? imgChild = Container();
+  if (item.icon.isNotEmpty) {
+    imgChild = genericTileImage('inventory/${item.icon}');
+  } else {
+    if ((item as dynamic).imageUrl != null) {
+      imgChild = localImage(networkImageToLocal((item as dynamic).imageUrl));
+    }
+  }
+
   return ListTile(
     leading: ConstrainedBox(
       constraints: const BoxConstraints(maxWidth: 60),
-      child: genericTileImage(localImage),
+      child: imgChild,
     ),
     title: Text(
       item.name,

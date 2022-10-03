@@ -1,9 +1,7 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../pages/animal_pages.dart';
-import '../pages/crafting_pages.dart';
-import '../pages/food_pages.dart';
+import '../pages/inventory_pages.dart';
 import '../pages/home_page.dart';
 import '../pages/licences_pages.dart';
 import '../pages/milestones_pages.dart';
@@ -31,17 +29,12 @@ class Routes {
   static const String critters = '/critters';
   static const String fish = '/fish';
 
-  static const String food = '/food';
-  static const String consumable = '/consumable';
   static const String cooking = '/cooking';
-
   static const String crafting = '/crafting';
+
   static const String people = '/people';
   static const String licence = '/licence';
   static const String milestone = '/milestone';
-
-  static const String itemIdParam = 'itemId';
-  static const String bugDetails = '/bug/:$itemIdParam';
 }
 
 Map<String, Widget Function(BuildContext)> initNamedRoutes() {
@@ -75,47 +68,36 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
         ),
 
     // Details pages
-    Routes.animals: (context) => AnimalsListPage(
+    Routes.animals: (context) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.animalsPage,
           appJsons: const [AppJson.bugs, AppJson.critters, AppJson.fish],
           title: 'Animals',
         ),
-    Routes.bugs: (context) => AnimalsListPage(
+    Routes.bugs: (context) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.bugsPage,
           appJsons: const [AppJson.bugs],
           title: 'Bugs',
         ),
-    Routes.critters: (context) => AnimalsListPage(
+    Routes.critters: (context) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.crittersPage,
           appJsons: const [AppJson.critters],
           title: 'Critters',
         ),
-    Routes.fish: (context) => AnimalsListPage(
+    Routes.fish: (context) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.fishPage,
           appJsons: const [AppJson.fish],
           title: 'Fish',
         ),
 
-    Routes.food: (context) => FoodListPage(
-          analyticsEvent: AnalyticsEvent.food,
-          appJsons: const [AppJson.consumables, AppJson.cooking],
-          title: 'Food',
+    Routes.crafting: (context) => InventoryListPage(
+          analyticsEvent: AnalyticsEvent.inventory,
+          appJsons: const [AppJson.items],
+          title: 'Items',
         ),
-    Routes.consumable: (context) => FoodListPage(
-          analyticsEvent: AnalyticsEvent.consumable,
-          appJsons: const [AppJson.consumables],
-          title: 'Consumable',
-        ),
-    Routes.cooking: (context) => FoodListPage(
+    Routes.cooking: (context) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.cooking,
           appJsons: const [AppJson.cooking],
           title: 'Cooking',
-        ),
-
-    Routes.crafting: (context) => CraftingListPage(
-          analyticsEvent: AnalyticsEvent.crafting,
-          appJsons: const [AppJson.crafting],
-          title: 'Crafting',
         ),
 
     Routes.people: (context) => PeopleListPage(

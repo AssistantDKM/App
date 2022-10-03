@@ -38,7 +38,7 @@ class HomePage extends StatelessWidget {
       largeSquareTile(
         context,
         AppImage.itemsLogo,
-        'Items',
+        'Crafting',
         Routes.crafting,
       ),
       smallLanscapeRectTile(
@@ -51,7 +51,7 @@ class HomePage extends StatelessWidget {
         context,
         AppImage.foodLogo,
         'Food',
-        Routes.food,
+        Routes.cooking,
       ),
       smallLanscapeRectTile(
         context,

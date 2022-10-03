@@ -1,0 +1,535 @@
+[
+  {
+    "Id": 224,
+    "AppId": "critter_224",
+    "Icon": "allUI_53.png",
+    "Name": "Mud Crab",
+    "Description": "A muddy crab",
+    "SellPrice": 4540,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Rivers"
+      ],
+      "SeasonFound": [
+        "Summer",
+        "Autum"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "VeryRare"
+    }
+  },
+  {
+    "Id": 237,
+    "AppId": "critter_237",
+    "Icon": "allUI_65.png",
+    "Name": "Yabbie",
+    "Description": "Like a lobster but it's a yabbie instead.",
+    "SellPrice": 1899,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [
+        "Rivers"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 818,
+    "AppId": "critter_818",
+    "Icon": "allUI2_138.png",
+    "Name": "Biscuit Sea Star",
+    "Description": "Don't eat it.",
+    "SellPrice": 1200,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 819,
+    "AppId": "critter_819",
+    "Icon": "allUI2_137.png",
+    "Name": "Eleven-armed Sea Star",
+    "Description": "That's a lot of arms!",
+    "SellPrice": 8540,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Morning"
+      ],
+      "Rarity": "VeryRare"
+    }
+  },
+  {
+    "Id": 820,
+    "AppId": "critter_820",
+    "Icon": "allUI2_139.png",
+    "Name": "Black Sea Cucumber",
+    "Description": "I bet its chewy",
+    "SellPrice": 12540,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean",
+        "Rivers"
+      ],
+      "SeasonFound": [
+        "Autum",
+        "Winter"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "SuperRare"
+    }
+  },
+  {
+    "Id": 821,
+    "AppId": "critter_821",
+    "Icon": "allUI2_134.png",
+    "Name": "Spiny Sea Urchin",
+    "Description": "It's spikey",
+    "SellPrice": 640,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 822,
+    "AppId": "critter_822",
+    "Icon": "allUI2_135.png",
+    "Name": "Pink Sea Urchin",
+    "Description": "Looks like bubblegum",
+    "SellPrice": 1540,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 823,
+    "AppId": "critter_823",
+    "Icon": "allUI2_136.png",
+    "Name": "Purple Sea Urchin",
+    "Description": "Does it eat people?",
+    "SellPrice": 8040,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean"
+      ],
+      "SeasonFound": [
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "VeryRare"
+    }
+  },
+  {
+    "Id": 824,
+    "AppId": "critter_824",
+    "Icon": "allUI2_142.png",
+    "Name": "King Prawn",
+    "Description": "What majesty!",
+    "SellPrice": 3540,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "VeryRare"
+    }
+  },
+  {
+    "Id": 825,
+    "AppId": "critter_825",
+    "Icon": "allUI2_141.png",
+    "Name": "Tiger Prawn",
+    "Description": "Meow",
+    "SellPrice": 1540,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 826,
+    "AppId": "critter_826",
+    "Icon": "allUI2_140.png",
+    "Name": "Bay Bug",
+    "Description": "A lobster without claws.",
+    "SellPrice": 4540,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 827,
+    "AppId": "critter_827",
+    "Icon": "allUI2_144.png",
+    "Name": "Fresh Water Mussel",
+    "Description": "Makes you strong!",
+    "SellPrice": 800,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Rivers"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 828,
+    "AppId": "critter_828",
+    "Icon": "allUI2_147.png",
+    "Name": "Fresh Water Prawn",
+    "Description": "Refreshing!",
+    "SellPrice": 1540,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Rivers"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "VeryRare"
+    }
+  },
+  {
+    "Id": 829,
+    "AppId": "critter_829",
+    "Icon": "allUI2_146.png",
+    "Name": "Inland Crab",
+    "Description": "Looks wet to me.",
+    "SellPrice": 740,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Rivers"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 830,
+    "AppId": "critter_830",
+    "Icon": "allUI2_145.png",
+    "Name": "Purple Mottled Crab",
+    "Description": "Looks wet to me.",
+    "SellPrice": 440,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean"
+      ],
+      "SeasonFound": [
+        "Summer"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 831,
+    "AppId": "critter_831",
+    "Icon": "allUI2_148.png",
+    "Name": "Blue Mussel",
+    "Description": "Strong but sad.",
+    "SellPrice": 799,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 832,
+    "AppId": "critter_832",
+    "Icon": "allUI2_149.png",
+    "Name": "Cushion Sea Star",
+    "Description": "It's not that soft.",
+    "SellPrice": 2540,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean"
+      ],
+      "SeasonFound": [
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 833,
+    "AppId": "critter_833",
+    "Icon": "allUI2_143.png",
+    "Name": "White Yabbie",
+    "Description": "Is it scared?",
+    "SellPrice": 980,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Rivers"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 834,
+    "AppId": "critter_834",
+    "Icon": "allUI2_150.png",
+    "Name": "Blue Sea Slug",
+    "Description": "It's got wings!",
+    "SellPrice": 12540,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 3,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean"
+      ],
+      "SeasonFound": [
+        "Winter"
+      ],
+      "TimeOfDay": [
+        "Night"
+      ],
+      "Rarity": "SuperRare"
+    }
+  }
+]

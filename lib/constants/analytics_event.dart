@@ -14,11 +14,9 @@ class AnalyticsEvent {
   static const String crittersPage = 'Critters_Page_View';
   static const String fishPage = 'Fish_Page_View';
 
-  static const String food = 'Food_Page_View';
-  static const String consumable = 'Consumable_Page_View';
   static const String cooking = 'Cooking_Page_View';
+  static const String inventory = 'Inventory_Page_View';
 
-  static const String crafting = 'Crafting_Page_View';
   static const String people = 'People_Page_View';
   static const String licence = 'Licence_Page_View';
   static const String milestone = 'Milestone_Page_View';

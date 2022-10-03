@@ -10,6 +10,7 @@ import '../interface/item_base_presenter.dart';
 
 class PeopleItem extends ItemBasePresenter {
   final int id;
+  final String imageUrl;
   final String occupation;
   final String favouriteFood;
   final List<String> dislikes;
@@ -22,8 +23,8 @@ class PeopleItem extends ItemBasePresenter {
     required this.favouriteFood,
     required this.dislikes,
     required this.building,
-    required imageUrl,
-  }) : super(id.toString(), name, imageUrl);
+    required this.imageUrl,
+  }) : super(id.toString(), name, '');
 
   factory PeopleItem.fromJson(String str) =>
       PeopleItem.fromMap(json.decode(str));

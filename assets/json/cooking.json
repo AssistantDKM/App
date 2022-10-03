@@ -1,0 +1,1564 @@
+[
+  {
+    "Id": 17,
+    "AppId": "cooking_17",
+    "Icon": "allUI_197.png",
+    "Name": "Bush Lime",
+    "Description": "Sour but yummy.",
+    "SellPrice": 90,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 2,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 3,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 2,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 19,
+    "AppId": "cooking_19",
+    "Icon": "allUI_205.png",
+    "Name": "Cooked Meat",
+    "Description": "So yum.",
+    "SellPrice": 800,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 1,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 8,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 28,
+    "AppId": "cooking_28",
+    "Icon": "allUI_198.png",
+    "Name": "Sugar Cane",
+    "Description": "You could make sugar out of this!",
+    "SellPrice": 560,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 4,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 51,
+    "AppId": "cooking_51",
+    "Icon": "fishUi_3.png",
+    "Name": "Cooked Fish",
+    "Description": "Thats good eatin' fo sho",
+    "SellPrice": 100,
+    "IsStackable": true,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 111,
+    "AppId": "cooking_111",
+    "Icon": "allUI_16.png",
+    "Name": "Cabbage",
+    "Description": "Cruchy or soft. It up to you.",
+    "SellPrice": 1750,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 4,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 116,
+    "AppId": "cooking_116",
+    "Icon": "allUI_17.png",
+    "Name": "Carrot",
+    "Description": "What's up, medical person?",
+    "SellPrice": 475,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 4,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 123,
+    "AppId": "cooking_123",
+    "Icon": "allUI_23.png",
+    "Name": "Corn",
+    "Description": "This is poppin'",
+    "SellPrice": 358,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 4,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 4,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 8,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 215,
+    "AppId": "cooking_215",
+    "Icon": "allUI_44.png",
+    "Name": "Cactus Figs",
+    "Description": "The fruit of a cactus.",
+    "SellPrice": 100,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 2,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 2,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": -5,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 225,
+    "AppId": "cooking_225",
+    "Icon": "allUI_55.png",
+    "Name": "Honey",
+    "Description": "Sweet and stick.",
+    "SellPrice": 3100,
+    "IsStackable": true,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 247,
+    "AppId": "cooking_247",
+    "Icon": "allUI_70.png",
+    "Name": "Glowing Mushroom",
+    "Description": "Why does it glow?",
+    "SellPrice": 35,
+    "IsStackable": true,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 297,
+    "AppId": "cooking_297",
+    "Icon": "allUI_86.png",
+    "Name": "Bananas",
+    "Description": "Squishy",
+    "SellPrice": 248,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 2,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 300,
+    "AppId": "cooking_300",
+    "Icon": "allUI_87.png",
+    "Name": "Apple",
+    "Description": "One a day.",
+    "SellPrice": 107,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 2,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 310,
+    "AppId": "cooking_310",
+    "Icon": "allUI_97.png",
+    "Name": "Cooked Drumstick",
+    "Description": "Delicious if you cook it. Not so much if you dont.",
+    "SellPrice": 700,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 1,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 320,
+    "AppId": "cooking_320",
+    "Icon": "allUI_104.png",
+    "Name": "Kale",
+    "Description": "Healthy.",
+    "SellPrice": 1520,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 4,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 322,
+    "AppId": "cooking_322",
+    "Icon": "allUI_105.png",
+    "Name": "Potato",
+    "Description": "Boil 'em, mash 'em.",
+    "SellPrice": 640,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 4,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 324,
+    "AppId": "cooking_324",
+    "Icon": "allUI_103.png",
+    "Name": "Wheat",
+    "Description": "Much tastier when it's been grinded.",
+    "SellPrice": 216,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 4,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 1,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 1,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 327,
+    "AppId": "cooking_327",
+    "Icon": "allUI_110.png",
+    "Name": "Watermelon",
+    "Description": "If only I could get into it.",
+    "SellPrice": 3080,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 2,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 10,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 328,
+    "AppId": "cooking_328",
+    "Icon": "allUI_113.png",
+    "Name": "Pumpkin",
+    "Description": "Is this spooky?",
+    "SellPrice": 3120,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 4,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 330,
+    "AppId": "cooking_330",
+    "Icon": "allUI_114.png",
+    "Name": "Onion",
+    "Description": "I'm getting teary.",
+    "SellPrice": 450,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 4,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 8,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 2,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 345,
+    "AppId": "cooking_345",
+    "Icon": "allUI_131.png",
+    "Name": "Chicken Egg",
+    "Description": "What's inside?",
+    "SellPrice": 350,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 3,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 350,
+    "AppId": "cooking_350",
+    "Icon": "allUI_134.png",
+    "Name": "Milk",
+    "Description": "Creamy and tasty!",
+    "SellPrice": 1500,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 3,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 10,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 393,
+    "AppId": "cooking_393",
+    "Icon": "allUI_160.png",
+    "Name": "Wattle Brew",
+    "Description": "Refreshing!",
+    "SellPrice": 4625,
+    "IsStackable": true,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 575,
+    "AppId": "cooking_575",
+    "Icon": "allUI_212.png",
+    "Name": "Cooked Apple",
+    "Description": "Cooked. Nice.",
+    "SellPrice": 390,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 2,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 576,
+    "AppId": "cooking_576",
+    "Icon": "allUI_211.png",
+    "Name": "Cooked Banana",
+    "Description": "Nice and cooked.",
+    "SellPrice": 290,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 2,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 577,
+    "AppId": "cooking_577",
+    "Icon": "allUI_213.png",
+    "Name": "Cooked Bush Lime",
+    "Description": "Sour and cooked. yummy.",
+    "SellPrice": 190,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 2,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 6,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 4,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 603,
+    "AppId": "cooking_603",
+    "Icon": "allUI_246.png",
+    "Name": "Big Chicken Egg",
+    "Description": "Its a big one!",
+    "SellPrice": 545,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 3,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 636,
+    "AppId": "cooking_636",
+    "Icon": "allUI2_22.png",
+    "Name": "Cheese",
+    "Description": "Old, hard milk",
+    "SellPrice": 2400,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 3,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 15,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 15,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 637,
+    "AppId": "cooking_637",
+    "Icon": "allUI2_23.png",
+    "Name": "High Quality Milk",
+    "Description": "Very creamy and very tasty!",
+    "SellPrice": 2300,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 3,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 15,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 638,
+    "AppId": "cooking_638",
+    "Icon": "allUI2_24.png",
+    "Name": "High Quality Cheese",
+    "Description": "The best hard milk there is.",
+    "SellPrice": 3500,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 3,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 20,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 20,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 646,
+    "AppId": "cooking_646",
+    "Icon": "allUI2_33.png",
+    "Name": "Cooked Giant Drumstick",
+    "Description": "It's so big!",
+    "SellPrice": 1500,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 1,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 647,
+    "AppId": "cooking_647",
+    "Icon": "allUI2_35.png",
+    "Name": "Cooked Croco Meat",
+    "Description": "It's got a bite to it.",
+    "SellPrice": 1750,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 1,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 25,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 669,
+    "AppId": "cooking_669",
+    "Icon": "allUI2_81.png",
+    "Name": "Cooked Cactus Fig",
+    "Description": "The fruit of a cactus.",
+    "SellPrice": 250,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 2,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 747,
+    "AppId": "cooking_747",
+    "Icon": "allUI2_77.png",
+    "Name": "Jelly Brew",
+    "Description": "A real pick me up.",
+    "SellPrice": 5000,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 3,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 50,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 50,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 10,
+          "Level": 1,
+          "Seconds": 240
+        },
+        {
+          "Type": 7,
+          "Level": 1,
+          "Seconds": 300
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 748,
+    "AppId": "cooking_748",
+    "Icon": "allUI2_76.png",
+    "Name": "Bottled Brush",
+    "Description": "Healthy.",
+    "SellPrice": 4625,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 2,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 25,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 0,
+          "Level": 1,
+          "Seconds": 60
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 763,
+    "AppId": "cooking_763",
+    "Icon": "allUI2_95.png",
+    "Name": "Big Fried Egg",
+    "Description": "Its a big one and it's fried!",
+    "SellPrice": 817,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 3,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 20,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 764,
+    "AppId": "cooking_764",
+    "Icon": "allUI2_94.png",
+    "Name": "Fried Egg",
+    "Description": "Sunny side up.",
+    "SellPrice": 525,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 3,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 770,
+    "AppId": "cooking_770",
+    "Icon": "allUI2_102.png",
+    "Name": "Quandong",
+    "Description": "Gone don eat it.",
+    "SellPrice": 110,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 2,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 2,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 3,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 771,
+    "AppId": "cooking_771",
+    "Icon": "allUI2_103.png",
+    "Name": "Cooked Quandong",
+    "Description": "Gone don cooked it.",
+    "SellPrice": 220,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 2,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 8,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 8,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 773,
+    "AppId": "cooking_773",
+    "Icon": "allUI2_107.png",
+    "Name": "Cooked Flake",
+    "Description": "Salty.",
+    "SellPrice": 1900,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 1,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 20,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 20,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 843,
+    "AppId": "cooking_843",
+    "Icon": "allUI2_158.png",
+    "Name": "Tomato",
+    "Description": "No one know if this is a fruit or not.",
+    "SellPrice": 351,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 4,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 2,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 845,
+    "AppId": "cooking_845",
+    "Icon": "allUI2_160.png",
+    "Name": "Green Bean",
+    "Description": "Like beans in a case",
+    "SellPrice": 295,
+    "IsStackable": true,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 852,
+    "AppId": "cooking_852",
+    "Icon": "allUI2_167.png",
+    "Name": "Cooked Prime Meat",
+    "Description": "It's cooked perfectly.",
+    "SellPrice": 6000,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 1,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 50,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 861,
+    "AppId": "cooking_861",
+    "Icon": "allUI2_173.png",
+    "Name": "Flour",
+    "Description": "It's ready for baking.",
+    "SellPrice": 1680,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 4,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 1,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 1,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 862,
+    "AppId": "cooking_862",
+    "Icon": "allUI2_174.png",
+    "Name": "Sugar",
+    "Description": "Sweet.",
+    "SellPrice": 960,
+    "IsStackable": true,
+    "Equipable": 0,
+    "Consumable": {
+      "Type": 4,
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  }
+]

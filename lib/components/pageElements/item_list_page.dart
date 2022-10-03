@@ -43,15 +43,14 @@ class ItemsListPage<T extends ItemBasePresenter> extends StatelessWidget {
         () => getItemsFunc(),
         listItemDisplayer,
         listItemSearchLocal,
-        listItemMobileOnTap: (BuildContext context, T bugItem) =>
+        listItemMobileOnTap: (BuildContext context, T invItem) =>
             getNavigation().navigateAwayFromHomeAsync(
           context,
-          navigateTo: (newCtx) =>
-              detailPageFunc(bugItem.itemId.toString(), false, null),
+          navigateTo: (newCtx) => detailPageFunc(invItem.appId, false, null),
         ),
         listItemDesktopOnTap: (BuildContext context, T animalItem,
             void Function(Widget) updateDetailView) {
-          return detailPageFunc(animalItem.itemId, true, updateDetailView);
+          return detailPageFunc(animalItem.appId, true, updateDetailView);
         },
         addFabPadding: true,
         // key: Key(getTranslations().currentLanguage),

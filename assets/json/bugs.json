@@ -1,815 +1,1132 @@
 [
   {
-    "id": 1,
-    "name": "Bee",
-    "description": "A little honey maker. Where's the queen?",
-    "habitats": [
-      "Pine Forests",
-      "Plains"
-    ],
-    "availability": {
-      "time": [
-        "Day"
+    "Id": 20,
+    "AppId": "bug_20",
+    "Icon": "allUI_207.png",
+    "Name": "Funnel Web Spider",
+    "Description": "Very poisonous. Ain't it cute?",
+    "SellPrice": 1020,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Bushland"
       ],
-      "seasons": [
+      "WaterLocation": [],
+      "SeasonFound": [
         "Summer",
         "Spring"
-      ]
-    },
-    "sell_price": 680,
-    "image_url": "https://api.dinkumapi.com/images/bugs/bee.png"
-  },
-  {
-    "id": 2,
-    "name": "Birdwing Butterfly",
-    "description": "It's really rare and big!",
-    "habitats": [
-      "Tropics"
-    ],
-    "availability": {
-      "time": [
-        "Morning"
       ],
-      "seasons": [
-        "Autumn"
-      ]
-    },
-    "sell_price": 4100,
-    "image_url": "https://api.dinkumapi.com/images/bugs/birdwing-butterfly.png"
-  },
-  {
-    "id": 3,
-    "name": "Black Cricket",
-    "description": "Trying to hide, eh?",
-    "habitats": [
-      "Everywhere"
-    ],
-    "availability": {
-      "time": [
-        "Night"
-      ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 980,
-    "image_url": "https://api.dinkumapi.com/images/bugs/black-cricket.png"
-  },
-  {
-    "id": 4,
-    "name": "Blue Moon Butterfly",
-    "description": "These are everywhere.",
-    "habitats": [
-      "Everywhere"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day"
-      ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 290,
-    "image_url": "https://api.dinkumapi.com/images/bugs/blue-moon-butterfly.png"
-  },
-  {
-    "id": 5,
-    "name": "Bogong Moth",
-    "description": "Dusty and gross.",
-    "habitats": [
-      "Everywhere"
-    ],
-    "availability": {
-      "time": [
-        "Night"
-      ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 260,
-    "image_url": "https://api.dinkumapi.com/images/bugs/bogong-moth.png"
-  },
-  {
-    "id": 6,
-    "name": "Centipede",
-    "description": "There are at least 4 legs here.",
-    "habitats": [
-      "Everywhere"
-    ],
-    "availability": {
-      "time": [
-        "Night"
-      ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 2220,
-    "image_url": "https://api.dinkumapi.com/images/bugs/centipede.png"
-  },
-  {
-    "id": 7,
-    "name": "Cockroach",
-    "description": "Yuck.",
-    "habitats": [
-      "Everywhere"
-    ],
-    "availability": {
-      "time": [
-        "Night"
-      ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 154,
-    "image_url": "https://api.dinkumapi.com/images/bugs/cockroach.png"
-  },
-  {
-    "id": 8,
-    "name": "Common Blue Tail",
-    "description": "A common dragonfly.",
-    "habitats": [
-      "Pine Forests",
-      "Tropics"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day"
-      ],
-      "seasons": [
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 772,
-    "image_url": "https://api.dinkumapi.com/images/bugs/common-blue-tail.png"
-  },
-  {
-    "id": 9,
-    "name": "Desert Scorpion",
-    "description": "8 legs. Friendlier than it looks.",
-    "habitats": [
-      "Desert"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
+      "TimeOfDay": [
         "Day",
         "Night"
       ],
-      "seasons": [
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 1212,
-    "image_url": "https://api.dinkumapi.com/images/bugs/desert-scorpion.png"
+      "Rarity": "Uncommon"
+    }
   },
   {
-    "id": 10,
-    "name": "Duskhawker DragonFly",
-    "description": "Coolest name ever.",
-    "habitats": [
-      "Pine Forests",
-      "Tropics"
-    ],
-    "availability": {
-      "time": [
+    "Id": 29,
+    "AppId": "bug_29",
+    "Icon": "allUI_221.png",
+    "Name": "Ulysses Butterfly",
+    "Description": "Nice bug, bro.",
+    "SellPrice": 660,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Bushland"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Summer",
+        "Spring"
+      ],
+      "TimeOfDay": [
         "Morning",
         "Day"
       ],
-      "seasons": [
-        "Spring",
-        "Autumn"
-      ]
-    },
-    "sell_price": 2350,
-    "image_url": "https://api.dinkumapi.com/images/bugs/duskhawker-dragon-fly.png"
+      "Rarity": "Uncommon"
+    }
   },
   {
-    "id": 11,
-    "name": "Emperor DragonFly",
-    "description": "It's huge!",
-    "habitats": [
-      "Tropics",
-      "Plains"
-    ],
-    "availability": {
-      "time": [
+    "Id": 97,
+    "AppId": "bug_97",
+    "Icon": "allUI_4.png",
+    "Name": "Grass Hopper",
+    "Description": "Jumpin' for joy.",
+    "SellPrice": 1700,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Tropics",
+        "Plains"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Spring"
+      ],
+      "TimeOfDay": [
         "Day"
       ],
-      "seasons": [
-        "Spring"
-      ]
-    },
-    "sell_price": 4172,
-    "image_url": "https://api.dinkumapi.com/images/bugs/emperor-dragon-fly.png"
+      "Rarity": "Uncommon"
+    }
   },
   {
-    "id": 12,
-    "name": "Fiddler Beetle",
-    "description": "The smallest fiddle in the world.",
-    "habitats": [
-      "Tropics",
-      "Bushlands"
-    ],
-    "availability": {
-      "time": [
+    "Id": 98,
+    "AppId": "bug_98",
+    "Icon": "allUI_5.png",
+    "Name": "Common Blue Tail",
+    "Description": "A Common Dragonfly",
+    "SellPrice": 772,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Pines",
+        "Tropics"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum",
+        "Winter"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 100,
+    "AppId": "bug_100",
+    "Icon": "allUI_6.png",
+    "Name": "Fly",
+    "Description": "A common fly",
+    "SellPrice": 72,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 101,
+    "AppId": "bug_101",
+    "Icon": "allUI_7.png",
+    "Name": "Cockroach",
+    "Description": "Yuck.",
+    "SellPrice": 154,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Night"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 108,
+    "AppId": "bug_108",
+    "Icon": "allUI_15.png",
+    "Name": "Peacock Spider",
+    "Description": "A fancy little spider.",
+    "SellPrice": 1792,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Bushland",
+        "Tropics"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
         "Morning"
       ],
-      "seasons": [
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 2400,
-    "image_url": "https://api.dinkumapi.com/images/bugs/fiddler-beetle.png"
+      "Rarity": "VeryRare"
+    }
   },
   {
-    "id": 13,
-    "name": "Field Cricket",
-    "description": "So small. So loud.",
-    "habitats": [
-      "Plains",
-      "Bushlands"
-    ],
-    "availability": {
-      "time": [
+    "Id": 109,
+    "AppId": "bug_109",
+    "Icon": "allUI_14.png",
+    "Name": "Trogid",
+    "Description": "It can't fly.",
+    "SellPrice": 1400,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Desert"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum",
+        "Spring"
+      ],
+      "TimeOfDay": [
         "Night"
       ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 1348,
-    "image_url": "https://api.dinkumapi.com/images/bugs/field-cricket.png"
+      "Rarity": "Rare"
+    }
   },
   {
-    "id": 14,
-    "name": "Firefly",
-    "description": "I cannot believe my eyes.",
-    "habitats": [
-      "Everywhere"
-    ],
-    "availability": {
-      "time": [
-        "Night"
+    "Id": 227,
+    "AppId": "bug_227",
+    "Icon": "allUI_56.png",
+    "Name": "Bee",
+    "Description": "A little honey maker. Where's the queen?",
+    "SellPrice": 680,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Pines",
+        "Plains"
       ],
-      "seasons": [
+      "WaterLocation": [],
+      "SeasonFound": [
         "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 860,
-    "image_url": "https://api.dinkumapi.com/images/bugs/firefly.png"
-  },
-  {
-    "id": 15,
-    "name": "Fly",
-    "description": "A common fly.",
-    "habitats": [
-      "Everywhere"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
+        "Spring"
+      ],
+      "TimeOfDay": [
         "Day"
       ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 72,
-    "image_url": "https://api.dinkumapi.com/images/bugs/fly.png"
+      "Rarity": "Uncommon"
+    }
   },
   {
-    "id": 16,
-    "name": "Funnel Web Spider",
-    "description": "Very poisonous. Ain't it cute?",
-    "habitats": [
-      "Bushlands"
-    ],
-    "availability": {
-      "time": [
+    "Id": 228,
+    "AppId": "bug_228",
+    "Icon": "allUI_57.png",
+    "Name": "Queen Bee",
+    "Description": "The boss bee. Can start a hive.",
+    "SellPrice": 2300,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Pines",
+        "Plains"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Summer",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Morning"
+      ],
+      "Rarity": "VeryRare"
+    }
+  },
+  {
+    "Id": 229,
+    "AppId": "bug_229",
+    "Icon": "allUI_64.png",
+    "Name": "Red Back Spider",
+    "Description": "Very poisonous. Ain't it cute?",
+    "SellPrice": 1552,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Desert"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Summer",
+        "Autum",
+        "Spring"
+      ],
+      "TimeOfDay": [
         "Day",
         "Night"
       ],
-      "seasons": [
-        "Summer",
-        "Spring"
-      ]
-    },
-    "sell_price": 1020,
-    "image_url": "https://api.dinkumapi.com/images/bugs/funnel-web-spider.png"
+      "Rarity": "Rare"
+    }
   },
   {
-    "id": 17,
-    "name": "Goliath Stick",
-    "description": "It's a big stick!",
-    "habitats": [
-      "Tropics",
-      "Pine Forests"
-    ],
-    "availability": {
-      "time": [
-        "Morning"
+    "Id": 230,
+    "AppId": "bug_230",
+    "Icon": "allUI_59.png",
+    "Name": "Desert Scorpion",
+    "Description": "8 Legs. Friendlier than it looks",
+    "SellPrice": 1212,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Desert"
       ],
-      "seasons": [
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum",
         "Winter"
-      ]
-    },
-    "sell_price": 3330,
-    "image_url": "https://api.dinkumapi.com/images/bugs/goliath-stick.png"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Rare"
+    }
   },
   {
-    "id": 18,
-    "name": "Grass Hopper",
-    "description": "Jumpin' for joy.",
-    "habitats": [
-      "Tropics",
-      "Plains"
-    ],
-    "availability": {
-      "time": [
+    "Id": 231,
+    "AppId": "bug_231",
+    "Icon": "allUI_60.png",
+    "Name": "Stinkbug",
+    "Description": "It stinks!",
+    "SellPrice": 300,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 232,
+    "AppId": "bug_232",
+    "Icon": "allUI_58.png",
+    "Name": "Paper Wasp",
+    "Description": "This thing kills spiders when its hungy.",
+    "SellPrice": 990,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Plains",
+        "Desert"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum"
+      ],
+      "TimeOfDay": [
         "Day"
       ],
-      "seasons": [
-        "Spring"
-      ]
-    },
-    "sell_price": 1700,
-    "image_url": "https://api.dinkumapi.com/images/bugs/grass-hopper.png"
+      "Rarity": "Rare"
+    }
   },
   {
-    "id": 19,
-    "name": "Harlequin Butterfly",
-    "description": "It's fluttering by, Mr. J.",
-    "habitats": [
-      "Everywhere"
-    ],
-    "availability": {
-      "time": [
+    "Id": 233,
+    "AppId": "bug_233",
+    "Icon": "allUI_63.png",
+    "Name": "Birdwing Butterfly",
+    "Description": "It's really rare and big!",
+    "SellPrice": 4100,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Tropics"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum"
+      ],
+      "TimeOfDay": [
+        "Morning"
+      ],
+      "Rarity": "SuperRare"
+    }
+  },
+  {
+    "Id": 234,
+    "AppId": "bug_234",
+    "Icon": "allUI_62.png",
+    "Name": "Swallow-tail Butterfly",
+    "Description": "It has a little tail.",
+    "SellPrice": 990,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Tropics"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Summer",
+        "Autum"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 235,
+    "AppId": "bug_235",
+    "Icon": "allUI_61.png",
+    "Name": "Harlequin Butterfly",
+    "Description": "It's fluttering by, Mr. J.",
+    "SellPrice": 2121,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
         "Morning",
         "Day"
       ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 2121,
-    "image_url": "https://api.dinkumapi.com/images/bugs/harlequin-butterfly.png"
+      "Rarity": "Rare"
+    }
   },
   {
-    "id": 20,
-    "name": "Hercules Moth",
-    "description": "This guy sounds tough.",
-    "habitats": [
-      "Everywhere"
-    ],
-    "availability": {
-      "time": [
+    "Id": 248,
+    "AppId": "bug_248",
+    "Icon": "allUI_69.png",
+    "Name": "Firefly",
+    "Description": "I can not believe my eyes.",
+    "SellPrice": 860,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
         "Night"
       ],
-      "seasons": [
-        "Spring",
-        "Winter"
-      ]
-    },
-    "sell_price": 3000,
-    "image_url": "https://api.dinkumapi.com/images/bugs/hercules-moth.png"
+      "Rarity": "Uncommon"
+    }
   },
   {
-    "id": 21,
-    "name": "Huntsman",
-    "description": "It's scary, but nice.",
-    "habitats": [
-      "Desert",
-      "Bushlands"
-    ],
-    "availability": {
-      "time": [
+    "Id": 249,
+    "AppId": "bug_249",
+    "Icon": "allUI_68.png",
+    "Name": "Field Cricket",
+    "Description": "So small. So loud.",
+    "SellPrice": 1348,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Plains",
+        "Bushland"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Night"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 579,
+    "AppId": "bug_579",
+    "Icon": "allUI_227.png",
+    "Name": "Meadow Katydid",
+    "Description": "Jumpin' for joy.",
+    "SellPrice": 900,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Plains"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 580,
+    "AppId": "bug_580",
+    "Icon": "allUI_231.png",
+    "Name": "Rhinoceros Beetle",
+    "Description": "It can't fly.",
+    "SellPrice": 1930,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Bushland",
+        "Pines"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum",
+        "Winter"
+      ],
+      "TimeOfDay": [
+        "Morning"
+      ],
+      "Rarity": "VeryRare"
+    }
+  },
+  {
+    "Id": 581,
+    "AppId": "bug_581",
+    "Icon": "allUI_228.png",
+    "Name": "Goliath stick",
+    "Description": "It's a big stick!",
+    "SellPrice": 3330,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Tropics",
+        "Pines"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Winter"
+      ],
+      "TimeOfDay": [
+        "Morning"
+      ],
+      "Rarity": "VeryRare"
+    }
+  },
+  {
+    "Id": 582,
+    "AppId": "bug_582",
+    "Icon": "allUI_229.png",
+    "Name": "Bogong Moth",
+    "Description": "Dusty and gross.",
+    "SellPrice": 260,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Night"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 583,
+    "AppId": "bug_583",
+    "Icon": "allUI_230.png",
+    "Name": "Scarlet Jezebel Butterfly",
+    "Description": "Its red... I guess?",
+    "SellPrice": 790,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 614,
+    "AppId": "bug_614",
+    "Icon": "allUI2_0.png",
+    "Name": "Black Cricket",
+    "Description": "Trying to hide, eh?",
+    "SellPrice": 980,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Night"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 615,
+    "AppId": "bug_615",
+    "Icon": "allUI2_1.png",
+    "Name": "Monarch Butterfly",
+    "Description": "The queen of butterflies.",
+    "SellPrice": 3860,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Bushland",
+        "Pines"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 616,
+    "AppId": "bug_616",
+    "Icon": "allUI2_2.png",
+    "Name": "Lacewing",
+    "Description": "Gentle!",
+    "SellPrice": 1680,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Pines",
+        "Plains"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Summer",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 617,
+    "AppId": "bug_617",
+    "Icon": "allUI2_3.png",
+    "Name": "Emperor DragonFly",
+    "Description": "It's huge!",
+    "SellPrice": 4172,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Tropics",
+        "Plains"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "SuperRare"
+    }
+  },
+  {
+    "Id": 618,
+    "AppId": "bug_618",
+    "Icon": "allUI2_4.png",
+    "Name": "Pygmyfly",
+    "Description": "Small and red",
+    "SellPrice": 1672,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Desert",
+        "Plains"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 619,
+    "AppId": "bug_619",
+    "Icon": "allUI2_5.png",
+    "Name": "Tau Emerald Dragonfly",
+    "Description": "Pretty!",
+    "SellPrice": 2010,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Plains",
+        "Bushland"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Summer",
+        "Autum"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 620,
+    "AppId": "bug_620",
+    "Icon": "allUI2_6.png",
+    "Name": "Ladybird",
+    "Description": "Is this a bird or a bug?",
+    "SellPrice": 1900,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Pines",
+        "Plains"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Morning"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 621,
+    "AppId": "bug_621",
+    "Icon": "allUI2_7.png",
+    "Name": "Tiger Moth",
+    "Description": "Careful, tiger",
+    "SellPrice": 1360,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Bushland",
+        "Plains"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum",
+        "Winter"
+      ],
+      "TimeOfDay": [
+        "Night"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 622,
+    "AppId": "bug_622",
+    "Icon": "allUI2_8.png",
+    "Name": "Duskhawker DragonFly",
+    "Description": "Coolest name ever.",
+    "SellPrice": 2350,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Pines",
+        "Tropics"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 623,
+    "AppId": "bug_623",
+    "Icon": "allUI2_9.png",
+    "Name": "Largidae",
+    "Description": "It's not that large.",
+    "SellPrice": 780,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 624,
+    "AppId": "bug_624",
+    "Icon": "allUI2_10.png",
+    "Name": "Huntsman",
+    "Description": "It's scary, but nice.",
+    "SellPrice": 3552,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Desert",
+        "Bushland"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum",
+        "Winter"
+      ],
+      "TimeOfDay": [
         "Day",
         "Night"
       ],
-      "seasons": [
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 3552,
-    "image_url": "https://api.dinkumapi.com/images/bugs/huntsman.png"
+      "Rarity": "SuperRare"
+    }
   },
   {
-    "id": 22,
-    "name": "Lacewing",
-    "description": "Gentle!",
-    "habitats": [
-      "Pine Forests",
-      "Plains"
-    ],
-    "availability": {
-      "time": [
-        "Day"
+    "Id": 625,
+    "AppId": "bug_625",
+    "Icon": "allUI2_11.png",
+    "Name": "Blue Moon Butterfly",
+    "Description": "These are everywhere.",
+    "SellPrice": 290,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "All"
       ],
-      "seasons": [
-        "Summer",
-        "Spring"
-      ]
-    },
-    "sell_price": 1680,
-    "image_url": "https://api.dinkumapi.com/images/bugs/lacewing.png"
-  },
-  {
-    "id": 23,
-    "name": "Ladybird",
-    "description": "Is this a bird or a bug?",
-    "habitats": [
-      "Pine Forests",
-      "Plains"
-    ],
-    "availability": {
-      "time": [
-        "Morning"
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
       ],
-      "seasons": [
-        "Spring"
-      ]
-    },
-    "sell_price": 1900,
-    "image_url": "https://api.dinkumapi.com/images/bugs/ladybird.png"
-  },
-  {
-    "id": 24,
-    "name": "Largidae",
-    "description": "It's not that large.",
-    "habitats": [
-      "Everywhere"
-    ],
-    "availability": {
-      "time": [
-        "Day"
-      ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 780,
-    "image_url": "https://api.dinkumapi.com/images/bugs/largidae.png"
-  },
-  {
-    "id": 25,
-    "name": "Meadow Katydid",
-    "description": "Jumpin' for joy.",
-    "habitats": [
-      "Plains"
-    ],
-    "availability": {
-      "time": [
+      "TimeOfDay": [
         "Morning",
         "Day"
       ],
-      "seasons": [
-        "Spring",
-        "Autumn"
-      ]
-    },
-    "sell_price": 900,
-    "image_url": "https://api.dinkumapi.com/images/bugs/meadow-katydid.png"
+      "Rarity": "Common"
+    }
   },
   {
-    "id": 26,
-    "name": "Monarch Butterfly",
-    "description": "The queen of butterflies.",
-    "habitats": [
-      "Bushlands",
-      "Pine Forests"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day"
+    "Id": 626,
+    "AppId": "bug_626",
+    "Icon": "allUI2_13.png",
+    "Name": "Fiddler Beetle",
+    "Description": "The smallest fiddle in the world.",
+    "SellPrice": 2400,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Tropics",
+        "Bushland"
       ],
-      "seasons": [
-        "Spring"
-      ]
-    },
-    "sell_price": 3860,
-    "image_url": "https://api.dinkumapi.com/images/bugs/monarch-butterfly.png"
-  },
-  {
-    "id": 27,
-    "name": "Paper Wasp",
-    "description": "This thing kills spiders when it's hungry.",
-    "habitats": [
-      "Plains",
-      "Desert"
-    ],
-    "availability": {
-      "time": [
-        "Day"
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum",
+        "Winter"
       ],
-      "seasons": [
-        "Autumn"
-      ]
-    },
-    "sell_price": 990,
-    "image_url": "https://api.dinkumapi.com/images/bugs/paper-wasp.png"
-  },
-  {
-    "id": 28,
-    "name": "Peacock Spider",
-    "description": "A fancy little spider.",
-    "habitats": [
-      "Bushlands",
-      "Tropics"
-    ],
-    "availability": {
-      "time": [
+      "TimeOfDay": [
         "Morning"
       ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 1792,
-    "image_url": "https://api.dinkumapi.com/images/bugs/peacock-spider.png"
+      "Rarity": "Rare"
+    }
   },
   {
-    "id": 29,
-    "name": "Pygmyfly",
-    "description": "Small and red.",
-    "habitats": [
-      "Desert",
-      "Plains"
-    ],
-    "availability": {
-      "time": [
-        "Day"
+    "Id": 627,
+    "AppId": "bug_627",
+    "Icon": "allUI2_12.png",
+    "Name": "Stag Beetle",
+    "Description": "Look at the horns!",
+    "SellPrice": 4100,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "Tropics",
+        "Bushland"
       ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 1672,
-    "image_url": "https://api.dinkumapi.com/images/bugs/pygmyfly.png"
-  },
-  {
-    "id": 30,
-    "name": "Queen Bee",
-    "description": "The boss bee. Can start a hive.",
-    "habitats": [
-      "Pine Forests",
-      "Plains"
-    ],
-    "availability": {
-      "time": [
-        "Morning"
-      ],
-      "seasons": [
-        "Summer",
+      "WaterLocation": [],
+      "SeasonFound": [
         "Spring"
-      ]
-    },
-    "sell_price": 2300,
-    "image_url": "https://api.dinkumapi.com/images/bugs/queen-bee.png"
-  },
-  {
-    "id": 31,
-    "name": "Red Back Spider",
-    "description": "Very poisonous. Ain't it cute?",
-    "habitats": [
-      "Desert"
-    ],
-    "availability": {
-      "time": [
-        "Day",
-        "Night"
       ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn"
-      ]
-    },
-    "sell_price": 1552,
-    "image_url": "https://api.dinkumapi.com/images/bugs/red-back-spider.png"
-  },
-  {
-    "id": 32,
-    "name": "Rhinoceros Beetle",
-    "description": "It can't fly.",
-    "habitats": [
-      "Bushlands",
-      "Pine Forests"
-    ],
-    "availability": {
-      "time": [
-        "Morning"
-      ],
-      "seasons": [
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 1930,
-    "image_url": "https://api.dinkumapi.com/images/bugs/rhinosceros-beetle.png"
-  },
-  {
-    "id": 33,
-    "name": "Scarlet Jezebel Butterfly",
-    "description": "It's red... I guess?",
-    "habitats": [
-      "Everywhere"
-    ],
-    "availability": {
-      "time": [
+      "TimeOfDay": [
         "Day"
       ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 790,
-    "image_url": "https://api.dinkumapi.com/images/bugs/scarlet-jezebel-butterfly.png"
+      "Rarity": "SuperRare"
+    }
   },
   {
-    "id": 34,
-    "name": "Stag Beetle",
-    "description": "Look at the horns!",
-    "habitats": [
-      "Tropics",
-      "Bushlands"
-    ],
-    "availability": {
-      "time": [
-        "Day"
+    "Id": 630,
+    "AppId": "bug_630",
+    "Icon": "allUI2_16.png",
+    "Name": "Hercules Moth",
+    "Description": "This guy sounds tough.",
+    "SellPrice": 3000,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "All"
       ],
-      "seasons": [
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Winter",
         "Spring"
-      ]
-    },
-    "sell_price": 4100,
-    "image_url": "https://api.dinkumapi.com/images/bugs/stag-beetle.png"
-  },
-  {
-    "id": 35,
-    "name": "Stinkbug",
-    "description": "It stinks!",
-    "habitats": [
-      "Everywhere"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day",
+      ],
+      "TimeOfDay": [
         "Night"
       ],
-      "seasons": [
-        "Autumn"
-      ]
-    },
-    "sell_price": 300,
-    "image_url": "https://api.dinkumapi.com/images/bugs/stinkbug.png"
+      "Rarity": "SuperRare"
+    }
   },
   {
-    "id": 36,
-    "name": "Swallow-tail Butterfly",
-    "description": "It has a little tail.",
-    "habitats": [
-      "Tropics"
-    ],
-    "availability": {
-      "time": [
-        "Day"
+    "Id": 631,
+    "AppId": "bug_631",
+    "Icon": "allUI2_18.png",
+    "Name": "Centipede",
+    "Description": "There are at least 4 legs here.",
+    "SellPrice": 2220,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 1,
+      "LandLocation": [
+        "All"
       ],
-      "seasons": [
-        "Summer",
-        "Autumn"
-      ]
-    },
-    "sell_price": 990,
-    "image_url": "https://api.dinkumapi.com/images/bugs/swallow-tail-butterfly.png"
-  },
-  {
-    "id": 37,
-    "name": "Tau Emerald Dragonfly",
-    "description": "Pretty!",
-    "habitats": [
-      "Plains",
-      "Bushlands"
-    ],
-    "availability": {
-      "time": [
-        "Day"
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
       ],
-      "seasons": [
-        "Summer",
-        "Autumn"
-      ]
-    },
-    "sell_price": 2010,
-    "image_url": "https://api.dinkumapi.com/images/bugs/tau-emerald-dragonfly.png"
-  },
-  {
-    "id": 38,
-    "name": "Tiger Moth",
-    "description": "Careful, tiger.",
-    "habitats": [
-      "Plains",
-      "Bushlands"
-    ],
-    "availability": {
-      "time": [
+      "TimeOfDay": [
         "Night"
       ],
-      "seasons": [
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 1360,
-    "image_url": "https://api.dinkumapi.com/images/bugs/tiger-moth.png"
-  },
-  {
-    "id": 39,
-    "name": "Trogid",
-    "description": "It can't fly.",
-    "habitats": [
-      "Desert"
-    ],
-    "availability": {
-      "time": [
-        "Night"
-      ],
-      "seasons": [
-        "Spring",
-        "Autumn"
-      ]
-    },
-    "sell_price": 1400,
-    "image_url": "https://api.dinkumapi.com/images/bugs/trogoid.png"
-  },
-  {
-    "id": 40,
-    "name": "Ulysses Butterfly",
-    "description": "Nice bug, bro.",
-    "habitats": [
-      "Bushlands"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day"
-      ],
-      "seasons": [
-        "Summer",
-        "Spring"
-      ]
-    },
-    "sell_price": 660,
-    "image_url": "https://api.dinkumapi.com/images/bugs/ulysses-butterfly.png"
+      "Rarity": "VeryRare"
+    }
   }
 ]

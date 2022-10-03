@@ -1,7 +1,7 @@
 class ItemBasePresenter {
-  String itemId;
+  final String appId;
   String name;
-  String imageUrl;
+  String icon;
 
-  ItemBasePresenter(this.itemId, this.name, this.imageUrl);
+  ItemBasePresenter(this.appId, this.name, this.icon);
 }

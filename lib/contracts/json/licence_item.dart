@@ -11,16 +11,17 @@ import '../interface/item_base_presenter.dart';
 
 class LicenceItem extends ItemBasePresenter {
   final int id;
+  final String imageUrl;
   final String description;
   final List<LicenceLevel> levels;
 
   LicenceItem({
     required this.id,
     required name,
+    required this.imageUrl,
     required this.description,
     required this.levels,
-    required imageUrl,
-  }) : super(id.toString(), name, imageUrl);
+  }) : super(id.toString(), name, '');
 
   factory LicenceItem.fromJson(String str) =>
       LicenceItem.fromMap(json.decode(str));

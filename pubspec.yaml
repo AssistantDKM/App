@@ -70,17 +70,15 @@ flutter:
     - assets/lang/
 
     - assets/images/
-    - assets/images/bugs/
-    - assets/images/critters/
     - assets/images/drawer/
-    - assets/images/fish/
-    - assets/images/items/
-    - assets/images/licences/
     - assets/images/menu/
+    - assets/images/stats/
+    - assets/images/social/
+
+    - assets/images/inventory/
+    - assets/images/licences/
     - assets/images/milestones/
     - assets/images/people/
-    - assets/images/social/
-    - assets/images/stats/
 
   fonts:
     - family: Roboto

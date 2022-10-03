@@ -3,9 +3,8 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants/app_colour.dart';
-import '../../contracts/json/enum/food_effect.dart';
 
-Widget effectChipPresenter(BuildContext context, FoodEffect effect) {
+Widget effectChipPresenter(BuildContext context, dynamic effect) {
   String localImageStr = AppImage.customLoading;
   String valueStr = effect.value.toString();
   bool isMinuteBased = false;

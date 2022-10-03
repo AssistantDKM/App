@@ -1,699 +1,933 @@
 [
   {
-    "id": 1,
-    "name": "Anchovy",
-    "description": "So small.",
-    "habitats": [
-      "Southern Ocean"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Night"
+    "Id": 48,
+    "AppId": "fish_48",
+    "Icon": "allUI_117.png",
+    "Name": "Barcoo Grunter",
+    "Description": "Beep. Beep. Grunt.",
+    "SellPrice": 1290,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Rivers",
+        "Billabongs",
+        "Mangroves"
       ],
-      "seasons": [
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 4500,
-    "image_url": "https://api.dinkumapi.com/images/fish/anchovy.png"
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Common"
+    }
   },
   {
-    "id": 2,
-    "name": "Banded Morwong",
-    "description": "Good fish. You're not Morwong about that.",
-    "habitats": [
-      "Northern Ocean",
-      "Southern Ocean"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day",
-        "Night"
+    "Id": 49,
+    "AppId": "fish_49",
+    "Icon": "allUI_115.png",
+    "Name": "Barramundi",
+    "Description": "Thats good eatin' eh?",
+    "SellPrice": 8416,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Rivers"
       ],
-      "seasons": [
-        "Winter"
-      ]
-    },
-    "sell_price": 4320,
-    "image_url": "https://api.dinkumapi.com/images/fish/banded-morwong.png"
-  },
-  {
-    "id": 3,
-    "name": "Barcoo Grunter",
-    "description": "Beep. Beep. Grunt.",
-    "habitats": [
-      "Rivers",
-      "Billabongs",
-      "Mangroves"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day",
-        "Night"
-      ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 1290,
-    "image_url": "https://api.dinkumapi.com/images/fish/banded-morwong.png"
-  },
-  {
-    "id": 4,
-    "name": "Barracuda",
-    "description": "Oooooo.",
-    "habitats": [
-      "Northern Ocean"
-    ],
-    "availability": {
-      "time": [
-        "Night"
-      ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn"
-      ]
-    },
-    "sell_price": 16000,
-    "image_url": "https://api.dinkumapi.com/images/fish/barracuda.png"
-  },
-  {
-    "id": 5,
-    "name": "Barramundi",
-    "description": "That's good eatin' eh?",
-    "habitats": [
-      "Rivers"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day",
-        "Night"
-      ],
-      "seasons": [
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 8416,
-    "image_url": "https://api.dinkumapi.com/images/fish/barramundi.png"
-  },
-  {
-    "id": 6,
-    "name": "Blackfish",
-    "description": "A black fish!",
-    "habitats": [
-      "Billabongs",
-      "Rivers"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day",
-        "Night"
-      ],
-      "seasons": [
+      "SeasonFound": [
+        "Autum",
+        "Winter",
         "Spring"
-      ]
-    },
-    "sell_price": 3908,
-    "image_url": "https://api.dinkumapi.com/images/fish/blackfish.png"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "VeryRare"
+    }
   },
   {
-    "id": 7,
-    "name": "Black & White Snapper",
-    "description": "Snap.",
-    "habitats": [
-      "Northern Ocean",
-      "Southern Ocean"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day",
-        "Night"
+    "Id": 50,
+    "AppId": "fish_50",
+    "Icon": "allUI_118.png",
+    "Name": "River Bass",
+    "Description": "A fresh water bass. Ain't rare.",
+    "SellPrice": 2784,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Rivers",
+        "Mangroves"
       ],
-      "seasons": [
-        "Spring",
-        "Autumn"
-      ]
-    },
-    "sell_price": 1992,
-    "image_url": "https://api.dinkumapi.com/images/fish/black-and-white-snapper.png"
-  },
-  {
-    "id": 8,
-    "name": "Blob Fish",
-    "description": "What is this?",
-    "habitats": [
-      "Southern Ocean"
-    ],
-    "availability": {
-      "time": [
-        "Night"
-      ],
-      "seasons": [
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 100,
-    "image_url": "https://api.dinkumapi.com/images/fish/blob-fish.png"
-  },
-  {
-    "id": 9,
-    "name": "Blue Sport Flathead",
-    "description": "It's head is flat and it's eyes are on top.",
-    "habitats": [
-      "Northern Ocean",
-      "Southern Ocean"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day"
-      ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn"
-      ]
-    },
-    "sell_price": 998,
-    "image_url": "https://api.dinkumapi.com/images/fish/blue-spotted-flathead.png"
-  },
-  {
-    "id": 10,
-    "name": "Bluefish",
-    "description": "An ocean fish that is blue.",
-    "habitats": [
-      "Northern Ocean",
-      "Southern Ocean"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day",
-        "Night"
-      ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 1560,
-    "image_url": "https://api.dinkumapi.com/images/fish/bluefish.png"
-  },
-  {
-    "id": 11,
-    "name": "Bonytongue",
-    "description": "Cheeky fish.",
-    "habitats": [
-      "Billabongs"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day",
-        "Night"
-      ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 3308,
-    "image_url": "https://api.dinkumapi.com/images/fish/bonytongue.png"
-  },
-  {
-    "id": 12,
-    "name": "Boofhead Catfish",
-    "description": "Bit of a mean name.",
-    "habitats": [
-      "Mangroves"
-    ],
-    "availability": {
-      "time": [
-        "Night"
-      ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn"
-      ]
-    },
-    "sell_price": 2103,
-    "image_url": "https://api.dinkumapi.com/images/fish/boofhead-catfish.png"
-  },
-  {
-    "id": 13,
-    "name": "Carp",
-    "description": "Latin the day.",
-    "habitats": [
-      "Rivers",
-      "Mangroves"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day",
-        "Night"
-      ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 1996,
-    "image_url": "https://api.dinkumapi.com/images/fish/carp.png"
-  },
-  {
-    "id": 14,
-    "name": "Eel Tailed Catfish",
-    "description": "Gross tail!",
-    "habitats": [
-      "Mangroves"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day",
-        "Night"
-      ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 1408,
-    "image_url": "https://api.dinkumapi.com/images/fish/eel-tailed-catfish.png"
-  },
-  {
-    "id": 15,
-    "name": "Eyestripe Surgeon Fish",
-    "description": "This guy is a doctor.",
-    "habitats": [
-      "Northern Ocean"
-    ],
-    "availability": {
-      "time": [
-        "Day"
-      ],
-      "seasons": [
+      "SeasonFound": [
         "Summer",
         "Spring"
-      ]
-    },
-    "sell_price": 3996,
-    "image_url": "https://api.dinkumapi.com/images/fish/eyestripe-surgeon-fish.png"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Common"
+    }
   },
   {
-    "id": 16,
-    "name": "Galaxias",
-    "description": "Tiny and bright.",
-    "habitats": [
-      "Rivers"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day",
-        "Night"
+    "Id": 52,
+    "AppId": "fish_52",
+    "Icon": "allUI_120.png",
+    "Name": "Jungle Perch",
+    "Description": "Welcome to the river. We've got perch.",
+    "SellPrice": 1200,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Rivers",
+        "Billabongs"
       ],
-      "seasons": [
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 200,
+    "AppId": "fish_200",
+    "Icon": "allUI_26.png",
+    "Name": "Banded Morwong",
+    "Description": "Good fish. You're not Morwong about that.",
+    "SellPrice": 4320,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean"
+      ],
+      "SeasonFound": [
         "Winter"
-      ]
-    },
-    "sell_price": 4808,
-    "image_url": "https://api.dinkumapi.com/images/fish/galaxias.png"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Uncommon"
+    }
   },
   {
-    "id": 17,
-    "name": "Garfish",
-    "description": "It hates Mondays.",
-    "habitats": [
-      "Northern Ocean",
-      "Southern Ocean"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day",
-        "Night"
+    "Id": 201,
+    "AppId": "fish_201",
+    "Icon": "allUI_27.png",
+    "Name": "Bluefish",
+    "Description": "An ocean fish that is blue.",
+    "SellPrice": 1560,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean"
       ],
-      "seasons": [
-        "Spring",
-        "Winter"
-      ]
-    },
-    "sell_price": 2346,
-    "image_url": "https://api.dinkumapi.com/images/fish/garfish.png"
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Uncommon"
+    }
   },
   {
-    "id": 18,
-    "name": "Goat Fish",
-    "description": "It's not a fish?",
-    "habitats": [
-      "Southern Ocean"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day",
-        "Night"
+    "Id": 202,
+    "AppId": "fish_202",
+    "Icon": "allUI_116.png",
+    "Name": "Garfish",
+    "Description": "It hates mondays.",
+    "SellPrice": 2346,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean"
       ],
-      "seasons": [
-        "Summer",
+      "SeasonFound": [
+        "Winter",
         "Spring"
-      ]
-    },
-    "sell_price": 3200,
-    "image_url": "https://api.dinkumapi.com/images/fish/goat-fish.png"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Uncommon"
+    }
   },
   {
-    "id": 19,
-    "name": "Golden Perch",
-    "description": "Gold belly on this Perch.",
-    "habitats": [
-      "Rivers"
-    ],
-    "availability": {
-      "time": [
+    "Id": 203,
+    "AppId": "fish_203",
+    "Icon": "allUI_30.png",
+    "Name": "Golden Perch",
+    "Description": "Gold belly on this Perch",
+    "SellPrice": 4384,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Rivers"
+      ],
+      "SeasonFound": [
+        "Spring"
+      ],
+      "TimeOfDay": [
         "Morning"
       ],
-      "seasons": [
+      "Rarity": "VeryRare"
+    }
+  },
+  {
+    "Id": 204,
+    "AppId": "fish_204",
+    "Icon": "allUI_119.png",
+    "Name": "Mangrove Jack",
+    "Description": "Jack?",
+    "SellPrice": 3498,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Mangroves"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 205,
+    "AppId": "fish_205",
+    "Icon": "allUI_29.png",
+    "Name": "Luderick",
+    "Description": "This is a Luderick-us fish.",
+    "SellPrice": 4160,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean"
+      ],
+      "SeasonFound": [
+        "Winter"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 206,
+    "AppId": "fish_206",
+    "Icon": "allUI_28.png",
+    "Name": "Blue Spot Flathead",
+    "Description": "Its head is flat and its eyes are on top.",
+    "SellPrice": 998,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean"
+      ],
+      "SeasonFound": [
+        "Summer",
+        "Autum",
         "Spring"
-      ]
-    },
-    "sell_price": 4384,
-    "image_url": "https://api.dinkumapi.com/images/fish/golden-perch.png"
-  },
-  {
-    "id": 20,
-    "name": "Grayling",
-    "description": "What's a full grown gray look like?",
-    "habitats": [
-      "Billabongs",
-      "Rivers"
-    ],
-    "availability": {
-      "time": [
+      ],
+      "TimeOfDay": [
+        "Morning",
         "Day"
       ],
-      "seasons": [
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 2508,
-    "image_url": "https://api.dinkumapi.com/images/fish/grayling.png"
+      "Rarity": "Common"
+    }
   },
   {
-    "id": 21,
-    "name": "Jungle Perch",
-    "description": "Welcome to the river. We've got perch.",
-    "habitats": [
-      "Billabongs",
-      "Rivers"
-    ],
-    "availability": {
-      "time": [
+    "Id": 207,
+    "AppId": "fish_207",
+    "Icon": "allUI_25.png",
+    "Name": "Travalla",
+    "Description": "I will call him Trevor.",
+    "SellPrice": 7800,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean"
+      ],
+      "SeasonFound": [
+        "Autum",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 208,
+    "AppId": "fish_208",
+    "Icon": "allUI_24.png",
+    "Name": "Yellowfin Tuna",
+    "Description": "A massive fish!",
+    "SellPrice": 24600,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean"
+      ],
+      "SeasonFound": [
+        "Spring",
+        "Autum"
+      ],
+      "TimeOfDay": [
         "Morning",
-        "Day",
         "Night"
       ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 1200,
-    "image_url": "https://api.dinkumapi.com/images/fish/jungle-perch.png"
+      "Rarity": "SuperRare"
+    }
   },
   {
-    "id": 22,
-    "name": "Luderick",
-    "description": "This is a Luderick-us fish.",
-    "habitats": [
-      "Northern Ocean"
-    ],
-    "availability": {
-      "time": [
+    "Id": 333,
+    "AppId": "fish_333",
+    "Icon": "allUI_121.png",
+    "Name": "Carp",
+    "Description": "Latin the day.",
+    "SellPrice": 1996,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Rivers",
+        "Mangroves"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 334,
+    "AppId": "fish_334",
+    "Icon": "allUI_122.png",
+    "Name": "Eyestripe Surgeon Fish",
+    "Description": "This guy is a doctor.",
+    "SellPrice": 3996,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean"
+      ],
+      "SeasonFound": [
+        "Summer",
+        "Spring"
+      ],
+      "TimeOfDay": [
         "Day"
       ],
-      "seasons": [
-        "Winter"
-      ]
-    },
-    "sell_price": 4160,
-    "image_url": "https://api.dinkumapi.com/images/fish/luderick.png"
+      "Rarity": "Rare"
+    }
   },
   {
-    "id": 23,
-    "name": "Mangrove Jack",
-    "description": "Jack?",
-    "habitats": [
-      "Mangroves"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day",
+    "Id": 335,
+    "AppId": "fish_335",
+    "Icon": "allUI_123.png",
+    "Name": "Black & White Snapper",
+    "Description": "Snap.",
+    "SellPrice": 1992,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean",
+        "SouthOcean"
+      ],
+      "SeasonFound": [
+        "Autum",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 336,
+    "AppId": "fish_336",
+    "Icon": "allUI_124.png",
+    "Name": "Boofhead Catfish",
+    "Description": "Bit of a mean name.",
+    "SellPrice": 2103,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Mangroves"
+      ],
+      "SeasonFound": [
+        "Summer",
+        "Autum",
+        "Spring"
+      ],
+      "TimeOfDay": [
         "Night"
       ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 3498,
-    "image_url": "https://api.dinkumapi.com/images/fish/mangrove-jack.png"
+      "Rarity": "Common"
+    }
   },
   {
-    "id": 24,
-    "name": "Marlin",
-    "description": "Big fish, big nose.",
-    "habitats": [
-      "Southern Ocean"
-    ],
-    "availability": {
-      "time": [
-        "Day"
+    "Id": 337,
+    "AppId": "fish_337",
+    "Icon": "allUI_125.png",
+    "Name": "Murray Cod",
+    "Description": "A massive fish!",
+    "SellPrice": 10400,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Rivers"
       ],
-      "seasons": [
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 20200,
-    "image_url": "https://api.dinkumapi.com/images/fish/marlin.png"
-  },
-  {
-    "id": 25,
-    "name": "Murray Cod",
-    "description": "A massive fish!",
-    "habitats": [
-      "Rivers"
-    ],
-    "availability": {
-      "time": [
+      "SeasonFound": [
+        "Winter",
+        "Spring"
+      ],
+      "TimeOfDay": [
         "Morning"
       ],
-      "seasons": [
-        "Spring",
-        "Winter"
-      ]
-    },
-    "sell_price": 10400,
-    "image_url": "https://api.dinkumapi.com/images/fish/murray-cod.png"
+      "Rarity": "VeryRare"
+    }
   },
   {
-    "id": 26,
-    "name": "River Bass",
-    "description": "A fresh water bass. Ain't rare.",
-    "habitats": [
-      "Rivers",
-      "Mangroves"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day",
+    "Id": 338,
+    "AppId": "fish_338",
+    "Icon": "allUI_126.png",
+    "Name": "Eel Tailed Catfish",
+    "Description": "Gross tail!",
+    "SellPrice": 1408,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Mangroves"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 339,
+    "AppId": "fish_339",
+    "Icon": "allUI_127.png",
+    "Name": "Stingray",
+    "Description": "Is this a fish?",
+    "SellPrice": 3396,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean"
+      ],
+      "SeasonFound": [
+        "Summer",
+        "Autum"
+      ],
+      "TimeOfDay": [
         "Night"
       ],
-      "seasons": [
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 484,
+    "AppId": "fish_484",
+    "Icon": "allUI_247.png",
+    "Name": "Bonytongue",
+    "Description": "Cheeky fish.",
+    "SellPrice": 3308,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Billabongs"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 605,
+    "AppId": "fish_605",
+    "Icon": "allUI_250.png",
+    "Name": "Blackfish",
+    "Description": "A black fish!",
+    "SellPrice": 3908,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Billabongs",
+        "Rivers"
+      ],
+      "SeasonFound": [
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 606,
+    "AppId": "fish_606",
+    "Icon": "allUI_248.png",
+    "Name": "Galaxias",
+    "Description": "Tiny and bright.",
+    "SellPrice": 4808,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Rivers"
+      ],
+      "SeasonFound": [
+        "Winter"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 607,
+    "AppId": "fish_607",
+    "Icon": "allUI_249.png",
+    "Name": "Silver Perch",
+    "Description": "Shiny",
+    "SellPrice": 1708,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Rivers",
+        "Billabongs"
+      ],
+      "SeasonFound": [
+        "Winter",
+        "Autum"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 608,
+    "AppId": "fish_608",
+    "Icon": "allUI_253.png",
+    "Name": "Anchovy",
+    "Description": "So small.",
+    "SellPrice": 4620,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "SouthOcean"
+      ],
+      "SeasonFound": [
+        "Winter",
+        "Autum"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Night"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 609,
+    "AppId": "fish_609",
+    "Icon": "allUI_251.png",
+    "Name": "Goat Fish",
+    "Description": "It's not a fish?",
+    "SellPrice": 3200,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "SouthOcean"
+      ],
+      "SeasonFound": [
         "Summer",
         "Spring"
-      ]
-    },
-    "sell_price": 2784,
-    "image_url": "https://api.dinkumapi.com/images/fish/river-bass.png"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Rare"
+    }
   },
   {
-    "id": 27,
-    "name": "Saratoga",
-    "description": "It might be Roman?",
-    "habitats": [
-      "Billabongs"
-    ],
-    "availability": {
-      "time": [
+    "Id": 610,
+    "AppId": "fish_610",
+    "Icon": "allUI_252.png",
+    "Name": "Barracuda",
+    "Description": "Oooooo",
+    "SellPrice": 16000,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "NorthOcean"
+      ],
+      "SeasonFound": [
+        "Summer",
+        "Autum",
+        "Spring"
+      ],
+      "TimeOfDay": [
         "Night"
       ],
-      "seasons": [
-        "Summer",
-        "Autumn"
-      ]
-    },
-    "sell_price": 7616,
-    "image_url": "https://api.dinkumapi.com/images/fish/saratoga.png"
+      "Rarity": "Rare"
+    }
   },
   {
-    "id": 28,
-    "name": "Short Finned Eel",
-    "description": "Like a water snake.",
-    "habitats": [
-      "Billabongs"
-    ],
-    "availability": {
-      "time": [
+    "Id": 611,
+    "AppId": "fish_611",
+    "Icon": "allUI_254.png",
+    "Name": "Blob Fish",
+    "Description": "What is this?",
+    "SellPrice": 100,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "SouthOcean"
+      ],
+      "SeasonFound": [
+        "Winter",
+        "Autum"
+      ],
+      "TimeOfDay": [
         "Night"
       ],
-      "seasons": [
+      "Rarity": "SuperRare"
+    }
+  },
+  {
+    "Id": 612,
+    "AppId": "fish_612",
+    "Icon": "allUI_187.png",
+    "Name": "Saratoga",
+    "Description": "It might be roman?",
+    "SellPrice": 7616,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Billabongs"
+      ],
+      "SeasonFound": [
         "Summer",
-        "Spring",
-        "Autumn",
+        "Autum"
+      ],
+      "TimeOfDay": [
+        "Night"
+      ],
+      "Rarity": "VeryRare"
+    }
+  },
+  {
+    "Id": 613,
+    "AppId": "fish_613",
+    "Icon": "allUI_255.png",
+    "Name": "Tarpon",
+    "Description": "A billabong shark.",
+    "SellPrice": 3960,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Billabongs"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 628,
+    "AppId": "fish_628",
+    "Icon": "allUI2_14.png",
+    "Name": "Marlin",
+    "Description": "Big fish, big nose.",
+    "SellPrice": 20200,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "SouthOcean"
+      ],
+      "SeasonFound": [
+        "Winter",
+        "Autum"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "SuperRare"
+    }
+  },
+  {
+    "Id": 629,
+    "AppId": "fish_629",
+    "Icon": "allUI2_15.png",
+    "Name": "Grayling",
+    "Description": "Whats a full grown gray look like?",
+    "SellPrice": 2508,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Billabongs",
+        "Rivers"
+      ],
+      "SeasonFound": [
+        "Autum",
         "Winter"
-      ]
-    },
-    "sell_price": 3008,
-    "image_url": "https://api.dinkumapi.com/images/fish/short-finned-eel.png"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "Uncommon"
+    }
   },
   {
-    "id": 29,
-    "name": "Silver Perch",
-    "description": "Shiny.",
-    "habitats": [
-      "Rivers",
-      "Billabongs"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day",
+    "Id": 632,
+    "AppId": "fish_632",
+    "Icon": "allUI2_17.png",
+    "Name": "Short Finned Eel",
+    "Description": "Like a water snake.",
+    "SellPrice": 3008,
+    "IsStackable": false,
+    "Equipable": 0,
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": 2,
+      "LandLocation": [],
+      "WaterLocation": [
+        "Billabongs"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
         "Night"
       ],
-      "seasons": [
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 1708,
-    "image_url": "https://api.dinkumapi.com/images/fish/silver-perch.png"
-  },
-  {
-    "id": 30,
-    "name": "Stingray",
-    "description": "Is this a fish?",
-    "habitats": [
-      "Northern Ocean"
-    ],
-    "availability": {
-      "time": [
-        "Night"
-      ],
-      "seasons": [
-        "Summer",
-        "Autumn"
-      ]
-    },
-    "sell_price": 3396,
-    "image_url": "https://api.dinkumapi.com/images/fish/stingray.png"
-  },
-  {
-    "id": 31,
-    "name": "Tarpon",
-    "description": "A billabong shark.",
-    "habitats": [
-      "Billabongs"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day",
-        "Night"
-      ],
-      "seasons": [
-        "Summer",
-        "Spring",
-        "Autumn",
-        "Winter"
-      ]
-    },
-    "sell_price": 3960,
-    "image_url": "https://api.dinkumapi.com/images/fish/tarpon.png"
-  },
-  {
-    "id": 32,
-    "name": "Trevalla",
-    "description": "I will call him Trevor.",
-    "habitats": [
-      "Northern Ocean"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Day",
-        "Night"
-      ],
-      "seasons": [
-        "Spring",
-        "Autumn"
-      ]
-    },
-    "sell_price": 7800,
-    "image_url": "https://api.dinkumapi.com/images/fish/trevalla.png"
-  },
-  {
-    "id": 33,
-    "name": "Yellowfin Tuna",
-    "description": "A massive fish!",
-    "habitats": [
-      "Northern Ocean",
-      "Southern Ocean"
-    ],
-    "availability": {
-      "time": [
-        "Morning",
-        "Night"
-      ],
-      "seasons": [
-        "Spring",
-        "Autumn"
-      ]
-    },
-    "sell_price": 24600,
-    "image_url": "https://api.dinkumapi.com/images/fish/yellowfin-tuna.png"
+      "Rarity": "Rare"
+    }
   }
 ]

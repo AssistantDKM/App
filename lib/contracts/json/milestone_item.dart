@@ -11,6 +11,7 @@ import 'milestone_level.dart';
 
 class MilestoneItem extends ItemBasePresenter {
   final int id;
+  final String imageUrl;
   final String description;
   final List<MilestoneLevel> levels;
 
@@ -19,8 +20,8 @@ class MilestoneItem extends ItemBasePresenter {
     required name,
     required this.description,
     required this.levels,
-    required imageUrl,
-  }) : super(id.toString(), name, imageUrl);
+    required this.imageUrl,
+  }) : super(id.toString(), name, '');
 
   factory MilestoneItem.fromJson(String str) =>
       MilestoneItem.fromMap(json.decode(str));
