@@ -72,7 +72,7 @@ class LicenceDetailsPage extends StatelessWidget {
       isInDetailPane: isInDetailPane,
       getItemFunc: () => getLicenceRepo().getItem(context, itemId),
       getName: (loadedItem) => loadedItem.name,
-      contractToWidgetList: (loadedItem) {
+      contractToWidgetList: (loadedItem, isInDetailPane) {
         List<Widget> descripWidgets = [
           Center(child: localImage(networkImageToLocal(loadedItem.imageUrl))),
           genericItemName(loadedItem.name),

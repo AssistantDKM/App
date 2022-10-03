@@ -4,12 +4,15 @@ import 'package:flutter/cupertino.dart';
 import '../../contracts/json/inventory_item.dart';
 import '../../contracts/json/inventory_item_craftable_required.dart';
 import '../../contracts/json/inventory_item_creature.dart';
+import '../../pages/inventory_pages.dart';
 import '../tilePreseneters/required_item_tile_presenter.dart';
 import 'item_page_components.dart';
 
 List<Widget> commonInventoryContents(
   BuildContext contentsContext,
   InventoryItem loadedItem,
+  bool isInDetailPane,
+  void Function(Widget newDetailView)? updateDetailView,
 ) {
   List<Widget> descripWidgets = [
     Center(child: localImage('inventory/${loadedItem.icon}')),
@@ -31,7 +34,20 @@ List<Widget> commonInventoryContents(
       //   ),
       // ));
       descripWidgets.add(flatCard(
-        child: requiredItemTilePresenter(contentsContext, required, 0),
+        child: requiredItemTilePresenter(
+          contentsContext,
+          required,
+          onTap: (isInDetailPane && updateDetailView != null)
+              ? () => updateDetailView(
+                    InventoryDetailsPage(
+                      required.appId,
+                      title: required.appId.toString(),
+                      isInDetailPane: isInDetailPane,
+                      updateDetailView: updateDetailView,
+                    ),
+                  )
+              : null,
+        ),
       ));
     }
   }

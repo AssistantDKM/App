@@ -72,7 +72,7 @@ class PeopleDetailsPage extends StatelessWidget {
       isInDetailPane: isInDetailPane,
       getItemFunc: () => getPeopleRepo().getItem(context, itemId),
       getName: (loadedItem) => loadedItem.name,
-      contractToWidgetList: (loadedItem) {
+      contractToWidgetList: (loadedItem, isInDetailPane) {
         List<Widget> descripWidgets = [
           Center(
             child: ConstrainedBox(

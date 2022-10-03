@@ -10,7 +10,8 @@ class ItemDetailsPage<T extends ItemBasePresenter> extends StatelessWidget {
   final Future<ResultWithValue<T>> Function() getItemFunc;
   final bool isInDetailPane;
   final String Function(T loadedItem) getName;
-  final List<Widget> Function(T loadedItem) contractToWidgetList;
+  final List<Widget> Function(T loadedItem, bool isInDetailPane)
+      contractToWidgetList;
   final void Function(Widget newDetailView)? updateDetailView;
 
   ItemDetailsPage({
@@ -76,7 +77,7 @@ class ItemDetailsPage<T extends ItemBasePresenter> extends StatelessWidget {
     }
 
     List<Widget> widgets = [emptySpace1x()];
-    widgets.addAll(contractToWidgetList(snapshot.value));
+    widgets.addAll(contractToWidgetList(snapshot.value, isInDetailPane));
     widgets.add(emptySpace10x());
 
     return listWithScrollbar(

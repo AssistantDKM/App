@@ -1,4 +1,5 @@
 import 'package:assistant_dinkum_app/constants/app_image.dart';
+import 'package:assistant_dinkum_app/contracts/json/inventory_item.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ Widget itemBaseTilePresenter(
       imgChild = localImage(networkImageToLocal((item as dynamic).imageUrl));
     }
   }
-  if ((item as dynamic).hidden == true) {
+  if (item is InventoryItem && item.hidden) {
     return ListTile(
       leading: genericTileImage(AppImage.unknown),
       title: Text(item.name.characters.map((e) => '-').join('')),

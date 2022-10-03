@@ -76,9 +76,12 @@ class InventoryDetailsPage extends StatelessWidget {
           appId,
         ),
         getName: (loadedItem) => loadedItem.name,
-        contractToWidgetList: (loadedItem) => commonInventoryContents(
+        contractToWidgetList: (loadedItem, isInDetailPane) =>
+            commonInventoryContents(
           redxContext,
           loadedItem,
+          isInDetailPane,
+          updateDetailView,
         ),
       ),
     );
