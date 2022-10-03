@@ -7,7 +7,7 @@
     "Description": "Throw some stuff on this. It will then cook.",
     "SellPrice": 17000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -20,7 +20,7 @@
     "Description": "Get those little materials out of those big ol' stones. Or turn regular rocks into cement.",
     "SellPrice": 5000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -33,7 +33,7 @@
     "Description": "",
     "SellPrice": 650,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -46,7 +46,7 @@
     "Description": "Double Bed",
     "SellPrice": 604,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -59,7 +59,7 @@
     "Description": "Sorry, you can only put coffee on this puppy.",
     "SellPrice": 258,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -72,7 +72,7 @@
     "Description": "A single chair for sitting.",
     "SellPrice": 550,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -85,7 +85,7 @@
     "Description": "A Couch. You can sit on it with a friend",
     "SellPrice": 984,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -98,7 +98,7 @@
     "Description": "Small and round. Awesome.",
     "SellPrice": 327,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -111,7 +111,7 @@
     "Description": "Put skeletons in here.",
     "SellPrice": 554,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -124,7 +124,7 @@
     "Description": "A faster furnace that can also process Iron Ore",
     "SellPrice": 15400,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -137,7 +137,7 @@
     "Description": "Hey red bed. That rhymes.",
     "SellPrice": 667,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -150,7 +150,7 @@
     "Description": "A single chair for sitting.",
     "SellPrice": 210,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -163,7 +163,7 @@
     "Description": "A wooden table.",
     "SellPrice": 371,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -176,7 +176,7 @@
     "Description": "A wooden table for beside your bed.",
     "SellPrice": 302,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -189,7 +189,7 @@
     "Description": "Put stuff in here.",
     "SellPrice": 389,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -202,7 +202,7 @@
     "Description": "A wooden table.",
     "SellPrice": 300,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -215,7 +215,7 @@
     "Description": "A bed for one.",
     "SellPrice": 30,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -228,7 +228,7 @@
     "Description": "An Arm Chair",
     "SellPrice": 899,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -241,7 +241,7 @@
     "Description": "A Sofa",
     "SellPrice": 1300,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -254,7 +254,7 @@
     "Description": "Wooden chair",
     "SellPrice": 435,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -267,7 +267,7 @@
     "Description": "Its soft.",
     "SellPrice": 762,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -280,7 +280,7 @@
     "Description": "A white single person chair",
     "SellPrice": 340,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -293,7 +293,7 @@
     "Description": "A small white coffee table.",
     "SellPrice": 432,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -306,7 +306,7 @@
     "Description": "A large white table.",
     "SellPrice": 578,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -319,7 +319,7 @@
     "Description": "A long coffee table.",
     "SellPrice": 410,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -332,7 +332,7 @@
     "Description": "A white 2 seat chair.",
     "SellPrice": 819,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -345,7 +345,7 @@
     "Description": "A double bed.",
     "SellPrice": 1245,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -358,7 +358,7 @@
     "Description": "A set of drawers for beside the bed.",
     "SellPrice": 856,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -371,7 +371,7 @@
     "Description": "A set of drawers.",
     "SellPrice": 1002,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -384,7 +384,7 @@
     "Description": "A tall of drawers.",
     "SellPrice": 899,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -397,7 +397,7 @@
     "Description": "A bed.",
     "SellPrice": 1088,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -410,7 +410,7 @@
     "Description": "A bedside table.",
     "SellPrice": 600,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -423,7 +423,7 @@
     "Description": "A chair",
     "SellPrice": 610,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -436,7 +436,7 @@
     "Description": "A coffee table",
     "SellPrice": 873,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -449,7 +449,7 @@
     "Description": "A set of drawers",
     "SellPrice": 652,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -462,7 +462,7 @@
     "Description": "A large table.",
     "SellPrice": 569,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -475,7 +475,7 @@
     "Description": "Lights up house.",
     "SellPrice": 380,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -488,7 +488,7 @@
     "Description": "For feet.",
     "SellPrice": 210,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -501,7 +501,7 @@
     "Description": "A sofa. Seats 2.",
     "SellPrice": 953,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -514,7 +514,7 @@
     "Description": "A white chair.",
     "SellPrice": 706,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -527,7 +527,7 @@
     "Description": "A white ottoman",
     "SellPrice": 268,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -540,7 +540,7 @@
     "Description": "A Small white bedside table.",
     "SellPrice": 923,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -553,7 +553,7 @@
     "Description": "A Small white bedside table.",
     "SellPrice": 620,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -566,7 +566,7 @@
     "Description": "White Drawers",
     "SellPrice": 693,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -579,7 +579,7 @@
     "Description": "Fern Vase",
     "SellPrice": 103,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -592,7 +592,7 @@
     "Description": "Purple Vase",
     "SellPrice": 244,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -605,7 +605,7 @@
     "Description": "Yellow Wattle Vase",
     "SellPrice": 300,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -618,7 +618,7 @@
     "Description": "Kitchen Cabinet",
     "SellPrice": 600,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -631,7 +631,7 @@
     "Description": "Kitchen Oven",
     "SellPrice": 700,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -644,7 +644,7 @@
     "Description": "Kitchen Sink",
     "SellPrice": 600,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -657,7 +657,7 @@
     "Description": "A chair",
     "SellPrice": 653,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -670,7 +670,7 @@
     "Description": "A Short Table",
     "SellPrice": 1100,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -683,7 +683,7 @@
     "Description": "A standing lamp",
     "SellPrice": 758,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -696,7 +696,7 @@
     "Description": "An Armchair",
     "SellPrice": 1088,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -709,7 +709,7 @@
     "Description": "A bed.",
     "SellPrice": 1088,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -722,7 +722,7 @@
     "Description": "A bedside table.",
     "SellPrice": 1088,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -735,7 +735,7 @@
     "Description": "A one person chair.",
     "SellPrice": 1088,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -748,7 +748,7 @@
     "Description": "A lamp",
     "SellPrice": 1088,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -761,7 +761,7 @@
     "Description": "A sofa. Seats 2.",
     "SellPrice": 1088,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -774,7 +774,7 @@
     "Description": "A long table.",
     "SellPrice": 1088,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -787,7 +787,7 @@
     "Description": "Chest of Drawers.",
     "SellPrice": 1088,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -800,7 +800,7 @@
     "Description": "Can cut wood into planks.",
     "SellPrice": 2600,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -813,7 +813,7 @@
     "Description": "A bed on the go.",
     "SellPrice": 0,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -826,7 +826,7 @@
     "Description": "A Desert Rose in a pot.",
     "SellPrice": 480,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -839,7 +839,7 @@
     "Description": "A decorative bowl of fruit.",
     "SellPrice": 440,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -852,7 +852,7 @@
     "Description": "A clock. With an alarm.",
     "SellPrice": 5540,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -865,7 +865,7 @@
     "Description": "A big old clock.",
     "SellPrice": 1288,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -878,7 +878,7 @@
     "Description": "Its all gooey.",
     "SellPrice": 1088,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -891,7 +891,7 @@
     "Description": "It's small and cute",
     "SellPrice": 6088,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -904,7 +904,7 @@
     "Description": "A wood floor.",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -917,7 +917,7 @@
     "Description": "A wood wallpaper.",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -930,7 +930,7 @@
     "Description": "A fainty floor",
     "SellPrice": 450,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -943,7 +943,7 @@
     "Description": "A regal rug.",
     "SellPrice": 1450,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -956,7 +956,7 @@
     "Description": "A fainty wallpaper",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -969,7 +969,7 @@
     "Description": "Like a chess board!",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -982,7 +982,7 @@
     "Description": "White Slates",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -995,7 +995,7 @@
     "Description": "Blue Slates",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1008,7 +1008,7 @@
     "Description": "Black and white!",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1021,7 +1021,7 @@
     "Description": "Patterned",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1034,7 +1034,7 @@
     "Description": "Patterned",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1047,7 +1047,7 @@
     "Description": "Patterned",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1060,7 +1060,7 @@
     "Description": "Patterned",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1073,7 +1073,7 @@
     "Description": "A dark wood wallpaper.",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1086,7 +1086,7 @@
     "Description": "A dark wood floor.",
     "SellPrice": 750,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1099,7 +1099,7 @@
     "Description": "Soft on the toes",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1112,7 +1112,7 @@
     "Description": "Stripes",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1125,7 +1125,7 @@
     "Description": "Stripes",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1138,7 +1138,7 @@
     "Description": "Stripes",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1151,7 +1151,7 @@
     "Description": "Patterned",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1164,7 +1164,7 @@
     "Description": "Eastern Chair",
     "SellPrice": 435,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1177,7 +1177,7 @@
     "Description": "A single chair for sitting.",
     "SellPrice": 550,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1190,7 +1190,7 @@
     "Description": "Sleep here.",
     "SellPrice": 30,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1203,7 +1203,7 @@
     "Description": "A wooden table for beside your bed.",
     "SellPrice": 302,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1216,7 +1216,7 @@
     "Description": "Keep books here.",
     "SellPrice": 984,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1229,7 +1229,7 @@
     "Description": "A wooden table.",
     "SellPrice": 300,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1242,7 +1242,7 @@
     "Description": "A small table.",
     "SellPrice": 984,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1255,7 +1255,7 @@
     "Description": "A Couch. You can sit on it with a friend",
     "SellPrice": 984,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1268,7 +1268,7 @@
     "Description": "A wooden table.",
     "SellPrice": 371,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1281,7 +1281,7 @@
     "Description": "Keep books here.",
     "SellPrice": 984,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1294,7 +1294,7 @@
     "Description": "An eastern flooring.",
     "SellPrice": 750,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1307,7 +1307,7 @@
     "Description": "Patterned",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1320,7 +1320,7 @@
     "Description": "A dark wood floor.",
     "SellPrice": 658,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1333,7 +1333,7 @@
     "Description": "Some books",
     "SellPrice": 984,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1346,7 +1346,7 @@
     "Description": "A cute pink wombat bank.",
     "SellPrice": 2984,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1359,7 +1359,7 @@
     "Description": "A Billy Button in a pot.",
     "SellPrice": 984,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1372,7 +1372,7 @@
     "Description": "A Royal Bluebell in a pot.",
     "SellPrice": 984,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1385,7 +1385,7 @@
     "Description": "Sleep here.",
     "SellPrice": 1305,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1398,7 +1398,7 @@
     "Description": "Keep books here.",
     "SellPrice": 1484,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1411,7 +1411,7 @@
     "Description": "Rattan Cabinet",
     "SellPrice": 1300,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1424,7 +1424,7 @@
     "Description": "Rattan Chair",
     "SellPrice": 1135,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1437,7 +1437,7 @@
     "Description": "A small table.",
     "SellPrice": 1084,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1450,7 +1450,7 @@
     "Description": "A Couch. You can sit on it with a friend",
     "SellPrice": 984,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1463,7 +1463,7 @@
     "Description": "A wooden table.",
     "SellPrice": 1371,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1476,7 +1476,7 @@
     "Description": "Rattan flooring.",
     "SellPrice": 650,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1489,7 +1489,7 @@
     "Description": "Keep books here.",
     "SellPrice": 984,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1502,7 +1502,7 @@
     "Description": "A single chair for sitting.",
     "SellPrice": 550,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1515,7 +1515,7 @@
     "Description": "A wooden table for beside your bed.",
     "SellPrice": 702,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1528,7 +1528,7 @@
     "Description": "Patterned",
     "SellPrice": 657,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1541,7 +1541,7 @@
     "Description": "Sleep here.",
     "SellPrice": 1305,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1554,7 +1554,7 @@
     "Description": "A wooden table for beside your bed.",
     "SellPrice": 702,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1567,7 +1567,7 @@
     "Description": "Keep books here.",
     "SellPrice": 1484,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1580,7 +1580,7 @@
     "Description": "Nordic",
     "SellPrice": 1300,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1593,7 +1593,7 @@
     "Description": "Nordic Chair",
     "SellPrice": 1135,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1606,7 +1606,7 @@
     "Description": "A small table.",
     "SellPrice": 1084,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1619,7 +1619,7 @@
     "Description": "A Couch. You can sit on it with a friend",
     "SellPrice": 1984,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1632,7 +1632,7 @@
     "Description": "A wooden table.",
     "SellPrice": 1371,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1645,7 +1645,7 @@
     "Description": "Cool flooring",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1658,7 +1658,7 @@
     "Description": "Keep books here.",
     "SellPrice": 1384,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1671,7 +1671,7 @@
     "Description": "A single chair for sitting.",
     "SellPrice": 1550,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1684,7 +1684,7 @@
     "Description": "Cool wall",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1697,7 +1697,7 @@
     "Description": "Sleep here.",
     "SellPrice": 1505,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1710,7 +1710,7 @@
     "Description": "A wooden table for beside your bed.",
     "SellPrice": 802,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1723,7 +1723,7 @@
     "Description": "Keep books here.",
     "SellPrice": 1584,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1736,7 +1736,7 @@
     "Description": "Pink cabinet.",
     "SellPrice": 1370,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1749,7 +1749,7 @@
     "Description": "Pink Chair",
     "SellPrice": 935,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1762,7 +1762,7 @@
     "Description": "A small table.",
     "SellPrice": 1384,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1775,7 +1775,7 @@
     "Description": "A Couch. You can sit on it with a friend",
     "SellPrice": 1384,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1788,7 +1788,7 @@
     "Description": "A pink table.",
     "SellPrice": 1691,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1801,7 +1801,7 @@
     "Description": "Pink lamp. Pretty.",
     "SellPrice": 1184,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1814,7 +1814,7 @@
     "Description": "A single chair for sitting.",
     "SellPrice": 1250,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1827,7 +1827,7 @@
     "Description": "Its a floor",
     "SellPrice": 657,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1840,7 +1840,7 @@
     "Description": "Its a wall",
     "SellPrice": 657,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1853,7 +1853,7 @@
     "Description": "Its soft and green",
     "SellPrice": 1450,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1866,7 +1866,7 @@
     "Description": "Its soft and red",
     "SellPrice": 1450,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1879,7 +1879,7 @@
     "Description": "Smells like money.",
     "SellPrice": 2500,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1892,7 +1892,7 @@
     "Description": "Is this even flooring?",
     "SellPrice": 157,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1905,7 +1905,7 @@
     "Description": "Its like the sky!",
     "SellPrice": 657,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1918,7 +1918,7 @@
     "Description": "It's groovy.",
     "SellPrice": 657,
     "IsStackable": true,
-    "Equipable": 9,
+    "Equipable": "Wallpaper",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1931,7 +1931,7 @@
     "Description": "It's groovy.",
     "SellPrice": 657,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1944,7 +1944,7 @@
     "Description": "Its soft and blue",
     "SellPrice": 1450,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1957,7 +1957,7 @@
     "Description": "Its soft and pink",
     "SellPrice": 1450,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1970,7 +1970,7 @@
     "Description": "Its soft and purple",
     "SellPrice": 1450,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1983,7 +1983,7 @@
     "Description": "Its soft and orange",
     "SellPrice": 1450,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1996,7 +1996,7 @@
     "Description": "Fancy.",
     "SellPrice": 2500,
     "IsStackable": true,
-    "Equipable": 8,
+    "Equipable": "Flooring",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2009,7 +2009,7 @@
     "Description": "Green Chair",
     "SellPrice": 935,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2022,7 +2022,7 @@
     "Description": "A single chair for sitting.",
     "SellPrice": 1250,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2035,7 +2035,7 @@
     "Description": "Sleep here.",
     "SellPrice": 1505,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2048,7 +2048,7 @@
     "Description": "A wooden table for beside your bed.",
     "SellPrice": 802,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2061,7 +2061,7 @@
     "Description": "Keep books here.",
     "SellPrice": 1584,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2074,7 +2074,7 @@
     "Description": "Green Cabinet",
     "SellPrice": 1370,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2087,7 +2087,7 @@
     "Description": "A Couch. You can sit on it with a friend",
     "SellPrice": 1384,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2100,7 +2100,7 @@
     "Description": "A small table.",
     "SellPrice": 1384,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2113,7 +2113,7 @@
     "Description": "A pink table.",
     "SellPrice": 1691,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2126,7 +2126,7 @@
     "Description": "Pink lamp. Pretty.",
     "SellPrice": 1184,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2139,7 +2139,7 @@
     "Description": "A box that plays a funky beat.",
     "SellPrice": 1500000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2152,7 +2152,7 @@
     "Description": "Put stuff in here.",
     "SellPrice": 2200,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2165,7 +2165,7 @@
     "Description": "Sleep here.",
     "SellPrice": 1305,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2178,7 +2178,7 @@
     "Description": "A wooden table for beside your bed.",
     "SellPrice": 702,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2191,7 +2191,7 @@
     "Description": "Keep books here.",
     "SellPrice": 1484,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2204,7 +2204,7 @@
     "Description": "Nordic",
     "SellPrice": 1300,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2217,7 +2217,7 @@
     "Description": "Nordic Chair",
     "SellPrice": 1135,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2230,7 +2230,7 @@
     "Description": "A small table.",
     "SellPrice": 1084,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2243,7 +2243,7 @@
     "Description": "A Couch. You can sit on it with a friend",
     "SellPrice": 1984,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2256,7 +2256,7 @@
     "Description": "A wooden table.",
     "SellPrice": 1371,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2269,7 +2269,7 @@
     "Description": "Keep books here.",
     "SellPrice": 1384,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2282,7 +2282,7 @@
     "Description": "Keep books here.",
     "SellPrice": 1384,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2295,7 +2295,7 @@
     "Description": "A single chair for sitting.",
     "SellPrice": 1550,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2308,7 +2308,7 @@
     "Description": "A wooden table.",
     "SellPrice": 371,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2321,7 +2321,7 @@
     "Description": "A single chair for sitting.",
     "SellPrice": 550,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2334,7 +2334,7 @@
     "Description": "A Couch. You can sit on it with a friend",
     "SellPrice": 984,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2347,7 +2347,7 @@
     "Description": "A wooden table for beside your bed.",
     "SellPrice": 302,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2360,7 +2360,7 @@
     "Description": "",
     "SellPrice": 1984,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2373,7 +2373,7 @@
     "Description": "",
     "SellPrice": 1984,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2386,7 +2386,7 @@
     "Description": "",
     "SellPrice": 884,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""

@@ -7,12 +7,12 @@
     "Description": "Very poisonous. Ain't it cute?",
     "SellPrice": 1020,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Bushland"
       ],
@@ -36,12 +36,12 @@
     "Description": "Nice bug, bro.",
     "SellPrice": 660,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Bushland"
       ],
@@ -65,12 +65,12 @@
     "Description": "Jumpin' for joy.",
     "SellPrice": 1700,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Tropics",
         "Plains"
@@ -93,12 +93,12 @@
     "Description": "A Common Dragonfly",
     "SellPrice": 772,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Pines",
         "Tropics"
@@ -123,12 +123,12 @@
     "Description": "A common fly",
     "SellPrice": 72,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "All"
       ],
@@ -151,12 +151,12 @@
     "Description": "Yuck.",
     "SellPrice": 154,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "All"
       ],
@@ -178,12 +178,12 @@
     "Description": "A fancy little spider.",
     "SellPrice": 1792,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Bushland",
         "Tropics"
@@ -206,12 +206,12 @@
     "Description": "It can't fly.",
     "SellPrice": 1400,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Desert"
       ],
@@ -234,12 +234,12 @@
     "Description": "A little honey maker. Where's the queen?",
     "SellPrice": 680,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Pines",
         "Plains"
@@ -263,12 +263,12 @@
     "Description": "The boss bee. Can start a hive.",
     "SellPrice": 2300,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Pines",
         "Plains"
@@ -292,12 +292,12 @@
     "Description": "Very poisonous. Ain't it cute?",
     "SellPrice": 1552,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Desert"
       ],
@@ -322,12 +322,12 @@
     "Description": "8 Legs. Friendlier than it looks",
     "SellPrice": 1212,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Desert"
       ],
@@ -350,12 +350,12 @@
     "Description": "It stinks!",
     "SellPrice": 300,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "All"
       ],
@@ -377,12 +377,12 @@
     "Description": "This thing kills spiders when its hungy.",
     "SellPrice": 990,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Plains",
         "Desert"
@@ -405,12 +405,12 @@
     "Description": "It's really rare and big!",
     "SellPrice": 4100,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Tropics"
       ],
@@ -432,12 +432,12 @@
     "Description": "It has a little tail.",
     "SellPrice": 990,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Tropics"
       ],
@@ -460,12 +460,12 @@
     "Description": "It's fluttering by, Mr. J.",
     "SellPrice": 2121,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "All"
       ],
@@ -488,12 +488,12 @@
     "Description": "I can not believe my eyes.",
     "SellPrice": 860,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "All"
       ],
@@ -515,12 +515,12 @@
     "Description": "So small. So loud.",
     "SellPrice": 1348,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Plains",
         "Bushland"
@@ -543,12 +543,12 @@
     "Description": "Jumpin' for joy.",
     "SellPrice": 900,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Plains"
       ],
@@ -572,12 +572,12 @@
     "Description": "It can't fly.",
     "SellPrice": 1930,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Bushland",
         "Pines"
@@ -601,12 +601,12 @@
     "Description": "It's a big stick!",
     "SellPrice": 3330,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Tropics",
         "Pines"
@@ -629,12 +629,12 @@
     "Description": "Dusty and gross.",
     "SellPrice": 260,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "All"
       ],
@@ -656,12 +656,12 @@
     "Description": "Its red... I guess?",
     "SellPrice": 790,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "All"
       ],
@@ -683,12 +683,12 @@
     "Description": "Trying to hide, eh?",
     "SellPrice": 980,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "All"
       ],
@@ -710,12 +710,12 @@
     "Description": "The queen of butterflies.",
     "SellPrice": 3860,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Bushland",
         "Pines"
@@ -739,12 +739,12 @@
     "Description": "Gentle!",
     "SellPrice": 1680,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Pines",
         "Plains"
@@ -768,12 +768,12 @@
     "Description": "It's huge!",
     "SellPrice": 4172,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Tropics",
         "Plains"
@@ -796,12 +796,12 @@
     "Description": "Small and red",
     "SellPrice": 1672,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Desert",
         "Plains"
@@ -824,12 +824,12 @@
     "Description": "Pretty!",
     "SellPrice": 2010,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Plains",
         "Bushland"
@@ -853,12 +853,12 @@
     "Description": "Is this a bird or a bug?",
     "SellPrice": 1900,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Pines",
         "Plains"
@@ -881,12 +881,12 @@
     "Description": "Careful, tiger",
     "SellPrice": 1360,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Bushland",
         "Plains"
@@ -910,12 +910,12 @@
     "Description": "Coolest name ever.",
     "SellPrice": 2350,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Pines",
         "Tropics"
@@ -940,12 +940,12 @@
     "Description": "It's not that large.",
     "SellPrice": 780,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "All"
       ],
@@ -967,12 +967,12 @@
     "Description": "It's scary, but nice.",
     "SellPrice": 3552,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Desert",
         "Bushland"
@@ -997,12 +997,12 @@
     "Description": "These are everywhere.",
     "SellPrice": 290,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "All"
       ],
@@ -1025,12 +1025,12 @@
     "Description": "The smallest fiddle in the world.",
     "SellPrice": 2400,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Tropics",
         "Bushland"
@@ -1054,12 +1054,12 @@
     "Description": "Look at the horns!",
     "SellPrice": 4100,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "Tropics",
         "Bushland"
@@ -1082,12 +1082,12 @@
     "Description": "This guy sounds tough.",
     "SellPrice": 3000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "All"
       ],
@@ -1110,12 +1110,12 @@
     "Description": "There are at least 4 legs here.",
     "SellPrice": 2220,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 1,
+      "Type": "Bug",
       "LandLocation": [
         "All"
       ],

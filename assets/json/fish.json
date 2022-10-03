@@ -7,12 +7,12 @@
     "Description": "Beep. Beep. Grunt.",
     "SellPrice": 1290,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "Rivers",
@@ -36,12 +36,12 @@
     "Description": "Thats good eatin' eh?",
     "SellPrice": 8416,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "Rivers"
@@ -65,12 +65,12 @@
     "Description": "A fresh water bass. Ain't rare.",
     "SellPrice": 2784,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "Rivers",
@@ -94,12 +94,12 @@
     "Description": "Welcome to the river. We've got perch.",
     "SellPrice": 1200,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "Rivers",
@@ -122,12 +122,12 @@
     "Description": "Good fish. You're not Morwong about that.",
     "SellPrice": 4320,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean",
@@ -150,12 +150,12 @@
     "Description": "An ocean fish that is blue.",
     "SellPrice": 1560,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean",
@@ -178,12 +178,12 @@
     "Description": "It hates mondays.",
     "SellPrice": 2346,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean",
@@ -207,12 +207,12 @@
     "Description": "Gold belly on this Perch",
     "SellPrice": 4384,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "Rivers"
@@ -234,12 +234,12 @@
     "Description": "Jack?",
     "SellPrice": 3498,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "Mangroves"
@@ -261,12 +261,12 @@
     "Description": "This is a Luderick-us fish.",
     "SellPrice": 4160,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean"
@@ -288,12 +288,12 @@
     "Description": "Its head is flat and its eyes are on top.",
     "SellPrice": 998,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean",
@@ -319,12 +319,12 @@
     "Description": "I will call him Trevor.",
     "SellPrice": 7800,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean"
@@ -347,12 +347,12 @@
     "Description": "A massive fish!",
     "SellPrice": 24600,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean",
@@ -377,12 +377,12 @@
     "Description": "Latin the day.",
     "SellPrice": 1996,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "Rivers",
@@ -405,12 +405,12 @@
     "Description": "This guy is a doctor.",
     "SellPrice": 3996,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean"
@@ -433,12 +433,12 @@
     "Description": "Snap.",
     "SellPrice": 1992,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean",
@@ -462,12 +462,12 @@
     "Description": "Bit of a mean name.",
     "SellPrice": 2103,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "Mangroves"
@@ -491,12 +491,12 @@
     "Description": "A massive fish!",
     "SellPrice": 10400,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "Rivers"
@@ -519,12 +519,12 @@
     "Description": "Gross tail!",
     "SellPrice": 1408,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "Mangroves"
@@ -546,12 +546,12 @@
     "Description": "Is this a fish?",
     "SellPrice": 3396,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean"
@@ -574,12 +574,12 @@
     "Description": "Cheeky fish.",
     "SellPrice": 3308,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "Billabongs"
@@ -601,12 +601,12 @@
     "Description": "A black fish!",
     "SellPrice": 3908,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "Billabongs",
@@ -629,12 +629,12 @@
     "Description": "Tiny and bright.",
     "SellPrice": 4808,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "Rivers"
@@ -656,12 +656,12 @@
     "Description": "Shiny",
     "SellPrice": 1708,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "Rivers",
@@ -685,12 +685,12 @@
     "Description": "So small.",
     "SellPrice": 4620,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "SouthOcean"
@@ -714,12 +714,12 @@
     "Description": "It's not a fish?",
     "SellPrice": 3200,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "SouthOcean"
@@ -742,12 +742,12 @@
     "Description": "Oooooo",
     "SellPrice": 16000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean"
@@ -771,12 +771,12 @@
     "Description": "What is this?",
     "SellPrice": 100,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "SouthOcean"
@@ -799,12 +799,12 @@
     "Description": "It might be roman?",
     "SellPrice": 7616,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "Billabongs"
@@ -827,12 +827,12 @@
     "Description": "A billabong shark.",
     "SellPrice": 3960,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "Billabongs"
@@ -854,12 +854,12 @@
     "Description": "Big fish, big nose.",
     "SellPrice": 20200,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "SouthOcean"
@@ -882,12 +882,12 @@
     "Description": "Whats a full grown gray look like?",
     "SellPrice": 2508,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "Billabongs",
@@ -911,12 +911,12 @@
     "Description": "Like a water snake.",
     "SellPrice": 3008,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 2,
+      "Type": "Fish",
       "LandLocation": [],
       "WaterLocation": [
         "Billabongs"

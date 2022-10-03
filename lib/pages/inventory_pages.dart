@@ -65,6 +65,7 @@ class InventoryDetailsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    getLog().d(appId);
     return StoreConnector<AppState, SettingViewModel>(
       converter: (store) => SettingViewModel.fromStore(store),
       builder: (redxContext, viewModel) => ItemDetailsPage<InventoryItem>(

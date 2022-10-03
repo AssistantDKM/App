@@ -25,7 +25,7 @@ The **Assistant for Dinkum** is an app that gives users information about the ga
 ### Requirements
 - Almost any desktop computer (eg.. MacOS X, Linux, Windows)
 - An IDE with (e.g. IntelliJ, Android Studio, VSCode etc)
-- [Flutter][flutter] installed and in your
+- [Flutter][flutter] installed and in your **PATH** environment variable
 
 ### Steps:
 1. Clone this repository

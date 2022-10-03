@@ -1,3 +1,4 @@
+import 'package:assistant_dinkum_app/constants/app_image.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
@@ -16,6 +17,12 @@ Widget itemBaseTilePresenter(
     if ((item as dynamic).imageUrl != null) {
       imgChild = localImage(networkImageToLocal((item as dynamic).imageUrl));
     }
+  }
+  if ((item as dynamic).hidden == true) {
+    return ListTile(
+      leading: genericTileImage(AppImage.unknown),
+      title: Text(item.name.characters.map((e) => '-').join('')),
+    );
   }
 
   return ListTile(

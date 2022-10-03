@@ -7,21 +7,8 @@
     "Description": "Chop down trees and plants.",
     "SellPrice": 500,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "Logging",
-    "RequiredLicenceLevel": 1,
-    "LicenceLevelText": ""
-  },
-  {
-    "Id": 1,
-    "AppId": "item_1",
-    "Icon": "allUI_20.png",
-    "Name": "Copper Boomarang",
-    "Description": "A throwing-stick-stunt.",
-    "SellPrice": 2000,
-    "IsStackable": true,
-    "Equipable": 0,
-    "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -33,7 +20,7 @@
     "Description": "Catch those creepy crawlies.",
     "SellPrice": 550,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -46,7 +33,7 @@
     "Description": "A saw comprised of chain.",
     "SellPrice": 50000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -104,7 +91,7 @@
     "Description": "A rod used for fishing and the like.",
     "SellPrice": 630,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "Fishing",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -118,7 +105,7 @@
     "Description": "This big spoon for dirt is filled with dirt",
     "SellPrice": 450,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -131,7 +118,7 @@
     "Description": "It's like a big spoon for dirt and stuff.",
     "SellPrice": 450,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "Excavation",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -144,7 +131,7 @@
     "Description": "Hoe the dirt. Make it all soft and stuff.",
     "SellPrice": 400,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "Farming",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -157,7 +144,7 @@
     "Description": "This might be the first game ever to have one of these",
     "SellPrice": 600,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "Mining",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -170,7 +157,7 @@
     "Description": "This isn't a flashlight... its a torch!",
     "SellPrice": 3000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -183,7 +170,7 @@
     "Description": "Carries water from point A to point B",
     "SellPrice": 5000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "Farming",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -196,7 +183,7 @@
     "Description": "Howzat?",
     "SellPrice": 212,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -239,7 +226,7 @@
     "Description": "Made with a stone crusher.",
     "SellPrice": 10,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -252,7 +239,7 @@
     "Description": "A bone that can be used to make stuff.",
     "SellPrice": 25,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -265,7 +252,7 @@
     "Description": "Some bricks for the ground.",
     "SellPrice": 2,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -303,7 +290,7 @@
     "Description": "5, 6, 7, 8",
     "SellPrice": 4,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -346,7 +333,7 @@
     "Description": "A fire you can use while camping!",
     "SellPrice": 288,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -389,7 +376,7 @@
     "Description": "Delicious if you cook it. Not so much if you dont.",
     "SellPrice": 400,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -402,7 +389,7 @@
     "Description": "Used to nail things together.",
     "SellPrice": 78,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -440,20 +427,7 @@
     "Description": "This rock is shiny. There might be something in it.",
     "SellPrice": 100,
     "IsStackable": true,
-    "Equipable": 0,
-    "RequiredLicence": "None",
-    "RequiredLicenceLevel": 1,
-    "LicenceLevelText": ""
-  },
-  {
-    "Id": 24,
-    "AppId": "item_24",
-    "Icon": "icons_11.png",
-    "Name": "???",
-    "Description": "No One Knows",
-    "SellPrice": 0,
-    "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -466,7 +440,7 @@
     "Description": "A lil' light.",
     "SellPrice": 1115,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -514,7 +488,7 @@
     "Description": "Some rock. Cool.",
     "SellPrice": 10,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -527,7 +501,7 @@
     "Description": "Store things in here if you like",
     "SellPrice": 754,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -570,12 +544,13 @@
   {
     "Id": 31,
     "AppId": "item_31",
+    "Hidden": true,
     "Icon": "ui_7.png",
     "Name": "Windmill Plan",
     "Description": "We could build a wind mill here!",
     "SellPrice": 0,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -588,7 +563,7 @@
     "Description": "Wood used to seperate things.",
     "SellPrice": 154,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -631,7 +606,7 @@
     "Description": "A log of gum wood.",
     "SellPrice": 100,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -644,7 +619,7 @@
     "Description": "Burns with a medium light. Will burn out by the end of the day.",
     "SellPrice": 14,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -682,7 +657,7 @@
     "Description": "A deed for a building to research and dicover new crafting recipes.",
     "SellPrice": 250000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -740,12 +715,13 @@
   {
     "Id": 36,
     "AppId": "item_36",
+    "Hidden": true,
     "Icon": "deedsIcon_6.png",
     "Name": "Your House Deed",
     "Description": "You can live here.",
     "SellPrice": 95000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -798,7 +774,7 @@
     "Description": "This will put your town on the map!",
     "SellPrice": 0,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -806,12 +782,13 @@
   {
     "Id": 38,
     "AppId": "item_38",
+    "Hidden": true,
     "Icon": "ui_7.png",
     "Name": "PowerLine",
     "Description": "High Voltage!",
     "SellPrice": 0,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -824,7 +801,7 @@
     "Description": "A deed for a store with a wider range of items.",
     "SellPrice": 75000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -877,7 +854,7 @@
     "Description": "Sugar cane seeds. Put 'em in the ground!",
     "SellPrice": 200,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -885,12 +862,13 @@
   {
     "Id": 67,
     "AppId": "item_67",
+    "Hidden": true,
     "Icon": "ui_7.png",
     "Name": "Welcome Sign",
     "Description": "This is a spawn point.",
     "SellPrice": 0,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -903,7 +881,7 @@
     "Description": "Two Story Clothing and Weapon Shop",
     "SellPrice": 180000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -966,7 +944,7 @@
     "Description": "Maybe you could cross the water on this?",
     "SellPrice": 1069,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -1009,7 +987,7 @@
     "Description": "A yellow flower.",
     "SellPrice": 145,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1022,7 +1000,7 @@
     "Description": "Is something burried here? If it beeps dig there.",
     "SellPrice": 3300,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "MetalDetecting",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1035,7 +1013,7 @@
     "Description": "A Shiny Gemstone.",
     "SellPrice": 15000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1048,7 +1026,7 @@
     "Description": "Smelt it down to bars.",
     "SellPrice": 50,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1061,7 +1039,7 @@
     "Description": "Smelt it down to bars.",
     "SellPrice": 100,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1074,7 +1052,7 @@
     "Description": "Looks expensive. Kinda isn't.",
     "SellPrice": 200,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1087,7 +1065,7 @@
     "Description": "A very strong light.",
     "SellPrice": 4044,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -1135,7 +1113,7 @@
     "Description": "Put 'em in the ground!",
     "SellPrice": 350,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1148,7 +1126,7 @@
     "Description": "A bar of Iron",
     "SellPrice": 2000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1161,7 +1139,7 @@
     "Description": "A bar of Copper",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1174,7 +1152,7 @@
     "Description": "Put 'em in the ground!",
     "SellPrice": 285,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1182,12 +1160,13 @@
   {
     "Id": 118,
     "AppId": "item_118",
+    "Hidden": true,
     "Icon": "allUI_21.png",
     "Name": "Iron Boomarang",
     "Description": "Cool cross.",
     "SellPrice": 4000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1195,12 +1174,13 @@
   {
     "Id": 119,
     "AppId": "item_119",
+    "Hidden": true,
     "Icon": "allUI_20.png",
     "Name": "Copper Boomarang",
     "Description": "A throwing-stick-stunt.",
     "SellPrice": 2000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1213,7 +1193,7 @@
     "Description": "Put 'em in the ground!",
     "SellPrice": 550,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1226,7 +1206,7 @@
     "Description": "A deed for a farming equipment and seed shop.",
     "SellPrice": 200000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -1284,12 +1264,13 @@
   {
     "Id": 126,
     "AppId": "item_126",
+    "Hidden": true,
     "Icon": "ui2_15.png",
     "Name": "Fast Watering Can",
     "Description": "Carries water from point A to point B",
     "SellPrice": 250,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1302,7 +1283,7 @@
     "Description": "It's empty. Fill it with water.",
     "SellPrice": 18750,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "Farming",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1315,7 +1296,7 @@
     "Description": "A deed for an underground mine. A great place to easily find ores.",
     "SellPrice": 250000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -1378,7 +1359,7 @@
     "Description": "A deed to build a furniture workshop and buy furniture for your home.",
     "SellPrice": 145000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -1431,7 +1412,7 @@
     "Description": "A bit of a bird.",
     "SellPrice": 300,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1444,7 +1425,7 @@
     "Description": "Faster and better than a regular pickaxe",
     "SellPrice": 3250,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -1487,7 +1468,7 @@
     "Description": "A really good pickaxe.",
     "SellPrice": 9062,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -1530,7 +1511,7 @@
     "Description": "An uncommon shell",
     "SellPrice": 20,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1543,7 +1524,7 @@
     "Description": "A common shell",
     "SellPrice": 5,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1556,7 +1537,7 @@
     "Description": "A rare shell.",
     "SellPrice": 80,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1569,7 +1550,7 @@
     "Description": "A bunch of sticky grass. Burn it in fire to make resin.",
     "SellPrice": 10,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1582,7 +1563,7 @@
     "Description": "A floating raft.",
     "SellPrice": 25,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -1630,7 +1611,7 @@
     "Description": "Sticky resin used in crafting. Made from burnt spinifex tuft.",
     "SellPrice": 10,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1643,7 +1624,7 @@
     "Description": "A light wood log.",
     "SellPrice": 150,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1656,7 +1637,7 @@
     "Description": "Spiky Cactus Flesh.",
     "SellPrice": 600,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1669,7 +1650,7 @@
     "Description": "A more advanced axe.",
     "SellPrice": 3125,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -1712,7 +1693,7 @@
     "Description": "A very strong axe.",
     "SellPrice": 8906,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -1750,12 +1731,13 @@
   {
     "Id": 218,
     "AppId": "item_218",
+    "Hidden": true,
     "Icon": "allUI_49.png",
     "Name": "Jump Charm",
     "Description": "Jump higher while wearing this.",
     "SellPrice": 10,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1763,12 +1745,13 @@
   {
     "Id": 219,
     "AppId": "item_219",
+    "Hidden": true,
     "Icon": "allUI_50.png",
     "Name": "Swim Charm",
     "Description": "Swim Faster while wearing this.",
     "SellPrice": 10,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1776,12 +1759,13 @@
   {
     "Id": 220,
     "AppId": "item_220",
+    "Hidden": true,
     "Icon": "allUI_51.png",
     "Name": "Run Charm",
     "Description": "Run Faster while wearing this.",
     "SellPrice": 10,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1794,7 +1778,7 @@
     "Description": "Put it in shallow water. Fill it with meat.",
     "SellPrice": 12400,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -1847,7 +1831,7 @@
     "Description": "Collect honey from this. Can take a week.",
     "SellPrice": 9150,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -1900,7 +1884,7 @@
     "Description": "Aim and fire.",
     "SellPrice": 3500,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1913,7 +1897,7 @@
     "Description": "A sharp tooth from a croc.",
     "SellPrice": 3650,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1926,7 +1910,7 @@
     "Description": "Nice and sleek paths",
     "SellPrice": 2,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -1964,7 +1948,7 @@
     "Description": "Keep things in or out.",
     "SellPrice": 4,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -2007,7 +1991,7 @@
     "Description": "Its a ute",
     "SellPrice": 25,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2020,7 +2004,7 @@
     "Description": "5, 6, 7, 8",
     "SellPrice": 4,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -2058,12 +2042,13 @@
   {
     "Id": 265,
     "AppId": "item_265",
+    "Hidden": true,
     "Icon": "ui_7.png",
     "Name": "Water Tank Plan",
     "Description": "Build a water tank.",
     "SellPrice": 0,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2076,7 +2061,7 @@
     "Description": "A fence made from plants.",
     "SellPrice": 18,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -2124,7 +2109,7 @@
     "Description": "It's poop. Plants might like it.",
     "SellPrice": 1,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2137,7 +2122,7 @@
     "Description": "Fence post that is also a light",
     "SellPrice": 558,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -2190,7 +2175,7 @@
     "Description": "Opens and closes.",
     "SellPrice": 952,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -2233,7 +2218,7 @@
     "Description": "Will make plants grow faster.",
     "SellPrice": 156,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -2281,7 +2266,7 @@
     "Description": "Stop you from falling in.",
     "SellPrice": 1538,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -2324,7 +2309,7 @@
     "Description": "Tick Tick Tick - BOOOM!",
     "SellPrice": 5000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -2377,7 +2362,7 @@
     "Description": "Waters crops automatically.",
     "SellPrice": 12300,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -2430,7 +2415,7 @@
     "Description": "Gross. Its full of termites.",
     "SellPrice": 38,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2443,7 +2428,7 @@
     "Description": "Dosh. Cash. Money.",
     "SellPrice": 1,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2456,7 +2441,7 @@
     "Description": "This wood is harder than other wood I guess?",
     "SellPrice": 175,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2469,7 +2454,7 @@
     "Description": "Catch some stuff.",
     "SellPrice": 4025,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -2517,7 +2502,7 @@
     "Description": "I'm scythed about this.",
     "SellPrice": 906,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -2560,7 +2545,7 @@
     "Description": "A plank of gum wood.",
     "SellPrice": 150,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2573,7 +2558,7 @@
     "Description": "A plank of palm wood.",
     "SellPrice": 225,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2586,7 +2571,7 @@
     "Description": "A plank of hard wood.",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2599,7 +2584,7 @@
     "Description": "Delicious if you cook it. Not so much if you dont.",
     "SellPrice": 350,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2612,7 +2597,7 @@
     "Description": "A glistening pearl.",
     "SellPrice": 5000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2626,7 +2611,7 @@
     "Description": "How is this so?",
     "SellPrice": 5000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2640,7 +2625,7 @@
     "Description": "How is this so?",
     "SellPrice": 5000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2653,7 +2638,7 @@
     "Description": "Grows grass!",
     "SellPrice": 2,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2666,7 +2651,7 @@
     "Description": "A wooden path for walking on.",
     "SellPrice": 70,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -2704,7 +2689,7 @@
     "Description": "5, 6, 7, 8",
     "SellPrice": 46,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -2747,7 +2732,7 @@
     "Description": "Dont try and chew this.",
     "SellPrice": 4,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2760,7 +2745,7 @@
     "Description": "It kinda looks like a pine tree?",
     "SellPrice": 4,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2773,7 +2758,7 @@
     "Description": "Grows into a palm tree.",
     "SellPrice": 4,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2786,7 +2771,7 @@
     "Description": "Put 'em in the ground!",
     "SellPrice": 380,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2799,7 +2784,7 @@
     "Description": "Put 'em in the ground!",
     "SellPrice": 320,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2812,7 +2797,7 @@
     "Description": "Put 'em in the ground!",
     "SellPrice": 180,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2825,7 +2810,7 @@
     "Description": "Put 'em in the ground!",
     "SellPrice": 385,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2838,7 +2823,7 @@
     "Description": "Put 'em in the ground!",
     "SellPrice": 390,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2851,20 +2836,7 @@
     "Description": "Put 'em in the ground!",
     "SellPrice": 270,
     "IsStackable": true,
-    "Equipable": 0,
-    "RequiredLicence": "None",
-    "RequiredLicenceLevel": 1,
-    "LicenceLevelText": ""
-  },
-  {
-    "Id": 332,
-    "AppId": "item_332",
-    "Icon": "deedsIcon_8.png",
-    "Name": "Visiting Site Deed",
-    "Description": "A place for visitors to easily set up camp.",
-    "SellPrice": 0,
-    "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2877,7 +2849,7 @@
     "Description": "Broom broom.",
     "SellPrice": 40000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -2935,7 +2907,7 @@
     "Description": "Birds can live in this.",
     "SellPrice": 6690,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -2993,7 +2965,7 @@
     "Description": "Build a Barn where animals can be sold.",
     "SellPrice": 150000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -3056,7 +3028,7 @@
     "Description": "Put animal food in here to feed animals.",
     "SellPrice": 758,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -3099,7 +3071,7 @@
     "Description": "Farm animals can munch on this.",
     "SellPrice": 50,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -3137,7 +3109,7 @@
     "Description": "A simple path made from rock.",
     "SellPrice": 2,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -3175,7 +3147,7 @@
     "Description": "Large Animals can live in this",
     "SellPrice": 11492,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -3233,7 +3205,7 @@
     "Description": "Calls Vombats towards you.",
     "SellPrice": 3098,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -3276,7 +3248,7 @@
     "Description": "Decorative Flower Bed",
     "SellPrice": 236,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -3319,7 +3291,7 @@
     "Description": "Walk under it!",
     "SellPrice": 351,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -3362,12 +3334,13 @@
   {
     "Id": 353,
     "AppId": "item_353",
+    "Hidden": true,
     "Icon": "allUI_136.png",
     "Name": "Diving Knife",
     "Description": "Harvest things that grow under water.",
     "SellPrice": 1250,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3375,12 +3348,13 @@
   {
     "Id": 357,
     "AppId": "item_357",
+    "Hidden": true,
     "Icon": "allUI_139.png",
     "Name": "Emu Mount",
     "Description": "You can ride this mu.",
     "SellPrice": 25,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 0,
     "LicenceLevelText": ""
@@ -3393,7 +3367,7 @@
     "Description": "A nice little water feature.",
     "SellPrice": 15500,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -3441,7 +3415,7 @@
     "Description": "A place to prepare meals.",
     "SellPrice": 2570,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -3494,7 +3468,7 @@
     "Description": "Coconuty",
     "SellPrice": 5939,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -3552,7 +3526,7 @@
     "Description": "From the water and the dirt.",
     "SellPrice": 2900,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -3589,7 +3563,7 @@
       "CrafterLevelLearnt": 0
     },
     "Consumable": {
-      "Type": 1,
+      "Type": "Meat",
       "Buffs": [
         {
           "Type": 20,
@@ -3630,7 +3604,7 @@
     "Description": "Yummy Yummy.",
     "SellPrice": 1388,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -3672,7 +3646,7 @@
       "CrafterLevelLearnt": 0
     },
     "Consumable": {
-      "Type": 2,
+      "Type": "Fruit",
       "Buffs": [
         {
           "Type": 20,
@@ -3718,7 +3692,7 @@
     "Description": "Crunchy and fresh!",
     "SellPrice": 3189,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -3755,7 +3729,7 @@
       "CrafterLevelLearnt": 0
     },
     "Consumable": {
-      "Type": 4,
+      "Type": "Vegetable",
       "Buffs": [
         {
           "Type": 20,
@@ -3801,7 +3775,7 @@
     "Description": "Warm in your tum.",
     "SellPrice": 2456,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -3843,7 +3817,7 @@
       "CrafterLevelLearnt": 0
     },
     "Consumable": {
-      "Type": 1,
+      "Type": "Meat",
       "Buffs": [
         {
           "Type": 20,
@@ -3889,7 +3863,7 @@
     "Description": "A deed to build a museum that will catalogue all the island's wildlife.",
     "SellPrice": 125000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -3942,12 +3916,12 @@
     "Description": "This probably opens something...",
     "SellPrice": 4080,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 4,
+      "Type": "Relic",
       "LandLocation": [],
       "WaterLocation": [],
       "SeasonFound": [],
@@ -3963,7 +3937,7 @@
     "Description": "Pull up rocks from the depth every day",
     "SellPrice": 35000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -4021,12 +3995,12 @@
     "Description": "What does this do?",
     "SellPrice": 525,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 4,
+      "Type": "Relic",
       "LandLocation": [],
       "WaterLocation": [],
       "SeasonFound": [],
@@ -4042,7 +4016,7 @@
     "Description": "Float your day away.",
     "SellPrice": 400000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4055,7 +4029,7 @@
     "Description": "Long and sharp",
     "SellPrice": 812,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -4098,7 +4072,7 @@
     "Description": "Call of the chook.",
     "SellPrice": 5188,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -4141,7 +4115,7 @@
     "Description": "I big hammer for hitting things slowly.",
     "SellPrice": 2062,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -4184,7 +4158,7 @@
     "Description": "Kind of poison",
     "SellPrice": 200,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4197,7 +4171,7 @@
     "Description": "A place for the community to post news and requests.",
     "SellPrice": 10000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -4240,7 +4214,7 @@
     "Description": "Leave stuff in there for way too long.",
     "SellPrice": 13906,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -4288,7 +4262,7 @@
     "Description": "Cheese!",
     "SellPrice": 8000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4301,7 +4275,7 @@
     "Description": "Drop trapped animals inside to receive rewards.",
     "SellPrice": 1285,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -4349,7 +4323,7 @@
     "Description": "A desert flower.",
     "SellPrice": 140,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4362,7 +4336,7 @@
     "Description": "A yellow puff",
     "SellPrice": 140,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4375,7 +4349,7 @@
     "Description": "A regal blue flower",
     "SellPrice": 140,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4383,12 +4357,13 @@
   {
     "Id": 399,
     "AppId": "item_399",
+    "Hidden": true,
     "Icon": "allUI_165.png",
     "Name": "Desert Pea",
     "Description": "A strange red flower",
     "SellPrice": 140,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4401,7 +4376,7 @@
     "Description": "A ver",
     "SellPrice": 140,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4414,7 +4389,7 @@
     "Description": "The centre of any town.",
     "SellPrice": 0,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -4462,7 +4437,7 @@
     "Description": "Snip off some wool!",
     "SellPrice": 900,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4475,7 +4450,7 @@
     "Description": "Soft and fluffy",
     "SellPrice": 2150,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4488,7 +4463,7 @@
     "Description": "Smaller animals can live in these",
     "SellPrice": 1338,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -4536,7 +4511,7 @@
     "Description": "Study this to learn crafting recipes",
     "SellPrice": 2000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4549,7 +4524,7 @@
     "Description": "If you place money in it, who knows what you will get!",
     "SellPrice": 35000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -4607,7 +4582,7 @@
     "Description": "Sit down outside why don't ya.",
     "SellPrice": 1280,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4620,7 +4595,7 @@
     "Description": "Stop birds from eating all your crops.",
     "SellPrice": 4250,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -4668,7 +4643,7 @@
     "Description": "Decorative Flower Bed",
     "SellPrice": 19,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -4711,7 +4686,7 @@
     "Description": "Place unwanted items in this.",
     "SellPrice": 656,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -4754,7 +4729,7 @@
     "Description": "Throw some stuff on this. It will then cook.",
     "SellPrice": 800,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4767,7 +4742,7 @@
     "Description": "Smelt it down to bars.",
     "SellPrice": 25,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4780,7 +4755,7 @@
     "Description": "Chop down trees and plants.",
     "SellPrice": 50,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4793,7 +4768,7 @@
     "Description": "Can melt down Tin and Copper ore into bars.",
     "SellPrice": 554,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -4841,7 +4816,7 @@
     "Description": "A place to live, when you don't have a house yet.",
     "SellPrice": 0,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -4889,7 +4864,7 @@
     "Description": "A bar of Tin",
     "SellPrice": 500,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4897,12 +4872,13 @@
   {
     "Id": 461,
     "AppId": "item_461",
+    "Hidden": true,
     "Icon": "allUI_182.png",
     "Name": "Flagpole",
     "Description": "Place to set your",
     "SellPrice": 0,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4915,7 +4891,7 @@
     "Description": "A base of operations.",
     "SellPrice": 0,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4928,7 +4904,7 @@
     "Description": "A homely fence.",
     "SellPrice": 119,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -4971,7 +4947,7 @@
     "Description": "Opens and closes.",
     "SellPrice": 765,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -5014,7 +4990,7 @@
     "Description": "A sheet of Tin. Made by cuting Tin Bar on a tablesaw.",
     "SellPrice": 275,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5022,12 +4998,13 @@
   {
     "Id": 467,
     "AppId": "item_467",
+    "Hidden": true,
     "Icon": "allUI_130.png",
     "Name": "Dog Kennel",
     "Description": "A house for a pupper.",
     "SellPrice": 2775,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -5075,12 +5052,13 @@
   {
     "Id": 468,
     "AppId": "item_468",
+    "Hidden": true,
     "Icon": "allUI_155.png",
     "Name": "Dog Whistle",
     "Description": "Stay and follow",
     "SellPrice": 2025,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5093,7 +5071,7 @@
     "Description": "A deed for a place to store money and gain interest.",
     "SellPrice": 100000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -5156,7 +5134,7 @@
     "Description": "Craft stuff here.",
     "SellPrice": 1480,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -5204,7 +5182,7 @@
     "Description": "A holiday light.",
     "SellPrice": 205,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -5247,7 +5225,7 @@
     "Description": "A basic fence. Does the job.",
     "SellPrice": 32,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -5290,7 +5268,7 @@
     "Description": "Residents can make donations towards the town here.",
     "SellPrice": 472,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -5333,7 +5311,7 @@
     "Description": "Spins around and predicts the weather somehow.",
     "SellPrice": 2500,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -5391,166 +5369,7 @@
     "Description": "Strum it!",
     "SellPrice": 3025,
     "IsStackable": false,
-    "Equipable": 0,
-    "RequiredLicence": "None",
-    "RequiredLicenceLevel": 1,
-    "LicenceLevelText": ""
-  },
-  {
-    "Id": 518,
-    "AppId": "item_518",
-    "Icon": "deedsIcon_6.png",
-    "Name": "House Deed",
-    "Description": "Allows someone to move to your town.",
-    "SellPrice": 85000,
-    "IsStackable": true,
-    "Equipable": 0,
-    "Craftable": {
-      "RequiredItems": [
-        {
-          "Id": 305,
-          "AppId": "item_305",
-          "Quantity": 20
-        },
-        {
-          "Id": 306,
-          "AppId": "item_306",
-          "Quantity": 20
-        },
-        {
-          "Id": 22,
-          "AppId": "item_22",
-          "Quantity": 19
-        },
-        {
-          "Id": 466,
-          "AppId": "item_466",
-          "Quantity": 4
-        }
-      ],
-      "RecipeGiveThisAmount": 1,
-      "WorkPlaceConditionsEnum": 0,
-      "WorkPlaceConditions": "None",
-      "CategoryEnum": 0,
-      "Category": "None",
-      "SubCategoryEnum": 0,
-      "SubCategory": "None",
-      "TierLevel": 0,
-      "SkillEnum": 0,
-      "Skill": "Farming",
-      "LevelSkillLearnt": 0,
-      "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
-      "LicenceLevelLearnt": 0,
-      "CrafterLevelLearnt": 0
-    },
-    "RequiredLicence": "None",
-    "RequiredLicenceLevel": 1,
-    "LicenceLevelText": ""
-  },
-  {
-    "Id": 519,
-    "AppId": "item_519",
-    "Icon": "deedsIcon_6.png",
-    "Name": "House Deed",
-    "Description": "Allows someone to move to your town.",
-    "SellPrice": 85000,
-    "IsStackable": true,
-    "Equipable": 0,
-    "Craftable": {
-      "RequiredItems": [
-        {
-          "Id": 305,
-          "AppId": "item_305",
-          "Quantity": 20
-        },
-        {
-          "Id": 306,
-          "AppId": "item_306",
-          "Quantity": 20
-        },
-        {
-          "Id": 22,
-          "AppId": "item_22",
-          "Quantity": 19
-        },
-        {
-          "Id": 466,
-          "AppId": "item_466",
-          "Quantity": 4
-        }
-      ],
-      "RecipeGiveThisAmount": 1,
-      "WorkPlaceConditionsEnum": 0,
-      "WorkPlaceConditions": "None",
-      "CategoryEnum": 0,
-      "Category": "None",
-      "SubCategoryEnum": 0,
-      "SubCategory": "None",
-      "TierLevel": 0,
-      "SkillEnum": 0,
-      "Skill": "Farming",
-      "LevelSkillLearnt": 0,
-      "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
-      "LicenceLevelLearnt": 0,
-      "CrafterLevelLearnt": 0
-    },
-    "RequiredLicence": "None",
-    "RequiredLicenceLevel": 1,
-    "LicenceLevelText": ""
-  },
-  {
-    "Id": 520,
-    "AppId": "item_520",
-    "Icon": "deedsIcon_6.png",
-    "Name": "House Deed",
-    "Description": "Allows someone to move to your town.",
-    "SellPrice": 85000,
-    "IsStackable": true,
-    "Equipable": 0,
-    "Craftable": {
-      "RequiredItems": [
-        {
-          "Id": 305,
-          "AppId": "item_305",
-          "Quantity": 20
-        },
-        {
-          "Id": 306,
-          "AppId": "item_306",
-          "Quantity": 20
-        },
-        {
-          "Id": 22,
-          "AppId": "item_22",
-          "Quantity": 19
-        },
-        {
-          "Id": 466,
-          "AppId": "item_466",
-          "Quantity": 4
-        }
-      ],
-      "RecipeGiveThisAmount": 1,
-      "WorkPlaceConditionsEnum": 0,
-      "WorkPlaceConditions": "None",
-      "CategoryEnum": 0,
-      "Category": "None",
-      "SubCategoryEnum": 0,
-      "SubCategory": "None",
-      "TierLevel": 0,
-      "SkillEnum": 0,
-      "Skill": "Farming",
-      "LevelSkillLearnt": 0,
-      "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
-      "LicenceLevelLearnt": 0,
-      "CrafterLevelLearnt": 0
-    },
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5563,7 +5382,7 @@
     "Description": "Allows someone to move to your town.",
     "SellPrice": 85000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -5616,7 +5435,7 @@
     "Description": "Maybe you could cross the water on this?",
     "SellPrice": 5681,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -5659,7 +5478,7 @@
     "Description": "It's so big!",
     "SellPrice": 500,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5672,12 +5491,12 @@
     "Description": "It's warm. Is it buzzing?",
     "SellPrice": 3090,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 4,
+      "Type": "Relic",
       "LandLocation": [],
       "WaterLocation": [],
       "SeasonFound": [],
@@ -5693,12 +5512,12 @@
     "Description": "It has things on it.",
     "SellPrice": 6120,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 4,
+      "Type": "Relic",
       "LandLocation": [],
       "WaterLocation": [],
       "SeasonFound": [],
@@ -5714,12 +5533,12 @@
     "Description": "Where is the rest of it?",
     "SellPrice": 1320,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 4,
+      "Type": "Relic",
       "LandLocation": [],
       "WaterLocation": [],
       "SeasonFound": [],
@@ -5735,12 +5554,12 @@
     "Description": "I can see myself.",
     "SellPrice": 1480,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 4,
+      "Type": "Relic",
       "LandLocation": [],
       "WaterLocation": [],
       "SeasonFound": [],
@@ -5756,7 +5575,7 @@
     "Description": "Two Story Clothing and Weapon Shop",
     "SellPrice": 0,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -5814,7 +5633,7 @@
     "Description": "Two Story Clothing and Weapon Shop",
     "SellPrice": 0,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -5872,7 +5691,7 @@
     "Description": "Two Story Clothing and Weapon Shop",
     "SellPrice": 0,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -5930,7 +5749,7 @@
     "Description": "Two Story Clothing and Weapon Shop",
     "SellPrice": 0,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -5988,7 +5807,7 @@
     "Description": "Long and sharper.",
     "SellPrice": 2781,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -6031,7 +5850,7 @@
     "Description": "Long and sharper.",
     "SellPrice": 5281,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -6074,7 +5893,7 @@
     "Description": "A big hammer for hitting things slowly.",
     "SellPrice": 3938,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -6117,7 +5936,7 @@
     "Description": "A big hammer for hitting things slowly.",
     "SellPrice": 8125,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -6160,7 +5979,7 @@
     "Description": "Pins can be placed on it to mark points of interest.",
     "SellPrice": 1,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6173,7 +5992,7 @@
     "Description": "Fletch's Father's  journal. It's filled with his past milestones...",
     "SellPrice": 1,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6186,7 +6005,7 @@
     "Description": "Hammer away at hard things.",
     "SellPrice": 50000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -6244,7 +6063,7 @@
     "Description": "A bike for the water.",
     "SellPrice": 40000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -6307,12 +6126,12 @@
     "Description": "Does this work?",
     "SellPrice": 1035,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 4,
+      "Type": "Relic",
       "LandLocation": [],
       "WaterLocation": [],
       "SeasonFound": [],
@@ -6328,12 +6147,12 @@
     "Description": "Was this ever useful?",
     "SellPrice": 745,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 4,
+      "Type": "Relic",
       "LandLocation": [],
       "WaterLocation": [],
       "SeasonFound": [],
@@ -6349,7 +6168,7 @@
     "Description": "A human powered boat.",
     "SellPrice": 6328,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -6402,7 +6221,7 @@
     "Description": "Turn wool into fabric",
     "SellPrice": 5400,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -6450,7 +6269,7 @@
     "Description": "Used to make clothes.",
     "SellPrice": 5150,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6463,7 +6282,7 @@
     "Description": "Turn milk into cheese.",
     "SellPrice": 8625,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -6511,12 +6330,12 @@
     "Description": "I think it used to bounce?",
     "SellPrice": 485,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 4,
+      "Type": "Relic",
       "LandLocation": [],
       "WaterLocation": [],
       "SeasonFound": [],
@@ -6532,12 +6351,12 @@
     "Description": "Slides around with ease.",
     "SellPrice": 592,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 4,
+      "Type": "Relic",
       "LandLocation": [],
       "WaterLocation": [],
       "SeasonFound": [],
@@ -6553,12 +6372,12 @@
     "Description": "Who needs this many buttons?",
     "SellPrice": 1556,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 4,
+      "Type": "Relic",
       "LandLocation": [],
       "WaterLocation": [],
       "SeasonFound": [],
@@ -6574,12 +6393,12 @@
     "Description": "So colourful!",
     "SellPrice": 635,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 4,
+      "Type": "Relic",
       "LandLocation": [],
       "WaterLocation": [],
       "SeasonFound": [],
@@ -6595,12 +6414,12 @@
     "Description": "A toy with some buttons.",
     "SellPrice": 1642,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 4,
+      "Type": "Relic",
       "LandLocation": [],
       "WaterLocation": [],
       "SeasonFound": [],
@@ -6616,12 +6435,12 @@
     "Description": "This looks very useful.",
     "SellPrice": 15090,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 4,
+      "Type": "Relic",
       "LandLocation": [],
       "WaterLocation": [],
       "SeasonFound": [],
@@ -6637,7 +6456,7 @@
     "Description": "Not so snappy now, eh?",
     "SellPrice": 625,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6650,7 +6469,7 @@
     "Description": "Its very bendy!",
     "SellPrice": 90,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6663,7 +6482,7 @@
     "Description": "Its hollow.",
     "SellPrice": 280,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6676,7 +6495,7 @@
     "Description": "A pass to use the mine elevator.",
     "SellPrice": 12500,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "DeepMining",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6689,7 +6508,7 @@
     "Description": "Grows a fern",
     "SellPrice": 22,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6702,7 +6521,7 @@
     "Description": "Grows a bush",
     "SellPrice": 24,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6715,7 +6534,7 @@
     "Description": "Place Base tent here.",
     "SellPrice": 800,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -6768,7 +6587,7 @@
     "Description": "A place for visitors to easily set up camp.",
     "SellPrice": 0,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6781,7 +6600,7 @@
     "Description": "This makes fire?",
     "SellPrice": 5250,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6794,7 +6613,7 @@
     "Description": "Show an item off.",
     "SellPrice": 808,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -6847,7 +6666,7 @@
     "Description": "A book that can identify bugs in the wild.",
     "SellPrice": 49000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6860,7 +6679,7 @@
     "Description": "A book that can identify fish in the wild.",
     "SellPrice": 59000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6873,7 +6692,7 @@
     "Description": "A book that can identify and track plant growth.",
     "SellPrice": 18000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6886,7 +6705,7 @@
     "Description": "Smash that dirt to level",
     "SellPrice": 25000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -6944,7 +6763,7 @@
     "Description": "Zoom zoom.",
     "SellPrice": 1500000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -7002,7 +6821,7 @@
     "Description": "Get it in ya!",
     "SellPrice": 3038,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -7039,7 +6858,7 @@
       "CrafterLevelLearnt": 0
     },
     "Consumable": {
-      "Type": 1,
+      "Type": "Meat",
       "Buffs": [
         {
           "Type": 20,
@@ -7080,7 +6899,7 @@
     "Description": "Celebrate the best way!",
     "SellPrice": 6860,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -7117,7 +6936,7 @@
       "CrafterLevelLearnt": 0
     },
     "Consumable": {
-      "Type": 3,
+      "Type": "AnimalProduct",
       "Buffs": [
         {
           "Type": 20,
@@ -7163,7 +6982,7 @@
     "Description": "A corn covered hotdog.",
     "SellPrice": 1060,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -7211,7 +7030,7 @@
     "Description": "Snap?",
     "SellPrice": 11025,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -7264,7 +7083,7 @@
     "Description": "It's hot!",
     "SellPrice": 16275,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -7317,7 +7136,7 @@
     "Description": "Breakfast cake.",
     "SellPrice": 5538,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -7354,7 +7173,7 @@
       "CrafterLevelLearnt": 0
     },
     "Consumable": {
-      "Type": 3,
+      "Type": "AnimalProduct",
       "Buffs": [
         {
           "Type": 20,
@@ -7405,7 +7224,7 @@
     "Description": "It's like meat but stickier.",
     "SellPrice": 1612,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -7448,7 +7267,7 @@
     "Description": "Feeds sprinklers and watering cans.",
     "SellPrice": 49486,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -7506,7 +7325,7 @@
     "Description": "Automatically fill your feeders",
     "SellPrice": 20094,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -7564,7 +7383,7 @@
     "Description": "The seed is red though?",
     "SellPrice": 4,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7577,7 +7396,7 @@
     "Description": "Its strong!",
     "SellPrice": 6,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -7615,7 +7434,7 @@
     "Description": "Catch some stuff.",
     "SellPrice": 2131,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -7663,7 +7482,7 @@
     "Description": "Could clean a bottle I guess?",
     "SellPrice": 245,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7676,7 +7495,7 @@
     "Description": "Carries water from point A to point B",
     "SellPrice": 12500,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -7712,19 +7531,6 @@
     "LicenceLevelText": ""
   },
   {
-    "Id": 700,
-    "AppId": "item_700",
-    "Icon": "allUI2_67.png",
-    "Name": "Copper Watering Can",
-    "Description": "It's empty. Fill it with water.",
-    "SellPrice": 18750,
-    "IsStackable": false,
-    "Equipable": 0,
-    "RequiredLicence": "Farming",
-    "RequiredLicenceLevel": 1,
-    "LicenceLevelText": ""
-  },
-  {
     "Id": 701,
     "AppId": "item_701",
     "Icon": "allUI2_68.png",
@@ -7732,7 +7538,7 @@
     "Description": "Carries water from point A to point B",
     "SellPrice": 28125,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -7768,19 +7574,6 @@
     "LicenceLevelText": ""
   },
   {
-    "Id": 702,
-    "AppId": "item_702",
-    "Icon": "allUI2_68.png",
-    "Name": "Iron Watering Can",
-    "Description": "It's empty. Fill it with water.",
-    "SellPrice": 42188,
-    "IsStackable": false,
-    "Equipable": 0,
-    "RequiredLicence": "Farming",
-    "RequiredLicenceLevel": 1,
-    "LicenceLevelText": ""
-  },
-  {
     "Id": 703,
     "AppId": "item_703",
     "Icon": "allUI2_66.png",
@@ -7788,7 +7581,7 @@
     "Description": "Turn poop and stuff into fertilizer",
     "SellPrice": 8056,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -7842,7 +7635,7 @@
     "Description": "This big spoon is filled with sand.",
     "SellPrice": 450,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7856,7 +7649,7 @@
     "Description": "This big spoon is filled with mud.",
     "SellPrice": 450,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7870,7 +7663,7 @@
     "Description": "This big spoon is filled with red sand.",
     "SellPrice": 450,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7883,7 +7676,7 @@
     "Description": "Grows grass!",
     "SellPrice": 2,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7896,7 +7689,7 @@
     "Description": "Grows grass!",
     "SellPrice": 2,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7909,7 +7702,7 @@
     "Description": "It's like a Tele tower you can place where you want.",
     "SellPrice": 75000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -7972,7 +7765,7 @@
     "Description": "Call a Tele-Tower from anywhere.",
     "SellPrice": 6570,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7985,7 +7778,7 @@
     "Description": "Decide where your house will be moved to",
     "SellPrice": 95000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8038,7 +7831,7 @@
     "Description": "It's squishy.",
     "SellPrice": 400,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8051,7 +7844,7 @@
     "Description": "Waters crops automatically.",
     "SellPrice": 36788,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8109,7 +7902,7 @@
     "Description": "It's poop. Plants might like it.",
     "SellPrice": 25,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8122,7 +7915,7 @@
     "Description": "Speeds up nearby furnaces, crushers and BBQs",
     "SellPrice": 28988,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8180,7 +7973,7 @@
     "Description": "Plant flowers and other plants in it.",
     "SellPrice": 38,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8218,7 +8011,7 @@
     "Description": "A wooden path for walking on.",
     "SellPrice": 46,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8256,7 +8049,7 @@
     "Description": "A wooden path for walking on.",
     "SellPrice": 78,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8294,7 +8087,7 @@
     "Description": "Maybe you could cross the water on this?",
     "SellPrice": 6150,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8337,7 +8130,7 @@
     "Description": "Maybe you could cross the water on this?",
     "SellPrice": 4275,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8380,7 +8173,7 @@
     "Description": "Maybe you could cross the water on this?",
     "SellPrice": 238,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8423,7 +8216,7 @@
     "Description": "Wood used to seperate things.",
     "SellPrice": 119,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8466,7 +8259,7 @@
     "Description": "Wood used to seperate things.",
     "SellPrice": 165,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8509,7 +8302,7 @@
     "Description": "Its strong!",
     "SellPrice": 171,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8547,7 +8340,7 @@
     "Description": "Opens and closes.",
     "SellPrice": 765,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8590,7 +8383,7 @@
     "Description": "Opens and closes.",
     "SellPrice": 1015,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8633,7 +8426,7 @@
     "Description": "Opens and closes.",
     "SellPrice": 688,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8671,7 +8464,7 @@
     "Description": "Hoe the dirt. Make it all soft and stuff.",
     "SellPrice": 3000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8714,7 +8507,7 @@
     "Description": "Water from deep down",
     "SellPrice": 1125,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8762,7 +8555,7 @@
     "Description": "It's shark meat.",
     "SellPrice": 950,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8775,7 +8568,7 @@
     "Description": "Fill it with dirt or other stuff.",
     "SellPrice": 15000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [],
       "RecipeGiveThisAmount": 1,
@@ -8807,7 +8600,7 @@
     "Description": "It's cold",
     "SellPrice": 312,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8845,7 +8638,7 @@
     "Description": "Plant a Bottle Brush",
     "SellPrice": 55,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8858,7 +8651,7 @@
     "Description": "Plant a Wattle",
     "SellPrice": 55,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8871,7 +8664,7 @@
     "Description": "Can reel faster.",
     "SellPrice": 3288,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8914,7 +8707,7 @@
     "Description": "Can reel in the biggest fish in the ocean.",
     "SellPrice": 9110,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -8957,7 +8750,7 @@
     "Description": "A hub of town",
     "SellPrice": 800,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -9020,7 +8813,7 @@
     "Description": "Move Town Hall",
     "SellPrice": 800,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -9073,7 +8866,7 @@
     "Description": "Store things in here if you like.",
     "SellPrice": 4281,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -9121,7 +8914,7 @@
     "Description": "Stop grass growing back.",
     "SellPrice": 25000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -9179,7 +8972,7 @@
     "Description": "It's tasty inside.",
     "SellPrice": 261,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9192,7 +8985,7 @@
     "Description": "Float your day away.",
     "SellPrice": 1000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9205,7 +8998,7 @@
     "Description": "Put Put.",
     "SellPrice": 750000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -9263,7 +9056,7 @@
     "Description": "Can paint vehicles.",
     "SellPrice": 200,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9276,7 +9069,7 @@
     "Description": "Clear off paint.",
     "SellPrice": 200,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9289,7 +9082,7 @@
     "Description": "Can paint vehicles.",
     "SellPrice": 200,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9302,7 +9095,7 @@
     "Description": "Can paint vehicles.",
     "SellPrice": 200,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9315,7 +9108,7 @@
     "Description": "Can paint vehicles.",
     "SellPrice": 200,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9328,7 +9121,7 @@
     "Description": "Can paint vehicles.",
     "SellPrice": 200,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9341,7 +9134,7 @@
     "Description": "Can paint vehicles.",
     "SellPrice": 200,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9354,7 +9147,7 @@
     "Description": "Can paint vehicles.",
     "SellPrice": 200,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9367,7 +9160,7 @@
     "Description": "Can paint vehicles.",
     "SellPrice": 200,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9380,7 +9173,7 @@
     "Description": "Can paint vehicles.",
     "SellPrice": 200,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9393,7 +9186,7 @@
     "Description": "Paint your vehicles and show off.",
     "SellPrice": 125000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9406,7 +9199,7 @@
     "Description": "The ultimate vehicle status symbol.",
     "SellPrice": 250000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9419,7 +9212,7 @@
     "Description": "A seaworthy shell",
     "SellPrice": 10,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9432,7 +9225,7 @@
     "Description": "What the shell?",
     "SellPrice": 7,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9445,7 +9238,7 @@
     "Description": "Can I spend this?",
     "SellPrice": 10,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9458,7 +9251,7 @@
     "Description": "It's heavy?",
     "SellPrice": 6,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9471,7 +9264,7 @@
     "Description": "Lures Croco to its position.",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -9524,7 +9317,7 @@
     "Description": "Lures Bush Devils to its position.",
     "SellPrice": 1200,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -9577,7 +9370,7 @@
     "Description": "Lures sharks to its position.",
     "SellPrice": 1100,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -9630,7 +9423,7 @@
     "Description": "Dig this.",
     "SellPrice": 75000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -9683,7 +9476,7 @@
     "Description": "How do this even work?",
     "SellPrice": 120000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -9736,7 +9529,7 @@
     "Description": "Sharp bones that can be shot.",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -9784,7 +9577,7 @@
     "Description": "Time flies with one of these.",
     "SellPrice": 5000000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -9832,7 +9625,7 @@
     "Description": "Put 'em in the ground!",
     "SellPrice": 810,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9845,7 +9638,7 @@
     "Description": "Put 'em in the ground!",
     "SellPrice": 680,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9858,7 +9651,7 @@
     "Description": "Put it on a pet!",
     "SellPrice": 15000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9871,7 +9664,7 @@
     "Description": "Save a horse, ride a Mu",
     "SellPrice": 25000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9884,7 +9677,7 @@
     "Description": "A nice light.",
     "SellPrice": 2794,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -9932,7 +9725,7 @@
     "Description": "The meat from an alpha.",
     "SellPrice": 2000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9945,7 +9738,7 @@
     "Description": "Repair damaged tools with repair kits.",
     "SellPrice": 30000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -10003,7 +9796,7 @@
     "Description": "Use it to repair all your damaged tools at a repair table.",
     "SellPrice": 15000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10016,7 +9809,7 @@
     "Description": "Charges and repairs power tools.",
     "SellPrice": 50000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -10074,7 +9867,7 @@
     "Description": "This looks nice I guess.",
     "SellPrice": 10480,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -10112,7 +9905,7 @@
     "Description": "Hoe the dirt. Make it all soft and stuff.",
     "SellPrice": 8750,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -10155,7 +9948,7 @@
     "Description": "A bit of a bat.",
     "SellPrice": 900,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10168,7 +9961,7 @@
     "Description": "Turns seeds and grains into other things.",
     "SellPrice": 7525,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -10221,7 +10014,7 @@
     "Description": "Creates fertilizer every now and again",
     "SellPrice": 23938,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -10279,7 +10072,7 @@
     "Description": "Tells you what can go in what machine.",
     "SellPrice": 7500,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10292,7 +10085,7 @@
     "Description": "Float your day away.",
     "SellPrice": 400000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10305,7 +10098,7 @@
     "Description": "Flap Flap",
     "SellPrice": 120000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10318,7 +10111,7 @@
     "Description": "Sit down outside why don't ya.",
     "SellPrice": 1796,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -10361,7 +10154,7 @@
     "Description": "Sit down outside why don't ya.",
     "SellPrice": 1952,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -10404,7 +10197,7 @@
     "Description": "Sit down outside why don't ya.",
     "SellPrice": 1328,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -10447,7 +10240,7 @@
     "Description": "Sit down outside why don't ya.",
     "SellPrice": 6406,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -10490,7 +10283,7 @@
     "Description": "Festive.",
     "SellPrice": 7431,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -10538,7 +10331,7 @@
     "Description": "It's a fun-light.",
     "SellPrice": 2450,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -10586,7 +10379,7 @@
     "Description": "A strange old statue.",
     "SellPrice": 55000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10599,7 +10392,7 @@
     "Description": "A creepy old statue.",
     "SellPrice": 55000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10612,7 +10405,7 @@
     "Description": "Cooked Flour",
     "SellPrice": 6300,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -10650,7 +10443,7 @@
     "Description": "Sugar Bread",
     "SellPrice": 2569,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -10693,7 +10486,7 @@
     "Description": "Hand held vegie pie",
     "SellPrice": 5681,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -10735,7 +10528,7 @@
       "CrafterLevelLearnt": 0
     },
     "Consumable": {
-      "Type": 4,
+      "Type": "Vegetable",
       "Buffs": [
         {
           "Type": 20,
@@ -10781,7 +10574,7 @@
     "Description": "Bush Bread",
     "SellPrice": 3975,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -10824,7 +10617,7 @@
     "Description": "Long way to the shop",
     "SellPrice": 3600,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -10866,7 +10659,7 @@
       "CrafterLevelLearnt": 0
     },
     "Consumable": {
-      "Type": 3,
+      "Type": "AnimalProduct",
       "Buffs": [
         {
           "Type": 20,
@@ -10917,7 +10710,7 @@
     "Description": "All the best stuff on one plate",
     "SellPrice": 12994,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -10969,7 +10762,7 @@
       "CrafterLevelLearnt": 0
     },
     "Consumable": {
-      "Type": 1,
+      "Type": "Meat",
       "Buffs": [
         {
           "Type": 20,
@@ -11015,7 +10808,7 @@
     "Description": "A strange gold statue.",
     "SellPrice": 180000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -11058,7 +10851,7 @@
     "Description": "A creepy gold statue.",
     "SellPrice": 180000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -11101,7 +10894,7 @@
     "Description": "Very Fancy",
     "SellPrice": 314,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -11144,7 +10937,7 @@
     "Description": "Fany Fence",
     "SellPrice": 202,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
@@ -11182,12 +10975,13 @@
   {
     "Id": 903,
     "AppId": "item_903",
+    "Hidden": true,
     "Icon": "allUI_200.png",
     "Name": "Umbrella",
     "Description": "Keep the wet out",
     "SellPrice": 3000,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11200,7 +10994,7 @@
     "Description": "A place for the community to post news and requests.",
     "SellPrice": 10000,
     "IsStackable": true,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {

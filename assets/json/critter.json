@@ -7,12 +7,12 @@
     "Description": "A muddy crab",
     "SellPrice": 4540,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [],
       "WaterLocation": [
         "Rivers"
@@ -35,12 +35,12 @@
     "Description": "Like a lobster but it's a yabbie instead.",
     "SellPrice": 1899,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [
         "All"
       ],
@@ -64,12 +64,12 @@
     "Description": "Don't eat it.",
     "SellPrice": 1200,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean",
@@ -92,12 +92,12 @@
     "Description": "That's a lot of arms!",
     "SellPrice": 8540,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean",
@@ -120,12 +120,12 @@
     "Description": "I bet its chewy",
     "SellPrice": 12540,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean",
@@ -150,12 +150,12 @@
     "Description": "It's spikey",
     "SellPrice": 640,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean",
@@ -178,12 +178,12 @@
     "Description": "Looks like bubblegum",
     "SellPrice": 1540,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean",
@@ -206,12 +206,12 @@
     "Description": "Does it eat people?",
     "SellPrice": 8040,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean",
@@ -234,12 +234,12 @@
     "Description": "What majesty!",
     "SellPrice": 3540,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean",
@@ -262,12 +262,12 @@
     "Description": "Meow",
     "SellPrice": 1540,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean",
@@ -290,12 +290,12 @@
     "Description": "A lobster without claws.",
     "SellPrice": 4540,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [
         "All"
       ],
@@ -320,12 +320,12 @@
     "Description": "Makes you strong!",
     "SellPrice": 800,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [],
       "WaterLocation": [
         "Rivers"
@@ -347,12 +347,12 @@
     "Description": "Refreshing!",
     "SellPrice": 1540,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [],
       "WaterLocation": [
         "Rivers"
@@ -374,12 +374,12 @@
     "Description": "Looks wet to me.",
     "SellPrice": 740,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [],
       "WaterLocation": [
         "Rivers"
@@ -401,12 +401,12 @@
     "Description": "Looks wet to me.",
     "SellPrice": 440,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean",
@@ -429,12 +429,12 @@
     "Description": "Strong but sad.",
     "SellPrice": 799,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean",
@@ -457,12 +457,12 @@
     "Description": "It's not that soft.",
     "SellPrice": 2540,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean",
@@ -485,12 +485,12 @@
     "Description": "Is it scared?",
     "SellPrice": 980,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [],
       "WaterLocation": [
         "Rivers"
@@ -512,12 +512,12 @@
     "Description": "It's got wings!",
     "SellPrice": 12540,
     "IsStackable": false,
-    "Equipable": 0,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 3,
+      "Type": "Critter",
       "LandLocation": [],
       "WaterLocation": [
         "NorthOcean",

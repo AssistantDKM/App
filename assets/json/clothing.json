@@ -7,7 +7,7 @@
     "Description": "This will keep that sun off ya.",
     "SellPrice": 2250,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -20,7 +20,7 @@
     "Description": "Nice black boots.",
     "SellPrice": 1800,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -33,7 +33,7 @@
     "Description": "Not only for Barry.",
     "SellPrice": 450,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -46,7 +46,7 @@
     "Description": "Boots good for hard work.",
     "SellPrice": 515,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -59,7 +59,7 @@
     "Description": "Pants for the trade.",
     "SellPrice": 530,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -72,7 +72,7 @@
     "Description": "Dark and easy to wear.",
     "SellPrice": 540,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -85,7 +85,7 @@
     "Description": "For Ghaz",
     "SellPrice": 540,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -98,7 +98,7 @@
     "Description": "A red flannelette shirt.",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -111,7 +111,7 @@
     "Description": "Woof.",
     "SellPrice": 4400,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -124,7 +124,7 @@
     "Description": "You could wear this on holiday. Or whenever.",
     "SellPrice": 730,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -137,7 +137,7 @@
     "Description": "Keep that dome hot",
     "SellPrice": 825,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -150,7 +150,7 @@
     "Description": "FANCY!",
     "SellPrice": 6250,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -163,7 +163,7 @@
     "Description": "Strike 1",
     "SellPrice": 1125,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -176,7 +176,7 @@
     "Description": "Bounce!",
     "SellPrice": 165,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -189,7 +189,7 @@
     "Description": "Pants for business.",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -202,7 +202,7 @@
     "Description": "A Shirt for business.",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -215,7 +215,7 @@
     "Description": "Shoes for business.",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -228,7 +228,7 @@
     "Description": "Yup. Green and pants.",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -241,7 +241,7 @@
     "Description": "Mr Rogers.",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -254,7 +254,7 @@
     "Description": "Gross. Green Shoes.",
     "SellPrice": 400,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -267,7 +267,7 @@
     "Description": "Flipping Stylin'",
     "SellPrice": 680,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -280,7 +280,7 @@
     "Description": "Flip and flop these bad boys.",
     "SellPrice": 510,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -293,7 +293,7 @@
     "Description": "Easy to wear.",
     "SellPrice": 665,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -306,7 +306,7 @@
     "Description": "High Vis. Low stress.",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -319,7 +319,7 @@
     "Description": "Struth, boots.",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -332,7 +332,7 @@
     "Description": "Struth, Shorts",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -345,7 +345,7 @@
     "Description": "Struth, Shirt.",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -358,7 +358,7 @@
     "Description": "Blue and easy to wear.",
     "SellPrice": 903,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -371,7 +371,7 @@
     "Description": "Is it blue with yellow stripes?",
     "SellPrice": 1200,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -384,7 +384,7 @@
     "Description": "Red Shoes.",
     "SellPrice": 1130,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -397,7 +397,7 @@
     "Description": "Blue and easy to wear.",
     "SellPrice": 565,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -410,7 +410,7 @@
     "Description": "Fairest in the land.",
     "SellPrice": 1015,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -423,7 +423,7 @@
     "Description": "White Flat Shoes",
     "SellPrice": 1675,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -436,7 +436,7 @@
     "Description": "White Flat Shoes",
     "SellPrice": 1675,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -449,7 +449,7 @@
     "Description": "A nice coloured coat.",
     "SellPrice": 2560,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -462,7 +462,7 @@
     "Description": "Scuffing be damned.",
     "SellPrice": 1400,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -475,7 +475,7 @@
     "Description": "Jeans for sunburnt knees.",
     "SellPrice": 1605,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -488,7 +488,7 @@
     "Description": "Long sleves and white",
     "SellPrice": 995,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -501,7 +501,7 @@
     "Description": "A red dress. You can wear this.",
     "SellPrice": 795,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -514,7 +514,7 @@
     "Description": "Red Flat Shoes",
     "SellPrice": 425,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -527,7 +527,7 @@
     "Description": "Sharp.",
     "SellPrice": 4000,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -540,7 +540,7 @@
     "Description": "These are some nice pants.",
     "SellPrice": 4000,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -553,7 +553,7 @@
     "Description": "Keep that dome hot",
     "SellPrice": 825,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -566,7 +566,7 @@
     "Description": "Keep that dome hot",
     "SellPrice": 275,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -579,7 +579,7 @@
     "Description": "Bounce!",
     "SellPrice": 165,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -592,7 +592,7 @@
     "Description": "Gives off light, but has limited power.",
     "SellPrice": 5000,
     "IsStackable": false,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -605,7 +605,7 @@
     "Description": "I've always wanted to have one.",
     "SellPrice": 12750,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -618,7 +618,7 @@
     "Description": "Pants for space.",
     "SellPrice": 3000,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -631,7 +631,7 @@
     "Description": "A Shirt for space.",
     "SellPrice": 4500,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -644,7 +644,7 @@
     "Description": "Shoes for space",
     "SellPrice": 2500,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -657,7 +657,7 @@
     "Description": "Strike 1",
     "SellPrice": 375,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -670,7 +670,7 @@
     "Description": "Dark Pants",
     "SellPrice": 2000,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -683,7 +683,7 @@
     "Description": "So Dark.",
     "SellPrice": 3000,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -696,7 +696,7 @@
     "Description": "So dark.",
     "SellPrice": 1200,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -709,7 +709,7 @@
     "Description": "Looks like them shorts are in trouble.",
     "SellPrice": 2500,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -722,7 +722,7 @@
     "Description": "Dress",
     "SellPrice": 3000,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -735,7 +735,7 @@
     "Description": "Strapped up.",
     "SellPrice": 600,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -748,7 +748,7 @@
     "Description": "Strike 1",
     "SellPrice": 375,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -761,7 +761,7 @@
     "Description": "Yarr.",
     "SellPrice": 5940,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -774,7 +774,7 @@
     "Description": "A black dress with a white collar.",
     "SellPrice": 1695,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -787,7 +787,7 @@
     "Description": "Blue and easy to wear.",
     "SellPrice": 565,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -800,7 +800,7 @@
     "Description": "Yup. Pink and shorts.",
     "SellPrice": 1200,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -813,7 +813,7 @@
     "Description": "Pink sneaky shoes.",
     "SellPrice": 750,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -826,7 +826,7 @@
     "Description": "A normal pink T-Shirt",
     "SellPrice": 1075,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -839,7 +839,7 @@
     "Description": "Blue sneaky shoes.",
     "SellPrice": 750,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -852,7 +852,7 @@
     "Description": "A normal blue T-Shirt",
     "SellPrice": 1075,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -865,7 +865,7 @@
     "Description": "Its sure is purple!",
     "SellPrice": 580,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -878,7 +878,7 @@
     "Description": "Purple Flat Shoes",
     "SellPrice": 335,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -891,7 +891,7 @@
     "Description": "Like purple shorts, but longer.",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -904,7 +904,7 @@
     "Description": "Tough green boots",
     "SellPrice": 750,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -917,7 +917,7 @@
     "Description": "Yup. Brown and pants.",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -930,7 +930,7 @@
     "Description": "Blue and warm",
     "SellPrice": 1180,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -943,7 +943,7 @@
     "Description": "Are these socks or pants?",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -956,7 +956,7 @@
     "Description": "It has a short singlet",
     "SellPrice": 2560,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -969,7 +969,7 @@
     "Description": "Yup. Maroon and pants.",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -982,7 +982,7 @@
     "Description": "What time is it?",
     "SellPrice": 7200,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -995,7 +995,7 @@
     "Description": "Red shoes",
     "SellPrice": 465,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1008,7 +1008,7 @@
     "Description": "Its all over",
     "SellPrice": 1580,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1021,7 +1021,7 @@
     "Description": "Black and white tights.",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1034,7 +1034,7 @@
     "Description": "Bone Apple Tea",
     "SellPrice": 3025,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1047,7 +1047,7 @@
     "Description": "Perfect to cook in.",
     "SellPrice": 4050,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1060,7 +1060,7 @@
     "Description": "Pants for cooking",
     "SellPrice": 2400,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1073,7 +1073,7 @@
     "Description": "Orange Shorts",
     "SellPrice": 975,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1086,7 +1086,7 @@
     "Description": "Bright T-Shirt",
     "SellPrice": 1010,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1099,7 +1099,7 @@
     "Description": "Slip those puppies on.",
     "SellPrice": 715,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1112,7 +1112,7 @@
     "Description": "Danger Zone!",
     "SellPrice": 1250,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1125,7 +1125,7 @@
     "Description": "Yaaar",
     "SellPrice": 1150,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1138,7 +1138,7 @@
     "Description": "Doesn't mean it's not cool.",
     "SellPrice": 1400,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1151,7 +1151,7 @@
     "Description": "Helps you see.",
     "SellPrice": 2750,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1164,7 +1164,7 @@
     "Description": "Helps you look cool.",
     "SellPrice": 2075,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1177,7 +1177,7 @@
     "Description": "Don't let it fall off.",
     "SellPrice": 2400,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1190,7 +1190,7 @@
     "Description": "Helps you see.",
     "SellPrice": 1200,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1203,7 +1203,7 @@
     "Description": "Helps you see.",
     "SellPrice": 750,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1216,7 +1216,7 @@
     "Description": "Helps you look cool.",
     "SellPrice": 1550,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1229,7 +1229,7 @@
     "Description": "Helps you see.",
     "SellPrice": 850,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1242,7 +1242,7 @@
     "Description": "Helps you look cool.",
     "SellPrice": 1200,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1255,7 +1255,7 @@
     "Description": "Helps you see.",
     "SellPrice": 1200,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1268,7 +1268,7 @@
     "Description": "Helps you look cool.",
     "SellPrice": 1200,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1281,7 +1281,7 @@
     "Description": "Makes you so Jolly!",
     "SellPrice": 657,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1294,7 +1294,7 @@
     "Description": "So Jolly!",
     "SellPrice": 3010,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1307,7 +1307,7 @@
     "Description": "So Jolly! Ho Ho Ho!",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1320,7 +1320,7 @@
     "Description": "So Jolly! Ho Ho Ho!",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1333,7 +1333,7 @@
     "Description": "So Jolly! Ho Ho Ho!",
     "SellPrice": 400,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1346,7 +1346,7 @@
     "Description": "Collect milk in this.",
     "SellPrice": 800,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1359,7 +1359,7 @@
     "Description": "Little bow",
     "SellPrice": 1125,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1372,7 +1372,7 @@
     "Description": "This will keep that sun off ya.",
     "SellPrice": 1850,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1385,7 +1385,7 @@
     "Description": "This will keep that sun off ya.",
     "SellPrice": 1850,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1398,7 +1398,7 @@
     "Description": "Makes you smarter.",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1411,7 +1411,7 @@
     "Description": "It's got a lil' candle on it. Cute!",
     "SellPrice": 275,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1424,7 +1424,7 @@
     "Description": "Polka-y",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1437,7 +1437,7 @@
     "Description": "Dotty.",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1450,7 +1450,7 @@
     "Description": "Step on the spot.",
     "SellPrice": 600,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1463,7 +1463,7 @@
     "Description": "Spot on.",
     "SellPrice": 665,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1476,7 +1476,7 @@
     "Description": "It's got a dino on it.",
     "SellPrice": 984,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1489,7 +1489,7 @@
     "Description": "Rad.",
     "SellPrice": 1034,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1502,7 +1502,7 @@
     "Description": "Light as.",
     "SellPrice": 934,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1515,7 +1515,7 @@
     "Description": "Strike 1",
     "SellPrice": 375,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1528,7 +1528,7 @@
     "Description": "Strike 1",
     "SellPrice": 375,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1541,7 +1541,7 @@
     "Description": "Pants for sweating.",
     "SellPrice": 530,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1554,7 +1554,7 @@
     "Description": "Slip these puppies on.",
     "SellPrice": 403,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1567,7 +1567,7 @@
     "Description": "Hide under your hat.",
     "SellPrice": 1125,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1580,7 +1580,7 @@
     "Description": "Where is it?",
     "SellPrice": 665,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1593,7 +1593,7 @@
     "Description": "It's like wearing nothing at all",
     "SellPrice": 1300,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1606,7 +1606,7 @@
     "Description": "Hide in plain sight.",
     "SellPrice": 1400,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1619,7 +1619,7 @@
     "Description": "Left, right, left",
     "SellPrice": 655,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1632,7 +1632,7 @@
     "Description": "Pockets. Lots of pockets.",
     "SellPrice": 1207,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1645,7 +1645,7 @@
     "Description": "Or blue with white stripes?",
     "SellPrice": 1400,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1658,7 +1658,7 @@
     "Description": "Slip these puppies on.",
     "SellPrice": 403,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1671,7 +1671,7 @@
     "Description": "Pockets. Lots of pockets.",
     "SellPrice": 1507,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1684,7 +1684,7 @@
     "Description": "Slip these puppies on.",
     "SellPrice": 407,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1697,7 +1697,7 @@
     "Description": "Or yellow with orange stripes?",
     "SellPrice": 1400,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1710,7 +1710,7 @@
     "Description": "This will keep that sun off ya.",
     "SellPrice": 1350,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1723,7 +1723,7 @@
     "Description": "It's warm!",
     "SellPrice": 1500,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1736,7 +1736,7 @@
     "Description": "It's warm!",
     "SellPrice": 1500,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1749,7 +1749,7 @@
     "Description": "It's warm!",
     "SellPrice": 1500,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1762,7 +1762,7 @@
     "Description": "It's warm!",
     "SellPrice": 1500,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1775,7 +1775,7 @@
     "Description": "It's ugly.",
     "SellPrice": 1153,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1788,7 +1788,7 @@
     "Description": "Cuffed up and ready to go.",
     "SellPrice": 1507,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1801,7 +1801,7 @@
     "Description": "Cuffed up and ready to go.",
     "SellPrice": 1507,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1814,7 +1814,7 @@
     "Description": "Cuffed up and ready to go.",
     "SellPrice": 1507,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1827,7 +1827,7 @@
     "Description": "Cuffed up and ready to go.",
     "SellPrice": 1507,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1840,7 +1840,7 @@
     "Description": "Sing it.",
     "SellPrice": 600,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1853,7 +1853,7 @@
     "Description": "Sing it.",
     "SellPrice": 600,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1866,7 +1866,7 @@
     "Description": "Easy to wear!",
     "SellPrice": 903,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1879,7 +1879,7 @@
     "Description": "Sing it.",
     "SellPrice": 600,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1892,7 +1892,7 @@
     "Description": "Easy to wear!",
     "SellPrice": 903,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1905,7 +1905,7 @@
     "Description": "See all the fish.",
     "SellPrice": 1765,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1918,7 +1918,7 @@
     "Description": "Keep the steam out of your eyes.",
     "SellPrice": 2765,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1931,7 +1931,7 @@
     "Description": "Keep your toots dry.",
     "SellPrice": 1800,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1944,7 +1944,7 @@
     "Description": "Keep dry.",
     "SellPrice": 1600,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1957,7 +1957,7 @@
     "Description": "This will keep that rain off ya.",
     "SellPrice": 1396,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1970,7 +1970,7 @@
     "Description": "Blue and easy to wear.",
     "SellPrice": 765,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1983,7 +1983,7 @@
     "Description": "Orange and easy to wear.",
     "SellPrice": 765,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1996,7 +1996,7 @@
     "Description": "Spooky.",
     "SellPrice": 22750,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2009,7 +2009,7 @@
     "Description": "It's flat and a cap.",
     "SellPrice": 525,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2022,7 +2022,7 @@
     "Description": "Don't steal these.",
     "SellPrice": 730,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2035,7 +2035,7 @@
     "Description": "Why aren't these flippers?",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2048,7 +2048,7 @@
     "Description": "Keeps the sun off and the water in.",
     "SellPrice": 2525,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2061,7 +2061,7 @@
     "Description": "Sneaky",
     "SellPrice": 12750,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2074,7 +2074,7 @@
     "Description": "Sneaky Boots",
     "SellPrice": 1800,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2087,7 +2087,7 @@
     "Description": "Sneaky pants",
     "SellPrice": 3000,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2100,7 +2100,7 @@
     "Description": "Sneaky",
     "SellPrice": 3000,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2113,7 +2113,7 @@
     "Description": "Spot on.",
     "SellPrice": 865,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2126,7 +2126,7 @@
     "Description": "Nice!",
     "SellPrice": 1065,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2139,7 +2139,7 @@
     "Description": "Plaid",
     "SellPrice": 1065,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2152,7 +2152,7 @@
     "Description": "Overalls",
     "SellPrice": 1125,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2165,7 +2165,7 @@
     "Description": "Overalls",
     "SellPrice": 1125,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2178,7 +2178,7 @@
     "Description": "A warm Dress",
     "SellPrice": 1225,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2191,7 +2191,7 @@
     "Description": "A warm dress",
     "SellPrice": 1225,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2204,7 +2204,7 @@
     "Description": "Little bow",
     "SellPrice": 1125,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2217,7 +2217,7 @@
     "Description": "This will keep that sun off ya.",
     "SellPrice": 250,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2230,7 +2230,7 @@
     "Description": "Green and warm",
     "SellPrice": 1180,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2243,7 +2243,7 @@
     "Description": "Nice pants.",
     "SellPrice": 800,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2256,7 +2256,7 @@
     "Description": "Nice pants.",
     "SellPrice": 800,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2269,7 +2269,7 @@
     "Description": "Orange and warm",
     "SellPrice": 1180,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2282,7 +2282,7 @@
     "Description": "Nice pants.",
     "SellPrice": 800,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2295,7 +2295,7 @@
     "Description": "Nice pants.",
     "SellPrice": 800,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2308,7 +2308,7 @@
     "Description": "It's flat and a cap.",
     "SellPrice": 525,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2321,7 +2321,7 @@
     "Description": "It's flat and a cap.",
     "SellPrice": 525,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2334,7 +2334,7 @@
     "Description": "It's flat and a cap.",
     "SellPrice": 525,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2347,7 +2347,7 @@
     "Description": "Blue and warm",
     "SellPrice": 1080,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2360,7 +2360,7 @@
     "Description": "Green and warm",
     "SellPrice": 1180,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2373,7 +2373,7 @@
     "Description": "Orange and warm",
     "SellPrice": 1180,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2386,7 +2386,7 @@
     "Description": "A red flannelette shirt.",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2399,12 +2399,12 @@
     "Description": "Maybe they keep your ears warm?",
     "SellPrice": 835,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
     "CreatureDetails": {
-      "Type": 4,
+      "Type": "Relic",
       "LandLocation": [],
       "WaterLocation": [],
       "SeasonFound": [],
@@ -2420,7 +2420,7 @@
     "Description": "Keep the neck safe.",
     "SellPrice": 1125,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2433,7 +2433,7 @@
     "Description": "Keep bug out of your eyes.",
     "SellPrice": 1905,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2446,7 +2446,7 @@
     "Description": "What are you even looking at?",
     "SellPrice": 6765,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2459,7 +2459,7 @@
     "Description": "Who is that?",
     "SellPrice": 5400,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2472,7 +2472,7 @@
     "Description": "Looks familiar..",
     "SellPrice": 9875,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2485,7 +2485,7 @@
     "Description": "I hope you dont sweat yellow.",
     "SellPrice": 900,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2498,7 +2498,7 @@
     "Description": "Got them kicks.",
     "SellPrice": 1800,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2511,7 +2511,7 @@
     "Description": "The \"B\" stands for shirt.",
     "SellPrice": 1304,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2524,7 +2524,7 @@
     "Description": "Looks familiar..",
     "SellPrice": 9875,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2537,7 +2537,7 @@
     "Description": "Looks real to me...",
     "SellPrice": 2000,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2550,7 +2550,7 @@
     "Description": "Hard to flip in.",
     "SellPrice": 1800,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2563,7 +2563,7 @@
     "Description": "A nice coloured jacket.",
     "SellPrice": 2560,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2576,7 +2576,7 @@
     "Description": "They could be skinnier...",
     "SellPrice": 1450,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2589,7 +2589,7 @@
     "Description": "Bright Pants",
     "SellPrice": 2000,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2602,7 +2602,7 @@
     "Description": "Easy to stain.",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2615,7 +2615,7 @@
     "Description": "It's flat and a cap.",
     "SellPrice": 525,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2628,7 +2628,7 @@
     "Description": "Black and warm",
     "SellPrice": 1180,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2641,7 +2641,7 @@
     "Description": "Nice pants.",
     "SellPrice": 800,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2654,7 +2654,7 @@
     "Description": "Easy to wear!",
     "SellPrice": 903,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2667,7 +2667,7 @@
     "Description": "It's pretty yellow.",
     "SellPrice": 1304,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2680,7 +2680,7 @@
     "Description": "High Vis",
     "SellPrice": 515,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2693,7 +2693,7 @@
     "Description": "Don't scuff these.",
     "SellPrice": 515,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2706,7 +2706,7 @@
     "Description": "Hide your face.",
     "SellPrice": 2600,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2719,7 +2719,7 @@
     "Description": "Hide your face.",
     "SellPrice": 2600,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2732,7 +2732,7 @@
     "Description": "Hide your face.",
     "SellPrice": 2600,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2745,7 +2745,7 @@
     "Description": "Hide your face.",
     "SellPrice": 2600,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2758,7 +2758,7 @@
     "Description": "Hide your face.",
     "SellPrice": 2600,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2771,7 +2771,7 @@
     "Description": "Helps you see. A lot.",
     "SellPrice": 1600,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2784,7 +2784,7 @@
     "Description": "Helps you see. A lot.",
     "SellPrice": 1600,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2797,7 +2797,7 @@
     "Description": "Helps you see. A lot.",
     "SellPrice": 1600,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2810,7 +2810,7 @@
     "Description": "Could take an eye out.",
     "SellPrice": 3600,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2823,7 +2823,7 @@
     "Description": "Keep the sun out of some of you eyes.",
     "SellPrice": 1250,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2836,7 +2836,7 @@
     "Description": "Stylish.",
     "SellPrice": 1250,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2849,7 +2849,7 @@
     "Description": "Stylish.",
     "SellPrice": 1250,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2862,7 +2862,7 @@
     "Description": "It's yellow!",
     "SellPrice": 1065,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2875,7 +2875,7 @@
     "Description": "Beautiful!",
     "SellPrice": 1065,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2888,7 +2888,7 @@
     "Description": "Dark.",
     "SellPrice": 1065,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2901,7 +2901,7 @@
     "Description": "Beautiful!",
     "SellPrice": 1304,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2914,7 +2914,7 @@
     "Description": "Beautiful!",
     "SellPrice": 1000,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2927,7 +2927,7 @@
     "Description": "Beautiful!",
     "SellPrice": 1800,
     "IsStackable": true,
-    "Equipable": 6,
+    "Equipable": "Shoes",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2940,7 +2940,7 @@
     "Description": "Does it honk?",
     "SellPrice": 1100,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2953,7 +2953,7 @@
     "Description": "Who is quack?",
     "SellPrice": 5400,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2966,7 +2966,7 @@
     "Description": "A nice coloured coat.",
     "SellPrice": 2560,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2979,7 +2979,7 @@
     "Description": "Jeans for sunburnt knees.",
     "SellPrice": 1601,
     "IsStackable": true,
-    "Equipable": 5,
+    "Equipable": "Pants",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2992,7 +2992,7 @@
     "Description": "Keep your breath in.",
     "SellPrice": 5400,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3005,7 +3005,7 @@
     "Description": "Keep your breath in.",
     "SellPrice": 5400,
     "IsStackable": true,
-    "Equipable": 2,
+    "Equipable": "Face",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3018,7 +3018,7 @@
     "Description": "Bok Bok",
     "SellPrice": 9875,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3031,7 +3031,7 @@
     "Description": "Sort this out.",
     "SellPrice": 12250,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3044,7 +3044,7 @@
     "Description": "Never late.",
     "SellPrice": 5940,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3057,7 +3057,7 @@
     "Description": "Does it point west?",
     "SellPrice": 12250,
     "IsStackable": true,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3070,7 +3070,7 @@
     "Description": "Where's the broom?",
     "SellPrice": 5940,
     "IsStackable": true,
-    "Equipable": 3,
+    "Equipable": "Shirt",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3083,7 +3083,7 @@
     "Description": "Needs to be recharged.",
     "SellPrice": 5000,
     "IsStackable": false,
-    "Equipable": 1,
+    "Equipable": "Hat",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
