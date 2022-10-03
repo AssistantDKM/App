@@ -1,16 +1,13 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_redux/flutter_redux.dart';
 
 import '../components/pageElements/inventory_page_content.dart';
 import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
 import '../components/tilePreseneters/item_base_tile_presenter.dart';
 import '../contracts/json/inventory_item.dart';
-import '../contracts/redux/app_state.dart';
 import '../helper/generic_repository_helper.dart';
 import '../integration/dependency_injection.dart';
-import '../redux/setting/setting_viewmodel.dart';
 
 class InventoryListPage extends StatelessWidget {
   final String analyticsEvent;
@@ -66,23 +63,20 @@ class InventoryDetailsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     getLog().d(appId);
-    return StoreConnector<AppState, SettingViewModel>(
-      converter: (store) => SettingViewModel.fromStore(store),
-      builder: (redxContext, viewModel) => ItemDetailsPage<InventoryItem>(
-        title: title,
-        isInDetailPane: isInDetailPane,
-        getItemFunc: () => getGenericRepoFromAppId(appId).getItem(
-          context,
-          appId,
-        ),
-        getName: (loadedItem) => loadedItem.name,
-        contractToWidgetList: (loadedItem, isInDetailPane) =>
-            commonInventoryContents(
-          redxContext,
-          loadedItem,
-          isInDetailPane,
-          updateDetailView,
-        ),
+    return ItemDetailsPage<InventoryItem>(
+      title: title,
+      isInDetailPane: isInDetailPane,
+      getItemFunc: () => getGenericRepoFromAppId(appId).getItem(
+        context,
+        appId,
+      ),
+      getName: (loadedItem) => loadedItem.name,
+      contractToWidgetList: (loadedItem, isInDetailPane) =>
+          commonInventoryContents(
+        context,
+        loadedItem,
+        isInDetailPane,
+        updateDetailView,
       ),
     );
   }

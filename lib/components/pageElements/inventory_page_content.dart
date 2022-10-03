@@ -1,11 +1,15 @@
+import 'package:assistant_dinkum_app/constants/app_json.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 import '../../contracts/json/inventory_item.dart';
 import '../../contracts/json/inventory_item_craftable_required.dart';
 import '../../contracts/json/inventory_item_creature.dart';
+import '../../helper/position_helper.dart';
 import '../../pages/inventory_pages.dart';
 import '../tilePreseneters/required_item_tile_presenter.dart';
+import 'inventory_item_favourites_icon.dart';
+import 'inventory_item_museum_icon.dart';
 import 'item_page_components.dart';
 
 List<Widget> commonInventoryContents(
@@ -14,8 +18,27 @@ List<Widget> commonInventoryContents(
   bool isInDetailPane,
   void Function(Widget newDetailView)? updateDetailView,
 ) {
+  bool isMuseumPlaceable = loadedItem.appId.contains(AppJsonPrefix.bug) ||
+      loadedItem.appId.contains(AppJsonPrefix.fish) ||
+      loadedItem.appId.contains(AppJsonPrefix.critter);
+
+  List<Widget> stackWidgets = [
+    InventoryItemFavouritesIcon(appId: loadedItem.appId),
+  ];
+
+  if (isMuseumPlaceable) {
+    stackWidgets.add(InventoryItemMuseumIcon(appId: loadedItem.appId));
+  }
+
+  Widget imageStack = Stack(
+    children: [
+      Center(child: localImage('inventory/${loadedItem.icon}')),
+      ...widgetsToPositioneds(stackWidgets),
+    ],
+  );
+
   List<Widget> descripWidgets = [
-    Center(child: localImage('inventory/${loadedItem.icon}')),
+    imageStack,
     genericItemName(loadedItem.name),
     pageDefaultPadding(genericItemDescription(loadedItem.description)),
     dinkumPrice(contentsContext, loadedItem.sellPrice),
