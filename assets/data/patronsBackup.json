@@ -192,6 +192,18 @@
     "url": "https://assistantapps.com"
   },
   {
+    "name": "Gunslinger",
+    "imageUrl": "https://cdn.assistantapps.com/patreon/3A837304BFA4BF014340B66D218F2513.png",
+    "thumbnailUrl": "https://cdn.assistantapps.com/patreon/3A837304BFA4BF014340B66D218F2513.png",
+    "url": "https://assistantapps.com"
+  },
+  {
+    "name": "Reven",
+    "imageUrl": "https://cdn.assistantapps.com/patreon/6195C08519C9C2A6658DC97551AA81B1.png",
+    "thumbnailUrl": "https://cdn.assistantapps.com/patreon/6195C08519C9C2A6658DC97551AA81B1.png",
+    "url": "https://assistantapps.com"
+  },
+  {
     "name": "MightyChicken",
     "imageUrl": "https://cdn.assistantapps.com/patreon/F5340B555E6426381124C31489E7A1E5.png",
     "thumbnailUrl": "https://cdn.assistantapps.com/patreon/F5340B555E6426381124C31489E7A1E5.png",
@@ -201,6 +213,12 @@
     "name": "Dion Young",
     "imageUrl": "https://cdn.assistantapps.com/patreon/B9CCF5AB9D710ACD53A4D39B0D5AEE3B.png",
     "thumbnailUrl": "https://cdn.assistantapps.com/patreon/B9CCF5AB9D710ACD53A4D39B0D5AEE3B.png",
+    "url": "https://assistantapps.com"
+  },
+  {
+    "name": "FunnyScarecrow",
+    "imageUrl": "https://ui-avatars.com/api/?size=128&name=FunnySca",
+    "thumbnailUrl": "https://ui-avatars.com/api/?size=128&name=FunnySca",
     "url": "https://assistantapps.com"
   }
 ]
