@@ -26,6 +26,54 @@
     "LicenceLevelText": ""
   },
   {
+    "Id": 30,
+    "AppId": "furniture_30",
+    "Icon": "allUI_2.png",
+    "Name": "Wooden Crate",
+    "Description": "Store things in here if you like",
+    "SellPrice": 754,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 306,
+          "AppId": "item_306",
+          "Quantity": 1
+        },
+        {
+          "Id": 305,
+          "AppId": "item_305",
+          "Quantity": 2
+        },
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 0,
+      "WorkPlaceConditions": "None",
+      "CategoryEnum": 6,
+      "Category": "House",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 1,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
     "Id": 53,
     "AppId": "furniture_53",
     "Icon": "allUI_0.png",
@@ -819,6 +867,59 @@
     "LicenceLevelText": ""
   },
   {
+    "Id": 359,
+    "AppId": "furniture_359",
+    "Icon": "allUI_145.png",
+    "Name": "Cooking Table",
+    "Description": "A place to prepare meals.",
+    "SellPrice": 2570,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 306,
+          "AppId": "item_306",
+          "Quantity": 5
+        },
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 2
+        },
+        {
+          "Id": 460,
+          "AppId": "item_460",
+          "Quantity": 1
+        },
+        {
+          "Id": 466,
+          "AppId": "item_466",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 0,
+      "WorkPlaceConditions": "None",
+      "CategoryEnum": 6,
+      "Category": "House",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 1,
+      "Skill": "Foraging",
+      "LevelSkillLearnt": 1,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
     "Id": 365,
     "AppId": "furniture_365",
     "Icon": "allUI_0.png",
@@ -1014,6 +1115,54 @@
     "LicenceLevelText": ""
   },
   {
+    "Id": 392,
+    "AppId": "furniture_392",
+    "Icon": "allUI_159.png",
+    "Name": "Keg",
+    "Description": "Leave stuff in there for way too long.",
+    "SellPrice": 13906,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 306,
+          "AppId": "item_306",
+          "Quantity": 5
+        },
+        {
+          "Id": 113,
+          "AppId": "item_113",
+          "Quantity": 1
+        },
+        {
+          "Id": 113,
+          "AppId": "item_113",
+          "Quantity": 4
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 0,
+      "WorkPlaceConditions": "None",
+      "CategoryEnum": 6,
+      "Category": "House",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 3,
+      "SkillEnum": 1,
+      "Skill": "Foraging",
+      "LevelSkillLearnt": 10,
+      "LearnThroughLicence": true,
+      "LicenceTypeEnum": 2,
+      "LicenceType": "Logging",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
     "Id": 469,
     "AppId": "furniture_469",
     "Icon": "allUI_149.png",
@@ -1152,6 +1301,54 @@
     "SellPrice": 250,
     "IsStackable": true,
     "Equipable": "Wallpaper",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 481,
+    "AppId": "furniture_481",
+    "Icon": "allUI_195.png",
+    "Name": "Crafting Table",
+    "Description": "Craft stuff here.",
+    "SellPrice": 1480,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 305,
+          "AppId": "item_305",
+          "Quantity": 3
+        },
+        {
+          "Id": 460,
+          "AppId": "item_460",
+          "Quantity": 1
+        },
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 0,
+      "WorkPlaceConditions": "None",
+      "CategoryEnum": 6,
+      "Category": "House",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 100
+    },
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1846,6 +2043,102 @@
     "LicenceLevelText": ""
   },
   {
+    "Id": 633,
+    "AppId": "furniture_633",
+    "Icon": "allUI2_19.png",
+    "Name": "Spinning Wheel",
+    "Description": "Turn wool into fabric",
+    "SellPrice": 5400,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 306,
+          "AppId": "item_306",
+          "Quantity": 4
+        },
+        {
+          "Id": 384,
+          "AppId": "item_384",
+          "Quantity": 4
+        },
+        {
+          "Id": 587,
+          "AppId": "item_587",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 0,
+      "WorkPlaceConditions": "None",
+      "CategoryEnum": 5,
+      "Category": "Gardening",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 5,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 635,
+    "AppId": "furniture_635",
+    "Icon": "allUI2_21.png",
+    "Name": "Cheese Maker",
+    "Description": "Turn milk into cheese.",
+    "SellPrice": 8625,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 349,
+          "AppId": "clothing_349",
+          "Quantity": 1
+        },
+        {
+          "Id": 113,
+          "AppId": "item_113",
+          "Quantity": 2
+        },
+        {
+          "Id": 384,
+          "AppId": "item_384",
+          "Quantity": 4
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 0,
+      "WorkPlaceConditions": "None",
+      "CategoryEnum": 5,
+      "Category": "Gardening",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 5,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
     "Id": 665,
     "AppId": "furniture_665",
     "Icon": "allUI_150.png",
@@ -1893,6 +2186,59 @@
     "SellPrice": 157,
     "IsStackable": true,
     "Equipable": "Flooring",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 670,
+    "AppId": "furniture_670",
+    "Icon": "allUI2_45.png",
+    "Name": "Wooden Sign",
+    "Description": "Show an item off.",
+    "SellPrice": 808,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 307,
+          "AppId": "item_307",
+          "Quantity": 1
+        },
+        {
+          "Id": 305,
+          "AppId": "item_305",
+          "Quantity": 1
+        },
+        {
+          "Id": 649,
+          "AppId": "item_649",
+          "Quantity": 1
+        },
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 2
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 0,
+      "WorkPlaceConditions": "None",
+      "CategoryEnum": 6,
+      "Category": "House",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 3,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2132,6 +2478,54 @@
     "LicenceLevelText": ""
   },
   {
+    "Id": 797,
+    "AppId": "furniture_797",
+    "Icon": "allUI2_113.png",
+    "Name": "Storage Barrel",
+    "Description": "Store things in here if you like.",
+    "SellPrice": 4281,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 306,
+          "AppId": "item_306",
+          "Quantity": 5
+        },
+        {
+          "Id": 305,
+          "AppId": "item_305",
+          "Quantity": 2
+        },
+        {
+          "Id": 113,
+          "AppId": "item_113",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 0,
+      "WorkPlaceConditions": "None",
+      "CategoryEnum": 6,
+      "Category": "House",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 1,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
     "Id": 842,
     "AppId": "furniture_842",
     "Icon": "allUI2_168.png",
@@ -2153,6 +2547,59 @@
     "SellPrice": 2200,
     "IsStackable": true,
     "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 860,
+    "AppId": "furniture_860",
+    "Icon": "allUI2_175.png",
+    "Name": "Grain Mill",
+    "Description": "Turns seeds and grains into other things.",
+    "SellPrice": 7525,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 305,
+          "AppId": "item_305",
+          "Quantity": 4
+        },
+        {
+          "Id": 384,
+          "AppId": "item_384",
+          "Quantity": 4
+        },
+        {
+          "Id": 114,
+          "AppId": "item_114",
+          "Quantity": 2
+        },
+        {
+          "Id": 587,
+          "AppId": "item_587",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 0,
+      "WorkPlaceConditions": "None",
+      "CategoryEnum": 5,
+      "Category": "Gardening",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 5,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceTypeEnum": 11,
+      "LicenceType": "Farming",
+      "LicenceLevelLearnt": 1,
+      "CrafterLevelLearnt": 0
+    },
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2387,6 +2834,49 @@
     "SellPrice": 884,
     "IsStackable": true,
     "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 885,
+    "AppId": "furniture_885",
+    "Icon": "allUI2_187.png",
+    "Name": "Palm Wood Bench",
+    "Description": "Sit down outside why don't ya.",
+    "SellPrice": 1796,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 306,
+          "AppId": "item_306",
+          "Quantity": 5
+        },
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 4
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 1,
+      "WorkPlaceConditions": "CraftingTable",
+      "CategoryEnum": 6,
+      "Category": "House",
+      "SubCategoryEnum": 7,
+      "SubCategory": "Decoration",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""

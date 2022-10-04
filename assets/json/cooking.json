@@ -13,12 +13,12 @@
       "Buffs": [
         {
           "Type": 20,
-          "Level": 3,
+          "Level": 2,
           "Seconds": 0
         },
         {
           "Type": 21,
-          "Level": 2,
+          "Level": 3,
           "Seconds": 0
         },
         {
@@ -51,12 +51,12 @@
       "Buffs": [
         {
           "Type": 20,
-          "Level": 8,
+          "Level": 10,
           "Seconds": 0
         },
         {
           "Type": 21,
-          "Level": 10,
+          "Level": 8,
           "Seconds": 0
         },
         {
@@ -99,29 +99,16 @@
         },
         {
           "Type": 22,
-          "Level": 5,
+          "Level": 0,
           "Seconds": 0
         },
         {
           "Type": 23,
-          "Level": 0,
+          "Level": 5,
           "Seconds": 0
         }
       ]
     },
-    "RequiredLicence": "None",
-    "RequiredLicenceLevel": 1,
-    "LicenceLevelText": ""
-  },
-  {
-    "Id": 51,
-    "AppId": "cooking_51",
-    "Icon": "fishUi_3.png",
-    "Name": "Cooked Fish",
-    "Description": "Thats good eatin' fo sho",
-    "SellPrice": 100,
-    "IsStackable": true,
-    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -216,12 +203,12 @@
       "Buffs": [
         {
           "Type": 20,
-          "Level": 4,
+          "Level": 8,
           "Seconds": 0
         },
         {
           "Type": 21,
-          "Level": 8,
+          "Level": 4,
           "Seconds": 0
         },
         {
@@ -254,12 +241,12 @@
       "Buffs": [
         {
           "Type": 20,
-          "Level": 2,
+          "Level": -5,
           "Seconds": 0
         },
         {
           "Type": 21,
-          "Level": -5,
+          "Level": 2,
           "Seconds": 0
         },
         {
@@ -287,6 +274,31 @@
     "SellPrice": 3100,
     "IsStackable": true,
     "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 15,
+          "Seconds": 0
+        }
+      ]
+    },
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -300,6 +312,31 @@
     "SellPrice": 35,
     "IsStackable": true,
     "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": -5,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -318,12 +355,12 @@
       "Buffs": [
         {
           "Type": 20,
-          "Level": 5,
+          "Level": 0,
           "Seconds": 0
         },
         {
           "Type": 21,
-          "Level": 0,
+          "Level": 5,
           "Seconds": 0
         },
         {
@@ -356,12 +393,12 @@
       "Buffs": [
         {
           "Type": 20,
-          "Level": 0,
+          "Level": 5,
           "Seconds": 0
         },
         {
           "Type": 21,
-          "Level": 5,
+          "Level": 0,
           "Seconds": 0
         },
         {
@@ -394,12 +431,12 @@
       "Buffs": [
         {
           "Type": 20,
-          "Level": 10,
+          "Level": 5,
           "Seconds": 0
         },
         {
           "Type": 21,
-          "Level": 5,
+          "Level": 10,
           "Seconds": 0
         },
         {
@@ -470,12 +507,12 @@
       "Buffs": [
         {
           "Type": 20,
-          "Level": 5,
+          "Level": 10,
           "Seconds": 0
         },
         {
           "Type": 21,
-          "Level": 10,
+          "Level": 5,
           "Seconds": 0
         },
         {
@@ -556,12 +593,12 @@
         },
         {
           "Type": 22,
-          "Level": 0,
+          "Level": 10,
           "Seconds": 0
         },
         {
           "Type": 23,
-          "Level": 10,
+          "Level": 0,
           "Seconds": 0
         }
       ]
@@ -594,12 +631,12 @@
         },
         {
           "Type": 22,
-          "Level": 10,
+          "Level": 0,
           "Seconds": 0
         },
         {
           "Type": 23,
-          "Level": 0,
+          "Level": 10,
           "Seconds": 0
         }
       ]
@@ -622,12 +659,12 @@
       "Buffs": [
         {
           "Type": 20,
-          "Level": 8,
+          "Level": 2,
           "Seconds": 0
         },
         {
           "Type": 21,
-          "Level": 2,
+          "Level": 8,
           "Seconds": 0
         },
         {
@@ -670,12 +707,12 @@
         },
         {
           "Type": 22,
-          "Level": 5,
+          "Level": 0,
           "Seconds": 0
         },
         {
           "Type": 23,
-          "Level": 0,
+          "Level": 5,
           "Seconds": 0
         }
       ]
@@ -708,13 +745,453 @@
         },
         {
           "Type": 22,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
           "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 360,
+    "AppId": "cooking_360",
+    "Icon": "allUI2_191.png",
+    "Name": "Lamington",
+    "Description": "Coconuty",
+    "SellPrice": 5939,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 861,
+          "AppId": "cooking_861",
+          "Quantity": 1
+        },
+        {
+          "Id": 862,
+          "AppId": "cooking_862",
+          "Quantity": 1
+        },
+        {
+          "Id": 799,
+          "AppId": "item_799",
+          "Quantity": 1
+        },
+        {
+          "Id": 345,
+          "AppId": "cooking_345",
+          "Quantity": 1
+        },
+        {
+          "Id": 350,
+          "AppId": "cooking_350",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 8,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 30,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 30,
+          "Seconds": 0
+        },
+        {
+          "Type": 9,
+          "Level": 3,
+          "Seconds": 60
+        },
+        {
+          "Type": 8,
+          "Level": 2,
+          "Seconds": 240
+        },
+        {
+          "Type": 4,
+          "Level": 2,
+          "Seconds": 240
+        },
+        {
+          "Type": 3,
+          "Level": 2,
+          "Seconds": 240
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 361,
+    "AppId": "cooking_361",
+    "Icon": "allUI_146.png",
+    "Name": "Fish and Chips",
+    "Description": "From the water and the dirt.",
+    "SellPrice": 2900,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 772,
+          "AppId": "item_772",
+          "Quantity": 1
+        },
+        {
+          "Id": 322,
+          "AppId": "cooking_322",
+          "Quantity": 2
+        },
+        {
+          "Id": 17,
+          "AppId": "cooking_17",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 5,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 30,
+          "Seconds": 0
+        },
+        {
+          "Type": 7,
+          "Level": 3,
+          "Seconds": 1200
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 362,
+    "AppId": "cooking_362",
+    "Icon": "allUI_144.png",
+    "Name": "Fruit Salad",
+    "Description": "Yummy Yummy.",
+    "SellPrice": 1388,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 17,
+          "AppId": "cooking_17",
+          "Quantity": 2
+        },
+        {
+          "Id": 300,
+          "AppId": "cooking_300",
+          "Quantity": 2
+        },
+        {
+          "Id": 297,
+          "AppId": "cooking_297",
+          "Quantity": 2
+        },
+        {
+          "Id": 770,
+          "AppId": "cooking_770",
+          "Quantity": 2
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 4,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 20,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 4,
+          "Level": 1,
+          "Seconds": 300
+        },
+        {
+          "Type": 8,
+          "Level": 1,
+          "Seconds": 300
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 363,
+    "AppId": "cooking_363",
+    "Icon": "allUI_143.png",
+    "Name": "Garden Salad",
+    "Description": "Crunchy and fresh!",
+    "SellPrice": 3189,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 111,
+          "AppId": "cooking_111",
+          "Quantity": 1
+        },
+        {
+          "Id": 843,
+          "AppId": "cooking_843",
+          "Quantity": 1
+        },
+        {
+          "Id": 330,
+          "AppId": "cooking_330",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 4,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Vegetable",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 20,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 20,
+          "Seconds": 0
+        },
+        {
+          "Type": 0,
+          "Level": 1,
+          "Seconds": 120
+        },
+        {
+          "Type": 8,
+          "Level": 1,
+          "Seconds": 120
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 364,
+    "AppId": "cooking_364",
+    "Icon": "allUI_147.png",
+    "Name": "Hearty Stew",
+    "Description": "Warm in your tum.",
+    "SellPrice": 2456,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 21,
+          "AppId": "item_21",
+          "Quantity": 1
+        },
+        {
+          "Id": 322,
+          "AppId": "cooking_322",
+          "Quantity": 1
+        },
+        {
+          "Id": 330,
+          "AppId": "cooking_330",
+          "Quantity": 1
+        },
+        {
+          "Id": 116,
+          "AppId": "cooking_116",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 5,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 45,
           "Seconds": 0
         },
         {
           "Type": 23,
           "Level": 10,
           "Seconds": 0
+        },
+        {
+          "Type": 5,
+          "Level": 1,
+          "Seconds": 180
+        },
+        {
+          "Type": 8,
+          "Level": 2,
+          "Seconds": 180
         }
       ]
     },
@@ -731,6 +1208,41 @@
     "SellPrice": 4625,
     "IsStackable": true,
     "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 25,
+          "Seconds": 0
+        },
+        {
+          "Type": 3,
+          "Level": 2,
+          "Seconds": 600
+        },
+        {
+          "Type": 4,
+          "Level": 2,
+          "Seconds": 600
+        }
+      ]
+    },
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -749,12 +1261,12 @@
       "Buffs": [
         {
           "Type": 20,
-          "Level": 0,
+          "Level": 10,
           "Seconds": 0
         },
         {
           "Type": 21,
-          "Level": 10,
+          "Level": 0,
           "Seconds": 0
         },
         {
@@ -787,12 +1299,12 @@
       "Buffs": [
         {
           "Type": 20,
-          "Level": 10,
+          "Level": 0,
           "Seconds": 0
         },
         {
           "Type": 21,
-          "Level": 0,
+          "Level": 10,
           "Seconds": 0
         },
         {
@@ -825,12 +1337,12 @@
       "Buffs": [
         {
           "Type": 20,
-          "Level": 6,
+          "Level": 4,
           "Seconds": 0
         },
         {
           "Type": 21,
-          "Level": 4,
+          "Level": 6,
           "Seconds": 0
         },
         {
@@ -873,12 +1385,12 @@
         },
         {
           "Type": 22,
-          "Level": 10,
+          "Level": 0,
           "Seconds": 0
         },
         {
           "Type": 23,
-          "Level": 0,
+          "Level": 10,
           "Seconds": 0
         }
       ]
@@ -949,12 +1461,12 @@
         },
         {
           "Type": 22,
-          "Level": 0,
+          "Level": 15,
           "Seconds": 0
         },
         {
           "Type": 23,
-          "Level": 15,
+          "Level": 0,
           "Seconds": 0
         }
       ]
@@ -1015,22 +1527,22 @@
       "Buffs": [
         {
           "Type": 20,
-          "Level": 0,
-          "Seconds": 0
-        },
-        {
-          "Type": 21,
           "Level": 5,
           "Seconds": 0
         },
         {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
           "Type": 22,
-          "Level": 10,
+          "Level": 0,
           "Seconds": 0
         },
         {
           "Type": 23,
-          "Level": 0,
+          "Level": 10,
           "Seconds": 0
         }
       ]
@@ -1063,12 +1575,12 @@
         },
         {
           "Type": 22,
-          "Level": 10,
+          "Level": 25,
           "Seconds": 0
         },
         {
           "Type": 23,
-          "Level": 25,
+          "Level": 10,
           "Seconds": 0
         }
       ]
@@ -1091,12 +1603,12 @@
       "Buffs": [
         {
           "Type": 20,
-          "Level": 5,
+          "Level": 0,
           "Seconds": 0
         },
         {
           "Type": 21,
-          "Level": 0,
+          "Level": 5,
           "Seconds": 0
         },
         {
@@ -1108,6 +1620,411 @@
           "Type": 23,
           "Level": 0,
           "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 685,
+    "AppId": "cooking_685",
+    "Icon": "allUI2_54.png",
+    "Name": "Meat Pie",
+    "Description": "Get it in ya!",
+    "SellPrice": 3038,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 861,
+          "AppId": "cooking_861",
+          "Quantity": 1
+        },
+        {
+          "Id": 21,
+          "AppId": "item_21",
+          "Quantity": 1
+        },
+        {
+          "Id": 308,
+          "AppId": "item_308",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 2,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 25,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 5,
+          "Level": 2,
+          "Seconds": 180
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 686,
+    "AppId": "cooking_686",
+    "Icon": "allUI_148.png",
+    "Name": "Pavlova",
+    "Description": "Celebrate the best way!",
+    "SellPrice": 6860,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 603,
+          "AppId": "cooking_603",
+          "Quantity": 4
+        },
+        {
+          "Id": 862,
+          "AppId": "cooking_862",
+          "Quantity": 2
+        },
+        {
+          "Id": 362,
+          "AppId": "cooking_362",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 9,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "AnimalProduct",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 45,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 45,
+          "Seconds": 0
+        },
+        {
+          "Type": 9,
+          "Level": 3,
+          "Seconds": 180
+        },
+        {
+          "Type": 10,
+          "Level": 2,
+          "Seconds": 600
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 687,
+    "AppId": "cooking_687",
+    "Icon": "allUI2_53.png",
+    "Name": "Dagwood Dog",
+    "Description": "A corn covered hotdog.",
+    "SellPrice": 1060,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 123,
+          "AppId": "cooking_123",
+          "Quantity": 1
+        },
+        {
+          "Id": 21,
+          "AppId": "item_21",
+          "Quantity": 1
+        },
+        {
+          "Id": 649,
+          "AppId": "item_649",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 1,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 15,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 25,
+          "Seconds": 0
+        },
+        {
+          "Type": 8,
+          "Level": 1,
+          "Seconds": 180
+        },
+        {
+          "Type": 5,
+          "Level": 1,
+          "Seconds": 180
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 690,
+    "AppId": "cooking_690",
+    "Icon": "allUI2_57.png",
+    "Name": "Quiche",
+    "Description": "Breakfast cake.",
+    "SellPrice": 5538,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 861,
+          "AppId": "cooking_861",
+          "Quantity": 1
+        },
+        {
+          "Id": 345,
+          "AppId": "cooking_345",
+          "Quantity": 1
+        },
+        {
+          "Id": 636,
+          "AppId": "cooking_636",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 3,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "AnimalProduct",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 20,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 30,
+          "Seconds": 0
+        },
+        {
+          "Type": 3,
+          "Level": 3,
+          "Seconds": 300
+        },
+        {
+          "Type": 4,
+          "Level": 3,
+          "Seconds": 300
+        },
+        {
+          "Type": 9,
+          "Level": 2,
+          "Seconds": 300
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 691,
+    "AppId": "cooking_691",
+    "Icon": "allUI2_58.png",
+    "Name": "Meat on a stick.",
+    "Description": "It's like meat but stickier.",
+    "SellPrice": 1612,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 21,
+          "AppId": "item_21",
+          "Quantity": 3
+        },
+        {
+          "Id": 649,
+          "AppId": "item_649",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 35,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 15,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 8,
+          "Level": 1,
+          "Seconds": 180
         }
       ]
     },
@@ -1177,12 +2094,12 @@
       "Buffs": [
         {
           "Type": 20,
-          "Level": 0,
+          "Level": 25,
           "Seconds": 0
         },
         {
           "Type": 21,
-          "Level": 25,
+          "Level": 0,
           "Seconds": 0
         },
         {
@@ -1230,12 +2147,12 @@
         },
         {
           "Type": 22,
-          "Level": 20,
+          "Level": 0,
           "Seconds": 0
         },
         {
           "Type": 23,
-          "Level": 0,
+          "Level": 20,
           "Seconds": 0
         }
       ]
@@ -1268,12 +2185,12 @@
         },
         {
           "Type": 22,
-          "Level": 10,
+          "Level": 0,
           "Seconds": 0
         },
         {
           "Type": 23,
-          "Level": 0,
+          "Level": 10,
           "Seconds": 0
         }
       ]
@@ -1296,12 +2213,12 @@
       "Buffs": [
         {
           "Type": 20,
-          "Level": 2,
+          "Level": 3,
           "Seconds": 0
         },
         {
           "Type": 21,
-          "Level": 3,
+          "Level": 2,
           "Seconds": 0
         },
         {
@@ -1410,12 +2327,12 @@
       "Buffs": [
         {
           "Type": 20,
-          "Level": 2,
+          "Level": 5,
           "Seconds": 0
         },
         {
           "Type": 21,
-          "Level": 5,
+          "Level": 2,
           "Seconds": 0
         },
         {
@@ -1443,6 +2360,31 @@
     "SellPrice": 295,
     "IsStackable": true,
     "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 2,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 4,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1471,12 +2413,12 @@
         },
         {
           "Type": 22,
-          "Level": 10,
+          "Level": 50,
           "Seconds": 0
         },
         {
           "Type": 23,
-          "Level": 50,
+          "Level": 10,
           "Seconds": 0
         }
       ]
@@ -1547,13 +2489,506 @@
         },
         {
           "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
           "Level": 5,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 893,
+    "AppId": "cooking_893",
+    "Icon": "allUI2_193.png",
+    "Name": "Bread",
+    "Description": "Cooked Flour",
+    "SellPrice": 6300,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 861,
+          "AppId": "cooking_861",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 1,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 35,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 25,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
           "Seconds": 0
         },
         {
           "Type": 23,
           "Level": 0,
           "Seconds": 0
+        },
+        {
+          "Type": 8,
+          "Level": 2,
+          "Seconds": 180
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 894,
+    "AppId": "cooking_894",
+    "Icon": "allUI2_194.png",
+    "Name": "Fairy Bread",
+    "Description": "Sugar Bread",
+    "SellPrice": 2569,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 893,
+          "AppId": "cooking_893",
+          "Quantity": 1
+        },
+        {
+          "Id": 862,
+          "AppId": "cooking_862",
+          "Quantity": 2
+        }
+      ],
+      "RecipeGiveThisAmount": 4,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 1,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 9,
+          "Level": 1,
+          "Seconds": 120
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 895,
+    "AppId": "cooking_895",
+    "Icon": "allUI2_195.png",
+    "Name": "Pastie",
+    "Description": "Hand held vegie pie",
+    "SellPrice": 5681,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 861,
+          "AppId": "cooking_861",
+          "Quantity": 1
+        },
+        {
+          "Id": 111,
+          "AppId": "cooking_111",
+          "Quantity": 1
+        },
+        {
+          "Id": 116,
+          "AppId": "cooking_116",
+          "Quantity": 1
+        },
+        {
+          "Id": 322,
+          "AppId": "cooking_322",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 2,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Vegetable",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 30,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 30,
+          "Seconds": 0
+        },
+        {
+          "Type": 3,
+          "Level": 3,
+          "Seconds": 180
+        },
+        {
+          "Type": 4,
+          "Level": 3,
+          "Seconds": 180
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 896,
+    "AppId": "cooking_896",
+    "Icon": "allUI2_192.png",
+    "Name": "Damper",
+    "Description": "Bush Bread",
+    "SellPrice": 3975,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 861,
+          "AppId": "cooking_861",
+          "Quantity": 1
+        },
+        {
+          "Id": 350,
+          "AppId": "cooking_350",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 1,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 25,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 15,
+          "Seconds": 0
+        },
+        {
+          "Type": 3,
+          "Level": 2,
+          "Seconds": 300
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 897,
+    "AppId": "cooking_897",
+    "Icon": "allUI2_196.png",
+    "Name": "Sausage Roll",
+    "Description": "Long way to the shop",
+    "SellPrice": 3600,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 861,
+          "AppId": "cooking_861",
+          "Quantity": 1
+        },
+        {
+          "Id": 345,
+          "AppId": "cooking_345",
+          "Quantity": 1
+        },
+        {
+          "Id": 21,
+          "AppId": "item_21",
+          "Quantity": 1
+        },
+        {
+          "Id": 330,
+          "AppId": "cooking_330",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 3,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "AnimalProduct",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 30,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 30,
+          "Seconds": 0
+        },
+        {
+          "Type": 8,
+          "Level": 2,
+          "Seconds": 300
+        },
+        {
+          "Type": 5,
+          "Level": 2,
+          "Seconds": 300
+        },
+        {
+          "Type": 9,
+          "Level": 1,
+          "Seconds": 300
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 898,
+    "AppId": "cooking_898",
+    "Icon": "allUI2_197.png",
+    "Name": "Prime Roast",
+    "Description": "All the best stuff on one plate",
+    "SellPrice": 12994,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 853,
+          "AppId": "item_853",
+          "Quantity": 1
+        },
+        {
+          "Id": 322,
+          "AppId": "cooking_322",
+          "Quantity": 3
+        },
+        {
+          "Id": 116,
+          "AppId": "cooking_116",
+          "Quantity": 2
+        },
+        {
+          "Id": 320,
+          "AppId": "cooking_320",
+          "Quantity": 1
+        },
+        {
+          "Id": 845,
+          "AppId": "cooking_845",
+          "Quantity": 3
+        },
+        {
+          "Id": 328,
+          "AppId": "cooking_328",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 5,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 50,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 50,
+          "Seconds": 0
+        },
+        {
+          "Type": 5,
+          "Level": 3,
+          "Seconds": 300
+        },
+        {
+          "Type": 8,
+          "Level": 3,
+          "Seconds": 300
         }
       ]
     },
