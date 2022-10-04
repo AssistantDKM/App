@@ -111,7 +111,7 @@ List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
 
       if (locations.isNotEmpty) {
         descripWidgets.addAll(loadSections(
-          'Habitats', // TODO localize
+          getTranslations().fromKey(LocaleKey.habitat),
           locations
               .where((item) => item.isNotEmpty)
               .map((item) => getTranslations().fromString('habitat$item'))
@@ -123,10 +123,12 @@ List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
         List<String> seasons = List.empty(growable: true);
         seasons.addAll(localCreature.seasonFound);
         descripWidgets.addAll(loadSections(
-          'Seasons', // TODO localize
+          getTranslations().fromKey(LocaleKey.seasons),
           seasons
               .where((item) => item.isNotEmpty)
-              .map((item) => getTranslations().fromString('season$item'))
+              .map((item) => (item.toLowerCase() == 'all')
+                  ? getTranslations().fromKey(LocaleKey.all)
+                  : getTranslations().fromString('season$item'))
               .toList(),
         ));
       }
@@ -135,10 +137,12 @@ List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
         List<String> times = List.empty(growable: true);
         times.addAll(localCreature.timeOfDay);
         descripWidgets.addAll(loadSections(
-          'Times', // TODO localize
+          getTranslations().fromKey(LocaleKey.times),
           times
               .where((item) => item.isNotEmpty)
-              .map((item) => getTranslations().fromString('time$item'))
+              .map((item) => (item.toLowerCase() == 'all')
+                  ? getTranslations().fromKey(LocaleKey.all)
+                  : getTranslations().fromString('time$item'))
               .toList(),
         ));
       }
