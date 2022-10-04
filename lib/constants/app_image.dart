@@ -7,6 +7,9 @@ class AppImage {
   static const String coin = '${base}coin.png';
   static const String permitPoint = '${base}permitPoint.png';
   static const String assistantApps = '${base}assistantApps.png';
+  static const String checkboxTicked = '${base}checkbox-ticked.png';
+  static const String checkboxUnTicked = '${base}checkbox-unticked.png';
+  static const String museum = '${base}museum.png';
   static const String error = '${base}error.png';
 
   static const String drawerHeader = '${base}drawer/DrawerHeader.png';
@@ -27,7 +30,7 @@ class AppImage {
   static const String fishing = '${stats}fishing.png';
   static const String mining = '${stats}mining.png';
   static const String speed = '${stats}speed.png';
-  static const String stamina = '${stats}stamina.png';
+  static const String harvesting = '${stats}harvesting.png';
   static const String weapon = '${stats}weapon.png';
   static const String farming = '${stats}farming.png';
   static const String hunting = '${stats}hunting.png';

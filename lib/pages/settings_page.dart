@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:settings_ui/settings_ui.dart';
 
+import '../components/adaptive/checkbox.dart';
 import '../components/drawer.dart';
 import '../constants/analytics_event.dart';
 import '../constants/app_image.dart';
@@ -85,43 +86,59 @@ class SettingsPage extends StatelessWidget {
     );
 
     String patreonTitle = getTranslations().fromKey(LocaleKey.patreonAccess);
-    commonTiles.add(
-      SettingsTile.switchTile(
-        leading: GestureDetector(
-          child: localImage(AppImage.patreon, width: 24, height: 24),
-          onLongPress: () async {
-            String code = await getDialog().asyncInputDialog(
-              bodyCtx,
-              patreonTitle,
-            );
-            String newName = (code.isEmpty) ? '' : code;
-            bool codeIsCorrect = Patreon.codes.any(
-              (code) => code == newName.toUpperCase(),
-            );
-            if (codeIsCorrect) {
+    Future<void> Function() patreonAccessCodePopupFunc;
+    patreonAccessCodePopupFunc = () async {
+      String code = await getDialog().asyncInputDialog(
+        bodyCtx,
+        patreonTitle,
+      );
+      String newName = (code.isEmpty) ? '' : code;
+      bool codeIsCorrect = Patreon.codes.any(
+        (code) => code == newName.toUpperCase(),
+      );
+      if (codeIsCorrect) {
+        viewModel.setIsPatron(true);
+      }
+    };
+    Future<void> Function() patreonModalFunc;
+    patreonModalFunc = () async {
+      if (viewModel.isPatron) {
+        viewModel.setIsPatron(false);
+        return;
+      }
+      adaptiveBottomModalSheet(
+        bodyCtx,
+        hasRoundedCorners: true,
+        builder: (BuildContext innerC) => PatreonLoginModalBottomSheet(
+          AnalyticsEvent.patreonOAuthLogin,
+          (Result loginResult) {
+            if (loginResult.isSuccess) {
               viewModel.setIsPatron(true);
+            } else {
+              getLog()
+                  .d('patreonOAuthLogin message ${loginResult.errorMessage}');
             }
           },
         ),
-        title: Text(patreonTitle),
+      );
+    };
+    commonTiles.add(
+      SettingsTile.switchTile(
+        leading: GestureDetector(
+          onLongPress: patreonAccessCodePopupFunc,
+          child: localImage(AppImage.patreon, width: 24, height: 24),
+        ),
+        title: GestureDetector(
+          onLongPress: patreonAccessCodePopupFunc,
+          child: Text(patreonTitle),
+        ),
         initialValue: viewModel.isPatron,
-        onToggle: (value) async {
-          adaptiveBottomModalSheet(
-            bodyCtx,
-            hasRoundedCorners: true,
-            builder: (BuildContext innerC) => PatreonLoginModalBottomSheet(
-              AnalyticsEvent.patreonOAuthLogin,
-              (Result loginResult) {
-                if (loginResult.isSuccess) {
-                  viewModel.setIsPatron(true);
-                } else {
-                  getLog().d(
-                      'patreonOAuthLogin message ${loginResult.errorMessage}');
-                }
-              },
-            ),
-          );
-        },
+        trailing: CustomCheckbox(
+          value: viewModel.isPatron,
+          onLongPress: patreonAccessCodePopupFunc,
+          onTap: patreonModalFunc,
+        ),
+        onToggle: (value) => patreonModalFunc(),
       ),
     );
 
