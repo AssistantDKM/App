@@ -21,7 +21,7 @@ Widget itemBaseTilePresenter({
       imgChild = localImage(networkImageToLocal((item as dynamic).imageUrl));
     }
   }
-  if (item is InventoryItem && isPatron != false && item.hidden) {
+  if (item is InventoryItem && isPatron == false && item.hidden) {
     return ListTile(
       leading: genericTileImage(AppImage.unknown),
       title: Text(obscureText(item.name)),
