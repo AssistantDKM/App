@@ -71,11 +71,8 @@ class InventoryDetailsPage extends StatelessWidget {
         appId,
       ),
       getName: (loadedItem) => loadedItem.name,
-      contractToWidgetList: (loadedItem, isInDetailPane) =>
-          commonInventoryContents(
+      contractToWidgetList: commonInventoryContents(
         context,
-        loadedItem,
-        isInDetailPane,
         updateDetailView,
       ),
     );
