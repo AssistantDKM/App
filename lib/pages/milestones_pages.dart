@@ -30,7 +30,7 @@ class MilestonesListPage extends StatelessWidget {
       analyticsEvent: analyticsEvent,
       title: title,
       getItemsFunc: () => getMilestoneRepo().getItems(context),
-      listItemDisplayer: itemBaseTilePresenter,
+      listItemDisplayer: commonTilePresenter,
       detailPageFunc: (
         String id,
         bool isInDetailPane,

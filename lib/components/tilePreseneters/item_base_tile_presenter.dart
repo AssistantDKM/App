@@ -7,11 +7,12 @@ import '../../contracts/json/inventory_item.dart';
 import '../../helper/image_helper.dart';
 import '../../helper/patreon_helper.dart';
 
-Widget itemBaseTilePresenter(
-  BuildContext context,
-  ItemBasePresenter item,
-  int index,
-) {
+Widget itemBaseTilePresenter({
+  required BuildContext context,
+  required ItemBasePresenter item,
+  required int index,
+  required bool isPatron,
+}) {
   Widget? imgChild = Container();
   if (item.icon.isNotEmpty) {
     imgChild = genericTileImage('inventory/${item.icon}');
@@ -20,7 +21,7 @@ Widget itemBaseTilePresenter(
       imgChild = localImage(networkImageToLocal((item as dynamic).imageUrl));
     }
   }
-  if (item is InventoryItem && item.hidden) {
+  if (item is InventoryItem && isPatron != false && item.hidden) {
     return ListTile(
       leading: genericTileImage(AppImage.unknown),
       title: Text(obscureText(item.name)),
@@ -37,5 +38,18 @@ Widget itemBaseTilePresenter(
       maxLines: 1,
       overflow: TextOverflow.ellipsis,
     ),
+  );
+}
+
+Widget commonTilePresenter(
+  BuildContext context,
+  ItemBasePresenter item,
+  int index,
+) {
+  return itemBaseTilePresenter(
+    context: context,
+    item: item,
+    index: index,
+    isPatron: false,
   );
 }

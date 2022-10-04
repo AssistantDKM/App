@@ -5,7 +5,7 @@ import 'package:flutter_redux/flutter_redux.dart';
 import '../components/pageElements/inventory_page_content.dart';
 import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
-import '../components/tilePreseneters/item_base_tile_presenter.dart';
+import '../components/tilePreseneters/inventory_tile_presenter.dart';
 import '../contracts/json/inventory_item.dart';
 import '../contracts/redux/app_state.dart';
 import '../helper/generic_repository_helper.dart';
@@ -28,21 +28,26 @@ class InventoryListPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ItemsListPage<InventoryItem>(
-      analyticsEvent: analyticsEvent,
-      title: title,
-      getItemsFunc: () => getCombinedItems(context, appJsons),
-      listItemDisplayer: itemBaseTilePresenter,
-      detailPageFunc: (
-        String appId,
-        bool isInDetailPane,
-        void Function(Widget)? updateDetailView,
-      ) {
-        return InventoryDetailsPage(
-          appId,
+    return StoreConnector<AppState, InventoryItemViewModel>(
+      converter: (store) => InventoryItemViewModel.fromStore(store),
+      builder: (_, viewModel) {
+        return ItemsListPage<InventoryItem>(
+          analyticsEvent: analyticsEvent,
           title: title,
-          isInDetailPane: isInDetailPane,
-          updateDetailView: updateDetailView,
+          getItemsFunc: () => getCombinedItems(context, appJsons),
+          listItemDisplayer: inventoryTilePresenter(viewModel.isPatron),
+          detailPageFunc: (
+            String appId,
+            bool isInDetailPane,
+            void Function(Widget)? updateDetailView,
+          ) {
+            return InventoryDetailsPage(
+              appId,
+              title: title,
+              isInDetailPane: isInDetailPane,
+              updateDetailView: updateDetailView,
+            );
+          },
         );
       },
     );

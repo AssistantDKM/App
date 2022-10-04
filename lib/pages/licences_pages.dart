@@ -30,7 +30,7 @@ class LicencesListPage extends StatelessWidget {
       analyticsEvent: analyticsEvent,
       title: title,
       getItemsFunc: () => getLicenceRepo().getItems(context),
-      listItemDisplayer: itemBaseTilePresenter,
+      listItemDisplayer: commonTilePresenter,
       detailPageFunc: (
         String id,
         bool isInDetailPane,

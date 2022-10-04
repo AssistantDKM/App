@@ -28,7 +28,7 @@ class PeopleListPage extends StatelessWidget {
       analyticsEvent: analyticsEvent,
       title: title,
       getItemsFunc: () => getPeopleRepo().getItems(context),
-      listItemDisplayer: itemBaseTilePresenter,
+      listItemDisplayer: commonTilePresenter,
       detailPageFunc: (
         String id,
         bool isInDetailPane,
