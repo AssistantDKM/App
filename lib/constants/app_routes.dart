@@ -1,6 +1,8 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
+import '../components/pageElements/item_page_components.dart';
+import '../pages/favourite_page.dart';
 import '../pages/inventory_pages.dart';
 import '../pages/home_page.dart';
 import '../pages/licences_pages.dart';
@@ -47,16 +49,13 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
           aboutPageWidgetsFunc: (BuildContext ctx) {
             return [
               emptySpace(0.5),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 8),
-                child: Text(
-                  getTranslations().fromKey(LocaleKey.aboutContent),
-                  textAlign: TextAlign.center,
-                  overflow: TextOverflow.ellipsis,
-                  maxLines: 50,
-                  style: const TextStyle(fontSize: 16),
-                ),
-              ),
+              pageDefaultPadding(Text(
+                getTranslations().fromKey(LocaleKey.aboutContent),
+                textAlign: TextAlign.center,
+                overflow: TextOverflow.ellipsis,
+                maxLines: 50,
+                style: const TextStyle(fontSize: 16),
+              )),
             ];
           },
         ),
@@ -65,6 +64,14 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
     Routes.whatIsNew: (context) => WhatIsNewPage(
           AnalyticsEvent.whatIsNewDetailPage,
           selectedLanguage: 'en',
+        ),
+    Routes.favourites: (context) => FavouritesPage(),
+    Routes.newsPage: (context) => SteamNewsPage(
+          AnalyticsEvent.steamNewsPage,
+          AssistantAppType.DKM,
+          backupFunc: (_) => Future(() =>
+              ResultWithValue<List<SteamNewsItemViewModel>>(
+                  false, List.empty(), '')),
         ),
 
     // Details pages

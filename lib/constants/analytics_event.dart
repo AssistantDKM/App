@@ -8,6 +8,8 @@ class AnalyticsEvent {
   static const String settingsPage = 'Settings_Page_View';
   static const String patronListPage = "Patron_List_Page_View";
   static const String whatIsNewDetailPage = "What_Is_New_Detail_Page_View";
+  static const String favouritesPage = "Favourites_Page_View";
+  static const String steamNewsPage = "Steam_News_Page_View";
 
   static const String animalsPage = 'Animals_Page_View';
   static const String bugsPage = 'Bugs_Page_View';

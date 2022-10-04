@@ -16,11 +16,11 @@ List<Widget> getDrawerItems(BuildContext context, DrawerSettingsViewModel vm) {
     context,
     getMenuOptionsSection1(context, vm, drawerIconColour),
   ));
-  // widgets.add(customDivider());
-  // widgets.addAll(_mapToDrawerItem(
-  //   context,
-  //   getMenuOptionsSection2(context, vm, drawerIconColour),
-  // ));
+  widgets.add(customDivider());
+  widgets.addAll(_mapToDrawerItem(
+    context,
+    getMenuOptionsSection2(context, vm, drawerIconColour),
+  ));
   widgets.add(customDivider());
   widgets.addAll(_mapToDrawerItem(
     context,
