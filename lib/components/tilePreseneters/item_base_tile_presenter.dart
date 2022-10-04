@@ -1,10 +1,11 @@
-import 'package:assistant_dinkum_app/constants/app_image.dart';
-import 'package:assistant_dinkum_app/contracts/json/inventory_item.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
+import '../../constants/app_image.dart';
 import '../../contracts/interface/item_base_presenter.dart';
+import '../../contracts/json/inventory_item.dart';
 import '../../helper/image_helper.dart';
+import '../../helper/patreon_helper.dart';
 
 Widget itemBaseTilePresenter(
   BuildContext context,
@@ -22,7 +23,7 @@ Widget itemBaseTilePresenter(
   if (item is InventoryItem && item.hidden) {
     return ListTile(
       leading: genericTileImage(AppImage.unknown),
-      title: Text(item.name.characters.map((e) => '-').join('')),
+      title: Text(obscureText(item.name)),
     );
   }
 

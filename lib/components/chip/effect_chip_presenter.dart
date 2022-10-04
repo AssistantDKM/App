@@ -1,66 +1,74 @@
-import 'package:assistant_dinkum_app/constants/app_image.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants/app_colour.dart';
+import '../../constants/app_image.dart';
+import '../../contracts/json/enum/consumable_buff_type.dart';
+import '../../contracts/json/inventory_item_consumable_buff.dart';
 
-Widget effectChipPresenter(BuildContext context, dynamic effect) {
+Widget effectChipPresenter(
+    BuildContext context, InventoryItemConsumableBuff effect) {
   String localImageStr = AppImage.customLoading;
-  String valueStr = effect.value.toString();
   bool isMinuteBased = false;
+  print(effect.type);
   switch (effect.type) {
-    case 'Health':
-    case 'Health Regen':
+    case ConsumableBuffType.healthGain:
       localImageStr = AppImage.health;
       break;
-    case 'HealthPlus':
+    case ConsumableBuffType.healthRegen:
+      localImageStr = AppImage.health;
+      isMinuteBased = true;
+      break;
+    case ConsumableBuffType.tempHealthGain:
       localImageStr = AppImage.healthPlus;
       break;
-    case 'Energy':
+    case ConsumableBuffType.staminaGain:
       localImageStr = AppImage.energy;
       break;
-    case 'EnergyPlus':
+    case ConsumableBuffType.staminaRegen:
+      localImageStr = AppImage.energy;
+      isMinuteBased = true;
+      break;
+    case ConsumableBuffType.tempStaminaGain:
       localImageStr = AppImage.energyPlus;
       break;
-    case 'Stamina':
-      localImageStr = AppImage.stamina;
-      break;
-    case 'Defence Buff':
-      localImageStr = AppImage.defence;
-      isMinuteBased = true;
-      break;
-    case 'Attack Buff':
-      localImageStr = AppImage.weapon;
-      isMinuteBased = true;
-      break;
-    case 'Speed Buff':
+    case ConsumableBuffType.speedBuff:
       localImageStr = AppImage.speed;
       isMinuteBased = true;
       break;
-    case 'Mining Buff':
-      localImageStr = AppImage.mining;
+    case ConsumableBuffType.defenceBuff:
+      localImageStr = AppImage.defence;
       isMinuteBased = true;
       break;
-    case 'Fishing Buff':
-      localImageStr = AppImage.fishing;
-      isMinuteBased = true;
-      break;
-    case 'Weapon Buff':
-      localImageStr = AppImage.weapon;
-      isMinuteBased = true;
-      break;
-    case 'Farming Buff':
-      localImageStr = AppImage.farming;
-      isMinuteBased = true;
-      break;
-    case 'Hunting Buff':
+    case ConsumableBuffType.xPBuff:
+    case ConsumableBuffType.huntingBuff:
       localImageStr = AppImage.hunting;
       isMinuteBased = true;
       break;
+    case ConsumableBuffType.miningBuff:
+      localImageStr = AppImage.mining;
+      isMinuteBased = true;
+      break;
+    case ConsumableBuffType.fishingBuff:
+      localImageStr = AppImage.fishing;
+      isMinuteBased = true;
+      break;
+    case ConsumableBuffType.farmingBuff:
+      localImageStr = AppImage.farming;
+      isMinuteBased = true;
+      break;
+    case ConsumableBuffType.loggingBuff:
+      localImageStr = AppImage.harvesting;
+      isMinuteBased = true;
+      break;
+    default:
+      localImageStr = AppImage.unknown;
+      break;
   }
 
+  String valueStr = '${effect.level}';
   if (isMinuteBased) {
-    valueStr = '${(effect.value / 60).toStringAsFixed(0)}min';
+    valueStr = '${(effect.seconds / 60).toStringAsFixed(0)}min';
   }
 
   return Padding(

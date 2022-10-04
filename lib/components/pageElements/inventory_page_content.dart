@@ -1,20 +1,26 @@
+import 'package:assistant_dinkum_app/contracts/json/inventory_item_consumable_buff.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
+import '../../constants/app_image.dart';
 import '../../constants/app_json.dart';
 import '../../contracts/json/inventory_item.dart';
 import '../../contracts/json/inventory_item_craftable_required.dart';
 import '../../contracts/json/inventory_item_creature.dart';
+import '../../helper/patreon_helper.dart';
 import '../../helper/position_helper.dart';
 import '../../pages/inventory_pages.dart';
+import '../../redux/misc/inventory_item_viewmodel.dart';
+import '../chip/effect_chip_presenter.dart';
 import '../tilePreseneters/required_item_tile_presenter.dart';
 import 'inventory_item_favourites_icon.dart';
-import 'inventory_item_museum_icon.dart';
+import 'inventory_item_museum_tile.dart';
 import 'item_page_components.dart';
 
 List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
     commonInventoryContents(
   BuildContext contentsContext,
+  InventoryItemViewModel viewmodel,
   void Function(Widget newDetailView)? updateDetailView,
 ) {
   return (InventoryItem loadedItem, bool isInDetailPane) {
@@ -25,10 +31,6 @@ List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
     List<Widget> stackWidgets = [
       InventoryItemFavouritesIcon(appId: loadedItem.appId),
     ];
-
-    if (isMuseumPlaceable) {
-      stackWidgets.add(InventoryItemMuseumIcon(appId: loadedItem.appId));
-    }
 
     Widget imageStack = Stack(
       children: [
@@ -44,18 +46,40 @@ List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
       dinkumPrice(contentsContext, loadedItem.sellPrice),
     ];
 
+    if (isMuseumPlaceable) {
+      descripWidgets.add(emptySpace3x());
+      descripWidgets.add(flatCard(
+        child: InventoryItemMuseumTile(appId: loadedItem.appId),
+      ));
+    }
+
+    var localConsumable = loadedItem.consumable;
+    if (localConsumable.buffs.isNotEmpty) {
+      descripWidgets.add(emptySpace2x());
+      descripWidgets.add(genericItemGroup('Effects'));
+
+      List<InventoryItemConsumableBuff> localBuffs = localConsumable.buffs
+          .where((buff) => buff.level > 0 || buff.seconds > 0)
+          .toList();
+      descripWidgets.add(flatCard(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 4),
+          child: Wrap(
+            alignment: WrapAlignment.center,
+            children: localBuffs
+                .map((item) => effectChipPresenter(contentsContext, item))
+                .toList(),
+          ),
+        ),
+      ));
+    }
+
     var localRequireds = loadedItem.craftable.requiredItems;
     if (localRequireds.isNotEmpty) {
       localRequireds.sort((a, b) => b.quantity.compareTo(a.quantity));
       descripWidgets.add(emptySpace2x());
       descripWidgets.add(genericItemGroup('Required Items')); // TODO localize
       for (InventoryItemCraftableRequired required in localRequireds) {
-        // descripWidgets.add(Padding(
-        //   padding: const EdgeInsets.only(bottom: 4),
-        //   child: flatCard(
-        //     child: requiredItemTilePresenter(contentsContext, required, 0),
-        //   ),
-        // ));
         descripWidgets.add(flatCard(
           child: requiredItemTilePresenter(
             contentsContext,
@@ -118,6 +142,16 @@ List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
               .toList(),
         ));
       }
+    }
+
+    if (loadedItem.hidden == true && viewmodel.isPatron == false) {
+      return [
+        Center(child: localImage(AppImage.unknown)),
+        genericItemName(obscureText(loadedItem.name)),
+        pageDefaultPadding(genericItemDescription(
+          obscureText(loadedItem.description),
+        )),
+      ];
     }
 
     return descripWidgets;

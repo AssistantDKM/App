@@ -6,15 +6,17 @@ import 'dart:convert';
 
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
+import 'enum/consumable_buff_type.dart';
+
 class InventoryItemConsumableBuff {
-  final int type;
+  final ConsumableBuffType type;
   final int level;
-  final int success;
+  final int seconds;
 
   InventoryItemConsumableBuff({
     required this.type,
     required this.level,
-    required this.success,
+    required this.seconds,
   });
 
   factory InventoryItemConsumableBuff.fromJson(String str) =>
@@ -22,8 +24,10 @@ class InventoryItemConsumableBuff {
 
   factory InventoryItemConsumableBuff.fromMap(Map<String, dynamic> json) =>
       InventoryItemConsumableBuff(
-        type: readIntSafe(json, 'Type'),
+        type: consumableBuffTypeValues
+                .map[readIntSafe(json, 'Type').toString()] ??
+            ConsumableBuffType.unknown,
         level: readIntSafe(json, 'Level'),
-        success: readIntSafe(json, 'Success'),
+        seconds: readIntSafe(json, 'Seconds'),
       );
 }

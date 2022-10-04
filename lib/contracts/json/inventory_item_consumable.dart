@@ -27,7 +27,7 @@ class InventoryItemConsumable {
             ConsumableType.unknown,
         buffs: readListSafe(
           json,
-          'Consumable',
+          'Buffs',
           (x) => InventoryItemConsumableBuff.fromMap(x),
         ),
       );

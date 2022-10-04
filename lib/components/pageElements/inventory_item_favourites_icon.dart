@@ -18,7 +18,10 @@ class InventoryItemFavouritesIcon extends StatelessWidget {
             .where((fav) => fav.toLowerCase() == appId.toLowerCase())
             .isNotEmpty;
         return IconButton(
-          icon: Icon(currentItemIsFavourite ? Icons.star : Icons.star_border),
+          icon: Icon(
+            currentItemIsFavourite ? Icons.star : Icons.star_border,
+            size: 32,
+          ),
           onPressed: () {
             if (currentItemIsFavourite) {
               viewModel.removeFavourite(appId);

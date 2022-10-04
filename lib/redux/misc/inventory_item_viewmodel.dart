@@ -1,27 +1,17 @@
 import 'package:redux/redux.dart';
 
 import '../../contracts/redux/app_state.dart';
-import '../favourite/actions.dart';
-import '../favourite/selector.dart';
+import '../setting/selector.dart';
 
 class InventoryItemViewModel {
-  List<String> favourites;
-
-  Function(String appId) addFavourite;
-  Function(String appId) removeFavourite;
+  final bool isPatron;
 
   InventoryItemViewModel({
-    required this.favourites,
-    required this.addFavourite,
-    required this.removeFavourite,
+    required this.isPatron,
   });
 
   static InventoryItemViewModel fromStore(Store<AppState> store) =>
       InventoryItemViewModel(
-        favourites: getFavourites(store.state),
-        addFavourite: (String appId) =>
-            store.dispatch(AddFavouriteAction(appId)),
-        removeFavourite: (String appId) =>
-            store.dispatch(RemoveFavouriteAction(appId)),
+        isPatron: getIsPatron(store.state),
       );
 }

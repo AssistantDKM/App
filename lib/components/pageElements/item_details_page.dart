@@ -13,6 +13,7 @@ class ItemDetailsPage<T extends ItemBasePresenter> extends StatelessWidget {
   final List<Widget> Function(T loadedItem, bool isInDetailPane)
       contractToWidgetList;
   final void Function(Widget newDetailView)? updateDetailView;
+  final ScrollController _scroll = ScrollController();
 
   ItemDetailsPage({
     Key? key,
@@ -83,6 +84,7 @@ class ItemDetailsPage<T extends ItemBasePresenter> extends StatelessWidget {
     return listWithScrollbar(
       itemCount: widgets.length,
       itemBuilder: (context, index) => widgets[index],
+      scrollController: _scroll,
     );
   }
 }
