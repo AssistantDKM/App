@@ -9,37 +9,58 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import '../interface/item_base_presenter.dart';
 
 class PeopleItem extends ItemBasePresenter {
-  final int id;
-  final String imageUrl;
-  final String occupation;
+  final String deed;
+  final int spendBeforeMoveIn;
+  final int relationshipBeforeMove;
+  final String shirtAppId;
+  final String pantsAppId;
+  final String shoesAppId;
+  final String color;
   final String favouriteFood;
-  final List<String> dislikes;
-  final String building;
+  final String hatedFood;
+  final bool hatesAnimalProducts;
+  final bool hatesMeat;
+  final bool hatesFruits;
+  final bool hatesVegetables;
 
   PeopleItem({
-    required this.id,
+    required appId,
+    required icon,
     required name,
-    required this.occupation,
+    required this.deed,
+    required this.spendBeforeMoveIn,
+    required this.relationshipBeforeMove,
+    required this.shirtAppId,
+    required this.pantsAppId,
+    required this.shoesAppId,
+    required this.color,
     required this.favouriteFood,
-    required this.dislikes,
-    required this.building,
-    required this.imageUrl,
-  }) : super(id.toString(), name, '');
+    required this.hatedFood,
+    required this.hatesAnimalProducts,
+    required this.hatesMeat,
+    required this.hatesFruits,
+    required this.hatesVegetables,
+  }) : super(appId, name, icon);
 
   factory PeopleItem.fromJson(String str) =>
       PeopleItem.fromMap(json.decode(str));
 
   factory PeopleItem.fromMap(Map<String, dynamic> json) => PeopleItem(
-        id: readIntSafe(json, 'id'),
-        name: readStringSafe(json, 'name'),
-        occupation: readStringSafe(json, 'occupation'),
-        favouriteFood: readStringSafe(json, 'favourite_food'),
-        dislikes: readListSafe(
-          json,
-          'dislikes',
-          (x) => x.toString(),
-        ),
-        building: readStringSafe(json, 'building'),
-        imageUrl: readStringSafe(json, 'image_url'),
+        appId: readStringSafe(json, 'AppId'),
+        icon: readStringSafe(json, 'Icon'),
+        name: readStringSafe(json, 'Name'),
+        deed: readStringSafe(json, 'Deed'),
+        spendBeforeMoveIn: readIntSafe(json, 'SpendBeforeMoveIn'),
+        relationshipBeforeMove: readIntSafe(json, 'RelationshipBeforeMove'),
+        shirtAppId: readStringSafe(json, 'ShirtAppId'),
+        pantsAppId: readStringSafe(json, 'PantsAppId'),
+        shoesAppId: readStringSafe(json, 'ShoesAppId'),
+        color: readStringSafe(json, 'Color'),
+        favouriteFood: readStringSafe(json, 'FavouriteFood'),
+        hatedFood: readStringSafe(json, 'HatedFood'),
+        hatesAnimalProducts: readBoolSafe(json, 'HatesAnimalProducts'),
+        hatesMeat: readBoolSafe(json, 'HatesMeat'),
+        hatesFruits: readBoolSafe(json, 'HatesFruits'),
+        hatesVegetables: readBoolSafe(json, 'HatesVegetables'),
       );
 }

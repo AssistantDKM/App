@@ -20,7 +20,7 @@ Widget favouriteTilePresenter(
   }
 
   return ListTile(
-    leading: genericTileImage('inventory/${item.icon}'),
+    leading: genericTileImage(item.icon),
     title: Text(
       item.name,
       maxLines: 1,

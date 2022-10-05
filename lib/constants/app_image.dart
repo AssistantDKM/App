@@ -35,6 +35,12 @@ class AppImage {
   static const String farming = '${stats}farming.png';
   static const String hunting = '${stats}hunting.png';
 
+  static const String relationshipHeart0 = '${base}heart0.png';
+  static const String relationshipHeart1 = '${base}heart1.png';
+  static const String relationshipHeart2 = '${base}heart2.png';
+  static const String relationshipHeart3 = '${base}heart3.png';
+  static const String relationshipHeart4 = '${base}heart4.png';
+
   static const String animalsLogo = '${base}menu/animals.png';
   static const String bugsLogo = '${base}menu/bugs.png';
   static const String crittersLogo = '${base}menu/critters.png';
