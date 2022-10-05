@@ -1,10 +1,11 @@
-import 'package:assistant_dinkum_app/contracts/json/inventory_item_consumable_buff.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants/app_image.dart';
 import '../../constants/app_json.dart';
 import '../../contracts/json/inventory_item.dart';
+import '../../contracts/json/inventory_item_consumable.dart';
+import '../../contracts/json/inventory_item_consumable_buff.dart';
 import '../../contracts/json/inventory_item_craftable_required.dart';
 import '../../contracts/json/inventory_item_creature.dart';
 import '../../helper/patreon_helper.dart';
@@ -43,8 +44,11 @@ List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
       imageStack,
       genericItemName(loadedItem.name),
       pageDefaultPadding(genericItemDescription(loadedItem.description)),
-      dinkumPrice(contentsContext, loadedItem.sellPrice),
     ];
+
+    if (loadedItem.sellPrice > 0) {
+      descripWidgets.add(dinkumPrice(contentsContext, loadedItem.sellPrice));
+    }
 
     if (isMuseumPlaceable) {
       descripWidgets.add(emptySpace3x());
@@ -53,10 +57,10 @@ List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
       ));
     }
 
-    var localConsumable = loadedItem.consumable;
+    InventoryItemConsumable localConsumable = loadedItem.consumable;
     if (localConsumable.buffs.isNotEmpty) {
       descripWidgets.add(emptySpace2x());
-      descripWidgets.add(genericItemGroup('Effects'));
+      descripWidgets.add(genericItemGroup('Effects')); // TODO localize
 
       List<InventoryItemConsumableBuff> localBuffs = localConsumable.buffs
           .where((buff) => buff.level > 0 || buff.seconds > 0)

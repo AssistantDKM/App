@@ -6,13 +6,15 @@ import '../../contracts/interface/item_base_presenter.dart';
 class ItemsListPage<T extends ItemBasePresenter> extends StatelessWidget {
   final String title;
   final Future<ResultWithValue<List<T>>> Function() getItemsFunc;
-  final Widget Function(BuildContext, T, int) listItemDisplayer;
+  final Widget Function(BuildContext, T, int, {void Function()? onTap})
+      listItemDisplayer;
   final bool Function(T, String)? listItemSearch;
   final Widget Function(
     String id,
     bool isInDetailPane,
     void Function(Widget)? updateDetailView,
   ) detailPageFunc;
+  final int minListForSearch;
 
   ItemsListPage({
     Key? key,
@@ -22,6 +24,7 @@ class ItemsListPage<T extends ItemBasePresenter> extends StatelessWidget {
     required this.getItemsFunc,
     required this.listItemDisplayer,
     required this.detailPageFunc,
+    this.minListForSearch = 10,
   }) : super(key: key) {
     getAnalytics().trackEvent(analyticsEvent);
   }
@@ -43,16 +46,21 @@ class ItemsListPage<T extends ItemBasePresenter> extends StatelessWidget {
         () => getItemsFunc(),
         listItemDisplayer,
         listItemSearchLocal,
-        listItemMobileOnTap: (BuildContext context, T invItem) =>
-            getNavigation().navigateAwayFromHomeAsync(
-          context,
-          navigateTo: (newCtx) => detailPageFunc(invItem.appId, false, null),
-        ),
-        listItemDesktopOnTap: (BuildContext context, T animalItem,
-            void Function(Widget) updateDetailView) {
+        listItemMobileOnTap: (BuildContext context, T invItem) {
+          getNavigation().navigateAwayFromHomeAsync(
+            context,
+            navigateTo: (newCtx) => detailPageFunc(invItem.appId, false, null),
+          );
+        },
+        listItemDesktopOnTap: (
+          BuildContext context,
+          T animalItem,
+          void Function(Widget) updateDetailView,
+        ) {
           return detailPageFunc(animalItem.appId, true, updateDetailView);
         },
         addFabPadding: true,
+        minListForSearch: minListForSearch,
         // key: Key(getTranslations().currentLanguage),
       ),
       // bottomNavigationBar: const BottomNavbar(currentRoute: Routes.allItems),

@@ -10,7 +10,7 @@ Widget effectChipPresenter(
     BuildContext context, InventoryItemConsumableBuff effect) {
   String localImageStr = AppImage.customLoading;
   bool isMinuteBased = false;
-  print(effect.type);
+
   switch (effect.type) {
     case ConsumableBuffType.healthGain:
       localImageStr = AppImage.health;
