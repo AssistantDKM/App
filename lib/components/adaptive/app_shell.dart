@@ -116,6 +116,7 @@ class AppShell extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: WindowsTitleBar('Assistant for Dinkum'),
+        // body: CustomCursor(matApp: matApp),
         body: matApp,
       ),
     );

@@ -9,6 +9,7 @@ class AppImage {
   static const String assistantApps = '${base}assistantApps.png';
   static const String checkboxTicked = '${base}checkbox-ticked.png';
   static const String checkboxUnTicked = '${base}checkbox-unticked.png';
+  static const String customCursor = '${base}customCursor.png';
   static const String museum = '${base}museum.png';
   static const String error = '${base}error.png';
 
