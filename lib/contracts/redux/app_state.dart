@@ -49,6 +49,6 @@ class AppState {
   Map<String, dynamic> toJson() => {
         'settingState': settingState.toJson(),
         'favouriteState': favouriteState.toJson(),
-        'museumState': favouriteState.toJson(),
+        'museumState': museumState.toJson(),
       };
 }
