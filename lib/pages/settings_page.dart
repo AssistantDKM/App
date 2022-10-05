@@ -191,7 +191,10 @@ class SettingsPage extends StatelessWidget {
         title: Text(getTranslations().fromKey(LocaleKey.legal)),
         onPressed: (context) => showAboutDialog(
           context: context,
-          applicationLegalese: getTranslations().fromKey(LocaleKey.legalNotice),
+          applicationLegalese: getTranslations()
+              .fromKey(LocaleKey.legalNotice)
+              .replaceAll('{0}', 'James Bendon')
+              .replaceAll('{1}', 'Dinkum'),
           applicationVersion: appsBuildName,
         ),
       ),
