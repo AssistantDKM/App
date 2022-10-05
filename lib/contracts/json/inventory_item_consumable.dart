@@ -21,14 +21,21 @@ class InventoryItemConsumable {
   factory InventoryItemConsumable.fromJson(String str) =>
       InventoryItemConsumable.fromMap(json.decode(str));
 
-  factory InventoryItemConsumable.fromMap(Map<String, dynamic> json) =>
-      InventoryItemConsumable(
-        type: consumableTypeValues.map[readIntSafe(json, 'Type').toString()] ??
-            ConsumableType.unknown,
-        buffs: readListSafe(
-          json,
-          'Buffs',
-          (x) => InventoryItemConsumableBuff.fromMap(x),
-        ),
+  factory InventoryItemConsumable.fromMap(Map<String, dynamic>? json) {
+    if (json == null) {
+      return InventoryItemConsumable(
+        type: ConsumableType.unknown,
+        buffs: [],
       );
+    }
+    return InventoryItemConsumable(
+      type: consumableTypeValues.map[readIntSafe(json, 'Type').toString()] ??
+          ConsumableType.unknown,
+      buffs: readListSafe(
+        json,
+        'Buffs',
+        (x) => InventoryItemConsumableBuff.fromMap(x),
+      ),
+    );
+  }
 }

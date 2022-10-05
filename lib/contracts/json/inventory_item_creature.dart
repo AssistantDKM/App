@@ -29,14 +29,25 @@ class InventoryItemCreature {
   factory InventoryItemCreature.fromJson(String str) =>
       InventoryItemCreature.fromMap(json.decode(str));
 
-  factory InventoryItemCreature.fromMap(Map<String, dynamic> json) =>
-      InventoryItemCreature(
-        type: creatureTypeValues.map[readIntSafe(json, 'Type').toString()] ??
-            CreatureType.none,
-        landLocation: readStringListSafe(json, 'LandLocation'),
-        waterLocation: readStringListSafe(json, 'WaterLocation'),
-        seasonFound: readStringListSafe(json, 'SeasonFound'),
-        timeOfDay: readStringListSafe(json, 'TimeOfDay'),
-        rarity: readStringSafe(json, 'Rarity'),
+  factory InventoryItemCreature.fromMap(Map<String, dynamic>? json) {
+    if (json == null) {
+      return InventoryItemCreature(
+        type: CreatureType.none,
+        landLocation: [],
+        waterLocation: [],
+        seasonFound: [],
+        timeOfDay: [],
+        rarity: '',
       );
+    }
+    return InventoryItemCreature(
+      type: creatureTypeValues.map[readIntSafe(json, 'Type').toString()] ??
+          CreatureType.none,
+      landLocation: readStringListSafe(json, 'LandLocation'),
+      waterLocation: readStringListSafe(json, 'WaterLocation'),
+      seasonFound: readStringListSafe(json, 'SeasonFound'),
+      timeOfDay: readStringListSafe(json, 'TimeOfDay'),
+      rarity: readStringSafe(json, 'Rarity'),
+    );
+  }
 }

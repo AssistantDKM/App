@@ -50,28 +50,35 @@ class InventoryItemCraftable {
   factory InventoryItemCraftable.fromJson(String str) =>
       InventoryItemCraftable.fromMap(json.decode(str));
 
-  factory InventoryItemCraftable.fromMap(Map<String, dynamic> json) =>
-      InventoryItemCraftable(
-        requiredItems: readListSafe(
-          json,
-          'RequiredItems',
-          (x) => InventoryItemCraftableRequired.fromMap(x),
-        ),
-        recipeGiveThisAmount: readIntSafe(json, 'RecipeGiveThisAmount'),
-        // workPlaceConditionsEnum: readIntSafe(json, 'WorkPlaceConditionsEnum'),
-        // workPlaceConditions: readIntSafe(json, 'WorkPlaceConditions'),
-        // categoryEnum: readIntSafe(json, 'CategoryEnum'),
-        // category: readIntSafe(json, 'Category'),
-        // subCategoryEnum: readIntSafe(json, 'SubCategoryEnum'),
-        // subCategory: readIntSafe(json, 'SubCategory'),
-        // tierLevel: readIntSafe(json, 'TierLevel'),
-        // skillEnum: readIntSafe(json, 'SkillEnum'),
-        // skill: readIntSafe(json, 'Skill'),
-        // levelSkillLearnt: readIntSafe(json, 'LevelSkillLearnt'),
-        // learnThroughLicence: readIntSafe(json, 'LearnThroughLicence'),
-        // licenceTypeEnum: readIntSafe(json, 'LicenceTypeEnum'),
-        // licenceType: readIntSafe(json, 'LicenceType'),
-        // licenceLevelLearnt: readIntSafe(json, 'LicenceLevelLearnt'),
-        // crafterLevelLearnt: readIntSafe(json, 'CrafterLevelLearnt'),
+  factory InventoryItemCraftable.fromMap(Map<String, dynamic>? json) {
+    if (json == null) {
+      return InventoryItemCraftable(
+        recipeGiveThisAmount: 0,
+        requiredItems: [],
       );
+    }
+    return InventoryItemCraftable(
+      requiredItems: readListSafe(
+        json,
+        'RequiredItems',
+        (x) => InventoryItemCraftableRequired.fromMap(x),
+      ),
+      recipeGiveThisAmount: readIntSafe(json, 'RecipeGiveThisAmount'),
+      // workPlaceConditionsEnum: readIntSafe(json, 'WorkPlaceConditionsEnum'),
+      // workPlaceConditions: readIntSafe(json, 'WorkPlaceConditions'),
+      // categoryEnum: readIntSafe(json, 'CategoryEnum'),
+      // category: readIntSafe(json, 'Category'),
+      // subCategoryEnum: readIntSafe(json, 'SubCategoryEnum'),
+      // subCategory: readIntSafe(json, 'SubCategory'),
+      // tierLevel: readIntSafe(json, 'TierLevel'),
+      // skillEnum: readIntSafe(json, 'SkillEnum'),
+      // skill: readIntSafe(json, 'Skill'),
+      // levelSkillLearnt: readIntSafe(json, 'LevelSkillLearnt'),
+      // learnThroughLicence: readIntSafe(json, 'LearnThroughLicence'),
+      // licenceTypeEnum: readIntSafe(json, 'LicenceTypeEnum'),
+      // licenceType: readIntSafe(json, 'LicenceType'),
+      // licenceLevelLearnt: readIntSafe(json, 'LicenceLevelLearnt'),
+      // crafterLevelLearnt: readIntSafe(json, 'CrafterLevelLearnt'),
+    );
+  }
 }
