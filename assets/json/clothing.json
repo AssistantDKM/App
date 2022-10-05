@@ -2,7 +2,7 @@
   {
     "Id": 40,
     "AppId": "clothing_40",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Aussie Hat",
     "Description": "This will keep that sun off ya.",
     "SellPrice": 2250,
@@ -15,7 +15,7 @@
   {
     "Id": 41,
     "AppId": "clothing_41",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Black Boots",
     "Description": "Nice black boots.",
     "SellPrice": 1800,
@@ -28,7 +28,7 @@
   {
     "Id": 42,
     "AppId": "clothing_42",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Blue Jeans",
     "Description": "Not only for Barry.",
     "SellPrice": 450,
@@ -41,7 +41,7 @@
   {
     "Id": 43,
     "AppId": "clothing_43",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Tradie Boots",
     "Description": "Boots good for hard work.",
     "SellPrice": 515,
@@ -54,7 +54,7 @@
   {
     "Id": 44,
     "AppId": "clothing_44",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Tradie Pants",
     "Description": "Pants for the trade.",
     "SellPrice": 530,
@@ -67,7 +67,7 @@
   {
     "Id": 45,
     "AppId": "clothing_45",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Dark Shorts",
     "Description": "Dark and easy to wear.",
     "SellPrice": 540,
@@ -80,7 +80,7 @@
   {
     "Id": 46,
     "AppId": "clothing_46",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Purple Shirt",
     "Description": "For Ghaz",
     "SellPrice": 540,
@@ -93,7 +93,7 @@
   {
     "Id": 47,
     "AppId": "clothing_47",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Red Flanney",
     "Description": "A red flannelette shirt.",
     "SellPrice": 1000,
@@ -106,7 +106,7 @@
   {
     "Id": 61,
     "AppId": "clothing_61",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Dog Hat",
     "Description": "Woof.",
     "SellPrice": 4400,
@@ -119,7 +119,7 @@
   {
     "Id": 62,
     "AppId": "clothing_62",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Holiday Hat",
     "Description": "You could wear this on holiday. Or whenever.",
     "SellPrice": 730,
@@ -132,7 +132,7 @@
   {
     "Id": 63,
     "AppId": "clothing_63",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Blue Beanie",
     "Description": "Keep that dome hot",
     "SellPrice": 825,
@@ -145,7 +145,7 @@
   {
     "Id": 64,
     "AppId": "clothing_64",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Top Hat",
     "Description": "FANCY!",
     "SellPrice": 6250,
@@ -158,7 +158,7 @@
   {
     "Id": 65,
     "AppId": "clothing_65",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Red Baseball Cap",
     "Description": "Strike 1",
     "SellPrice": 1125,
@@ -171,7 +171,7 @@
   {
     "Id": 66,
     "AppId": "clothing_66",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Yellow Bucket Hat",
     "Description": "Bounce!",
     "SellPrice": 165,
@@ -184,7 +184,7 @@
   {
     "Id": 68,
     "AppId": "clothing_68",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Business Pants",
     "Description": "Pants for business.",
     "SellPrice": 1000,
@@ -197,7 +197,7 @@
   {
     "Id": 69,
     "AppId": "clothing_69",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Business Shirt",
     "Description": "A Shirt for business.",
     "SellPrice": 1000,
@@ -210,7 +210,7 @@
   {
     "Id": 70,
     "AppId": "clothing_70",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Business Shoes",
     "Description": "Shoes for business.",
     "SellPrice": 1000,
@@ -223,7 +223,7 @@
   {
     "Id": 71,
     "AppId": "clothing_71",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Green Pants",
     "Description": "Yup. Green and pants.",
     "SellPrice": 1000,
@@ -236,7 +236,7 @@
   {
     "Id": 72,
     "AppId": "clothing_72",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Green Sweater",
     "Description": "Mr Rogers.",
     "SellPrice": 1000,
@@ -249,7 +249,7 @@
   {
     "Id": 73,
     "AppId": "clothing_73",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Green Shoes",
     "Description": "Gross. Green Shoes.",
     "SellPrice": 400,
@@ -262,7 +262,7 @@
   {
     "Id": 74,
     "AppId": "clothing_74",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Holiday Shirt",
     "Description": "Flipping Stylin'",
     "SellPrice": 680,
@@ -275,7 +275,7 @@
   {
     "Id": 75,
     "AppId": "clothing_75",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Thongs",
     "Description": "Flip and flop these bad boys.",
     "SellPrice": 510,
@@ -288,7 +288,7 @@
   {
     "Id": 76,
     "AppId": "clothing_76",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Holiday Shorts",
     "Description": "Easy to wear.",
     "SellPrice": 665,
@@ -301,7 +301,7 @@
   {
     "Id": 77,
     "AppId": "clothing_77",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Tradie Shirt",
     "Description": "High Vis. Low stress.",
     "SellPrice": 1000,
@@ -314,7 +314,7 @@
   {
     "Id": 78,
     "AppId": "clothing_78",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Kahkey Boots",
     "Description": "Struth, boots.",
     "SellPrice": 1000,
@@ -327,7 +327,7 @@
   {
     "Id": 79,
     "AppId": "clothing_79",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Kahkey Shorts",
     "Description": "Struth, Shorts",
     "SellPrice": 1000,
@@ -340,7 +340,7 @@
   {
     "Id": 80,
     "AppId": "clothing_80",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Kahkey Shirt",
     "Description": "Struth, Shirt.",
     "SellPrice": 1000,
@@ -353,7 +353,7 @@
   {
     "Id": 82,
     "AppId": "clothing_82",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Blue Shorts",
     "Description": "Blue and easy to wear.",
     "SellPrice": 903,
@@ -366,7 +366,7 @@
   {
     "Id": 83,
     "AppId": "clothing_83",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Blue and Yellow Shirt",
     "Description": "Is it blue with yellow stripes?",
     "SellPrice": 1200,
@@ -379,7 +379,7 @@
   {
     "Id": 84,
     "AppId": "clothing_84",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Red Sneakers",
     "Description": "Red Shoes.",
     "SellPrice": 1130,
@@ -392,7 +392,7 @@
   {
     "Id": 85,
     "AppId": "clothing_85",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Blue Dress",
     "Description": "Blue and easy to wear.",
     "SellPrice": 565,
@@ -405,7 +405,7 @@
   {
     "Id": 86,
     "AppId": "clothing_86",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Fairest Dress",
     "Description": "Fairest in the land.",
     "SellPrice": 1015,
@@ -418,7 +418,7 @@
   {
     "Id": 87,
     "AppId": "clothing_87",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "White Flats",
     "Description": "White Flat Shoes",
     "SellPrice": 1675,
@@ -431,7 +431,7 @@
   {
     "Id": 87,
     "AppId": "clothing_87",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "White Flats",
     "Description": "White Flat Shoes",
     "SellPrice": 1675,
@@ -444,7 +444,7 @@
   {
     "Id": 88,
     "AppId": "clothing_88",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Mustard Coat",
     "Description": "A nice coloured coat.",
     "SellPrice": 2560,
@@ -457,7 +457,7 @@
   {
     "Id": 89,
     "AppId": "clothing_89",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "White Sneakers",
     "Description": "Scuffing be damned.",
     "SellPrice": 1400,
@@ -470,7 +470,7 @@
   {
     "Id": 90,
     "AppId": "clothing_90",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Ripped Jeans",
     "Description": "Jeans for sunburnt knees.",
     "SellPrice": 1605,
@@ -483,7 +483,7 @@
   {
     "Id": 91,
     "AppId": "clothing_91",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "White Dress",
     "Description": "Long sleves and white",
     "SellPrice": 995,
@@ -496,7 +496,7 @@
   {
     "Id": 93,
     "AppId": "clothing_93",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Red Dress",
     "Description": "A red dress. You can wear this.",
     "SellPrice": 795,
@@ -509,7 +509,7 @@
   {
     "Id": 94,
     "AppId": "clothing_94",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Red Flats",
     "Description": "Red Flat Shoes",
     "SellPrice": 425,
@@ -522,7 +522,7 @@
   {
     "Id": 95,
     "AppId": "clothing_95",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Pin Stripe Jacket",
     "Description": "Sharp.",
     "SellPrice": 4000,
@@ -535,7 +535,7 @@
   {
     "Id": 96,
     "AppId": "clothing_96",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Pin Stripe Pants",
     "Description": "These are some nice pants.",
     "SellPrice": 4000,
@@ -548,7 +548,7 @@
   {
     "Id": 120,
     "AppId": "clothing_120",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Green Beanie",
     "Description": "Keep that dome hot",
     "SellPrice": 825,
@@ -561,7 +561,7 @@
   {
     "Id": 121,
     "AppId": "clothing_121",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Red Beanie",
     "Description": "Keep that dome hot",
     "SellPrice": 275,
@@ -574,7 +574,7 @@
   {
     "Id": 122,
     "AppId": "clothing_122",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Blue Bucket Hat",
     "Description": "Bounce!",
     "SellPrice": 165,
@@ -587,7 +587,7 @@
   {
     "Id": 130,
     "AppId": "clothing_130",
-    "Icon": "allUI2_82.png",
+    "Icon": "inventory/allUI2_82.png",
     "Name": "Miners Helmet",
     "Description": "Gives off light, but has limited power.",
     "SellPrice": 5000,
@@ -600,7 +600,7 @@
   {
     "Id": 185,
     "AppId": "clothing_185",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Space Helmet",
     "Description": "I've always wanted to have one.",
     "SellPrice": 12750,
@@ -613,7 +613,7 @@
   {
     "Id": 186,
     "AppId": "clothing_186",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Space Suit Pants",
     "Description": "Pants for space.",
     "SellPrice": 3000,
@@ -626,7 +626,7 @@
   {
     "Id": 187,
     "AppId": "clothing_187",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Space Suit Shirt",
     "Description": "A Shirt for space.",
     "SellPrice": 4500,
@@ -639,7 +639,7 @@
   {
     "Id": 188,
     "AppId": "clothing_188",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Space Suit Shoes",
     "Description": "Shoes for space",
     "SellPrice": 2500,
@@ -652,7 +652,7 @@
   {
     "Id": 189,
     "AppId": "clothing_189",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Pink Baseball Cap",
     "Description": "Strike 1",
     "SellPrice": 375,
@@ -665,7 +665,7 @@
   {
     "Id": 190,
     "AppId": "clothing_190",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Black Pants",
     "Description": "Dark Pants",
     "SellPrice": 2000,
@@ -678,7 +678,7 @@
   {
     "Id": 191,
     "AppId": "clothing_191",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Black Shirt",
     "Description": "So Dark.",
     "SellPrice": 3000,
@@ -691,7 +691,7 @@
   {
     "Id": 192,
     "AppId": "clothing_192",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Black Sneakers",
     "Description": "So dark.",
     "SellPrice": 1200,
@@ -704,7 +704,7 @@
   {
     "Id": 193,
     "AppId": "clothing_193",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Daisy Shorts",
     "Description": "Looks like them shorts are in trouble.",
     "SellPrice": 2500,
@@ -717,7 +717,7 @@
   {
     "Id": 194,
     "AppId": "clothing_194",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Pink Dress",
     "Description": "Dress",
     "SellPrice": 3000,
@@ -730,7 +730,7 @@
   {
     "Id": 195,
     "AppId": "clothing_195",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Strapped Sandals",
     "Description": "Strapped up.",
     "SellPrice": 600,
@@ -743,7 +743,7 @@
   {
     "Id": 196,
     "AppId": "clothing_196",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Green Baseball Cap",
     "Description": "Strike 1",
     "SellPrice": 375,
@@ -756,7 +756,7 @@
   {
     "Id": 209,
     "AppId": "clothing_209",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Pirate Coat",
     "Description": "Yarr.",
     "SellPrice": 5940,
@@ -769,7 +769,7 @@
   {
     "Id": 221,
     "AppId": "clothing_221",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "White Collar Dress",
     "Description": "A black dress with a white collar.",
     "SellPrice": 1695,
@@ -782,7 +782,7 @@
   {
     "Id": 222,
     "AppId": "clothing_222",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Dark Blue Button Dress",
     "Description": "Blue and easy to wear.",
     "SellPrice": 565,
@@ -795,7 +795,7 @@
   {
     "Id": 238,
     "AppId": "clothing_238",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Pink Shots",
     "Description": "Yup. Pink and shorts.",
     "SellPrice": 1200,
@@ -808,7 +808,7 @@
   {
     "Id": 239,
     "AppId": "clothing_239",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Pink Sneakers",
     "Description": "Pink sneaky shoes.",
     "SellPrice": 750,
@@ -821,7 +821,7 @@
   {
     "Id": 240,
     "AppId": "clothing_240",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Pink T-Shirt",
     "Description": "A normal pink T-Shirt",
     "SellPrice": 1075,
@@ -834,7 +834,7 @@
   {
     "Id": 241,
     "AppId": "clothing_241",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Blue Sneakers",
     "Description": "Blue sneaky shoes.",
     "SellPrice": 750,
@@ -847,7 +847,7 @@
   {
     "Id": 242,
     "AppId": "clothing_242",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Blue T-Shirt",
     "Description": "A normal blue T-Shirt",
     "SellPrice": 1075,
@@ -860,7 +860,7 @@
   {
     "Id": 243,
     "AppId": "clothing_243",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Purple Dress",
     "Description": "Its sure is purple!",
     "SellPrice": 580,
@@ -873,7 +873,7 @@
   {
     "Id": 244,
     "AppId": "clothing_244",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Purple Flats",
     "Description": "Purple Flat Shoes",
     "SellPrice": 335,
@@ -886,7 +886,7 @@
   {
     "Id": 245,
     "AppId": "clothing_245",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Purple Pants",
     "Description": "Like purple shorts, but longer.",
     "SellPrice": 1000,
@@ -899,7 +899,7 @@
   {
     "Id": 253,
     "AppId": "clothing_253",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Green Boots",
     "Description": "Tough green boots",
     "SellPrice": 750,
@@ -912,7 +912,7 @@
   {
     "Id": 254,
     "AppId": "clothing_254",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Brown Pants",
     "Description": "Yup. Brown and pants.",
     "SellPrice": 1000,
@@ -925,7 +925,7 @@
   {
     "Id": 255,
     "AppId": "clothing_255",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Blue Flanney Shirt",
     "Description": "Blue and warm",
     "SellPrice": 1180,
@@ -938,7 +938,7 @@
   {
     "Id": 256,
     "AppId": "clothing_256",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Black Pants",
     "Description": "Are these socks or pants?",
     "SellPrice": 1000,
@@ -951,7 +951,7 @@
   {
     "Id": 257,
     "AppId": "clothing_257",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Green Jacket",
     "Description": "It has a short singlet",
     "SellPrice": 2560,
@@ -964,7 +964,7 @@
   {
     "Id": 258,
     "AppId": "clothing_258",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Maroon Pants",
     "Description": "Yup. Maroon and pants.",
     "SellPrice": 1000,
@@ -977,7 +977,7 @@
   {
     "Id": 259,
     "AppId": "clothing_259",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Adventure Hood",
     "Description": "What time is it?",
     "SellPrice": 7200,
@@ -990,7 +990,7 @@
   {
     "Id": 260,
     "AppId": "clothing_260",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Red Strapped Shoes",
     "Description": "Red shoes",
     "SellPrice": 465,
@@ -1003,7 +1003,7 @@
   {
     "Id": 261,
     "AppId": "clothing_261",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Overall Dress",
     "Description": "Its all over",
     "SellPrice": 1580,
@@ -1016,7 +1016,7 @@
   {
     "Id": 262,
     "AppId": "clothing_262",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Stripped Tights",
     "Description": "Black and white tights.",
     "SellPrice": 1000,
@@ -1029,7 +1029,7 @@
   {
     "Id": 263,
     "AppId": "clothing_263",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Chef Hat",
     "Description": "Bone Apple Tea",
     "SellPrice": 3025,
@@ -1042,7 +1042,7 @@
   {
     "Id": 266,
     "AppId": "clothing_266",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Chef Jacket",
     "Description": "Perfect to cook in.",
     "SellPrice": 4050,
@@ -1055,7 +1055,7 @@
   {
     "Id": 267,
     "AppId": "clothing_267",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Chef Pants",
     "Description": "Pants for cooking",
     "SellPrice": 2400,
@@ -1068,7 +1068,7 @@
   {
     "Id": 268,
     "AppId": "clothing_268",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Orange Shorts",
     "Description": "Orange Shorts",
     "SellPrice": 975,
@@ -1081,7 +1081,7 @@
   {
     "Id": 269,
     "AppId": "clothing_269",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Orange T-Shirt",
     "Description": "Bright T-Shirt",
     "SellPrice": 1010,
@@ -1094,7 +1094,7 @@
   {
     "Id": 270,
     "AppId": "clothing_270",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Brown Sandals",
     "Description": "Slip those puppies on.",
     "SellPrice": 715,
@@ -1107,7 +1107,7 @@
   {
     "Id": 279,
     "AppId": "clothing_279",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Aviator Sun Glasses",
     "Description": "Danger Zone!",
     "SellPrice": 1250,
@@ -1120,7 +1120,7 @@
   {
     "Id": 280,
     "AppId": "clothing_280",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Eye Patch",
     "Description": "Yaaar",
     "SellPrice": 1150,
@@ -1133,7 +1133,7 @@
   {
     "Id": 281,
     "AppId": "clothing_281",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Fake Mustache",
     "Description": "Doesn't mean it's not cool.",
     "SellPrice": 1400,
@@ -1146,7 +1146,7 @@
   {
     "Id": 282,
     "AppId": "clothing_282",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Modern Glasses",
     "Description": "Helps you see.",
     "SellPrice": 2750,
@@ -1159,7 +1159,7 @@
   {
     "Id": 283,
     "AppId": "clothing_283",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Modern Sun Glasses",
     "Description": "Helps you look cool.",
     "SellPrice": 2075,
@@ -1172,7 +1172,7 @@
   {
     "Id": 284,
     "AppId": "clothing_284",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Monicle",
     "Description": "Don't let it fall off.",
     "SellPrice": 2400,
@@ -1185,7 +1185,7 @@
   {
     "Id": 285,
     "AppId": "clothing_285",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Old School Glasses",
     "Description": "Helps you see.",
     "SellPrice": 1200,
@@ -1198,7 +1198,7 @@
   {
     "Id": 286,
     "AppId": "clothing_286",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Round Glasses",
     "Description": "Helps you see.",
     "SellPrice": 750,
@@ -1211,7 +1211,7 @@
   {
     "Id": 287,
     "AppId": "clothing_287",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Round Sun Glasses",
     "Description": "Helps you look cool.",
     "SellPrice": 1550,
@@ -1224,7 +1224,7 @@
   {
     "Id": 288,
     "AppId": "clothing_288",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Small Glasses",
     "Description": "Helps you see.",
     "SellPrice": 850,
@@ -1237,7 +1237,7 @@
   {
     "Id": 289,
     "AppId": "clothing_289",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Small Sun Glasses",
     "Description": "Helps you look cool.",
     "SellPrice": 1200,
@@ -1250,7 +1250,7 @@
   {
     "Id": 290,
     "AppId": "clothing_290",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Square Glasses",
     "Description": "Helps you see.",
     "SellPrice": 1200,
@@ -1263,7 +1263,7 @@
   {
     "Id": 291,
     "AppId": "clothing_291",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Square Sun Glasses",
     "Description": "Helps you look cool.",
     "SellPrice": 1200,
@@ -1276,7 +1276,7 @@
   {
     "Id": 292,
     "AppId": "clothing_292",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Jolly Beard",
     "Description": "Makes you so Jolly!",
     "SellPrice": 657,
@@ -1289,7 +1289,7 @@
   {
     "Id": 293,
     "AppId": "clothing_293",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Jolly Hat",
     "Description": "So Jolly!",
     "SellPrice": 3010,
@@ -1302,7 +1302,7 @@
   {
     "Id": 294,
     "AppId": "clothing_294",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Jolly Pants",
     "Description": "So Jolly! Ho Ho Ho!",
     "SellPrice": 1000,
@@ -1315,7 +1315,7 @@
   {
     "Id": 295,
     "AppId": "clothing_295",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Jolly Shirt",
     "Description": "So Jolly! Ho Ho Ho!",
     "SellPrice": 1000,
@@ -1328,7 +1328,7 @@
   {
     "Id": 296,
     "AppId": "clothing_296",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Jolly Shoes",
     "Description": "So Jolly! Ho Ho Ho!",
     "SellPrice": 400,
@@ -1341,7 +1341,7 @@
   {
     "Id": 349,
     "AppId": "clothing_349",
-    "Icon": "allUI_133.png",
+    "Icon": "inventory/allUI_133.png",
     "Name": "Milking Bucket",
     "Description": "Collect milk in this.",
     "SellPrice": 800,
@@ -1354,7 +1354,7 @@
   {
     "Id": 354,
     "AppId": "clothing_354",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Pink Bow Hat",
     "Description": "Little bow",
     "SellPrice": 1125,
@@ -1367,7 +1367,7 @@
   {
     "Id": 355,
     "AppId": "clothing_355",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Sun Hat",
     "Description": "This will keep that sun off ya.",
     "SellPrice": 1850,
@@ -1380,7 +1380,7 @@
   {
     "Id": 356,
     "AppId": "clothing_356",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Gangsta Hat",
     "Description": "This will keep that sun off ya.",
     "SellPrice": 1850,
@@ -1393,7 +1393,7 @@
   {
     "Id": 381,
     "AppId": "clothing_381",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Chequer Vest",
     "Description": "Makes you smarter.",
     "SellPrice": 1000,
@@ -1406,7 +1406,7 @@
   {
     "Id": 386,
     "AppId": "clothing_386",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Candle hat",
     "Description": "It's got a lil' candle on it. Cute!",
     "SellPrice": 275,
@@ -1419,7 +1419,7 @@
   {
     "Id": 406,
     "AppId": "clothing_406",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Pink Polka Dot Pants",
     "Description": "Polka-y",
     "SellPrice": 1000,
@@ -1432,7 +1432,7 @@
   {
     "Id": 407,
     "AppId": "clothing_407",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Pink Polka Dot Shirt",
     "Description": "Dotty.",
     "SellPrice": 1000,
@@ -1445,7 +1445,7 @@
   {
     "Id": 408,
     "AppId": "clothing_408",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Pink Polka dot Shoes",
     "Description": "Step on the spot.",
     "SellPrice": 600,
@@ -1458,7 +1458,7 @@
   {
     "Id": 409,
     "AppId": "clothing_409",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Pink Polka Dot Dress",
     "Description": "Spot on.",
     "SellPrice": 665,
@@ -1471,7 +1471,7 @@
   {
     "Id": 410,
     "AppId": "clothing_410",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Orange Dino Shirt",
     "Description": "It's got a dino on it.",
     "SellPrice": 984,
@@ -1484,7 +1484,7 @@
   {
     "Id": 411,
     "AppId": "clothing_411",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Skull Shirt",
     "Description": "Rad.",
     "SellPrice": 1034,
@@ -1497,7 +1497,7 @@
   {
     "Id": 412,
     "AppId": "clothing_412",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Feather Shirt",
     "Description": "Light as.",
     "SellPrice": 934,
@@ -1510,7 +1510,7 @@
   {
     "Id": 413,
     "AppId": "clothing_413",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Black Baseball Cap",
     "Description": "Strike 1",
     "SellPrice": 375,
@@ -1523,7 +1523,7 @@
   {
     "Id": 414,
     "AppId": "clothing_414",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "White Baseball Cap",
     "Description": "Strike 1",
     "SellPrice": 375,
@@ -1536,7 +1536,7 @@
   {
     "Id": 415,
     "AppId": "clothing_415",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Grey Sweat Pants",
     "Description": "Pants for sweating.",
     "SellPrice": 530,
@@ -1549,7 +1549,7 @@
   {
     "Id": 416,
     "AppId": "clothing_416",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Brown Sand Shoes",
     "Description": "Slip these puppies on.",
     "SellPrice": 403,
@@ -1562,7 +1562,7 @@
   {
     "Id": 417,
     "AppId": "clothing_417",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Camo Cap",
     "Description": "Hide under your hat.",
     "SellPrice": 1125,
@@ -1575,7 +1575,7 @@
   {
     "Id": 418,
     "AppId": "clothing_418",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Camo Dress",
     "Description": "Where is it?",
     "SellPrice": 665,
@@ -1588,7 +1588,7 @@
   {
     "Id": 419,
     "AppId": "clothing_419",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Camo Pants",
     "Description": "It's like wearing nothing at all",
     "SellPrice": 1300,
@@ -1601,7 +1601,7 @@
   {
     "Id": 420,
     "AppId": "clothing_420",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Camo Shirt",
     "Description": "Hide in plain sight.",
     "SellPrice": 1400,
@@ -1614,7 +1614,7 @@
   {
     "Id": 421,
     "AppId": "clothing_421",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Camo Boots",
     "Description": "Left, right, left",
     "SellPrice": 655,
@@ -1627,7 +1627,7 @@
   {
     "Id": 422,
     "AppId": "clothing_422",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Cargo Pants",
     "Description": "Pockets. Lots of pockets.",
     "SellPrice": 1207,
@@ -1640,7 +1640,7 @@
   {
     "Id": 423,
     "AppId": "clothing_423",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Blue Stripe Shirt.",
     "Description": "Or blue with white stripes?",
     "SellPrice": 1400,
@@ -1653,7 +1653,7 @@
   {
     "Id": 424,
     "AppId": "clothing_424",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Green Sand Shoes",
     "Description": "Slip these puppies on.",
     "SellPrice": 403,
@@ -1666,7 +1666,7 @@
   {
     "Id": 425,
     "AppId": "clothing_425",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Orange Cargo Pants",
     "Description": "Pockets. Lots of pockets.",
     "SellPrice": 1507,
@@ -1679,7 +1679,7 @@
   {
     "Id": 426,
     "AppId": "clothing_426",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Orange Sand Shoes",
     "Description": "Slip these puppies on.",
     "SellPrice": 407,
@@ -1692,7 +1692,7 @@
   {
     "Id": 427,
     "AppId": "clothing_427",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Orange Stripe Shirt.",
     "Description": "Or yellow with orange stripes?",
     "SellPrice": 1400,
@@ -1705,7 +1705,7 @@
   {
     "Id": 428,
     "AppId": "clothing_428",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Straw Sun Hat",
     "Description": "This will keep that sun off ya.",
     "SellPrice": 1350,
@@ -1718,7 +1718,7 @@
   {
     "Id": 429,
     "AppId": "clothing_429",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Red Puffy Jacket",
     "Description": "It's warm!",
     "SellPrice": 1500,
@@ -1731,7 +1731,7 @@
   {
     "Id": 430,
     "AppId": "clothing_430",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Blue Puffy Jacket",
     "Description": "It's warm!",
     "SellPrice": 1500,
@@ -1744,7 +1744,7 @@
   {
     "Id": 431,
     "AppId": "clothing_431",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Green Puffy Jacket",
     "Description": "It's warm!",
     "SellPrice": 1500,
@@ -1757,7 +1757,7 @@
   {
     "Id": 432,
     "AppId": "clothing_432",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Purple Puffy Jacket",
     "Description": "It's warm!",
     "SellPrice": 1500,
@@ -1770,7 +1770,7 @@
   {
     "Id": 433,
     "AppId": "clothing_433",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Blue Ugly Sweater",
     "Description": "It's ugly.",
     "SellPrice": 1153,
@@ -1783,7 +1783,7 @@
   {
     "Id": 434,
     "AppId": "clothing_434",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Blue Cuffed Pants",
     "Description": "Cuffed up and ready to go.",
     "SellPrice": 1507,
@@ -1796,7 +1796,7 @@
   {
     "Id": 435,
     "AppId": "clothing_435",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Green Cuffed Pants",
     "Description": "Cuffed up and ready to go.",
     "SellPrice": 1507,
@@ -1809,7 +1809,7 @@
   {
     "Id": 436,
     "AppId": "clothing_436",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Purple Cuffed Pants",
     "Description": "Cuffed up and ready to go.",
     "SellPrice": 1507,
@@ -1822,7 +1822,7 @@
   {
     "Id": 437,
     "AppId": "clothing_437",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Red Cuffed Pants",
     "Description": "Cuffed up and ready to go.",
     "SellPrice": 1507,
@@ -1835,7 +1835,7 @@
   {
     "Id": 438,
     "AppId": "clothing_438",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Pink Singlet",
     "Description": "Sing it.",
     "SellPrice": 600,
@@ -1848,7 +1848,7 @@
   {
     "Id": 439,
     "AppId": "clothing_439",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Red Singlet",
     "Description": "Sing it.",
     "SellPrice": 600,
@@ -1861,7 +1861,7 @@
   {
     "Id": 440,
     "AppId": "clothing_440",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Red Shorts",
     "Description": "Easy to wear!",
     "SellPrice": 903,
@@ -1874,7 +1874,7 @@
   {
     "Id": 441,
     "AppId": "clothing_441",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Black Singlet",
     "Description": "Sing it.",
     "SellPrice": 600,
@@ -1887,7 +1887,7 @@
   {
     "Id": 442,
     "AppId": "clothing_442",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Black Shorts",
     "Description": "Easy to wear!",
     "SellPrice": 903,
@@ -1900,7 +1900,7 @@
   {
     "Id": 443,
     "AppId": "clothing_443",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Swimming Goggles",
     "Description": "See all the fish.",
     "SellPrice": 1765,
@@ -1913,7 +1913,7 @@
   {
     "Id": 444,
     "AppId": "clothing_444",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Punk Goggles",
     "Description": "Keep the steam out of your eyes.",
     "SellPrice": 2765,
@@ -1926,7 +1926,7 @@
   {
     "Id": 445,
     "AppId": "clothing_445",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Yellow Gum Boots",
     "Description": "Keep your toots dry.",
     "SellPrice": 1800,
@@ -1939,7 +1939,7 @@
   {
     "Id": 446,
     "AppId": "clothing_446",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Rain Coat",
     "Description": "Keep dry.",
     "SellPrice": 1600,
@@ -1952,7 +1952,7 @@
   {
     "Id": 447,
     "AppId": "clothing_447",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Rain Hat",
     "Description": "This will keep that rain off ya.",
     "SellPrice": 1396,
@@ -1965,7 +1965,7 @@
   {
     "Id": 448,
     "AppId": "clothing_448",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Blue Stripe dress",
     "Description": "Blue and easy to wear.",
     "SellPrice": 765,
@@ -1978,7 +1978,7 @@
   {
     "Id": 449,
     "AppId": "clothing_449",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Orange Stripe dress",
     "Description": "Orange and easy to wear.",
     "SellPrice": 765,
@@ -1991,7 +1991,7 @@
   {
     "Id": 465,
     "AppId": "clothing_465",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Skull Mask",
     "Description": "Spooky.",
     "SellPrice": 22750,
@@ -2004,7 +2004,7 @@
   {
     "Id": 485,
     "AppId": "clothing_485",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Green Flat Cap",
     "Description": "It's flat and a cap.",
     "SellPrice": 525,
@@ -2017,7 +2017,7 @@
   {
     "Id": 486,
     "AppId": "clothing_486",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Pirate Pants",
     "Description": "Don't steal these.",
     "SellPrice": 730,
@@ -2030,7 +2030,7 @@
   {
     "Id": 487,
     "AppId": "clothing_487",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Pirate Boots",
     "Description": "Why aren't these flippers?",
     "SellPrice": 1000,
@@ -2043,7 +2043,7 @@
   {
     "Id": 488,
     "AppId": "clothing_488",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Pirate Hat",
     "Description": "Keeps the sun off and the water in.",
     "SellPrice": 2525,
@@ -2056,7 +2056,7 @@
   {
     "Id": 489,
     "AppId": "clothing_489",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Ninja Hood",
     "Description": "Sneaky",
     "SellPrice": 12750,
@@ -2069,7 +2069,7 @@
   {
     "Id": 490,
     "AppId": "clothing_490",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Ninja Boots",
     "Description": "Sneaky Boots",
     "SellPrice": 1800,
@@ -2082,7 +2082,7 @@
   {
     "Id": 491,
     "AppId": "clothing_491",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Ninja Pants",
     "Description": "Sneaky pants",
     "SellPrice": 3000,
@@ -2095,7 +2095,7 @@
   {
     "Id": 492,
     "AppId": "clothing_492",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Ninja Shirt",
     "Description": "Sneaky",
     "SellPrice": 3000,
@@ -2108,7 +2108,7 @@
   {
     "Id": 493,
     "AppId": "clothing_493",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Yellow Polka Dot Dress",
     "Description": "Spot on.",
     "SellPrice": 865,
@@ -2121,7 +2121,7 @@
   {
     "Id": 494,
     "AppId": "clothing_494",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Yellow Plaid Dress",
     "Description": "Nice!",
     "SellPrice": 1065,
@@ -2134,7 +2134,7 @@
   {
     "Id": 495,
     "AppId": "clothing_495",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Blue Plaid Dress",
     "Description": "Plaid",
     "SellPrice": 1065,
@@ -2147,7 +2147,7 @@
   {
     "Id": 496,
     "AppId": "clothing_496",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Brown Overall Dress",
     "Description": "Overalls",
     "SellPrice": 1125,
@@ -2160,7 +2160,7 @@
   {
     "Id": 497,
     "AppId": "clothing_497",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Green Overall Dress",
     "Description": "Overalls",
     "SellPrice": 1125,
@@ -2173,7 +2173,7 @@
   {
     "Id": 498,
     "AppId": "clothing_498",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Green Cardigan Dress",
     "Description": "A warm Dress",
     "SellPrice": 1225,
@@ -2186,7 +2186,7 @@
   {
     "Id": 499,
     "AppId": "clothing_499",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Pink Cardigan Dress",
     "Description": "A warm dress",
     "SellPrice": 1225,
@@ -2199,7 +2199,7 @@
   {
     "Id": 500,
     "AppId": "clothing_500",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Green Bow Hat",
     "Description": "Little bow",
     "SellPrice": 1125,
@@ -2212,7 +2212,7 @@
   {
     "Id": 501,
     "AppId": "clothing_501",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Old Straw Hat",
     "Description": "This will keep that sun off ya.",
     "SellPrice": 250,
@@ -2225,7 +2225,7 @@
   {
     "Id": 504,
     "AppId": "clothing_504",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Green Flannelette Shirt",
     "Description": "Green and warm",
     "SellPrice": 1180,
@@ -2238,7 +2238,7 @@
   {
     "Id": 505,
     "AppId": "clothing_505",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Green Plaid Pants",
     "Description": "Nice pants.",
     "SellPrice": 800,
@@ -2251,7 +2251,7 @@
   {
     "Id": 506,
     "AppId": "clothing_506",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Blue Plaid Pants",
     "Description": "Nice pants.",
     "SellPrice": 800,
@@ -2264,7 +2264,7 @@
   {
     "Id": 507,
     "AppId": "clothing_507",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Orange Flanney Shirt",
     "Description": "Orange and warm",
     "SellPrice": 1180,
@@ -2277,7 +2277,7 @@
   {
     "Id": 508,
     "AppId": "clothing_508",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Orange Plaid Pants",
     "Description": "Nice pants.",
     "SellPrice": 800,
@@ -2290,7 +2290,7 @@
   {
     "Id": 509,
     "AppId": "clothing_509",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Red Plaid Pants",
     "Description": "Nice pants.",
     "SellPrice": 800,
@@ -2303,7 +2303,7 @@
   {
     "Id": 510,
     "AppId": "clothing_510",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Orange Flat Cap",
     "Description": "It's flat and a cap.",
     "SellPrice": 525,
@@ -2316,7 +2316,7 @@
   {
     "Id": 511,
     "AppId": "clothing_511",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Red Flat Cap",
     "Description": "It's flat and a cap.",
     "SellPrice": 525,
@@ -2329,7 +2329,7 @@
   {
     "Id": 512,
     "AppId": "clothing_512",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Blue Flat Cap",
     "Description": "It's flat and a cap.",
     "SellPrice": 525,
@@ -2342,7 +2342,7 @@
   {
     "Id": 513,
     "AppId": "clothing_513",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Blue Flanney Dress",
     "Description": "Blue and warm",
     "SellPrice": 1080,
@@ -2355,7 +2355,7 @@
   {
     "Id": 514,
     "AppId": "clothing_514",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Green Flannelette Dress",
     "Description": "Green and warm",
     "SellPrice": 1180,
@@ -2368,7 +2368,7 @@
   {
     "Id": 515,
     "AppId": "clothing_515",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Orange Flanney Dress",
     "Description": "Orange and warm",
     "SellPrice": 1180,
@@ -2381,7 +2381,7 @@
   {
     "Id": 516,
     "AppId": "clothing_516",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Red Flanney Dress",
     "Description": "A red flannelette shirt.",
     "SellPrice": 1000,
@@ -2394,7 +2394,7 @@
   {
     "Id": 644,
     "AppId": "clothing_644",
-    "Icon": "allUI2_30.png",
+    "Icon": "inventory/allUI2_30.png",
     "Name": "Ear Hats",
     "Description": "Maybe they keep your ears warm?",
     "SellPrice": 835,
@@ -2415,7 +2415,7 @@
   {
     "Id": 651,
     "AppId": "clothing_651",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Red Hooded Cap",
     "Description": "Keep the neck safe.",
     "SellPrice": 1125,
@@ -2428,7 +2428,7 @@
   {
     "Id": 652,
     "AppId": "clothing_652",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Pilot Goggles",
     "Description": "Keep bug out of your eyes.",
     "SellPrice": 1905,
@@ -2441,7 +2441,7 @@
   {
     "Id": 653,
     "AppId": "clothing_653",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Googly Eyes",
     "Description": "What are you even looking at?",
     "SellPrice": 6765,
@@ -2454,7 +2454,7 @@
   {
     "Id": 654,
     "AppId": "clothing_654",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Hero Mask",
     "Description": "Who is that?",
     "SellPrice": 5400,
@@ -2467,7 +2467,7 @@
   {
     "Id": 655,
     "AppId": "clothing_655",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Bunny Hood",
     "Description": "Looks familiar..",
     "SellPrice": 9875,
@@ -2480,7 +2480,7 @@
   {
     "Id": 656,
     "AppId": "clothing_656",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Yellow Sweats",
     "Description": "I hope you dont sweat yellow.",
     "SellPrice": 900,
@@ -2493,7 +2493,7 @@
   {
     "Id": 657,
     "AppId": "clothing_657",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Yellow Sneakers",
     "Description": "Got them kicks.",
     "SellPrice": 1800,
@@ -2506,7 +2506,7 @@
   {
     "Id": 658,
     "AppId": "clothing_658",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Yellow B Shirt",
     "Description": "The \"B\" stands for shirt.",
     "SellPrice": 1304,
@@ -2519,7 +2519,7 @@
   {
     "Id": 683,
     "AppId": "clothing_683",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Jackaroo Mask",
     "Description": "Looks familiar..",
     "SellPrice": 9875,
@@ -2532,7 +2532,7 @@
   {
     "Id": 695,
     "AppId": "clothing_695",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Fake Beard",
     "Description": "Looks real to me...",
     "SellPrice": 2000,
@@ -2545,7 +2545,7 @@
   {
     "Id": 709,
     "AppId": "clothing_709",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Long Shoes",
     "Description": "Hard to flip in.",
     "SellPrice": 1800,
@@ -2558,7 +2558,7 @@
   {
     "Id": 712,
     "AppId": "clothing_712",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Black Jacket",
     "Description": "A nice coloured jacket.",
     "SellPrice": 2560,
@@ -2571,7 +2571,7 @@
   {
     "Id": 713,
     "AppId": "clothing_713",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Black Jeans",
     "Description": "They could be skinnier...",
     "SellPrice": 1450,
@@ -2584,7 +2584,7 @@
   {
     "Id": 714,
     "AppId": "clothing_714",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "White Pants",
     "Description": "Bright Pants",
     "SellPrice": 2000,
@@ -2597,7 +2597,7 @@
   {
     "Id": 715,
     "AppId": "clothing_715",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "White T-Shirt",
     "Description": "Easy to stain.",
     "SellPrice": 1000,
@@ -2610,7 +2610,7 @@
   {
     "Id": 716,
     "AppId": "clothing_716",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Black Flat Cap",
     "Description": "It's flat and a cap.",
     "SellPrice": 525,
@@ -2623,7 +2623,7 @@
   {
     "Id": 717,
     "AppId": "clothing_717",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Black Flanney Shirt",
     "Description": "Black and warm",
     "SellPrice": 1180,
@@ -2636,7 +2636,7 @@
   {
     "Id": 718,
     "AppId": "clothing_718",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Black Plaid Pants",
     "Description": "Nice pants.",
     "SellPrice": 800,
@@ -2649,7 +2649,7 @@
   {
     "Id": 719,
     "AppId": "clothing_719",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Yellow Shorts",
     "Description": "Easy to wear!",
     "SellPrice": 903,
@@ -2662,7 +2662,7 @@
   {
     "Id": 720,
     "AppId": "clothing_720",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Yellow T Shirt",
     "Description": "It's pretty yellow.",
     "SellPrice": 1304,
@@ -2675,7 +2675,7 @@
   {
     "Id": 721,
     "AppId": "clothing_721",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Yellow Boots",
     "Description": "High Vis",
     "SellPrice": 515,
@@ -2688,7 +2688,7 @@
   {
     "Id": 722,
     "AppId": "clothing_722",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "White Boots",
     "Description": "Don't scuff these.",
     "SellPrice": 515,
@@ -2701,7 +2701,7 @@
   {
     "Id": 723,
     "AppId": "clothing_723",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Face Bandana Green",
     "Description": "Hide your face.",
     "SellPrice": 2600,
@@ -2714,7 +2714,7 @@
   {
     "Id": 724,
     "AppId": "clothing_724",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Face Bandana Black",
     "Description": "Hide your face.",
     "SellPrice": 2600,
@@ -2727,7 +2727,7 @@
   {
     "Id": 725,
     "AppId": "clothing_725",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Face Bandana Blue",
     "Description": "Hide your face.",
     "SellPrice": 2600,
@@ -2740,7 +2740,7 @@
   {
     "Id": 726,
     "AppId": "clothing_726",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Face Bandana Orange",
     "Description": "Hide your face.",
     "SellPrice": 2600,
@@ -2753,7 +2753,7 @@
   {
     "Id": 727,
     "AppId": "clothing_727",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Face Bandana Red",
     "Description": "Hide your face.",
     "SellPrice": 2600,
@@ -2766,7 +2766,7 @@
   {
     "Id": 728,
     "AppId": "clothing_728",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Large Round Glasses",
     "Description": "Helps you see. A lot.",
     "SellPrice": 1600,
@@ -2779,7 +2779,7 @@
   {
     "Id": 729,
     "AppId": "clothing_729",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Retro Point Glasses",
     "Description": "Helps you see. A lot.",
     "SellPrice": 1600,
@@ -2792,7 +2792,7 @@
   {
     "Id": 730,
     "AppId": "clothing_730",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Retro Point Sun Glasses",
     "Description": "Helps you see. A lot.",
     "SellPrice": 1600,
@@ -2805,7 +2805,7 @@
   {
     "Id": 731,
     "AppId": "clothing_731",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Triangle Glasses",
     "Description": "Could take an eye out.",
     "SellPrice": 3600,
@@ -2818,7 +2818,7 @@
   {
     "Id": 732,
     "AppId": "clothing_732",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Shutter Shades",
     "Description": "Keep the sun out of some of you eyes.",
     "SellPrice": 1250,
@@ -2831,7 +2831,7 @@
   {
     "Id": 733,
     "AppId": "clothing_733",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Round Horned Glasses",
     "Description": "Stylish.",
     "SellPrice": 1250,
@@ -2844,7 +2844,7 @@
   {
     "Id": 734,
     "AppId": "clothing_734",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Round Horned Sun Glasses",
     "Description": "Stylish.",
     "SellPrice": 1250,
@@ -2857,7 +2857,7 @@
   {
     "Id": 735,
     "AppId": "clothing_735",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Yellow Dress",
     "Description": "It's yellow!",
     "SellPrice": 1065,
@@ -2870,7 +2870,7 @@
   {
     "Id": 736,
     "AppId": "clothing_736",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Rainbow Dress",
     "Description": "Beautiful!",
     "SellPrice": 1065,
@@ -2883,7 +2883,7 @@
   {
     "Id": 737,
     "AppId": "clothing_737",
-    "Icon": "allUI_3.png",
+    "Icon": "inventory/allUI_3.png",
     "Name": "Black Plaid Dress",
     "Description": "Dark.",
     "SellPrice": 1065,
@@ -2896,7 +2896,7 @@
   {
     "Id": 738,
     "AppId": "clothing_738",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Rainbow T Shirt",
     "Description": "Beautiful!",
     "SellPrice": 1304,
@@ -2909,7 +2909,7 @@
   {
     "Id": 739,
     "AppId": "clothing_739",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Rainbow Pants",
     "Description": "Beautiful!",
     "SellPrice": 1000,
@@ -2922,7 +2922,7 @@
   {
     "Id": 740,
     "AppId": "clothing_740",
-    "Icon": "ui2_13.png",
+    "Icon": "inventory/ui2_13.png",
     "Name": "Rainbow Sneakers",
     "Description": "Beautiful!",
     "SellPrice": 1800,
@@ -2935,7 +2935,7 @@
   {
     "Id": 741,
     "AppId": "clothing_741",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Red Nose",
     "Description": "Does it honk?",
     "SellPrice": 1100,
@@ -2948,7 +2948,7 @@
   {
     "Id": 742,
     "AppId": "clothing_742",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Beak",
     "Description": "Who is quack?",
     "SellPrice": 5400,
@@ -2961,7 +2961,7 @@
   {
     "Id": 743,
     "AppId": "clothing_743",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Black Coat",
     "Description": "A nice coloured coat.",
     "SellPrice": 2560,
@@ -2974,7 +2974,7 @@
   {
     "Id": 744,
     "AppId": "clothing_744",
-    "Icon": "ui2_12.png",
+    "Icon": "inventory/ui2_12.png",
     "Name": "Black Ripped Jeans",
     "Description": "Jeans for sunburnt knees.",
     "SellPrice": 1601,
@@ -2987,7 +2987,7 @@
   {
     "Id": 751,
     "AppId": "clothing_751",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "White Mask",
     "Description": "Keep your breath in.",
     "SellPrice": 5400,
@@ -3000,7 +3000,7 @@
   {
     "Id": 752,
     "AppId": "clothing_752",
-    "Icon": "allUI_85.png",
+    "Icon": "inventory/allUI_85.png",
     "Name": "Black Mask",
     "Description": "Keep your breath in.",
     "SellPrice": 5400,
@@ -3013,7 +3013,7 @@
   {
     "Id": 780,
     "AppId": "clothing_780",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Chicken Hood",
     "Description": "Bok Bok",
     "SellPrice": 9875,
@@ -3026,7 +3026,7 @@
   {
     "Id": 781,
     "AppId": "clothing_781",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Wizard Hat",
     "Description": "Sort this out.",
     "SellPrice": 12250,
@@ -3039,7 +3039,7 @@
   {
     "Id": 782,
     "AppId": "clothing_782",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Wizard Robe",
     "Description": "Never late.",
     "SellPrice": 5940,
@@ -3052,7 +3052,7 @@
   {
     "Id": 783,
     "AppId": "clothing_783",
-    "Icon": "fruitAndPlantsUI_4.png",
+    "Icon": "inventory/fruitAndPlantsUI_4.png",
     "Name": "Witch Hat",
     "Description": "Does it point west?",
     "SellPrice": 12250,
@@ -3065,7 +3065,7 @@
   {
     "Id": 784,
     "AppId": "clothing_784",
-    "Icon": "ui2_10.png",
+    "Icon": "inventory/ui2_10.png",
     "Name": "Witch Robe",
     "Description": "Where's the broom?",
     "SellPrice": 5940,
@@ -3078,7 +3078,7 @@
   {
     "Id": 847,
     "AppId": "clothing_847",
-    "Icon": "allUI2_82.png",
+    "Icon": "inventory/allUI2_82.png",
     "Name": "Empty Miners Helmet",
     "Description": "Needs to be recharged.",
     "SellPrice": 5000,

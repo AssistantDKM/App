@@ -2,7 +2,7 @@
   {
     "Id": 48,
     "AppId": "fish_48",
-    "Icon": "allUI_117.png",
+    "Icon": "inventory/allUI_117.png",
     "Name": "Barcoo Grunter",
     "Description": "Beep. Beep. Grunt.",
     "SellPrice": 1290,
@@ -31,7 +31,7 @@
   {
     "Id": 49,
     "AppId": "fish_49",
-    "Icon": "allUI_115.png",
+    "Icon": "inventory/allUI_115.png",
     "Name": "Barramundi",
     "Description": "Thats good eatin' eh?",
     "SellPrice": 8416,
@@ -60,7 +60,7 @@
   {
     "Id": 50,
     "AppId": "fish_50",
-    "Icon": "allUI_118.png",
+    "Icon": "inventory/allUI_118.png",
     "Name": "River Bass",
     "Description": "A fresh water bass. Ain't rare.",
     "SellPrice": 2784,
@@ -89,7 +89,7 @@
   {
     "Id": 52,
     "AppId": "fish_52",
-    "Icon": "allUI_120.png",
+    "Icon": "inventory/allUI_120.png",
     "Name": "Jungle Perch",
     "Description": "Welcome to the river. We've got perch.",
     "SellPrice": 1200,
@@ -117,7 +117,7 @@
   {
     "Id": 200,
     "AppId": "fish_200",
-    "Icon": "allUI_26.png",
+    "Icon": "inventory/allUI_26.png",
     "Name": "Banded Morwong",
     "Description": "Good fish. You're not Morwong about that.",
     "SellPrice": 4320,
@@ -145,7 +145,7 @@
   {
     "Id": 201,
     "AppId": "fish_201",
-    "Icon": "allUI_27.png",
+    "Icon": "inventory/allUI_27.png",
     "Name": "Bluefish",
     "Description": "An ocean fish that is blue.",
     "SellPrice": 1560,
@@ -173,7 +173,7 @@
   {
     "Id": 202,
     "AppId": "fish_202",
-    "Icon": "allUI_116.png",
+    "Icon": "inventory/allUI_116.png",
     "Name": "Garfish",
     "Description": "It hates mondays.",
     "SellPrice": 2346,
@@ -202,7 +202,7 @@
   {
     "Id": 203,
     "AppId": "fish_203",
-    "Icon": "allUI_30.png",
+    "Icon": "inventory/allUI_30.png",
     "Name": "Golden Perch",
     "Description": "Gold belly on this Perch",
     "SellPrice": 4384,
@@ -229,7 +229,7 @@
   {
     "Id": 204,
     "AppId": "fish_204",
-    "Icon": "allUI_119.png",
+    "Icon": "inventory/allUI_119.png",
     "Name": "Mangrove Jack",
     "Description": "Jack?",
     "SellPrice": 3498,
@@ -256,7 +256,7 @@
   {
     "Id": 205,
     "AppId": "fish_205",
-    "Icon": "allUI_29.png",
+    "Icon": "inventory/allUI_29.png",
     "Name": "Luderick",
     "Description": "This is a Luderick-us fish.",
     "SellPrice": 4160,
@@ -283,7 +283,7 @@
   {
     "Id": 206,
     "AppId": "fish_206",
-    "Icon": "allUI_28.png",
+    "Icon": "inventory/allUI_28.png",
     "Name": "Blue Spot Flathead",
     "Description": "Its head is flat and its eyes are on top.",
     "SellPrice": 998,
@@ -314,7 +314,7 @@
   {
     "Id": 207,
     "AppId": "fish_207",
-    "Icon": "allUI_25.png",
+    "Icon": "inventory/allUI_25.png",
     "Name": "Travalla",
     "Description": "I will call him Trevor.",
     "SellPrice": 7800,
@@ -342,7 +342,7 @@
   {
     "Id": 208,
     "AppId": "fish_208",
-    "Icon": "allUI_24.png",
+    "Icon": "inventory/allUI_24.png",
     "Name": "Yellowfin Tuna",
     "Description": "A massive fish!",
     "SellPrice": 24600,
@@ -372,7 +372,7 @@
   {
     "Id": 333,
     "AppId": "fish_333",
-    "Icon": "allUI_121.png",
+    "Icon": "inventory/allUI_121.png",
     "Name": "Carp",
     "Description": "Latin the day.",
     "SellPrice": 1996,
@@ -400,7 +400,7 @@
   {
     "Id": 334,
     "AppId": "fish_334",
-    "Icon": "allUI_122.png",
+    "Icon": "inventory/allUI_122.png",
     "Name": "Eyestripe Surgeon Fish",
     "Description": "This guy is a doctor.",
     "SellPrice": 3996,
@@ -428,7 +428,7 @@
   {
     "Id": 335,
     "AppId": "fish_335",
-    "Icon": "allUI_123.png",
+    "Icon": "inventory/allUI_123.png",
     "Name": "Black & White Snapper",
     "Description": "Snap.",
     "SellPrice": 1992,
@@ -457,7 +457,7 @@
   {
     "Id": 336,
     "AppId": "fish_336",
-    "Icon": "allUI_124.png",
+    "Icon": "inventory/allUI_124.png",
     "Name": "Boofhead Catfish",
     "Description": "Bit of a mean name.",
     "SellPrice": 2103,
@@ -486,7 +486,7 @@
   {
     "Id": 337,
     "AppId": "fish_337",
-    "Icon": "allUI_125.png",
+    "Icon": "inventory/allUI_125.png",
     "Name": "Murray Cod",
     "Description": "A massive fish!",
     "SellPrice": 10400,
@@ -514,7 +514,7 @@
   {
     "Id": 338,
     "AppId": "fish_338",
-    "Icon": "allUI_126.png",
+    "Icon": "inventory/allUI_126.png",
     "Name": "Eel Tailed Catfish",
     "Description": "Gross tail!",
     "SellPrice": 1408,
@@ -541,7 +541,7 @@
   {
     "Id": 339,
     "AppId": "fish_339",
-    "Icon": "allUI_127.png",
+    "Icon": "inventory/allUI_127.png",
     "Name": "Stingray",
     "Description": "Is this a fish?",
     "SellPrice": 3396,
@@ -569,7 +569,7 @@
   {
     "Id": 484,
     "AppId": "fish_484",
-    "Icon": "allUI_247.png",
+    "Icon": "inventory/allUI_247.png",
     "Name": "Bonytongue",
     "Description": "Cheeky fish.",
     "SellPrice": 3308,
@@ -596,7 +596,7 @@
   {
     "Id": 605,
     "AppId": "fish_605",
-    "Icon": "allUI_250.png",
+    "Icon": "inventory/allUI_250.png",
     "Name": "Blackfish",
     "Description": "A black fish!",
     "SellPrice": 3908,
@@ -624,7 +624,7 @@
   {
     "Id": 606,
     "AppId": "fish_606",
-    "Icon": "allUI_248.png",
+    "Icon": "inventory/allUI_248.png",
     "Name": "Galaxias",
     "Description": "Tiny and bright.",
     "SellPrice": 4808,
@@ -651,7 +651,7 @@
   {
     "Id": 607,
     "AppId": "fish_607",
-    "Icon": "allUI_249.png",
+    "Icon": "inventory/allUI_249.png",
     "Name": "Silver Perch",
     "Description": "Shiny",
     "SellPrice": 1708,
@@ -680,7 +680,7 @@
   {
     "Id": 608,
     "AppId": "fish_608",
-    "Icon": "allUI_253.png",
+    "Icon": "inventory/allUI_253.png",
     "Name": "Anchovy",
     "Description": "So small.",
     "SellPrice": 4620,
@@ -709,7 +709,7 @@
   {
     "Id": 609,
     "AppId": "fish_609",
-    "Icon": "allUI_251.png",
+    "Icon": "inventory/allUI_251.png",
     "Name": "Goat Fish",
     "Description": "It's not a fish?",
     "SellPrice": 3200,
@@ -737,7 +737,7 @@
   {
     "Id": 610,
     "AppId": "fish_610",
-    "Icon": "allUI_252.png",
+    "Icon": "inventory/allUI_252.png",
     "Name": "Barracuda",
     "Description": "Oooooo",
     "SellPrice": 16000,
@@ -766,7 +766,7 @@
   {
     "Id": 611,
     "AppId": "fish_611",
-    "Icon": "allUI_254.png",
+    "Icon": "inventory/allUI_254.png",
     "Name": "Blob Fish",
     "Description": "What is this?",
     "SellPrice": 100,
@@ -794,7 +794,7 @@
   {
     "Id": 612,
     "AppId": "fish_612",
-    "Icon": "allUI_187.png",
+    "Icon": "inventory/allUI_187.png",
     "Name": "Saratoga",
     "Description": "It might be roman?",
     "SellPrice": 7616,
@@ -822,7 +822,7 @@
   {
     "Id": 613,
     "AppId": "fish_613",
-    "Icon": "allUI_255.png",
+    "Icon": "inventory/allUI_255.png",
     "Name": "Tarpon",
     "Description": "A billabong shark.",
     "SellPrice": 3960,
@@ -849,7 +849,7 @@
   {
     "Id": 628,
     "AppId": "fish_628",
-    "Icon": "allUI2_14.png",
+    "Icon": "inventory/allUI2_14.png",
     "Name": "Marlin",
     "Description": "Big fish, big nose.",
     "SellPrice": 20200,
@@ -877,7 +877,7 @@
   {
     "Id": 629,
     "AppId": "fish_629",
-    "Icon": "allUI2_15.png",
+    "Icon": "inventory/allUI2_15.png",
     "Name": "Grayling",
     "Description": "Whats a full grown gray look like?",
     "SellPrice": 2508,
@@ -906,7 +906,7 @@
   {
     "Id": 632,
     "AppId": "fish_632",
-    "Icon": "allUI2_17.png",
+    "Icon": "inventory/allUI2_17.png",
     "Name": "Short Finned Eel",
     "Description": "Like a water snake.",
     "SellPrice": 3008,

@@ -34,7 +34,7 @@ List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
 
     Widget imageStack = Stack(
       children: [
-        Center(child: localImage('inventory/${loadedItem.icon}')),
+        Center(child: localImage(loadedItem.icon)),
         ...widgetsToPositioneds(stackWidgets),
       ],
     );

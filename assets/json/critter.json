@@ -2,7 +2,7 @@
   {
     "Id": 224,
     "AppId": "critter_224",
-    "Icon": "allUI_53.png",
+    "Icon": "inventory/allUI_53.png",
     "Name": "Mud Crab",
     "Description": "A muddy crab",
     "SellPrice": 4540,
@@ -30,7 +30,7 @@
   {
     "Id": 237,
     "AppId": "critter_237",
-    "Icon": "allUI_65.png",
+    "Icon": "inventory/allUI_65.png",
     "Name": "Yabbie",
     "Description": "Like a lobster but it's a yabbie instead.",
     "SellPrice": 1899,
@@ -59,7 +59,7 @@
   {
     "Id": 818,
     "AppId": "critter_818",
-    "Icon": "allUI2_138.png",
+    "Icon": "inventory/allUI2_138.png",
     "Name": "Biscuit Sea Star",
     "Description": "Don't eat it.",
     "SellPrice": 1200,
@@ -87,7 +87,7 @@
   {
     "Id": 819,
     "AppId": "critter_819",
-    "Icon": "allUI2_137.png",
+    "Icon": "inventory/allUI2_137.png",
     "Name": "Eleven-armed Sea Star",
     "Description": "That's a lot of arms!",
     "SellPrice": 8540,
@@ -115,7 +115,7 @@
   {
     "Id": 820,
     "AppId": "critter_820",
-    "Icon": "allUI2_139.png",
+    "Icon": "inventory/allUI2_139.png",
     "Name": "Black Sea Cucumber",
     "Description": "I bet its chewy",
     "SellPrice": 12540,
@@ -145,7 +145,7 @@
   {
     "Id": 821,
     "AppId": "critter_821",
-    "Icon": "allUI2_134.png",
+    "Icon": "inventory/allUI2_134.png",
     "Name": "Spiny Sea Urchin",
     "Description": "It's spikey",
     "SellPrice": 640,
@@ -173,7 +173,7 @@
   {
     "Id": 822,
     "AppId": "critter_822",
-    "Icon": "allUI2_135.png",
+    "Icon": "inventory/allUI2_135.png",
     "Name": "Pink Sea Urchin",
     "Description": "Looks like bubblegum",
     "SellPrice": 1540,
@@ -201,7 +201,7 @@
   {
     "Id": 823,
     "AppId": "critter_823",
-    "Icon": "allUI2_136.png",
+    "Icon": "inventory/allUI2_136.png",
     "Name": "Purple Sea Urchin",
     "Description": "Does it eat people?",
     "SellPrice": 8040,
@@ -229,7 +229,7 @@
   {
     "Id": 824,
     "AppId": "critter_824",
-    "Icon": "allUI2_142.png",
+    "Icon": "inventory/allUI2_142.png",
     "Name": "King Prawn",
     "Description": "What majesty!",
     "SellPrice": 3540,
@@ -257,7 +257,7 @@
   {
     "Id": 825,
     "AppId": "critter_825",
-    "Icon": "allUI2_141.png",
+    "Icon": "inventory/allUI2_141.png",
     "Name": "Tiger Prawn",
     "Description": "Meow",
     "SellPrice": 1540,
@@ -285,7 +285,7 @@
   {
     "Id": 826,
     "AppId": "critter_826",
-    "Icon": "allUI2_140.png",
+    "Icon": "inventory/allUI2_140.png",
     "Name": "Bay Bug",
     "Description": "A lobster without claws.",
     "SellPrice": 4540,
@@ -315,7 +315,7 @@
   {
     "Id": 827,
     "AppId": "critter_827",
-    "Icon": "allUI2_144.png",
+    "Icon": "inventory/allUI2_144.png",
     "Name": "Fresh Water Mussel",
     "Description": "Makes you strong!",
     "SellPrice": 800,
@@ -342,7 +342,7 @@
   {
     "Id": 828,
     "AppId": "critter_828",
-    "Icon": "allUI2_147.png",
+    "Icon": "inventory/allUI2_147.png",
     "Name": "Fresh Water Prawn",
     "Description": "Refreshing!",
     "SellPrice": 1540,
@@ -369,7 +369,7 @@
   {
     "Id": 829,
     "AppId": "critter_829",
-    "Icon": "allUI2_146.png",
+    "Icon": "inventory/allUI2_146.png",
     "Name": "Inland Crab",
     "Description": "Looks wet to me.",
     "SellPrice": 740,
@@ -396,7 +396,7 @@
   {
     "Id": 830,
     "AppId": "critter_830",
-    "Icon": "allUI2_145.png",
+    "Icon": "inventory/allUI2_145.png",
     "Name": "Purple Mottled Crab",
     "Description": "Looks wet to me.",
     "SellPrice": 440,
@@ -424,7 +424,7 @@
   {
     "Id": 831,
     "AppId": "critter_831",
-    "Icon": "allUI2_148.png",
+    "Icon": "inventory/allUI2_148.png",
     "Name": "Blue Mussel",
     "Description": "Strong but sad.",
     "SellPrice": 799,
@@ -452,7 +452,7 @@
   {
     "Id": 832,
     "AppId": "critter_832",
-    "Icon": "allUI2_149.png",
+    "Icon": "inventory/allUI2_149.png",
     "Name": "Cushion Sea Star",
     "Description": "It's not that soft.",
     "SellPrice": 2540,
@@ -480,7 +480,7 @@
   {
     "Id": 833,
     "AppId": "critter_833",
-    "Icon": "allUI2_143.png",
+    "Icon": "inventory/allUI2_143.png",
     "Name": "White Yabbie",
     "Description": "Is it scared?",
     "SellPrice": 980,
@@ -507,7 +507,7 @@
   {
     "Id": 834,
     "AppId": "critter_834",
-    "Icon": "allUI2_150.png",
+    "Icon": "inventory/allUI2_150.png",
     "Name": "Blue Sea Slug",
     "Description": "It's got wings!",
     "SellPrice": 12540,

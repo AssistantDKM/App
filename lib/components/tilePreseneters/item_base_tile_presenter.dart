@@ -15,7 +15,7 @@ Widget itemBaseTilePresenter({
 }) {
   Widget? imgChild = Container();
   if (item.icon.isNotEmpty) {
-    imgChild = genericTileImage('inventory/${item.icon}');
+    imgChild = genericTileImage(item.icon);
   } else {
     if ((item as dynamic).imageUrl != null) {
       imgChild = localImage(networkImageToLocal((item as dynamic).imageUrl));

@@ -2,7 +2,7 @@
   {
     "Id": 20,
     "AppId": "bug_20",
-    "Icon": "allUI_207.png",
+    "Icon": "inventory/allUI_207.png",
     "Name": "Funnel Web Spider",
     "Description": "Very poisonous. Ain't it cute?",
     "SellPrice": 1020,
@@ -31,7 +31,7 @@
   {
     "Id": 29,
     "AppId": "bug_29",
-    "Icon": "allUI_221.png",
+    "Icon": "inventory/allUI_221.png",
     "Name": "Ulysses Butterfly",
     "Description": "Nice bug, bro.",
     "SellPrice": 660,
@@ -60,7 +60,7 @@
   {
     "Id": 97,
     "AppId": "bug_97",
-    "Icon": "allUI_4.png",
+    "Icon": "inventory/allUI_4.png",
     "Name": "Grass Hopper",
     "Description": "Jumpin' for joy.",
     "SellPrice": 1700,
@@ -88,7 +88,7 @@
   {
     "Id": 98,
     "AppId": "bug_98",
-    "Icon": "allUI_5.png",
+    "Icon": "inventory/allUI_5.png",
     "Name": "Common Blue Tail",
     "Description": "A Common Dragonfly",
     "SellPrice": 772,
@@ -118,7 +118,7 @@
   {
     "Id": 100,
     "AppId": "bug_100",
-    "Icon": "allUI_6.png",
+    "Icon": "inventory/allUI_6.png",
     "Name": "Fly",
     "Description": "A common fly",
     "SellPrice": 72,
@@ -146,7 +146,7 @@
   {
     "Id": 101,
     "AppId": "bug_101",
-    "Icon": "allUI_7.png",
+    "Icon": "inventory/allUI_7.png",
     "Name": "Cockroach",
     "Description": "Yuck.",
     "SellPrice": 154,
@@ -173,7 +173,7 @@
   {
     "Id": 108,
     "AppId": "bug_108",
-    "Icon": "allUI_15.png",
+    "Icon": "inventory/allUI_15.png",
     "Name": "Peacock Spider",
     "Description": "A fancy little spider.",
     "SellPrice": 1792,
@@ -201,7 +201,7 @@
   {
     "Id": 109,
     "AppId": "bug_109",
-    "Icon": "allUI_14.png",
+    "Icon": "inventory/allUI_14.png",
     "Name": "Trogid",
     "Description": "It can't fly.",
     "SellPrice": 1400,
@@ -229,7 +229,7 @@
   {
     "Id": 227,
     "AppId": "bug_227",
-    "Icon": "allUI_56.png",
+    "Icon": "inventory/allUI_56.png",
     "Name": "Bee",
     "Description": "A little honey maker. Where's the queen?",
     "SellPrice": 680,
@@ -258,7 +258,7 @@
   {
     "Id": 228,
     "AppId": "bug_228",
-    "Icon": "allUI_57.png",
+    "Icon": "inventory/allUI_57.png",
     "Name": "Queen Bee",
     "Description": "The boss bee. Can start a hive.",
     "SellPrice": 2300,
@@ -287,7 +287,7 @@
   {
     "Id": 229,
     "AppId": "bug_229",
-    "Icon": "allUI_64.png",
+    "Icon": "inventory/allUI_64.png",
     "Name": "Red Back Spider",
     "Description": "Very poisonous. Ain't it cute?",
     "SellPrice": 1552,
@@ -317,7 +317,7 @@
   {
     "Id": 230,
     "AppId": "bug_230",
-    "Icon": "allUI_59.png",
+    "Icon": "inventory/allUI_59.png",
     "Name": "Desert Scorpion",
     "Description": "8 Legs. Friendlier than it looks",
     "SellPrice": 1212,
@@ -345,7 +345,7 @@
   {
     "Id": 231,
     "AppId": "bug_231",
-    "Icon": "allUI_60.png",
+    "Icon": "inventory/allUI_60.png",
     "Name": "Stinkbug",
     "Description": "It stinks!",
     "SellPrice": 300,
@@ -372,7 +372,7 @@
   {
     "Id": 232,
     "AppId": "bug_232",
-    "Icon": "allUI_58.png",
+    "Icon": "inventory/allUI_58.png",
     "Name": "Paper Wasp",
     "Description": "This thing kills spiders when its hungy.",
     "SellPrice": 990,
@@ -400,7 +400,7 @@
   {
     "Id": 233,
     "AppId": "bug_233",
-    "Icon": "allUI_63.png",
+    "Icon": "inventory/allUI_63.png",
     "Name": "Birdwing Butterfly",
     "Description": "It's really rare and big!",
     "SellPrice": 4100,
@@ -427,7 +427,7 @@
   {
     "Id": 234,
     "AppId": "bug_234",
-    "Icon": "allUI_62.png",
+    "Icon": "inventory/allUI_62.png",
     "Name": "Swallow-tail Butterfly",
     "Description": "It has a little tail.",
     "SellPrice": 990,
@@ -455,7 +455,7 @@
   {
     "Id": 235,
     "AppId": "bug_235",
-    "Icon": "allUI_61.png",
+    "Icon": "inventory/allUI_61.png",
     "Name": "Harlequin Butterfly",
     "Description": "It's fluttering by, Mr. J.",
     "SellPrice": 2121,
@@ -483,7 +483,7 @@
   {
     "Id": 248,
     "AppId": "bug_248",
-    "Icon": "allUI_69.png",
+    "Icon": "inventory/allUI_69.png",
     "Name": "Firefly",
     "Description": "I can not believe my eyes.",
     "SellPrice": 860,
@@ -510,7 +510,7 @@
   {
     "Id": 249,
     "AppId": "bug_249",
-    "Icon": "allUI_68.png",
+    "Icon": "inventory/allUI_68.png",
     "Name": "Field Cricket",
     "Description": "So small. So loud.",
     "SellPrice": 1348,
@@ -538,7 +538,7 @@
   {
     "Id": 579,
     "AppId": "bug_579",
-    "Icon": "allUI_227.png",
+    "Icon": "inventory/allUI_227.png",
     "Name": "Meadow Katydid",
     "Description": "Jumpin' for joy.",
     "SellPrice": 900,
@@ -567,7 +567,7 @@
   {
     "Id": 580,
     "AppId": "bug_580",
-    "Icon": "allUI_231.png",
+    "Icon": "inventory/allUI_231.png",
     "Name": "Rhinoceros Beetle",
     "Description": "It can't fly.",
     "SellPrice": 1930,
@@ -596,7 +596,7 @@
   {
     "Id": 581,
     "AppId": "bug_581",
-    "Icon": "allUI_228.png",
+    "Icon": "inventory/allUI_228.png",
     "Name": "Goliath stick",
     "Description": "It's a big stick!",
     "SellPrice": 3330,
@@ -624,7 +624,7 @@
   {
     "Id": 582,
     "AppId": "bug_582",
-    "Icon": "allUI_229.png",
+    "Icon": "inventory/allUI_229.png",
     "Name": "Bogong Moth",
     "Description": "Dusty and gross.",
     "SellPrice": 260,
@@ -651,7 +651,7 @@
   {
     "Id": 583,
     "AppId": "bug_583",
-    "Icon": "allUI_230.png",
+    "Icon": "inventory/allUI_230.png",
     "Name": "Scarlet Jezebel Butterfly",
     "Description": "Its red... I guess?",
     "SellPrice": 790,
@@ -678,7 +678,7 @@
   {
     "Id": 614,
     "AppId": "bug_614",
-    "Icon": "allUI2_0.png",
+    "Icon": "inventory/allUI2_0.png",
     "Name": "Black Cricket",
     "Description": "Trying to hide, eh?",
     "SellPrice": 980,
@@ -705,7 +705,7 @@
   {
     "Id": 615,
     "AppId": "bug_615",
-    "Icon": "allUI2_1.png",
+    "Icon": "inventory/allUI2_1.png",
     "Name": "Monarch Butterfly",
     "Description": "The queen of butterflies.",
     "SellPrice": 3860,
@@ -734,7 +734,7 @@
   {
     "Id": 616,
     "AppId": "bug_616",
-    "Icon": "allUI2_2.png",
+    "Icon": "inventory/allUI2_2.png",
     "Name": "Lacewing",
     "Description": "Gentle!",
     "SellPrice": 1680,
@@ -763,7 +763,7 @@
   {
     "Id": 617,
     "AppId": "bug_617",
-    "Icon": "allUI2_3.png",
+    "Icon": "inventory/allUI2_3.png",
     "Name": "Emperor DragonFly",
     "Description": "It's huge!",
     "SellPrice": 4172,
@@ -791,7 +791,7 @@
   {
     "Id": 618,
     "AppId": "bug_618",
-    "Icon": "allUI2_4.png",
+    "Icon": "inventory/allUI2_4.png",
     "Name": "Pygmyfly",
     "Description": "Small and red",
     "SellPrice": 1672,
@@ -819,7 +819,7 @@
   {
     "Id": 619,
     "AppId": "bug_619",
-    "Icon": "allUI2_5.png",
+    "Icon": "inventory/allUI2_5.png",
     "Name": "Tau Emerald Dragonfly",
     "Description": "Pretty!",
     "SellPrice": 2010,
@@ -848,7 +848,7 @@
   {
     "Id": 620,
     "AppId": "bug_620",
-    "Icon": "allUI2_6.png",
+    "Icon": "inventory/allUI2_6.png",
     "Name": "Ladybird",
     "Description": "Is this a bird or a bug?",
     "SellPrice": 1900,
@@ -876,7 +876,7 @@
   {
     "Id": 621,
     "AppId": "bug_621",
-    "Icon": "allUI2_7.png",
+    "Icon": "inventory/allUI2_7.png",
     "Name": "Tiger Moth",
     "Description": "Careful, tiger",
     "SellPrice": 1360,
@@ -905,7 +905,7 @@
   {
     "Id": 622,
     "AppId": "bug_622",
-    "Icon": "allUI2_8.png",
+    "Icon": "inventory/allUI2_8.png",
     "Name": "Duskhawker DragonFly",
     "Description": "Coolest name ever.",
     "SellPrice": 2350,
@@ -935,7 +935,7 @@
   {
     "Id": 623,
     "AppId": "bug_623",
-    "Icon": "allUI2_9.png",
+    "Icon": "inventory/allUI2_9.png",
     "Name": "Largidae",
     "Description": "It's not that large.",
     "SellPrice": 780,
@@ -962,7 +962,7 @@
   {
     "Id": 624,
     "AppId": "bug_624",
-    "Icon": "allUI2_10.png",
+    "Icon": "inventory/allUI2_10.png",
     "Name": "Huntsman",
     "Description": "It's scary, but nice.",
     "SellPrice": 3552,
@@ -992,7 +992,7 @@
   {
     "Id": 625,
     "AppId": "bug_625",
-    "Icon": "allUI2_11.png",
+    "Icon": "inventory/allUI2_11.png",
     "Name": "Blue Moon Butterfly",
     "Description": "These are everywhere.",
     "SellPrice": 290,
@@ -1020,7 +1020,7 @@
   {
     "Id": 626,
     "AppId": "bug_626",
-    "Icon": "allUI2_13.png",
+    "Icon": "inventory/allUI2_13.png",
     "Name": "Fiddler Beetle",
     "Description": "The smallest fiddle in the world.",
     "SellPrice": 2400,
@@ -1049,7 +1049,7 @@
   {
     "Id": 627,
     "AppId": "bug_627",
-    "Icon": "allUI2_12.png",
+    "Icon": "inventory/allUI2_12.png",
     "Name": "Stag Beetle",
     "Description": "Look at the horns!",
     "SellPrice": 4100,
@@ -1077,7 +1077,7 @@
   {
     "Id": 630,
     "AppId": "bug_630",
-    "Icon": "allUI2_16.png",
+    "Icon": "inventory/allUI2_16.png",
     "Name": "Hercules Moth",
     "Description": "This guy sounds tough.",
     "SellPrice": 3000,
@@ -1105,7 +1105,7 @@
   {
     "Id": 631,
     "AppId": "bug_631",
-    "Icon": "allUI2_18.png",
+    "Icon": "inventory/allUI2_18.png",
     "Name": "Centipede",
     "Description": "There are at least 4 legs here.",
     "SellPrice": 2220,

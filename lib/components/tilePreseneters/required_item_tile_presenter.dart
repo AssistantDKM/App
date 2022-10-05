@@ -40,7 +40,7 @@ Widget requiredItemBodyTilePresenter(
   InventoryItem item = invResult.value;
   return genericListTile(
     context,
-    leadingImage: 'inventory/${item.icon}',
+    leadingImage: item.icon,
     name: item.name,
     quantity: quantity,
     onTap: onTap ??
