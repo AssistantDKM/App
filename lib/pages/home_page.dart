@@ -76,10 +76,8 @@ class HomePage extends StatelessWidget {
       context,
       appBar: homePageAppBar('Home'),
       drawer: const AppDrawer(),
-      builder: (scaffoldContext) => animateWidgetIn(
-        child: SingleChildScrollView(
-          child: responsiveStaggeredGrid(items: itemBuilders),
-        ),
+      builder: (scaffoldContext) => SingleChildScrollView(
+        child: responsiveStaggeredGrid(items: itemBuilders),
       ),
       // bottomNavigationBar: const BottomNavbar(currentRoute: Routes.home),
     );

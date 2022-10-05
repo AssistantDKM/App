@@ -10,6 +10,6 @@ class PeopleRepository extends BaseGameItemRepository<PeopleItem> {
           repoName: 'PeopleRepository',
           fromMap: PeopleItem.fromMap,
           compare: (a, b) => a.name.compareTo(b.name),
-          findItemById: (r, itemIdInt) => r.id == int.parse(itemIdInt),
+          findItemById: (r, appId) => r.appId == appId,
         );
 }

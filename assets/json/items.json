@@ -721,6 +721,7 @@
   {
     "Id": 37,
     "AppId": "item_37",
+    "Hidden": true,
     "Icon": "inventory/deedsIcon_2.png",
     "Name": "Post Office Deed",
     "Description": "This will put your town on the map!",

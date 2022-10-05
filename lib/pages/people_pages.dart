@@ -1,16 +1,14 @@
-import 'package:assistant_dinkum_app/constants/app_image.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
 import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
-import '../components/pageElements/item_page_components.dart';
 import '../components/tilePreseneters/deed_requirements_tile_presenter.dart';
+import '../components/tilePreseneters/food_preference_tile_presenter.dart';
 import '../components/tilePreseneters/people_tile_presenter.dart';
-import '../components/tilePreseneters/required_item_tile_presenter.dart';
+import '../constants/app_image.dart';
 import '../constants/app_misc.dart';
-import '../contracts/json/inventory_item_craftable_required.dart';
 import '../contracts/json/people_item.dart';
 import '../contracts/redux/app_state.dart';
 import '../integration/dependency_injection.dart';
@@ -101,12 +99,13 @@ class PeopleDetailsPage extends StatelessWidget {
           genericItemName(loadedItem.name),
         ];
 
-        if (loadedItem.spendBeforeMoveIn > 0 &&
-            loadedItem.relationshipBeforeMove > 0 &&
-            loadedItem.relationshipBeforeMove < 200) {
+        bool hasReqSpend = loadedItem.spendBeforeMoveIn > 0;
+        bool hasReqRel = loadedItem.relationshipBeforeMove > 0;
+        bool hasReqValidRel = loadedItem.relationshipBeforeMove < 200;
+        if (hasReqSpend && hasReqRel && hasReqValidRel) {
           descripWidgets.addAll([
             emptySpace2x(),
-            genericItemGroup('Requirements for deed'),
+            genericItemGroup('Requirements for deed'), // TODO localise
             flatCard(
               child: deedRequirementsTilePresenter(
                 context,
@@ -118,28 +117,101 @@ class PeopleDetailsPage extends StatelessWidget {
           ]);
         }
 
-        if (loadedItem.favouriteFood.isNotEmpty) {
+        if (loadedItem.favouriteFood.isNotEmpty ||
+            loadedItem.hatedFood.isNotEmpty) {
           descripWidgets.addAll([
             emptySpace2x(),
-            genericItemGroup('Favourite Food'),
-            flatCard(
-              child: requiredItemTilePresenter(
-                context,
-                InventoryItemCraftableRequired(
+            genericItemGroup('Food preferences'), // TODO localise
+          ]);
+
+          if (loadedItem.favouriteFood.isNotEmpty) {
+            descripWidgets.addAll([
+              flatCard(
+                child: foodPreferenceTilePresenter(
+                  context,
                   appId: loadedItem.favouriteFood,
-                  quantity: 0,
+                  subtitle: 'Favourite', // TODO localise
+                  trailing: AppImage.relationshipPlus,
                 ),
+              ),
+            ]);
+          }
+          if (loadedItem.hatedFood.isNotEmpty) {
+            descripWidgets.addAll([
+              flatCard(
+                child: foodPreferenceTilePresenter(
+                  context,
+                  appId: loadedItem.hatedFood,
+                  subtitle: 'Hated', // TODO localise
+                  trailing: AppImage.relationshipMinus,
+                ),
+              ),
+            ]);
+          }
+
+          double tableSize = 64;
+          descripWidgets.addAll([
+            flatCard(
+              child: Column(
+                children: [
+                  customDivider(),
+                  emptySpace1x(),
+                  Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      Column(
+                        children: [
+                          localImage(AppImage.animalProduct, width: tableSize),
+                          emptySpace1x(),
+                          localImage(
+                            loadedItem.hatesAnimalProducts
+                                ? AppImage.preferenceDislikes
+                                : AppImage.preferenceNothing,
+                          ),
+                        ],
+                      ),
+                      Column(
+                        children: [
+                          localImage(AppImage.vegetable, width: tableSize),
+                          emptySpace1x(),
+                          localImage(
+                            loadedItem.hatesVegetables
+                                ? AppImage.preferenceDislikes
+                                : AppImage.preferenceNothing,
+                          ),
+                        ],
+                      ),
+                      Column(
+                        children: [
+                          localImage(AppImage.fruit, width: tableSize),
+                          emptySpace1x(),
+                          localImage(
+                            loadedItem.hatesFruits
+                                ? AppImage.preferenceDislikes
+                                : AppImage.preferenceNothing,
+                          ),
+                        ],
+                      ),
+                      Column(
+                        children: [
+                          localImage(AppImage.meat, width: tableSize),
+                          emptySpace1x(),
+                          localImage(
+                            loadedItem.hatesMeat
+                                ? AppImage.preferenceDislikes
+                                : AppImage.preferenceNothing,
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  emptySpace3x(),
+                ],
               ),
             ),
           ]);
         }
-
-        // if (loadedItem.dislikes.isNotEmpty) {
-        //   descripWidgets.addAll(loadSections(
-        //     'Dislikes',
-        //     loadedItem.dislikes.where((element) => element.isNotEmpty).toList(),
-        //   ));
-        // }
 
         return descripWidgets;
       },

@@ -19,6 +19,7 @@
     "AppId": "people_6",
     "Name": "Fletch",
     "Icon": "people/npcImages_6.png",
+    "Deed": "item_796",
     "SpendBeforeMoveIn": 5000,
     "RelationshipBeforeMove": 15,
     "ShoesAppId": "clothing_244",

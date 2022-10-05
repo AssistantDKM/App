@@ -87,7 +87,7 @@ Widget deedRequirementsBodyTilePresenter(
     ),
     subtitle: Wrap(
       children: [
-        const SizedBox(width: 4, height: 1),
+        const SizedBox(width: 5, height: 1),
         localImage(heartImg, height: heartImgSize, width: heartImgSize),
         ...List.generate(
           4,

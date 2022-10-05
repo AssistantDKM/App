@@ -35,11 +35,15 @@ class AppImage {
   static const String farming = '${stats}farming.png';
   static const String hunting = '${stats}hunting.png';
 
-  static const String relationshipHeart0 = '${base}heart0.png';
-  static const String relationshipHeart1 = '${base}heart1.png';
-  static const String relationshipHeart2 = '${base}heart2.png';
-  static const String relationshipHeart3 = '${base}heart3.png';
-  static const String relationshipHeart4 = '${base}heart4.png';
+  static const String relationshipHeart0 = '${stats}heart0.png';
+  static const String relationshipHeart1 = '${stats}heart1.png';
+  static const String relationshipHeart2 = '${stats}heart2.png';
+  static const String relationshipHeart3 = '${stats}heart3.png';
+  static const String relationshipHeart4 = '${stats}heart4.png';
+  static const String relationshipMinus = '${stats}loveDown.png';
+  static const String relationshipPlus = '${stats}loveUp.png';
+  static const String preferenceDislikes = '${stats}dislikes.png';
+  static const String preferenceNothing = '${stats}nothing.png';
 
   static const String animalsLogo = '${base}menu/animals.png';
   static const String bugsLogo = '${base}menu/bugs.png';
@@ -50,6 +54,11 @@ class AppImage {
   static const String licencesLogo = '${base}menu/licences.png';
   static const String milestonesLogo = '${base}menu/milestones.png';
   static const String peopleLogo = '${base}menu/people.png';
+
+  static const String animalProduct = '${base}menu/animalProduct.png';
+  static const String vegetable = '${base}menu/vegetable.png';
+  static const String fruit = '${base}menu/fruit.png';
+  static const String meat = '${base}menu/meat.png';
 
   static const String unknown = '${base}unknown.png';
 }
