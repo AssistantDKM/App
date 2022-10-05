@@ -12,6 +12,7 @@ Widget itemBaseTilePresenter({
   required ItemBasePresenter item,
   required int index,
   required bool isPatron,
+  void Function()? onTap,
 }) {
   Widget? imgChild = Container();
   if (item.icon.isNotEmpty) {
@@ -25,6 +26,7 @@ Widget itemBaseTilePresenter({
     return ListTile(
       leading: genericTileImage(AppImage.unknown),
       title: Text(obscureText(item.name)),
+      onTap: onTap,
     );
   }
 
@@ -38,18 +40,21 @@ Widget itemBaseTilePresenter({
       maxLines: 1,
       overflow: TextOverflow.ellipsis,
     ),
+    onTap: onTap,
   );
 }
 
 Widget commonTilePresenter(
   BuildContext context,
   ItemBasePresenter item,
-  int index,
-) {
+  int index, {
+  void Function()? onTap,
+}) {
   return itemBaseTilePresenter(
     context: context,
     item: item,
     index: index,
     isPatron: false,
+    onTap: onTap,
   );
 }

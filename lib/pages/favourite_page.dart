@@ -74,10 +74,15 @@ class FavouritesPage extends StatelessWidget {
         snapshot.data!,
         compare: (a, b) => a.name.compareTo(b.name),
       ),
-      listItemDisplayer: (BuildContext itemCtx, InventoryItem reqItem) {
+      listItemDisplayer: (
+        BuildContext itemCtx,
+        InventoryItem reqItem, {
+        void Function()? onTap,
+      }) {
         return favouriteTilePresenter(
           itemCtx,
           reqItem,
+          onTap: onTap,
           onDelete: () => viewModel.removeFavourite(reqItem.appId),
         );
       },
