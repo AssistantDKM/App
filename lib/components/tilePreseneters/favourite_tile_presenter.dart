@@ -4,18 +4,29 @@ import 'package:flutter/material.dart';
 import '../../constants/app_image.dart';
 import '../../contracts/interface/item_base_presenter.dart';
 import '../../contracts/json/inventory_item.dart';
+import '../../helper/patreon_helper.dart';
 import '../../pages/inventory_pages.dart';
 
 Widget favouriteTilePresenter(
   BuildContext context,
-  ItemBasePresenter item, {
+  ItemBasePresenter item,
+  bool isPatron, {
   void Function()? onTap,
   required void Function() onDelete,
 }) {
-  if (item is InventoryItem && item.hidden) {
+  if (item is InventoryItem && item.hidden && isPatron == false) {
     return ListTile(
       leading: genericTileImage(AppImage.unknown),
-      title: Text(item.name.characters.map((e) => '-').join('')),
+      title: Text(obscureText(item.name)),
+      trailing: popupMenu(context, onDelete: onDelete),
+      onTap: onTap ??
+          () => getNavigation().navigateAwayFromHomeAsync(
+                context,
+                navigateTo: (ctx) => InventoryDetailsPage(
+                  item.appId,
+                  title: obscureText(item.name),
+                ),
+              ),
     );
   }
 

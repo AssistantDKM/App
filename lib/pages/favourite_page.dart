@@ -82,6 +82,7 @@ class FavouritesPage extends StatelessWidget {
         return favouriteTilePresenter(
           itemCtx,
           reqItem,
+          viewModel.isPatron,
           onTap: onTap,
           onDelete: () => viewModel.removeFavourite(reqItem.appId),
         );
