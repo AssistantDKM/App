@@ -43,6 +43,7 @@
   "newItem": "Nieuw",
   "somethingWentWrong": "Er is iets fout gegaan",
   "feedback": "Feedback",
+  "favourites": "Favorieten",
   "openCollective": "Open Collectief",
   "privacyPolicy": "Privacy beleid",
   "hours": "{0} uren",
@@ -102,5 +103,5 @@
   "timeMorning": "Morning",
   "timeDay": "Day",
   "timeNight": "Night",
-  "hashCode": "578C50D8D182D0A497B239895D8E0316"
+  "hashCode": "2FB72B0979037443D83B32F898C884F7"
 }

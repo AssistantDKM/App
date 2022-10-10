@@ -43,6 +43,7 @@
   "newItem": "Neu",
   "somethingWentWrong": "Etwas ist schief gelaufen :(",
   "feedback": "Feedback",
+  "favourites": "Favoriten",
   "openCollective": "Öffentlich Sammelbar",
   "privacyPolicy": "Datenschutz-Bestimmungen",
   "hours": "{0} Stunden",
@@ -102,5 +103,5 @@
   "timeMorning": "Morning",
   "timeDay": "Day",
   "timeNight": "Night",
-  "hashCode": "7E877ED4327FACB29475B786FCBB09BF"
+  "hashCode": "808A9EE559C95DF8D0A0228E9CB69AE7"
 }
