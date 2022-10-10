@@ -41,9 +41,9 @@ class Routes {
 
 Map<String, Widget Function(BuildContext)> initNamedRoutes() {
   Map<String, WidgetBuilder> routes = {
-    Routes.home: (context) => HomePage(),
-    Routes.settings: (context) => SettingsPage(),
-    Routes.about: (context) => AboutPage(
+    Routes.home: (BuildContext pageContext) => HomePage(),
+    Routes.settings: (_) => SettingsPage(),
+    Routes.about: (_) => AboutPage(
           key: const Key('AboutPage'),
           appType: AssistantAppType.DKM,
           aboutPageWidgetsFunc: (BuildContext ctx) {
@@ -59,14 +59,13 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
             ];
           },
         ),
-    Routes.patronListPage: (context) =>
-        PatronListPage(AnalyticsEvent.patronListPage),
-    Routes.whatIsNew: (context) => WhatIsNewPage(
+    Routes.patronListPage: (_) => PatronListPage(AnalyticsEvent.patronListPage),
+    Routes.whatIsNew: (_) => WhatIsNewPage(
           AnalyticsEvent.whatIsNewDetailPage,
           selectedLanguage: 'en',
         ),
-    Routes.favourites: (context) => FavouritesPage(),
-    Routes.newsPage: (context) => SteamNewsPage(
+    Routes.favourites: (_) => FavouritesPage(),
+    Routes.newsPage: (_) => SteamNewsPage(
           AnalyticsEvent.steamNewsPage,
           AssistantAppType.DKM,
           backupFunc: (_) => Future(() =>
@@ -75,47 +74,47 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
         ),
 
     // Details pages
-    Routes.animals: (context) => InventoryListPage(
+    Routes.animals: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.animalsPage,
           appJsons: const [AppJson.bugs, AppJson.critters, AppJson.fish],
           title: 'Animals',
         ),
-    Routes.bugs: (context) => InventoryListPage(
+    Routes.bugs: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.bugsPage,
           appJsons: const [AppJson.bugs],
           title: 'Bugs',
         ),
-    Routes.critters: (context) => InventoryListPage(
+    Routes.critters: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.crittersPage,
           appJsons: const [AppJson.critters],
           title: 'Critters',
         ),
-    Routes.fish: (context) => InventoryListPage(
+    Routes.fish: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.fishPage,
           appJsons: const [AppJson.fish],
           title: 'Fish',
         ),
 
-    Routes.crafting: (context) => InventoryListPage(
+    Routes.crafting: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.inventory,
           appJsons: const [AppJson.items],
           title: 'Items',
         ),
-    Routes.cooking: (context) => InventoryListPage(
+    Routes.cooking: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.cooking,
           appJsons: const [AppJson.cooking],
           title: 'Cooking',
         ),
 
-    Routes.people: (context) => PeopleListPage(
+    Routes.people: (_) => PeopleListPage(
           analyticsEvent: AnalyticsEvent.people,
           title: 'People',
         ),
-    Routes.licence: (context) => LicencesListPage(
+    Routes.licence: (_) => LicencesListPage(
           analyticsEvent: AnalyticsEvent.licence,
           title: 'Licence',
         ),
-    Routes.milestone: (context) => MilestonesListPage(
+    Routes.milestone: (_) => MilestonesListPage(
           analyticsEvent: AnalyticsEvent.milestone,
           title: 'Milestone',
         ),

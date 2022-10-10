@@ -52,7 +52,7 @@ Widget genericPageScaffold<T>(
   context,
   String title,
   snapshot, {
-  required Widget Function(BuildContext context, AsyncSnapshot<T> snapshot)
+  required Widget Function(BuildContext context, AsyncSnapshot<T>? snapshot)
       body,
   bool showShortcutLinks = false,
   List<ActionItem>? additionalShortcutLinks,
