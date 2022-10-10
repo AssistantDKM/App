@@ -895,3 +895,6 @@ android/releaseKey.properties
 android/app/google-services.json
 /lib/env.dart
 /android/app/google-services.json
+assets/images/milestone/.gitkeep
+assets/images/people/.gitkeep
+assets/images/inventory/.gitkeep
