@@ -1498,6 +1498,7 @@
   {
     "Id": 211,
     "AppId": "item_211",
+    "Hidden": true,
     "Icon": "inventory/allUI_41.png",
     "Name": "Raft",
     "Description": "A floating raft.",
@@ -1926,6 +1927,7 @@
   {
     "Id": 252,
     "AppId": "item_252",
+    "Hidden": true,
     "Icon": "inventory/allUI_41.png",
     "Name": "Ute",
     "Description": "Its a ute",
@@ -9887,6 +9889,7 @@
   {
     "Id": 952,
     "AppId": "item_952",
+    "Hidden": true,
     "Icon": "inventory/allUI2_244.png",
     "Name": "Butterfly Orchid",
     "Description": "A rare tropical flower",
