@@ -1128,5 +1128,32 @@
       ],
       "Rarity": "VeryRare"
     }
+  },
+  {
+    "Id": 953,
+    "AppId": "bug_953",
+    "Icon": "inventory/allUI2_245.png",
+    "Name": "Glow Bug",
+    "Description": "It's mesmerizing",
+    "SellPrice": 2580,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Underground"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Uncommon"
+    }
   }
 ]

@@ -929,5 +929,32 @@
       ],
       "Rarity": "Rare"
     }
+  },
+  {
+    "Id": 954,
+    "AppId": "fish_954",
+    "Icon": "inventory/allUI2_247.png",
+    "Name": "Deep Fish",
+    "Description": "A fish from deep down.",
+    "SellPrice": 18060,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Fish",
+      "LandLocation": [],
+      "WaterLocation": [
+        "UndergroundLake"
+      ],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Uncommon"
+    }
   }
 ]

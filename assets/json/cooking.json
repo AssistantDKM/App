@@ -2094,7 +2094,7 @@
       "Buffs": [
         {
           "Type": 20,
-          "Level": 25,
+          "Level": 20,
           "Seconds": 0
         },
         {
@@ -2989,6 +2989,183 @@
           "Type": 8,
           "Level": 3,
           "Seconds": 300
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 927,
+    "AppId": "cooking_927",
+    "Icon": "inventory/allUI2_216.png",
+    "Name": "Mighty Spread",
+    "Description": "It's kinda salty.",
+    "SellPrice": 120000,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Vegetable",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 50,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 50,
+          "Seconds": 0
+        },
+        {
+          "Type": 5,
+          "Level": 3,
+          "Seconds": 1200
+        },
+        {
+          "Type": 8,
+          "Level": 3,
+          "Seconds": 1200
+        },
+        {
+          "Type": 0,
+          "Level": 3,
+          "Seconds": 60
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 969,
+    "AppId": "cooking_969",
+    "Icon": "inventory/allUI3_5.png",
+    "Name": "Cooked Freshwater Fish",
+    "Description": "Something fishy about this.",
+    "SellPrice": 2000,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 8,
+          "Level": 1,
+          "Seconds": 180
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 970,
+    "AppId": "cooking_970",
+    "Icon": "inventory/allUI3_6.png",
+    "Name": "Cooked Saltwater Fish",
+    "Description": "It's a bit salty.",
+    "SellPrice": 2800,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 15,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 5,
+          "Level": 1,
+          "Seconds": 180
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 997,
+    "AppId": "cooking_997",
+    "Icon": "inventory/allUI3_9.png",
+    "Name": "Cooked Blob Fish",
+    "Description": "It's so bad.",
+    "SellPrice": 201,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 1,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 1,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
         }
       ]
     },
