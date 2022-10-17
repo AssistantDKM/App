@@ -16,3 +16,5 @@ class SetIsPatron extends PersistToStorage {
   final bool newIsPatron;
   SetIsPatron(this.newIsPatron);
 }
+
+class ToggleHasAcceptedIntro extends PersistToStorage {}

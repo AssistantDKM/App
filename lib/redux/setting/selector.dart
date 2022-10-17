@@ -6,3 +6,5 @@ String getSelectedLanguage(AppState state) =>
 String getFontFamily(AppState state) => state.settingState.fontFamily;
 
 bool getIsPatron(AppState state) => state.settingState.isPatron;
+
+bool getHasAcceptedIntro(AppState state) => state.settingState.hasAcceptedIntro;

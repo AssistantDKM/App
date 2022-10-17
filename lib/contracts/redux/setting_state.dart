@@ -6,11 +6,13 @@ class SettingState {
   final String selectedLanguage;
   final String fontFamily;
   final bool isPatron;
+  final bool hasAcceptedIntro;
 
   const SettingState({
     required this.selectedLanguage,
     required this.fontFamily,
     required this.isPatron,
+    required this.hasAcceptedIntro,
   });
 
   factory SettingState.initial() {
@@ -18,6 +20,7 @@ class SettingState {
       selectedLanguage: 'en',
       fontFamily: defaultFontFamily,
       isPatron: false,
+      hasAcceptedIntro: false,
     );
   }
 
@@ -25,11 +28,13 @@ class SettingState {
     String? selectedLanguage,
     String? fontFamily,
     bool? isPatron,
+    bool? hasAcceptedIntro,
   }) {
     return SettingState(
       selectedLanguage: selectedLanguage ?? this.selectedLanguage,
       fontFamily: fontFamily ?? this.fontFamily,
       isPatron: isPatron ?? this.isPatron,
+      hasAcceptedIntro: hasAcceptedIntro ?? this.hasAcceptedIntro,
     );
   }
 
@@ -41,6 +46,7 @@ class SettingState {
         selectedLanguage: readStringSafe(json, 'selectedLanguage'),
         fontFamily: readStringSafe(json, 'fontFamily'),
         isPatron: readBoolSafe(json, 'isPatron'),
+        hasAcceptedIntro: readBoolSafe(json, 'hasAcceptedIntro'),
       );
     } catch (exception) {
       return SettingState.initial();
@@ -51,5 +57,6 @@ class SettingState {
         'selectedLanguage': selectedLanguage,
         'fontFamily': fontFamily,
         'isPatron': isPatron,
+        'hasAcceptedIntro': hasAcceptedIntro,
       };
 }

@@ -8,6 +8,7 @@ class SettingViewModel {
   final String selectedLanguage;
   final String fontFamily;
   final bool isPatron;
+  final bool hasAcceptedIntro;
 
   final Function(String fontFamily) setSelectedLanguage;
   final Function(String fontFamily) setFontFamily;
@@ -17,6 +18,7 @@ class SettingViewModel {
     required this.selectedLanguage,
     required this.fontFamily,
     required this.isPatron,
+    required this.hasAcceptedIntro,
     //
     required this.setSelectedLanguage,
     required this.setFontFamily,
@@ -27,6 +29,7 @@ class SettingViewModel {
         selectedLanguage: getSelectedLanguage(store.state),
         fontFamily: getFontFamily(store.state),
         isPatron: getIsPatron(store.state),
+        hasAcceptedIntro: getHasAcceptedIntro(store.state),
         //
         setSelectedLanguage: (String selectedLang) =>
             store.dispatch(ChangeLanguageAction(selectedLang)),

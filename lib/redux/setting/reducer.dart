@@ -8,6 +8,7 @@ final settingReducer = combineReducers<SettingState>([
   TypedReducer<SettingState, SetFontFamily>(_setFontFamily),
   // TypedReducer<SettingState, ToggleIntroComplete>(_toggleIntroComplete),
   TypedReducer<SettingState, SetIsPatron>(_setIsPatron),
+  TypedReducer<SettingState, ToggleHasAcceptedIntro>(_setHasAcceptedIntro),
 ]);
 
 SettingState _editLanguage(SettingState state, ChangeLanguageAction action) {
@@ -23,3 +24,7 @@ SettingState _setFontFamily(SettingState state, SetFontFamily action) =>
 //     state.copyWith(introComplete: !state.introComplete);
 SettingState _setIsPatron(SettingState state, SetIsPatron action) =>
     state.copyWith(isPatron: action.newIsPatron);
+
+SettingState _setHasAcceptedIntro(
+        SettingState state, ToggleHasAcceptedIntro action) =>
+    state.copyWith(hasAcceptedIntro: !state.hasAcceptedIntro);

@@ -12,6 +12,7 @@ import '../constants/external_urls.dart';
 import '../contracts/redux/app_state.dart';
 import '../env.dart';
 import '../env/app_version_num.dart';
+import '../helper/text_helper.dart';
 import '../redux/setting/setting_viewmodel.dart';
 
 class SettingsPage extends StatelessWidget {
@@ -191,10 +192,7 @@ class SettingsPage extends StatelessWidget {
         title: Text(getTranslations().fromKey(LocaleKey.legal)),
         onPressed: (context) => showAboutDialog(
           context: context,
-          applicationLegalese: getTranslations()
-              .fromKey(LocaleKey.legalNotice)
-              .replaceAll('{0}', 'James Bendon')
-              .replaceAll('{1}', 'Dinkum'),
+          applicationLegalese: getLegalNoticeText(),
           applicationVersion: appsBuildName,
         ),
       ),
