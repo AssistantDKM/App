@@ -47,27 +47,6 @@ Widget deedRequirementsBodyTilePresenter(
     );
   }
 
-  double heartImgSize = 18;
-  int relationshipHeartPart = (relationshipBeforeMove / 5).round();
-  var heartImg = AppImage.unknown;
-  switch (relationshipHeartPart) {
-    case 0:
-      heartImg = AppImage.relationshipHeart0;
-      break;
-    case 1:
-      heartImg = AppImage.relationshipHeart1;
-      break;
-    case 2:
-      heartImg = AppImage.relationshipHeart2;
-      break;
-    case 3:
-      heartImg = AppImage.relationshipHeart3;
-      break;
-    case 4:
-      heartImg = AppImage.relationshipHeart4;
-      break;
-  }
-
   Locale locale = Localizations.localeOf(deedCtx);
   NumberFormat format = NumberFormat.currency(
     locale: locale.toString(),
@@ -88,13 +67,10 @@ Widget deedRequirementsBodyTilePresenter(
     subtitle: Wrap(
       children: [
         const SizedBox(width: 5, height: 1),
-        localImage(heartImg, height: heartImgSize, width: heartImgSize),
         ...List.generate(
-          4,
-          (index) => localImage(
-            AppImage.relationshipHeart0,
-            height: heartImgSize,
-            width: heartImgSize,
+          5,
+          (index) => getHeartImage(
+            relationshipBeforeMove - (index * 20),
           ),
         )
       ],
@@ -108,4 +84,28 @@ Widget deedRequirementsBodyTilePresenter(
               ),
             ),
   );
+}
+
+Widget getHeartImage(int relationshipBeforeMove) {
+  double heartImgSize = 18;
+  int relationshipHeartPart = (relationshipBeforeMove / 5).round();
+  String heartImg = AppImage.relationshipHeart0;
+  switch (relationshipHeartPart) {
+    case 0:
+      heartImg = AppImage.relationshipHeart0;
+      break;
+    case 1:
+      heartImg = AppImage.relationshipHeart1;
+      break;
+    case 2:
+      heartImg = AppImage.relationshipHeart2;
+      break;
+    case 3:
+      heartImg = AppImage.relationshipHeart3;
+      break;
+  }
+  if (relationshipHeartPart >= 4) {
+    heartImg = AppImage.relationshipHeart4;
+  }
+  return localImage(heartImg, height: heartImgSize, width: heartImgSize);
 }

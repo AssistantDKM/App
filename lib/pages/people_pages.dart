@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
@@ -76,6 +78,7 @@ class PeopleDetailsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     double deviceWidth = MediaQuery.of(context).size.width;
     double deviceHeight = MediaQuery.of(context).size.height;
+    double maxImageSize = 200;
 
     return ItemDetailsPage<PeopleItem>(
       title: title,
@@ -90,8 +93,8 @@ class PeopleDetailsPage extends StatelessWidget {
           Center(
             child: ConstrainedBox(
               constraints: BoxConstraints(
-                maxWidth: (deviceWidth / 2),
-                maxHeight: (deviceHeight / 2),
+                maxWidth: min((deviceWidth / 2), maxImageSize),
+                maxHeight: min((deviceHeight / 2), maxImageSize),
               ),
               child: localImage(imagePath),
             ),
@@ -105,7 +108,9 @@ class PeopleDetailsPage extends StatelessWidget {
         if (hasReqSpend && hasReqRel && hasReqValidRel) {
           descripWidgets.addAll([
             emptySpace2x(),
-            genericItemGroup('Requirements for deed'), // TODO localise
+            genericItemGroup(
+              getTranslations().fromKey(LocaleKey.requiredForDeed),
+            ),
             flatCard(
               child: deedRequirementsTilePresenter(
                 context,
@@ -121,7 +126,9 @@ class PeopleDetailsPage extends StatelessWidget {
             loadedItem.hatedFood.isNotEmpty) {
           descripWidgets.addAll([
             emptySpace2x(),
-            genericItemGroup('Food preferences'), // TODO localise
+            genericItemGroup(
+              getTranslations().fromKey(LocaleKey.foodPreferences),
+            ),
           ]);
 
           if (loadedItem.favouriteFood.isNotEmpty) {
@@ -130,7 +137,7 @@ class PeopleDetailsPage extends StatelessWidget {
                 child: foodPreferenceTilePresenter(
                   context,
                   appId: loadedItem.favouriteFood,
-                  subtitle: 'Favourite', // TODO localise
+                  subtitle: getTranslations().fromKey(LocaleKey.favourite),
                   trailing: AppImage.relationshipPlus,
                 ),
               ),
@@ -142,7 +149,7 @@ class PeopleDetailsPage extends StatelessWidget {
                 child: foodPreferenceTilePresenter(
                   context,
                   appId: loadedItem.hatedFood,
-                  subtitle: 'Hated', // TODO localise
+                  subtitle: getTranslations().fromKey(LocaleKey.hated),
                   trailing: AppImage.relationshipMinus,
                 ),
               ),

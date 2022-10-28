@@ -23,7 +23,7 @@ class InventoryItemMuseumTile extends StatelessWidget {
 
         return ListTile(
           leading: localImage(AppImage.museum),
-          title: const Text('Donated to Museum'), // TODO Localize
+          title: Text(getTranslations().fromKey(LocaleKey.museumDonation)),
           trailing: CustomCheckbox(value: currentItemIsInTheMuseum),
           onTap: () {
             if (currentItemIsInTheMuseum) {

@@ -60,7 +60,9 @@ List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
     InventoryItemConsumable localConsumable = loadedItem.consumable;
     if (localConsumable.buffs.isNotEmpty) {
       descripWidgets.add(emptySpace2x());
-      descripWidgets.add(genericItemGroup('Effects')); // TODO localize
+      descripWidgets.add(genericItemGroup(
+        getTranslations().fromKey(LocaleKey.effects),
+      ));
 
       List<InventoryItemConsumableBuff> localBuffs = localConsumable.buffs
           .where((buff) => buff.level > 0 || buff.seconds > 0)
@@ -82,7 +84,9 @@ List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
     if (localRequireds.isNotEmpty) {
       localRequireds.sort((a, b) => b.quantity.compareTo(a.quantity));
       descripWidgets.add(emptySpace2x());
-      descripWidgets.add(genericItemGroup('Required Items')); // TODO localize
+      descripWidgets.add(genericItemGroup(
+        getTranslations().fromKey(LocaleKey.requiredItems),
+      ));
       for (InventoryItemCraftableRequired required in localRequireds) {
         descripWidgets.add(flatCard(
           child: requiredItemTilePresenter(
@@ -154,7 +158,7 @@ List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
 
     if (loadedItem.hidden == true && viewmodel.isPatron == false) {
       return [
-        Center(child: localImage(AppImage.unknown)),
+        Center(child: localImage(AppImage.locked)),
         genericItemName(obscureText(loadedItem.name)),
         pageDefaultPadding(genericItemDescription(
           obscureText(loadedItem.description),
