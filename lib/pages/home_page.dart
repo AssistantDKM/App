@@ -111,14 +111,6 @@ class HomePage extends StatelessWidget {
                     child: genericItemDescription(getLegalNoticeText()),
                   ),
                   emptySpace2x(),
-                  flatCard(
-                    child: externalLinkPresenter(
-                      scaffoldContext,
-                      'Licence & Milestone data from dinkumapi.com',
-                      'https://github.com/liamsnowdon/dinkum-api-data',
-                    ),
-                  ),
-                  emptySpace2x(),
                   Center(
                     child: ElevatedButton(
                       style: ButtonStyle(
