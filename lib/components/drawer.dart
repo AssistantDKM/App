@@ -1,3 +1,4 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
@@ -15,7 +16,9 @@ class AppDrawer extends StatelessWidget {
     return Drawer(
       child: ListView(
         children: [
+          emptySpace1x(),
           SizedBox(
+            height: 100.0,
             width: double.infinity,
             child: DrawerHeader(
               decoration: BoxDecoration(
