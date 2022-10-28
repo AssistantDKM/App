@@ -16,7 +16,7 @@
   
  
 
-The **Assistant for Dinkum** is an app that gives users information about the game, such as animal locations, recipes, details about town people and more! All of the data comes from [Data for Dinkum API](https://github.com/liamsnowdon/dinkum-api-data). Please check them out and give their repo a ⭐!
+The **Assistant for Dinkum** is an app that gives users information about the game, such as animal locations, recipes, details about town people and more!
 
 <br />
 
