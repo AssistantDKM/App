@@ -1,7 +1,7 @@
 <div align="center">
   
   # Assistant for Dinkum
-  ### Android, iOS & Windows app built in Flutter  
+  ### Android, iOS, Web & Windows app built in Flutter  
   ![header](/.github/img/header-rounded.png?raw=true)
   
   <br />

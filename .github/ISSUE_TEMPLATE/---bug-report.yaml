@@ -46,6 +46,7 @@ body:
         - Android
         - iOS
         - Windows
+        - WebApp
   - type: textarea
     id: logs
     attributes:

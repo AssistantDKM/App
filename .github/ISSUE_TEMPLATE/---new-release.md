@@ -15,23 +15,24 @@ assignees: Khaoz-Topsy
   - [ ] Copy content of `release_notes.txt` to Markdown
   - [ ] Future date release date
   - [ ] Copy guid, paste into `assistantAppsSettings.dart`
+- [ ] Create Pull Request
 - [ ] [Queue](https://codemagic.io/app/5d9da9057a0a9500105180bf/workflow/5ef3374ec0adbfe0fdee431d/settings) CodeMagic build 
 
 ---
 
-### Much later:
+### Later:
+- [ ] Merge Pull Request on successful build and deploy
+- [ ] Create Github release ([New Release](https://github.com/AssistantNMS/App/releases/new))
+  - [ ] Tag develop branch (2.x.x)
+  - [ ] Use appropriate tag (2.x.x)
+  - [ ] Attach `.aab`
+  - [ ] Attach `.apk`
+  - [ ] Attach `.ipa`
+  - [ ] Attach `.exe`
 - [ ] Go through manual iOS steps
   - [ ] Copy content of `release_notes.txt` into Apple webpage
   - [ ] Submit for Apple review
 - [ ] Go through manual WindowsStore steps
   - [ ] Copy content of `release_notes.txt` into store webpage
   - [ ] Submit for Microsoft review
-- [ ] Create Github release ([New Release](https://github.com/AssistantNMS/App/releases/new))
-  - [ ] Tag develop branch (1.0.1)
-  - [ ] Use appropriate tag (1.0.1)
-  - [ ] Attach `.aab`
-  - [ ] Attach `.apk`
-  - [ ] Attach `.ipa`
-  - [ ] Attach `.msix`
-- [ ] Merge Pull Request when update is out for everyone 🎉
 
