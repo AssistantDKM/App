@@ -1,7 +1,7 @@
 # Security Policy
 
 We take security issues seriously, we will do our best to address any vulnerabilities as quickly as possible. 
-We also welcome the disclosure of any vulnerabilities found through a [Github issue](https://github.com/AssistantNMS/General/issues/new) or via an [email to support@nmsassistant.com](support@nmsassistant.com)
+We also welcome the disclosure of any vulnerabilities found through a [Github issue](https://github.com/AssistantDKM/General/issues/new) or via an [email to support@assistantapps.com](support@assistantapps.com)
 
 ## Supported Versions
 
@@ -11,7 +11,7 @@ latest exploits and vulnerabilities
 
 ## Reporting a Vulnerability
 
-Security vulnerabilities should be sent to [support@nmsassistant.com](support@nmsassistant.com). You can typically expect a 
+Security vulnerabilities should be sent to [support@assistantapps.com](support@assistantapps.com). You can typically expect a 
 response within two business days, and we typically have fixes out in under a week from the initial disclosure (depending on how quickly the App Stores approve updates).
 
 ### Personal Identifiable Information
