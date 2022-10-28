@@ -18,7 +18,7 @@
 
 The **Assistant for Dinkum** is an app that gives users information about the game, such as animal locations, recipes, details about town people and more!
 
-<br />
+![divider](./.github/img/divider1.png)
 
 ## 🏃‍♂️ Running the project
   
@@ -35,7 +35,7 @@ The **Assistant for Dinkum** is an app that gives users information about the ga
    - If you want to run the app as an Android app, have the Android emulator running, ensure that the device is showing in the results of this command: `flutter devices` and use the command `flutter run`
    - If you want to run the app as a Windows application, use the command `flutter run -d windows`
 
-<br />
+![divider](./.github/img/divider1.png)
 
 ## 👪 Contributing
 **Project Owner**: [Khaoz-Topsy][kurtGithub]<br /><br />
@@ -43,7 +43,7 @@ Please take a look at the [Contribution Guideline](./.github/CONTRIBUTING.md) be
 
 If you would like to help add languages to the app please use this tool [AssistantApps tool][assistantAppsTools].
 
-<br />
+![divider](./.github/img/divider1.png)
 
 ## 🔗 Links
 
