@@ -16,7 +16,7 @@ Widget favouriteTilePresenter(
 }) {
   if (item is InventoryItem && item.hidden && isPatron == false) {
     return ListTile(
-      leading: genericTileImage(AppImage.unknown),
+      leading: genericTileImage(AppImage.locked),
       title: Text(obscureText(item.name)),
       trailing: popupMenu(context, onDelete: onDelete),
       onTap: onTap ??

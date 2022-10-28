@@ -11,6 +11,7 @@ class AppImage {
   static const String checkboxUnTicked = '${base}checkbox-unticked.png';
   static const String customCursor = '${base}customCursor.png';
   static const String museum = '${base}museum.png';
+  static const String locked = '${base}locked.png';
   static const String error = '${base}error.png';
 
   static const String drawerHeader = '${base}drawer/DrawerHeader.png';

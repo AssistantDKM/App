@@ -24,7 +24,7 @@ Widget itemBaseTilePresenter({
   }
   if (item is InventoryItem && isPatron == false && item.hidden) {
     return ListTile(
-      leading: genericTileImage(AppImage.unknown),
+      leading: genericTileImage(AppImage.locked),
       title: Text(obscureText(item.name)),
       onTap: onTap,
     );
