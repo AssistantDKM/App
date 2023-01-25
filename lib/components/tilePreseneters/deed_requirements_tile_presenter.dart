@@ -1,12 +1,11 @@
-import 'package:assistant_dinkum_app/constants/app_image.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
+import '../../constants/app_image.dart';
 import '../../contracts/json/inventory_item.dart';
 import '../../helper/generic_repository_helper.dart';
 import '../../pages/inventory_pages.dart';
-import '../common/cached_future_builder.dart';
 
 Widget deedRequirementsTilePresenter(
   BuildContext context,
@@ -20,7 +19,7 @@ Widget deedRequirementsTilePresenter(
       context,
       deedId,
     ),
-    whileLoading: getLoading().smallLoadingTile(context),
+    whileLoading: () => getLoading().smallLoadingTile(context),
     whenDoneLoading: (ResultWithValue<InventoryItem> result) =>
         deedRequirementsBodyTilePresenter(
       context,

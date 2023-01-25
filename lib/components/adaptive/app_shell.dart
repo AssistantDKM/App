@@ -114,10 +114,13 @@ class AppShell extends StatelessWidget {
       theme: theme,
       darkTheme: darkTheme,
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: WindowsTitleBar('Assistant for Dinkum'),
-        // body: CustomCursor(matApp: matApp),
-        body: matApp,
+      home: ClipRRect(
+        borderRadius: BorderRadius.circular(8.0),
+        child: Scaffold(
+          appBar: WindowsTitleBar('Assistant for Dinkum'),
+          // body: CustomCursor(matApp: matApp),
+          body: matApp,
+        ),
       ),
     );
   }

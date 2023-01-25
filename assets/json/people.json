@@ -49,18 +49,6 @@
     "HatesVegetables": true
   },
   {
-    "AppId": "people_15",
-    "Name": "Ghost",
-    "Icon": "",
-    "SpendBeforeMoveIn": 0,
-    "RelationshipBeforeMove": 0,
-    "Color": "FFFFFF",
-    "HatesAnimalProducts": false,
-    "HatesMeat": false,
-    "HatesFruits": false,
-    "HatesVegetables": false
-  },
-  {
     "AppId": "people_7",
     "Name": "Irwin",
     "Icon": "people/npcImages_7.png",
@@ -111,6 +99,22 @@
     "HatesVegetables": false
   },
   {
+    "AppId": "people_15",
+    "Name": "Jimmy",
+    "Icon": "",
+    "Deed": "item_380",
+    "SpendBeforeMoveIn": 0,
+    "RelationshipBeforeMove": 0,
+    "ShirtAppId": "clothing_95",
+    "PantsAppId": "clothing_96",
+    "ShoesAppId": "clothing_70",
+    "Color": "FFFFFF",
+    "HatesAnimalProducts": false,
+    "HatesMeat": false,
+    "HatesFruits": false,
+    "HatesVegetables": false
+  },
+  {
     "AppId": "people_1",
     "Name": "John",
     "Icon": "people/npcImages_1.png",
@@ -155,6 +159,19 @@
     "HatesAnimalProducts": false,
     "HatesMeat": false,
     "HatesFruits": true,
+    "HatesVegetables": false
+  },
+  {
+    "AppId": "people_16",
+    "Name": "Nick",
+    "Icon": "people/npcImages_12.png",
+    "SpendBeforeMoveIn": 10,
+    "RelationshipBeforeMove": 200,
+    "ShoesAppId": "clothing_75",
+    "Color": "A13333",
+    "HatesAnimalProducts": false,
+    "HatesMeat": false,
+    "HatesFruits": false,
     "HatesVegetables": false
   },
   {

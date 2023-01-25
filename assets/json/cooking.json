@@ -3172,5 +3172,81 @@
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
+  },
+  {
+    "Id": 1014,
+    "AppId": "cooking_1014",
+    "Icon": "inventory/allUI3_21.png",
+    "Name": "Cherries",
+    "Description": "What can I put on top of these?",
+    "SellPrice": 117,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1015,
+    "AppId": "cooking_1015",
+    "Icon": "inventory/allUI3_22.png",
+    "Name": "Cooked Cherries",
+    "Description": "Chic-a-Cherry Cooked",
+    "SellPrice": 410,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
   }
 ]
