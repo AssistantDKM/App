@@ -1,6 +1,6 @@
 name: assistant_dinkum_app
 description: Assistant for Dinkum
-version: 0.0.2+2 # dart scripts\version_num_script.dart
+version: 0.0.3+3 # dart scripts\version_num_script.dart
 publish_to: none
 
 environment:
