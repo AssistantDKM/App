@@ -22,8 +22,8 @@ class CustomCheckbox extends StatelessWidget {
       onTap: onTap,
       onDoubleTap: onDoubleTap,
       onLongPress: onLongPress,
-      child: localImage(
-        value ? AppImage.checkboxTicked : AppImage.checkboxUnTicked,
+      child: LocalImage(
+        imagePath: value ? AppImage.checkboxTicked : AppImage.checkboxUnTicked,
         width: 32,
         height: 32,
       ),

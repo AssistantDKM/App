@@ -14,45 +14,10 @@ Widget genericItemImage(BuildContext context, String imagePath,
         onTap: onTap,
         child: Container(
           margin: const EdgeInsets.all(4.0),
-          child: localImage(imagePath, height: height),
+          child: LocalImage(imagePath: imagePath, height: height),
         ),
       ),
     );
-
-Widget genericChip(
-  context,
-  String title, {
-  Color? color,
-  Function()? onTap,
-}) {
-  return genericChipWidget(
-    context,
-    Text(title),
-    color: color,
-    onTap: onTap,
-  );
-}
-
-Widget genericChipWidget(
-  context,
-  Widget content, {
-  Color? color,
-  Function()? onTap,
-}) {
-  var child = Padding(
-    padding: const EdgeInsets.only(left: 4),
-    child: Chip(
-      label: content,
-      backgroundColor: color ?? getTheme().getSecondaryColour(context),
-    ),
-  );
-  return (onTap == null)
-      ? child
-      : GestureDetector(
-          onTap: onTap,
-          child: child,
-        );
-}
 
 Widget gridIconTilePresenter(BuildContext innerContext, String imageprefix,
         String imageAddress, Function(String icon) onTap) =>

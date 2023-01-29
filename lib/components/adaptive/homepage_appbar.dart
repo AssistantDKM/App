@@ -3,7 +3,6 @@ import 'package:flutter/cupertino.dart' show ObstructingPreferredSizeWidget;
 import 'package:flutter/material.dart';
 
 import '../../constants/app_routes.dart';
-import 'app_appbar.dart';
 
 class HomePageAppBar extends StatelessWidget
     implements PreferredSizeWidget, ObstructingPreferredSizeWidget {
@@ -23,14 +22,15 @@ class HomePageAppBar extends StatelessWidget
 
   @override
   Widget build(BuildContext context) {
-    actions?.add(ActionItem(
+    var localActions = actions ?? List.empty(growable: true);
+    localActions.add(ActionItem(
       icon: Icons.settings,
       onPressed: () async => await getNavigation().navigateAsync(
         context,
         navigateToNamed: Routes.settings,
       ),
     ));
-    return _androidAppBarActions(context, Text(title), actions);
+    return _androidAppBarActions(context, Text(title), localActions);
   }
 
   Widget _androidAppBarActions(
@@ -39,26 +39,17 @@ class HomePageAppBar extends StatelessWidget
     List<ActionItem>? actions,
   ) {
     List<Widget> widgets = List.empty(growable: true);
+
     widgets.addAll(
-      actionItemToAndroidAction(actions ?? List.empty(growable: true)),
+      actionItemToAndroidAction(context, actions ?? List.empty()),
     );
-    return adaptiveAppBar(
-      context,
-      title,
-      widgets,
+    return AdaptiveAppBar(
+      title: title,
+      actions: widgets,
       bottom: bottom,
     );
   }
 
   @override
   bool shouldFullyObstruct(BuildContext context) => true;
-}
-
-PreferredSizeWidget homePageAppBar(String title,
-    {List<ActionItem>? customActions}) {
-  List<ActionItem> actions = customActions ?? List.empty(growable: true);
-  return HomePageAppBar(
-    title,
-    actions: actions,
-  );
 }

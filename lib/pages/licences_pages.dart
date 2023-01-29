@@ -74,21 +74,23 @@ class LicenceDetailsPage extends StatelessWidget {
       getName: (loadedItem) => loadedItem.name,
       contractToWidgetList: (loadedItem, isInDetailPane) {
         List<Widget> descripWidgets = [
-          Center(child: localImage(networkImageToLocal(loadedItem.imageUrl))),
-          genericItemName(loadedItem.name),
-          pageDefaultPadding(genericItemDescription(loadedItem.description)),
+          Center(
+              child: LocalImage(
+                  imagePath: networkImageToLocal(loadedItem.imageUrl))),
+          GenericItemName(loadedItem.name),
+          pageDefaultPadding(GenericItemDescription(loadedItem.description)),
         ];
 
         if (loadedItem.levels.isNotEmpty) {
-          descripWidgets.add(emptySpace2x());
-          descripWidgets.add(genericItemGroup('Levels'));
+          descripWidgets.add(const EmptySpace2x());
+          descripWidgets.add(const GenericItemGroup('Levels'));
 
           bool enableLeading =
               loadedItem.levels.any((lvl) => lvl.skillLevel > 0);
           for (LicenceLevel level in loadedItem.levels) {
-            descripWidgets.add(emptySpace1x());
+            descripWidgets.add(const EmptySpace1x());
             descripWidgets.add(
-              flatCard(
+              FlatCard(
                 child: licenceLevelTilePresenter(
                   context,
                   level,

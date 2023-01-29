@@ -35,15 +35,15 @@ List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
 
     Widget imageStack = Stack(
       children: [
-        Center(child: localImage(loadedItem.icon)),
+        Center(child: LocalImage(imagePath: loadedItem.icon)),
         ...widgetsToPositioneds(stackWidgets),
       ],
     );
 
     List<Widget> descripWidgets = [
       imageStack,
-      genericItemName(loadedItem.name),
-      pageDefaultPadding(genericItemDescription(loadedItem.description)),
+      GenericItemName(loadedItem.name),
+      pageDefaultPadding(GenericItemDescription(loadedItem.description)),
     ];
 
     if (loadedItem.sellPrice > 0) {
@@ -51,23 +51,23 @@ List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
     }
 
     if (isMuseumPlaceable) {
-      descripWidgets.add(emptySpace3x());
-      descripWidgets.add(flatCard(
+      descripWidgets.add(const EmptySpace3x());
+      descripWidgets.add(FlatCard(
         child: InventoryItemMuseumTile(appId: loadedItem.appId),
       ));
     }
 
     InventoryItemConsumable localConsumable = loadedItem.consumable;
     if (localConsumable.buffs.isNotEmpty) {
-      descripWidgets.add(emptySpace2x());
-      descripWidgets.add(genericItemGroup(
+      descripWidgets.add(const EmptySpace2x());
+      descripWidgets.add(GenericItemGroup(
         getTranslations().fromKey(LocaleKey.effects),
       ));
 
       List<InventoryItemConsumableBuff> localBuffs = localConsumable.buffs
           .where((buff) => buff.level > 0 || buff.seconds > 0)
           .toList();
-      descripWidgets.add(flatCard(
+      descripWidgets.add(FlatCard(
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 4),
           child: Wrap(
@@ -83,12 +83,12 @@ List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
     var localRequireds = loadedItem.craftable.requiredItems;
     if (localRequireds.isNotEmpty) {
       localRequireds.sort((a, b) => b.quantity.compareTo(a.quantity));
-      descripWidgets.add(emptySpace2x());
-      descripWidgets.add(genericItemGroup(
+      descripWidgets.add(const EmptySpace2x());
+      descripWidgets.add(GenericItemGroup(
         getTranslations().fromKey(LocaleKey.requiredItems),
       ));
       for (InventoryItemCraftableRequired required in localRequireds) {
-        descripWidgets.add(flatCard(
+        descripWidgets.add(FlatCard(
           child: requiredItemTilePresenter(
             contentsContext,
             required,
@@ -158,9 +158,9 @@ List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
 
     if (loadedItem.hidden == true && viewmodel.isPatron == false) {
       return [
-        Center(child: localImage(AppImage.locked)),
-        genericItemName(obscureText(loadedItem.name)),
-        pageDefaultPadding(genericItemDescription(
+        const Center(child: LocalImage(imagePath: AppImage.locked)),
+        GenericItemName(obscureText(loadedItem.name)),
+        pageDefaultPadding(GenericItemDescription(
           obscureText(loadedItem.description),
         )),
       ];

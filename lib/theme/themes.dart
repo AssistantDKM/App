@@ -14,6 +14,7 @@ ThemeData darkTheme() {
   final primary = HexColor('8b432b');
   final secondary = HexColor('5AA56D');
   return base.copyWith(
+    // useMaterial3: true,
     primaryColor: primary,
     // accentColor: secondary, //DEPRECATED
     colorScheme: base.colorScheme.copyWith(

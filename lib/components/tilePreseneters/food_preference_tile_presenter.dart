@@ -48,8 +48,8 @@ Widget requiredItemBodyTilePresenter(
     leadingImage: item.icon,
     name: item.name,
     subtitle: Text(subtitleText),
-    trailing: localImage(
-      trailingImgPath,
+    trailing: LocalImage(
+      imagePath: trailingImgPath,
       width: 32,
       height: 32,
       padding: const EdgeInsets.only(right: 8),

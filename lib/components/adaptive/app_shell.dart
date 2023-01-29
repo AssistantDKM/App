@@ -4,12 +4,10 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:wiredash/wiredash.dart';
 
 import '../../constants/app_routes.dart';
 import '../../contracts/redux/app_state.dart';
 import '../../env/app_version_num.dart';
-import '../../integration/dependency_injection.dart';
 import '../../redux/setting/appshell_viewmodel.dart';
 import '../../theme/themes.dart';
 import '../windows_title_bar.dart';
@@ -78,22 +76,13 @@ class AppShell extends StatelessWidget {
       );
     }
 
-    Wiredash matApp = Wiredash(
-      projectId: getEnv().wiredashProjectId,
-      secret: getEnv().wiredashSecret,
-      options: WiredashOptionsData(
-        locale: getTranslations().getLocaleFromKey(viewModel.selectedLanguage),
-      ),
-      feedbackOptions: WiredashFeedbackOptions(
-        email: EmailPrompt.hidden,
-        collectMetaData: (metaData) => metaData
-          // information about your app build
-          ..buildNumber = appsBuildNum.toString()
-          ..buildVersion = appsBuildName
-          ..buildCommit = appsCommit
-
-          // custom metadata
-          ..custom['isPatron'] = viewModel.isPatron,
+    Widget matApp = FeedbackWrapper(
+      options: FeedbackOptions(
+        buildNumber: appsBuildNum.toString(),
+        buildVersion: appsBuildName,
+        buildCommit: appsCommit,
+        currentLang: viewModel.selectedLanguage,
+        isPatron: viewModel.isPatron,
       ),
       child: MaterialApp(
         key: key,

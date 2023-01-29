@@ -27,7 +27,8 @@ Widget licenceLevelTilePresenter(
       mainAxisSize: MainAxisSize.min,
       children: [
         Text(item.cost.toString()),
-        localImage(AppImage.permitPoint, width: 24, height: 24),
+        const LocalImage(
+            imagePath: AppImage.permitPoint, width: 24, height: 24),
       ],
     ),
     subtitle: Text(item.description, maxLines: 1),

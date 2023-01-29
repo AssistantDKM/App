@@ -7,7 +7,10 @@ import '../../redux/favourite/favourite_viewmodel.dart';
 class InventoryItemFavouritesIcon extends StatelessWidget {
   final String appId;
 
-  const InventoryItemFavouritesIcon({super.key, required this.appId});
+  const InventoryItemFavouritesIcon({
+    Key? key,
+    required this.appId,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

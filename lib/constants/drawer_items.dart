@@ -1,6 +1,5 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
-import 'package:wiredash/wiredash.dart';
 
 import '../contracts/custom_menu.dart';
 import '../redux/setting/drawer_settings_viewmodel.dart';
@@ -11,11 +10,10 @@ const double imageSize = 52;
 List<CustomMenu> getMenuOptionsSection1(
     BuildContext context, DrawerSettingsViewModel vm, Color drawerIconColour) {
   //
-  Widget localGetFromIcon(IconData icon) =>
-      getCorrectlySizedImageFromIcon(context, icon,
-          colour: drawerIconColour, maxSize: imageSize);
+  Widget localGetFromIcon(IconData icon) => CorrectlySizedImageFromIcon(
+      icon: icon, colour: drawerIconColour, maxSize: imageSize);
   Widget localGetDrawerFromIcon(IconData icon) =>
-      getCorrectlySizedImageFromIcon(context, icon, colour: drawerIconColour);
+      CorrectlySizedImageFromIcon(icon: icon, colour: drawerIconColour);
 
   return [
     CustomMenu(
@@ -25,15 +23,15 @@ List<CustomMenu> getMenuOptionsSection1(
       navigateToNamed: Routes.whatIsNew,
     ),
     // CustomMenu(
-    //   icon: getListTileImage(AppImage.language, size: imageSize),
-    //   drawerIcon: getListTileImage(AppImage.language),
+    //   icon: ListTileImage(partialPath: AppImage.language, size: imageSize),
+    //   drawerIcon: ListTileImage(partialPath: AppImage.language),
     //   title: LocaleKey.language,
     //   navigateToNamed: Routes.language,
     //   hideInCustom: true,
     // ),
     // CustomMenu(
-    //   icon: getListTileImage(AppImage.contributors, size: imageSize),
-    //   drawerIcon: getListTileImage(AppImage.contributors),
+    //   icon: ListTileImage(partialPath: AppImage.contributors, size: imageSize),
+    //   drawerIcon: ListTileImage(partialPath: AppImage.contributors),
     //   title: LocaleKey.contributors,
     //   navigateToNamed: Routes.contributors,
     // ),
@@ -55,8 +53,8 @@ List<CustomMenu> getMenuOptionsSection1(
       ),
     ],
     // : CustomMenu(
-    //     icon: getListTileImage(AppImage.donation, size: imageSize),
-    //     drawerIcon: getListTileImage(AppImage.donation),
+    //     icon: ListTileImage(partialPath: AppImage.donation, size: imageSize),
+    //     drawerIcon: ListTileImage(partialPath: AppImage.donation),
     //     title: LocaleKey.donation,
     //     hideInCustom: true,
     //     navigateToNamed: Routes.donation,
@@ -67,11 +65,10 @@ List<CustomMenu> getMenuOptionsSection1(
 List<CustomMenu> getMenuOptionsSection2(
     BuildContext context, DrawerSettingsViewModel vm, Color drawerIconColour) {
   //
-  Widget localGetFromIcon(IconData icon) =>
-      getCorrectlySizedImageFromIcon(context, icon,
-          colour: drawerIconColour, maxSize: imageSize);
+  Widget localGetFromIcon(IconData icon) => CorrectlySizedImageFromIcon(
+      icon: icon, colour: drawerIconColour, maxSize: imageSize);
   Widget localGetDrawerFromIcon(IconData icon) =>
-      getCorrectlySizedImageFromIcon(context, icon, colour: drawerIconColour);
+      CorrectlySizedImageFromIcon(icon: icon, colour: drawerIconColour);
 
   return [
     CustomMenu(
@@ -98,11 +95,10 @@ List<CustomMenu> getMenuOptionsSection2(
 List<CustomMenu> getMenuOptionsSection3(
     BuildContext context, DrawerSettingsViewModel vm, Color drawerIconColour) {
   //
-  Widget localGetFromIcon(IconData icon) =>
-      getCorrectlySizedImageFromIcon(context, icon,
-          colour: drawerIconColour, maxSize: imageSize);
+  Widget localGetFromIcon(IconData icon) => CorrectlySizedImageFromIcon(
+      icon: icon, colour: drawerIconColour, maxSize: imageSize);
   Widget localGetDrawerFromIcon(IconData icon) =>
-      getCorrectlySizedImageFromIcon(context, icon, colour: drawerIconColour);
+      CorrectlySizedImageFromIcon(icon: icon, colour: drawerIconColour);
 
   return [
     // CustomMenu(
@@ -116,7 +112,7 @@ List<CustomMenu> getMenuOptionsSection3(
       drawerIcon: localGetDrawerFromIcon(Icons.feedback),
       title: LocaleKey.feedback,
       onTap: (tapCtx) {
-        Wiredash.of(tapCtx).show(inheritMaterialTheme: true);
+        FeedbackWrapper.of(tapCtx).show();
       },
     ),
     CustomMenu(
@@ -127,8 +123,8 @@ List<CustomMenu> getMenuOptionsSection3(
       navigateToNamed: Routes.about,
     ),
     // CustomMenu(
-    //   icon: getListTileImage(AppImage.twitter, size: imageSize),
-    //   drawerIcon: getListTileImage(AppImage.twitter),
+    //   icon: ListTileImage(partialPath: AppImage.twitter, size: imageSize),
+    //   drawerIcon: ListTileImage(partialPath: AppImage.twitter),
     //   title: LocaleKey.social,
     //   navigateToNamed: Routes.socialLinks,
     // ),

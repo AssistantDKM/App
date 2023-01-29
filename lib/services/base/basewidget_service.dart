@@ -1,9 +1,7 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../../components/adaptive/app_appbar.dart';
-import '../../components/adaptive/appbar_for_subpage.dart';
-import '../../components/adaptive/app_scaffold.dart';
+import '../../components/adaptive/checkbox.dart';
 
 class BaseWidgetService implements IBaseWidgetService {
   @override
@@ -17,13 +15,12 @@ class BaseWidgetService implements IBaseWidgetService {
     Widget? floatingActionButton,
     FloatingActionButtonLocation? floatingActionButtonLocation,
   }) =>
-      adaptiveAppScaffold(
-        context,
+      AdaptiveAppScaffold(
         appBar: appBar,
         body: body,
         builder: builder,
         drawer: drawer,
-        // bottomNavigationBar: bottomNavigationBar,
+        bottomNavigationBar: bottomNavigationBar,
         floatingActionButton: floatingActionButton,
         floatingActionButtonLocation: floatingActionButtonLocation,
       );
@@ -36,7 +33,12 @@ class BaseWidgetService implements IBaseWidgetService {
     Widget? leading,
     PreferredSizeWidget? bottom,
   }) =>
-      adaptiveAppBar(context, title, actions, leading: leading, bottom: bottom);
+      AdaptiveAppBar(
+        title: title,
+        actions: actions,
+        leading: leading,
+        bottom: bottom,
+      );
 
   @override
   PreferredSizeWidget appBarForSubPage(
@@ -47,12 +49,54 @@ class BaseWidgetService implements IBaseWidgetService {
     bool showHomeAction = false,
     bool showBackAction = true,
   }) =>
-      adaptiveAppBarForSubPageHelper(
-        context,
-        title: title,
-        actions: actions,
-        shortcutActions: shortcutActions,
-        showBackAction: showBackAction,
-        showHomeAction: showHomeAction,
+      AdaptiveAppBarForSubPage(
+        title,
+        actions ?? [],
+        showBackAction,
+        showHomeAction,
+        shortcutActions ?? [],
+      );
+
+  @override
+  Widget appChip({
+    Key? key,
+    String? text,
+    Widget? label,
+    TextStyle? style,
+    EdgeInsets? labelPadding,
+    double? elevation,
+    EdgeInsets? padding,
+    Color? shadowColor,
+    Icon? deleteIcon,
+    void Function()? onDeleted,
+    void Function()? onTap,
+    Color? backgroundColor,
+  }) =>
+      AdaptiveChip(
+        key: key,
+        text: text,
+        label: label,
+        style: style,
+        labelPadding: labelPadding,
+        elevation: elevation,
+        padding: padding,
+        shadowColor: shadowColor,
+        deleteIcon: deleteIcon,
+        onDeleted: onDeleted,
+        onTap: onTap,
+        backgroundColor: backgroundColor,
+      );
+
+  @override
+  Widget adaptiveCheckbox({
+    Key? key,
+    required bool value,
+    required void Function(bool newValue) onChanged,
+    Color? activeColor,
+  }) =>
+      CustomCheckbox(
+        key: key,
+        value: value,
+        onTap: () => onChanged(!value),
       );
 }

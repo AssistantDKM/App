@@ -29,16 +29,16 @@ class WindowsTitleBar extends StatelessWidget
         color: getTheme().getScaffoldBackgroundColour(context),
         child: Row(
           children: [
-            Padding(
-              padding: const EdgeInsets.all(4),
-              child: localImage(AppImage.windowIcon),
+            const Padding(
+              padding: EdgeInsets.all(4),
+              child: LocalImage(imagePath: AppImage.windowIcon),
             ),
             Expanded(
               child: MoveWindow(
                 child: Center(
                     child: Row(
                   children: [
-                    genericItemDescription(title),
+                    GenericItemDescription(title),
                   ],
                 )),
               ),

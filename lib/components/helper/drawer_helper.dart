@@ -11,7 +11,7 @@ List<Widget> getDrawerItems(BuildContext context, DrawerSettingsViewModel vm) {
   List<Widget> widgets = List.empty(growable: true);
   Color drawerIconColour = getTheme().getDarkModeSecondaryColour();
 
-  widgets.add(emptySpace(0.5));
+  widgets.add(const EmptySpace(0.5));
   widgets.addAll(_mapToDrawerItem(
     context,
     getMenuOptionsSection1(context, vm, drawerIconColour),
@@ -43,7 +43,7 @@ List<Widget> getDrawerItems(BuildContext context, DrawerSettingsViewModel vm) {
 
         return ListTile(
           key: const Key('versionNumber'),
-          leading: getCorrectlySizedImageFromIcon(context, Icons.code),
+          leading: const CorrectlySizedImageFromIcon(icon: Icons.code),
           title: Text(appVersionString),
           onTap: () {},
           dense: true,
@@ -53,20 +53,20 @@ List<Widget> getDrawerItems(BuildContext context, DrawerSettingsViewModel vm) {
   );
   widgets.add(_drawerItem(
     context,
-    image: getListTileImage(AppImage.assistantApps),
+    image: const ListTileImage(partialPath: AppImage.assistantApps),
     title: getTranslations().fromKey(LocaleKey.assistantApps),
     onTap: (_) {
       adaptiveBottomModalSheet(
         context,
         hasRoundedCorners: true,
-        builder: (BuildContext innerC) => AssistantAppsModalBottomSheet(
-          appType: AssistantAppType.DKM,
+        builder: (BuildContext innerC) => const AssistantAppsModalBottomSheet(
+          appType: AssistantAppType.dkm,
         ),
       );
     },
   ));
-  widgets.add(emptySpace3x());
-  widgets.add(emptySpace3x());
+  widgets.add(const EmptySpace3x());
+  widgets.add(const EmptySpace3x());
 
   return widgets;
 }

@@ -96,10 +96,10 @@ class PeopleDetailsPage extends StatelessWidget {
                 maxWidth: min((deviceWidth / 2), maxImageSize),
                 maxHeight: min((deviceHeight / 2), maxImageSize),
               ),
-              child: localImage(imagePath),
+              child: LocalImage(imagePath: imagePath),
             ),
           ),
-          genericItemName(loadedItem.name),
+          GenericItemName(loadedItem.name),
         ];
 
         bool hasReqSpend = loadedItem.spendBeforeMoveIn > 0;
@@ -107,11 +107,11 @@ class PeopleDetailsPage extends StatelessWidget {
         bool hasReqValidRel = loadedItem.relationshipBeforeMove < 200;
         if (hasReqSpend && hasReqRel && hasReqValidRel) {
           descripWidgets.addAll([
-            emptySpace2x(),
-            genericItemGroup(
+            const EmptySpace2x(),
+            GenericItemGroup(
               getTranslations().fromKey(LocaleKey.requiredForDeed),
             ),
-            flatCard(
+            FlatCard(
               child: deedRequirementsTilePresenter(
                 context,
                 loadedItem.deed,
@@ -125,15 +125,15 @@ class PeopleDetailsPage extends StatelessWidget {
         if (loadedItem.favouriteFood.isNotEmpty ||
             loadedItem.hatedFood.isNotEmpty) {
           descripWidgets.addAll([
-            emptySpace2x(),
-            genericItemGroup(
+            const EmptySpace2x(),
+            GenericItemGroup(
               getTranslations().fromKey(LocaleKey.foodPreferences),
             ),
           ]);
 
           if (loadedItem.favouriteFood.isNotEmpty) {
             descripWidgets.addAll([
-              flatCard(
+              FlatCard(
                 child: foodPreferenceTilePresenter(
                   context,
                   appId: loadedItem.favouriteFood,
@@ -145,7 +145,7 @@ class PeopleDetailsPage extends StatelessWidget {
           }
           if (loadedItem.hatedFood.isNotEmpty) {
             descripWidgets.addAll([
-              flatCard(
+              FlatCard(
                 child: foodPreferenceTilePresenter(
                   context,
                   appId: loadedItem.hatedFood,
@@ -158,21 +158,23 @@ class PeopleDetailsPage extends StatelessWidget {
 
           double tableSize = 64;
           descripWidgets.addAll([
-            flatCard(
+            FlatCard(
               child: Column(
                 children: [
                   customDivider(),
-                  emptySpace1x(),
+                  const EmptySpace1x(),
                   Row(
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       Column(
                         children: [
-                          localImage(AppImage.animalProduct, width: tableSize),
-                          emptySpace1x(),
-                          localImage(
-                            loadedItem.hatesAnimalProducts
+                          LocalImage(
+                              imagePath: AppImage.animalProduct,
+                              width: tableSize),
+                          const EmptySpace1x(),
+                          LocalImage(
+                            imagePath: loadedItem.hatesAnimalProducts
                                 ? AppImage.preferenceDislikes
                                 : AppImage.preferenceNothing,
                           ),
@@ -180,10 +182,11 @@ class PeopleDetailsPage extends StatelessWidget {
                       ),
                       Column(
                         children: [
-                          localImage(AppImage.vegetable, width: tableSize),
-                          emptySpace1x(),
-                          localImage(
-                            loadedItem.hatesVegetables
+                          LocalImage(
+                              imagePath: AppImage.vegetable, width: tableSize),
+                          const EmptySpace1x(),
+                          LocalImage(
+                            imagePath: loadedItem.hatesVegetables
                                 ? AppImage.preferenceDislikes
                                 : AppImage.preferenceNothing,
                           ),
@@ -191,10 +194,11 @@ class PeopleDetailsPage extends StatelessWidget {
                       ),
                       Column(
                         children: [
-                          localImage(AppImage.fruit, width: tableSize),
-                          emptySpace1x(),
-                          localImage(
-                            loadedItem.hatesFruits
+                          LocalImage(
+                              imagePath: AppImage.fruit, width: tableSize),
+                          const EmptySpace1x(),
+                          LocalImage(
+                            imagePath: loadedItem.hatesFruits
                                 ? AppImage.preferenceDislikes
                                 : AppImage.preferenceNothing,
                           ),
@@ -202,10 +206,11 @@ class PeopleDetailsPage extends StatelessWidget {
                       ),
                       Column(
                         children: [
-                          localImage(AppImage.meat, width: tableSize),
-                          emptySpace1x(),
-                          localImage(
-                            loadedItem.hatesMeat
+                          LocalImage(
+                              imagePath: AppImage.meat, width: tableSize),
+                          const EmptySpace1x(),
+                          LocalImage(
+                            imagePath: loadedItem.hatesMeat
                                 ? AppImage.preferenceDislikes
                                 : AppImage.preferenceNothing,
                           ),
@@ -213,7 +218,7 @@ class PeopleDetailsPage extends StatelessWidget {
                       ),
                     ],
                   ),
-                  emptySpace3x(),
+                  const EmptySpace3x(),
                 ],
               ),
             ),
