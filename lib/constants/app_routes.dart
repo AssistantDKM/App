@@ -13,7 +13,7 @@ import 'analytics_event.dart';
 import 'app_json.dart';
 
 class Routes {
-  static const String home = '/home';
+  static const String home = '/';
   static const String about = '/about';
   static const String settings = '/settings';
   static const String whatIsNew = '/whatIsNew';

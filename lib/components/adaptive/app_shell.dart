@@ -5,12 +5,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
+import '../../constants/app_image.dart';
 import '../../constants/app_routes.dart';
 import '../../contracts/redux/app_state.dart';
 import '../../env/app_version_num.dart';
 import '../../redux/setting/appshell_viewmodel.dart';
 import '../../theme/themes.dart';
-import '../windows_title_bar.dart';
 
 class AppShell extends StatelessWidget {
   final TranslationsDelegate newLocaleDelegate;
@@ -97,20 +97,40 @@ class AppShell extends StatelessWidget {
       ),
     );
 
-    if (!isWindows) return matApp;
+    if (isDesktop) {
+      return MaterialApp(
+        theme: theme,
+        darkTheme: darkTheme,
+        debugShowCheckedModeBanner: false,
+        home: ClipRRect(
+          borderRadius: BorderRadius.circular(8.0),
+          child: Scaffold(
+            appBar: WindowTitleBar(
+              title: 'Assistant for Dinkum',
+              iconPath: AppImage.windowIcon,
+            ),
+            body: matApp,
+          ),
+        ),
+      );
+    }
 
     return MaterialApp(
       theme: theme,
       darkTheme: darkTheme,
       debugShowCheckedModeBanner: false,
-      home: ClipRRect(
-        borderRadius: BorderRadius.circular(8.0),
-        child: Scaffold(
-          appBar: WindowsTitleBar('Assistant for Dinkum'),
-          // body: CustomCursor(matApp: matApp),
-          body: matApp,
-        ),
-      ),
+      home: Scaffold(body: matApp),
     );
+
+    // return MaterialApp(
+    //   key: key,
+    //   title: 'Assistant for Dinkum',
+    //   theme: theme,
+    //   darkTheme: darkTheme,
+    //   home: Center(child: Text('hi')),
+    //   scrollBehavior: scrollBehavior,
+    //   localizationsDelegates: localizationsDelegates,
+    //   supportedLocales: supportedLocales,
+    // );
   }
 }
