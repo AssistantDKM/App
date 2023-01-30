@@ -28,7 +28,7 @@ dependencies:
   adaptive_theme: 3.1.1
   bitsdojo_window: 0.1.5
   breakpoint: 1.2.0
-  path: 1.8.3
+  path: 1.8.4
   settings_ui: 2.0.2
 
 dev_dependencies:
