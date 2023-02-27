@@ -1,6 +1,6 @@
 name: assistant_dinkum_app
 description: Assistant for Dinkum
-version: 0.0.4+4 # dart scripts\version_num_script.dart 
+version: 0.0.4+4 # dart scripts\version_num_script.dart
 publish_to: none
 
 environment:
@@ -55,11 +55,11 @@ flutter_icons: ## flutter pub run flutter_launcher_icons:main
     generate: true
     image_path: 'assets/images/fullSizeIcon-outline.png'
     background_color: '#000000'
-    theme_color: '#7F2F14'
+    theme_color: '#8b432b'
   windows:
     generate: true
     image_path: 'assets/images/fullSizeIcon-outline.png'
-    icon_size: 48 # min:48, max:256, default: 48
+    icon_size: 64 # min:48, max:256, default: 48
 
 flutter:
   uses-material-design: true

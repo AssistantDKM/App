@@ -4,8 +4,8 @@
   "start_url": ".",
   "display": "standalone",
   "background_color": "#000000",
-  "theme_color": "#7F2F14",
-  "description": "A new Flutter project.",
+  "theme_color": "#8b432b",
+  "description": "An app to help you play Dinkum to the max!",
   "orientation": "portrait-primary",
   "prefer_related_applications": false,
   "icons": [

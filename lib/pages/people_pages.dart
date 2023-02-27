@@ -6,9 +6,9 @@ import 'package:flutter_redux/flutter_redux.dart';
 
 import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
-import '../components/tilePreseneters/deed_requirements_tile_presenter.dart';
-import '../components/tilePreseneters/food_preference_tile_presenter.dart';
-import '../components/tilePreseneters/people_tile_presenter.dart';
+import '../components/tilePresenters/deed_requirements_tile_presenter.dart';
+import '../components/tilePresenters/food_preference_tile_presenter.dart';
+import '../components/tilePresenters/people_tile_presenter.dart';
 import '../constants/app_image.dart';
 import '../constants/app_misc.dart';
 import '../contracts/json/people_item.dart';
@@ -161,7 +161,7 @@ class PeopleDetailsPage extends StatelessWidget {
             FlatCard(
               child: Column(
                 children: [
-                  customDivider(),
+                  getBaseWidget().customDivider(),
                   const EmptySpace1x(),
                   Row(
                     mainAxisSize: MainAxisSize.max,

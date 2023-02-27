@@ -8,12 +8,15 @@ class CustomCheckbox extends StatelessWidget {
   final void Function()? onTap;
   final void Function()? onDoubleTap;
   final void Function()? onLongPress;
+  final Color? activeColor;
+
   const CustomCheckbox({
     Key? key,
     required this.value,
     this.onTap,
     this.onDoubleTap,
     this.onLongPress,
+    this.activeColor,
   }) : super(key: key);
 
   @override

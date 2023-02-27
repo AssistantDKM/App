@@ -1,5 +1,4 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
-import 'package:assistantapps_flutter_common/contracts/misc/versionDetail.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants/app_image.dart';
@@ -16,17 +15,17 @@ List<Widget> getDrawerItems(BuildContext context, DrawerSettingsViewModel vm) {
     context,
     getMenuOptionsSection1(context, vm, drawerIconColour),
   ));
-  widgets.add(customDivider());
+  widgets.add(getBaseWidget().customDivider());
   widgets.addAll(_mapToDrawerItem(
     context,
     getMenuOptionsSection2(context, vm, drawerIconColour),
   ));
-  widgets.add(customDivider());
+  widgets.add(getBaseWidget().customDivider());
   widgets.addAll(_mapToDrawerItem(
     context,
     getMenuOptionsSection3(context, vm, drawerIconColour),
   ));
-  widgets.add(customDivider());
+  widgets.add(getBaseWidget().customDivider());
 
   widgets.add(
     FutureBuilder<ResultWithValue<VersionDetail>>(

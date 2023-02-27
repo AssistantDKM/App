@@ -17,9 +17,6 @@ Future main() async {
     assistantAppsAppGuid: assistantAppsAppGuid,
     currentWhatIsNewGuid: currentWhatIsNewGuid,
 
-    wiredashProjectId: wiredashProjectId,
-    wiredashSecret: wiredashSecret,
-
     // from env.dart
     patreonOAuthClientId: patreonOAuthClientId,
   );

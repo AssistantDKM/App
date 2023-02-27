@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../../constants/app_image.dart';
 import '../../constants/app_colour.dart';
+import '../../constants/app_misc.dart';
 import '../../helper/currency_helper.dart';
 
 Widget chipFromString(String label) => Padding(
@@ -46,5 +47,45 @@ Widget dinkumPrice(BuildContext priceCtx, int price) {
       ],
     ),
     backgroundColor: AppColour.moneyTagColour,
+  );
+}
+
+List<Widget> genericItemWithOverflowButton<T>(
+  BuildContext context,
+  List<T> itemArray,
+  Widget Function(BuildContext context, T item) presenter, {
+  void Function()? viewMoreOnPress,
+}) {
+  int numRecords = itemArray.length > maxNumberOfRowsForRecipeCategory
+      ? maxNumberOfRowsForRecipeCategory
+      : itemArray.length;
+  List<Widget> widgets = List.empty(growable: true);
+  for (var itemIndex = 0; itemIndex < numRecords; itemIndex++) {
+    widgets.add(FlatCard(
+      child: presenter(context, itemArray[itemIndex]),
+    ));
+  }
+  if (itemArray.length > maxNumberOfRowsForRecipeCategory &&
+      viewMoreOnPress != null) {
+    widgets.add(viewMoreButton(
+      context,
+      (itemArray.length - numRecords),
+      viewMoreOnPress,
+    ));
+  }
+  return widgets;
+}
+
+Widget viewMoreButton(BuildContext context, int numLeftOver, viewMoreOnPress) {
+  String viewMore = getTranslations().fromKey(LocaleKey.viewXMore);
+  return Container(
+    margin: const EdgeInsets.symmetric(horizontal: 4.0),
+    child: PositiveButton(
+      title: viewMore.replaceAll("{0}", numLeftOver.toString()),
+      onTap: () {
+        if (viewMoreOnPress == null) return;
+        viewMoreOnPress();
+      },
+    ),
   );
 }

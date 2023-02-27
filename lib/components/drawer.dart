@@ -16,7 +16,7 @@ class AppDrawer extends StatelessWidget {
       child: ListView(
         children: [
           SizedBox(
-            height: 100.0,
+            height: 110.0,
             width: double.infinity,
             child: DrawerHeader(
               decoration: BoxDecoration(
@@ -24,6 +24,7 @@ class AppDrawer extends StatelessWidget {
                   image: AssetImage(path),
                   fit: BoxFit.fitWidth,
                 ),
+                boxShadow: List.empty(),
               ),
               child: null,
               margin: EdgeInsets.zero,

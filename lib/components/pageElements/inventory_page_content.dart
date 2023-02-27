@@ -8,23 +8,32 @@ import '../../contracts/json/inventory_item_consumable.dart';
 import '../../contracts/json/inventory_item_consumable_buff.dart';
 import '../../contracts/json/inventory_item_craftable_required.dart';
 import '../../contracts/json/inventory_item_creature.dart';
+import '../../contracts/pageItem/inventory_page_item.dart';
+import '../../helper/generic_repository_helper.dart';
 import '../../helper/patreon_helper.dart';
 import '../../helper/position_helper.dart';
 import '../../pages/inventory_pages.dart';
+import '../../pages/misc/all_possible_outputs_future_page.dart';
 import '../../redux/misc/inventory_item_viewmodel.dart';
 import '../chip/effect_chip_presenter.dart';
-import '../tilePreseneters/required_item_tile_presenter.dart';
+import '../tilePresenters/inventory_tile_presenter.dart';
+import '../tilePresenters/required_item_tile_presenter.dart';
 import 'inventory_item_favourites_icon.dart';
 import 'inventory_item_museum_tile.dart';
 import 'item_page_components.dart';
 
-List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
-    commonInventoryContents(
+List<Widget> Function(
+  InventoryPageItem loadedPageItem,
+  bool isInDetailPane,
+) commonInventoryContents(
   BuildContext contentsContext,
   InventoryItemViewModel viewmodel,
   void Function(Widget newDetailView)? updateDetailView,
+  void Function(BuildContext, String, String) navigateTo,
 ) {
-  return (InventoryItem loadedItem, bool isInDetailPane) {
+  return (InventoryPageItem loadedPageItem, bool isInDetailPane) {
+    InventoryItem loadedItem = loadedPageItem.item;
+
     bool isMuseumPlaceable = loadedItem.appId.contains(AppJsonPrefix.bug) ||
         loadedItem.appId.contains(AppJsonPrefix.fish) ||
         loadedItem.appId.contains(AppJsonPrefix.critter);
@@ -154,6 +163,41 @@ List<Widget> Function(InventoryItem loadedItem, bool isInDetailPane)
               .toList(),
         ));
       }
+    }
+
+    if (loadedPageItem.usages.isNotEmpty) {
+      descripWidgets.add(const EmptySpace2x());
+      descripWidgets.add(GenericItemGroup(
+        getTranslations().fromKey(LocaleKey.usedToCreate),
+      ));
+
+      var usagesPresenter = inventoryUsageTilePresenter(
+        viewmodel.isPatron,
+        navigateTo: navigateTo,
+      );
+      descripWidgets.addAll(
+        genericItemWithOverflowButton(
+          contentsContext,
+          loadedPageItem.usages,
+          usagesPresenter,
+          viewMoreOnPress: () async => await getNavigation().navigateAsync(
+            contentsContext,
+            navigateTo: (navigateCtx) {
+              return AllPossibleOutputsFromFuturePage<InventoryItem>(
+                () => getGenericRepoFromAppId(loadedItem.appId)
+                    .getUsagesOfItem(navigateCtx, loadedItem.appId)
+                    .then(
+                      (result) => result.isSuccess //
+                          ? result.value
+                          : List.empty(),
+                    ),
+                '${loadedItem.name} usages',
+                usagesPresenter,
+              );
+            },
+          ),
+        ),
+      );
     }
 
     if (loadedItem.hidden == true && viewmodel.isPatron == false) {

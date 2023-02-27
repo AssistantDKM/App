@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
 import '../components/pageElements/item_list_page.dart';
-import '../components/tilePreseneters/favourite_tile_presenter.dart';
+import '../components/tilePresenters/favourite_tile_presenter.dart';
 import '../constants/analytics_event.dart';
 import '../contracts/json/inventory_item.dart';
 import '../contracts/redux/app_state.dart';

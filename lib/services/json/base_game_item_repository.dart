@@ -16,9 +16,7 @@ class BaseGameItemRepository<T> extends BaseJsonService {
     required this.findItemById,
   });
 
-  Future<ResultWithValue<List<T>>> getItems(
-    BuildContext context,
-  ) async {
+  Future<ResultWithValue<List<T>>> getItems(BuildContext context) async {
     try {
       List responseJson = await getListfromJson(
         context,
@@ -63,6 +61,30 @@ class BaseGameItemRepository<T> extends BaseJsonService {
       getLog().e('$repoName getItem Exception: $exception');
       return ResultWithValue<T>(
           false, fromMap(<String, dynamic>{}), exception.toString());
+    }
+  }
+
+  Future<ResultWithValue<List<T>>> protectedGetUsagesOfItem(
+    BuildContext context,
+    String itemId, {
+    required bool Function(T) filter,
+  }) async {
+    ResultWithValue<List<T>> allItemsResult = await getItems(context);
+    if (allItemsResult.isSuccess == false) return allItemsResult;
+
+    try {
+      List<T> allItems = allItemsResult.value
+          .where((item) => filter(item)) //
+          .toList();
+      allItems.sort(compare);
+      return ResultWithValue<List<T>>(true, allItems, '');
+    } catch (exception) {
+      getLog().e('$repoName getItems Exception: $exception');
+      return ResultWithValue<List<T>>(
+        false,
+        List.empty(),
+        exception.toString(),
+      );
     }
   }
 }

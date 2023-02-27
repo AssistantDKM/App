@@ -110,12 +110,13 @@ class HomePage extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(horizontal: 12),
                     child: GenericItemDescription(getLegalNoticeText()),
                   ),
-                  emptySpace2x(),
+                  const EmptySpace2x(),
                   Center(
                     child: ElevatedButton(
                       style: ButtonStyle(
                         backgroundColor: MaterialStateProperty.all<Color>(
-                            getTheme().getSecondaryColour(scaffoldContext)),
+                          getTheme().getSecondaryColour(scaffoldContext),
+                        ),
                       ),
                       child: Text(
                         getTranslations().fromKey(LocaleKey.noticeAccept),

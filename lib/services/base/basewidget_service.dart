@@ -97,6 +97,26 @@ class BaseWidgetService implements IBaseWidgetService {
       CustomCheckbox(
         key: key,
         value: value,
+        activeColor: activeColor,
         onTap: () => onChanged(!value),
       );
+
+  @override
+  Widget basicBadge({
+    Key? key,
+    required String text,
+    required Widget? child,
+    Color? textColour,
+  }) =>
+      BasicBadge(
+        key: key,
+        text: text,
+        textColour: textColour ?? Colors.black,
+        child: child,
+      );
+
+  @override
+  Widget customDivider() => isWeb
+      ? Divider(thickness: .5, color: Colors.grey[800])
+      : Divider(color: Colors.grey[800]);
 }

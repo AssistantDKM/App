@@ -1,8 +1,6 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-const int maxNumberOfRowsForRecipeCategory = 3;
-
 Widget genericItemImage(BuildContext context, String imagePath,
         {bool disableZoom = false,
         double height = 100,
