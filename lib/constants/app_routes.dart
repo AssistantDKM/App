@@ -13,7 +13,7 @@ import 'analytics_event.dart';
 import 'app_json.dart';
 
 class Routes {
-  static const String home = '/home';
+  static const String home = '/';
   static const String about = '/about';
   static const String settings = '/settings';
   static const String whatIsNew = '/whatIsNew';
@@ -45,10 +45,10 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
     Routes.settings: (_) => SettingsPage(),
     Routes.about: (_) => AboutPage(
           key: const Key('AboutPage'),
-          appType: AssistantAppType.DKM,
+          appType: AssistantAppType.dkm,
           aboutPageWidgetsFunc: (BuildContext ctx) {
             return [
-              emptySpace(0.5),
+              const EmptySpace(0.5),
               pageDefaultPadding(Text(
                 getTranslations().fromKey(LocaleKey.aboutContent),
                 textAlign: TextAlign.center,
@@ -67,7 +67,7 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
     Routes.favourites: (_) => FavouritesPage(),
     Routes.newsPage: (_) => SteamNewsPage(
           AnalyticsEvent.steamNewsPage,
-          AssistantAppType.DKM,
+          AssistantAppType.dkm,
           backupFunc: (_) => Future(() =>
               ResultWithValue<List<SteamNewsItemViewModel>>(
                   false, List.empty(), '')),

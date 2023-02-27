@@ -20,7 +20,11 @@ Widget milestoneLevelTilePresenter(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(item.permitPoints.toString()),
-            localImage(AppImage.permitPoint, width: 24, height: 24),
+            const LocalImage(
+              imagePath: AppImage.permitPoint,
+              width: 24,
+              height: 24,
+            ),
           ],
         )
       ],

@@ -1,11 +1,10 @@
-import 'package:assistant_dinkum_app/components/common/cached_future_builder.dart';
-import 'package:assistant_dinkum_app/pages/inventory_pages.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../contracts/json/inventory_item.dart';
 import '../../contracts/json/inventory_item_craftable_required.dart';
 import '../../helper/generic_repository_helper.dart';
+import '../../pages/inventory_pages.dart';
 
 Widget requiredItemTilePresenter(
   BuildContext context,
@@ -17,7 +16,7 @@ Widget requiredItemTilePresenter(
       context,
       item.appId,
     ),
-    whileLoading: getLoading().smallLoadingTile(context),
+    whileLoading: () => getLoading().smallLoadingTile(context),
     whenDoneLoading: (ResultWithValue<InventoryItem> result) =>
         requiredItemBodyTilePresenter(context, result, item.quantity, onTap),
   );

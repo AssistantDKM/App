@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import '../../contracts/json/inventory_item.dart';
 import '../../helper/generic_repository_helper.dart';
 import '../../pages/inventory_pages.dart';
-import '../common/cached_future_builder.dart';
 
 Widget foodPreferenceTilePresenter(
   BuildContext context, {
@@ -15,7 +14,7 @@ Widget foodPreferenceTilePresenter(
 }) {
   return CachedFutureBuilder(
     future: getGenericRepoFromAppId(appId).getItem(context, appId),
-    whileLoading: getLoading().smallLoadingTile(context),
+    whileLoading: () => getLoading().smallLoadingTile(context),
     whenDoneLoading: (ResultWithValue<InventoryItem> result) {
       return requiredItemBodyTilePresenter(
         context,
@@ -49,8 +48,8 @@ Widget requiredItemBodyTilePresenter(
     leadingImage: item.icon,
     name: item.name,
     subtitle: Text(subtitleText),
-    trailing: localImage(
-      trailingImgPath,
+    trailing: LocalImage(
+      imagePath: trailingImgPath,
       width: 32,
       height: 32,
       padding: const EdgeInsets.only(right: 8),

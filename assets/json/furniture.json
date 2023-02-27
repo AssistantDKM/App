@@ -3659,5 +3659,336 @@
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
+  },
+  {
+    "Id": 1010,
+    "AppId": "furniture_1010",
+    "Icon": "inventory/allUI3_18.png",
+    "Name": "Festive Tree",
+    "Description": "So pretty!",
+    "SellPrice": 2696,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 1014,
+          "AppId": "cooking_1014",
+          "Quantity": 5
+        },
+        {
+          "Id": 601,
+          "AppId": "item_601",
+          "Quantity": 1
+        },
+        {
+          "Id": 301,
+          "AppId": "item_301",
+          "Quantity": 3
+        },
+        {
+          "Id": 317,
+          "AppId": "item_317",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 7,
+      "WorkPlaceConditions": "NickShop",
+      "CategoryEnum": 2,
+      "Category": "Tools",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 1,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1012,
+    "AppId": "furniture_1012",
+    "Icon": "inventory/allUI3_23.png",
+    "Name": "Festive Crate",
+    "Description": "Store special things in here if you like",
+    "SellPrice": 1485,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 1014,
+          "AppId": "cooking_1014",
+          "Quantity": 5
+        },
+        {
+          "Id": 305,
+          "AppId": "item_305",
+          "Quantity": 2
+        },
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 1
+        },
+        {
+          "Id": 306,
+          "AppId": "item_306",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 7,
+      "WorkPlaceConditions": "NickShop",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 1,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1016,
+    "AppId": "furniture_1016",
+    "Icon": "inventory/allUI3_25.png",
+    "Name": "Fireplace",
+    "Description": "It's a fire for inside",
+    "SellPrice": 2829,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 1014,
+          "AppId": "cooking_1014",
+          "Quantity": 5
+        },
+        {
+          "Id": 26,
+          "AppId": "item_26",
+          "Quantity": 10
+        },
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 4
+        },
+        {
+          "Id": 307,
+          "AppId": "item_307",
+          "Quantity": 5
+        },
+        {
+          "Id": 18,
+          "AppId": "item_18",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 7,
+      "WorkPlaceConditions": "NickShop",
+      "CategoryEnum": 2,
+      "Category": "Tools",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 4,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1017,
+    "AppId": "furniture_1017",
+    "Icon": "inventory/allUI3_24.png",
+    "Name": "Mini Festive Tree",
+    "Description": "",
+    "SellPrice": 516,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 1014,
+          "AppId": "cooking_1014",
+          "Quantity": 2
+        },
+        {
+          "Id": 317,
+          "AppId": "item_317",
+          "Quantity": 1
+        },
+        {
+          "Id": 301,
+          "AppId": "item_301",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 7,
+      "WorkPlaceConditions": "NickShop",
+      "CategoryEnum": 2,
+      "Category": "Tools",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1018,
+    "AppId": "furniture_1018",
+    "Icon": "inventory/allUI3_26.png",
+    "Name": "Festive Boom Box",
+    "Description": "A box that plays a festive beat.",
+    "SellPrice": 65669,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 1014,
+          "AppId": "cooking_1014",
+          "Quantity": 10
+        },
+        {
+          "Id": 586,
+          "AppId": "item_586",
+          "Quantity": 3
+        },
+        {
+          "Id": 644,
+          "AppId": "clothing_644",
+          "Quantity": 10
+        },
+        {
+          "Id": 642,
+          "AppId": "item_642",
+          "Quantity": 5
+        },
+        {
+          "Id": 588,
+          "AppId": "item_588",
+          "Quantity": 1
+        },
+        {
+          "Id": 113,
+          "AppId": "item_113",
+          "Quantity": 10
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 7,
+      "WorkPlaceConditions": "NickShop",
+      "CategoryEnum": 3,
+      "Category": "Decorations",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 10,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1019,
+    "AppId": "furniture_1019",
+    "Icon": "inventory/allUI3_27.png",
+    "Name": "Festive Towel",
+    "Description": "Soak up that festive sun",
+    "SellPrice": 7022,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 1014,
+          "AppId": "cooking_1014",
+          "Quantity": 4
+        },
+        {
+          "Id": 634,
+          "AppId": "item_634",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 7,
+      "WorkPlaceConditions": "NickShop",
+      "CategoryEnum": 3,
+      "Category": "Decorations",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1024,
+    "AppId": "furniture_1024",
+    "Icon": "inventory/allUI3_32.png",
+    "Name": "Star Light",
+    "Description": "Twinkle Twinkle",
+    "SellPrice": 8487,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
   }
 ]

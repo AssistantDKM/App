@@ -8,7 +8,7 @@ Widget chipLink(
   Color? foregroundColor,
   Color? backgroundColor,
 }) {
-  Chip chipContent = Chip(
+  Widget chipContent = getBaseWidget().appChip(
     label: Row(
       mainAxisSize: MainAxisSize.min,
       children: [
@@ -17,7 +17,7 @@ Widget chipLink(
           style: TextStyle(color: foregroundColor ?? Colors.black),
         ),
         if (externalUrl != null) ...[
-          emptySpace(0.5),
+          const EmptySpace(0.5),
           const Icon(Icons.link, color: Colors.black),
         ],
       ],

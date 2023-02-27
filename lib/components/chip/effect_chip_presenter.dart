@@ -73,12 +73,12 @@ Widget effectChipPresenter(
 
   return Padding(
     padding: const EdgeInsets.symmetric(horizontal: 2),
-    child: Chip(
+    child: getBaseWidget().appChip(
       label: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          localImage(localImageStr, width: 24, height: 24),
-          genericItemDescription(valueStr)
+          LocalImage(imagePath: localImageStr, width: 24, height: 24),
+          GenericItemDescription(valueStr)
         ],
       ),
       backgroundColor: AppColour.defaultTagColour,

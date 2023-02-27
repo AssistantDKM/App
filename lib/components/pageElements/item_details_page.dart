@@ -2,7 +2,6 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../contracts/interface/item_base_presenter.dart';
-import '../common/cached_future_builder.dart';
 import '../scaffoldTemplates/generic_page_scaffold.dart';
 
 class ItemDetailsPage<T extends ItemBasePresenter> extends StatelessWidget {
@@ -36,7 +35,7 @@ class ItemDetailsPage<T extends ItemBasePresenter> extends StatelessWidget {
     );
     return CachedFutureBuilder<ResultWithValue<T>>(
       future: getItemFunc(),
-      whileLoading: isInDetailPane
+      whileLoading: () => isInDetailPane
           ? loadingWidget
           : genericPageScaffold(
               context,
@@ -77,9 +76,9 @@ class ItemDetailsPage<T extends ItemBasePresenter> extends StatelessWidget {
       return getLoading().customErrorWidget(context);
     }
 
-    List<Widget> widgets = [emptySpace1x()];
+    List<Widget> widgets = [const EmptySpace1x()];
     widgets.addAll(contractToWidgetList(snapshot.value, isInDetailPane));
-    widgets.add(emptySpace10x());
+    widgets.add(const EmptySpace10x());
 
     return listWithScrollbar(
       itemCount: widgets.length,

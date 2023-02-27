@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:settings_ui/settings_ui.dart';
 
-import '../components/adaptive/checkbox.dart';
 import '../components/drawer.dart';
 import '../constants/analytics_event.dart';
 import '../constants/app_image.dart';
@@ -127,17 +126,23 @@ class SettingsPage extends StatelessWidget {
       SettingsTile.switchTile(
         leading: GestureDetector(
           onLongPress: patreonAccessCodePopupFunc,
-          child: localImage(AppImage.patreon, width: 24, height: 24),
+          child: const LocalImage(
+            imagePath: AppImage.patreon,
+            width: 24,
+            height: 24,
+          ),
         ),
         title: GestureDetector(
           onLongPress: patreonAccessCodePopupFunc,
           child: Text(patreonTitle),
         ),
         initialValue: viewModel.isPatron,
-        trailing: CustomCheckbox(
-          value: viewModel.isPatron,
+        trailing: GestureDetector(
           onLongPress: patreonAccessCodePopupFunc,
-          onTap: patreonModalFunc,
+          child: getBaseWidget().adaptiveCheckbox(
+            value: viewModel.isPatron,
+            onChanged: (_) => patreonModalFunc(),
+          ),
         ),
         onToggle: (value) => patreonModalFunc(),
       ),

@@ -83,7 +83,7 @@ class HomePage extends StatelessWidget {
         Widget Function(BuildContext) pageBuilder;
         pageBuilder = (scaffoldContext) {
           return SingleChildScrollView(
-            child: responsiveStaggeredGrid(items: itemBuilders),
+            child: ResponsiveStaggeredGrid(items: itemBuilders),
           );
         };
 
@@ -105,10 +105,10 @@ class HomePage extends StatelessWidget {
                     //   navigateToNamed: navigateToNamed,
                     // ),
                   ),
-                  emptySpace2x(),
+                  const EmptySpace2x(),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 12),
-                    child: genericItemDescription(getLegalNoticeText()),
+                    child: GenericItemDescription(getLegalNoticeText()),
                   ),
                   emptySpace2x(),
                   Center(
@@ -131,7 +131,7 @@ class HomePage extends StatelessWidget {
 
         return getBaseWidget().appScaffold(
           context,
-          appBar: homePageAppBar('Home'),
+          appBar: HomePageAppBar('Home'),
           drawer: const AppDrawer(),
           builder: pageBuilder,
           // bottomNavigationBar: const BottomNavbar(currentRoute: Routes.home),
@@ -159,7 +159,7 @@ Widget baseHomeCard(
           children: [
             Flexible(
               flex: 2,
-              child: localImage(imagePath),
+              child: LocalImage(imagePath: imagePath),
             ),
             Text(
               text,

@@ -19,7 +19,8 @@ Widget itemBaseTilePresenter({
     imgChild = genericTileImage(item.icon);
   } else {
     if ((item as dynamic).imageUrl != null) {
-      imgChild = localImage(networkImageToLocal((item as dynamic).imageUrl));
+      imgChild = LocalImage(
+          imagePath: networkImageToLocal((item as dynamic).imageUrl));
     }
   }
   if (item is InventoryItem && isPatron == false && item.hidden) {

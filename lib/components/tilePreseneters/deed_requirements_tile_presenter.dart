@@ -1,12 +1,11 @@
-import 'package:assistant_dinkum_app/constants/app_image.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 
+import '../../constants/app_image.dart';
 import '../../contracts/json/inventory_item.dart';
+import '../../helper/currency_helper.dart';
 import '../../helper/generic_repository_helper.dart';
 import '../../pages/inventory_pages.dart';
-import '../common/cached_future_builder.dart';
 
 Widget deedRequirementsTilePresenter(
   BuildContext context,
@@ -20,7 +19,7 @@ Widget deedRequirementsTilePresenter(
       context,
       deedId,
     ),
-    whileLoading: getLoading().smallLoadingTile(context),
+    whileLoading: () => getLoading().smallLoadingTile(context),
     whenDoneLoading: (ResultWithValue<InventoryItem> result) =>
         deedRequirementsBodyTilePresenter(
       context,
@@ -48,20 +47,15 @@ Widget deedRequirementsBodyTilePresenter(
   }
 
   Locale locale = Localizations.localeOf(deedCtx);
-  NumberFormat format = NumberFormat.currency(
-    locale: locale.toString(),
-    decimalDigits: 0,
-    symbol: '',
-  );
 
   return ListTile(
-    leading: localImage(invResult.value.icon),
+    leading: LocalImage(imagePath: invResult.value.icon),
     title: Row(
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
-        localImage(AppImage.coin, width: 32, height: 32),
-        emptySpace(0.25),
-        Text(format.format(spendBeforeMoveIn)),
+        const LocalImage(imagePath: AppImage.coin, width: 32, height: 32),
+        const EmptySpace(0.25),
+        Text(formatCurrency(locale, spendBeforeMoveIn)),
       ],
     ),
     subtitle: Wrap(
@@ -107,5 +101,6 @@ Widget getHeartImage(int relationshipBeforeMove) {
   if (relationshipHeartPart >= 4) {
     heartImg = AppImage.relationshipHeart4;
   }
-  return localImage(heartImg, height: heartImgSize, width: heartImgSize);
+  return LocalImage(
+      imagePath: heartImg, height: heartImgSize, width: heartImgSize);
 }

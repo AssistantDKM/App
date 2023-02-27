@@ -14,6 +14,7 @@ ThemeData darkTheme() {
   final primary = HexColor('8b432b');
   final secondary = HexColor('5AA56D');
   return base.copyWith(
+    // useMaterial3: true,
     primaryColor: primary,
     // accentColor: secondary, //DEPRECATED
     colorScheme: base.colorScheme.copyWith(
@@ -40,12 +41,13 @@ ThemeData darkTheme() {
 TextTheme _buildAppTextTheme(TextTheme base) {
   return base
       .copyWith(
-        headline5: base.headline5?.copyWith(fontWeight: FontWeight.w900),
-        headline6: base.headline6?.copyWith(
+        headlineSmall:
+            base.headlineSmall?.copyWith(fontWeight: FontWeight.w900),
+        titleLarge: base.titleLarge?.copyWith(
           fontSize: 18.0,
           fontWeight: FontWeight.w500,
         ),
-        caption: base.caption?.copyWith(
+        bodySmall: base.bodySmall?.copyWith(
           fontSize: 14.0,
           fontWeight: FontWeight.w500,
         ),

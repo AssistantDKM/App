@@ -6,7 +6,6 @@ import 'dart:convert';
 
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
-import '../../helper/json_helper.dart';
 import 'enum/creature_type.dart';
 
 class InventoryItemCreature {

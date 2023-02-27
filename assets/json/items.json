@@ -288,14 +288,14 @@
     "Icon": "inventory/allUI_201.png",
     "Name": "Stone Steps",
     "Description": "5, 6, 7, 8",
-    "SellPrice": 4,
+    "SellPrice": 6,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
-          "Id": 15,
-          "AppId": "item_15",
+          "Id": 26,
+          "AppId": "item_26",
           "Quantity": 1
         },
         {
@@ -1944,20 +1944,15 @@
     "Icon": "inventory/allUI_73.png",
     "Name": "Cements Steps",
     "Description": "5, 6, 7, 8",
-    "SellPrice": 4,
+    "SellPrice": 6,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
-          "Id": 250,
-          "AppId": "item_250",
-          "Quantity": 1
-        },
-        {
           "Id": 12,
           "AppId": "item_12",
-          "Quantity": 1
+          "Quantity": 2
         }
       ],
       "RecipeGiveThisAmount": 4,
@@ -2629,14 +2624,14 @@
     "Icon": "inventory/allUI2_204.png",
     "Name": "Palm Wood Steps",
     "Description": "5, 6, 7, 8",
-    "SellPrice": 46,
+    "SellPrice": 94,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
-          "Id": 314,
-          "AppId": "item_314",
+          "Id": 306,
+          "AppId": "item_306",
           "Quantity": 1
         },
         {
@@ -3611,7 +3606,7 @@
     "AppId": "item_389",
     "Icon": "inventory/allUI_158.png",
     "Name": "Basic Hammer",
-    "Description": "I big hammer for hitting things slowly.",
+    "Description": "A big hammer for hitting things slowly.",
     "SellPrice": 2062,
     "IsStackable": false,
     "Equipable": "NotEquipable",
@@ -7854,7 +7849,7 @@
     "Icon": "inventory/allUI2_116.png",
     "Name": "Boogie Board",
     "Description": "Float your day away.",
-    "SellPrice": 1000,
+    "SellPrice": 10000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
     "RequiredLicence": "None",
@@ -9786,14 +9781,14 @@
     "Icon": "inventory/allUI2_220.png",
     "Name": "Hard Wood Flag Post",
     "Description": "Fence post that has a lil flag on it",
-    "SellPrice": 6914,
+    "SellPrice": 6945,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Craftable": {
       "RequiredItems": [
         {
-          "Id": 306,
-          "AppId": "item_306",
+          "Id": 307,
+          "AppId": "item_307",
           "Quantity": 1
         },
         {
@@ -10002,7 +9997,7 @@
     "AppId": "item_959",
     "Icon": "inventory/allUI2_251.png",
     "Name": "Alpha Spear",
-    "Description": "Quak",
+    "Description": "Quaking in your boots",
     "SellPrice": 200000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
@@ -10173,7 +10168,7 @@
     "Id": 964,
     "AppId": "item_964",
     "Icon": "inventory/allUI3_0.png",
-    "Name": "Cobble Stone Path",
+    "Name": "Cobblestone Path",
     "Description": "A bunch of rocks cobbled together",
     "SellPrice": 2,
     "IsStackable": true,
@@ -10341,7 +10336,7 @@
     "AppId": "item_968",
     "Icon": "inventory/allUI3_4.png",
     "Name": "Cobblestone Road Lines",
-    "Description": "A bunch of rocks cobbled together",
+    "Description": "A road covered in little white lines.",
     "SellPrice": 2,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -10563,6 +10558,356 @@
       "LicenceTypeEnum": 11,
       "LicenceType": "Farming",
       "LicenceLevelLearnt": 1,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1011,
+    "AppId": "item_1011",
+    "Icon": "inventory/allUI3_19.png",
+    "Name": "Festive Scarecrow",
+    "Description": "Stop birds from eating all your crops.",
+    "SellPrice": 7331,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 1014,
+          "AppId": "cooking_1014",
+          "Quantity": 5
+        },
+        {
+          "Id": 33,
+          "AppId": "item_33",
+          "Quantity": 2
+        },
+        {
+          "Id": 210,
+          "AppId": "item_210",
+          "Quantity": 8
+        },
+        {
+          "Id": 309,
+          "AppId": "item_309",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 7,
+      "WorkPlaceConditions": "NickShop",
+      "CategoryEnum": 5,
+      "Category": "Gardening",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 11,
+      "LicenceType": "Farming",
+      "LicenceLevelLearnt": 1,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1013,
+    "AppId": "item_1013",
+    "Icon": "inventory/allUI3_20.png",
+    "Name": "Festive Jackaroo",
+    "Description": "A statue made of light",
+    "SellPrice": 5319,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 1014,
+          "AppId": "cooking_1014",
+          "Quantity": 5
+        },
+        {
+          "Id": 642,
+          "AppId": "item_642",
+          "Quantity": 1
+        },
+        {
+          "Id": 601,
+          "AppId": "item_601",
+          "Quantity": 1
+        },
+        {
+          "Id": 113,
+          "AppId": "item_113",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 7,
+      "WorkPlaceConditions": "NickShop",
+      "CategoryEnum": 4,
+      "Category": "Light",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1020,
+    "AppId": "item_1020",
+    "Icon": "inventory/allUI3_28.png",
+    "Name": "Festive Umbrella",
+    "Description": "Block out that festive sun",
+    "SellPrice": 14881,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 1014,
+          "AppId": "cooking_1014",
+          "Quantity": 5
+        },
+        {
+          "Id": 634,
+          "AppId": "item_634",
+          "Quantity": 2
+        },
+        {
+          "Id": 649,
+          "AppId": "item_649",
+          "Quantity": 8
+        },
+        {
+          "Id": 213,
+          "AppId": "item_213",
+          "Quantity": 2
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 7,
+      "WorkPlaceConditions": "NickShop",
+      "CategoryEnum": 3,
+      "Category": "Decorations",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 1,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1021,
+    "AppId": "item_1021",
+    "Icon": "inventory/allUI3_29.png",
+    "Name": "Candy Cane",
+    "Description": "It's minty",
+    "SellPrice": 11025,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1023,
+    "AppId": "item_1023",
+    "Icon": "inventory/allUI3_35.png",
+    "Name": "Striped Boogie Board",
+    "Description": "Float your day away.",
+    "SellPrice": 10000,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1025,
+    "AppId": "item_1025",
+    "Icon": "inventory/allUI3_31.png",
+    "Name": "Candy Pickaxe",
+    "Description": "Sweet Pickaxe",
+    "SellPrice": 4000,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "Mining",
+    "RequiredLicenceLevel": 2,
+    "LicenceLevelText": "LVL II"
+  },
+  {
+    "Id": 1026,
+    "AppId": "item_1026",
+    "Icon": "inventory/allUI3_30.png",
+    "Name": "Candy Axe",
+    "Description": "Choppy Night",
+    "SellPrice": 3750,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "Logging",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1027,
+    "AppId": "item_1027",
+    "Icon": "inventory/allUI3_34.png",
+    "Name": "Gingerbread Path",
+    "Description": "So tasty you can walk on it.",
+    "SellPrice": 215,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 862,
+          "AppId": "cooking_862",
+          "Quantity": 1
+        },
+        {
+          "Id": 861,
+          "AppId": "cooking_861",
+          "Quantity": 1
+        },
+        {
+          "Id": 1014,
+          "AppId": "cooking_1014",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 16,
+      "WorkPlaceConditionsEnum": 7,
+      "WorkPlaceConditions": "NickShop",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 3,
+      "SubCategory": "Path",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 5,
+      "LicenceType": "LandScaping",
+      "LicenceLevelLearnt": 1,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1028,
+    "AppId": "item_1028",
+    "Icon": "inventory/allUI3_33.png",
+    "Name": "Festive Fence",
+    "Description": "Keeps festivities in",
+    "SellPrice": 56,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 1014,
+          "AppId": "cooking_1014",
+          "Quantity": 1
+        },
+        {
+          "Id": 305,
+          "AppId": "item_305",
+          "Quantity": 2
+        },
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 4
+        }
+      ],
+      "RecipeGiveThisAmount": 16,
+      "WorkPlaceConditionsEnum": 7,
+      "WorkPlaceConditions": "NickShop",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 4,
+      "SubCategory": "Fence",
+      "TierLevel": 1,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 5,
+      "LicenceType": "LandScaping",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1029,
+    "AppId": "item_1029",
+    "Icon": "inventory/allUI3_15.png",
+    "Name": "Pleep Whistle",
+    "Description": "Calls Pleep towards you.",
+    "SellPrice": 3098,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 306,
+          "AppId": "item_306",
+          "Quantity": 6
+        },
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 2
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 6,
+      "WorkPlaceConditions": "Blocked",
+      "CategoryEnum": 6,
+      "Category": "House",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 2,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceTypeEnum": 0,
+      "LicenceType": "None",
+      "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
     "RequiredLicence": "None",

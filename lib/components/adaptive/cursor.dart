@@ -31,9 +31,9 @@ class _CustomCursorWidget extends State<CustomCursor> {
             duration: const Duration(milliseconds: 1),
             left: position.dx,
             top: position.dy - 32,
-            child: IgnorePointer(
-              child: localImage(
-                AppImage.customCursor,
+            child: const IgnorePointer(
+              child: LocalImage(
+                imagePath: AppImage.customCursor,
                 width: 48,
                 height: 48,
               ),

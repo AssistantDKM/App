@@ -21,8 +21,7 @@ class DinkumApp extends StatefulWidget {
 }
 
 class _DinkumAppState extends State<DinkumApp> {
-  // ignore: avoid_init_to_null
-  Store<AppState>? store = null;
+  Store<AppState>? store;
   late TranslationsDelegate _newLocaleDelegate;
 
   @override

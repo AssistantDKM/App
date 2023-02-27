@@ -135,6 +135,7 @@ class DialogService implements IDialogService {
     context,
     TextEditingController controller, {
     String? title,
+    List<int>? amounts,
     Function(BuildContext ctx, String)? onSuccess,
   }) {
     void onControllerTextChange(
@@ -147,10 +148,10 @@ class DialogService implements IDialogService {
     }
 
     List<int> amounts = [1, 2, 3, 5, 10, 25];
-    List<InputChip> inputs = List.empty(growable: true);
+    List<Widget> inputs = List.empty(growable: true);
     for (int amount in amounts) {
       inputs.add(
-        InputChip(
+        getBaseWidget().appChip(
           label: Text(
             amount.toString(),
             style: TextStyle(
@@ -159,7 +160,7 @@ class DialogService implements IDialogService {
             ),
           ),
           backgroundColor: getTheme().getSecondaryColour(context),
-          onPressed: () => onControllerTextChange(
+          onTap: () => onControllerTextChange(
             controller,
             amount.toString(),
           ),
