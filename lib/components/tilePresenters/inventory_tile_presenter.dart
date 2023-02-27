@@ -24,3 +24,24 @@ Widget Function(
     );
   };
 }
+
+Widget Function(
+  BuildContext,
+  ItemBasePresenter,
+) inventoryUsageTilePresenter(
+  bool isPatron, {
+  required void Function(BuildContext, String, String) navigateTo,
+}) {
+  return (
+    BuildContext context,
+    ItemBasePresenter item,
+  ) {
+    return itemBaseTilePresenter(
+      context: context,
+      item: item,
+      index: 0,
+      isPatron: isPatron,
+      onTap: () => navigateTo(context, item.appId, item.name),
+    );
+  };
+}
