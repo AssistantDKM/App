@@ -1,11 +1,14 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
+import '../../components/pageElements/item_page_components.dart';
 import '../../components/scaffoldTemplates/generic_page_scaffold.dart';
 
 class AllPossibleOutputsFromFuturePage<T> extends StatelessWidget {
   final Future<List<T>> Function() requiredItemsFuture;
   final String title;
+  final String? subtitle;
+  final bool hideAppBar;
   final Widget Function(BuildContext context, T p) presenter;
 
   const AllPossibleOutputsFromFuturePage(
@@ -13,14 +16,34 @@ class AllPossibleOutputsFromFuturePage<T> extends StatelessWidget {
     this.title,
     this.presenter, {
     Key? key,
+    this.subtitle,
+    this.hideAppBar = false,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    Widget body = getBody(context);
+    if (hideAppBar) {
+      return Column(
+        children: [
+          const EmptySpace2x(),
+          GenericItemName(title),
+          const EmptySpace1x(),
+          if (subtitle != null && subtitle!.isNotEmpty) ...[
+            pageDefaultPadding(GenericItemDescription(subtitle!)),
+            const EmptySpace1x(),
+          ],
+          getBaseWidget().customDivider(),
+          const EmptySpace1x(),
+          Expanded(child: body),
+        ],
+      );
+    }
+
     return basicGenericPageScaffold(
       context,
       title: title,
-      body: getBody(context),
+      body: body,
     );
   }
 
@@ -45,7 +68,7 @@ class AllPossibleOutputsFromFuturePage<T> extends StatelessWidget {
           itemCount: data.length,
           itemBuilder: (context, index) => presenter(context, data[index]),
           scrollController: ScrollController(),
-          padding: const EdgeInsets.only(bottom: 64),
+          padding: const EdgeInsets.only(top: 8, bottom: 64),
         );
       },
     );

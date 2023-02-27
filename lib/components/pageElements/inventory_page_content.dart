@@ -173,29 +173,36 @@ List<Widget> Function(
 
       var usagesPresenter = inventoryUsageTilePresenter(
         viewmodel.isPatron,
-        navigateTo: navigateTo,
+        isInDetailPane: isInDetailPane,
+        updateDetailView: updateDetailView,
       );
+
+      allItemsPageNavigate(BuildContext navigateCtx) =>
+          AllPossibleOutputsFromFuturePage<InventoryItem>(
+            () => getGenericRepoFromAppId(loadedItem.appId)
+                .getUsagesOfItem(navigateCtx, loadedItem.appId)
+                .then(
+                  (result) => result.isSuccess //
+                      ? result.value
+                      : List.empty(),
+                ),
+            loadedItem.name,
+            usagesPresenter,
+            subtitle: getTranslations().fromKey(LocaleKey.usedToCreate),
+            hideAppBar: isInDetailPane,
+          );
+
       descripWidgets.addAll(
         genericItemWithOverflowButton(
           contentsContext,
           loadedPageItem.usages,
           usagesPresenter,
-          viewMoreOnPress: () async => await getNavigation().navigateAsync(
-            contentsContext,
-            navigateTo: (navigateCtx) {
-              return AllPossibleOutputsFromFuturePage<InventoryItem>(
-                () => getGenericRepoFromAppId(loadedItem.appId)
-                    .getUsagesOfItem(navigateCtx, loadedItem.appId)
-                    .then(
-                      (result) => result.isSuccess //
-                          ? result.value
-                          : List.empty(),
-                    ),
-                '${loadedItem.name} usages',
-                usagesPresenter,
-              );
-            },
-          ),
+          viewMoreOnPress: (isInDetailPane && updateDetailView != null)
+              ? () => updateDetailView(allItemsPageNavigate(contentsContext))
+              : () => getNavigation().navigateAsync(
+                    contentsContext,
+                    navigateTo: allItemsPageNavigate,
+                  ),
         ),
       );
     }

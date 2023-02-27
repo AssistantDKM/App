@@ -1,6 +1,8 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../contracts/interface/item_base_presenter.dart';
+import '../../pages/inventory_pages.dart';
 import 'item_base_tile_presenter.dart';
 
 Widget Function(
@@ -30,7 +32,8 @@ Widget Function(
   ItemBasePresenter,
 ) inventoryUsageTilePresenter(
   bool isPatron, {
-  required void Function(BuildContext, String, String) navigateTo,
+  required bool isInDetailPane,
+  updateDetailView,
 }) {
   return (
     BuildContext context,
@@ -41,7 +44,22 @@ Widget Function(
       item: item,
       index: 0,
       isPatron: isPatron,
-      onTap: () => navigateTo(context, item.appId, item.name),
+      onTap: (isInDetailPane && updateDetailView != null)
+          ? () => updateDetailView(
+                InventoryDetailsPage(
+                  item.appId,
+                  title: item.name,
+                  isInDetailPane: isInDetailPane,
+                  updateDetailView: updateDetailView,
+                ),
+              )
+          : () => getNavigation().navigateAwayFromHomeAsync(
+                context,
+                navigateTo: (ctx) => InventoryDetailsPage(
+                  item.appId,
+                  title: item.name,
+                ),
+              ),
     );
   };
 }
