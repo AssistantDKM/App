@@ -898,3 +898,4 @@ android/app/google-services.json
 assets/images/milestone/.gitkeep
 assets/images/people/.gitkeep
 assets/images/inventory/.gitkeep
+/.flutter-plugins-dependencies
