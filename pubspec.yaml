@@ -42,15 +42,19 @@ dev_dependencies:
 dependency_overrides:
   # flutter_staggered_grid_view: 0.6.2
   intl: 0.18.0
+  collection: 1.17.1
+  google_fonts: 4.0.3
+  package_info_plus: 3.0.3
   path: 1.8.3
 
 flutter_icons: ## flutter pub run flutter_launcher_icons:main
   ios: true
+  remove_alpha_ios: true
   android: true
   min_sdk_android: 23
   image_path: 'assets/images/fullSizeIcon.png'
-  # adaptive_icon_background: 'assets/images/fullSizeIconAdaptiveBg.png'
-  # adaptive_icon_foreground: 'assets/images/fullSizeIconAdaptiveFg.png'
+  adaptive_icon_background: 'assets/images/fullSizeIconAdaptiveBg.png'
+  adaptive_icon_foreground: 'assets/images/fullSizeIconAdaptiveFg.png'
   web:
     generate: true
     image_path: 'assets/images/fullSizeIcon-outline.png'

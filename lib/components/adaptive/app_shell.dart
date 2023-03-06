@@ -94,6 +94,7 @@ class AppShell extends StatelessWidget {
         scrollBehavior: scrollBehavior,
         localizationsDelegates: localizationsDelegates,
         supportedLocales: supportedLocales,
+        debugShowCheckedModeBanner: false,
       ),
     );
 

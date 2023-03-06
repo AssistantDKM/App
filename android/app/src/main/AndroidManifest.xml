@@ -3,11 +3,12 @@
   package="com.assistantapps.assistant_dinkum_app"
 >
    <application
-    android:label="assistant_dinkum_app"
+    android:label="Assistant for Dinkum"
     android:name="${applicationName}"
     android:icon="@mipmap/ic_launcher"
+    android:usesCleartextTraffic="true"
   >
-        <activity
+    <activity
       android:name=".MainActivity"
       android:exported="true"
       android:launchMode="singleTop"
