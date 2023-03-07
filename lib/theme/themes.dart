@@ -10,20 +10,20 @@ ThemeData getDynamicTheme(Brightness brightness) {
 }
 
 ThemeData darkTheme() {
-  final base = ThemeData.dark();
+  final themeBase = ThemeData.dark();
   final primary = HexColor('8b432b');
   final secondary = HexColor('5AA56D');
-  return base.copyWith(
+  return themeBase.copyWith(
     // useMaterial3: true,
     primaryColor: primary,
     // accentColor: secondary, //DEPRECATED
-    colorScheme: base.colorScheme.copyWith(
+    colorScheme: themeBase.colorScheme.copyWith(
       primary: primary,
       secondary: secondary,
       secondaryContainer: secondary,
     ),
-    textTheme: _buildAppTextTheme(base.textTheme),
-    primaryTextTheme: _buildAppTextTheme(base.primaryTextTheme),
+    textTheme: _buildAppTextTheme(themeBase.textTheme),
+    primaryTextTheme: _buildAppTextTheme(themeBase.primaryTextTheme),
     // accentTextTheme: _buildAppTextTheme(base.accentTextTheme, fontFamily), //DEPRECATED
     iconTheme: IconThemeData(color: secondary),
     buttonTheme: ButtonThemeData(
@@ -38,16 +38,16 @@ ThemeData darkTheme() {
   );
 }
 
-TextTheme _buildAppTextTheme(TextTheme base) {
-  return base
+TextTheme _buildAppTextTheme(TextTheme themeBase) {
+  return themeBase
       .copyWith(
         headlineSmall:
-            base.headlineSmall?.copyWith(fontWeight: FontWeight.w900),
-        titleLarge: base.titleLarge?.copyWith(
+            themeBase.headlineSmall?.copyWith(fontWeight: FontWeight.w900),
+        titleLarge: themeBase.titleLarge?.copyWith(
           fontSize: 18.0,
           fontWeight: FontWeight.w500,
         ),
-        bodySmall: base.bodySmall?.copyWith(
+        bodySmall: themeBase.bodySmall?.copyWith(
           fontSize: 14.0,
           fontWeight: FontWeight.w500,
         ),
