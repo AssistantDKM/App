@@ -3,7 +3,11 @@
     "Id": 1,
     "AppId": "licence_1",
     "Name": "Mining",
-    "Description": "LicenceDesc/Licence_Mining_0_Desc",
+    "Descriptions": [
+      "Allows the holder to buy pickaxes and break rocks and ore deposits.",
+      "Allows the holder to craft a better pickaxe.",
+      "Allows the holder to craft a better pickaxe."
+    ],
     "Icon": "",
     "MaxLevel": 3,
     "LevelCost": 250,
@@ -16,7 +20,11 @@
     "Id": 2,
     "AppId": "licence_2",
     "Name": "Logging",
-    "Description": "LicenceDesc/Licence_Logging_0_Desc",
+    "Descriptions": [
+      "Allows the holder to buy axes and chop down trees.",
+      "Allows the holder to craft a better axe.",
+      "Allows the holder to craft a better axe."
+    ],
     "Icon": "",
     "MaxLevel": 3,
     "LevelCost": 250,
@@ -29,7 +37,11 @@
     "Id": 3,
     "AppId": "licence_3",
     "Name": "Fishing",
-    "Description": "LicenceDesc/Licence_Fishing_0_Desc",
+    "Descriptions": [
+      "Allows holder to buy fishing rods and catch fish.",
+      "Allows the holder to see bubbles created by underwater creatures. Unlocks a new fishing rod recipe",
+      "Allows the holder to craft Crab Pots. Unlocks a new fishing rod recipe."
+    ],
     "Icon": "",
     "MaxLevel": 3,
     "LevelCost": 250,
@@ -42,7 +54,11 @@
     "Id": 4,
     "AppId": "licence_4",
     "Name": "Hunting",
-    "Description": "LicenceDesc/Licence_Hunting_0_Desc",
+    "Descriptions": [
+      "Allows the holder to craft basic weapons.",
+      "Allows the holder to craft better weapons. Unlocks trapping Licence.",
+      "Allows the holder to craft better weapons using animal drops. Animals have an even higher chance to drop other useful items when hunted."
+    ],
     "Icon": "",
     "MaxLevel": 3,
     "LevelCost": 250,
@@ -55,7 +71,10 @@
     "Id": 5,
     "AppId": "licence_5",
     "Name": "LandScaping",
-    "Description": "LicenceDesc/Licence_Landscaping_0_Desc",
+    "Descriptions": [
+      "Allows the holder to craft new pathing options.",
+      "Allows the holder to craft new fencing options."
+    ],
     "Icon": "",
     "MaxLevel": 2,
     "LevelCost": 250,
@@ -68,7 +87,10 @@
     "Id": 6,
     "AppId": "licence_6",
     "Name": "MetalDetecting",
-    "Description": "LicenceDesc/Licence_MetalDetecting_0_Desc",
+    "Descriptions": [
+      "Allows the holder to buy a metal detector and search for treasure around the island.",
+      "Allows the holder to notice some buried items using sight alone."
+    ],
     "Icon": "",
     "MaxLevel": 2,
     "LevelCost": 500,
@@ -81,7 +103,11 @@
     "Id": 7,
     "AppId": "licence_7",
     "Name": "Vehicle",
-    "Description": "LicenceDesc/Licence_Vehicle_0_Desc",
+    "Descriptions": [
+      "Allows the holder to purchase and pilot water vehicles.",
+      "Allows the holder to purchase and drive land vehicles.",
+      "Allows the holder to purchase and pilot flying vehicles."
+    ],
     "Icon": "",
     "MaxLevel": 3,
     "LevelCost": 1200,
@@ -94,7 +120,11 @@
     "Id": 8,
     "AppId": "licence_8",
     "Name": "Commerce",
-    "Description": "LicenceDesc/Licence_Commerce_0_Desc",
+    "Descriptions": [
+      "The holder will receive 5% more when selling items",
+      "The holder will receive 10% more when selling items",
+      "The holder will receive 15% more when selling items"
+    ],
     "Icon": "",
     "MaxLevel": 3,
     "LevelCost": 750,
@@ -107,7 +137,11 @@
     "Id": 9,
     "AppId": "licence_9",
     "Name": "AnimalHandling",
-    "Description": "LicenceDesc/Licence_AnimalHandling_0_Desc",
+    "Descriptions": [
+      "Allows the holder to buy and raise Chooks.",
+      "Allows the holder to buy and raise Vombats.",
+      "Allows the holder to buy raise Pleep."
+    ],
     "Icon": "",
     "MaxLevel": 3,
     "LevelCost": 250,
@@ -120,7 +154,11 @@
     "Id": 10,
     "AppId": "licence_10",
     "Name": "Bridge",
-    "Description": "LicenceDesc/Licence_Building_0_Desc",
+    "Descriptions": [
+      "Allows the holder to craft simple bridges.",
+      "Allows the holder to build Windmills to help speed up production tasks.",
+      "Coming soon. The holder will get instant access to Building Level 3 once it has arrived"
+    ],
     "Icon": "",
     "MaxLevel": 3,
     "LevelCost": 250,
@@ -133,7 +171,11 @@
     "Id": 11,
     "AppId": "licence_11",
     "Name": "Farming",
-    "Description": "LicenceDesc/Licence_Farming_0_Desc",
+    "Descriptions": [
+      "Allows the holder to buy farming equipment and seeds.",
+      "Allows the holder to craft fertilzer. Unlocks a new watercan recipe.",
+      "Allows the holder to access irregation licence. Unlocks a new watercan recipe."
+    ],
     "Icon": "",
     "MaxLevel": 3,
     "LevelCost": 250,
@@ -146,7 +188,11 @@
     "Id": 12,
     "AppId": "licence_12",
     "Name": "Cargo",
-    "Description": "Allows the holder to expand their pockets by 3 slots.",
+    "Descriptions": [
+      "Allows the holder to expand their pockets by 3 slots.",
+      "Allows the holder to expand their pockets by 3 slots.",
+      "Allows the holder to expand their pockets by 3 slots."
+    ],
     "Icon": "",
     "MaxLevel": 3,
     "LevelCost": 500,
@@ -159,7 +205,9 @@
     "Id": 13,
     "AppId": "licence_13",
     "Name": "DeepMining",
-    "Description": "Unlocks the Mine Deed and allows access to the deep mines.",
+    "Descriptions": [
+      "Unlocks the Mine Deed and allows access to the deep mines."
+    ],
     "Icon": "",
     "MaxLevel": 1,
     "LevelCost": 3500,
@@ -172,7 +220,11 @@
     "Id": 14,
     "AppId": "licence_14",
     "Name": "ToolBelt",
-    "Description": "Allow the holder to expand their toolbelt slots by 1.",
+    "Descriptions": [
+      "Allow the holder to expand their toolbelt slots by 1.",
+      "Allow the holder to expand their toolbelt slots by 1.",
+      "Allow the holder to expand their toolbelt slots by 1."
+    ],
     "Icon": "",
     "MaxLevel": 3,
     "LevelCost": 250,
@@ -185,7 +237,10 @@
     "Id": 15,
     "AppId": "licence_15",
     "Name": "AnimalTrapping",
-    "Description": "LicenceDesc/Licence_AnimalTrapping_0_Desc",
+    "Descriptions": [
+      "Allows the holder to craft and use animal traps and animal drop off points. Animals successfully dropped off will give a reward.",
+      "Allows the holder to craft and use advanced animal traps."
+    ],
     "Icon": "",
     "MaxLevel": 2,
     "LevelCost": 500,
@@ -198,7 +253,9 @@
     "Id": 16,
     "AppId": "licence_16",
     "Name": "Excavation",
-    "Description": "Allows the holder to purchase and use shovels.",
+    "Descriptions": [
+      "Allows the holder to purchase and use shovels."
+    ],
     "Icon": "",
     "MaxLevel": 1,
     "LevelCost": 500,
@@ -211,7 +268,10 @@
     "Id": 17,
     "AppId": "licence_17",
     "Name": "Irrigation",
-    "Description": "LicenceDesc/Licence_Irrigation_0_Desc",
+    "Descriptions": [
+      "Allows the holder to craft sprinklers and water tanks.",
+      "Allows the holder to craft improved sprinklers."
+    ],
     "Icon": "",
     "MaxLevel": 2,
     "LevelCost": 1000,
@@ -224,7 +284,11 @@
     "Id": 18,
     "AppId": "licence_18",
     "Name": "AgriculturalVehicle",
-    "Description": "LicenceDesc/Licence_AgriculturalVehicle_0_Desc",
+    "Descriptions": [
+      "Allows the holder to purchase Agricultural Vehicles and use the Harvesting Attachment",
+      "Allows the holder to use the Plowing Attachment on Agricultural Vehicles.",
+      "Allows the holder to use the Planting Attachment on Agricultural Vehicles."
+    ],
     "Icon": "",
     "MaxLevel": 3,
     "LevelCost": 2000,
