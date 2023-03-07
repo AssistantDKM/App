@@ -16,8 +16,8 @@ dependencies:
 
   # AssistantApps
   assistantapps_flutter_common:
-    git: https://github.com/AssistantApps/Flutter.Common.git
-    # path: 'C:\Development\Projects\AssistantApps\assistantapps_flutter_common'
+    # git: https://github.com/AssistantApps/Flutter.Common.git
+    path: 'C:\Development\Projects\AssistantApps\assistantapps_flutter_common'
 
   # Base
   get_it: 7.2.0
