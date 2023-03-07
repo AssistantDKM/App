@@ -44,7 +44,12 @@ List<Widget> Function(
 
     Widget imageStack = Stack(
       children: [
-        Center(child: LocalImage(imagePath: loadedItem.icon)),
+        ConstrainedBox(
+          constraints: const BoxConstraints(minHeight: 128),
+          child: Center(
+            child: LocalImage(imagePath: loadedItem.icon),
+          ),
+        ),
         ...widgetsToPositioneds(stackWidgets),
       ],
     );

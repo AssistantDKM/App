@@ -2,7 +2,7 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 class BaseGameItemRepository<T> extends BaseJsonService {
-  String appJson;
+  LocaleKey appJson;
   String repoName;
   T Function(Map<String, dynamic> jsonMap) fromMap;
   int Function(T, T) compare;
@@ -20,7 +20,7 @@ class BaseGameItemRepository<T> extends BaseJsonService {
     try {
       List responseJson = await getListfromJson(
         context,
-        appJson,
+        getTranslations().fromKey(appJson),
       );
       List<T> dataItems = responseJson
           .map((m) => fromMap(m)) //

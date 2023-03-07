@@ -36,8 +36,8 @@ void initDependencyInjection(EnvironmentSettings env) {
   getIt.registerSingleton(LicenceRepository());
   getIt.registerSingleton(MilestoneRepository());
 
-  getIt.registerFactoryParam<InventoryRepository, String, String>(
-    (String key, String unused) => InventoryRepository(key),
+  getIt.registerFactoryParam<InventoryRepository, LocaleKey, String>(
+    (LocaleKey key, String unused) => InventoryRepository(key),
   );
 }
 
@@ -47,5 +47,5 @@ PeopleRepository getPeopleRepo() => getIt<PeopleRepository>();
 LicenceRepository getLicenceRepo() => getIt<LicenceRepository>();
 MilestoneRepository getMilestoneRepo() => getIt<MilestoneRepository>();
 
-InventoryRepository getInventoryRepo(String key) =>
+InventoryRepository getInventoryRepo(LocaleKey key) =>
     getIt<InventoryRepository>(param1: key, param2: 'di');

@@ -1,4 +1,14 @@
 {
+  "furnitureJson": "en/furniture.json",
+  "cookingJson": "en/cooking.json",
+  "milestoneJson": "en/milestone.json",
+  "bugsJson": "en/bugs.json",
+  "clothingJson": "en/clothing.json",
+  "fishJson": "en/fish.json",
+  "licenceJson": "en/licence.json",
+  "itemsJson": "en/items.json",
+  "critterJson": "en/critter.json",
+  "peopleJson": "en/people.json",
   "loading": "Laden",
   "about": "Over",
   "aboutContent": "Why did I build this?\nI have really been enjoying creating apps with Flutter and I decided to try and build yet another app from scratch, to see if I could make an app that looks good across Android, iOS, Web and Desktop. \n\nP.S. I also have a blog, Inside my Mind - by Kurt Lourens. I haven't been making use of it as much as I could have, but I have some articles😋.",
@@ -8,6 +18,7 @@
   "kurtsBlog": "Kurt's Blog",
   "donation": "Donatie",
   "donationDescrip": "Alle functies van de app zijn beschikbaar voor jou er is geen Betaalmuur. Er zijn echter wel kosten verbonden aan het maken van de app en het hosten van de websites dus donaties zijn van harte welkom. Als de app je goed bevalt geef me dan aub een review in de Play/App Store en geef een donatie indien mogelijk. Kun je geen bijdrage geven hoef je daar niet van wakker te liggen. ;-)",
+  "noticeAccept": "Accepteer",
   "buyMeACoffee": "Koop een bakje koffie voor me!",
   "patreon": "Alle functies van de app zijn gratis beschikbaar. Er zijn echter wel kosten verbonden aan het maken en onderhouden van websites en apps, dus donaties zullen mij erg helpen. Als je deze app leuk vindt, geef mij dan een review in de Play of App Store en doneer als dat mogelijk is.\n\n- Koop een kopje koffie voor me\n- Patreon\n- PayPal\n- Ko-Fi\n- Open Collective",
   "paypal": "PayPal",
@@ -44,6 +55,7 @@
   "whatIsNew": "Wat is nieuw",
   "newItem": "Nieuw",
   "somethingWentWrong": "Er is iets fout gegaan",
+  "share": "delen",
   "feedback": "Feedback",
   "favourites": "Favorieten",
   "openCollective": "Open Collectief",
@@ -112,5 +124,5 @@
   "foodPreferences": "Food preferences",
   "favourite": "Favourite",
   "hated": "Hated",
-  "hashCode": "282999B21F6DB978BB33D4748F519FF7"
+  "hashCode": "276E58B0727BE08AA13B2D8B991BA2B4"
 }

@@ -79,7 +79,7 @@ List<Widget> genericItemWithOverflowButton<T>(
 Widget viewMoreButton(BuildContext context, int numLeftOver, viewMoreOnPress) {
   String viewMore = getTranslations().fromKey(LocaleKey.viewXMore);
   return Container(
-    margin: const EdgeInsets.symmetric(horizontal: 4.0),
+    margin: const EdgeInsets.symmetric(horizontal: 8.0),
     child: PositiveButton(
       title: viewMore.replaceAll("{0}", numLeftOver.toString()),
       onTap: () {

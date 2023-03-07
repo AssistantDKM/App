@@ -16,7 +16,7 @@ import '../redux/misc/inventory_item_viewmodel.dart';
 
 class InventoryListPage extends StatelessWidget {
   final String analyticsEvent;
-  final List<String> appJsons;
+  final List<LocaleKey> appJsons;
   final String title;
 
   InventoryListPage({
@@ -104,10 +104,10 @@ class InventoryDetailsPage extends StatelessWidget {
 }
 
 Future<ResultWithValue<List<InventoryItem>>> getCombinedItems(
-    BuildContext funcCtx, List<String> appJsons) async {
+    BuildContext funcCtx, List<LocaleKey> appJsons) async {
   List<InventoryItem> result = List.empty(growable: true);
 
-  for (String appJson in appJsons) {
+  for (LocaleKey appJson in appJsons) {
     ResultWithValue<List<InventoryItem>> genericRepoResult =
         await getInventoryRepo(appJson).getItems(funcCtx);
     if (genericRepoResult.isSuccess) {

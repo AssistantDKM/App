@@ -12,5 +12,5 @@ InventoryRepository getGenericRepoFromAppId(String appId) {
   }
 
   getLog().e('Could not get repository for ${comboId.first}');
-  return getInventoryRepo(appId);
+  return getInventoryRepo(LocaleKey.unknown);
 }

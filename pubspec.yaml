@@ -4,7 +4,7 @@ version: 0.0.5+5 # dart scripts\version_num_script.dart
 publish_to: none
 
 environment:
-  sdk: '>=2.15.1 <3.0.0'
+  sdk: '>=3.0.0-276.0.dev <4.0.0'
   flutter: '>=1.17.0'
 
 dependencies:
@@ -16,8 +16,8 @@ dependencies:
 
   # AssistantApps
   assistantapps_flutter_common:
-    git: https://github.com/AssistantApps/Flutter.Common.git
-    # path: 'C:\Development\Projects\AssistantApps\assistantapps_flutter_common'
+    # git: https://github.com/AssistantApps/Flutter.Common.git
+    path: 'C:\Development\Projects\AssistantApps\assistantapps_flutter_common'
 
   # Base
   get_it: 7.2.0
@@ -71,6 +71,11 @@ flutter:
   assets:
     - assets/data/
     - assets/json/
+    - assets/json/en/
+    - assets/json/fr/
+    - assets/json/ja/
+    - assets/json/ru/
+    - assets/json/zh/
     - assets/lang/
 
     - assets/images/
@@ -81,7 +86,7 @@ flutter:
 
     - assets/images/inventory/
     - assets/images/licences/
-    - assets/images/milestones/
+    - assets/images/milestone/
     - assets/images/people/
 
   fonts:

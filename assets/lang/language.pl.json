@@ -1,4 +1,14 @@
 {
+  "furnitureJson": "en/furniture.json",
+  "cookingJson": "en/cooking.json",
+  "milestoneJson": "en/milestone.json",
+  "bugsJson": "en/bugs.json",
+  "clothingJson": "en/clothing.json",
+  "fishJson": "en/fish.json",
+  "licenceJson": "en/licence.json",
+  "itemsJson": "en/items.json",
+  "critterJson": "en/critter.json",
+  "peopleJson": "en/people.json",
   "loading": "Ładowanie",
   "about": "O mnie",
   "aboutContent": "Why did I build this?\nI have really been enjoying creating apps with Flutter and I decided to try and build yet another app from scratch, to see if I could make an app that looks good across Android, iOS, Web and Desktop. \n\nP.S. I also have a blog, Inside my Mind - by Kurt Lourens. I haven't been making use of it as much as I could have, but I have some articles😋.",
@@ -8,6 +18,7 @@
   "kurtsBlog": "Blog Kurta",
   "donation": "Wpłata ",
   "donationDescrip": "Wszystkie treści tej apki są dostępne od razu dla każdego, bez dodatkowych płatności. Niestety prowadzenie takiego przedsięwzięcia jak i strony www, wymaga funduszy. Dlatego wszelkie wpłaty będą mile widziane.\nJeśli podoba Ci się to co robię, daj znać i oceń apkę w sklepie Play lub w Appstore.\nWpłaty również mile widziane 👍",
+  "noticeAccept": "Zatwierdź",
   "buyMeACoffee": "Postaw mi kawę ",
   "patreon": "Patreon",
   "paypal": "PayPal",
@@ -44,6 +55,7 @@
   "whatIsNew": "Co nowego?",
   "newItem": "nowy",
   "somethingWentWrong": "coś poszło nie tak",
+  "share": "Udostępnij",
   "feedback": "Informacje zwrotne",
   "favourites": "Ulubione",
   "openCollective": "Otwórz zebrane",
@@ -112,5 +124,5 @@
   "foodPreferences": "Food preferences",
   "favourite": "Favourite",
   "hated": "Hated",
-  "hashCode": "9DF0FA77410561493AE1E6E75010DB7A"
+  "hashCode": "D8DFC8FCEEB279F512301F3B53A8AD2B"
 }

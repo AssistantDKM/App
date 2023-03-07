@@ -5,7 +5,7 @@ import '../../contracts/json/inventory_item.dart';
 import 'base_game_item_repository.dart';
 
 class InventoryRepository extends BaseGameItemRepository<InventoryItem> {
-  InventoryRepository(appJson)
+  InventoryRepository(LocaleKey appJson)
       : super(
           appJson: appJson,
           repoName: 'InventoryRepository',

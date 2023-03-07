@@ -1,0 +1,803 @@
+[
+  {
+    "Id": 0,
+    "Name": "None",
+    "Description": "None",
+    "Icon": "milestone/milestone_None.png",
+    "RewardPerLevel": 100,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 1,
+    "Name": "Harvest Master",
+    "Description": "Picking fruit and logs off the ground will get you far in this place. Here is a milestone for gathering lots of stuff up.",
+    "Icon": "milestone/milestone_Harvest.png",
+    "RewardPerLevel": 50,
+    "Points": 2998,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 2,
+    "Name": "Chatterbox",
+    "Description": "Being friendly and making friends is an adventure on it's own! Be sure to chat with everyone every day! You might learn something.",
+    "Icon": "milestone/milestone_TalkToPeople.png",
+    "RewardPerLevel": 100,
+    "Points": 33,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 3,
+    "Name": "Bug Catcher",
+    "Description": "Catching bugs is a great activity. Here is a milestone for catching some of those creepy crawlies.",
+    "Icon": "milestone/milestone_CatchBugs.png",
+    "RewardPerLevel": 100,
+    "Points": 282,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 4,
+    "Name": "Crafting Crazy",
+    "Description": "Crafting useful things yourself is a handy skill in a place starting off with nothing. Here is a milestone for crafting items.",
+    "Icon": "milestone/milestone_CraftAnything.png",
+    "RewardPerLevel": 100,
+    "Points": 187,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 5,
+    "Name": "Super Taster",
+    "Description": "Fruit? Meat? Fungus? It doesn't matter. Food will give you energy to keep doing your tasks all day long. Here is a milestone for eating things!",
+    "Icon": "milestone/milestone_EatSomething.png",
+    "RewardPerLevel": 100,
+    "Points": 422,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 6,
+    "Name": "Walking About",
+    "Description": "Staying in one spot isn't generally considered exploring. You're going to cover some distance, that's for sure! Here is a milestone for travelling!",
+    "Icon": "milestone/milestone_TravelDistance.png",
+    "RewardPerLevel": 200,
+    "Points": 363348,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 7,
+    "Name": "Savvy Shopper",
+    "Description": "Nothing wrong with spending some of that hard-earned dosh. Here is a milestone for spending Dinks.",
+    "Icon": "milestone/milestone_BuyItems.png",
+    "RewardPerLevel": 250,
+    "Points": 630520,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 8,
+    "Name": "Entrepreneur",
+    "Description": "Making that bread. That cold hard cash. Nothing wrong with making a bit of a profit. Here is a milestone selling stuff for money.",
+    "Icon": "milestone/milestone_SellItems.png",
+    "RewardPerLevel": 250,
+    "Points": 1179274,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 9,
+    "Name": "Grill Master",
+    "Description": "Chuck another steak on the barbie, mate. A milestone for grilling up some meat to eat!",
+    "Icon": "milestone/milestone_CookMeat.png",
+    "RewardPerLevel": 100,
+    "Points": 92,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 10,
+    "Name": "Green Thumb",
+    "Description": "Planting seeds in the red dirt. They grow up so fast. Here is a milestone for planting some seeds.",
+    "Icon": "milestone/milestone_PlantSeeds.png",
+    "RewardPerLevel": 100,
+    "Points": 440,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 11,
+    "Name": "Wet Thumb",
+    "Description": "Watering plants is good for your soul and good for the plants general health. It's win-win. So here is a milestone for watering a lot of plants!",
+    "Icon": "milestone/milestone_WaterCrops.png",
+    "RewardPerLevel": 100,
+    "Points": 1137,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 12,
+    "Name": "Rock On",
+    "Description": "Smashing rocks is hard work. But sometimes they have stuff in them! Here is a milestone for smashing rocks.",
+    "Icon": "milestone/milestone_SmashRocks.png",
+    "RewardPerLevel": 100,
+    "Points": 385,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 13,
+    "Name": "Ore or Nothing",
+    "Description": "You've smashed a couple of them rocks filled with ore. Here is a milestone for smashing ore deposits.",
+    "Icon": "milestone/milestone_CollectOre.png",
+    "RewardPerLevel": 100,
+    "Points": 502,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 14,
+    "Name": "Making Bars",
+    "Description": "Smelting. Oh, you've been smelting alright. Here is a milestone for smelting ore into bars.",
+    "Icon": "milestone/milestone_SmeltOre.png",
+    "RewardPerLevel": 100,
+    "Points": 390,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 15,
+    "Name": "Grinding Down",
+    "Description": "Grinding rocks down into powder. Here is a milestone for using a stone grinder a bunch.",
+    "Icon": "milestone/milestone_GrindObjects.png",
+    "RewardPerLevel": 100,
+    "Points": 153,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 16,
+    "Name": "Timber!",
+    "Description": "Sometime trees get in the way and sometimes you just need to borrow their wood for a bit. Here is a milestone for chopping down trees.",
+    "Icon": "milestone/milestone_ChopDownTree.png",
+    "RewardPerLevel": 100,
+    "Points": 91,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 17,
+    "Name": "Stumped",
+    "Description": "You can't just chop a tree down and leave the stump. Here is a milestone for getting rid of the lil' stumps that are there after the tree falls down.",
+    "Icon": "milestone/milestone_ChopDownStump.png",
+    "RewardPerLevel": 100,
+    "Points": 98,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 18,
+    "Name": "Saw'll Good",
+    "Description": "You like wood, right? But what about square wood? Here is a milestone for cutting wood into planks.",
+    "Icon": "milestone/milestone_CutPlanks.png",
+    "RewardPerLevel": 100,
+    "Points": 145,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 19,
+    "Name": "Fish Catcher",
+    "Description": "You've caught a bunch of fish. Here is a milestone for catching a bunch of fish!",
+    "Icon": "milestone/milestone_CatchFish.png",
+    "RewardPerLevel": 100,
+    "Points": 173,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 20,
+    "Name": "Human Mower",
+    "Description": "No matter how much you clear it seems to come back. Mowing never ends. Here is a milestone for chopping grass.",
+    "Icon": "milestone/milestone_CutGrass.png",
+    "RewardPerLevel": 50,
+    "Points": 785,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 21,
+    "Name": "Everything Hunter",
+    "Description": "Hunting is sometimes necessary. Here is milestone for hunting creatures.",
+    "Icon": "milestone/milestone_HuntAnimals.png",
+    "RewardPerLevel": 100,
+    "Points": 161,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 22,
+    "Name": "Trap Time",
+    "Description": "Trapping animals for relocation is a kind way to deal with them. It's not easy to do, either! Here is a milestone for trapping an animal.",
+    "Icon": "milestone/milestone_TrapAnAnimal.png",
+    "RewardPerLevel": 100,
+    "Points": 30,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 23,
+    "Name": "Furniture Fancy",
+    "Description": "Buying furniture for your home? Maybe a gift? Here is milestone for buying furniture.",
+    "Icon": "milestone/milestone_BuyFurniture.png",
+    "RewardPerLevel": 100,
+    "Points": 1,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 24,
+    "Name": "Wall Change",
+    "Description": "New walls. Same old house. Here is a milestone for buying wallpaper.",
+    "Icon": "milestone/milestone_BuyWallpaper.png",
+    "RewardPerLevel": 100,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 25,
+    "Name": "Floor Change",
+    "Description": "Here is a milestone for buying flooring.",
+    "Icon": "milestone/milestone_BuyFlooring.png",
+    "RewardPerLevel": 100,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 26,
+    "Name": "Seeds Sale",
+    "Description": "Here is a milestone for buying seeds.",
+    "Icon": "milestone/milestone_BuySeeds.png",
+    "RewardPerLevel": 100,
+    "Points": 385,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 27,
+    "Name": "Crop Taker",
+    "Description": "Reap what you have sewn. Here is a milestone for harvesting crops.",
+    "Icon": "milestone/milestone_HarvestCrops.png",
+    "RewardPerLevel": 100,
+    "Points": 417,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 28,
+    "Name": "Knitted Out",
+    "Description": "Looking good in some new threads. Here is a milestone for buying clothes",
+    "Icon": "milestone/milestone_BuyShirt.png",
+    "RewardPerLevel": 100,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 29,
+    "Name": "Hot Fruit",
+    "Description": "Cooked fruit. Sounds gross, I know. It might be... Anyway, here is a milestone for cooking fruit.",
+    "Icon": "milestone/milestone_CookSomeFruit.png",
+    "RewardPerLevel": 100,
+    "Points": 1604,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 30,
+    "Name": "Cordon bleu",
+    "Description": "Mixing things all together to make something? You're a bloody chef, I'll tell you what. Here is a milestone for cooking at the cooking table.",
+    "Icon": "milestone/milestone_CookAtCookingTable.png",
+    "RewardPerLevel": 100,
+    "Points": 7,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 31,
+    "Name": "Forest Maker",
+    "Description": "Always replace what you've taken. Here is a milestone for planting tree seeds.",
+    "Icon": "milestone/milestone_PlantTreeSeed.png",
+    "RewardPerLevel": 100,
+    "Points": 28,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 32,
+    "Name": "Fishmonger",
+    "Description": "What are fish doing in the ocean when they could be put to good use lining your pockets. Here is a milestone for selling fish.",
+    "Icon": "milestone/milestone_SellFish.png",
+    "RewardPerLevel": 100,
+    "Points": 137,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 33,
+    "Name": "Creepy Dink",
+    "Description": "Bugs are everywhere. For some reason, John wants them. Here is a milestone for selling bugs.",
+    "Icon": "milestone/milestone_SellBugs.png",
+    "RewardPerLevel": 100,
+    "Points": 243,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 34,
+    "Name": "Shellfish Lover",
+    "Description": "You've got to squeeze for every Dink you can. Even if it means dealing with shells. Here is a milestone for selling shells.",
+    "Icon": "milestone/milestone_SellShells.png",
+    "RewardPerLevel": 100,
+    "Points": 30,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 35,
+    "Name": "Farmer's Market",
+    "Description": "Farming has paid off. You've reaped what you have sown. Here is a milestone for selling plants.",
+    "Icon": "milestone/milestone_SellCrops.png",
+    "RewardPerLevel": 100,
+    "Points": 20,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 36,
+    "Name": "Archeologist",
+    "Description": "There is stuff everywhere underground. Here is a milestone for digging up treasure.",
+    "Icon": "milestone/milestone_DigUpTreasure.png",
+    "RewardPerLevel": 100,
+    "Points": 142,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 37,
+    "Name": "Fruit Buried",
+    "Description": "Bury fruit and get a fruit tree! You beauty! Here is a milestone for burying fruit.",
+    "Icon": "milestone/milestone_BuryFruit.png",
+    "RewardPerLevel": 100,
+    "Points": 24,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 38,
+    "Name": "Pearl Picker",
+    "Description": "Here is a milestone for diving for treasure.",
+    "Icon": "milestone/milestone_DiveForTreasure.png",
+    "RewardPerLevel": 100,
+    "Points": 9,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 39,
+    "Name": "Pet Petter",
+    "Description": "You treat your feathered and furred friends well. Here is a milestone for petting your animals.",
+    "Icon": "milestone/milestone_PetAnimals.png",
+    "RewardPerLevel": 100,
+    "Points": 130,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 40,
+    "Name": "Farm Feeder",
+    "Description": "You feed them every day so they will love you. Here is a milestone for feeding your animals.",
+    "Icon": "milestone/milestone_FeedAnimals.png",
+    "RewardPerLevel": 100,
+    "Points": 347,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 41,
+    "Name": "Deep Miner",
+    "Description": "Deep down in the shifting mines, it's dangerous... but you've been there a bunch! Here is a milestone for entering the mines.",
+    "Icon": "milestone/milestone_EnterMines.png",
+    "RewardPerLevel": 200,
+    "Points": 5,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 42,
+    "Name": "Helpful Friend",
+    "Description": "You help anyone that asks, eh? Here is a milestone for doing a lot of favours.",
+    "Icon": "milestone/milestone_DoAFavourSomeone.png",
+    "RewardPerLevel": 100,
+    "Points": 156,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 43,
+    "Name": "Poisoned Person",
+    "Description": "Being poisoned might not kill you, but it will take a lot of energy out of you. Here is a one time milestone for being poisoned. But try not to be from now on, okay?",
+    "Icon": "milestone/milestone_GetPoisoned.png",
+    "RewardPerLevel": 100,
+    "Points": 3,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 44,
+    "Name": "Damage Sponge",
+    "Description": "You sure can take a hit or two. Here is a milestone for taking damage.",
+    "Icon": "milestone/milestone_TakeDamage.png",
+    "RewardPerLevel": 100,
+    "Points": 1365,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 45,
+    "Name": "Hard Worker",
+    "Description": "Watch your energy. If you push yourself too far or if you stay out too late you will faint. You'll lose stuff if you pass out. Here's a milestone for fainting, but try not to from now on. ",
+    "Icon": "milestone/milestone_Faint.png",
+    "RewardPerLevel": 100,
+    "Points": 3,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 46,
+    "Name": "Pen Pal",
+    "Description": "The more friendly you are with someone the more likely they will send you mail! Here is a milestone for receiving letters.",
+    "Icon": "milestone/milestone_GetLetters.png",
+    "RewardPerLevel": 100,
+    "Points": 17,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 47,
+    "Name": "Homemaker",
+    "Description": "From tent, to house to even bigger house! Here is a milestone for upgrading your home.",
+    "Icon": "milestone/milestone_UpgradeHouse.png",
+    "RewardPerLevel": 750,
+    "Points": 2,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 48,
+    "Name": "Explorer",
+    "Description": "Every adventure starts somewhere and yours starts here. Here is a milestone for placing the base tent.",
+    "Icon": "milestone/milestone_PlaceBaseTent.png",
+    "RewardPerLevel": 100,
+    "Points": 1,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 49,
+    "Name": "Camper",
+    "Description": "A place to rest your head - Your new home for now. Here is a milestone for placing your tent.",
+    "Icon": "milestone/milestone_PlaceOwnTent.png",
+    "RewardPerLevel": 100,
+    "Points": 1,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 50,
+    "Name": "Town Planner",
+    "Description": "Building the town - one building at a time. Here is a milestone for finishing a new building!",
+    "Icon": "milestone/milestone_CompleteABuilding.png",
+    "RewardPerLevel": 250,
+    "Points": 8,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 51,
+    "Name": "Equiped",
+    "Description": "You can buy a lot of useful tools to help you! Here is a milestone for buying tools.",
+    "Icon": "milestone/milestone_BuyATool.png",
+    "RewardPerLevel": 100,
+    "Points": 44,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 52,
+    "Name": "Smashing",
+    "Description": "What are these things even made of? Here is a milestone for breaking tools.",
+    "Icon": "milestone/milestone_BreakATool.png",
+    "RewardPerLevel": 100,
+    "Points": 27,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 53,
+    "Name": "Board As",
+    "Description": "You always go out of your way to help people who have posted on the bulletin board. Here is a milestone for completing tasks from the bulletin board.",
+    "Icon": "milestone/milestone_CompleteABulletinBoardRequest.png",
+    "RewardPerLevel": 200,
+    "Points": 35,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 54,
+    "Name": "Entomologist",
+    "Description": "You make sure you document all the different bugs you've caught. Here is a milestone for adding new species of bugs to your Pedia.",
+    "Icon": "milestone/milestone_AddNewBugToPedia.png",
+    "RewardPerLevel": 100,
+    "Points": 28,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 55,
+    "Name": "Ichthyologist ",
+    "Description": "You make sure you document all the different fish you've caught. Here is a milestone for adding new species of fish to your Pedia.",
+    "Icon": "milestone/milestone_AddNewFishToPedia.png",
+    "RewardPerLevel": 100,
+    "Points": 26,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 56,
+    "Name": "Zoologist",
+    "Description": "You are documenting all the wildlife here on the island. Here is a milestone for adding a new animal to your Pedia.",
+    "Icon": "milestone/milestone_AddNewAnimalToPedia.png",
+    "RewardPerLevel": 100,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 57,
+    "Name": "Product Processor",
+    "Description": "Take those animal products and make them better! Here is a milestone for making something from animal products.",
+    "Icon": "milestone/milestone_ProcessAnimalProduct.png",
+    "RewardPerLevel": 100,
+    "Points": 11,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 58,
+    "Name": "Eggcellent",
+    "Description": "They crack easy, but they sell for a bit! Here is a milestone for selling eggs.",
+    "Icon": "milestone/milestone_SellAnEgg.png",
+    "RewardPerLevel": 100,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 59,
+    "Name": "Wild Seeder",
+    "Description": "You've gotta give back after you take. Here is a milestone for planting wild seeds for grass, bushes and trees.",
+    "Icon": "milestone/milestone_PlantWildSeeds.png",
+    "RewardPerLevel": 100,
+    "Points": 7,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 60,
+    "Name": "Soil Mover",
+    "Description": "Pick up some dirt, put it there. Here is a milestone for moving soil.",
+    "Icon": "milestone/milestone_SoilMover.png",
+    "RewardPerLevel": 100,
+    "Points": 2047,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 61,
+    "Name": "Tool Improvement",
+    "Description": "What if you take the tools from John's shop and make them better? Here is a milestone for upgrading tools.",
+    "Icon": "milestone/milestone_CraftATool.png",
+    "RewardPerLevel": 100,
+    "Points": 18,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 62,
+    "Name": "I drive.",
+    "Description": "Travelling on foot is for fools. Here is a milestone for travelling in style via vehicle.",
+    "Icon": "milestone/milestone_TravelDistanceOnVehicle.png",
+    "RewardPerLevel": 200,
+    "Points": 68315,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 63,
+    "Name": "Stylish Hair",
+    "Description": "Here is a milestone for getting haircuts.",
+    "Icon": "milestone/milestone_GetAHairCut.png",
+    "RewardPerLevel": 200,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 64,
+    "Name": "Filthy Dinkin' Rich",
+    "Description": "Saving money in the bank. Clever. Here is a milestone for having a cold hard Mil.",
+    "Icon": "milestone/milestone_DepositMoneyIntoBank.png",
+    "RewardPerLevel": 3000,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 65,
+    "Name": "Animal Handler",
+    "Description": "Giving an animal a new home is a great thing. Here is a milestone for buying a new animal friend.",
+    "Icon": "milestone/milestone_BuyAnAnimal.png",
+    "RewardPerLevel": 200,
+    "Points": 6,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 66,
+    "Name": "Crab Catcher",
+    "Description": "Crab pots don't always catch crabs, but when they do, it's crab night! Here is a milestone for catching something in your crab pot.",
+    "Icon": "milestone/milestone_EmptyCrabPot.png",
+    "RewardPerLevel": 200,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 67,
+    "Name": "Fossil Finder",
+    "Description": "Milestone for selling fossils.",
+    "Icon": "milestone/milestone_FossileFinder.png",
+    "RewardPerLevel": 200,
+    "Points": 4,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 68,
+    "Name": "Egg Thief",
+    "Description": "Milestone for selling Wary Mu eggs.",
+    "Icon": "milestone/milestone_EggTheif.png",
+    "RewardPerLevel": 200,
+    "Points": 12,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 69,
+    "Name": "Hive Head",
+    "Description": "Beehives. You can smash 'em or sell them. Here is a milestone for selling a beehive.",
+    "Icon": "milestone/milestone_HiveFinder.png",
+    "RewardPerLevel": 200,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 70,
+    "Name": "Bee Keeper",
+    "Description": "Keeping your bee's happy and they will give you a little honey. Here is a milestone for collecting honey.",
+    "Icon": "milestone/milestone_CollectHoney.png",
+    "RewardPerLevel": 100,
+    "Points": 6,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 71,
+    "Name": "Painter",
+    "Description": "Painting things gives them their own flair. Here is a milestone for making something your own with a nice paint job.",
+    "Icon": "milestone/milestone_PaintVehicle.png",
+    "RewardPerLevel": 100,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 72,
+    "Name": "Shark Hunter",
+    "Description": "Going on a fishing trip but you caught a shark. Crikey! Here is a milestone for reeling in a beast.",
+    "Icon": "milestone/milestone_SharkHunter.png",
+    "RewardPerLevel": 400,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 73,
+    "Name": "Shell Yeah",
+    "Description": "Shells are nature's way of littering. Here is a milestone for picking up those bad boys.",
+    "Icon": "milestone/milestone_CollectShells.png",
+    "RewardPerLevel": 100,
+    "Points": 79,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 74,
+    "Name": "Brewmatic",
+    "Description": "Those flowers might be nice if I put them in a barrel and let they sit. Here is a milestone for brewing in a keg.",
+    "Icon": "milestone/milestone_BrewSomething.png",
+    "RewardPerLevel": 100,
+    "Points": 23,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 75,
+    "Name": "Teleporter",
+    "Description": "Tele-Towers are handy. But are you still you? Oh well, here is a milestone for using the Tele-Towers.",
+    "Icon": "milestone/milestone_TeleportSomewhere.png",
+    "RewardPerLevel": 500,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 76,
+    "Name": "Composter",
+    "Description": "Plants love old stinky stuff. Poop. Bones. They love it all. Here is a milestone for using the composter.",
+    "Icon": "milestone/milestone_UseCompostBin.png",
+    "RewardPerLevel": 100,
+    "Points": 37,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 77,
+    "Name": "Wheelie Cool",
+    "Description": "Move dirt from here to there. Here is a milestone for using a Wheelbarrow.",
+    "Icon": "milestone/milestone_Wheelbarrow.png",
+    "RewardPerLevel": 100,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 78,
+    "Name": "Lawn Master",
+    "Description": "Mowing the lawn. You're in suburbia now. Here is a milestone for mowing the law.",
+    "Icon": "milestone/milestone_LawnMower.png",
+    "RewardPerLevel": 100,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 79,
+    "Name": "Chopper Master",
+    "Description": "A helicopter? It flies? Here is a milestone for flying like a bird.",
+    "Icon": "milestone/milestone_FlyAHelicopter.png",
+    "RewardPerLevel": 200,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 80,
+    "Name": "Tractor Time",
+    "Description": "Now it's time to really farm. Here is a milestone for getting a tractor.",
+    "Icon": "milestone/milestone_GetATractor.png",
+    "RewardPerLevel": 100,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 81,
+    "Name": "Bucket Head",
+    "Description": "A bucket on your head! You bloody galah. You're having a laugh. Here is a milestone for rockin a bucket on your head.",
+    "Icon": "milestone/milestone_PutBucketOnHead.png",
+    "RewardPerLevel": 250,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 82,
+    "Name": "Photographer",
+    "Description": "Taking photos. Saving memories. Here is a milestone for taking some photos.",
+    "Icon": "milestone/milestone_Photographer.png",
+    "RewardPerLevel": 100,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 83,
+    "Name": "Glider",
+    "Description": "Falling with style. Here is a milestone for hanging and gliding.",
+    "Icon": "milestone/milestone_HangGlide.png",
+    "RewardPerLevel": 200,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 84,
+    "Name": "Locksmith",
+    "Description": "Unlocking doors with your keys. Where does the key go? Who knows. Here is a milestone for using keys.",
+    "Icon": "milestone/milestone_UnlockTreasure.png",
+    "RewardPerLevel": 200,
+    "Points": 20,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 85,
+    "Name": "Dairy Good",
+    "Description": "Here is a milestone for milking Vombats.",
+    "Icon": "milestone/milestone_MilkAnimal.png",
+    "RewardPerLevel": 100,
+    "Points": 25,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 86,
+    "Name": "Hairy Good",
+    "Description": "Here is a milestone for shearing Pleep.",
+    "Icon": "milestone/milestone_ShearAnimal.png",
+    "RewardPerLevel": 100,
+    "Points": 24,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 87,
+    "Name": "Green Grocer",
+    "Description": "Here is a milestone for selling fruit.",
+    "Icon": "milestone/milestone_SellFruit.png",
+    "RewardPerLevel": 100,
+    "Points": 12,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 88,
+    "Name": "Amber Cash",
+    "Description": "Here is a milestone for selling amber.",
+    "Icon": "milestone/milestone_SellAmber.png",
+    "RewardPerLevel": 250,
+    "Points": 1,
+    "IsVisibleOnList": true
+  }
+]

@@ -76,33 +76,37 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
     // Details pages
     Routes.animals: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.animalsPage,
-          appJsons: const [AppJson.bugs, AppJson.critters, AppJson.fish],
+          appJsons: const [
+            LocaleKey.bugsJson,
+            LocaleKey.critterJson,
+            LocaleKey.fishJson,
+          ],
           title: 'Animals',
         ),
     Routes.bugs: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.bugsPage,
-          appJsons: const [AppJson.bugs],
+          appJsons: const [LocaleKey.bugsJson],
           title: 'Bugs',
         ),
     Routes.critters: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.crittersPage,
-          appJsons: const [AppJson.critters],
+          appJsons: const [LocaleKey.critterJson],
           title: 'Critters',
         ),
     Routes.fish: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.fishPage,
-          appJsons: const [AppJson.fish],
+          appJsons: const [LocaleKey.fishJson],
           title: 'Fish',
         ),
 
     Routes.crafting: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.inventory,
-          appJsons: const [AppJson.items],
+          appJsons: const [LocaleKey.itemsJson],
           title: 'Items',
         ),
     Routes.cooking: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.cooking,
-          appJsons: const [AppJson.cooking],
+          appJsons: const [LocaleKey.cookingJson],
           title: 'Cooking',
         ),
 
