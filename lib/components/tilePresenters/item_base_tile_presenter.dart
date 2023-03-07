@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import '../../constants/app_image.dart';
 import '../../contracts/interface/item_base_presenter.dart';
 import '../../contracts/json/inventory_item.dart';
-import '../../helper/image_helper.dart';
 import '../../helper/patreon_helper.dart';
 
 Widget itemBaseTilePresenter({
@@ -17,12 +16,8 @@ Widget itemBaseTilePresenter({
   Widget? imgChild = Container();
   if (item.icon.isNotEmpty) {
     imgChild = genericTileImage(item.icon);
-  } else {
-    if ((item as dynamic).imageUrl != null) {
-      imgChild = LocalImage(
-          imagePath: networkImageToLocal((item as dynamic).imageUrl));
-    }
   }
+
   if (item is InventoryItem && isPatron == false && item.hidden) {
     return ListTile(
       leading: genericTileImage(AppImage.locked),

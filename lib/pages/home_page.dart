@@ -66,18 +66,18 @@ class HomePage extends StatelessWidget {
             'People',
             Routes.people,
           ),
-          // smallLandscapeRectTile(
-          //   context,
-          //   AppImage.licencesLogo,
-          //   'Licences',
-          //   Routes.licence,
-          // ),
-          // smallLandscapeRectTile(
-          //   context,
-          //   AppImage.milestonesLogo,
-          //   'Milestones',
-          //   Routes.milestone,
-          // ),
+          smallLandscapeRectTile(
+            context,
+            AppImage.licencesLogo,
+            'Licences',
+            Routes.licence,
+          ),
+          smallLandscapeRectTile(
+            context,
+            AppImage.milestonesLogo,
+            'Milestones',
+            Routes.milestone,
+          ),
         ];
 
         Widget Function(BuildContext) pageBuilder;

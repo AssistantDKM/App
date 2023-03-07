@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../../constants/app_image.dart';
 import '../../constants/app_json.dart';
+import '../../constants/app_misc.dart';
 import '../../contracts/json/inventory_item.dart';
 import '../../contracts/json/inventory_item_consumable.dart';
 import '../../contracts/json/inventory_item_consumable_buff.dart';
@@ -45,7 +46,9 @@ List<Widget> Function(
     Widget imageStack = Stack(
       children: [
         ConstrainedBox(
-          constraints: const BoxConstraints(minHeight: 128),
+          constraints: const BoxConstraints(
+            minHeight: minHeightOfDetailPageHeaderImage,
+          ),
           child: Center(
             child: LocalImage(imagePath: loadedItem.icon),
           ),

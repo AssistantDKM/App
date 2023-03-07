@@ -95,6 +95,7 @@ class PeopleDetailsPage extends StatelessWidget {
               constraints: BoxConstraints(
                 maxWidth: min((deviceWidth / 2), maxImageSize),
                 maxHeight: min((deviceHeight / 2), maxImageSize),
+                minHeight: minHeightOfDetailPageHeaderImage,
               ),
               child: LocalImage(imagePath: imagePath),
             ),

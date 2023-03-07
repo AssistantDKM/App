@@ -45,8 +45,12 @@ class BaseGameItemRepository<T> extends BaseJsonService {
 
     if (allItemsResult.hasFailed) {
       return ResultWithValue(
-          false, fromMap(<String, dynamic>{}), allItemsResult.errorMessage);
+        false,
+        fromMap(<String, dynamic>{}),
+        allItemsResult.errorMessage,
+      );
     }
+
     try {
       List<T> validItems = allItemsResult.value
           .where(

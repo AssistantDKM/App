@@ -10,6 +10,6 @@ class MilestoneRepository extends BaseGameItemRepository<MilestoneItem> {
           repoName: 'MilestoneRepository',
           fromMap: MilestoneItem.fromMap,
           compare: (a, b) => a.name.compareTo(b.name),
-          findItemById: (r, itemIdInt) => r.id == int.parse(itemIdInt),
+          findItemById: (r, appId) => r.appId == appId,
         );
 }

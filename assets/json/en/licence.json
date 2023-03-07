@@ -1,7 +1,7 @@
 [
   {
     "Id": 1,
-    "AppId": "licence1",
+    "AppId": "licence_1",
     "Name": "Mining",
     "Description": "LicenceDesc/Licence_Mining_0_Desc",
     "Icon": "",
@@ -14,7 +14,7 @@
   },
   {
     "Id": 2,
-    "AppId": "licence2",
+    "AppId": "licence_2",
     "Name": "Logging",
     "Description": "LicenceDesc/Licence_Logging_0_Desc",
     "Icon": "",
@@ -27,7 +27,7 @@
   },
   {
     "Id": 3,
-    "AppId": "licence3",
+    "AppId": "licence_3",
     "Name": "Fishing",
     "Description": "LicenceDesc/Licence_Fishing_0_Desc",
     "Icon": "",
@@ -40,7 +40,7 @@
   },
   {
     "Id": 4,
-    "AppId": "licence4",
+    "AppId": "licence_4",
     "Name": "Hunting",
     "Description": "LicenceDesc/Licence_Hunting_0_Desc",
     "Icon": "",
@@ -53,7 +53,7 @@
   },
   {
     "Id": 5,
-    "AppId": "licence5",
+    "AppId": "licence_5",
     "Name": "LandScaping",
     "Description": "LicenceDesc/Licence_Landscaping_0_Desc",
     "Icon": "",
@@ -66,7 +66,7 @@
   },
   {
     "Id": 6,
-    "AppId": "licence6",
+    "AppId": "licence_6",
     "Name": "MetalDetecting",
     "Description": "LicenceDesc/Licence_MetalDetecting_0_Desc",
     "Icon": "",
@@ -79,7 +79,7 @@
   },
   {
     "Id": 7,
-    "AppId": "licence7",
+    "AppId": "licence_7",
     "Name": "Vehicle",
     "Description": "LicenceDesc/Licence_Vehicle_0_Desc",
     "Icon": "",
@@ -92,7 +92,7 @@
   },
   {
     "Id": 8,
-    "AppId": "licence8",
+    "AppId": "licence_8",
     "Name": "Commerce",
     "Description": "LicenceDesc/Licence_Commerce_0_Desc",
     "Icon": "",
@@ -105,7 +105,7 @@
   },
   {
     "Id": 9,
-    "AppId": "licence9",
+    "AppId": "licence_9",
     "Name": "AnimalHandling",
     "Description": "LicenceDesc/Licence_AnimalHandling_0_Desc",
     "Icon": "",
@@ -118,7 +118,7 @@
   },
   {
     "Id": 10,
-    "AppId": "licence10",
+    "AppId": "licence_10",
     "Name": "Bridge",
     "Description": "LicenceDesc/Licence_Building_0_Desc",
     "Icon": "",
@@ -131,7 +131,7 @@
   },
   {
     "Id": 11,
-    "AppId": "licence11",
+    "AppId": "licence_11",
     "Name": "Farming",
     "Description": "LicenceDesc/Licence_Farming_0_Desc",
     "Icon": "",
@@ -144,7 +144,7 @@
   },
   {
     "Id": 12,
-    "AppId": "licence12",
+    "AppId": "licence_12",
     "Name": "Cargo",
     "Description": "Allows the holder to expand their pockets by 3 slots.",
     "Icon": "",
@@ -157,7 +157,7 @@
   },
   {
     "Id": 13,
-    "AppId": "licence13",
+    "AppId": "licence_13",
     "Name": "DeepMining",
     "Description": "Unlocks the Mine Deed and allows access to the deep mines.",
     "Icon": "",
@@ -170,7 +170,7 @@
   },
   {
     "Id": 14,
-    "AppId": "licence14",
+    "AppId": "licence_14",
     "Name": "ToolBelt",
     "Description": "Allow the holder to expand their toolbelt slots by 1.",
     "Icon": "",
@@ -183,7 +183,7 @@
   },
   {
     "Id": 15,
-    "AppId": "licence15",
+    "AppId": "licence_15",
     "Name": "AnimalTrapping",
     "Description": "LicenceDesc/Licence_AnimalTrapping_0_Desc",
     "Icon": "",
@@ -196,7 +196,7 @@
   },
   {
     "Id": 16,
-    "AppId": "licence16",
+    "AppId": "licence_16",
     "Name": "Excavation",
     "Description": "Allows the holder to purchase and use shovels.",
     "Icon": "",
@@ -209,7 +209,7 @@
   },
   {
     "Id": 17,
-    "AppId": "licence17",
+    "AppId": "licence_17",
     "Name": "Irrigation",
     "Description": "LicenceDesc/Licence_Irrigation_0_Desc",
     "Icon": "",
@@ -222,7 +222,7 @@
   },
   {
     "Id": 18,
-    "AppId": "licence18",
+    "AppId": "licence_18",
     "Name": "AgriculturalVehicle",
     "Description": "LicenceDesc/Licence_AgriculturalVehicle_0_Desc",
     "Icon": "",

@@ -73,25 +73,36 @@ class MilestoneDetailsPage extends StatelessWidget {
       getItemFunc: () => getMilestoneRepo().getItem(context, itemId),
       getName: (loadedItem) => loadedItem.name,
       contractToWidgetList: (loadedItem, isInDetailPane) {
+        Widget imageStack = Stack(
+          children: [
+            ConstrainedBox(
+              constraints: const BoxConstraints(minHeight: 128),
+              child: Center(
+                child: LocalImage(imagePath: loadedItem.icon),
+              ),
+            ),
+          ],
+        );
+
         List<Widget> descripWidgets = [
-          Center(
-              child: LocalImage(
-                  imagePath: networkImageToLocal(loadedItem.imageUrl))),
+          imageStack,
           GenericItemName(loadedItem.name),
           pageDefaultPadding(GenericItemDescription(loadedItem.description)),
         ];
 
-        if (loadedItem.levels.isNotEmpty) {
+        if (loadedItem.requirementsPerLevel.isNotEmpty) {
           descripWidgets.add(const EmptySpace2x());
           descripWidgets.add(const GenericItemGroup('Levels'));
-          for (MilestoneLevel level in loadedItem.levels) {
-            descripWidgets.add(const EmptySpace1x());
+          for (int requiredAmount in loadedItem.requirementsPerLevel) {
+            descripWidgets.add(const EmptySpace(0.5));
             descripWidgets.add(
               FlatCard(
                 child: milestoneLevelTilePresenter(
                   context,
-                  level,
-                  0,
+                  prefix: loadedItem.prefix,
+                  suffix: loadedItem.suffix,
+                  requiredAmount: requiredAmount,
+                  rewardPerLevel: loadedItem.rewardPerLevel,
                 ),
               ),
             );
