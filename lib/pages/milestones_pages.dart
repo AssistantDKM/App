@@ -8,8 +8,6 @@ import '../components/tilePresenters/item_base_tile_presenter.dart';
 import '../components/tilePresenters/milestone_tile_presenter.dart';
 import '../constants/app_misc.dart';
 import '../contracts/json/milestone_item.dart';
-import '../contracts/json/milestone_level.dart';
-import '../helper/image_helper.dart';
 import '../integration/dependency_injection.dart';
 
 class MilestonesListPage extends StatelessWidget {
@@ -73,22 +71,12 @@ class MilestoneDetailsPage extends StatelessWidget {
       getItemFunc: () => getMilestoneRepo().getItem(context, itemId),
       getName: (loadedItem) => loadedItem.name,
       contractToWidgetList: (loadedItem, isInDetailPane) {
-        Widget imageStack = Stack(
-          children: [
-            ConstrainedBox(
-              constraints: const BoxConstraints(minHeight: 128),
-              child: Center(
-                child: LocalImage(imagePath: loadedItem.icon),
-              ),
-            ),
-          ],
+        List<Widget> descripWidgets = commonDetailPageHeaderWidgets(
+          context,
+          icon: loadedItem.icon,
+          name: loadedItem.name,
+          description: loadedItem.description,
         );
-
-        List<Widget> descripWidgets = [
-          imageStack,
-          GenericItemName(loadedItem.name),
-          pageDefaultPadding(GenericItemDescription(loadedItem.description)),
-        ];
 
         if (loadedItem.requirementsPerLevel.isNotEmpty) {
           descripWidgets.add(const EmptySpace2x());

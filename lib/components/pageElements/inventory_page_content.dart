@@ -139,7 +139,9 @@ List<Widget> Function(
           getTranslations().fromKey(LocaleKey.habitat),
           locations
               .where((item) => item.isNotEmpty)
-              .map((item) => getTranslations().fromString('habitat$item'))
+              .map((item) => (item.toLowerCase() == 'all')
+                  ? getTranslations().fromKey(LocaleKey.all)
+                  : getTranslations().fromString('habitat$item'))
               .toList(),
         ));
       }

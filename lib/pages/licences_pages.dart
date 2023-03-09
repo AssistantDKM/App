@@ -73,13 +73,12 @@ class LicenceDetailsPage extends StatelessWidget {
       getItemFunc: () => getLicenceRepo().getItem(context, itemId),
       getName: (loadedItem) => loadedItem.name,
       contractToWidgetList: (loadedItem, isInDetailPane) {
-        List<Widget> descripWidgets = [
-          Center(
-              child: LocalImage(
-                  imagePath: networkImageToLocal(loadedItem.imageUrl))),
-          GenericItemName(loadedItem.name),
-          pageDefaultPadding(GenericItemDescription(loadedItem.description)),
-        ];
+        List<Widget> descripWidgets = commonDetailPageHeaderWidgets(
+          context,
+          icon: loadedItem.icon,
+          name: loadedItem.name,
+          description: loadedItem.description,
+        );
 
         if (loadedItem.levels.isNotEmpty) {
           descripWidgets.add(const EmptySpace2x());

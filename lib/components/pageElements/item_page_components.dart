@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
@@ -5,6 +7,41 @@ import '../../constants/app_image.dart';
 import '../../constants/app_colour.dart';
 import '../../constants/app_misc.dart';
 import '../../helper/currency_helper.dart';
+
+List<Widget> commonDetailPageHeaderWidgets(
+  BuildContext detailPageCtx, {
+  required String icon,
+  required String name,
+  String? description,
+}) {
+  double deviceWidth = MediaQuery.of(detailPageCtx).size.width;
+  double deviceHeight = MediaQuery.of(detailPageCtx).size.height;
+  double maxImageSize = 200;
+
+  Widget imageStack = ConstrainedBox(
+    constraints: BoxConstraints(
+      minHeight: 128,
+      maxWidth: min((deviceWidth / 2), maxImageSize),
+      maxHeight: min((deviceHeight / 2), maxImageSize),
+    ),
+    child: Center(
+      child: LocalImage(imagePath: icon),
+    ),
+  );
+
+  List<Widget> descripWidgets = [
+    imageStack,
+    GenericItemName(name),
+  ];
+
+  if (description != null) {
+    descripWidgets.add(
+      pageDefaultPadding(GenericItemDescription(description)),
+    );
+  }
+
+  return descripWidgets;
+}
 
 Widget chipFromString(String label) => Padding(
       padding: const EdgeInsets.symmetric(horizontal: 2),

@@ -11,30 +11,31 @@ import '../interface/item_base_presenter.dart';
 
 class LicenceItem extends ItemBasePresenter {
   final int id;
-  final String imageUrl;
   final String description;
   final List<LicenceLevel> levels;
 
   LicenceItem({
     required this.id,
-    required name,
-    required this.imageUrl,
+    required String appId,
+    required String name,
+    required String icon,
     required this.description,
     required this.levels,
-  }) : super(id.toString(), name, '');
+  }) : super(appId, name, icon);
 
   factory LicenceItem.fromJson(String str) =>
       LicenceItem.fromMap(json.decode(str));
 
   factory LicenceItem.fromMap(Map<String, dynamic> json) => LicenceItem(
-        id: readIntSafe(json, 'id'),
-        name: readStringSafe(json, 'name'),
-        description: readStringSafe(json, 'description'),
+        id: readIntSafe(json, 'Id'),
+        icon: readStringSafe(json, 'Icon'),
+        appId: readStringSafe(json, 'AppId'),
+        name: readStringSafe(json, 'Name'),
+        description: readStringSafe(json, 'Description'),
         levels: readListSafe(
           json,
-          'levels',
+          'Levels',
           (x) => LicenceLevel.fromMap(x),
         ),
-        imageUrl: readStringSafe(json, 'image_url'),
       );
 }
