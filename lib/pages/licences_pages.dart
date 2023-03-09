@@ -84,6 +84,19 @@ class LicenceDetailsPage extends StatelessWidget {
           descripWidgets.add(const EmptySpace2x());
           descripWidgets.add(const GenericItemGroup('Levels'));
 
+/* Working out of level costs
+1: 1 * 250 * (0 * 2) = 250
+2: 2 * 250 * (1 * 2) = 1000
+3: 3 * 250 * (2 * 2) = 3000
+
+1: 1 * 250 * (0 * 2) = 250
+2: 2 * 250 * (1 * 2) = 1000
+3: 3 * 250 * (2 * 2) = 3000 
+
+
+desiredLvl * levelCost * ((desiredLvl - 1) * LevelCostMuliplier)
+ */
+
           bool enableLeading =
               loadedItem.levels.any((lvl) => lvl.skillLevel > 0);
           for (LicenceLevel level in loadedItem.levels) {

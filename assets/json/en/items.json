@@ -9,6 +9,7 @@
     "IsStackable": false,
     "Equipable": "NotEquipable",
     "RequiredLicence": "Logging",
+    "RequiredLicenceAppId": "licence_2",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -80,6 +81,7 @@
       "CrafterLevelLearnt": 6
     },
     "RequiredLicence": "Logging",
+    "RequiredLicenceAppId": "licence_2",
     "RequiredLicenceLevel": 3,
     "LicenceLevelText": "LVL III"
   },
@@ -93,6 +95,7 @@
     "IsStackable": false,
     "Equipable": "NotEquipable",
     "RequiredLicence": "Fishing",
+    "RequiredLicenceAppId": "licence_3",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -120,6 +123,7 @@
     "IsStackable": false,
     "Equipable": "NotEquipable",
     "RequiredLicence": "Excavation",
+    "RequiredLicenceAppId": "licence_16",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -133,6 +137,7 @@
     "IsStackable": false,
     "Equipable": "NotEquipable",
     "RequiredLicence": "Farming",
+    "RequiredLicenceAppId": "licence_11",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -146,6 +151,7 @@
     "IsStackable": false,
     "Equipable": "NotEquipable",
     "RequiredLicence": "Mining",
+    "RequiredLicenceAppId": "licence_1",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -172,6 +178,7 @@
     "IsStackable": false,
     "Equipable": "NotEquipable",
     "RequiredLicence": "Farming",
+    "RequiredLicenceAppId": "licence_11",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -955,6 +962,7 @@
     "IsStackable": false,
     "Equipable": "NotEquipable",
     "RequiredLicence": "MetalDetecting",
+    "RequiredLicenceAppId": "licence_6",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -1397,6 +1405,7 @@
       "CrafterLevelLearnt": 0
     },
     "RequiredLicence": "Mining",
+    "RequiredLicenceAppId": "licence_1",
     "RequiredLicenceLevel": 2,
     "LicenceLevelText": "LVL II"
   },
@@ -1440,6 +1449,7 @@
       "CrafterLevelLearnt": 0
     },
     "RequiredLicence": "Mining",
+    "RequiredLicenceAppId": "licence_1",
     "RequiredLicenceLevel": 3,
     "LicenceLevelText": "LVL III"
   },
@@ -1623,6 +1633,7 @@
       "CrafterLevelLearnt": 0
     },
     "RequiredLicence": "Logging",
+    "RequiredLicenceAppId": "licence_2",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -1666,6 +1677,7 @@
       "CrafterLevelLearnt": 0
     },
     "RequiredLicence": "Logging",
+    "RequiredLicenceAppId": "licence_2",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -2833,6 +2845,7 @@
       "CrafterLevelLearnt": 2
     },
     "RequiredLicence": "Vehicle",
+    "RequiredLicenceAppId": "licence_7",
     "RequiredLicenceLevel": 2,
     "LicenceLevelText": "LVL II"
   },
@@ -4022,6 +4035,7 @@
       "CrafterLevelLearnt": 4
     },
     "RequiredLicence": "Commerce",
+    "RequiredLicenceAppId": "licence_8",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -5455,6 +5469,7 @@
       "CrafterLevelLearnt": 6
     },
     "RequiredLicence": "Mining",
+    "RequiredLicenceAppId": "licence_1",
     "RequiredLicenceLevel": 3,
     "LicenceLevelText": "LVL III"
   },
@@ -5518,6 +5533,7 @@
       "CrafterLevelLearnt": 2
     },
     "RequiredLicence": "Vehicle",
+    "RequiredLicenceAppId": "licence_7",
     "RequiredLicenceLevel": 2,
     "LicenceLevelText": "LVL II"
   },
@@ -5613,6 +5629,7 @@
       "CrafterLevelLearnt": 0
     },
     "RequiredLicence": "Vehicle",
+    "RequiredLicenceAppId": "licence_7",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -5804,6 +5821,7 @@
     "IsStackable": false,
     "Equipable": "NotEquipable",
     "RequiredLicence": "DeepMining",
+    "RequiredLicenceAppId": "licence_13",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -6064,6 +6082,7 @@
       "CrafterLevelLearnt": 10
     },
     "RequiredLicence": "Vehicle",
+    "RequiredLicenceAppId": "licence_7",
     "RequiredLicenceLevel": 3,
     "LicenceLevelText": "LVL III"
   },
@@ -6441,6 +6460,7 @@
       "CrafterLevelLearnt": 0
     },
     "RequiredLicence": "Farming",
+    "RequiredLicenceAppId": "licence_11",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -6484,6 +6504,7 @@
       "CrafterLevelLearnt": 0
     },
     "RequiredLicence": "Farming",
+    "RequiredLicenceAppId": "licence_11",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -7410,6 +7431,7 @@
       "CrafterLevelLearnt": 0
     },
     "RequiredLicence": "Farming",
+    "RequiredLicenceAppId": "licence_11",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -7610,6 +7632,7 @@
       "CrafterLevelLearnt": 0
     },
     "RequiredLicence": "Fishing",
+    "RequiredLicenceAppId": "licence_3",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -7653,6 +7676,7 @@
       "CrafterLevelLearnt": 0
     },
     "RequiredLicence": "Fishing",
+    "RequiredLicenceAppId": "licence_3",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -7911,6 +7935,7 @@
       "CrafterLevelLearnt": 8
     },
     "RequiredLicence": "AgriculturalVehicle",
+    "RequiredLicenceAppId": "licence_18",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -8647,6 +8672,7 @@
       "CrafterLevelLearnt": 0
     },
     "RequiredLicence": "Farming",
+    "RequiredLicenceAppId": "licence_11",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -10759,6 +10785,7 @@
     "IsStackable": false,
     "Equipable": "NotEquipable",
     "RequiredLicence": "Mining",
+    "RequiredLicenceAppId": "licence_1",
     "RequiredLicenceLevel": 2,
     "LicenceLevelText": "LVL II"
   },
@@ -10772,6 +10799,7 @@
     "IsStackable": false,
     "Equipable": "NotEquipable",
     "RequiredLicence": "Logging",
+    "RequiredLicenceAppId": "licence_2",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },

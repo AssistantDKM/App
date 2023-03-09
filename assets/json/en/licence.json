@@ -8,7 +8,7 @@
       "Allows the holder to craft a better pickaxe.",
       "Allows the holder to craft a better pickaxe."
     ],
-    "Icon": "",
+    "Icon": "licence/licence1.png",
     "MaxLevel": 3,
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
@@ -25,7 +25,7 @@
       "Allows the holder to craft a better axe.",
       "Allows the holder to craft a better axe."
     ],
-    "Icon": "",
+    "Icon": "licence/licence2.png",
     "MaxLevel": 3,
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
@@ -42,7 +42,7 @@
       "Allows the holder to see bubbles created by underwater creatures. Unlocks a new fishing rod recipe",
       "Allows the holder to craft Crab Pots. Unlocks a new fishing rod recipe."
     ],
-    "Icon": "",
+    "Icon": "licence/licence3.png",
     "MaxLevel": 3,
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
@@ -59,7 +59,7 @@
       "Allows the holder to craft better weapons. Unlocks trapping Licence.",
       "Allows the holder to craft better weapons using animal drops. Animals have an even higher chance to drop other useful items when hunted."
     ],
-    "Icon": "",
+    "Icon": "licence/licence4.png",
     "MaxLevel": 3,
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
@@ -75,7 +75,7 @@
       "Allows the holder to craft new pathing options.",
       "Allows the holder to craft new fencing options."
     ],
-    "Icon": "",
+    "Icon": "licence/licence5.png",
     "MaxLevel": 2,
     "LevelCost": 250,
     "LevelCostMuliplier": 1,
@@ -91,7 +91,7 @@
       "Allows the holder to buy a metal detector and search for treasure around the island.",
       "Allows the holder to notice some buried items using sight alone."
     ],
-    "Icon": "",
+    "Icon": "licence/licence6.png",
     "MaxLevel": 2,
     "LevelCost": 500,
     "LevelCostMuliplier": 2,
@@ -108,7 +108,7 @@
       "Allows the holder to purchase and drive land vehicles.",
       "Allows the holder to purchase and pilot flying vehicles."
     ],
-    "Icon": "",
+    "Icon": "licence/licence7.png",
     "MaxLevel": 3,
     "LevelCost": 1200,
     "LevelCostMuliplier": 1,
@@ -125,7 +125,7 @@
       "The holder will receive 10% more when selling items",
       "The holder will receive 15% more when selling items"
     ],
-    "Icon": "",
+    "Icon": "licence/licence8.png",
     "MaxLevel": 3,
     "LevelCost": 750,
     "LevelCostMuliplier": 2,
@@ -142,7 +142,7 @@
       "Allows the holder to buy and raise Vombats.",
       "Allows the holder to buy raise Pleep."
     ],
-    "Icon": "",
+    "Icon": "licence/licence9.png",
     "MaxLevel": 3,
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
@@ -159,7 +159,7 @@
       "Allows the holder to build Windmills to help speed up production tasks.",
       "Coming soon. The holder will get instant access to Building Level 3 once it has arrived"
     ],
-    "Icon": "",
+    "Icon": "licence/licence10.png",
     "MaxLevel": 3,
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
@@ -176,7 +176,7 @@
       "Allows the holder to craft fertilzer. Unlocks a new watercan recipe.",
       "Allows the holder to access irregation licence. Unlocks a new watercan recipe."
     ],
-    "Icon": "",
+    "Icon": "licence/licence11.png",
     "MaxLevel": 3,
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
@@ -193,7 +193,7 @@
       "Allows the holder to expand their pockets by 3 slots.",
       "Allows the holder to expand their pockets by 3 slots."
     ],
-    "Icon": "",
+    "Icon": "licence/licence12.png",
     "MaxLevel": 3,
     "LevelCost": 500,
     "LevelCostMuliplier": 2,
@@ -208,7 +208,7 @@
     "Descriptions": [
       "Unlocks the Mine Deed and allows access to the deep mines."
     ],
-    "Icon": "",
+    "Icon": "licence/licence13.png",
     "MaxLevel": 1,
     "LevelCost": 3500,
     "LevelCostMuliplier": 2,
@@ -225,7 +225,7 @@
       "Allow the holder to expand their toolbelt slots by 1.",
       "Allow the holder to expand their toolbelt slots by 1."
     ],
-    "Icon": "",
+    "Icon": "licence/licence14.png",
     "MaxLevel": 3,
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
@@ -241,7 +241,7 @@
       "Allows the holder to craft and use animal traps and animal drop off points. Animals successfully dropped off will give a reward.",
       "Allows the holder to craft and use advanced animal traps."
     ],
-    "Icon": "",
+    "Icon": "licence/licence15.png",
     "MaxLevel": 2,
     "LevelCost": 500,
     "LevelCostMuliplier": 1,
@@ -256,7 +256,7 @@
     "Descriptions": [
       "Allows the holder to purchase and use shovels."
     ],
-    "Icon": "",
+    "Icon": "licence/licence16.png",
     "MaxLevel": 1,
     "LevelCost": 500,
     "LevelCostMuliplier": 2,
@@ -272,7 +272,7 @@
       "Allows the holder to craft sprinklers and water tanks.",
       "Allows the holder to craft improved sprinklers."
     ],
-    "Icon": "",
+    "Icon": "licence/licence17.png",
     "MaxLevel": 2,
     "LevelCost": 1000,
     "LevelCostMuliplier": 2,
@@ -289,7 +289,7 @@
       "Allows the holder to use the Plowing Attachment on Agricultural Vehicles.",
       "Allows the holder to use the Planting Attachment on Agricultural Vehicles."
     ],
-    "Icon": "",
+    "Icon": "licence/licence18.png",
     "MaxLevel": 3,
     "LevelCost": 2000,
     "LevelCostMuliplier": 0,
