@@ -6,9 +6,7 @@ import 'package:settings_ui/settings_ui.dart';
 
 import '../components/drawer.dart';
 import '../constants/analytics_event.dart';
-import '../constants/app_duration.dart';
 import '../constants/app_image.dart';
-import '../constants/app_modal.dart';
 import '../constants/external_urls.dart';
 import '../contracts/redux/app_state.dart';
 import '../env.dart';
@@ -66,15 +64,12 @@ class SettingsPage extends StatelessWidget {
     commonTiles.add(
       SettingsTile.navigation(
         leading: const Icon(Icons.language),
-        title: const Text('Language'),
+        title: Text(getTranslations().fromKey(LocaleKey.language)),
         value: Text(getTranslations().fromKey(currentLocale.name)),
-        trailing: Opacity(
-          opacity: 0.5,
-          child: SizedBox(
-            width: 50,
-            height: 50,
-            child: getCountryFlag(currentLocale.countryCode),
-          ),
+        trailing: SizedBox(
+          width: 50,
+          height: 50,
+          child: getCountryFlag(currentLocale.countryCode),
         ),
         onPressed: (context) async {
           String? temp = await getTranslations().langaugeSelectionPage(context);
@@ -204,28 +199,14 @@ class SettingsPage extends StatelessWidget {
       ),
     );
 
-    List<Widget> debugDetails = [
-      const EmptySpace3x(),
-      ...getDebugDetails(),
-    ];
     otherTiles.add(
       SettingsTile.navigation(
         leading: const Icon(Icons.bug_report),
-        title: const Text('Debug info'),
+        title: const Text('Version info'),
         onPressed: (BuildContext tapCtx) => adaptiveBottomModalSheet(
           tapCtx,
           hasRoundedCorners: true,
-          builder: (buildCtx) => AnimatedSize(
-            duration: AppDuration.modal,
-            child: Container(
-              constraints: modalSmallHeightSize(buildCtx),
-              child: ListView.builder(
-                itemCount: debugDetails.length,
-                itemBuilder: (_, index) => debugDetails[index],
-                shrinkWrap: true,
-              ),
-            ),
-          ),
+          builder: (buildCtx) => const VersionDebugBottomSheet(),
         ),
       ),
     );

@@ -84,7 +84,7 @@ class PeopleDetailsPage extends StatelessWidget {
       getName: (loadedItem) => loadedItem.name,
       contractToWidgetList: (loadedItem, isInDetailPane) {
         String imagePath = loadedItem.icon.isEmpty //
-            ? AppImage.unknown
+            ? getPath().unknownImagePath
             : loadedItem.icon;
 
         List<Widget> descripWidgets = commonDetailPageHeaderWidgets(
@@ -161,8 +161,9 @@ class PeopleDetailsPage extends StatelessWidget {
                       Column(
                         children: [
                           LocalImage(
-                              imagePath: AppImage.animalProduct,
-                              width: tableSize),
+                            imagePath: AppImage.animalProduct,
+                            width: tableSize,
+                          ),
                           const EmptySpace1x(),
                           LocalImage(
                             imagePath: loadedItem.hatesAnimalProducts
@@ -174,7 +175,9 @@ class PeopleDetailsPage extends StatelessWidget {
                       Column(
                         children: [
                           LocalImage(
-                              imagePath: AppImage.vegetable, width: tableSize),
+                            imagePath: AppImage.vegetable,
+                            width: tableSize,
+                          ),
                           const EmptySpace1x(),
                           LocalImage(
                             imagePath: loadedItem.hatesVegetables
@@ -186,7 +189,9 @@ class PeopleDetailsPage extends StatelessWidget {
                       Column(
                         children: [
                           LocalImage(
-                              imagePath: AppImage.fruit, width: tableSize),
+                            imagePath: AppImage.fruit,
+                            width: tableSize,
+                          ),
                           const EmptySpace1x(),
                           LocalImage(
                             imagePath: loadedItem.hatesFruits
@@ -198,7 +203,9 @@ class PeopleDetailsPage extends StatelessWidget {
                       Column(
                         children: [
                           LocalImage(
-                              imagePath: AppImage.meat, width: tableSize),
+                            imagePath: AppImage.meat,
+                            width: tableSize,
+                          ),
                           const EmptySpace1x(),
                           LocalImage(
                             imagePath: loadedItem.hatesMeat

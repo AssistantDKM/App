@@ -25,11 +25,9 @@ class EnvironmentSettings {
         isProduction: isProduction,
         patreonOAuthClientId: patreonOAuthClientId,
 
-        buildName: appsBuildName,
-        buildNum: appsBuildNum.toString(),
         commitHash: appsCommit,
         githubViewAppRepoAtCommit:
-            'https://github.com/AssistantSMS/App/commit/',
+            'https://github.com/AssistantDKM/App/commit/',
 
         // Required for Android (because of how I set it up) and Windows
         appVersionBuildNumberOverride: appsBuildNum,

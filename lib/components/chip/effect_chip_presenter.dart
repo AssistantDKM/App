@@ -62,7 +62,7 @@ Widget effectChipPresenter(
       isMinuteBased = true;
       break;
     default:
-      localImageStr = AppImage.unknown;
+      localImageStr = getPath().unknownImagePath;
       break;
   }
 

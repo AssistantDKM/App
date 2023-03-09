@@ -1,4 +1,5 @@
 import 'package:assistant_dinkum_app/constants/app_image.dart';
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../contracts/json/people_item.dart';
@@ -17,7 +18,7 @@ Widget Function(
     void Function()? onTap,
   }) {
     if (item.icon.isEmpty) {
-      item.icon = AppImage.unknown;
+      item.icon = getPath().unknownImagePath;
     }
     return itemBaseTilePresenter(
       context: context,

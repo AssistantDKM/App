@@ -1,3 +1,4 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -46,8 +47,8 @@ class _CustomSpinnerWidget extends State<CustomSpinner>
       child: SizedBox(
         height: widget.height,
         width: widget.width,
-        child: const Image(
-          image: AssetImage(AppImage.customLoading),
+        child: const LocalImage(
+          imagePath: AppImage.customLoading,
         ),
       ),
     );

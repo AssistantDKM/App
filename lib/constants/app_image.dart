@@ -1,29 +1,26 @@
 class AppImage {
-  static const String imageAssetPathPrefix = 'assets/images';
-  static const String base = 'assets/images/';
+  static const String windowIcon = 'windowIcon.png';
+  static const String customLoading = 'loading.png';
+  static const String coin = 'coin.png';
+  static const String permitPoint = 'permitPoint.png';
+  static const String assistantApps = 'assistantApps.png';
+  static const String checkboxTicked = 'checkbox-ticked.png';
+  static const String checkboxUnTicked = 'checkbox-unticked.png';
+  static const String customCursor = 'customCursor.png';
+  static const String museum = 'museum.png';
+  static const String locked = 'locked.png';
+  static const String error = 'error.png';
 
-  static const String windowIcon = '${base}windowIcon.png';
-  static const String customLoading = '${base}loading.png';
-  static const String coin = '${base}coin.png';
-  static const String permitPoint = '${base}permitPoint.png';
-  static const String assistantApps = '${base}assistantApps.png';
-  static const String checkboxTicked = '${base}checkbox-ticked.png';
-  static const String checkboxUnTicked = '${base}checkbox-unticked.png';
-  static const String customCursor = '${base}customCursor.png';
-  static const String museum = '${base}museum.png';
-  static const String locked = '${base}locked.png';
-  static const String error = '${base}error.png';
+  static const String drawerHeader = 'drawer/DrawerHeader.png';
+  static const String patreon = 'drawer/patreonTile.png';
 
-  static const String drawerHeader = '${base}drawer/DrawerHeader.png';
-  static const String patreon = '${base}drawer/patreonTile.png';
+  static const String discord = 'social/discord.png';
+  static const String reddit = 'social/reddit.png';
+  static const String steam = 'social/steam.png';
+  static const String twitter = 'social/twitter.png';
+  static const String youtube = 'social/youtube.png';
 
-  static const String discord = '${base}social/discord.png';
-  static const String reddit = '${base}social/reddit.png';
-  static const String steam = '${base}social/steam.png';
-  static const String twitter = '${base}social/twitter.png';
-  static const String youtube = '${base}social/youtube.png';
-
-  static const String stats = '${base}stats/';
+  static const String stats = 'stats/';
   static const String health = '${stats}health.png';
   static const String healthPlus = '${stats}healthPlus.png';
   static const String energy = '${stats}energy.png';
@@ -47,20 +44,20 @@ class AppImage {
   static const String preferenceDislikes = '${stats}dislikes.png';
   static const String preferenceNothing = '${stats}nothing.png';
 
-  static const String animalsLogo = '${base}menu/animals.png';
-  static const String bugsLogo = '${base}menu/bugs.png';
-  static const String crittersLogo = '${base}menu/critters.png';
-  static const String fishLogo = '${base}menu/fish.png';
-  static const String foodLogo = '${base}menu/food.png';
-  static const String itemsLogo = '${base}menu/items.png';
-  static const String licencesLogo = '${base}menu/licences.png';
-  static const String milestonesLogo = '${base}menu/milestones.png';
-  static const String peopleLogo = '${base}menu/people.png';
+  static const String animalsLogo = 'menu/animals.png';
+  static const String bugsLogo = 'menu/bugs.png';
+  static const String crittersLogo = 'menu/critters.png';
+  static const String fishLogo = 'menu/fish.png';
+  static const String foodLogo = 'menu/food.png';
+  static const String itemsLogo = 'menu/items.png';
+  static const String licencesLogo = 'menu/licences.png';
+  static const String milestonesLogo = 'menu/milestones.png';
+  static const String peopleLogo = 'menu/people.png';
 
-  static const String animalProduct = '${base}menu/animalProduct.png';
-  static const String vegetable = '${base}menu/vegetable.png';
-  static const String fruit = '${base}menu/fruit.png';
-  static const String meat = '${base}menu/meat.png';
+  static const String animalProduct = 'menu/animalProduct.png';
+  static const String vegetable = 'menu/vegetable.png';
+  static const String fruit = 'menu/fruit.png';
+  static const String meat = 'menu/meat.png';
 
-  static const String unknown = '${base}unknown.png';
+  static const String unknown = 'unknown.png';
 }
