@@ -295,7 +295,7 @@
     "UnlockedBySkill": 0,
     "UnlockedEveryLevel": 3,
     "SortingNumber": 7,
-    "LicenceColour": "7085BA"
+    "LicenceColour": "FFA14A"
   },
   {
     "Id": 18,
@@ -313,6 +313,73 @@
     "UnlockedBySkill": 0,
     "UnlockedEveryLevel": 3,
     "SortingNumber": 11,
-    "LicenceColour": "FFA14A"
+    "LicenceColour": "E1DC29"
+  },
+  {
+    "Id": 19,
+    "AppId": "licence_19",
+    "Name": "SignWriting",
+    "Descriptions": [
+      "Unlocked the recipe for The Sign Writing Table and simple sign recipes",
+      "Unlocks the recipes for advanced signs"
+    ],
+    "Icon": "licence/licence19.png",
+    "MaxLevel": 2,
+    "LevelCost": 500,
+    "LevelCostMuliplier": 1,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 10,
+    "LicenceColour": "7086BB"
+  },
+  {
+    "Id": 20,
+    "AppId": "licence_20",
+    "Name": "WaterBed",
+    "Descriptions": [
+      "Unlocks the recipes for Waterbeds. Used to create waterfalls."
+    ],
+    "Icon": "licence/licence20.png",
+    "MaxLevel": 1,
+    "LevelCost": 1000,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 10,
+    "LicenceColour": "D67CEC"
+  },
+  {
+    "Id": 21,
+    "AppId": "licence_21",
+    "Name": "Brewing",
+    "Descriptions": [
+      "Unlocks the Billy Kit recipe used for brewing drinks and jams.",
+      "Unlocks the Keg recipe used for brewing advanced drinks."
+    ],
+    "Icon": "licence/licence21.png",
+    "MaxLevel": 2,
+    "LevelCost": 500,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 12,
+    "LicenceColour": "FF82CE"
+  },
+  {
+    "Id": 22,
+    "AppId": "licence_22",
+    "Name": "AnimalProccessing",
+    "Descriptions": [
+      "Unlocks Cheese Making recipe for processing Milk.",
+      "Unlocks Spinning Wheel recipe for processing Wool."
+    ],
+    "Icon": "licence/licence22.png",
+    "MaxLevel": 2,
+    "LevelCost": 500,
+    "LevelCostMuliplier": 1,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 8,
+    "LicenceColour": "000000"
   }
 ]

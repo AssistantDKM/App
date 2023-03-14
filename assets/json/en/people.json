@@ -49,6 +49,18 @@
     "HatesVegetables": true
   },
   {
+    "AppId": "people_14",
+    "Name": "Ghost",
+    "Icon": "",
+    "SpendBeforeMoveIn": 0,
+    "RelationshipBeforeMove": 0,
+    "Color": "FFFFFF",
+    "HatesAnimalProducts": false,
+    "HatesMeat": false,
+    "HatesFruits": false,
+    "HatesVegetables": false
+  },
+  {
     "AppId": "people_7",
     "Name": "Irwin",
     "Icon": "people/npcImages_7.png",
@@ -63,22 +75,6 @@
     "HatedFood": "cooking_647",
     "HatesAnimalProducts": true,
     "HatesMeat": true,
-    "HatesFruits": false,
-    "HatesVegetables": false
-  },
-  {
-    "AppId": "people_13",
-    "Name": "Jackie",
-    "Icon": "",
-    "Deed": "item_380",
-    "SpendBeforeMoveIn": 0,
-    "RelationshipBeforeMove": 0,
-    "ShirtAppId": "clothing_95",
-    "PantsAppId": "clothing_96",
-    "ShoesAppId": "clothing_70",
-    "Color": "FFFFFF",
-    "HatesAnimalProducts": false,
-    "HatesMeat": false,
     "HatesFruits": false,
     "HatesVegetables": false
   },
@@ -130,6 +126,20 @@
     "HatesVegetables": false
   },
   {
+    "AppId": "people_13",
+    "Name": "Julia",
+    "Icon": "people/npcImages_14.png",
+    "Deed": "item_380",
+    "SpendBeforeMoveIn": 0,
+    "RelationshipBeforeMove": 101,
+    "ShoesAppId": "clothing_70",
+    "Color": "5F783D",
+    "HatesAnimalProducts": false,
+    "HatesMeat": false,
+    "HatesFruits": false,
+    "HatesVegetables": false
+  },
+  {
     "AppId": "people_3",
     "Name": "Melvin",
     "Icon": "people/npcImages_3.png",
@@ -175,22 +185,6 @@
     "HatesVegetables": false
   },
   {
-    "AppId": "people_12",
-    "Name": "Oakley",
-    "Icon": "",
-    "Deed": "item_380",
-    "SpendBeforeMoveIn": 0,
-    "RelationshipBeforeMove": 0,
-    "ShirtAppId": "clothing_95",
-    "PantsAppId": "clothing_96",
-    "ShoesAppId": "clothing_70",
-    "Color": "FFFFFF",
-    "HatesAnimalProducts": false,
-    "HatesMeat": false,
-    "HatesFruits": false,
-    "HatesVegetables": false
-  },
-  {
     "AppId": "people_0",
     "Name": "Rayne",
     "Icon": "people/npcImages_0.png",
@@ -219,6 +213,21 @@
     "FavouriteFood": "cooking_247",
     "HatedFood": "cooking_111",
     "HatesAnimalProducts": true,
+    "HatesMeat": false,
+    "HatesFruits": false,
+    "HatesVegetables": false
+  },
+  {
+    "AppId": "people_12",
+    "Name": "Sheila",
+    "Icon": "people/npcImages_13.png",
+    "Deed": "item_1031",
+    "SpendBeforeMoveIn": 0,
+    "RelationshipBeforeMove": 25,
+    "Color": "815982",
+    "FavouriteFood": "cooking_898",
+    "HatedFood": "cooking_997",
+    "HatesAnimalProducts": false,
     "HatesMeat": false,
     "HatesFruits": false,
     "HatesVegetables": false
@@ -253,22 +262,6 @@
     "Color": "E2E7C1",
     "FavouriteFood": "cooking_669",
     "HatedFood": "cooking_215",
-    "HatesAnimalProducts": false,
-    "HatesMeat": false,
-    "HatesFruits": false,
-    "HatesVegetables": false
-  },
-  {
-    "AppId": "people_14",
-    "Name": "Timber",
-    "Icon": "",
-    "Deed": "item_380",
-    "SpendBeforeMoveIn": 0,
-    "RelationshipBeforeMove": 0,
-    "ShirtAppId": "clothing_95",
-    "PantsAppId": "clothing_96",
-    "ShoesAppId": "clothing_70",
-    "Color": "FFFFFF",
     "HatesAnimalProducts": false,
     "HatesMeat": false,
     "HatesFruits": false,

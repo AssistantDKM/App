@@ -33,7 +33,7 @@
     "AppId": "fish_49",
     "Icon": "inventory/allUI_115.png",
     "Name": "Barramundi",
-    "Description": "That's good eatin' eh?",
+    "Description": "Thats good eatin' eh?",
     "SellPrice": 8416,
     "IsStackable": false,
     "Equipable": "NotEquipable",
@@ -401,7 +401,7 @@
     "Id": 334,
     "AppId": "fish_334",
     "Icon": "inventory/allUI_122.png",
-    "Name": "Eyestripe Surgeonfish",
+    "Name": "Eyestripe Surgeon Fish",
     "Description": "This guy is a doctor.",
     "SellPrice": 3996,
     "IsStackable": false,
@@ -754,7 +754,6 @@
       ],
       "SeasonFound": [
         "Summer",
-        "Autum",
         "Spring"
       ],
       "TimeOfDay": [
