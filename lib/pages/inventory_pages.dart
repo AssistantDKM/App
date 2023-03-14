@@ -1,4 +1,3 @@
-import 'package:assistant_dinkum_app/services/json/inventory_repository.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
@@ -10,9 +9,10 @@ import '../components/tilePresenters/inventory_tile_presenter.dart';
 import '../contracts/json/inventory_item.dart';
 import '../contracts/pageItem/inventory_page_item.dart';
 import '../contracts/redux/app_state.dart';
+import '../helper/future_helper.dart';
 import '../helper/generic_repository_helper.dart';
-import '../integration/dependency_injection.dart';
 import '../redux/misc/inventory_item_viewmodel.dart';
+import '../services/json/inventory_repository.dart';
 
 class InventoryListPage extends StatelessWidget {
   final String analyticsEvent;
@@ -87,37 +87,10 @@ class InventoryDetailsPage extends StatelessWidget {
           context,
           viewModel,
           updateDetailView,
-          (BuildContext newCtx, String reqItemId, String reqItemTitle) =>
-              getNavigation().navigateAwayFromHomeAsync(
-            newCtx,
-            navigateTo: (BuildContext localNewCtx) => InventoryDetailsPage(
-              reqItemId,
-              title: reqItemTitle,
-              isInDetailPane: isInDetailPane,
-              updateDetailView: updateDetailView,
-            ),
-          ),
         ),
       ),
     );
   }
-}
-
-Future<ResultWithValue<List<InventoryItem>>> getCombinedItems(
-    BuildContext funcCtx, List<LocaleKey> appJsons) async {
-  List<InventoryItem> result = List.empty(growable: true);
-
-  for (LocaleKey appJson in appJsons) {
-    ResultWithValue<List<InventoryItem>> genericRepoResult =
-        await getInventoryRepo(appJson).getItems(funcCtx);
-    if (genericRepoResult.isSuccess) {
-      result.addAll(genericRepoResult.value);
-    }
-  }
-
-  result.sort(((a, b) => a.name.compareTo(b.name)));
-
-  return ResultWithValue(result.isNotEmpty, result, '');
 }
 
 Future<ResultWithValue<InventoryPageItem>> getPageItem(

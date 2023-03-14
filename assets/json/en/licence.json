@@ -13,6 +13,7 @@
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 2,
+    "UnlockedEveryLevel": 10,
     "SortingNumber": 1,
     "LicenceColour": "70BA75"
   },
@@ -30,6 +31,7 @@
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 1,
+    "UnlockedEveryLevel": 10,
     "SortingNumber": 2,
     "LicenceColour": "70A8BA"
   },
@@ -47,6 +49,7 @@
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 3,
+    "UnlockedEveryLevel": 5,
     "SortingNumber": 3,
     "LicenceColour": "939393"
   },
@@ -64,6 +67,7 @@
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 5,
+    "UnlockedEveryLevel": 5,
     "SortingNumber": 6,
     "LicenceColour": "7085BA"
   },
@@ -80,6 +84,7 @@
     "LevelCost": 250,
     "LevelCostMuliplier": 1,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 10,
     "LicenceColour": "A87018"
   },
@@ -96,6 +101,7 @@
     "LevelCost": 500,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 5,
     "LicenceColour": "FF9100"
   },
@@ -113,6 +119,7 @@
     "LevelCost": 1200,
     "LevelCostMuliplier": 1,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 11,
     "LicenceColour": "FFC20C"
   },
@@ -130,6 +137,7 @@
     "LevelCost": 750,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 12,
     "LicenceColour": "FFA8DE"
   },
@@ -147,6 +155,7 @@
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 8,
     "LicenceColour": "967D9C"
   },
@@ -164,6 +173,7 @@
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 10,
     "LicenceColour": "9BBA70"
   },
@@ -181,6 +191,7 @@
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 10,
     "SortingNumber": 7,
     "LicenceColour": "2ACB90"
   },
@@ -198,6 +209,7 @@
     "LevelCost": 500,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 9,
     "LicenceColour": "BA7084"
   },
@@ -213,6 +225,7 @@
     "LevelCost": 3500,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 1,
     "LicenceColour": "26B6A7"
   },
@@ -230,6 +243,7 @@
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 9,
     "LicenceColour": "A07D7D"
   },
@@ -246,6 +260,7 @@
     "LevelCost": 500,
     "LevelCostMuliplier": 1,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 6,
     "LicenceColour": "B56A48"
   },
@@ -261,6 +276,7 @@
     "LevelCost": 500,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 4,
     "LicenceColour": "54BDC6"
   },
@@ -277,6 +293,7 @@
     "LevelCost": 1000,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 7,
     "LicenceColour": "7085BA"
   },
@@ -294,6 +311,7 @@
     "LevelCost": 2000,
     "LevelCostMuliplier": 0,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 11,
     "LicenceColour": "FFA14A"
   }

@@ -30,7 +30,6 @@ List<Widget> Function(
   BuildContext contentsContext,
   InventoryItemViewModel viewmodel,
   void Function(Widget newDetailView)? updateDetailView,
-  void Function(BuildContext, String, String) navigateTo,
 ) {
   return (InventoryPageItem loadedPageItem, bool isInDetailPane) {
     InventoryItem loadedItem = loadedPageItem.item;
@@ -200,6 +199,16 @@ List<Widget> Function(
             usagesPresenter,
             subtitle: getTranslations().fromKey(LocaleKey.usedToCreate),
             hideAppBar: isInDetailPane,
+            onBackButton: (isInDetailPane && updateDetailView != null)
+                ? () => updateDetailView(
+                      InventoryDetailsPage(
+                        loadedItem.appId,
+                        title: loadedItem.appId.toString(),
+                        isInDetailPane: isInDetailPane,
+                        updateDetailView: updateDetailView,
+                      ),
+                    )
+                : null,
           );
 
       descripWidgets.addAll(

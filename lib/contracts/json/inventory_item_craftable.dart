@@ -21,10 +21,9 @@ class InventoryItemCraftable {
   // final int skillEnum;
   // final String skill;
   // final int levelSkillLearnt;
-  // final bool learnThroughLicence;
-  // final int licenceTypeEnum;
-  // final String licenceType;
-  // final int licenceLevelLearnt;
+  final bool learnThroughLicence;
+  final String licenceAppId;
+  final int licenceLevelLearnt;
   // final int crafterLevelLearnt;
 
   InventoryItemCraftable({
@@ -40,10 +39,9 @@ class InventoryItemCraftable {
     // required this.skillEnum,
     // required this.skill,
     // required this.levelSkillLearnt,
-    // required this.learnThroughLicence,
-    // required this.licenceTypeEnum,
-    // required this.licenceType,
-    // required this.licenceLevelLearnt,
+    required this.learnThroughLicence,
+    required this.licenceAppId,
+    required this.licenceLevelLearnt,
     // required this.crafterLevelLearnt,
   });
 
@@ -55,6 +53,9 @@ class InventoryItemCraftable {
       return InventoryItemCraftable(
         recipeGiveThisAmount: 0,
         requiredItems: [],
+        learnThroughLicence: false,
+        licenceAppId: '',
+        licenceLevelLearnt: 0,
       );
     }
     return InventoryItemCraftable(
@@ -74,9 +75,9 @@ class InventoryItemCraftable {
       // skillEnum: readIntSafe(json, 'SkillEnum'),
       // skill: readIntSafe(json, 'Skill'),
       // levelSkillLearnt: readIntSafe(json, 'LevelSkillLearnt'),
-      // learnThroughLicence: readIntSafe(json, 'LearnThroughLicence'),
-      // licenceTypeEnum: readIntSafe(json, 'LicenceTypeEnum'),
-      // licenceType: readIntSafe(json, 'LicenceType'),
+      learnThroughLicence: readBoolSafe(json, 'LearnThroughLicence'),
+      licenceAppId: readStringSafe(json, 'LicenceAppId'),
+      licenceLevelLearnt: readIntSafe(json, 'LicenceLevelLearnt'),
       // licenceLevelLearnt: readIntSafe(json, 'LicenceLevelLearnt'),
       // crafterLevelLearnt: readIntSafe(json, 'CrafterLevelLearnt'),
     );

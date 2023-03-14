@@ -26,13 +26,25 @@ Widget itemBaseTilePresenter({
     );
   }
 
+  return itemBasePlainTilePresenter(
+    leading: imgChild,
+    title: item.name,
+    onTap: onTap,
+  );
+}
+
+ListTile itemBasePlainTilePresenter({
+  Widget? leading,
+  required String title,
+  void Function()? onTap,
+}) {
   return ListTile(
     leading: ConstrainedBox(
       constraints: const BoxConstraints(maxWidth: 60),
-      child: imgChild,
+      child: leading,
     ),
     title: Text(
-      item.name,
+      title,
       maxLines: 1,
       overflow: TextOverflow.ellipsis,
     ),

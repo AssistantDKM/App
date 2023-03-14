@@ -80,10 +80,13 @@ class ItemDetailsPage<T extends ItemBasePresenter> extends StatelessWidget {
     widgets.addAll(contractToWidgetList(snapshot.value, isInDetailPane));
     widgets.add(const EmptySpace10x());
 
-    return listWithScrollbar(
+    var listWidget = listWithScrollbar(
       itemCount: widgets.length,
       itemBuilder: (context, index) => widgets[index],
       scrollController: _scroll,
     );
+
+    if (isInDetailPane) return listWidget;
+    return ContentHorizontalSpacing(child: listWidget);
   }
 }

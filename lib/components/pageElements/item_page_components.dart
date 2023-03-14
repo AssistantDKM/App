@@ -12,15 +12,16 @@ List<Widget> commonDetailPageHeaderWidgets(
   BuildContext detailPageCtx, {
   required String icon,
   required String name,
+  double minHeight = 128,
+  double maxImageSize = 200,
   String? description,
 }) {
   double deviceWidth = MediaQuery.of(detailPageCtx).size.width;
   double deviceHeight = MediaQuery.of(detailPageCtx).size.height;
-  double maxImageSize = 200;
 
   Widget imageStack = ConstrainedBox(
     constraints: BoxConstraints(
-      minHeight: 128,
+      minHeight: minHeight,
       maxWidth: min((deviceWidth / 2), maxImageSize),
       maxHeight: min((deviceHeight / 2), maxImageSize),
     ),
@@ -32,6 +33,7 @@ List<Widget> commonDetailPageHeaderWidgets(
   List<Widget> descripWidgets = [
     imageStack,
     GenericItemName(name),
+    const EmptySpace1x(),
   ];
 
   if (description != null) {
@@ -66,7 +68,7 @@ List<Widget> loadSections(String sectionName, List<String> items) => [
     ];
 
 Widget pageDefaultPadding(Widget inner) => Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 8),
+      padding: const EdgeInsets.symmetric(horizontal: 16),
       child: inner,
     );
 

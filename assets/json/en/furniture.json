@@ -64,8 +64,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -910,8 +909,7 @@
       "Skill": "Foraging",
       "LevelSkillLearnt": 1,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -1153,8 +1151,7 @@
       "Skill": "Foraging",
       "LevelSkillLearnt": 10,
       "LearnThroughLicence": true,
-      "LicenceTypeEnum": 2,
-      "LicenceType": "Logging",
+      "LicenceAppId": "licence_2",
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
@@ -1344,8 +1341,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 100
     },
@@ -2081,8 +2077,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -2129,8 +2124,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -2234,8 +2228,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -2516,8 +2509,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -2751,8 +2743,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": true,
-      "LicenceTypeEnum": 11,
-      "LicenceType": "Farming",
+      "LicenceAppId": "licence_11",
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
@@ -3028,8 +3019,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3071,8 +3061,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3114,8 +3103,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3157,8 +3145,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3704,8 +3691,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3757,8 +3743,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3815,8 +3800,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3863,8 +3847,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3926,8 +3909,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3969,8 +3951,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
