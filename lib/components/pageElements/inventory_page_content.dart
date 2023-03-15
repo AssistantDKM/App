@@ -71,7 +71,10 @@ List<Widget> Function(
     if (isMuseumPlaceable) {
       descripWidgets.add(const EmptySpace3x());
       descripWidgets.add(FlatCard(
-        child: InventoryItemMuseumTile(appId: loadedItem.appId),
+        child: InventoryItemMuseumTile(
+          appId: loadedItem.appId,
+          donations: viewmodel.donations,
+        ),
       ));
     }
 
@@ -244,8 +247,6 @@ List<Widget> Function(
             navigateTo: (BuildContext navigateCtx) => LicenceDetailsPage(
               loadedPageItem.requiredLicence!.appId,
               title: loadedPageItem.requiredLicence!.name,
-              isInDetailPane: isInDetailPane,
-              updateDetailView: updateDetailView,
             ),
           ),
         ),

@@ -1,8 +1,8 @@
 import 'package:assistant_dinkum_app/contracts/json/licence_item.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
-import 'package:collection/collection.dart';
 
 import '../components/pageElements/inventory_page_content.dart';
 import '../components/pageElements/item_details_page.dart';
@@ -20,12 +20,14 @@ import '../services/json/inventory_repository.dart';
 class InventoryListPage extends StatelessWidget {
   final String analyticsEvent;
   final List<LocaleKey> appJsons;
+  final bool displayMuseumStatus;
   final String title;
 
   InventoryListPage({
     Key? key,
     required this.analyticsEvent,
     required this.appJsons,
+    required this.displayMuseumStatus,
     required this.title,
   }) : super(key: key) {
     getAnalytics().trackEvent(analyticsEvent);
@@ -40,7 +42,11 @@ class InventoryListPage extends StatelessWidget {
           analyticsEvent: analyticsEvent,
           title: title,
           getItemsFunc: () => getCombinedItems(context, appJsons),
-          listItemDisplayer: inventoryTilePresenter(viewModel.isPatron),
+          listItemDisplayer: inventoryTilePresenter(
+            isPatron: viewModel.isPatron,
+            displayMuseumStatus: displayMuseumStatus,
+            donations: viewModel.donations,
+          ),
           detailPageFunc: (
             String appId,
             bool isInDetailPane,

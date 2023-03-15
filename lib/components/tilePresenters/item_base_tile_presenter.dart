@@ -11,6 +11,7 @@ Widget itemBaseTilePresenter({
   required ItemBasePresenter item,
   required int index,
   required bool isPatron,
+  Widget? trailing,
   void Function()? onTap,
 }) {
   Widget? imgChild = Container();
@@ -29,6 +30,7 @@ Widget itemBaseTilePresenter({
   return itemBasePlainTilePresenter(
     leading: imgChild,
     title: item.name,
+    trailing: trailing,
     onTap: onTap,
   );
 }
@@ -36,6 +38,7 @@ Widget itemBaseTilePresenter({
 ListTile itemBasePlainTilePresenter({
   Widget? leading,
   required String title,
+  Widget? trailing,
   void Function()? onTap,
 }) {
   return ListTile(
@@ -48,6 +51,7 @@ ListTile itemBasePlainTilePresenter({
       maxLines: 1,
       overflow: TextOverflow.ellipsis,
     ),
+    trailing: trailing,
     onTap: onTap,
   );
 }

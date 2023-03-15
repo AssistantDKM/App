@@ -130,7 +130,10 @@ class LicenceDetailsPage extends StatelessWidget {
                       itemIndex < itemsThatGetUnlocked.length;
                       itemIndex++) {
                     InventoryItem invItem = itemsThatGetUnlocked[itemIndex];
-                    var invPresenter = inventoryTilePresenter(false);
+                    var invPresenter = inventoryTilePresenter(
+                      isPatron: viewModel.isPatron,
+                      displayMuseumStatus: false,
+                    );
                     descripWidgets.add(invPresenter(
                       storeCtx,
                       invItem,

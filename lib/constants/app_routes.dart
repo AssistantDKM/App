@@ -81,32 +81,38 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
             LocaleKey.critterJson,
             LocaleKey.fishJson,
           ],
+          displayMuseumStatus: true,
           title: 'Animals',
         ),
     Routes.bugs: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.bugsPage,
           appJsons: const [LocaleKey.bugsJson],
+          displayMuseumStatus: true,
           title: 'Bugs',
         ),
     Routes.critters: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.crittersPage,
           appJsons: const [LocaleKey.critterJson],
+          displayMuseumStatus: true,
           title: 'Critters',
         ),
     Routes.fish: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.fishPage,
           appJsons: const [LocaleKey.fishJson],
+          displayMuseumStatus: true,
           title: 'Fish',
         ),
 
     Routes.crafting: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.inventory,
           appJsons: const [LocaleKey.itemsJson],
+          displayMuseumStatus: false,
           title: 'Items',
         ),
     Routes.cooking: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.cooking,
           appJsons: const [LocaleKey.cookingJson],
+          displayMuseumStatus: true,
           title: 'Cooking',
         ),
 

@@ -1,8 +1,10 @@
+import 'package:assistant_dinkum_app/constants/app_image.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../contracts/interface/item_base_presenter.dart';
 import '../../pages/inventory_pages.dart';
+import '../pageElements/inventory_item_museum_tile.dart';
 import 'item_base_tile_presenter.dart';
 
 Widget Function(
@@ -10,18 +12,34 @@ Widget Function(
   ItemBasePresenter,
   int, {
   void Function()? onTap,
-}) inventoryTilePresenter(bool isPatron) {
+}) inventoryTilePresenter({
+  required bool isPatron,
+  required bool displayMuseumStatus,
+  List<String>? donations,
+}) {
   return (
     BuildContext context,
     ItemBasePresenter item,
     int index, {
     void Function()? onTap,
   }) {
+    Widget? trailing;
+    if (displayMuseumStatus == true && donations != null) {
+      trailing = SizedBox(
+        height: 20,
+        width: 20,
+        child: InventoryItemMuseumCheckBox(
+          appId: item.appId,
+          donations: donations,
+        ),
+      );
+    }
     return itemBaseTilePresenter(
       context: context,
       item: item,
       index: index,
       isPatron: isPatron,
+      trailing: trailing,
       onTap: onTap,
     );
   };
