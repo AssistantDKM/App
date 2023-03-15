@@ -1,3 +1,9 @@
+plugins {
+  id 'com.android.application'
+  id 'kotlin-android'
+  id 'com.google.gms.google-services'
+}
+
 def localProperties = new Properties()
 def localPropertiesFile = rootProject.file('local.properties')
 if (localPropertiesFile.exists()) {
@@ -21,8 +27,6 @@ if (flutterVersionName == null) {
     flutterVersionName = '1.0'
 }
 
-apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 def releaseKeystoreProperties = new Properties()
@@ -30,7 +34,6 @@ def releaseKeystorePropertiesFile = rootProject.file('releaseKey.properties')
 if (releaseKeystorePropertiesFile.exists()) {
     releaseKeystoreProperties.load(new FileInputStream(releaseKeystorePropertiesFile))
 }
-
 
 android {
     compileSdkVersion flutter.compileSdkVersion
@@ -51,7 +54,7 @@ android {
 
     defaultConfig {
         minSdkVersion 23
-        applicationId "com.kurt_lourens_cv"
+        applicationId "com.assistantapps.assistant_dinkum_app"
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
@@ -85,5 +88,7 @@ flutter {
 }
 
 dependencies {
+    implementation platform('com.google.firebase:firebase-bom:31.2.3')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
