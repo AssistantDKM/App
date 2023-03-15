@@ -95,8 +95,8 @@ class PeopleDetailsPage extends StatelessWidget {
 
         bool hasReqSpend = loadedItem.spendBeforeMoveIn > 0;
         bool hasReqRel = loadedItem.relationshipBeforeMove > 0;
-        bool hasReqValidRel = loadedItem.relationshipBeforeMove < 200;
-        if (hasReqSpend && hasReqRel && hasReqValidRel) {
+        bool hasReqValidRel = loadedItem.relationshipBeforeMove < 101;
+        if ((hasReqSpend || hasReqRel) && hasReqValidRel) {
           descripWidgets.addAll([
             const EmptySpace2x(),
             GenericItemGroup(

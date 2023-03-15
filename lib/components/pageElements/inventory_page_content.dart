@@ -14,10 +14,12 @@ import '../../helper/generic_repository_helper.dart';
 import '../../helper/patreon_helper.dart';
 import '../../helper/position_helper.dart';
 import '../../pages/inventory_pages.dart';
+import '../../pages/licences_pages.dart';
 import '../../pages/misc/all_possible_outputs_future_page.dart';
 import '../../redux/misc/inventory_item_viewmodel.dart';
 import '../chip/effect_chip_presenter.dart';
 import '../tilePresenters/inventory_tile_presenter.dart';
+import '../tilePresenters/licence_tile_presenter.dart';
 import '../tilePresenters/required_item_tile_presenter.dart';
 import 'inventory_item_favourites_icon.dart';
 import 'inventory_item_museum_tile.dart';
@@ -224,6 +226,30 @@ List<Widget> Function(
                   ),
         ),
       );
+    }
+
+    if (loadedPageItem.requiredLicence != null) {
+      descripWidgets.add(const EmptySpace2x());
+      descripWidgets.add(const GenericItemGroup(
+        'Required Licence',
+      ));
+      var localPresenter = licenceTilePresenter(isPatron: viewmodel.isPatron);
+      descripWidgets.add(FlatCard(
+        child: localPresenter(
+          contentsContext,
+          loadedPageItem.requiredLicence!,
+          0,
+          onTap: () => getNavigation().navigateAwayFromHomeAsync(
+            contentsContext,
+            navigateTo: (BuildContext navigateCtx) => LicenceDetailsPage(
+              loadedPageItem.requiredLicence!.appId,
+              title: loadedPageItem.requiredLicence!.name,
+              isInDetailPane: isInDetailPane,
+              updateDetailView: updateDetailView,
+            ),
+          ),
+        ),
+      ));
     }
 
     if (loadedItem.hidden == true && viewmodel.isPatron == false) {

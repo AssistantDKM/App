@@ -13,11 +13,9 @@ import '../contracts/json/licence_item.dart';
 import '../contracts/pageItem/licence_item_page_item.dart';
 import '../contracts/redux/app_state.dart';
 import '../helper/future_helper.dart';
-import '../helper/generic_repository_helper.dart';
 import '../helper/text_helper.dart';
 import '../integration/dependency_injection.dart';
 import '../redux/misc/inventory_item_viewmodel.dart';
-import '../services/json/inventory_repository.dart';
 import 'inventory_pages.dart';
 
 class LicencesListPage extends StatelessWidget {
@@ -54,7 +52,6 @@ class LicencesListPage extends StatelessWidget {
             return LicenceDetailsPage(
               comboId.last,
               title: title,
-              appJson: comboId.first,
               isInDetailPane: isInDetailPane,
               updateDetailView: updateDetailView,
             );
@@ -68,7 +65,6 @@ class LicencesListPage extends StatelessWidget {
 class LicenceDetailsPage extends StatelessWidget {
   final String appId;
   final String title;
-  final String appJson;
   final bool isInDetailPane;
   final void Function(Widget newDetailView)? updateDetailView;
 
@@ -76,7 +72,6 @@ class LicenceDetailsPage extends StatelessWidget {
     this.appId, {
     Key? key,
     required this.title,
-    required this.appJson,
     this.isInDetailPane = false,
     this.updateDetailView,
   }) : super(key: key);
@@ -110,7 +105,6 @@ class LicenceDetailsPage extends StatelessWidget {
                   levelIndex < loadedItem.item.maxLevel;
                   levelIndex++) {
                 //
-                descripWidgets.add(const EmptySpace1x());
                 descripWidgets.add(
                   FlatCard(
                     child: licenceLevelTilePresenter(
@@ -130,24 +124,26 @@ class LicenceDetailsPage extends StatelessWidget {
                   return false;
                 }).toList();
 
-                descripWidgets.add(const EmptySpace1x());
-                for (int itemIndex = 0;
-                    itemIndex < itemsThatGetUnlocked.length;
-                    itemIndex++) {
-                  InventoryItem invItem = itemsThatGetUnlocked[itemIndex];
-                  var invPresenter = inventoryTilePresenter(false);
-                  descripWidgets.add(invPresenter(
-                    storeCtx,
-                    invItem,
-                    0,
-                    onTap: () => getNavigation().navigateAwayFromHomeAsync(
+                if (itemsThatGetUnlocked.isNotEmpty) {
+                  descripWidgets.add(const EmptySpace1x());
+                  for (int itemIndex = 0;
+                      itemIndex < itemsThatGetUnlocked.length;
+                      itemIndex++) {
+                    InventoryItem invItem = itemsThatGetUnlocked[itemIndex];
+                    var invPresenter = inventoryTilePresenter(false);
+                    descripWidgets.add(invPresenter(
                       storeCtx,
-                      navigateTo: (ctx) => InventoryDetailsPage(
-                        invItem.appId,
-                        title: invItem.name,
+                      invItem,
+                      0,
+                      onTap: () => getNavigation().navigateAwayFromHomeAsync(
+                        storeCtx,
+                        navigateTo: (ctx) => InventoryDetailsPage(
+                          invItem.appId,
+                          title: invItem.name,
+                        ),
                       ),
-                    ),
-                  ));
+                    ));
+                  }
                 }
                 descripWidgets.add(const EmptySpace2x());
               }

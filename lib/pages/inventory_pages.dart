@@ -1,6 +1,8 @@
+import 'package:assistant_dinkum_app/contracts/json/licence_item.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
+import 'package:collection/collection.dart';
 
 import '../components/pageElements/inventory_page_content.dart';
 import '../components/pageElements/item_details_page.dart';
@@ -11,6 +13,7 @@ import '../contracts/pageItem/inventory_page_item.dart';
 import '../contracts/redux/app_state.dart';
 import '../helper/future_helper.dart';
 import '../helper/generic_repository_helper.dart';
+import '../integration/dependency_injection.dart';
 import '../redux/misc/inventory_item_viewmodel.dart';
 import '../services/json/inventory_repository.dart';
 
@@ -100,15 +103,29 @@ Future<ResultWithValue<InventoryPageItem>> getPageItem(
   InventoryPageItem result = InventoryPageItem(
     item: InventoryItem.fromJson('{}'),
     usages: List.empty(),
+    requiredLicence: null,
   );
 
   InventoryRepository service = getGenericRepoFromAppId(appId);
   var itemFuture = service.getItem(funcCtx, appId);
   var usagesFuture = service.getUsagesOfItem(funcCtx, appId);
+  var licencesFuture = getLicenceRepo().getItems(funcCtx);
 
   ResultWithValue<InventoryItem> itemResult = await itemFuture;
   if (itemResult.isSuccess) {
     result.item = itemResult.value;
+
+    if (result.item.craftable.licenceAppId.isNotEmpty) {
+      ResultWithValue<List<LicenceItem>> licencesResult = await licencesFuture;
+      if (licencesResult.isSuccess) {
+        var requiredLicence = licencesResult.value.firstWhereOrNull(
+          (licence) => licence.appId == result.item.craftable.licenceAppId,
+        );
+        if (requiredLicence != null) {
+          result.requiredLicence = requiredLicence;
+        }
+      }
+    }
   }
 
   ResultWithValue<List<InventoryItem>> usagesResult = await usagesFuture;

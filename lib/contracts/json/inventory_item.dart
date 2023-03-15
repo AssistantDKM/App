@@ -20,9 +20,7 @@ class InventoryItem extends ItemBasePresenter {
   final EquipableType equipable;
   final InventoryItemCraftable craftable;
   final InventoryItemConsumable consumable;
-  final String requiredLicence;
   final int requiredLicenceLevel;
-  final String licenceLevelText;
   final InventoryItemCreature? creatureDetails;
 
   InventoryItem({
@@ -36,9 +34,7 @@ class InventoryItem extends ItemBasePresenter {
     required this.equipable,
     required this.craftable,
     required this.consumable,
-    required this.requiredLicence,
     required this.requiredLicenceLevel,
-    required this.licenceLevelText,
     required this.creatureDetails,
   }) : super(appId, name, icon);
 
@@ -58,9 +54,7 @@ class InventoryItem extends ItemBasePresenter {
             EquipableType.notEquipable,
         craftable: InventoryItemCraftable.fromMap(json['Craftable']),
         consumable: InventoryItemConsumable.fromMap(json['Consumable']),
-        requiredLicence: readStringSafe(json, 'RequiredLicence'),
         requiredLicenceLevel: readIntSafe(json, 'RequiredLicenceLevel'),
-        licenceLevelText: readStringSafe(json, 'LicenceLevelText'),
         creatureDetails: InventoryItemCreature.fromMap(json['CreatureDetails']),
       );
 }
