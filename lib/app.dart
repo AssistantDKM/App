@@ -70,7 +70,6 @@ class _DinkumAppState extends State<DinkumApp> {
     return StoreProvider(
       store: store!,
       child: AppShell(
-        key: const Key('app-shell'),
         newLocaleDelegate: _newLocaleDelegate,
         onLocaleChange: _onLocaleChange,
       ),

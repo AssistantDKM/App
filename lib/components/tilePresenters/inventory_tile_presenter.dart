@@ -1,4 +1,3 @@
-import 'package:assistant_dinkum_app/constants/app_image.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
@@ -35,7 +34,6 @@ Widget Function(
       );
     }
     return itemBaseTilePresenter(
-      context: context,
       item: item,
       index: index,
       isPatron: isPatron,
@@ -58,7 +56,6 @@ Widget Function(
     ItemBasePresenter item,
   ) {
     return itemBaseTilePresenter(
-      context: context,
       item: item,
       index: 0,
       isPatron: isPatron,

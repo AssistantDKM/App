@@ -2,6 +2,7 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../components/pageElements/item_page_components.dart';
+import '../pages/cart_page.dart';
 import '../pages/favourite_page.dart';
 import '../pages/inventory_pages.dart';
 import '../pages/home_page.dart';
@@ -120,14 +121,9 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
           analyticsEvent: AnalyticsEvent.people,
           title: 'People',
         ),
-    Routes.licence: (_) => LicencesListPage(
-          analyticsEvent: AnalyticsEvent.licence,
-          title: 'Licence',
-        ),
-    Routes.milestone: (_) => MilestonesListPage(
-          analyticsEvent: AnalyticsEvent.milestone,
-          title: 'Milestone',
-        ),
+    Routes.licence: (_) => const LicencesListPage(),
+    Routes.milestone: (_) => const MilestonesListPage(),
+    // Routes.cart: (_) => const CartPage(),
   };
   return routes;
 }

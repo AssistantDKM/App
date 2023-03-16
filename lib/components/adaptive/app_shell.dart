@@ -16,7 +16,7 @@ class AppShell extends StatelessWidget {
   final TranslationsDelegate newLocaleDelegate;
   final void Function(Locale locale) onLocaleChange;
   const AppShell({
-    required Key key,
+    Key? key,
     required this.onLocaleChange,
     required this.newLocaleDelegate,
   }) : super(key: key);

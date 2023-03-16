@@ -6,24 +6,19 @@ import '../components/pageElements/item_list_page.dart';
 import '../components/pageElements/item_page_components.dart';
 import '../components/tilePresenters/item_base_tile_presenter.dart';
 import '../components/tilePresenters/milestone_tile_presenter.dart';
+import '../constants/analytics_event.dart';
 import '../constants/app_misc.dart';
 import '../contracts/json/milestone_item.dart';
 import '../integration/dependency_injection.dart';
 
 class MilestonesListPage extends StatelessWidget {
-  final String analyticsEvent;
-  final String title;
+  final String analyticsEvent = AnalyticsEvent.milestone;
 
-  MilestonesListPage({
-    Key? key,
-    required this.analyticsEvent,
-    required this.title,
-  }) : super(key: key) {
-    getAnalytics().trackEvent(analyticsEvent);
-  }
+  const MilestonesListPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    String title = getTranslations().fromKey(LocaleKey.milestones);
     return ItemsListPage<MilestoneItem>(
       analyticsEvent: analyticsEvent,
       title: title,

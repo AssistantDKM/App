@@ -8,6 +8,7 @@ import '../components/pageElements/item_list_page.dart';
 import '../components/pageElements/item_page_components.dart';
 import '../components/tilePresenters/inventory_tile_presenter.dart';
 import '../components/tilePresenters/licence_tile_presenter.dart';
+import '../constants/analytics_event.dart';
 import '../constants/app_misc.dart';
 import '../contracts/json/licence_item.dart';
 import '../contracts/pageItem/licence_item_page_item.dart';
@@ -19,22 +20,16 @@ import '../redux/misc/inventory_item_viewmodel.dart';
 import 'inventory_pages.dart';
 
 class LicencesListPage extends StatelessWidget {
-  final String analyticsEvent;
-  final String title;
+  final String analyticsEvent = AnalyticsEvent.licence;
 
-  LicencesListPage({
-    Key? key,
-    required this.analyticsEvent,
-    required this.title,
-  }) : super(key: key) {
-    getAnalytics().trackEvent(analyticsEvent);
-  }
+  const LicencesListPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return StoreConnector<AppState, InventoryItemViewModel>(
       converter: (store) => InventoryItemViewModel.fromStore(store),
       builder: (_, viewModel) {
+        String title = 'licence'; //getTranslations().fromKey(LocaleKey.lice);
         var localPresenter = licenceTilePresenter(
           isPatron: viewModel.isPatron,
         );

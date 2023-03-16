@@ -21,7 +21,6 @@ Widget Function(
       item.icon = getPath().unknownImagePath;
     }
     return itemBaseTilePresenter(
-      context: context,
       item: item,
       index: index,
       isPatron: isPatron,

@@ -12,6 +12,7 @@ class ItemDetailsPage<T extends ItemBasePresenter> extends StatelessWidget {
   final List<Widget> Function(T loadedItem, bool isInDetailPane)
       contractToWidgetList;
   final void Function(Widget newDetailView)? updateDetailView;
+  final Widget? floatingActionButton;
   final ScrollController _scroll = ScrollController();
 
   ItemDetailsPage({
@@ -22,6 +23,7 @@ class ItemDetailsPage<T extends ItemBasePresenter> extends StatelessWidget {
     required this.contractToWidgetList,
     this.isInDetailPane = false,
     this.updateDetailView,
+    this.floatingActionButton,
   }) : super(key: key) {
     // getAnalytics().trackEvent('${AnalyticsEvent.itemDetailPage}: $itemId');
   }
@@ -46,7 +48,20 @@ class ItemDetailsPage<T extends ItemBasePresenter> extends StatelessWidget {
             ),
       whenDoneLoading: (ResultWithValue<T> snapshot) {
         Widget bodyWidget = getBody(context, snapshot);
-        if (isInDetailPane) return bodyWidget;
+        if (isInDetailPane) {
+          if (floatingActionButton == null) return bodyWidget;
+
+          return Stack(
+            children: [
+              bodyWidget,
+              Positioned(
+                bottom: 16,
+                right: 16,
+                child: floatingActionButton!,
+              )
+            ],
+          );
+        }
         return getBaseWidget().appScaffold(
           context,
           appBar: getBaseWidget().appBarForSubPage(
@@ -55,6 +70,7 @@ class ItemDetailsPage<T extends ItemBasePresenter> extends StatelessWidget {
             showHomeAction: true,
           ),
           body: bodyWidget,
+          floatingActionButton: floatingActionButton,
         );
       },
     );

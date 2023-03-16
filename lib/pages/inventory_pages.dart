@@ -8,6 +8,7 @@ import '../components/pageElements/inventory_page_content.dart';
 import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
 import '../components/tilePresenters/inventory_tile_presenter.dart';
+import '../constants/app_json.dart';
 import '../contracts/json/inventory_item.dart';
 import '../contracts/pageItem/inventory_page_item.dart';
 import '../contracts/redux/app_state.dart';
@@ -84,7 +85,7 @@ class InventoryDetailsPage extends StatelessWidget {
     getLog().d(appId);
     return StoreConnector<AppState, InventoryItemViewModel>(
       converter: (store) => InventoryItemViewModel.fromStore(store),
-      builder: (_, viewModel) => ItemDetailsPage<InventoryPageItem>(
+      builder: (storeCtx, viewModel) => ItemDetailsPage<InventoryPageItem>(
         title: title,
         isInDetailPane: isInDetailPane,
         getItemFunc: () => getPageItem(
@@ -97,6 +98,11 @@ class InventoryDetailsPage extends StatelessWidget {
           viewModel,
           updateDetailView,
         ),
+        // floatingActionButton: getFloatingActionButton(
+        //   fabCtx: storeCtx,
+        //   appId: appId,
+        //   viewModel: viewModel,
+        // ),
       ),
     );
   }
@@ -140,4 +146,27 @@ Future<ResultWithValue<InventoryPageItem>> getPageItem(
   }
 
   return ResultWithValue(itemResult.isSuccess, result, '');
+}
+
+Widget? getFloatingActionButton({
+  required BuildContext fabCtx,
+  required String appId,
+  required InventoryItemViewModel viewModel,
+}) {
+  if (appId.contains('${AppJsonPrefix.item}_') == false) {
+    return null;
+  }
+
+  return FloatingActionButton(
+    child: const Icon(Icons.shopping_basket),
+    onPressed: () => getDialog().showQuantityDialog(
+      fabCtx,
+      TextEditingController(),
+      onSuccess: (BuildContext ctx, String quantity) {
+        int? intQuantity = int.tryParse(quantity);
+        if (intQuantity == null) return;
+        viewModel.addToCart(appId, intQuantity);
+      },
+    ),
+  );
 }

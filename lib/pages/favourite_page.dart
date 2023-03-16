@@ -52,13 +52,14 @@ class FavouritesPage extends StatelessWidget {
       listItemDisplayer: (
         BuildContext itemCtx,
         InventoryItem reqItem,
-        int num, {
+        int index, {
         void Function()? onTap,
       }) {
         return favouriteTilePresenter(
           itemCtx,
-          reqItem,
-          viewModel.isPatron,
+          item: reqItem,
+          isPatron: viewModel.isPatron,
+          index: index,
           onTap: onTap,
           onDelete: () => viewModel.removeFavourite(reqItem.appId),
         );
