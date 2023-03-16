@@ -25,6 +25,10 @@ class EnvironmentSettings {
         isProduction: isProduction,
         patreonOAuthClientId: patreonOAuthClientId,
 
+        commitHash: appsCommit,
+        githubViewAppRepoAtCommit:
+            'https://github.com/AssistantDKM/App/commit/',
+
         // Required for Android (because of how I set it up) and Windows
         appVersionBuildNumberOverride: appsBuildNum,
         appVersionBuildNameOverride: appsBuildName,

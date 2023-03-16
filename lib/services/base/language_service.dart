@@ -10,6 +10,10 @@ class LanguageService implements ILanguageService {
   List<LocalizationMap> getLocalizationMaps() {
     List<LocalizationMap> supportedLanguageMaps = [
       defaultLanguageMap(),
+      LocalizationMap(LocaleKey.french, 'fr', 'fr'),
+      LocalizationMap(LocaleKey.japanese, 'jp', 'jp'),
+      LocalizationMap(LocaleKey.russian, 'ru', 'ru'),
+      LocalizationMap(LocaleKey.traditionalChinese, 'zh-hant', 'cn'),
     ];
     return supportedLanguageMaps;
   }

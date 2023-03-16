@@ -6,35 +6,50 @@ import 'dart:convert';
 
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
-import './licence_level_item.dart';
 import '../interface/item_base_presenter.dart';
 
 class LicenceItem extends ItemBasePresenter {
   final int id;
-  final String imageUrl;
-  final String description;
-  final List<LicenceLevel> levels;
+  final List<String> descriptions;
+  final int maxLevel;
+  final int levelCost;
+  final int levelCostMuliplier;
+  final int unlockedBySkill;
+  final int sortingNumber;
+  final String licenceColour;
 
   LicenceItem({
     required this.id,
-    required name,
-    required this.imageUrl,
-    required this.description,
-    required this.levels,
-  }) : super(id.toString(), name, '');
+    required String appId,
+    required String name,
+    required String icon,
+    required this.descriptions,
+    required this.maxLevel,
+    required this.levelCost,
+    required this.levelCostMuliplier,
+    required this.unlockedBySkill,
+    required this.sortingNumber,
+    required this.licenceColour,
+  }) : super(appId, name, icon);
 
   factory LicenceItem.fromJson(String str) =>
       LicenceItem.fromMap(json.decode(str));
 
   factory LicenceItem.fromMap(Map<String, dynamic> json) => LicenceItem(
-        id: readIntSafe(json, 'id'),
-        name: readStringSafe(json, 'name'),
-        description: readStringSafe(json, 'description'),
-        levels: readListSafe(
+        id: readIntSafe(json, 'Id'),
+        appId: readStringSafe(json, 'AppId'),
+        name: readStringSafe(json, 'Name'),
+        descriptions: readListSafe(
           json,
-          'levels',
-          (x) => LicenceLevel.fromMap(x),
+          'Descriptions',
+          (x) => x.toString(),
         ),
-        imageUrl: readStringSafe(json, 'image_url'),
+        icon: readStringSafe(json, 'Icon'),
+        maxLevel: readIntSafe(json, 'MaxLevel'),
+        levelCost: readIntSafe(json, 'LevelCost'),
+        levelCostMuliplier: readIntSafe(json, 'LevelCostMuliplier'),
+        unlockedBySkill: readIntSafe(json, 'UnlockedBySkill'),
+        sortingNumber: readIntSafe(json, 'SortingNumber'),
+        licenceColour: readStringSafe(json, 'LicenceColour'),
       );
 }

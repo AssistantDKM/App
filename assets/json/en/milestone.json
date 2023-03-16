@@ -13,9 +13,7 @@
     ],
     "RewardPerLevel": 50,
     "Points": 2998,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 2,
@@ -31,9 +29,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 33,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 3,
@@ -49,9 +45,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 282,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 4,
@@ -67,9 +61,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 187,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 5,
@@ -85,9 +77,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 422,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 6,
@@ -106,9 +96,7 @@
     ],
     "RewardPerLevel": 200,
     "Points": 363348,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": "m"
+    "IsVisibleOnList": true
   },
   {
     "Id": 7,
@@ -125,8 +113,7 @@
     ],
     "RewardPerLevel": 250,
     "Points": 630520,
-    "IsVisibleOnList": true,
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 8,
@@ -143,8 +130,7 @@
     ],
     "RewardPerLevel": 250,
     "Points": 1179274,
-    "IsVisibleOnList": true,
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 9,
@@ -160,9 +146,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 92,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 10,
@@ -178,9 +162,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 440,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 11,
@@ -196,9 +178,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 1137,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 12,
@@ -214,9 +194,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 385,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 13,
@@ -232,9 +210,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 502,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 14,
@@ -250,9 +226,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 390,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 15,
@@ -268,9 +242,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 153,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 16,
@@ -286,9 +258,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 91,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 17,
@@ -304,9 +274,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 98,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 18,
@@ -322,9 +290,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 145,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 19,
@@ -340,9 +306,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 173,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 20,
@@ -358,9 +322,7 @@
     ],
     "RewardPerLevel": 50,
     "Points": 785,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 21,
@@ -376,9 +338,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 161,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 22,
@@ -394,9 +354,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 30,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 23,
@@ -412,9 +370,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 1,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 24,
@@ -430,9 +386,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 25,
@@ -448,9 +402,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 26,
@@ -466,9 +418,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 385,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 27,
@@ -484,9 +434,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 417,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 28,
@@ -502,9 +450,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 29,
@@ -520,9 +466,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 1604,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 30,
@@ -538,9 +482,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 7,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 31,
@@ -556,9 +498,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 28,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 32,
@@ -574,9 +514,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 137,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 33,
@@ -592,9 +530,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 243,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 34,
@@ -610,9 +546,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 30,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 35,
@@ -628,9 +562,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 20,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 36,
@@ -646,9 +578,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 142,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 37,
@@ -664,9 +594,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 24,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 38,
@@ -683,9 +611,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 9,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 39,
@@ -701,9 +627,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 130,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 40,
@@ -719,9 +643,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 347,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 41,
@@ -738,9 +660,7 @@
     ],
     "RewardPerLevel": 200,
     "Points": 5,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 42,
@@ -757,9 +677,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 156,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 43,
@@ -772,9 +690,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 3,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 44,
@@ -789,9 +705,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 1365,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 45,
@@ -804,9 +718,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 3,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 46,
@@ -821,9 +733,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 17,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 47,
@@ -838,9 +748,7 @@
     ],
     "RewardPerLevel": 750,
     "Points": 2,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 48,
@@ -853,9 +761,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 1,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 49,
@@ -868,9 +774,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 1,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 50,
@@ -891,9 +795,7 @@
     ],
     "RewardPerLevel": 250,
     "Points": 8,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 51,
@@ -910,9 +812,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 44,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 52,
@@ -929,9 +829,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 27,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 53,
@@ -948,9 +846,7 @@
     ],
     "RewardPerLevel": 200,
     "Points": 35,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 54,
@@ -967,9 +863,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 28,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 55,
@@ -986,9 +880,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 26,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 56,
@@ -1004,9 +896,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 57,
@@ -1023,9 +913,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 11,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 58,
@@ -1041,9 +929,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 59,
@@ -1059,9 +945,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 7,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 60,
@@ -1078,9 +962,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 2047,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 61,
@@ -1096,9 +978,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 18,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 62,
@@ -1117,9 +997,7 @@
     ],
     "RewardPerLevel": 200,
     "Points": 68315,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": "m"
+    "IsVisibleOnList": true
   },
   {
     "Id": 63,
@@ -1132,9 +1010,7 @@
     ],
     "RewardPerLevel": 200,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 64,
@@ -1154,10 +1030,9 @@
       9,
       10
     ],
-    "RewardPerLevel": 3000,
+    "RewardPerLevel": 1000,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Suffix": ",000,000"
+    "IsVisibleOnList": false
   },
   {
     "Id": 65,
@@ -1172,9 +1047,7 @@
     ],
     "RewardPerLevel": 200,
     "Points": 6,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 66,
@@ -1191,9 +1064,7 @@
     ],
     "RewardPerLevel": 200,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 67,
@@ -1209,9 +1080,7 @@
     ],
     "RewardPerLevel": 200,
     "Points": 4,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 68,
@@ -1227,9 +1096,7 @@
     ],
     "RewardPerLevel": 200,
     "Points": 12,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 69,
@@ -1245,9 +1112,7 @@
     ],
     "RewardPerLevel": 200,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 70,
@@ -1264,9 +1129,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 6,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 71,
@@ -1275,16 +1138,13 @@
     "Description": "Painting things gives them their own flair. Here is a milestone for making something your own with a nice paint job.",
     "Icon": "milestone/milestone_PaintVehicle.png",
     "RequirementPerLevel": [
-      10,
-      50,
-      250,
-      1000
+      1,
+      5,
+      10
     ],
     "RewardPerLevel": 100,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 72,
@@ -1301,9 +1161,7 @@
     ],
     "RewardPerLevel": 400,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 73,
@@ -1319,9 +1177,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 79,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 74,
@@ -1337,9 +1193,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 23,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 75,
@@ -1352,9 +1206,7 @@
     ],
     "RewardPerLevel": 500,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 76,
@@ -1370,9 +1222,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 37,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 77,
@@ -1388,9 +1238,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 78,
@@ -1407,9 +1255,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 79,
@@ -1428,9 +1274,7 @@
     ],
     "RewardPerLevel": 200,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": "m"
+    "IsVisibleOnList": false
   },
   {
     "Id": 80,
@@ -1446,9 +1290,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 81,
@@ -1461,9 +1303,7 @@
     ],
     "RewardPerLevel": 250,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 82,
@@ -1472,16 +1312,11 @@
     "Description": "Taking photos. Saving memories. Here is a milestone for taking some photos.",
     "Icon": "milestone/milestone_Photographer.png",
     "RequirementPerLevel": [
-      10,
-      50,
-      250,
-      1000
+      20
     ],
     "RewardPerLevel": 100,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": false
   },
   {
     "Id": 83,
@@ -1500,9 +1335,7 @@
     ],
     "RewardPerLevel": 200,
     "Points": 0,
-    "IsVisibleOnList": false,
-    "Prefix": "",
-    "Suffix": "m"
+    "IsVisibleOnList": false
   },
   {
     "Id": 84,
@@ -1518,9 +1351,7 @@
     ],
     "RewardPerLevel": 200,
     "Points": 20,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 85,
@@ -1536,9 +1367,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 25,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 86,
@@ -1554,9 +1383,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 24,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 87,
@@ -1572,9 +1399,7 @@
     ],
     "RewardPerLevel": 100,
     "Points": 12,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
   },
   {
     "Id": 88,
@@ -1590,8 +1415,151 @@
     ],
     "RewardPerLevel": 250,
     "Points": 1,
-    "IsVisibleOnList": true,
-    "Prefix": "",
-    "Suffix": ""
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 89,
+    "AppId": "milestone_89",
+    "Name": "Gift Giver",
+    "Description": "Birthdays are special for some reason. Here is a milestone for giving a birthday gift to someone.",
+    "Icon": "milestone/milestone_GiveBirthdayGift.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      20
+    ],
+    "RewardPerLevel": 250,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 90,
+    "AppId": "milestone_90",
+    "Name": "Ruby Runner",
+    "Description": "Here is a milestone for finding a Ruby and selling it.",
+    "Icon": "milestone/milestone_SellRuby.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      20,
+      50
+    ],
+    "RewardPerLevel": 200,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 91,
+    "AppId": "milestone_91",
+    "Name": "Thunderstruck",
+    "Description": "Sometimes the sky gets mad and starting throwing down bolts. Here is a milestone for getting hit by lightning.",
+    "Icon": "milestone/milestone_GetHitByLightning.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 92,
+    "AppId": "milestone_92",
+    "Name": "Thunder Eggo",
+    "Description": "Here is a milestone for finding a Thunder Egg and selling it.",
+    "Icon": "milestone/milestone_SellThunderEgg.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      20,
+      50
+    ],
+    "RewardPerLevel": 200,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 93,
+    "AppId": "milestone_93",
+    "Name": "Alpha Hunter",
+    "Description": "Alpha animals cause havoc. Here is a milestone for defeating an Alpha animal.",
+    "Icon": "milestone/milestone_HuntAlphaAnimal.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      20,
+      50
+    ],
+    "RewardPerLevel": 250,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 94,
+    "AppId": "milestone_94",
+    "Name": "Fishy Dish",
+    "Description": "Why keep your fish in an aquarium when you could keep them in your belly? Here is a milestone for cooking fish.",
+    "Icon": "milestone/milestone_CookFish.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 95,
+    "AppId": "milestone_95",
+    "Name": "Critter Catcher",
+    "Description": "It's brave it dive down and grab a random critter with your bare hands. Here is a milestone for catching underwater critters.",
+    "Icon": "milestone/milestone_CatchACritter.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 96,
+    "AppId": "milestone_96",
+    "Name": "Bug Comp Champ",
+    "Description": "Bug Comps are serious business. No Time for fun. Here is a milestone for placing in the Bug Comp.",
+    "Icon": "milestone/milestone_PlaceInBugComp.png",
+    "RequirementPerLevel": [
+      1,
+      2,
+      3
+    ],
+    "RewardPerLevel": 500,
+    "Points": 0,
+    "IsVisibleOnList": false
+  },
+  {
+    "Id": 97,
+    "AppId": "milestone_97",
+    "Name": "Giddy-Up",
+    "Description": "They aren't as pretty as vehicles, but riding an animal is good fun. Here is a milestone for riding an animal for a distance.",
+    "Icon": "milestone/milestone_RideAnAnimal.png",
+    "RequirementPerLevel": [
+      5000,
+      20000,
+      100000,
+      250000,
+      500000,
+      1000000,
+      5000000
+    ],
+    "RewardPerLevel": 200,
+    "Points": 0,
+    "IsVisibleOnList": false
   }
 ]

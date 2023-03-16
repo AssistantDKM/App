@@ -1,6 +1,6 @@
 name: assistant_dinkum_app
 description: Assistant for Dinkum
-version: 0.0.5+5 # dart scripts\version_num_script.dart
+version: 0.0.6+6 # dart scripts\version_num_script.dart
 publish_to: none
 
 environment:
@@ -20,6 +20,7 @@ dependencies:
     path: 'C:\Development\Projects\AssistantApps\assistantapps_flutter_common'
 
   # Base
+  collection: 1.17.1
   get_it: 7.2.0
   flutter_redux: 0.10.0
   redux: 5.0.0
@@ -52,17 +53,17 @@ flutter_icons: ## flutter pub run flutter_launcher_icons:main
   remove_alpha_ios: true
   android: true
   min_sdk_android: 23
-  image_path: 'assets/images/fullSizeIcon.png'
-  adaptive_icon_background: 'assets/images/fullSizeIconAdaptiveBg.png'
-  adaptive_icon_foreground: 'assets/images/fullSizeIconAdaptiveFg.png'
+  image_path: 'assets/icon/fullSizeIcon.png'
+  adaptive_icon_background: 'assets/icon/fullSizeIconAdaptiveBg.png'
+  adaptive_icon_foreground: 'assets/icon/fullSizeIconAdaptiveFg.png'
   web:
     generate: true
-    image_path: 'assets/images/fullSizeIcon-outline.png'
+    image_path: 'assets/icon/fullSizeIcon-outline.png'
     background_color: '#000000'
     theme_color: '#8b432b'
   windows:
     generate: true
-    image_path: 'assets/images/fullSizeIcon-outline.png'
+    image_path: 'assets/icon/fullSizeIcon-outline.png'
     icon_size: 64 # min:48, max:256, default: 48
 
 flutter:
@@ -70,22 +71,25 @@ flutter:
 
   assets:
     - assets/data/
+    - assets/lang/
+
+    - assets/images/
+    - assets/images/drawer/
+
+    # Ignore for Overwolf
     - assets/json/
     - assets/json/en/
     - assets/json/fr/
     - assets/json/ja/
     - assets/json/ru/
     - assets/json/zh/
-    - assets/lang/
-
-    - assets/images/
-    - assets/images/drawer/
+    #
     - assets/images/menu/
     - assets/images/stats/
     - assets/images/social/
-
+    #
     - assets/images/inventory/
-    - assets/images/licences/
+    - assets/images/licence/
     - assets/images/milestone/
     - assets/images/people/
 

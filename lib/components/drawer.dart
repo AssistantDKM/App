@@ -1,3 +1,4 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
@@ -11,7 +12,7 @@ class AppDrawer extends StatelessWidget {
 
   //
   Widget drawerWrapper(BuildContext drawerCtx, List<Widget> widgets) {
-    String path = AppImage.drawerHeader;
+    String path = getPath().ofImage(AppImage.drawerHeader);
     return Drawer(
       child: ListView(
         children: [

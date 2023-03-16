@@ -2,51 +2,72 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants/app_image.dart';
-import '../../contracts/json/licence_level_item.dart';
+import '../../contracts/json/licence_item.dart';
+import '../../helper/text_helper.dart';
+import '../pageElements/item_page_components.dart';
+import 'item_base_tile_presenter.dart';
 
 Widget licenceLevelTilePresenter(
-  BuildContext context,
-  LicenceLevel item,
-  bool disableLeading,
-  int index,
-) {
-  return ListTile(
-    leading: disableLeading
-        ? null
-        : Column(
-            mainAxisSize: MainAxisSize.min,
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              if (item.skillLevel > 0) ...[
-                const Text('Level'),
-                Text(item.skillLevel.toString()),
-              ],
-            ],
-          ),
-    title: Row(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        Text(item.cost.toString()),
-        const LocalImage(
-            imagePath: AppImage.permitPoint, width: 24, height: 24),
-      ],
-    ),
-    subtitle: Text(item.description, maxLines: 1),
-    trailing: item.unlockedRecipes.isNotEmpty //
-        ? const Icon(Icons.info_outline)
-        : null,
-  );
+  BuildContext context, {
+  required LicenceItem loadedItem,
+  required int index,
+}) {
+  int currentLevel = index;
+  int firstCalc = (currentLevel + 1) * loadedItem.levelCost;
+  int multiplier = currentLevel * loadedItem.levelCostMuliplier;
+  int levelCost = firstCalc * (multiplier == 0 ? 1 : multiplier);
 
-  /**
-   * Column(
+  return Padding(
+    padding: const EdgeInsets.symmetric(vertical: 8),
+    child: Column(
       mainAxisSize: MainAxisSize.min,
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Text(item.unlockedRecipes.length.toString()),
-        const Text('Recipes unlocked'),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(levelCost.toString()),
+            const LocalImage(
+              imagePath: AppImage.permitPoint,
+              width: 24,
+              height: 24,
+            ),
+          ],
+        ),
+        Wrap(
+          alignment: WrapAlignment.center,
+          children: [
+            pageDefaultPadding(
+              Text(
+                loadedItem.descriptions[index],
+                textAlign: TextAlign.center,
+              ),
+            )
+          ],
+        ),
       ],
     ),
-  )
-  
-   */
+  );
+}
+
+Widget Function(
+  BuildContext,
+  LicenceItem,
+  int, {
+  void Function()? onTap,
+}) licenceTilePresenter({
+  required bool isPatron,
+}) {
+  //addSpaceBeforeCapital
+  return (
+    BuildContext localCtx,
+    LicenceItem licence,
+    int index, {
+    void Function()? onTap,
+  }) =>
+      itemBasePlainTilePresenter(
+        leading: genericTileImage(licence.icon),
+        title: addSpaceBeforeCapital(licence.name),
+        onTap: onTap,
+      );
 }

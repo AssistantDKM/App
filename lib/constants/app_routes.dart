@@ -2,6 +2,7 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../components/pageElements/item_page_components.dart';
+import '../pages/cart_page.dart';
 import '../pages/favourite_page.dart';
 import '../pages/inventory_pages.dart';
 import '../pages/home_page.dart';
@@ -81,32 +82,38 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
             LocaleKey.critterJson,
             LocaleKey.fishJson,
           ],
+          displayMuseumStatus: true,
           title: 'Animals',
         ),
     Routes.bugs: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.bugsPage,
           appJsons: const [LocaleKey.bugsJson],
+          displayMuseumStatus: true,
           title: 'Bugs',
         ),
     Routes.critters: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.crittersPage,
           appJsons: const [LocaleKey.critterJson],
+          displayMuseumStatus: true,
           title: 'Critters',
         ),
     Routes.fish: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.fishPage,
           appJsons: const [LocaleKey.fishJson],
+          displayMuseumStatus: true,
           title: 'Fish',
         ),
 
     Routes.crafting: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.inventory,
           appJsons: const [LocaleKey.itemsJson],
+          displayMuseumStatus: false,
           title: 'Items',
         ),
     Routes.cooking: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.cooking,
           appJsons: const [LocaleKey.cookingJson],
+          displayMuseumStatus: true,
           title: 'Cooking',
         ),
 
@@ -114,14 +121,9 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
           analyticsEvent: AnalyticsEvent.people,
           title: 'People',
         ),
-    Routes.licence: (_) => LicencesListPage(
-          analyticsEvent: AnalyticsEvent.licence,
-          title: 'Licence',
-        ),
-    Routes.milestone: (_) => MilestonesListPage(
-          analyticsEvent: AnalyticsEvent.milestone,
-          title: 'Milestone',
-        ),
+    Routes.licence: (_) => const LicencesListPage(),
+    Routes.milestone: (_) => const MilestonesListPage(),
+    // Routes.cart: (_) => const CartPage(),
   };
   return routes;
 }

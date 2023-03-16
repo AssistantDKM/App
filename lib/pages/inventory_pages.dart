@@ -1,5 +1,6 @@
-import 'package:assistant_dinkum_app/services/json/inventory_repository.dart';
+import 'package:assistant_dinkum_app/contracts/json/licence_item.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
@@ -7,22 +8,27 @@ import '../components/pageElements/inventory_page_content.dart';
 import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
 import '../components/tilePresenters/inventory_tile_presenter.dart';
+import '../constants/app_json.dart';
 import '../contracts/json/inventory_item.dart';
 import '../contracts/pageItem/inventory_page_item.dart';
 import '../contracts/redux/app_state.dart';
+import '../helper/future_helper.dart';
 import '../helper/generic_repository_helper.dart';
 import '../integration/dependency_injection.dart';
 import '../redux/misc/inventory_item_viewmodel.dart';
+import '../services/json/inventory_repository.dart';
 
 class InventoryListPage extends StatelessWidget {
   final String analyticsEvent;
   final List<LocaleKey> appJsons;
+  final bool displayMuseumStatus;
   final String title;
 
   InventoryListPage({
     Key? key,
     required this.analyticsEvent,
     required this.appJsons,
+    required this.displayMuseumStatus,
     required this.title,
   }) : super(key: key) {
     getAnalytics().trackEvent(analyticsEvent);
@@ -37,7 +43,11 @@ class InventoryListPage extends StatelessWidget {
           analyticsEvent: analyticsEvent,
           title: title,
           getItemsFunc: () => getCombinedItems(context, appJsons),
-          listItemDisplayer: inventoryTilePresenter(viewModel.isPatron),
+          listItemDisplayer: inventoryTilePresenter(
+            isPatron: viewModel.isPatron,
+            displayMuseumStatus: displayMuseumStatus,
+            donations: viewModel.donations,
+          ),
           detailPageFunc: (
             String appId,
             bool isInDetailPane,
@@ -75,7 +85,7 @@ class InventoryDetailsPage extends StatelessWidget {
     getLog().d(appId);
     return StoreConnector<AppState, InventoryItemViewModel>(
       converter: (store) => InventoryItemViewModel.fromStore(store),
-      builder: (_, viewModel) => ItemDetailsPage<InventoryPageItem>(
+      builder: (storeCtx, viewModel) => ItemDetailsPage<InventoryPageItem>(
         title: title,
         isInDetailPane: isInDetailPane,
         getItemFunc: () => getPageItem(
@@ -87,37 +97,15 @@ class InventoryDetailsPage extends StatelessWidget {
           context,
           viewModel,
           updateDetailView,
-          (BuildContext newCtx, String reqItemId, String reqItemTitle) =>
-              getNavigation().navigateAwayFromHomeAsync(
-            newCtx,
-            navigateTo: (BuildContext localNewCtx) => InventoryDetailsPage(
-              reqItemId,
-              title: reqItemTitle,
-              isInDetailPane: isInDetailPane,
-              updateDetailView: updateDetailView,
-            ),
-          ),
         ),
+        // floatingActionButton: getFloatingActionButton(
+        //   fabCtx: storeCtx,
+        //   appId: appId,
+        //   viewModel: viewModel,
+        // ),
       ),
     );
   }
-}
-
-Future<ResultWithValue<List<InventoryItem>>> getCombinedItems(
-    BuildContext funcCtx, List<LocaleKey> appJsons) async {
-  List<InventoryItem> result = List.empty(growable: true);
-
-  for (LocaleKey appJson in appJsons) {
-    ResultWithValue<List<InventoryItem>> genericRepoResult =
-        await getInventoryRepo(appJson).getItems(funcCtx);
-    if (genericRepoResult.isSuccess) {
-      result.addAll(genericRepoResult.value);
-    }
-  }
-
-  result.sort(((a, b) => a.name.compareTo(b.name)));
-
-  return ResultWithValue(result.isNotEmpty, result, '');
 }
 
 Future<ResultWithValue<InventoryPageItem>> getPageItem(
@@ -127,15 +115,29 @@ Future<ResultWithValue<InventoryPageItem>> getPageItem(
   InventoryPageItem result = InventoryPageItem(
     item: InventoryItem.fromJson('{}'),
     usages: List.empty(),
+    requiredLicence: null,
   );
 
   InventoryRepository service = getGenericRepoFromAppId(appId);
   var itemFuture = service.getItem(funcCtx, appId);
   var usagesFuture = service.getUsagesOfItem(funcCtx, appId);
+  var licencesFuture = getLicenceRepo().getItems(funcCtx);
 
   ResultWithValue<InventoryItem> itemResult = await itemFuture;
   if (itemResult.isSuccess) {
     result.item = itemResult.value;
+
+    if (result.item.craftable.licenceAppId.isNotEmpty) {
+      ResultWithValue<List<LicenceItem>> licencesResult = await licencesFuture;
+      if (licencesResult.isSuccess) {
+        var requiredLicence = licencesResult.value.firstWhereOrNull(
+          (licence) => licence.appId == result.item.craftable.licenceAppId,
+        );
+        if (requiredLicence != null) {
+          result.requiredLicence = requiredLicence;
+        }
+      }
+    }
   }
 
   ResultWithValue<List<InventoryItem>> usagesResult = await usagesFuture;
@@ -144,4 +146,27 @@ Future<ResultWithValue<InventoryPageItem>> getPageItem(
   }
 
   return ResultWithValue(itemResult.isSuccess, result, '');
+}
+
+Widget? getFloatingActionButton({
+  required BuildContext fabCtx,
+  required String appId,
+  required InventoryItemViewModel viewModel,
+}) {
+  if (appId.contains('${AppJsonPrefix.item}_') == false) {
+    return null;
+  }
+
+  return FloatingActionButton(
+    child: const Icon(Icons.shopping_basket),
+    onPressed: () => getDialog().showQuantityDialog(
+      fabCtx,
+      TextEditingController(),
+      onSuccess: (BuildContext ctx, String quantity) {
+        int? intQuantity = int.tryParse(quantity);
+        if (intQuantity == null) return;
+        viewModel.addToCart(appId, intQuantity);
+      },
+    ),
+  );
 }

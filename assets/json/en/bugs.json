@@ -61,7 +61,7 @@
     "Id": 97,
     "AppId": "bug_97",
     "Icon": "inventory/allUI_4.png",
-    "Name": "Grasshopper",
+    "Name": "Grass Hopper",
     "Description": "Jumpin' for joy.",
     "SellPrice": 1700,
     "IsStackable": false,
@@ -346,7 +346,7 @@
     "Id": 231,
     "AppId": "bug_231",
     "Icon": "inventory/allUI_60.png",
-    "Name": "Stink Bug",
+    "Name": "Stinkbug",
     "Description": "It stinks!",
     "SellPrice": 300,
     "IsStackable": false,
@@ -374,7 +374,7 @@
     "AppId": "bug_232",
     "Icon": "inventory/allUI_58.png",
     "Name": "Paper Wasp",
-    "Description": "This thing kills spiders when it's hungry.",
+    "Description": "This thing kills spiders when its hungy.",
     "SellPrice": 990,
     "IsStackable": false,
     "Equipable": "NotEquipable",
@@ -403,7 +403,7 @@
     "Icon": "inventory/allUI_63.png",
     "Name": "Birdwing Butterfly",
     "Description": "It's really rare and big!",
-    "SellPrice": 4100,
+    "SellPrice": 9100,
     "IsStackable": false,
     "Equipable": "NotEquipable",
     "RequiredLicence": "None",
@@ -511,7 +511,7 @@
     "Id": 249,
     "AppId": "bug_249",
     "Icon": "inventory/allUI_68.png",
-    "Name": "Cricket",
+    "Name": "Field Cricket",
     "Description": "So small. So loud.",
     "SellPrice": 1348,
     "IsStackable": false,
@@ -599,7 +599,7 @@
     "Icon": "inventory/allUI_228.png",
     "Name": "Goliath stick",
     "Description": "It's a big stick!",
-    "SellPrice": 3330,
+    "SellPrice": 6330,
     "IsStackable": false,
     "Equipable": "NotEquipable",
     "RequiredLicence": "None",
@@ -1154,6 +1154,95 @@
         "All"
       ],
       "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 1185,
+    "AppId": "bug_1185",
+    "Icon": "inventory/allUI3_139.png",
+    "Name": "Painted Lady Butterfly",
+    "Description": "I can't see it",
+    "SellPrice": 560,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Pines"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Summer",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 1186,
+    "AppId": "bug_1186",
+    "Icon": "inventory/allUI3_138.png",
+    "Name": "Grass Yellow Butterfly",
+    "Description": "A dink a dozen.",
+    "SellPrice": 220,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Plains",
+        "Pines",
+        "Tropics"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 1187,
+    "AppId": "bug_1187",
+    "Icon": "inventory/allUI3_140.png",
+    "Name": "Purple Azure Butterfly",
+    "Description": "Is it purple or azure?",
+    "SellPrice": 2200,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Pines"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Summer",
+        "Autum",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Rare"
     }
   }
 ]

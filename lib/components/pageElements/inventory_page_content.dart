@@ -14,10 +14,12 @@ import '../../helper/generic_repository_helper.dart';
 import '../../helper/patreon_helper.dart';
 import '../../helper/position_helper.dart';
 import '../../pages/inventory_pages.dart';
+import '../../pages/licences_pages.dart';
 import '../../pages/misc/all_possible_outputs_future_page.dart';
 import '../../redux/misc/inventory_item_viewmodel.dart';
 import '../chip/effect_chip_presenter.dart';
 import '../tilePresenters/inventory_tile_presenter.dart';
+import '../tilePresenters/licence_tile_presenter.dart';
 import '../tilePresenters/required_item_tile_presenter.dart';
 import 'inventory_item_favourites_icon.dart';
 import 'inventory_item_museum_tile.dart';
@@ -30,7 +32,6 @@ List<Widget> Function(
   BuildContext contentsContext,
   InventoryItemViewModel viewmodel,
   void Function(Widget newDetailView)? updateDetailView,
-  void Function(BuildContext, String, String) navigateTo,
 ) {
   return (InventoryPageItem loadedPageItem, bool isInDetailPane) {
     InventoryItem loadedItem = loadedPageItem.item;
@@ -70,7 +71,10 @@ List<Widget> Function(
     if (isMuseumPlaceable) {
       descripWidgets.add(const EmptySpace3x());
       descripWidgets.add(FlatCard(
-        child: InventoryItemMuseumTile(appId: loadedItem.appId),
+        child: InventoryItemMuseumTile(
+          appId: loadedItem.appId,
+          donations: viewmodel.donations,
+        ),
       ));
     }
 
@@ -139,7 +143,9 @@ List<Widget> Function(
           getTranslations().fromKey(LocaleKey.habitat),
           locations
               .where((item) => item.isNotEmpty)
-              .map((item) => getTranslations().fromString('habitat$item'))
+              .map((item) => (item.toLowerCase() == 'all')
+                  ? getTranslations().fromKey(LocaleKey.all)
+                  : getTranslations().fromString('habitat$item'))
               .toList(),
         ));
       }
@@ -198,6 +204,16 @@ List<Widget> Function(
             usagesPresenter,
             subtitle: getTranslations().fromKey(LocaleKey.usedToCreate),
             hideAppBar: isInDetailPane,
+            onBackButton: (isInDetailPane && updateDetailView != null)
+                ? () => updateDetailView(
+                      InventoryDetailsPage(
+                        loadedItem.appId,
+                        title: loadedItem.appId.toString(),
+                        isInDetailPane: isInDetailPane,
+                        updateDetailView: updateDetailView,
+                      ),
+                    )
+                : null,
           );
 
       descripWidgets.addAll(
@@ -213,6 +229,28 @@ List<Widget> Function(
                   ),
         ),
       );
+    }
+
+    if (loadedPageItem.requiredLicence != null) {
+      descripWidgets.add(const EmptySpace2x());
+      descripWidgets.add(const GenericItemGroup(
+        'Required Licence',
+      ));
+      var localPresenter = licenceTilePresenter(isPatron: viewmodel.isPatron);
+      descripWidgets.add(FlatCard(
+        child: localPresenter(
+          contentsContext,
+          loadedPageItem.requiredLicence!,
+          0,
+          onTap: () => getNavigation().navigateAwayFromHomeAsync(
+            contentsContext,
+            navigateTo: (BuildContext navigateCtx) => LicenceDetailsPage(
+              loadedPageItem.requiredLicence!.appId,
+              title: loadedPageItem.requiredLicence!.name,
+            ),
+          ),
+        ),
+      ));
     }
 
     if (loadedItem.hidden == true && viewmodel.isPatron == false) {

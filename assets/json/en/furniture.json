@@ -64,8 +64,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -76,9 +75,9 @@
   {
     "Id": 53,
     "AppId": "furniture_53",
-    "Icon": "inventory/allUI_0.png",
-    "Name": "Purple Seat",
-    "Description": "A nice old chair",
+    "Icon": "inventory/furnitureUI_0.png",
+    "Name": "Purple Armchair",
+    "Description": "",
     "SellPrice": 650,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -89,9 +88,9 @@
   {
     "Id": 54,
     "AppId": "furniture_54",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_1.png",
     "Name": "Wooden Double Bed",
-    "Description": "Wooden Double Bed",
+    "Description": "Double Bed",
     "SellPrice": 604,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -102,7 +101,7 @@
   {
     "Id": 55,
     "AppId": "furniture_55",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_2.png",
     "Name": "Coffee Table",
     "Description": "Sorry, you can only put coffee on this puppy.",
     "SellPrice": 258,
@@ -115,8 +114,8 @@
   {
     "Id": 56,
     "AppId": "furniture_56",
-    "Icon": "inventory/allUI_0.png",
-    "Name": "Wooden Seat",
+    "Icon": "inventory/furnitureUI_3.png",
+    "Name": "Wooden Chair",
     "Description": "A single chair for sitting.",
     "SellPrice": 550,
     "IsStackable": true,
@@ -128,7 +127,7 @@
   {
     "Id": 57,
     "AppId": "furniture_57",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_4.png",
     "Name": "Wooden Couch",
     "Description": "A Couch. You can sit on it with a friend",
     "SellPrice": 984,
@@ -141,7 +140,7 @@
   {
     "Id": 58,
     "AppId": "furniture_58",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_5.png",
     "Name": "Small Round Table",
     "Description": "Small and round. Awesome.",
     "SellPrice": 327,
@@ -154,8 +153,8 @@
   {
     "Id": 59,
     "AppId": "furniture_59",
-    "Icon": "inventory/allUI_0.png",
-    "Name": "Dark Wooden Cabinet",
+    "Icon": "inventory/furnitureUI_6.png",
+    "Name": "Dark Wood Cabinet",
     "Description": "Put skeletons in here.",
     "SellPrice": 554,
     "IsStackable": true,
@@ -180,7 +179,7 @@
   {
     "Id": 127,
     "AppId": "furniture_127",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_7.png",
     "Name": "Dark Wooden Single Bed",
     "Description": "Hey red bed. That rhymes.",
     "SellPrice": 667,
@@ -193,7 +192,7 @@
   {
     "Id": 131,
     "AppId": "furniture_131",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_8.png",
     "Name": "Wooden Chair",
     "Description": "A single chair for sitting.",
     "SellPrice": 210,
@@ -206,7 +205,7 @@
   {
     "Id": 132,
     "AppId": "furniture_132",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_9.png",
     "Name": "Wooden Table",
     "Description": "A wooden table.",
     "SellPrice": 371,
@@ -219,7 +218,7 @@
   {
     "Id": 133,
     "AppId": "furniture_133",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_10.png",
     "Name": "Wooden Bedside Table",
     "Description": "A wooden table for beside your bed.",
     "SellPrice": 302,
@@ -232,7 +231,7 @@
   {
     "Id": 134,
     "AppId": "furniture_134",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_11.png",
     "Name": "Wooden Chest Of Drawers",
     "Description": "Put stuff in here.",
     "SellPrice": 389,
@@ -245,7 +244,7 @@
   {
     "Id": 135,
     "AppId": "furniture_135",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_12.png",
     "Name": "Wooden Cabinet",
     "Description": "A wooden table.",
     "SellPrice": 300,
@@ -258,7 +257,7 @@
   {
     "Id": 136,
     "AppId": "furniture_136",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_13.png",
     "Name": "Wooden Single Bed",
     "Description": "A bed for one.",
     "SellPrice": 30,
@@ -271,9 +270,9 @@
   {
     "Id": 137,
     "AppId": "furniture_137",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_14.png",
     "Name": "Stylish ArmChair",
-    "Description": "An Armchair",
+    "Description": "An Arm Chair",
     "SellPrice": 899,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -284,7 +283,7 @@
   {
     "Id": 138,
     "AppId": "furniture_138",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_15.png",
     "Name": "Stylish Sofa",
     "Description": "A Sofa",
     "SellPrice": 1300,
@@ -297,9 +296,9 @@
   {
     "Id": 139,
     "AppId": "furniture_139",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_16.png",
     "Name": "Dark Wooden Chair",
-    "Description": "An Armchair",
+    "Description": "Wooden chair",
     "SellPrice": 435,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -310,9 +309,9 @@
   {
     "Id": 140,
     "AppId": "furniture_140",
-    "Icon": "inventory/allUI_0.png",
-    "Name": "Purple Couch",
-    "Description": "A Green Sofa",
+    "Icon": "inventory/furnitureUI_17.png",
+    "Name": "Purple Sofa",
+    "Description": "Its soft.",
     "SellPrice": 762,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -323,8 +322,8 @@
   {
     "Id": 141,
     "AppId": "furniture_141",
-    "Icon": "inventory/allUI_0.png",
-    "Name": "White Chair",
+    "Icon": "inventory/furnitureUI_18.png",
+    "Name": "A white chair",
     "Description": "A white single person chair",
     "SellPrice": 340,
     "IsStackable": true,
@@ -336,7 +335,7 @@
   {
     "Id": 142,
     "AppId": "furniture_142",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_19.png",
     "Name": "White Coffee Table",
     "Description": "A small white coffee table.",
     "SellPrice": 432,
@@ -349,7 +348,7 @@
   {
     "Id": 143,
     "AppId": "furniture_143",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_20.png",
     "Name": "White Dinner Table",
     "Description": "A large white table.",
     "SellPrice": 578,
@@ -362,8 +361,8 @@
   {
     "Id": 144,
     "AppId": "furniture_144",
-    "Icon": "inventory/allUI_0.png",
-    "Name": "Long White Coffee Table",
+    "Icon": "inventory/furnitureUI_21.png",
+    "Name": "Long White Cofee Table",
     "Description": "A long coffee table.",
     "SellPrice": 410,
     "IsStackable": true,
@@ -375,7 +374,7 @@
   {
     "Id": 145,
     "AppId": "furniture_145",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_22.png",
     "Name": "White Sofa",
     "Description": "A white 2 seat chair.",
     "SellPrice": 819,
@@ -388,7 +387,7 @@
   {
     "Id": 146,
     "AppId": "furniture_146",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_23.png",
     "Name": "Stylish Bed",
     "Description": "A double bed.",
     "SellPrice": 1245,
@@ -401,7 +400,7 @@
   {
     "Id": 147,
     "AppId": "furniture_147",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_24.png",
     "Name": "Stylish Bedside Table",
     "Description": "A set of drawers for beside the bed.",
     "SellPrice": 856,
@@ -414,7 +413,7 @@
   {
     "Id": 148,
     "AppId": "furniture_148",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_25.png",
     "Name": "Stylish Drawers",
     "Description": "A set of drawers.",
     "SellPrice": 1002,
@@ -427,7 +426,7 @@
   {
     "Id": 149,
     "AppId": "furniture_149",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_26.png",
     "Name": "Stylish Dresser",
     "Description": "A tall of drawers.",
     "SellPrice": 899,
@@ -440,7 +439,7 @@
   {
     "Id": 151,
     "AppId": "furniture_151",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_27.png",
     "Name": "Dainty Bed",
     "Description": "A bed.",
     "SellPrice": 1088,
@@ -453,7 +452,7 @@
   {
     "Id": 152,
     "AppId": "furniture_152",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_28.png",
     "Name": "Dainty Bedside Table",
     "Description": "A bedside table.",
     "SellPrice": 600,
@@ -466,7 +465,7 @@
   {
     "Id": 153,
     "AppId": "furniture_153",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_29.png",
     "Name": "Dainty Chair",
     "Description": "A chair",
     "SellPrice": 610,
@@ -479,7 +478,7 @@
   {
     "Id": 154,
     "AppId": "furniture_154",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_30.png",
     "Name": "Dainty Coffee Table",
     "Description": "A coffee table",
     "SellPrice": 873,
@@ -492,7 +491,7 @@
   {
     "Id": 155,
     "AppId": "furniture_155",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_31.png",
     "Name": "Dainty Drawers",
     "Description": "A set of drawers",
     "SellPrice": 652,
@@ -505,7 +504,7 @@
   {
     "Id": 156,
     "AppId": "furniture_156",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_32.png",
     "Name": "Dainty Kitchen Table",
     "Description": "A large table.",
     "SellPrice": 569,
@@ -518,7 +517,7 @@
   {
     "Id": 157,
     "AppId": "furniture_157",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_33.png",
     "Name": "Dainty Lamp",
     "Description": "Lights up house.",
     "SellPrice": 380,
@@ -531,7 +530,7 @@
   {
     "Id": 158,
     "AppId": "furniture_158",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_34.png",
     "Name": "Dainty Ottoman",
     "Description": "For feet.",
     "SellPrice": 210,
@@ -544,7 +543,7 @@
   {
     "Id": 159,
     "AppId": "furniture_159",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_35.png",
     "Name": "Dainty Sofa",
     "Description": "A sofa. Seats 2.",
     "SellPrice": 953,
@@ -557,8 +556,8 @@
   {
     "Id": 160,
     "AppId": "furniture_160",
-    "Icon": "inventory/allUI_0.png",
-    "Name": "White Armchair",
+    "Icon": "inventory/furnitureUI_36.png",
+    "Name": "White Arm Chair",
     "Description": "A white chair.",
     "SellPrice": 706,
     "IsStackable": true,
@@ -570,7 +569,7 @@
   {
     "Id": 161,
     "AppId": "furniture_161",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_37.png",
     "Name": "White Ottoman",
     "Description": "A white ottoman",
     "SellPrice": 268,
@@ -583,7 +582,7 @@
   {
     "Id": 162,
     "AppId": "furniture_162",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_38.png",
     "Name": "White Bed",
     "Description": "A Small white bedside table.",
     "SellPrice": 923,
@@ -596,8 +595,8 @@
   {
     "Id": 163,
     "AppId": "furniture_163",
-    "Icon": "inventory/allUI_0.png",
-    "Name": "White Bedside Table.",
+    "Icon": "inventory/furnitureUI_39.png",
+    "Name": "White Bed Side Table.",
     "Description": "A Small white bedside table.",
     "SellPrice": 620,
     "IsStackable": true,
@@ -609,7 +608,7 @@
   {
     "Id": 164,
     "AppId": "furniture_164",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_40.png",
     "Name": "White Chest of Drawers",
     "Description": "White Drawers",
     "SellPrice": 693,
@@ -622,7 +621,7 @@
   {
     "Id": 165,
     "AppId": "furniture_165",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_41.png",
     "Name": "Fern Vase",
     "Description": "Fern Vase",
     "SellPrice": 103,
@@ -635,7 +634,7 @@
   {
     "Id": 166,
     "AppId": "furniture_166",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_42.png",
     "Name": "Purple Vase",
     "Description": "Purple Vase",
     "SellPrice": 244,
@@ -648,10 +647,10 @@
   {
     "Id": 167,
     "AppId": "furniture_167",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_43.png",
     "Name": "Yellow Wattle Vase",
     "Description": "Yellow Wattle Vase",
-    "SellPrice": 300,
+    "SellPrice": 1500,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "RequiredLicence": "None",
@@ -661,7 +660,7 @@
   {
     "Id": 168,
     "AppId": "furniture_168",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_44.png",
     "Name": "Kitchen Cabinet",
     "Description": "Kitchen Cabinet",
     "SellPrice": 600,
@@ -674,7 +673,7 @@
   {
     "Id": 169,
     "AppId": "furniture_169",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_45.png",
     "Name": "Kitchen Oven",
     "Description": "Kitchen Oven",
     "SellPrice": 700,
@@ -687,7 +686,7 @@
   {
     "Id": 170,
     "AppId": "furniture_170",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_46.png",
     "Name": "Kitchen Sink",
     "Description": "Kitchen Sink",
     "SellPrice": 600,
@@ -700,7 +699,7 @@
   {
     "Id": 171,
     "AppId": "furniture_171",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_47.png",
     "Name": "Stylish Chair",
     "Description": "A chair",
     "SellPrice": 653,
@@ -713,7 +712,7 @@
   {
     "Id": 172,
     "AppId": "furniture_172",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_48.png",
     "Name": "Stylish Table",
     "Description": "A Short Table",
     "SellPrice": 1100,
@@ -726,7 +725,7 @@
   {
     "Id": 173,
     "AppId": "furniture_173",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_49.png",
     "Name": "Stylish Lamp",
     "Description": "A standing lamp",
     "SellPrice": 758,
@@ -739,7 +738,7 @@
   {
     "Id": 174,
     "AppId": "furniture_174",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_50.png",
     "Name": "Regal ArmChair",
     "Description": "An Armchair",
     "SellPrice": 1088,
@@ -752,7 +751,7 @@
   {
     "Id": 175,
     "AppId": "furniture_175",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_51.png",
     "Name": "Regal Bed",
     "Description": "A bed.",
     "SellPrice": 1088,
@@ -765,7 +764,7 @@
   {
     "Id": 176,
     "AppId": "furniture_176",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_52.png",
     "Name": "Regal Bedside Table",
     "Description": "A bedside table.",
     "SellPrice": 1088,
@@ -778,7 +777,7 @@
   {
     "Id": 177,
     "AppId": "furniture_177",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_53.png",
     "Name": "Regal Chair",
     "Description": "A one person chair.",
     "SellPrice": 1088,
@@ -791,7 +790,7 @@
   {
     "Id": 178,
     "AppId": "furniture_178",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_54.png",
     "Name": "Regal Lamp",
     "Description": "A lamp",
     "SellPrice": 1088,
@@ -804,7 +803,7 @@
   {
     "Id": 179,
     "AppId": "furniture_179",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_55.png",
     "Name": "Regal Sofa",
     "Description": "A sofa. Seats 2.",
     "SellPrice": 1088,
@@ -817,7 +816,7 @@
   {
     "Id": 180,
     "AppId": "furniture_180",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_56.png",
     "Name": "Regal Table",
     "Description": "A long table.",
     "SellPrice": 1088,
@@ -830,7 +829,7 @@
   {
     "Id": 181,
     "AppId": "furniture_181",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_57.png",
     "Name": "Regal Drawers",
     "Description": "Chest of Drawers.",
     "SellPrice": 1088,
@@ -910,8 +909,7 @@
       "Skill": "Foraging",
       "LevelSkillLearnt": 1,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -922,7 +920,7 @@
   {
     "Id": 365,
     "AppId": "furniture_365",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_58.png",
     "Name": "Desert Rose Pot",
     "Description": "A Desert Rose in a pot.",
     "SellPrice": 480,
@@ -935,7 +933,7 @@
   {
     "Id": 366,
     "AppId": "furniture_366",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_59.png",
     "Name": "Fruit Bowl",
     "Description": "A decorative bowl of fruit.",
     "SellPrice": 440,
@@ -948,7 +946,7 @@
   {
     "Id": 367,
     "AppId": "furniture_367",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_60.png",
     "Name": "Alarm Clock",
     "Description": "A clock. With an alarm.",
     "SellPrice": 5540,
@@ -961,7 +959,7 @@
   {
     "Id": 368,
     "AppId": "furniture_368",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_61.png",
     "Name": "Regal Clock",
     "Description": "A big old clock.",
     "SellPrice": 1288,
@@ -974,9 +972,9 @@
   {
     "Id": 369,
     "AppId": "furniture_369",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_62.png",
     "Name": "Red Lava Lamp",
-    "Description": "It's all gooey.",
+    "Description": "Its all gooey.",
     "SellPrice": 1088,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -987,7 +985,7 @@
   {
     "Id": 370,
     "AppId": "furniture_370",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_63.png",
     "Name": "Roo Plush",
     "Description": "It's small and cute",
     "SellPrice": 6088,
@@ -1028,7 +1026,7 @@
     "AppId": "furniture_373",
     "Icon": "inventory/allUI_150.png",
     "Name": "Dainty Floor",
-    "Description": "A faint floor",
+    "Description": "A fainty floor",
     "SellPrice": 450,
     "IsStackable": true,
     "Equipable": "Flooring",
@@ -1054,7 +1052,7 @@
     "AppId": "furniture_375",
     "Icon": "inventory/allUI_149.png",
     "Name": "Dainty Wall",
-    "Description": "A faint wallpaper",
+    "Description": "A fainty wallpaper",
     "SellPrice": 250,
     "IsStackable": true,
     "Equipable": "Wallpaper",
@@ -1153,8 +1151,7 @@
       "Skill": "Foraging",
       "LevelSkillLearnt": 10,
       "LearnThroughLicence": true,
-      "LicenceTypeEnum": 2,
-      "LicenceType": "Logging",
+      "LicenceAppId": "licence_21",
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
@@ -1344,8 +1341,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 100
     },
@@ -1356,7 +1352,7 @@
   {
     "Id": 522,
     "AppId": "furniture_522",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_64.png",
     "Name": "Eastern Chair",
     "Description": "Eastern Chair",
     "SellPrice": 4350,
@@ -1369,7 +1365,7 @@
   {
     "Id": 523,
     "AppId": "furniture_523",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_65.png",
     "Name": "Eastern Seat",
     "Description": "A single chair for sitting.",
     "SellPrice": 5500,
@@ -1382,7 +1378,7 @@
   {
     "Id": 524,
     "AppId": "furniture_524",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_66.png",
     "Name": "Eastern Bed",
     "Description": "Sleep here.",
     "SellPrice": 6000,
@@ -1395,7 +1391,7 @@
   {
     "Id": 525,
     "AppId": "furniture_525",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_67.png",
     "Name": "Eastern Bedside Table",
     "Description": "A wooden table for beside your bed.",
     "SellPrice": 3020,
@@ -1408,7 +1404,7 @@
   {
     "Id": 526,
     "AppId": "furniture_526",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_68.png",
     "Name": "Eastern Bookshelf",
     "Description": "Keep books here.",
     "SellPrice": 3504,
@@ -1421,7 +1417,7 @@
   {
     "Id": 527,
     "AppId": "furniture_527",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_69.png",
     "Name": "Eastern Wardrobe",
     "Description": "A wooden table.",
     "SellPrice": 6200,
@@ -1434,7 +1430,7 @@
   {
     "Id": 528,
     "AppId": "furniture_528",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_70.png",
     "Name": "Eastern Coffee Table",
     "Description": "A small table.",
     "SellPrice": 2968,
@@ -1447,7 +1443,7 @@
   {
     "Id": 529,
     "AppId": "furniture_529",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_71.png",
     "Name": "Eastern Couch",
     "Description": "A Couch. You can sit on it with a friend",
     "SellPrice": 9840,
@@ -1460,7 +1456,7 @@
   {
     "Id": 530,
     "AppId": "furniture_530",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_72.png",
     "Name": "Eastern Table",
     "Description": "A wooden table.",
     "SellPrice": 3710,
@@ -1473,7 +1469,7 @@
   {
     "Id": 531,
     "AppId": "furniture_531",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_73.png",
     "Name": "Eastern Lamp",
     "Description": "Keep books here.",
     "SellPrice": 1022,
@@ -1525,7 +1521,7 @@
   {
     "Id": 535,
     "AppId": "furniture_535",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_74.png",
     "Name": "Small Stack of Books",
     "Description": "Some books",
     "SellPrice": 984,
@@ -1538,7 +1534,7 @@
   {
     "Id": 536,
     "AppId": "furniture_536",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_75.png",
     "Name": "Wombie Bank",
     "Description": "A cute pink wombat bank.",
     "SellPrice": 2984,
@@ -1551,7 +1547,7 @@
   {
     "Id": 537,
     "AppId": "furniture_537",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_76.png",
     "Name": "Billy Button Pot",
     "Description": "A Billy Button in a pot.",
     "SellPrice": 984,
@@ -1564,7 +1560,7 @@
   {
     "Id": 538,
     "AppId": "furniture_538",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_77.png",
     "Name": "Royal Bluebell Pot",
     "Description": "A Royal Bluebell in a pot.",
     "SellPrice": 984,
@@ -1577,7 +1573,7 @@
   {
     "Id": 539,
     "AppId": "furniture_539",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_78.png",
     "Name": "Rattan Bed",
     "Description": "Sleep here.",
     "SellPrice": 1305,
@@ -1590,7 +1586,7 @@
   {
     "Id": 540,
     "AppId": "furniture_540",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_79.png",
     "Name": "Rattan Bookshelf",
     "Description": "Keep books here.",
     "SellPrice": 1484,
@@ -1603,7 +1599,7 @@
   {
     "Id": 541,
     "AppId": "furniture_541",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_80.png",
     "Name": "Rattan Cabinet",
     "Description": "Rattan Cabinet",
     "SellPrice": 1300,
@@ -1616,7 +1612,7 @@
   {
     "Id": 542,
     "AppId": "furniture_542",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_81.png",
     "Name": "Rattan Chair",
     "Description": "Rattan Chair",
     "SellPrice": 1135,
@@ -1629,7 +1625,7 @@
   {
     "Id": 543,
     "AppId": "furniture_543",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_82.png",
     "Name": "Rattan Coffee Table",
     "Description": "A small table.",
     "SellPrice": 1084,
@@ -1642,7 +1638,7 @@
   {
     "Id": 544,
     "AppId": "furniture_544",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_83.png",
     "Name": "Rattan Couch",
     "Description": "A Couch. You can sit on it with a friend",
     "SellPrice": 984,
@@ -1655,7 +1651,7 @@
   {
     "Id": 545,
     "AppId": "furniture_545",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_84.png",
     "Name": "Rattan Table",
     "Description": "A wooden table.",
     "SellPrice": 1371,
@@ -1681,7 +1677,7 @@
   {
     "Id": 547,
     "AppId": "furniture_547",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_85.png",
     "Name": "Rattan Lamp",
     "Description": "Keep books here.",
     "SellPrice": 984,
@@ -1694,7 +1690,7 @@
   {
     "Id": 548,
     "AppId": "furniture_548",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_86.png",
     "Name": "Rattan Seat",
     "Description": "A single chair for sitting.",
     "SellPrice": 550,
@@ -1707,7 +1703,7 @@
   {
     "Id": 549,
     "AppId": "furniture_549",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_87.png",
     "Name": "Rattan Bedside Table",
     "Description": "A wooden table for beside your bed.",
     "SellPrice": 702,
@@ -1733,7 +1729,7 @@
   {
     "Id": 551,
     "AppId": "furniture_551",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_88.png",
     "Name": "Nordic Bed",
     "Description": "Sleep here.",
     "SellPrice": 13050,
@@ -1746,7 +1742,7 @@
   {
     "Id": 552,
     "AppId": "furniture_552",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_89.png",
     "Name": "Nordic Bedside Table",
     "Description": "A wooden table for beside your bed.",
     "SellPrice": 2808,
@@ -1759,7 +1755,7 @@
   {
     "Id": 553,
     "AppId": "furniture_553",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_90.png",
     "Name": "Nordic Bookshelf",
     "Description": "Keep books here.",
     "SellPrice": 7420,
@@ -1772,7 +1768,7 @@
   {
     "Id": 554,
     "AppId": "furniture_554",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_91.png",
     "Name": "Nordic Cabinet",
     "Description": "Nordic",
     "SellPrice": 3300,
@@ -1785,7 +1781,7 @@
   {
     "Id": 555,
     "AppId": "furniture_555",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_92.png",
     "Name": "Nordic Chair",
     "Description": "Nordic Chair",
     "SellPrice": 3405,
@@ -1798,7 +1794,7 @@
   {
     "Id": 556,
     "AppId": "furniture_556",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_93.png",
     "Name": "Nordic Coffee Table",
     "Description": "A small table.",
     "SellPrice": 3102,
@@ -1811,7 +1807,7 @@
   {
     "Id": 557,
     "AppId": "furniture_557",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_94.png",
     "Name": "Nordic Couch",
     "Description": "A Couch. You can sit on it with a friend",
     "SellPrice": 9840,
@@ -1824,7 +1820,7 @@
   {
     "Id": 558,
     "AppId": "furniture_558",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_95.png",
     "Name": "Nordic Table",
     "Description": "A wooden table.",
     "SellPrice": 5484,
@@ -1850,7 +1846,7 @@
   {
     "Id": 560,
     "AppId": "furniture_560",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_96.png",
     "Name": "Nordic Lamp",
     "Description": "Keep books here.",
     "SellPrice": 2768,
@@ -1863,7 +1859,7 @@
   {
     "Id": 561,
     "AppId": "furniture_561",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_97.png",
     "Name": "Nordic Seat",
     "Description": "A single chair for sitting.",
     "SellPrice": 1550,
@@ -1889,7 +1885,7 @@
   {
     "Id": 563,
     "AppId": "furniture_563",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_98.png",
     "Name": "Pink Bed",
     "Description": "Sleep here.",
     "SellPrice": 1505,
@@ -1902,7 +1898,7 @@
   {
     "Id": 564,
     "AppId": "furniture_564",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_99.png",
     "Name": "Pink Bedside Table",
     "Description": "A wooden table for beside your bed.",
     "SellPrice": 802,
@@ -1915,7 +1911,7 @@
   {
     "Id": 565,
     "AppId": "furniture_565",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_100.png",
     "Name": "Pink Bookshelf",
     "Description": "Keep books here.",
     "SellPrice": 1584,
@@ -1928,7 +1924,7 @@
   {
     "Id": 566,
     "AppId": "furniture_566",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_101.png",
     "Name": "Pink Cabinet",
     "Description": "Pink cabinet.",
     "SellPrice": 1370,
@@ -1941,7 +1937,7 @@
   {
     "Id": 567,
     "AppId": "furniture_567",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_102.png",
     "Name": "Pink Chair",
     "Description": "Pink Chair",
     "SellPrice": 935,
@@ -1954,7 +1950,7 @@
   {
     "Id": 568,
     "AppId": "furniture_568",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_103.png",
     "Name": "Pink Coffee Table",
     "Description": "A small table.",
     "SellPrice": 1384,
@@ -1967,7 +1963,7 @@
   {
     "Id": 569,
     "AppId": "furniture_569",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_104.png",
     "Name": "Pink Couch",
     "Description": "A Couch. You can sit on it with a friend",
     "SellPrice": 1384,
@@ -1980,7 +1976,7 @@
   {
     "Id": 570,
     "AppId": "furniture_570",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_105.png",
     "Name": "Pink Table",
     "Description": "A pink table.",
     "SellPrice": 1691,
@@ -1993,7 +1989,7 @@
   {
     "Id": 571,
     "AppId": "furniture_571",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_106.png",
     "Name": "Pink Lamp",
     "Description": "Pink lamp. Pretty.",
     "SellPrice": 1184,
@@ -2006,7 +2002,7 @@
   {
     "Id": 572,
     "AppId": "furniture_572",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_107.png",
     "Name": "Pink Seat",
     "Description": "A single chair for sitting.",
     "SellPrice": 1250,
@@ -2080,10 +2076,9 @@
       "SkillEnum": 0,
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
-      "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
-      "LicenceLevelLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_22",
+      "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
     "RequiredLicence": "None",
@@ -2128,10 +2123,9 @@
       "SkillEnum": 0,
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
-      "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
-      "LicenceLevelLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_22",
+      "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
     "RequiredLicence": "None",
@@ -2193,9 +2187,9 @@
   {
     "Id": 670,
     "AppId": "furniture_670",
-    "Icon": "inventory/allUI2_45.png",
-    "Name": "Item Sign",
-    "Description": "Show an item off.",
+    "Icon": "inventory/allUI3_67.png",
+    "Name": "Wooden Item Sign",
+    "Description": "Shows an item off.",
     "SellPrice": 808,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -2223,20 +2217,19 @@
         }
       ],
       "RecipeGiveThisAmount": 1,
-      "WorkPlaceConditionsEnum": 0,
-      "WorkPlaceConditions": "None",
-      "CategoryEnum": 6,
-      "Category": "House",
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 3,
+      "Category": "Decorations",
       "SubCategoryEnum": 0,
       "SubCategory": "None",
       "TierLevel": 3,
       "SkillEnum": 0,
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
-      "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
-      "LicenceLevelLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
     "RequiredLicence": "None",
@@ -2325,7 +2318,7 @@
     "Id": 677,
     "AppId": "furniture_677",
     "Icon": "inventory/allUI_150.png",
-    "Name": "Basic Blue Orange",
+    "Name": "Basic Orange Rug",
     "Description": "Its soft and orange",
     "SellPrice": 1450,
     "IsStackable": true,
@@ -2350,7 +2343,7 @@
   {
     "Id": 785,
     "AppId": "furniture_785",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_108.png",
     "Name": "Green Chair",
     "Description": "Green Chair",
     "SellPrice": 935,
@@ -2363,7 +2356,7 @@
   {
     "Id": 786,
     "AppId": "furniture_786",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_109.png",
     "Name": "Green Seat",
     "Description": "A single chair for sitting.",
     "SellPrice": 1250,
@@ -2376,7 +2369,7 @@
   {
     "Id": 787,
     "AppId": "furniture_787",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_110.png",
     "Name": "Green Bed",
     "Description": "Sleep here.",
     "SellPrice": 1505,
@@ -2389,7 +2382,7 @@
   {
     "Id": 788,
     "AppId": "furniture_788",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_111.png",
     "Name": "Green Bedside Table",
     "Description": "A wooden table for beside your bed.",
     "SellPrice": 802,
@@ -2402,7 +2395,7 @@
   {
     "Id": 789,
     "AppId": "furniture_789",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_112.png",
     "Name": "Green Bookshelf",
     "Description": "Keep books here.",
     "SellPrice": 1584,
@@ -2415,7 +2408,7 @@
   {
     "Id": 790,
     "AppId": "furniture_790",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_113.png",
     "Name": "Green Cabinet",
     "Description": "Green Cabinet",
     "SellPrice": 1370,
@@ -2428,7 +2421,7 @@
   {
     "Id": 791,
     "AppId": "furniture_791",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_114.png",
     "Name": "Green Couch",
     "Description": "A Couch. You can sit on it with a friend",
     "SellPrice": 1384,
@@ -2441,7 +2434,7 @@
   {
     "Id": 792,
     "AppId": "furniture_792",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_115.png",
     "Name": "Green Coffee Table",
     "Description": "A small table.",
     "SellPrice": 1384,
@@ -2454,7 +2447,7 @@
   {
     "Id": 793,
     "AppId": "furniture_793",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_116.png",
     "Name": "Green Table",
     "Description": "A pink table.",
     "SellPrice": 1691,
@@ -2467,7 +2460,7 @@
   {
     "Id": 794,
     "AppId": "furniture_794",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_117.png",
     "Name": "Green Lamp",
     "Description": "Pink lamp. Pretty.",
     "SellPrice": 1184,
@@ -2516,8 +2509,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -2751,8 +2743,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": true,
-      "LicenceTypeEnum": 11,
-      "LicenceType": "Farming",
+      "LicenceAppId": "licence_11",
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
@@ -2763,7 +2754,7 @@
   {
     "Id": 865,
     "AppId": "furniture_865",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_118.png",
     "Name": "Warm Nordic Bed",
     "Description": "Sleep here.",
     "SellPrice": 13050,
@@ -2776,7 +2767,7 @@
   {
     "Id": 866,
     "AppId": "furniture_866",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_119.png",
     "Name": "Warm Nordic Bedside Table",
     "Description": "A wooden table for beside your bed.",
     "SellPrice": 2808,
@@ -2789,7 +2780,7 @@
   {
     "Id": 867,
     "AppId": "furniture_867",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_120.png",
     "Name": "Warm Nordic Bookshelf",
     "Description": "Keep books here.",
     "SellPrice": 7420,
@@ -2802,7 +2793,7 @@
   {
     "Id": 868,
     "AppId": "furniture_868",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_121.png",
     "Name": "Warm Nordic Cabinet",
     "Description": "Nordic",
     "SellPrice": 3300,
@@ -2815,7 +2806,7 @@
   {
     "Id": 869,
     "AppId": "furniture_869",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_122.png",
     "Name": "Warm Nordic Chair",
     "Description": "Nordic Chair",
     "SellPrice": 3405,
@@ -2828,7 +2819,7 @@
   {
     "Id": 870,
     "AppId": "furniture_870",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_123.png",
     "Name": "Warm Nordic Coffee Table",
     "Description": "A small table.",
     "SellPrice": 3102,
@@ -2841,7 +2832,7 @@
   {
     "Id": 871,
     "AppId": "furniture_871",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_124.png",
     "Name": "Warm Nordic Couch",
     "Description": "A Couch. You can sit on it with a friend",
     "SellPrice": 9840,
@@ -2854,7 +2845,7 @@
   {
     "Id": 872,
     "AppId": "furniture_872",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_125.png",
     "Name": "Warm Nordic Table",
     "Description": "A wooden table.",
     "SellPrice": 5484,
@@ -2867,7 +2858,7 @@
   {
     "Id": 874,
     "AppId": "furniture_874",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_127.png",
     "Name": "Warm Nordic Lamp",
     "Description": "Keep books here.",
     "SellPrice": 2768,
@@ -2880,7 +2871,7 @@
   {
     "Id": 874,
     "AppId": "furniture_874",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_127.png",
     "Name": "Warm Nordic Lamp",
     "Description": "Keep books here.",
     "SellPrice": 2768,
@@ -2893,7 +2884,7 @@
   {
     "Id": 875,
     "AppId": "furniture_875",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_128.png",
     "Name": "Warm Nordic Seat",
     "Description": "A single chair for sitting.",
     "SellPrice": 1550,
@@ -2906,7 +2897,7 @@
   {
     "Id": 878,
     "AppId": "furniture_878",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_129.png",
     "Name": "Dark Wooden Table",
     "Description": "A wooden table.",
     "SellPrice": 371,
@@ -2919,7 +2910,7 @@
   {
     "Id": 879,
     "AppId": "furniture_879",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_130.png",
     "Name": "Dark Wooden Seat",
     "Description": "A single chair for sitting.",
     "SellPrice": 550,
@@ -2932,7 +2923,7 @@
   {
     "Id": 880,
     "AppId": "furniture_880",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_131.png",
     "Name": "Dark Wooden Couch",
     "Description": "A Couch. You can sit on it with a friend",
     "SellPrice": 984,
@@ -2945,7 +2936,7 @@
   {
     "Id": 881,
     "AppId": "furniture_881",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_132.png",
     "Name": "Wooden Bedside Table",
     "Description": "A wooden table for beside your bed.",
     "SellPrice": 302,
@@ -2958,7 +2949,7 @@
   {
     "Id": 882,
     "AppId": "furniture_882",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_133.png",
     "Name": "Tea Pot",
     "Description": "",
     "SellPrice": 1984,
@@ -2971,7 +2962,7 @@
   {
     "Id": 883,
     "AppId": "furniture_883",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_134.png",
     "Name": "Small Pot",
     "Description": "",
     "SellPrice": 1984,
@@ -2984,7 +2975,7 @@
   {
     "Id": 884,
     "AppId": "furniture_884",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_135.png",
     "Name": "Rattan Basket",
     "Description": "",
     "SellPrice": 884,
@@ -3028,8 +3019,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3071,8 +3061,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3114,8 +3103,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3157,8 +3145,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3455,7 +3442,7 @@
   {
     "Id": 980,
     "AppId": "furniture_980",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_136.png",
     "Name": "Minimalist Bed",
     "Description": "Is this furniture?",
     "SellPrice": 12160,
@@ -3468,7 +3455,7 @@
   {
     "Id": 981,
     "AppId": "furniture_981",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_137.png",
     "Name": "Minimalist Bedside Table",
     "Description": "Is this furniture?",
     "SellPrice": 12160,
@@ -3481,7 +3468,7 @@
   {
     "Id": 982,
     "AppId": "furniture_982",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_138.png",
     "Name": "Minimalist Book Shelf",
     "Description": "Is this furniture?",
     "SellPrice": 12160,
@@ -3494,7 +3481,7 @@
   {
     "Id": 983,
     "AppId": "furniture_983",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_139.png",
     "Name": "Minimalist Chair",
     "Description": "Is this furniture?",
     "SellPrice": 13160,
@@ -3507,7 +3494,7 @@
   {
     "Id": 984,
     "AppId": "furniture_984",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_140.png",
     "Name": "Minimalist Couch",
     "Description": "Is this furniture?",
     "SellPrice": 16160,
@@ -3520,7 +3507,7 @@
   {
     "Id": 985,
     "AppId": "furniture_985",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_141.png",
     "Name": "Minimalist Dresser",
     "Description": "Is this furniture?",
     "SellPrice": 12160,
@@ -3533,7 +3520,7 @@
   {
     "Id": 986,
     "AppId": "furniture_986",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_142.png",
     "Name": "Minimalist Lamp",
     "Description": "A standing lamp",
     "SellPrice": 7580,
@@ -3546,7 +3533,7 @@
   {
     "Id": 987,
     "AppId": "furniture_987",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_143.png",
     "Name": "Minimalist Seat",
     "Description": "Is this furniture?",
     "SellPrice": 14160,
@@ -3624,7 +3611,7 @@
   {
     "Id": 996,
     "AppId": "furniture_996",
-    "Icon": "inventory/allUI_0.png",
+    "Icon": "inventory/furnitureUI_144.png",
     "Name": "Bunk Bed",
     "Description": "So much room",
     "SellPrice": 1334,
@@ -3663,7 +3650,7 @@
   {
     "Id": 1010,
     "AppId": "furniture_1010",
-    "Icon": "inventory/allUI3_18.png",
+    "Icon": "inventory/furnitureUI_145.png",
     "Name": "Festive Tree",
     "Description": "So pretty!",
     "SellPrice": 2696,
@@ -3704,8 +3691,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3757,8 +3743,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3769,7 +3754,7 @@
   {
     "Id": 1016,
     "AppId": "furniture_1016",
-    "Icon": "inventory/allUI3_25.png",
+    "Icon": "inventory/furnitureUI_146.png",
     "Name": "Fireplace",
     "Description": "It's a fire for inside",
     "SellPrice": 2829,
@@ -3815,8 +3800,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3827,7 +3811,7 @@
   {
     "Id": 1017,
     "AppId": "furniture_1017",
-    "Icon": "inventory/allUI3_24.png",
+    "Icon": "inventory/furnitureUI_147.png",
     "Name": "Mini Festive Tree",
     "Description": "",
     "SellPrice": 516,
@@ -3863,8 +3847,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3926,8 +3909,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3969,8 +3951,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3981,12 +3962,1499 @@
   {
     "Id": 1024,
     "AppId": "furniture_1024",
-    "Icon": "inventory/allUI3_32.png",
+    "Icon": "inventory/furnitureUI_148.png",
     "Name": "Star Light",
     "Description": "Twinkle Twinkle",
     "SellPrice": 8487,
     "IsStackable": true,
     "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1038,
+    "AppId": "furniture_1038",
+    "Icon": "inventory/allUI3_39.png",
+    "Name": "A Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1039,
+    "AppId": "furniture_1039",
+    "Icon": "inventory/allUI3_40.png",
+    "Name": "B Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1040,
+    "AppId": "furniture_1040",
+    "Icon": "inventory/allUI3_41.png",
+    "Name": "C Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1041,
+    "AppId": "furniture_1041",
+    "Icon": "inventory/allUI3_42.png",
+    "Name": "D Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1042,
+    "AppId": "furniture_1042",
+    "Icon": "inventory/allUI3_43.png",
+    "Name": "E Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1043,
+    "AppId": "furniture_1043",
+    "Icon": "inventory/allUI3_44.png",
+    "Name": "F Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1044,
+    "AppId": "furniture_1044",
+    "Icon": "inventory/allUI3_45.png",
+    "Name": "G Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1045,
+    "AppId": "furniture_1045",
+    "Icon": "inventory/allUI3_46.png",
+    "Name": "H Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1046,
+    "AppId": "furniture_1046",
+    "Icon": "inventory/allUI3_47.png",
+    "Name": "I Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1047,
+    "AppId": "furniture_1047",
+    "Icon": "inventory/allUI3_48.png",
+    "Name": "J Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1048,
+    "AppId": "furniture_1048",
+    "Icon": "inventory/allUI3_49.png",
+    "Name": "K Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1049,
+    "AppId": "furniture_1049",
+    "Icon": "inventory/allUI3_50.png",
+    "Name": "L Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1050,
+    "AppId": "furniture_1050",
+    "Icon": "inventory/allUI3_51.png",
+    "Name": "M Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1051,
+    "AppId": "furniture_1051",
+    "Icon": "inventory/allUI3_52.png",
+    "Name": "N Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1052,
+    "AppId": "furniture_1052",
+    "Icon": "inventory/allUI3_53.png",
+    "Name": "O Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1053,
+    "AppId": "furniture_1053",
+    "Icon": "inventory/allUI3_54.png",
+    "Name": "P Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1054,
+    "AppId": "furniture_1054",
+    "Icon": "inventory/allUI3_55.png",
+    "Name": "Q Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1055,
+    "AppId": "furniture_1055",
+    "Icon": "inventory/allUI3_56.png",
+    "Name": "R Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1056,
+    "AppId": "furniture_1056",
+    "Icon": "inventory/allUI3_57.png",
+    "Name": "S Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1057,
+    "AppId": "furniture_1057",
+    "Icon": "inventory/allUI3_58.png",
+    "Name": "T Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1058,
+    "AppId": "furniture_1058",
+    "Icon": "inventory/allUI3_59.png",
+    "Name": "U Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1059,
+    "AppId": "furniture_1059",
+    "Icon": "inventory/allUI3_60.png",
+    "Name": "V Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1060,
+    "AppId": "furniture_1060",
+    "Icon": "inventory/allUI3_61.png",
+    "Name": "W Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1061,
+    "AppId": "furniture_1061",
+    "Icon": "inventory/allUI3_62.png",
+    "Name": "X Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1062,
+    "AppId": "furniture_1062",
+    "Icon": "inventory/allUI3_63.png",
+    "Name": "Y Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1063,
+    "AppId": "furniture_1063",
+    "Icon": "inventory/allUI3_64.png",
+    "Name": "Z Letter Statue",
+    "Description": "Alphabet statue",
+    "SellPrice": 38,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 100
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1064,
+    "AppId": "furniture_1064",
+    "Icon": "inventory/allUI3_66.png",
+    "Name": "Hand Written sign",
+    "Description": "Show's a message",
+    "SellPrice": 1182,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 307,
+          "AppId": "item_307",
+          "Quantity": 1
+        },
+        {
+          "Id": 305,
+          "AppId": "item_305",
+          "Quantity": 1
+        },
+        {
+          "Id": 649,
+          "AppId": "item_649",
+          "Quantity": 1
+        },
+        {
+          "Id": 182,
+          "AppId": "item_182",
+          "Quantity": 1
+        },
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 2
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 3,
+      "Category": "Decorations",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 3,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 1,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1067,
+    "AppId": "furniture_1067",
+    "Icon": "inventory/allUI3_70.png",
+    "Name": "Gum Wood Direction Sign",
+    "Description": "Points the way",
+    "SellPrice": 531,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 760,
+          "AppId": "item_760",
+          "Quantity": 1
+        },
+        {
+          "Id": 305,
+          "AppId": "item_305",
+          "Quantity": 1
+        },
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 2
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 6,
+      "Category": "House",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 3,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1085,
+    "AppId": "furniture_1085",
+    "Icon": "inventory/furnitureUI_149.png",
+    "Name": "Desert Pea Pot",
+    "Description": "A Desert Pea in a pot.",
+    "SellPrice": 984,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1086,
+    "AppId": "furniture_1086",
+    "Icon": "inventory/furnitureUI_150.png",
+    "Name": "River Daisy Pot",
+    "Description": "A River Daisy in a pot.",
+    "SellPrice": 984,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1087,
+    "AppId": "furniture_1087",
+    "Icon": "inventory/furnitureUI_151.png",
+    "Name": "Flannel Flower Pot",
+    "Description": "A Flannel Flower in a pot.",
+    "SellPrice": 984,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1088,
+    "AppId": "furniture_1088",
+    "Icon": "inventory/furnitureUI_152.png",
+    "Name": "Butterfly Orchid Pot",
+    "Description": "A Butterfly Orchid  in a pot.",
+    "SellPrice": 984,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1089,
+    "AppId": "furniture_1089",
+    "Icon": "inventory/furnitureUI_153.png",
+    "Name": "Orange Paper Daisy Pot",
+    "Description": "A Paper Daisy in a pot.",
+    "SellPrice": 984,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1102,
+    "AppId": "furniture_1102",
+    "Icon": "inventory/furnitureUI_154.png",
+    "Name": "Gold Bug Comp Trophy",
+    "Description": "1st Place!",
+    "SellPrice": 59040,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1103,
+    "AppId": "furniture_1103",
+    "Icon": "inventory/furnitureUI_155.png",
+    "Name": "Silver Bug Comp Trophy",
+    "Description": "2nd is the best!",
+    "SellPrice": 39360,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1104,
+    "AppId": "furniture_1104",
+    "Icon": "inventory/furnitureUI_156.png",
+    "Name": "Bronze Bug Comp Trophy",
+    "Description": "3rd ain't bad.",
+    "SellPrice": 19680,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1114,
+    "AppId": "furniture_1114",
+    "Icon": "inventory/allUI3_99.png",
+    "Name": "Camera Tripod",
+    "Description": "Take a selfie",
+    "SellPrice": 34000,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1119,
+    "AppId": "furniture_1119",
+    "Icon": "inventory/allUI3_66.png",
+    "Name": "Portable Roof",
+    "Description": "It's a roof",
+    "SellPrice": 1182,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 307,
+          "AppId": "item_307",
+          "Quantity": 1
+        },
+        {
+          "Id": 305,
+          "AppId": "item_305",
+          "Quantity": 1
+        },
+        {
+          "Id": 649,
+          "AppId": "item_649",
+          "Quantity": 1
+        },
+        {
+          "Id": 182,
+          "AppId": "item_182",
+          "Quantity": 1
+        },
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 2
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 6,
+      "WorkPlaceConditions": "Blocked",
+      "CategoryEnum": 3,
+      "Category": "Decorations",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 3,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 1,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1138,
+    "AppId": "furniture_1138",
+    "Icon": "inventory/allUI3_106.png",
+    "Name": "Marble Bench",
+    "Description": "Sit down outside why don't ya.",
+    "SellPrice": 125,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 1158,
+          "AppId": "item_1158",
+          "Quantity": 10
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 1,
+      "WorkPlaceConditions": "CraftingTable",
+      "CategoryEnum": 6,
+      "Category": "House",
+      "SubCategoryEnum": 7,
+      "SubCategory": "Decoration",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1159,
+    "AppId": "furniture_1159",
+    "Icon": "inventory/furnitureUI_157.png",
+    "Name": "Dinner Set",
+    "Description": "Ready for a meal",
+    "SellPrice": 984,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1160,
+    "AppId": "furniture_1160",
+    "Icon": "inventory/furnitureUI_158.png",
+    "Name": "Stack of Plates",
+    "Description": "Clean or dirty?",
+    "SellPrice": 1968,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1161,
+    "AppId": "furniture_1161",
+    "Icon": "inventory/furnitureUI_159.png",
+    "Name": "Fake Bread",
+    "Description": "Display Bread",
+    "SellPrice": 1000,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1162,
+    "AppId": "furniture_1162",
+    "Icon": "inventory/furnitureUI_160.png",
+    "Name": "Fake Wattle Brew",
+    "Description": "Display Brew",
+    "SellPrice": 1000,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1171,
+    "AppId": "furniture_1171",
+    "Icon": "inventory/furnitureUI_161.png",
+    "Name": "Traffic Cone",
+    "Description": "Looks like a witch hat to me.",
+    "SellPrice": 2952,
+    "IsStackable": true,
+    "Equipable": "Hat",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1183,
+    "AppId": "furniture_1183",
+    "Icon": "inventory/furnitureUI_162.png",
+    "Name": "Bottle Brush Vase",
+    "Description": "Bottle Brush Vase",
+    "SellPrice": 1500,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1184,
+    "AppId": "furniture_1184",
+    "Icon": "inventory/furnitureUI_163.png",
+    "Name": "Potted Lilly Pilly",
+    "Description": "Potted Lilly Pilly",
+    "SellPrice": 1500,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1188,
+    "AppId": "furniture_1188",
+    "Icon": "inventory/allUI3_137.png",
+    "Name": "Blast Furnace",
+    "Description": "A mega furnace that can also process Berkonium Ore",
+    "SellPrice": 400000,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 115,
+          "AppId": "furniture_115",
+          "Quantity": 1
+        },
+        {
+          "Id": 1165,
+          "AppId": "item_1165",
+          "Quantity": 10
+        },
+        {
+          "Id": 585,
+          "AppId": "item_585",
+          "Quantity": 4
+        },
+        {
+          "Id": 114,
+          "AppId": "item_114",
+          "Quantity": 10
+        },
+        {
+          "Id": 113,
+          "AppId": "item_113",
+          "Quantity": 10
+        },
+        {
+          "Id": 645,
+          "AppId": "item_645",
+          "Quantity": 4
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 4,
+      "WorkPlaceConditions": "CraftingShop",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 5,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 1
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1189,
+    "AppId": "furniture_1189",
+    "Icon": "inventory/allUI3_136.png",
+    "Name": "Improved Table Saw",
+    "Description": "Can cut a lot of wood into a lot of planks.",
+    "SellPrice": 150000,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 304,
+          "AppId": "furniture_304",
+          "Quantity": 1
+        },
+        {
+          "Id": 1166,
+          "AppId": "item_1166",
+          "Quantity": 2
+        },
+        {
+          "Id": 585,
+          "AppId": "item_585",
+          "Quantity": 4
+        },
+        {
+          "Id": 114,
+          "AppId": "item_114",
+          "Quantity": 5
+        },
+        {
+          "Id": 113,
+          "AppId": "item_113",
+          "Quantity": 5
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 4,
+      "WorkPlaceConditions": "CraftingShop",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 5,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 1
+    },
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""

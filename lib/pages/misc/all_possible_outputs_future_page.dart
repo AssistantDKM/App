@@ -10,6 +10,7 @@ class AllPossibleOutputsFromFuturePage<T> extends StatelessWidget {
   final String? subtitle;
   final bool hideAppBar;
   final Widget Function(BuildContext context, T p) presenter;
+  final void Function()? onBackButton;
 
   const AllPossibleOutputsFromFuturePage(
     this.requiredItemsFuture,
@@ -18,6 +19,7 @@ class AllPossibleOutputsFromFuturePage<T> extends StatelessWidget {
     Key? key,
     this.subtitle,
     this.hideAppBar = false,
+    this.onBackButton,
   }) : super(key: key);
 
   @override
@@ -27,8 +29,26 @@ class AllPossibleOutputsFromFuturePage<T> extends StatelessWidget {
       return Column(
         children: [
           const EmptySpace2x(),
-          GenericItemName(title),
-          const EmptySpace1x(),
+          if (onBackButton == null) ...[
+            GenericItemName(title),
+          ],
+          if (onBackButton != null) ...[
+            Stack(
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [GenericItemName(title)],
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(left: 16),
+                  child: IconButton(
+                    icon: const Icon(Icons.arrow_back),
+                    onPressed: onBackButton,
+                  ),
+                ),
+              ],
+            ),
+          ],
           if (subtitle != null && subtitle!.isNotEmpty) ...[
             pageDefaultPadding(GenericItemDescription(subtitle!)),
             const EmptySpace1x(),

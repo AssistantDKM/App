@@ -8,11 +8,12 @@
       "Allows the holder to craft a better pickaxe.",
       "Allows the holder to craft a better pickaxe."
     ],
-    "Icon": "",
+    "Icon": "licence/licence1.png",
     "MaxLevel": 3,
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 2,
+    "UnlockedEveryLevel": 10,
     "SortingNumber": 1,
     "LicenceColour": "70BA75"
   },
@@ -25,11 +26,12 @@
       "Allows the holder to craft a better axe.",
       "Allows the holder to craft a better axe."
     ],
-    "Icon": "",
+    "Icon": "licence/licence2.png",
     "MaxLevel": 3,
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 1,
+    "UnlockedEveryLevel": 10,
     "SortingNumber": 2,
     "LicenceColour": "70A8BA"
   },
@@ -42,11 +44,12 @@
       "Allows the holder to see bubbles created by underwater creatures. Unlocks a new fishing rod recipe",
       "Allows the holder to craft Crab Pots. Unlocks a new fishing rod recipe."
     ],
-    "Icon": "",
+    "Icon": "licence/licence3.png",
     "MaxLevel": 3,
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 3,
+    "UnlockedEveryLevel": 5,
     "SortingNumber": 3,
     "LicenceColour": "939393"
   },
@@ -59,11 +62,12 @@
       "Allows the holder to craft better weapons. Unlocks trapping Licence.",
       "Allows the holder to craft better weapons using animal drops. Animals have an even higher chance to drop other useful items when hunted."
     ],
-    "Icon": "",
+    "Icon": "licence/licence4.png",
     "MaxLevel": 3,
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 5,
+    "UnlockedEveryLevel": 5,
     "SortingNumber": 6,
     "LicenceColour": "7085BA"
   },
@@ -75,11 +79,12 @@
       "Allows the holder to craft new pathing options.",
       "Allows the holder to craft new fencing options."
     ],
-    "Icon": "",
+    "Icon": "licence/licence5.png",
     "MaxLevel": 2,
     "LevelCost": 250,
     "LevelCostMuliplier": 1,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 10,
     "LicenceColour": "A87018"
   },
@@ -91,11 +96,12 @@
       "Allows the holder to buy a metal detector and search for treasure around the island.",
       "Allows the holder to notice some buried items using sight alone."
     ],
-    "Icon": "",
+    "Icon": "licence/licence6.png",
     "MaxLevel": 2,
     "LevelCost": 500,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 5,
     "LicenceColour": "FF9100"
   },
@@ -108,11 +114,12 @@
       "Allows the holder to purchase and drive land vehicles.",
       "Allows the holder to purchase and pilot flying vehicles."
     ],
-    "Icon": "",
+    "Icon": "licence/licence7.png",
     "MaxLevel": 3,
     "LevelCost": 1200,
     "LevelCostMuliplier": 1,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 11,
     "LicenceColour": "FFC20C"
   },
@@ -125,11 +132,12 @@
       "The holder will receive 10% more when selling items",
       "The holder will receive 15% more when selling items"
     ],
-    "Icon": "",
+    "Icon": "licence/licence8.png",
     "MaxLevel": 3,
     "LevelCost": 750,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 12,
     "LicenceColour": "FFA8DE"
   },
@@ -142,11 +150,12 @@
       "Allows the holder to buy and raise Vombats.",
       "Allows the holder to buy raise Pleep."
     ],
-    "Icon": "",
+    "Icon": "licence/licence9.png",
     "MaxLevel": 3,
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 8,
     "LicenceColour": "967D9C"
   },
@@ -159,11 +168,12 @@
       "Allows the holder to build Windmills to help speed up production tasks.",
       "Coming soon. The holder will get instant access to Building Level 3 once it has arrived"
     ],
-    "Icon": "",
+    "Icon": "licence/licence10.png",
     "MaxLevel": 3,
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 10,
     "LicenceColour": "9BBA70"
   },
@@ -176,11 +186,12 @@
       "Allows the holder to craft fertilzer. Unlocks a new watercan recipe.",
       "Allows the holder to access irregation licence. Unlocks a new watercan recipe."
     ],
-    "Icon": "",
+    "Icon": "licence/licence11.png",
     "MaxLevel": 3,
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 10,
     "SortingNumber": 7,
     "LicenceColour": "2ACB90"
   },
@@ -193,11 +204,12 @@
       "Allows the holder to expand their pockets by 3 slots.",
       "Allows the holder to expand their pockets by 3 slots."
     ],
-    "Icon": "",
+    "Icon": "licence/licence12.png",
     "MaxLevel": 3,
     "LevelCost": 500,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 9,
     "LicenceColour": "BA7084"
   },
@@ -208,11 +220,12 @@
     "Descriptions": [
       "Unlocks the Mine Deed and allows access to the deep mines."
     ],
-    "Icon": "",
+    "Icon": "licence/licence13.png",
     "MaxLevel": 1,
     "LevelCost": 3500,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 1,
     "LicenceColour": "26B6A7"
   },
@@ -225,11 +238,12 @@
       "Allow the holder to expand their toolbelt slots by 1.",
       "Allow the holder to expand their toolbelt slots by 1."
     ],
-    "Icon": "",
+    "Icon": "licence/licence14.png",
     "MaxLevel": 3,
     "LevelCost": 250,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 9,
     "LicenceColour": "A07D7D"
   },
@@ -241,11 +255,12 @@
       "Allows the holder to craft and use animal traps and animal drop off points. Animals successfully dropped off will give a reward.",
       "Allows the holder to craft and use advanced animal traps."
     ],
-    "Icon": "",
+    "Icon": "licence/licence15.png",
     "MaxLevel": 2,
     "LevelCost": 500,
     "LevelCostMuliplier": 1,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 6,
     "LicenceColour": "B56A48"
   },
@@ -256,11 +271,12 @@
     "Descriptions": [
       "Allows the holder to purchase and use shovels."
     ],
-    "Icon": "",
+    "Icon": "licence/licence16.png",
     "MaxLevel": 1,
     "LevelCost": 500,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 4,
     "LicenceColour": "54BDC6"
   },
@@ -272,13 +288,14 @@
       "Allows the holder to craft sprinklers and water tanks.",
       "Allows the holder to craft improved sprinklers."
     ],
-    "Icon": "",
+    "Icon": "licence/licence17.png",
     "MaxLevel": 2,
     "LevelCost": 1000,
     "LevelCostMuliplier": 2,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 7,
-    "LicenceColour": "7085BA"
+    "LicenceColour": "FFA14A"
   },
   {
     "Id": 18,
@@ -289,12 +306,80 @@
       "Allows the holder to use the Plowing Attachment on Agricultural Vehicles.",
       "Allows the holder to use the Planting Attachment on Agricultural Vehicles."
     ],
-    "Icon": "",
+    "Icon": "licence/licence18.png",
     "MaxLevel": 3,
     "LevelCost": 2000,
     "LevelCostMuliplier": 0,
     "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
     "SortingNumber": 11,
-    "LicenceColour": "FFA14A"
+    "LicenceColour": "E1DC29"
+  },
+  {
+    "Id": 19,
+    "AppId": "licence_19",
+    "Name": "SignWriting",
+    "Descriptions": [
+      "Unlocked the recipe for The Sign Writing Table and simple sign recipes",
+      "Unlocks the recipes for advanced signs"
+    ],
+    "Icon": "licence/licence19.png",
+    "MaxLevel": 2,
+    "LevelCost": 500,
+    "LevelCostMuliplier": 1,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 10,
+    "LicenceColour": "7086BB"
+  },
+  {
+    "Id": 20,
+    "AppId": "licence_20",
+    "Name": "WaterBed",
+    "Descriptions": [
+      "Unlocks the recipes for Waterbeds. Used to create waterfalls."
+    ],
+    "Icon": "licence/licence20.png",
+    "MaxLevel": 1,
+    "LevelCost": 1000,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 10,
+    "LicenceColour": "D67CEC"
+  },
+  {
+    "Id": 21,
+    "AppId": "licence_21",
+    "Name": "Brewing",
+    "Descriptions": [
+      "Unlocks the Billy Kit recipe used for brewing drinks and jams.",
+      "Unlocks the Keg recipe used for brewing advanced drinks."
+    ],
+    "Icon": "licence/licence21.png",
+    "MaxLevel": 2,
+    "LevelCost": 500,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 12,
+    "LicenceColour": "FF82CE"
+  },
+  {
+    "Id": 22,
+    "AppId": "licence_22",
+    "Name": "AnimalProccessing",
+    "Descriptions": [
+      "Unlocks Cheese Making recipe for processing Milk.",
+      "Unlocks Spinning Wheel recipe for processing Wool."
+    ],
+    "Icon": "licence/licence22.png",
+    "MaxLevel": 2,
+    "LevelCost": 500,
+    "LevelCostMuliplier": 1,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 8,
+    "LicenceColour": "000000"
   }
 ]

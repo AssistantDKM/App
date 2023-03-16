@@ -68,6 +68,16 @@
           "Type": 23,
           "Level": 0,
           "Seconds": 0
+        },
+        {
+          "Type": 0,
+          "Level": 1,
+          "Seconds": 10
+        },
+        {
+          "Type": 1,
+          "Level": 1,
+          "Seconds": 10
         }
       ]
     },
@@ -80,7 +90,7 @@
     "AppId": "cooking_28",
     "Icon": "inventory/allUI_198.png",
     "Name": "Sugar Cane",
-    "Description": "So sweet. You could make sugar out of this!",
+    "Description": "You could make sugar out of this!",
     "SellPrice": 560,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -118,7 +128,7 @@
     "AppId": "cooking_111",
     "Icon": "inventory/allUI_16.png",
     "Name": "Cabbage",
-    "Description": "Crunchy or soft. It up to you.",
+    "Description": "Cruchy or soft. It up to you.",
     "SellPrice": 1750,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -422,7 +432,7 @@
     "AppId": "cooking_310",
     "Icon": "inventory/allUI_97.png",
     "Name": "Cooked Drumstick",
-    "Description": "Delicious if you cook it. Not so much if you don't.",
+    "Description": "Delicious if you cook it. Not so much if you dont.",
     "SellPrice": 700,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -448,6 +458,11 @@
           "Type": 23,
           "Level": 0,
           "Seconds": 0
+        },
+        {
+          "Type": 1,
+          "Level": 1,
+          "Seconds": 10
         }
       ]
     },
@@ -764,8 +779,8 @@
     "AppId": "cooking_360",
     "Icon": "inventory/allUI2_191.png",
     "Name": "Lamington",
-    "Description": "Celebrate!",
-    "SellPrice": 5939,
+    "Description": "Coconuty",
+    "SellPrice": 5039,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Craftable": {
@@ -808,8 +823,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -901,8 +915,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -984,8 +997,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -999,7 +1011,7 @@
         },
         {
           "Type": 21,
-          "Level": 20,
+          "Level": 15,
           "Seconds": 0
         },
         {
@@ -1067,8 +1079,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -1098,12 +1109,12 @@
         {
           "Type": 0,
           "Level": 1,
-          "Seconds": 120
+          "Seconds": 240
         },
         {
           "Type": 8,
           "Level": 1,
-          "Seconds": 120
+          "Seconds": 240
         }
       ]
     },
@@ -1155,8 +1166,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -1205,7 +1215,7 @@
     "Icon": "inventory/allUI_160.png",
     "Name": "Wattle Brew",
     "Description": "Refreshing!",
-    "SellPrice": 4625,
+    "SellPrice": 6380,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Consumable": {
@@ -1544,6 +1554,11 @@
           "Type": 23,
           "Level": 10,
           "Seconds": 0
+        },
+        {
+          "Type": 1,
+          "Level": 1,
+          "Seconds": 15
         }
       ]
     },
@@ -1633,7 +1648,7 @@
     "Icon": "inventory/allUI2_54.png",
     "Name": "Meat Pie",
     "Description": "Get it in ya!",
-    "SellPrice": 3038,
+    "SellPrice": 2288,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Craftable": {
@@ -1666,8 +1681,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -1711,7 +1725,7 @@
     "Icon": "inventory/allUI_148.png",
     "Name": "Pavlova",
     "Description": "Celebrate the best way!",
-    "SellPrice": 6860,
+    "SellPrice": 6560,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Craftable": {
@@ -1744,8 +1758,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -1827,13 +1840,12 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
     "Consumable": {
-      "Type": "Unknown",
+      "Type": "Meat",
       "Buffs": [
         {
           "Type": 20,
@@ -1877,7 +1889,7 @@
     "Icon": "inventory/allUI2_57.png",
     "Name": "Quiche",
     "Description": "Breakfast cake.",
-    "SellPrice": 5538,
+    "SellPrice": 4788,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Craftable": {
@@ -1910,8 +1922,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -1950,7 +1961,7 @@
         },
         {
           "Type": 9,
-          "Level": 2,
+          "Level": 1,
           "Seconds": 300
         }
       ]
@@ -1993,13 +2004,12 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
     "Consumable": {
-      "Type": "Unknown",
+      "Type": "Meat",
       "Buffs": [
         {
           "Type": 20,
@@ -2020,6 +2030,16 @@
           "Type": 23,
           "Level": 0,
           "Seconds": 0
+        },
+        {
+          "Type": 0,
+          "Level": 1,
+          "Seconds": 25
+        },
+        {
+          "Type": 1,
+          "Level": 1,
+          "Seconds": 25
         },
         {
           "Type": 8,
@@ -2086,15 +2106,15 @@
     "Icon": "inventory/allUI2_76.png",
     "Name": "Bottled Brush",
     "Description": "Healthy.",
-    "SellPrice": 4625,
+    "SellPrice": 10780,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Consumable": {
-      "Type": "Fruit",
+      "Type": "Unknown",
       "Buffs": [
         {
           "Type": 20,
-          "Level": 20,
+          "Level": 0,
           "Seconds": 0
         },
         {
@@ -2104,7 +2124,7 @@
         },
         {
           "Type": 22,
-          "Level": 0,
+          "Level": 25,
           "Seconds": 0
         },
         {
@@ -2114,8 +2134,8 @@
         },
         {
           "Type": 0,
-          "Level": 1,
-          "Seconds": 60
+          "Level": 2,
+          "Seconds": 240
         }
       ]
     },
@@ -2433,7 +2453,7 @@
     "Icon": "inventory/allUI2_173.png",
     "Name": "Flour",
     "Description": "It's ready for baking.",
-    "SellPrice": 1680,
+    "SellPrice": 1080,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Consumable": {
@@ -2471,7 +2491,7 @@
     "Icon": "inventory/allUI2_174.png",
     "Name": "Sugar",
     "Description": "Sweet.",
-    "SellPrice": 960,
+    "SellPrice": 840,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Consumable": {
@@ -2509,7 +2529,7 @@
     "Icon": "inventory/allUI2_193.png",
     "Name": "Bread",
     "Description": "Cooked Flour",
-    "SellPrice": 6300,
+    "SellPrice": 4050,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Craftable": {
@@ -2532,8 +2552,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -2577,7 +2596,7 @@
     "Icon": "inventory/allUI2_194.png",
     "Name": "Fairy Bread",
     "Description": "Sugar Bread",
-    "SellPrice": 2569,
+    "SellPrice": 1790,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Craftable": {
@@ -2605,8 +2624,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -2650,7 +2668,7 @@
     "Icon": "inventory/allUI2_195.png",
     "Name": "Pastie",
     "Description": "Hand held vegie pie",
-    "SellPrice": 5681,
+    "SellPrice": 4931,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Craftable": {
@@ -2688,8 +2706,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -2738,7 +2755,7 @@
     "Icon": "inventory/allUI2_192.png",
     "Name": "Damper",
     "Description": "Bush Bread",
-    "SellPrice": 3975,
+    "SellPrice": 3225,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Craftable": {
@@ -2766,8 +2783,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -2811,7 +2827,7 @@
     "Icon": "inventory/allUI2_196.png",
     "Name": "Sausage Roll",
     "Description": "Long way to the shop",
-    "SellPrice": 3600,
+    "SellPrice": 2850,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Craftable": {
@@ -2849,8 +2865,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -2952,8 +2967,7 @@
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
       "LearnThroughLicence": false,
-      "LicenceTypeEnum": 0,
-      "LicenceType": "None",
+      "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
@@ -3242,6 +3256,428 @@
           "Type": 23,
           "Level": 0,
           "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1035,
+    "AppId": "cooking_1035",
+    "Icon": "inventory/allUI3_37.png",
+    "Name": "Roasted Coffee Beans",
+    "Description": "Brew for more energy",
+    "SellPrice": 3097,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 9,
+          "Level": 2,
+          "Seconds": 240
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1036,
+    "AppId": "cooking_1036",
+    "Icon": "inventory/allUI3_38.png",
+    "Name": "Coffee",
+    "Description": "Morning brown",
+    "SellPrice": 6194,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 25,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 1,
+          "Level": 2,
+          "Seconds": 300
+        },
+        {
+          "Type": 9,
+          "Level": 3,
+          "Seconds": 300
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1126,
+    "AppId": "cooking_1126",
+    "Icon": "inventory/allUI3_118.png",
+    "Name": "Wattle Tea",
+    "Description": "Refreshing!",
+    "SellPrice": 1595,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 25,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 3,
+          "Level": 1,
+          "Seconds": 150
+        },
+        {
+          "Type": 4,
+          "Level": 1,
+          "Seconds": 150
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1127,
+    "AppId": "cooking_1127",
+    "Icon": "inventory/allUI3_117.png",
+    "Name": "Bottle Brush Tea",
+    "Description": "Healthy.",
+    "SellPrice": 2695,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 20,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 0,
+          "Level": 1,
+          "Seconds": 60
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1169,
+    "AppId": "cooking_1169",
+    "Icon": "inventory/allUI3_125.png",
+    "Name": "Cooked Grub Meat",
+    "Description": "I should totally eat this.",
+    "SellPrice": 800,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 8,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 0,
+          "Level": 1,
+          "Seconds": 10
+        },
+        {
+          "Type": 1,
+          "Level": 1,
+          "Seconds": 10
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1172,
+    "AppId": "cooking_1172",
+    "Icon": "inventory/allUI3_129.png",
+    "Name": "Apple Jam",
+    "Description": "Apple conserve",
+    "SellPrice": 3100,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 16,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 9,
+          "Level": 1,
+          "Seconds": 120
+        },
+        {
+          "Type": 0,
+          "Level": 1,
+          "Seconds": 60
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1173,
+    "AppId": "cooking_1173",
+    "Icon": "inventory/allUI3_128.png",
+    "Name": "Banana Jam",
+    "Description": "Banana conserve",
+    "SellPrice": 3100,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 17,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 9,
+          "Level": 1,
+          "Seconds": 120
+        },
+        {
+          "Type": 1,
+          "Level": 1,
+          "Seconds": 120
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1174,
+    "AppId": "cooking_1174",
+    "Icon": "inventory/allUI3_126.png",
+    "Name": "Lime Jam",
+    "Description": "Lime conserve",
+    "SellPrice": 3100,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 6,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 9,
+          "Level": 1,
+          "Seconds": 120
+        },
+        {
+          "Type": 1,
+          "Level": 1,
+          "Seconds": 120
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1175,
+    "AppId": "cooking_1175",
+    "Icon": "inventory/allUI3_127.png",
+    "Name": "Quandong Jam",
+    "Description": "Quandong conserve",
+    "SellPrice": 3100,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 6,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 9,
+          "Level": 1,
+          "Seconds": 120
+        },
+        {
+          "Type": 0,
+          "Level": 1,
+          "Seconds": 60
         }
       ]
     },

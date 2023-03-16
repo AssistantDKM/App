@@ -6,6 +6,7 @@ import 'package:flutter_redux/flutter_redux.dart';
 
 import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
+import '../components/pageElements/item_page_components.dart';
 import '../components/tilePresenters/deed_requirements_tile_presenter.dart';
 import '../components/tilePresenters/food_preference_tile_presenter.dart';
 import '../components/tilePresenters/people_tile_presenter.dart';
@@ -76,10 +77,6 @@ class PeopleDetailsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double deviceWidth = MediaQuery.of(context).size.width;
-    double deviceHeight = MediaQuery.of(context).size.height;
-    double maxImageSize = 200;
-
     return ItemDetailsPage<PeopleItem>(
       title: title,
       isInDetailPane: isInDetailPane,
@@ -87,26 +84,19 @@ class PeopleDetailsPage extends StatelessWidget {
       getName: (loadedItem) => loadedItem.name,
       contractToWidgetList: (loadedItem, isInDetailPane) {
         String imagePath = loadedItem.icon.isEmpty //
-            ? AppImage.unknown
+            ? getPath().unknownImagePath
             : loadedItem.icon;
-        List<Widget> descripWidgets = [
-          Center(
-            child: ConstrainedBox(
-              constraints: BoxConstraints(
-                maxWidth: min((deviceWidth / 2), maxImageSize),
-                maxHeight: min((deviceHeight / 2), maxImageSize),
-                minHeight: minHeightOfDetailPageHeaderImage,
-              ),
-              child: LocalImage(imagePath: imagePath),
-            ),
-          ),
-          GenericItemName(loadedItem.name),
-        ];
+
+        List<Widget> descripWidgets = commonDetailPageHeaderWidgets(
+          context,
+          icon: imagePath,
+          name: loadedItem.name,
+        );
 
         bool hasReqSpend = loadedItem.spendBeforeMoveIn > 0;
         bool hasReqRel = loadedItem.relationshipBeforeMove > 0;
-        bool hasReqValidRel = loadedItem.relationshipBeforeMove < 200;
-        if (hasReqSpend && hasReqRel && hasReqValidRel) {
+        bool hasReqValidRel = loadedItem.relationshipBeforeMove < 101;
+        if ((hasReqSpend || hasReqRel) && hasReqValidRel) {
           descripWidgets.addAll([
             const EmptySpace2x(),
             GenericItemGroup(
@@ -171,8 +161,9 @@ class PeopleDetailsPage extends StatelessWidget {
                       Column(
                         children: [
                           LocalImage(
-                              imagePath: AppImage.animalProduct,
-                              width: tableSize),
+                            imagePath: AppImage.animalProduct,
+                            width: tableSize,
+                          ),
                           const EmptySpace1x(),
                           LocalImage(
                             imagePath: loadedItem.hatesAnimalProducts
@@ -184,7 +175,9 @@ class PeopleDetailsPage extends StatelessWidget {
                       Column(
                         children: [
                           LocalImage(
-                              imagePath: AppImage.vegetable, width: tableSize),
+                            imagePath: AppImage.vegetable,
+                            width: tableSize,
+                          ),
                           const EmptySpace1x(),
                           LocalImage(
                             imagePath: loadedItem.hatesVegetables
@@ -196,7 +189,9 @@ class PeopleDetailsPage extends StatelessWidget {
                       Column(
                         children: [
                           LocalImage(
-                              imagePath: AppImage.fruit, width: tableSize),
+                            imagePath: AppImage.fruit,
+                            width: tableSize,
+                          ),
                           const EmptySpace1x(),
                           LocalImage(
                             imagePath: loadedItem.hatesFruits
@@ -208,7 +203,9 @@ class PeopleDetailsPage extends StatelessWidget {
                       Column(
                         children: [
                           LocalImage(
-                              imagePath: AppImage.meat, width: tableSize),
+                            imagePath: AppImage.meat,
+                            width: tableSize,
+                          ),
                           const EmptySpace1x(),
                           LocalImage(
                             imagePath: loadedItem.hatesMeat

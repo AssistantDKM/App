@@ -1,42 +1,21 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../../constants/app_image.dart';
 import '../../contracts/interface/item_base_presenter.dart';
-import '../../contracts/json/inventory_item.dart';
-import '../../helper/patreon_helper.dart';
 import '../../pages/inventory_pages.dart';
+import 'item_base_tile_presenter.dart';
 
 Widget favouriteTilePresenter(
-  BuildContext context,
-  ItemBasePresenter item,
-  bool isPatron, {
+  BuildContext context, {
+  required ItemBasePresenter item,
+  required bool isPatron,
+  required int index,
   void Function()? onTap,
   required void Function() onDelete,
 }) {
-  if (item is InventoryItem && item.hidden && isPatron == false) {
-    return ListTile(
-      leading: genericTileImage(AppImage.locked),
-      title: Text(obscureText(item.name)),
-      trailing: popupMenu(context, onDelete: onDelete),
-      onTap: onTap ??
-          () => getNavigation().navigateAwayFromHomeAsync(
-                context,
-                navigateTo: (ctx) => InventoryDetailsPage(
-                  item.appId,
-                  title: obscureText(item.name),
-                ),
-              ),
-    );
-  }
-
-  return ListTile(
-    leading: genericTileImage(item.icon),
-    title: Text(
-      item.name,
-      maxLines: 1,
-      overflow: TextOverflow.ellipsis,
-    ),
+  return itemBaseTilePresenter(
+    item: item,
+    isPatron: isPatron,
     trailing: popupMenu(context, onDelete: onDelete),
     onTap: onTap ??
         () => getNavigation().navigateAwayFromHomeAsync(
@@ -46,5 +25,6 @@ Widget favouriteTilePresenter(
                 title: item.name,
               ),
             ),
+    index: index,
   );
 }

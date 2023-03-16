@@ -6,26 +6,19 @@ import '../components/pageElements/item_list_page.dart';
 import '../components/pageElements/item_page_components.dart';
 import '../components/tilePresenters/item_base_tile_presenter.dart';
 import '../components/tilePresenters/milestone_tile_presenter.dart';
+import '../constants/analytics_event.dart';
 import '../constants/app_misc.dart';
 import '../contracts/json/milestone_item.dart';
-import '../contracts/json/milestone_level.dart';
-import '../helper/image_helper.dart';
 import '../integration/dependency_injection.dart';
 
 class MilestonesListPage extends StatelessWidget {
-  final String analyticsEvent;
-  final String title;
+  final String analyticsEvent = AnalyticsEvent.milestone;
 
-  MilestonesListPage({
-    Key? key,
-    required this.analyticsEvent,
-    required this.title,
-  }) : super(key: key) {
-    getAnalytics().trackEvent(analyticsEvent);
-  }
+  const MilestonesListPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    String title = getTranslations().fromKey(LocaleKey.milestones);
     return ItemsListPage<MilestoneItem>(
       analyticsEvent: analyticsEvent,
       title: title,
@@ -73,22 +66,12 @@ class MilestoneDetailsPage extends StatelessWidget {
       getItemFunc: () => getMilestoneRepo().getItem(context, itemId),
       getName: (loadedItem) => loadedItem.name,
       contractToWidgetList: (loadedItem, isInDetailPane) {
-        Widget imageStack = Stack(
-          children: [
-            ConstrainedBox(
-              constraints: const BoxConstraints(minHeight: 128),
-              child: Center(
-                child: LocalImage(imagePath: loadedItem.icon),
-              ),
-            ),
-          ],
+        List<Widget> descripWidgets = commonDetailPageHeaderWidgets(
+          context,
+          icon: loadedItem.icon,
+          name: loadedItem.name,
+          description: loadedItem.description,
         );
-
-        List<Widget> descripWidgets = [
-          imageStack,
-          GenericItemName(loadedItem.name),
-          pageDefaultPadding(GenericItemDescription(loadedItem.description)),
-        ];
 
         if (loadedItem.requirementsPerLevel.isNotEmpty) {
           descripWidgets.add(const EmptySpace2x());
