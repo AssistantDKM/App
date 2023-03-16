@@ -9,12 +9,12 @@
   ![madeWithLove](https://github.com/AssistantDKM/.github/blob/main/img/made-with-love.svg)
   [![licence](https://github.com/AssistantDKM/.github/blob/main/img/licence-badge.svg)](https://github.com/AssistantDKM/.github/blob/main/LICENCE.md)
   [![gitmoji](https://github.com/AssistantDKM/.github/blob/main/img/gitmoji.svg?raw=true)](https://gitmoji.dev)<br />
-  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://github.com/AssistantDKM/.github/blob/main/CODE_OF_CONDUCT.md)
+  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=for-the-badge)](https://github.com/AssistantDKM/.github/blob/main/CODE_OF_CONDUCT.md)
   ![Profile views](https://komarev.com/ghpvc/?username=AssistantDKM&color=green&style=for-the-badge)
 
   [![Mastodon](https://img.shields.io/mastodon/follow/109315859662532146?color=%2300ff00&domain=https%3A%2F%2Fnomanssky.social&style=for-the-badge&logo=mastodon)][mastodon]
   [![Discord](https://img.shields.io/discord/625007826913198080?style=for-the-badge&label=Chat%20on%20Discord&logo=discord)][discord]<br />
-  [![Follow on Twitter](https://img.shields.io/twitter/follow/AssistantNMS?color=%231d9bf0&style=for-the-badge&logo=twitter)][assistantnmsTwitter]<br />
+  [![Follow on Twitter](https://img.shields.io/badge/follow-%40AssistantNMS-1d9bf0?logo=twitter&style=for-the-badge)][assistantnmsTwitter]<br />
   
   [![Latest version](https://api.assistantapps.com/badge/version/e9fb4e7e-79d8-c5a2-79fa-e206b0681780.svg?platforms=0&platforms=1)](*)
   
