@@ -162,8 +162,7 @@ class SettingsPage extends StatelessWidget {
           adaptiveBottomModalSheet(
             context,
             hasRoundedCorners: true,
-            builder: (BuildContext innerContext) =>
-                const LogsModalBottomSheet(title: 'Logs'),
+            builder: (_) => const LogsModalBottomSheet(title: 'Logs'),
           );
         },
       ),
@@ -173,8 +172,7 @@ class SettingsPage extends StatelessWidget {
       SettingsTile.navigation(
         leading: const Icon(Icons.description),
         title: Text(getTranslations().fromKey(LocaleKey.privacyPolicy)),
-        onPressed: (context) =>
-            launchExternalURL(DinkExternalUrls.privacyPolicy),
+        onPressed: (_) => launchExternalURL(DinkExternalUrls.privacyPolicy),
       ),
     );
 
@@ -182,7 +180,7 @@ class SettingsPage extends StatelessWidget {
       SettingsTile.navigation(
         leading: const Icon(Icons.description),
         title: Text(getTranslations().fromKey(LocaleKey.termsAndConditions)),
-        onPressed: (context) =>
+        onPressed: (_) =>
             launchExternalURL(DinkExternalUrls.termsAndConditions),
       ),
     );
@@ -206,7 +204,7 @@ class SettingsPage extends StatelessWidget {
         onPressed: (BuildContext tapCtx) => adaptiveBottomModalSheet(
           tapCtx,
           hasRoundedCorners: true,
-          builder: (buildCtx) => const VersionDebugBottomSheet(),
+          builder: (_) => const VersionDebugBottomSheet(),
         ),
       ),
     );
