@@ -40,10 +40,12 @@ class Routes {
   static const String milestone = '/milestone';
 }
 
-Map<String, Widget Function(BuildContext)> initNamedRoutes() {
+Map<String, Widget Function(BuildContext)> initNamedRoutes(
+  void Function(Locale locale) onLocaleChange,
+) {
   Map<String, WidgetBuilder> routes = {
     Routes.home: (BuildContext pageContext) => HomePage(),
-    Routes.settings: (_) => SettingsPage(),
+    Routes.settings: (_) => SettingsPage(onLocaleChange),
     Routes.about: (_) => AboutPage(
           key: const Key('AboutPage'),
           appType: AssistantAppType.dkm,

@@ -24,7 +24,9 @@ class AppShell extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     getLog().i("main rebuild");
-    Map<String, Widget Function(BuildContext)> routes = initNamedRoutes();
+    Map<String, Widget Function(BuildContext)> routes = initNamedRoutes(
+      onLocaleChange,
+    );
     List<LocalizationsDelegate<dynamic>> localizationsDelegates = [
       newLocaleDelegate,
       GlobalMaterialLocalizations.delegate, //provides localised strings
@@ -39,7 +41,7 @@ class AppShell extends StatelessWidget {
         builder: (ThemeData theme, ThemeData darkTheme) {
           return _androidApp(
             context,
-            key: const Key('app-shell'),
+            key: Key('app-shell-lang-${viewModel.selectedLanguage}'),
             theme: theme,
             darkTheme: darkTheme,
             initialRoute: Routes.home,

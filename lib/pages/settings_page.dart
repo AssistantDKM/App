@@ -15,7 +15,9 @@ import '../helper/text_helper.dart';
 import '../redux/setting/setting_viewmodel.dart';
 
 class SettingsPage extends StatelessWidget {
-  SettingsPage({Key? key}) : super(key: key) {
+  final void Function(Locale locale) onLocaleChange;
+
+  SettingsPage(this.onLocaleChange, {Key? key}) : super(key: key) {
     getAnalytics().trackEvent(AnalyticsEvent.settingsPage);
   }
 
@@ -64,7 +66,7 @@ class SettingsPage extends StatelessWidget {
     commonTiles.add(
       SettingsTile.navigation(
         leading: const Icon(Icons.language),
-        title: Text(getTranslations().fromKey(LocaleKey.language)),
+        title: Text(getTranslations().fromKey(LocaleKey.appLanguage)),
         value: Text(getTranslations().fromKey(currentLocale.name)),
         trailing: SizedBox(
           width: 50,
@@ -75,6 +77,9 @@ class SettingsPage extends StatelessWidget {
           String? temp = await getTranslations().langaugeSelectionPage(context);
           // if null, no language selected
           if (temp != null) {
+            var newLocale = getTranslations().getLocaleFromKey(temp);
+            onLocaleChange(newLocale);
+
             viewModel.setSelectedLanguage(temp);
           }
         },
