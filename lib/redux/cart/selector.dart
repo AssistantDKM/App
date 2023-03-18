@@ -1,4 +1,4 @@
 import '../../contracts/redux/app_state.dart';
-import '../../contracts/redux/cart_item_state.dart';
+import '../../contracts/required_item.dart';
 
-List<CartItem> getCartItems(AppState state) => state.cartState.items;
+List<RequiredItem> getCartItems(AppState state) => state.cartState.items;

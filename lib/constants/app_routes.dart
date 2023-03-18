@@ -125,7 +125,7 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes(
         ),
     Routes.licence: (_) => const LicencesListPage(),
     Routes.milestone: (_) => const MilestonesListPage(),
-    // Routes.cart: (_) => const CartPage(),
+    Routes.cart: (_) => const CartPage(),
   };
   return routes;
 }

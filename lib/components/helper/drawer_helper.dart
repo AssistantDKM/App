@@ -89,8 +89,10 @@ Widget _drawerItem(
       }
 
       if (navigateToNamed != null) {
-        await getNavigation().navigateAwayFromHomeAsync(context,
-            navigateToNamed: navigateToNamed);
+        await getNavigation().navigateAwayFromHomeAsync(
+          context,
+          navigateToNamed: navigateToNamed,
+        );
       }
     },
   );

@@ -15,7 +15,7 @@ Widget deedRequirementsTilePresenter(
   void Function()? onTap,
 }) {
   return CachedFutureBuilder(
-    future: getGenericRepoFromAppId(deedId).getItem(
+    future: getItemFromGenericRepoUsingAppId(
       context,
       deedId,
     ),

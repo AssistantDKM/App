@@ -86,6 +86,7 @@ class InventoryDetailsPage extends StatelessWidget {
     return StoreConnector<AppState, InventoryItemViewModel>(
       converter: (store) => InventoryItemViewModel.fromStore(store),
       builder: (storeCtx, viewModel) => ItemDetailsPage<InventoryPageItem>(
+        key: Key('item-details-$appId-cart[]-${viewModel.cartItems.length}'),
         title: title,
         isInDetailPane: isInDetailPane,
         getItemFunc: () => getPageItem(
@@ -98,11 +99,11 @@ class InventoryDetailsPage extends StatelessWidget {
           viewModel,
           updateDetailView,
         ),
-        // floatingActionButton: getFloatingActionButton(
-        //   fabCtx: storeCtx,
-        //   appId: appId,
-        //   viewModel: viewModel,
-        // ),
+        floatingActionButton: getFloatingActionButton(
+          fabCtx: storeCtx,
+          appId: appId,
+          viewModel: viewModel,
+        ),
       ),
     );
   }
@@ -118,7 +119,11 @@ Future<ResultWithValue<InventoryPageItem>> getPageItem(
     requiredLicence: null,
   );
 
-  InventoryRepository service = getGenericRepoFromAppId(appId);
+  InventoryRepository? service = getGenericRepoFromAppId(appId);
+  if (service == null) {
+    return ResultWithValue(false, result, 'getGenericRepoFromAppId');
+  }
+
   var itemFuture = service.getItem(funcCtx, appId);
   var usagesFuture = service.getUsagesOfItem(funcCtx, appId);
   var licencesFuture = getLicenceRepo().getItems(funcCtx);

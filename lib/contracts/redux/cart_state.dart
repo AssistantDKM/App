@@ -1,9 +1,9 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
-import 'cart_item_state.dart';
+import '../required_item.dart';
 
 class CartState {
-  final List<CartItem> items;
+  final List<RequiredItem> items;
 
   const CartState({
     required this.items,
@@ -14,7 +14,7 @@ class CartState {
   }
 
   CartState copyWith({
-    List<CartItem>? newItems,
+    List<RequiredItem>? newItems,
   }) {
     return CartState(items: newItems ?? items);
   }
@@ -24,10 +24,10 @@ class CartState {
     if (json == null) return CartState.initial();
     try {
       return CartState(
-        items: readListSafe<CartItem>(
+        items: readListSafe<RequiredItem>(
           json,
           'items',
-          (p) => CartItem.fromJson(p),
+          (p) => RequiredItem.fromJson(p),
         ).toList(),
       );
     } catch (exception) {

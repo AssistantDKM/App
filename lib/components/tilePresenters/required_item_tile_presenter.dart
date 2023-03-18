@@ -1,33 +1,40 @@
+import 'package:assistant_dinkum_app/contracts/required_item_details.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../contracts/json/inventory_item.dart';
-import '../../contracts/json/inventory_item_craftable_required.dart';
 import '../../helper/generic_repository_helper.dart';
 import '../../pages/inventory_pages.dart';
 
 Widget requiredItemTilePresenter(
-  BuildContext context,
-  InventoryItemCraftableRequired item, {
+  BuildContext context, {
+  required String appId,
+  required int quantity,
   void Function()? onTap,
 }) {
   return CachedFutureBuilder(
-    future: getGenericRepoFromAppId(item.appId).getItem(
+    future: getItemFromGenericRepoUsingAppId(
       context,
-      item.appId,
+      appId,
     ),
     whileLoading: () => getLoading().smallLoadingTile(context),
-    whenDoneLoading: (ResultWithValue<InventoryItem> result) =>
-        requiredItemBodyTilePresenter(context, result, item.quantity, onTap),
+    whenDoneLoading: (ResultWithValue<InventoryItem> result) {
+      return requiredItemBodyTilePresenter(
+        context,
+        invResult: result,
+        quantity: quantity,
+        onTap: onTap,
+      );
+    },
   );
 }
 
 Widget requiredItemBodyTilePresenter(
-  BuildContext context,
-  ResultWithValue<InventoryItem> invResult,
-  int quantity,
-  void Function()? onTap,
-) {
+  BuildContext context, {
+  required ResultWithValue<InventoryItem> invResult,
+  required int quantity,
+  required void Function()? onTap,
+}) {
   if (invResult.hasFailed) {
     return ListTile(
       leading: const Icon(Icons.question_mark),
@@ -36,18 +43,29 @@ Widget requiredItemBodyTilePresenter(
     );
   }
 
-  InventoryItem item = invResult.value;
+  return requiredItemDetailsBodyTilePresenter(
+    context,
+    details: RequiredItemDetails.fromInventoryItem(invResult.value, quantity),
+    onTap: onTap,
+  );
+}
+
+Widget requiredItemDetailsBodyTilePresenter(
+  BuildContext context, {
+  required RequiredItemDetails details,
+  void Function()? onTap,
+}) {
   return genericListTile(
     context,
-    leadingImage: item.icon,
-    name: item.name,
-    quantity: quantity,
+    leadingImage: details.icon,
+    name: details.name,
+    quantity: details.quantity,
     onTap: onTap ??
         () => getNavigation().navigateAwayFromHomeAsync(
               context,
               navigateTo: (ctx) => InventoryDetailsPage(
-                item.appId,
-                title: item.name,
+                details.appId,
+                title: details.name,
               ),
             ),
   );

@@ -77,12 +77,12 @@ List<CustomMenu> getMenuOptionsSection2(
       title: LocaleKey.favourites,
       navigateToNamed: Routes.favourites,
     ),
-    // CustomMenu(
-    //   icon: localGetFromIcon(Icons.shopping_basket_rounded),
-    //   drawerIcon: localGetDrawerFromIcon(Icons.shopping_basket_rounded),
-    //   title: LocaleKey.cart,
-    //   navigateToNamed: Routes.cart,
-    // ),
+    CustomMenu(
+      icon: localGetFromIcon(Icons.shopping_basket_rounded),
+      drawerIcon: localGetDrawerFromIcon(Icons.shopping_basket_rounded),
+      title: LocaleKey.cart,
+      navigateToNamed: Routes.cart,
+    ),
     CustomMenu(
       icon: localGetFromIcon(Icons.new_releases_sharp),
       drawerIcon: localGetDrawerFromIcon(Icons.new_releases_sharp),

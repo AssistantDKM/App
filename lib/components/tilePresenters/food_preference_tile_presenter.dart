@@ -13,10 +13,10 @@ Widget foodPreferenceTilePresenter(
   void Function()? onTap,
 }) {
   return CachedFutureBuilder(
-    future: getGenericRepoFromAppId(appId).getItem(context, appId),
+    future: getItemFromGenericRepoUsingAppId(context, appId),
     whileLoading: () => getLoading().smallLoadingTile(context),
     whenDoneLoading: (ResultWithValue<InventoryItem> result) {
-      return requiredItemBodyTilePresenter(
+      return foodPreferenceBodyTilePresenter(
         context,
         result,
         subtitle,
@@ -27,7 +27,7 @@ Widget foodPreferenceTilePresenter(
   );
 }
 
-Widget requiredItemBodyTilePresenter(
+Widget foodPreferenceBodyTilePresenter(
   BuildContext context,
   ResultWithValue<InventoryItem> invResult,
   String subtitleText,

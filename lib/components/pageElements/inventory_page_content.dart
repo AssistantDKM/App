@@ -10,6 +10,7 @@ import '../../contracts/json/inventory_item_consumable_buff.dart';
 import '../../contracts/json/inventory_item_craftable_required.dart';
 import '../../contracts/json/inventory_item_creature.dart';
 import '../../contracts/pageItem/inventory_page_item.dart';
+import '../../contracts/required_item.dart';
 import '../../helper/generic_repository_helper.dart';
 import '../../helper/patreon_helper.dart';
 import '../../helper/position_helper.dart';
@@ -112,7 +113,8 @@ List<Widget> Function(
         descripWidgets.add(FlatCard(
           child: requiredItemTilePresenter(
             contentsContext,
-            required,
+            appId: required.appId,
+            quantity: required.quantity,
             onTap: (isInDetailPane && updateDetailView != null)
                 ? () => updateDetailView(
                       InventoryDetailsPage(
@@ -193,13 +195,7 @@ List<Widget> Function(
 
       allItemsPageNavigate(BuildContext navigateCtx) =>
           AllPossibleOutputsFromFuturePage<InventoryItem>(
-            () => getGenericRepoFromAppId(loadedItem.appId)
-                .getUsagesOfItem(navigateCtx, loadedItem.appId)
-                .then(
-                  (result) => result.isSuccess //
-                      ? result.value
-                      : List.empty(),
-                ),
+            () => allItemsPageFuture(navigateCtx, loadedPageItem.appId),
             loadedItem.name,
             usagesPresenter,
             subtitle: getTranslations().fromKey(LocaleKey.usedToCreate),
@@ -234,7 +230,7 @@ List<Widget> Function(
     if (loadedPageItem.requiredLicence != null) {
       descripWidgets.add(const EmptySpace2x());
       descripWidgets.add(const GenericItemGroup(
-        'Required Licence',
+        'Required Licence', // TODO translate
       ));
       var localPresenter = licenceTilePresenter(isPatron: viewmodel.isPatron);
       descripWidgets.add(FlatCard(
@@ -253,6 +249,11 @@ List<Widget> Function(
       ));
     }
 
+    List<RequiredItem> cartItems = viewmodel.cartItems
+        .where((RequiredItem ci) => ci.appId == loadedPageItem.item.appId)
+        .toList();
+    descripWidgets.addAll(getCartItems(contentsContext, viewmodel, cartItems));
+
     if (loadedItem.hidden == true && viewmodel.isPatron == false) {
       return [
         const Center(child: LocalImage(imagePath: AppImage.locked)),
@@ -265,4 +266,17 @@ List<Widget> Function(
 
     return descripWidgets;
   };
+}
+
+Future<List<InventoryItem>> allItemsPageFuture(
+  BuildContext navigateLocalCtx,
+  String appId,
+) async {
+  var genRepo = getGenericRepoFromAppId(appId);
+  if (genRepo == null) {
+    return Future.value(List.empty());
+  }
+
+  var result = await genRepo.getUsagesOfItem(navigateLocalCtx, appId);
+  return result.isSuccess ? result.value : List.empty();
 }
