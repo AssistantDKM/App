@@ -105,9 +105,7 @@ class CartPage extends StatelessWidget {
       widgets.add(Padding(
         padding: AppPadding.buttonPadding,
         child: PositiveButton(
-          title: getTranslations().fromKey(
-            LocaleKey.viewAllRawMaterialsRequired,
-          ),
+          title: getTranslations().fromKey(LocaleKey.viewAllRequiredItems),
           onTap: () async => await getNavigation().navigateAsync(
             bodyCtx,
             navigateTo: (context) => GenericPageAllRequiredRawMaterials(
