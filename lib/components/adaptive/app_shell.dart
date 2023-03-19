@@ -105,15 +105,12 @@ class AppShell extends StatelessWidget {
         theme: theme,
         darkTheme: darkTheme,
         debugShowCheckedModeBanner: false,
-        home: ClipRRect(
-          borderRadius: BorderRadius.circular(8.0),
-          child: Scaffold(
-            appBar: WindowTitleBar(
-              title: 'Assistant for Dinkum',
-              iconPath: AppImage.windowIcon,
-            ),
-            body: matApp,
+        home: Scaffold(
+          appBar: WindowTitleBar(
+            title: 'Assistant for Dinkum',
+            iconPath: AppImage.windowIcon,
           ),
+          body: matApp,
         ),
       );
     }
