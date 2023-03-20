@@ -10,11 +10,13 @@ import '../services/json/inventory_repository.dart';
 import 'generic_repository_helper.dart';
 
 Future<List<RequiredItemDetails>> getAllRequiredItemsForMultiple(
-    context, List<RequiredItem> requiredItems) async {
+  BuildContext reqItemCtx,
+  List<RequiredItem> requiredItems,
+) async {
   List<RequiredItemDetails> rawMaterials = List.empty(growable: true);
   for (RequiredItem requiredItem in requiredItems) {
     List<RequiredItemDetails> tempItems =
-        await getRequiredItems(context, requiredItem);
+        await getRequiredItems(reqItemCtx, requiredItem);
     for (int tempItemIndex = 0;
         tempItemIndex < tempItems.length;
         tempItemIndex++) {

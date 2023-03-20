@@ -10,8 +10,8 @@ import '../pages/licences_pages.dart';
 import '../pages/milestones_pages.dart';
 import '../pages/people_pages.dart';
 import '../pages/settings_page.dart';
+import '../pages/updates/game_updates_page.dart';
 import 'analytics_event.dart';
-import 'app_json.dart';
 
 class Routes {
   static const String home = '/';
@@ -21,6 +21,7 @@ class Routes {
   static const String patronListPage = '/patronListPage';
   static const String favourites = '/favourites';
   static const String cart = '/cart';
+  static const String gameUpdates = '/gameUpdates';
   static const String newsPage = '/newsPage';
   static const String syncPage = '/syncPage';
   static const String feedback = '/feedback';
@@ -126,6 +127,7 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes(
     Routes.licence: (_) => const LicencesListPage(),
     Routes.milestone: (_) => const MilestonesListPage(),
     Routes.cart: (_) => const CartPage(),
+    Routes.gameUpdates: (_) => const GameUpdatesPage(),
   };
   return routes;
 }

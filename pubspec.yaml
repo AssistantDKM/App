@@ -77,7 +77,7 @@ flutter:
     - assets/images/
     - assets/images/drawer/
 
-    # Ignore for Overwolf
+    # Start-Overwolf-Ignore
     - assets/json/
     - assets/json/en/
     - assets/json/fr/
@@ -88,11 +88,13 @@ flutter:
     - assets/images/menu/
     - assets/images/stats/
     - assets/images/social/
+    - assets/images/updates/
     #
     - assets/images/inventory/
     - assets/images/licence/
     - assets/images/milestone/
     - assets/images/people/
+    # End-Overwolf-Ignore
 
   fonts:
     - family: Roboto

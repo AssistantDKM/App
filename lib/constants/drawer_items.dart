@@ -88,6 +88,11 @@ List<CustomMenu> getMenuOptionsSection2(
       drawerIcon: localGetDrawerFromIcon(Icons.new_releases_sharp),
       title: LocaleKey.news,
       navigateToNamed: Routes.newsPage,
+      onLongPress: (BuildContext pressCtx) =>
+          getNavigation().navigateAwayFromHomeAsync(
+        pressCtx,
+        navigateToNamed: Routes.gameUpdates,
+      ),
     ),
   ];
 }
