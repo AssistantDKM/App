@@ -95,6 +95,7 @@
   "translationPercentageComplete": "Translation per Language",
   "useTranslationTool": "Use Translation Tool",
   "steamNews": "Steam News",
+  "viewAllRequiredItems": "View All Required Items",
   "ok": "Ok",
   "cancel": "Cancel",
   "minutesAbbrev": "{0}m",
@@ -129,5 +130,14 @@
   "foodPreferences": "Food preferences",
   "favourite": "Favourite",
   "hated": "Hated",
-  "hashCode": "28ABF78CF9AC9239BDDDA953438F0DF7"
+  "menuAnimals": "動物",
+  "menuBugs": "バグ",
+  "menuCritters": "生き物",
+  "menuFish": "魚 ",
+  "menuPeople": "人々",
+  "menuLicences": "ライセンス",
+  "menuMilestones": "マイルストーン",
+  "menuFood": "食べ物",
+  "menuCrafting": "クラフト",
+  "hashCode": "43D87FAB074C2EFCBBDE4B740D41FD5C"
 }

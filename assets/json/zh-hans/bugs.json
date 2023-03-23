@@ -1,0 +1,1248 @@
+[
+  {
+    "Id": 20,
+    "AppId": "bug_20",
+    "Icon": "inventory/allUI_207.png",
+    "Name": "漏斗网蜘蛛",
+    "Description": "Very poisonous. Ain't it cute?",
+    "SellPrice": 1020,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Bushland"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Summer",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Day",
+        "Night"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 29,
+    "AppId": "bug_29",
+    "Icon": "inventory/allUI_221.png",
+    "Name": "尤利西斯蝴蝶",
+    "Description": "Nice bug, bro.",
+    "SellPrice": 660,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Bushland"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Summer",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 97,
+    "AppId": "bug_97",
+    "Icon": "inventory/allUI_4.png",
+    "Name": "草料斗",
+    "Description": "Jumpin' for joy.",
+    "SellPrice": 1700,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Tropics",
+        "Plains"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 98,
+    "AppId": "bug_98",
+    "Icon": "inventory/allUI_5.png",
+    "Name": "常见的蓝色尾巴",
+    "Description": "A Common Dragonfly",
+    "SellPrice": 772,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Pines",
+        "Tropics"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum",
+        "Winter"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 100,
+    "AppId": "bug_100",
+    "Icon": "inventory/allUI_6.png",
+    "Name": "飞",
+    "Description": "A common fly",
+    "SellPrice": 72,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 101,
+    "AppId": "bug_101",
+    "Icon": "inventory/allUI_7.png",
+    "Name": "蟑螂",
+    "Description": "Yuck.",
+    "SellPrice": 154,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Night"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 108,
+    "AppId": "bug_108",
+    "Icon": "inventory/allUI_15.png",
+    "Name": "孔雀蜘蛛",
+    "Description": "A fancy little spider.",
+    "SellPrice": 1792,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Bushland",
+        "Tropics"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Morning"
+      ],
+      "Rarity": "VeryRare"
+    }
+  },
+  {
+    "Id": 109,
+    "AppId": "bug_109",
+    "Icon": "inventory/allUI_14.png",
+    "Name": "Trogid",
+    "Description": "It can't fly.",
+    "SellPrice": 1400,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Desert"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Night"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 227,
+    "AppId": "bug_227",
+    "Icon": "inventory/allUI_56.png",
+    "Name": "蜜蜂",
+    "Description": "A little honey maker. Where's the queen?",
+    "SellPrice": 680,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Pines",
+        "Plains"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Summer",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 228,
+    "AppId": "bug_228",
+    "Icon": "inventory/allUI_57.png",
+    "Name": "女王蜂",
+    "Description": "The boss bee. Can start a hive.",
+    "SellPrice": 2300,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Pines",
+        "Plains"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Summer",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Morning"
+      ],
+      "Rarity": "VeryRare"
+    }
+  },
+  {
+    "Id": 229,
+    "AppId": "bug_229",
+    "Icon": "inventory/allUI_64.png",
+    "Name": "红背蜘蛛",
+    "Description": "Very poisonous. Ain't it cute?",
+    "SellPrice": 1552,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Desert"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Summer",
+        "Autum",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Day",
+        "Night"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 230,
+    "AppId": "bug_230",
+    "Icon": "inventory/allUI_59.png",
+    "Name": "沙漠蝎子",
+    "Description": "8 Legs. Friendlier than it looks",
+    "SellPrice": 1212,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Desert"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum",
+        "Winter"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 231,
+    "AppId": "bug_231",
+    "Icon": "inventory/allUI_60.png",
+    "Name": "椿象",
+    "Description": "It stinks!",
+    "SellPrice": 300,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 232,
+    "AppId": "bug_232",
+    "Icon": "inventory/allUI_58.png",
+    "Name": "胡蜂",
+    "Description": "This thing kills spiders when it's hungry.",
+    "SellPrice": 990,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Plains",
+        "Desert"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 233,
+    "AppId": "bug_233",
+    "Icon": "inventory/allUI_63.png",
+    "Name": "凤蝶蝴蝶",
+    "Description": "It's really rare and big!",
+    "SellPrice": 9100,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Tropics"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum"
+      ],
+      "TimeOfDay": [
+        "Morning"
+      ],
+      "Rarity": "SuperRare"
+    }
+  },
+  {
+    "Id": 234,
+    "AppId": "bug_234",
+    "Icon": "inventory/allUI_62.png",
+    "Name": "燕尾蝴蝶",
+    "Description": "It has a little tail.",
+    "SellPrice": 990,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Tropics"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Summer",
+        "Autum"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 235,
+    "AppId": "bug_235",
+    "Icon": "inventory/allUI_61.png",
+    "Name": "丑角的蝴蝶",
+    "Description": "It's fluttering by, Mr. J.",
+    "SellPrice": 2121,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 248,
+    "AppId": "bug_248",
+    "Icon": "inventory/allUI_69.png",
+    "Name": "萤火虫",
+    "Description": "I can not believe my eyes.",
+    "SellPrice": 860,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Night"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 249,
+    "AppId": "bug_249",
+    "Icon": "inventory/allUI_68.png",
+    "Name": "蟋蟀",
+    "Description": "So small. So loud.",
+    "SellPrice": 1348,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Plains",
+        "Bushland"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Night"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 579,
+    "AppId": "bug_579",
+    "Icon": "inventory/allUI_227.png",
+    "Name": "草甸蝈蝈",
+    "Description": "Jumpin' for joy.",
+    "SellPrice": 900,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Plains"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 580,
+    "AppId": "bug_580",
+    "Icon": "inventory/allUI_231.png",
+    "Name": "犀牛甲虫",
+    "Description": "It can't fly.",
+    "SellPrice": 1930,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Bushland",
+        "Pines"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum",
+        "Winter"
+      ],
+      "TimeOfDay": [
+        "Morning"
+      ],
+      "Rarity": "VeryRare"
+    }
+  },
+  {
+    "Id": 581,
+    "AppId": "bug_581",
+    "Icon": "inventory/allUI_228.png",
+    "Name": "巨人棒",
+    "Description": "It's a big stick!",
+    "SellPrice": 6330,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Tropics",
+        "Pines"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Winter"
+      ],
+      "TimeOfDay": [
+        "Morning"
+      ],
+      "Rarity": "VeryRare"
+    }
+  },
+  {
+    "Id": 582,
+    "AppId": "bug_582",
+    "Icon": "inventory/allUI_229.png",
+    "Name": "伯公蛾",
+    "Description": "Dusty and gross.",
+    "SellPrice": 260,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Night"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 583,
+    "AppId": "bug_583",
+    "Icon": "inventory/allUI_230.png",
+    "Name": "血色耶洗别蝴蝶",
+    "Description": "Its red... I guess?",
+    "SellPrice": 790,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 614,
+    "AppId": "bug_614",
+    "Icon": "inventory/allUI2_0.png",
+    "Name": "黑蟋蟀",
+    "Description": "Trying to hide, eh?",
+    "SellPrice": 980,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Night"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 615,
+    "AppId": "bug_615",
+    "Icon": "inventory/allUI2_1.png",
+    "Name": "帝王蝶",
+    "Description": "The queen of butterflies.",
+    "SellPrice": 3860,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Bushland",
+        "Pines"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 616,
+    "AppId": "bug_616",
+    "Icon": "inventory/allUI2_2.png",
+    "Name": "草蛉",
+    "Description": "Gentle!",
+    "SellPrice": 1680,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Pines",
+        "Plains"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Summer",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 617,
+    "AppId": "bug_617",
+    "Icon": "inventory/allUI2_3.png",
+    "Name": "皇帝蜻蜓",
+    "Description": "It's huge!",
+    "SellPrice": 4172,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Tropics",
+        "Plains"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "SuperRare"
+    }
+  },
+  {
+    "Id": 618,
+    "AppId": "bug_618",
+    "Icon": "inventory/allUI2_4.png",
+    "Name": "Pygmyfly",
+    "Description": "Small and red",
+    "SellPrice": 1672,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Desert",
+        "Plains"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 619,
+    "AppId": "bug_619",
+    "Icon": "inventory/allUI2_5.png",
+    "Name": "头翡翠蜻蜓",
+    "Description": "Pretty!",
+    "SellPrice": 2010,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Plains",
+        "Bushland"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Summer",
+        "Autum"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 620,
+    "AppId": "bug_620",
+    "Icon": "inventory/allUI2_6.png",
+    "Name": "瓢虫",
+    "Description": "Is this a bird or a bug?",
+    "SellPrice": 1900,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Pines",
+        "Plains"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Morning"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 621,
+    "AppId": "bug_621",
+    "Icon": "inventory/allUI2_7.png",
+    "Name": "虎蛾",
+    "Description": "Careful, tiger",
+    "SellPrice": 1360,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Bushland",
+        "Plains"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum",
+        "Winter"
+      ],
+      "TimeOfDay": [
+        "Night"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 622,
+    "AppId": "bug_622",
+    "Icon": "inventory/allUI2_8.png",
+    "Name": "Duskhawker蜻蜓",
+    "Description": "Coolest name ever.",
+    "SellPrice": 2350,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Pines",
+        "Tropics"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 623,
+    "AppId": "bug_623",
+    "Icon": "inventory/allUI2_9.png",
+    "Name": "Largidae",
+    "Description": "It's not that large.",
+    "SellPrice": 780,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 624,
+    "AppId": "bug_624",
+    "Icon": "inventory/allUI2_10.png",
+    "Name": "猎人",
+    "Description": "It's scary, but nice.",
+    "SellPrice": 3552,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Desert",
+        "Bushland"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum",
+        "Winter"
+      ],
+      "TimeOfDay": [
+        "Day",
+        "Night"
+      ],
+      "Rarity": "SuperRare"
+    }
+  },
+  {
+    "Id": 625,
+    "AppId": "bug_625",
+    "Icon": "inventory/allUI2_11.png",
+    "Name": "蓝月亮蝴蝶",
+    "Description": "These are everywhere.",
+    "SellPrice": 290,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 626,
+    "AppId": "bug_626",
+    "Icon": "inventory/allUI2_13.png",
+    "Name": "提琴手甲壳虫",
+    "Description": "The smallest fiddle in the world.",
+    "SellPrice": 2400,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Tropics",
+        "Bushland"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Autum",
+        "Winter"
+      ],
+      "TimeOfDay": [
+        "Morning"
+      ],
+      "Rarity": "Rare"
+    }
+  },
+  {
+    "Id": 627,
+    "AppId": "bug_627",
+    "Icon": "inventory/allUI2_12.png",
+    "Name": "锹形虫",
+    "Description": "Look at the horns!",
+    "SellPrice": 4100,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Tropics",
+        "Bushland"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Day"
+      ],
+      "Rarity": "SuperRare"
+    }
+  },
+  {
+    "Id": 630,
+    "AppId": "bug_630",
+    "Icon": "inventory/allUI2_16.png",
+    "Name": "大力神蛾",
+    "Description": "This guy sounds tough.",
+    "SellPrice": 3000,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Winter",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Night"
+      ],
+      "Rarity": "SuperRare"
+    }
+  },
+  {
+    "Id": 631,
+    "AppId": "bug_631",
+    "Icon": "inventory/allUI2_18.png",
+    "Name": "蜈",
+    "Description": "There are at least 4 legs here.",
+    "SellPrice": 2220,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "All"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Night"
+      ],
+      "Rarity": "VeryRare"
+    }
+  },
+  {
+    "Id": 953,
+    "AppId": "bug_953",
+    "Icon": "inventory/allUI2_245.png",
+    "Name": "Glow Bug",
+    "Description": "It's mesmerizing",
+    "SellPrice": 2580,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Underground"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 1185,
+    "AppId": "bug_1185",
+    "Icon": "inventory/allUI3_139.png",
+    "Name": "Painted Lady Butterfly",
+    "Description": "I can't see it",
+    "SellPrice": 560,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Pines"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Summer",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 1186,
+    "AppId": "bug_1186",
+    "Icon": "inventory/allUI3_138.png",
+    "Name": "Grass Yellow Butterfly",
+    "Description": "A dink a dozen.",
+    "SellPrice": 220,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Plains",
+        "Pines",
+        "Tropics"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "All"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Common"
+    }
+  },
+  {
+    "Id": 1187,
+    "AppId": "bug_1187",
+    "Icon": "inventory/allUI3_140.png",
+    "Name": "Purple Azure Butterfly",
+    "Description": "Is it purple or azure?",
+    "SellPrice": 2200,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Bug",
+      "LandLocation": [
+        "Pines"
+      ],
+      "WaterLocation": [],
+      "SeasonFound": [
+        "Summer",
+        "Autum",
+        "Spring"
+      ],
+      "TimeOfDay": [
+        "Morning",
+        "Day"
+      ],
+      "Rarity": "Rare"
+    }
+  }
+]

@@ -76,8 +76,8 @@
     "Id": 53,
     "AppId": "furniture_53",
     "Icon": "inventory/furnitureUI_0.png",
-    "Name": "Purple Armchair",
-    "Description": "",
+    "Name": "Purple Seat",
+    "Description": "A nice old chair",
     "SellPrice": 650,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -90,7 +90,7 @@
     "AppId": "furniture_54",
     "Icon": "inventory/furnitureUI_1.png",
     "Name": "Wooden Double Bed",
-    "Description": "Double Bed",
+    "Description": "Wooden Double Bed",
     "SellPrice": 604,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -115,7 +115,7 @@
     "Id": 56,
     "AppId": "furniture_56",
     "Icon": "inventory/furnitureUI_3.png",
-    "Name": "Wooden Chair",
+    "Name": "Wooden Seat",
     "Description": "A single chair for sitting.",
     "SellPrice": 550,
     "IsStackable": true,
@@ -154,7 +154,7 @@
     "Id": 59,
     "AppId": "furniture_59",
     "Icon": "inventory/furnitureUI_6.png",
-    "Name": "Dark Wood Cabinet",
+    "Name": "Dark Wooden Cabinet",
     "Description": "Put skeletons in here.",
     "SellPrice": 554,
     "IsStackable": true,
@@ -272,7 +272,7 @@
     "AppId": "furniture_137",
     "Icon": "inventory/furnitureUI_14.png",
     "Name": "Stylish ArmChair",
-    "Description": "An Arm Chair",
+    "Description": "An Armchair",
     "SellPrice": 899,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -298,7 +298,7 @@
     "AppId": "furniture_139",
     "Icon": "inventory/furnitureUI_16.png",
     "Name": "Dark Wooden Chair",
-    "Description": "Wooden chair",
+    "Description": "An Armchair",
     "SellPrice": 435,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -310,8 +310,8 @@
     "Id": 140,
     "AppId": "furniture_140",
     "Icon": "inventory/furnitureUI_17.png",
-    "Name": "Purple Sofa",
-    "Description": "Its soft.",
+    "Name": "Purple Couch",
+    "Description": "A Green Sofa",
     "SellPrice": 762,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -323,7 +323,7 @@
     "Id": 141,
     "AppId": "furniture_141",
     "Icon": "inventory/furnitureUI_18.png",
-    "Name": "A white chair",
+    "Name": "White Chair",
     "Description": "A white single person chair",
     "SellPrice": 340,
     "IsStackable": true,
@@ -362,7 +362,7 @@
     "Id": 144,
     "AppId": "furniture_144",
     "Icon": "inventory/furnitureUI_21.png",
-    "Name": "Long White Cofee Table",
+    "Name": "Long White Coffee Table",
     "Description": "A long coffee table.",
     "SellPrice": 410,
     "IsStackable": true,
@@ -557,7 +557,7 @@
     "Id": 160,
     "AppId": "furniture_160",
     "Icon": "inventory/furnitureUI_36.png",
-    "Name": "White Arm Chair",
+    "Name": "White Armchair",
     "Description": "A white chair.",
     "SellPrice": 706,
     "IsStackable": true,
@@ -596,7 +596,7 @@
     "Id": 163,
     "AppId": "furniture_163",
     "Icon": "inventory/furnitureUI_39.png",
-    "Name": "White Bed Side Table.",
+    "Name": "White Bedside Table.",
     "Description": "A Small white bedside table.",
     "SellPrice": 620,
     "IsStackable": true,
@@ -974,7 +974,7 @@
     "AppId": "furniture_369",
     "Icon": "inventory/furnitureUI_62.png",
     "Name": "Red Lava Lamp",
-    "Description": "Its all gooey.",
+    "Description": "It's all gooey.",
     "SellPrice": 1088,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -1026,7 +1026,7 @@
     "AppId": "furniture_373",
     "Icon": "inventory/allUI_150.png",
     "Name": "Dainty Floor",
-    "Description": "A fainty floor",
+    "Description": "A faint floor",
     "SellPrice": 450,
     "IsStackable": true,
     "Equipable": "Flooring",
@@ -1052,7 +1052,7 @@
     "AppId": "furniture_375",
     "Icon": "inventory/allUI_149.png",
     "Name": "Dainty Wall",
-    "Description": "A fainty wallpaper",
+    "Description": "A faint wallpaper",
     "SellPrice": 250,
     "IsStackable": true,
     "Equipable": "Wallpaper",
@@ -2188,8 +2188,8 @@
     "Id": 670,
     "AppId": "furniture_670",
     "Icon": "inventory/allUI3_67.png",
-    "Name": "Wooden Item Sign",
-    "Description": "Shows an item off.",
+    "Name": "Item Sign",
+    "Description": "Show an item off.",
     "SellPrice": 808,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -2318,7 +2318,7 @@
     "Id": 677,
     "AppId": "furniture_677",
     "Icon": "inventory/allUI_150.png",
-    "Name": "Basic Orange Rug",
+    "Name": "Basic Blue Orange",
     "Description": "Its soft and orange",
     "SellPrice": 1450,
     "IsStackable": true,
@@ -4939,8 +4939,8 @@
     "AppId": "furniture_1064",
     "Icon": "inventory/allUI3_66.png",
     "Name": "Hand Written sign",
-    "Description": "Show's a message",
-    "SellPrice": 1182,
+    "Description": "Shows a message",
+    "SellPrice": 598,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Craftable": {
@@ -4956,19 +4956,9 @@
           "Quantity": 1
         },
         {
-          "Id": 649,
-          "AppId": "item_649",
-          "Quantity": 1
-        },
-        {
-          "Id": 182,
-          "AppId": "item_182",
-          "Quantity": 1
-        },
-        {
           "Id": 22,
           "AppId": "item_22",
-          "Quantity": 2
+          "Quantity": 1
         }
       ],
       "RecipeGiveThisAmount": 1,
@@ -5421,7 +5411,7 @@
         {
           "Id": 1166,
           "AppId": "item_1166",
-          "Quantity": 2
+          "Quantity": 1
         },
         {
           "Id": 585,
@@ -5454,6 +5444,95 @@
       "LicenceAppId": "licence_0",
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 1
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1199,
+    "AppId": "furniture_1199",
+    "Icon": "inventory/allUI3_154.png",
+    "Name": "Stone Sign",
+    "Description": "Shows a message in stone",
+    "SellPrice": 275,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 26,
+          "AppId": "item_26",
+          "Quantity": 1
+        },
+        {
+          "Id": 12,
+          "AppId": "item_12",
+          "Quantity": 1
+        },
+        {
+          "Id": 107,
+          "AppId": "item_107",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 3,
+      "Category": "Decorations",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 3,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 1,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1214,
+    "AppId": "furniture_1214",
+    "Icon": "inventory/allUI3_158.png",
+    "Name": "Sandwich Chalkboard",
+    "Description": "Shows a message in chalk",
+    "SellPrice": 588,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 306,
+          "AppId": "item_306",
+          "Quantity": 2
+        },
+        {
+          "Id": 212,
+          "AppId": "item_212",
+          "Quantity": 2
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 8,
+      "WorkPlaceConditions": "SignWritingTable",
+      "CategoryEnum": 3,
+      "Category": "Decorations",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 3,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_19",
+      "LicenceLevelLearnt": 1,
+      "CrafterLevelLearnt": 0
     },
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,

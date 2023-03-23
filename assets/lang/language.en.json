@@ -95,6 +95,7 @@
   "translationPercentageComplete": "Translation per Language",
   "useTranslationTool": "Use Translation Tool",
   "steamNews": "Steam News",
+  "viewAllRequiredItems": "View All Required Items",
   "ok": "Ok",
   "cancel": "Cancel",
   "minutesAbbrev": "{0}m",
@@ -129,5 +130,14 @@
   "foodPreferences": "Food preferences",
   "favourite": "Favourite",
   "hated": "Hated",
-  "hashCode": "FBA54DC25DEF9F20615FACD77F38B069"
+  "menuAnimals": "Animals",
+  "menuBugs": "Bugs",
+  "menuCritters": "Critters",
+  "menuFish": "Fish",
+  "menuPeople": "People",
+  "menuLicences": "Licences",
+  "menuMilestones": "Milestones",
+  "menuFood": "Food",
+  "menuCrafting": "Crafting",
+  "hashCode": "B66FD11176A514E90D922BEF82682C43"
 }

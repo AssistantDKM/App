@@ -141,7 +141,7 @@ List<Widget> getCartItems(
   List<Widget> cartWidgets = List.empty(growable: true);
 
   if (cartItems.isNotEmpty) {
-    cartWidgets.add(const EmptySpace3x());
+    cartWidgets.add(const EmptySpace1x());
     cartWidgets.add(
       GenericItemGroup(getTranslations().fromKey(LocaleKey.cart)),
     );

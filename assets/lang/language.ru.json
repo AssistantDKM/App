@@ -95,6 +95,7 @@
   "translationPercentageComplete": "Перевод для языка",
   "useTranslationTool": "Инструмент для перевода",
   "steamNews": "Новости Steam",
+  "viewAllRequiredItems": "View All Required Items",
   "ok": "Ок",
   "cancel": "Отмена",
   "minutesAbbrev": "{0} мин.",
@@ -129,5 +130,14 @@
   "foodPreferences": "Food preferences",
   "favourite": "Favourite",
   "hated": "Hated",
-  "hashCode": "14B80C0DEA38BE711F8C36E31271DCCF"
+  "menuAnimals": "Животные",
+  "menuBugs": "Ошибки",
+  "menuCritters": "твари",
+  "menuFish": "Рыба",
+  "menuPeople": "Люди",
+  "menuLicences": "Лицензии",
+  "menuMilestones": "Вехи",
+  "menuFood": "Еда",
+  "menuCrafting": "Крафт",
+  "hashCode": "CE1F789DF9015EF4C35D62883BCD8062"
 }

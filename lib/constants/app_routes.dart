@@ -116,7 +116,7 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes(
     Routes.cooking: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.cooking,
           appJsons: const [LocaleKey.cookingJson],
-          displayMuseumStatus: true,
+          displayMuseumStatus: false,
           title: 'Cooking',
         ),
 

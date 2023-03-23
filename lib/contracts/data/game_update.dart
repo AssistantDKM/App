@@ -27,11 +27,11 @@ class GameUpdate {
       GameUpdate.fromMap(json.decode(str));
 
   factory GameUpdate.fromMap(Map<String, dynamic>? json) => GameUpdate(
-        guid: readStringSafe(json, 'Guid'),
-        title: readStringSafe(json, 'Title'),
-        icon: readStringSafe(json, 'Icon'),
-        releaseDate: readDateSafe(json, 'ReleaseDate'),
-        postUrl: readStringSafe(json, 'PostUrl'),
-        appIds: readListSafe(json, 'AppIds', (x) => x.toString()),
+        guid: readStringSafe(json, 'guid'),
+        title: readStringSafe(json, 'title'),
+        icon: readStringSafe(json, 'icon'),
+        releaseDate: readDateSafe(json, 'releaseDate'),
+        postUrl: readStringSafe(json, 'postUrl'),
+        appIds: readListSafe(json, 'appIds', (x) => x.toString()),
       );
 }

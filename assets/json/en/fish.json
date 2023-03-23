@@ -33,7 +33,7 @@
     "AppId": "fish_49",
     "Icon": "inventory/allUI_115.png",
     "Name": "Barramundi",
-    "Description": "Thats good eatin' eh?",
+    "Description": "That's good eatin' eh?",
     "SellPrice": 8416,
     "IsStackable": false,
     "Equipable": "NotEquipable",
@@ -401,7 +401,7 @@
     "Id": 334,
     "AppId": "fish_334",
     "Icon": "inventory/allUI_122.png",
-    "Name": "Eyestripe Surgeon Fish",
+    "Name": "Eyestripe Surgeonfish",
     "Description": "This guy is a doctor.",
     "SellPrice": 3996,
     "IsStackable": false,
@@ -954,6 +954,34 @@
         "All"
       ],
       "Rarity": "Uncommon"
+    }
+  },
+  {
+    "Id": 1197,
+    "AppId": "fish_1197",
+    "Icon": "inventory/allUI3_153.png",
+    "Name": "Mouth Almighty",
+    "Description": "It keeps its eggs in its mouth.",
+    "SellPrice": 3870,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": "",
+    "CreatureDetails": {
+      "Type": "Fish",
+      "LandLocation": [],
+      "WaterLocation": [
+        "Mangroves"
+      ],
+      "SeasonFound": [
+        "Autum",
+        "Winter"
+      ],
+      "TimeOfDay": [
+        "All"
+      ],
+      "Rarity": "Rare"
     }
   }
 ]

@@ -1,0 +1,385 @@
+[
+  {
+    "Id": 1,
+    "AppId": "licence_1",
+    "Name": "鉱業",
+    "Descriptions": [
+      "所有者がツルハシを購入し、岩や鉱床を破ることができます。",
+      "銅鉱石は、島の周囲により頻繁に出現します。",
+      "鉄鉱石がより頻繁に島の周りに出現します。"
+    ],
+    "Icon": "licence/licence1.png",
+    "MaxLevel": 3,
+    "LevelCost": 250,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 2,
+    "UnlockedEveryLevel": 10,
+    "SortingNumber": 1,
+    "LicenceColour": "70BA75"
+  },
+  {
+    "Id": 2,
+    "AppId": "licence_2",
+    "Name": "ロギング",
+    "Descriptions": [
+      "持ち主が斧を購入して木を切り倒すことができます",
+      "伐採後、樹木から種子を集めることができます。",
+      "所有者は、落ちている木からより多くの木を集めることができます。"
+    ],
+    "Icon": "licence/licence2.png",
+    "MaxLevel": 3,
+    "LevelCost": 250,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 1,
+    "UnlockedEveryLevel": 10,
+    "SortingNumber": 2,
+    "LicenceColour": "70A8BA"
+  },
+  {
+    "Id": 3,
+    "AppId": "licence_3",
+    "Name": "釣り",
+    "Descriptions": [
+      "釣り竿を購入して魚を捕まえることができます。",
+      "珍しい魚が島に現れ始めます。",
+      "すべての魚が島に現れることができます。"
+    ],
+    "Icon": "licence/licence3.png",
+    "MaxLevel": 3,
+    "LevelCost": 250,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 3,
+    "UnlockedEveryLevel": 5,
+    "SortingNumber": 3,
+    "LicenceColour": "939393"
+  },
+  {
+    "Id": 4,
+    "AppId": "licence_4",
+    "Name": "狩猟",
+    "Descriptions": [
+      "所有者が動物を狩ることができ、動物は肉を落とします。",
+      "所有者が動物のトラップを使用し、トラップされた動物を販売できるようにします。",
+      "動物はより便利なアイテムをドロップします。"
+    ],
+    "Icon": "licence/licence4.png",
+    "MaxLevel": 3,
+    "LevelCost": 250,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 5,
+    "UnlockedEveryLevel": 5,
+    "SortingNumber": 6,
+    "LicenceColour": "7085BA"
+  },
+  {
+    "Id": 5,
+    "AppId": "licence_5",
+    "Name": "ダイビング",
+    "Descriptions": [
+      "所有者が新しいパスオプションを作成できるようにします。",
+      "所有者が新しいフェンシングオプションを作成できるようにします。"
+    ],
+    "Icon": "licence/licence5.png",
+    "MaxLevel": 2,
+    "LevelCost": 250,
+    "LevelCostMuliplier": 1,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 10,
+    "LicenceColour": "A87018"
+  },
+  {
+    "Id": 6,
+    "AppId": "licence_6",
+    "Name": "金属検出",
+    "Descriptions": [
+      "所有者が金属探知機を購入し、島周辺の宝物を検索できるようにします。",
+      "所有者が視覚だけを使用していくつかの埋もれたアイテムに気付くことができます。"
+    ],
+    "Icon": "licence/licence6.png",
+    "MaxLevel": 2,
+    "LevelCost": 500,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 5,
+    "LicenceColour": "FF9100"
+  },
+  {
+    "Id": 7,
+    "AppId": "licence_7",
+    "Name": "車両",
+    "Descriptions": [
+      "所有者がボートを運転できるようにします。",
+      "所有者が陸上車両を運転できるようにします。",
+      "所有者がすべての車両を運転できるようにします。"
+    ],
+    "Icon": "licence/licence7.png",
+    "MaxLevel": 3,
+    "LevelCost": 1200,
+    "LevelCostMuliplier": 1,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 11,
+    "LicenceColour": "FFC20C"
+  },
+  {
+    "Id": 8,
+    "AppId": "licence_8",
+    "Name": "コマース",
+    "Descriptions": [
+      "アイテムを販売すると、ホルダーは5％の追加を受け取ります",
+      "ホルダーはアイテムを販売するときに10％以上受け取る",
+      "所有者はアイテムを販売するときに15％多く受け取る"
+    ],
+    "Icon": "licence/licence8.png",
+    "MaxLevel": 3,
+    "LevelCost": 750,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 12,
+    "LicenceColour": "FFA8DE"
+  },
+  {
+    "Id": 9,
+    "AppId": "licence_9",
+    "Name": "動物の取り扱い",
+    "Descriptions": [
+      "所有者がチョークを購入して調達できるようにします。",
+      "所有者がVombatを購入して調達できるようにします。",
+      "所有者がレイズプリープを購入できるようにします"
+    ],
+    "Icon": "licence/licence9.png",
+    "MaxLevel": 3,
+    "LevelCost": 250,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 8,
+    "LicenceColour": "967D9C"
+  },
+  {
+    "Id": 10,
+    "AppId": "licence_10",
+    "Name": "建物",
+    "Descriptions": [
+      "ホルダーがパスを作成して配置できるようにします。",
+      "所有者が風車を構築して生産タスクをスピードアップできるようにします。",
+      "Coming soon. The holder will get instant access to Building Level 3 once it has arrived"
+    ],
+    "Icon": "licence/licence10.png",
+    "MaxLevel": 3,
+    "LevelCost": 250,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 10,
+    "LicenceColour": "9BBA70"
+  },
+  {
+    "Id": 11,
+    "AppId": "licence_11",
+    "Name": "農業",
+    "Descriptions": [
+      "所有者が農機具や種子を購入できるようにします。",
+      "所有者が肥料を作り、使用できるようにします。",
+      "ホルダーがスプリンクラーを作成して使用できるようにします。"
+    ],
+    "Icon": "licence/licence11.png",
+    "MaxLevel": 3,
+    "LevelCost": 250,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 10,
+    "SortingNumber": 7,
+    "LicenceColour": "2ACB90"
+  },
+  {
+    "Id": 12,
+    "AppId": "licence_12",
+    "Name": "貨物",
+    "Descriptions": [
+      "ホルダーがポケットを拡張できるようにします。",
+      "ホルダーがポケットを拡張できるようにします。",
+      "ホルダーがポケットを拡張できるようにします。"
+    ],
+    "Icon": "licence/licence12.png",
+    "MaxLevel": 3,
+    "LevelCost": 500,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 9,
+    "LicenceColour": "BA7084"
+  },
+  {
+    "Id": 13,
+    "AppId": "licence_13",
+    "Name": "深掘り",
+    "Descriptions": [
+      "Unlocks the Mine Deed and allows access to the deep mines."
+    ],
+    "Icon": "licence/licence13.png",
+    "MaxLevel": 1,
+    "LevelCost": 3500,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 1,
+    "LicenceColour": "26B6A7"
+  },
+  {
+    "Id": 14,
+    "AppId": "licence_14",
+    "Name": "ツールベルト",
+    "Descriptions": [
+      "ホルダーがツールベルトスロットを1つ拡張できるようにします。",
+      "ホルダーがツールベルトスロットを1つ拡張できるようにします。",
+      "ホルダーがツールベルトスロットを1つ拡張できるようにします。"
+    ],
+    "Icon": "licence/licence14.png",
+    "MaxLevel": 3,
+    "LevelCost": 250,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 9,
+    "LicenceColour": "A07D7D"
+  },
+  {
+    "Id": 15,
+    "AppId": "licence_15",
+    "Name": "動物捕獲免許",
+    "Descriptions": [
+      "Allows the holder to craft and use animal traps and animal drop off points. Animals successfully dropped off will give a reward.",
+      "Allows the holder to craft and use advanced animal traps."
+    ],
+    "Icon": "licence/licence15.png",
+    "MaxLevel": 2,
+    "LevelCost": 500,
+    "LevelCostMuliplier": 1,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 6,
+    "LicenceColour": "B56A48"
+  },
+  {
+    "Id": 16,
+    "AppId": "licence_16",
+    "Name": "Excavation",
+    "Descriptions": [
+      "Allows the holder to purchase and use shovels."
+    ],
+    "Icon": "licence/licence16.png",
+    "MaxLevel": 1,
+    "LevelCost": 500,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 4,
+    "LicenceColour": "54BDC6"
+  },
+  {
+    "Id": 17,
+    "AppId": "licence_17",
+    "Name": "Irrigation",
+    "Descriptions": [
+      "Allows the holder to craft sprinklers and water tanks.",
+      "Allows the holder to craft improved sprinklers."
+    ],
+    "Icon": "licence/licence17.png",
+    "MaxLevel": 2,
+    "LevelCost": 1000,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 7,
+    "LicenceColour": "FFA14A"
+  },
+  {
+    "Id": 18,
+    "AppId": "licence_18",
+    "Name": "AgriculturalVehicle",
+    "Descriptions": [
+      "Allows the holder to purchase Agricultural Vehicles and use the Harvesting Attachment",
+      "Allows the holder to use the Plowing Attachment on Agricultural Vehicles.",
+      "Allows the holder to use the Planting Attachment on Agricultural Vehicles."
+    ],
+    "Icon": "licence/licence18.png",
+    "MaxLevel": 3,
+    "LevelCost": 2000,
+    "LevelCostMuliplier": 0,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 11,
+    "LicenceColour": "E1DC29"
+  },
+  {
+    "Id": 19,
+    "AppId": "licence_19",
+    "Name": "SignWriting",
+    "Descriptions": [
+      "Unlocked the recipe for The Sign Writing Table and simple sign recipes",
+      "Unlocks the recipes for advanced signs"
+    ],
+    "Icon": "licence/licence19.png",
+    "MaxLevel": 2,
+    "LevelCost": 500,
+    "LevelCostMuliplier": 1,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 10,
+    "LicenceColour": "7086BB"
+  },
+  {
+    "Id": 20,
+    "AppId": "licence_20",
+    "Name": "WaterBed",
+    "Descriptions": [
+      "Unlocks the recipes for Waterbeds. Used to create waterfalls."
+    ],
+    "Icon": "licence/licence20.png",
+    "MaxLevel": 1,
+    "LevelCost": 1000,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 10,
+    "LicenceColour": "D67CEC"
+  },
+  {
+    "Id": 21,
+    "AppId": "licence_21",
+    "Name": "Brewing",
+    "Descriptions": [
+      "Unlocks the Billy Kit recipe used for brewing drinks and jams.",
+      "Unlocks the Keg recipe used for brewing advanced drinks."
+    ],
+    "Icon": "licence/licence21.png",
+    "MaxLevel": 2,
+    "LevelCost": 500,
+    "LevelCostMuliplier": 2,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 12,
+    "LicenceColour": "FF82CE"
+  },
+  {
+    "Id": 22,
+    "AppId": "licence_22",
+    "Name": "AnimalProccessing",
+    "Descriptions": [
+      "Unlocks Cheese Making recipe for processing Milk.",
+      "Unlocks Spinning Wheel recipe for processing Wool."
+    ],
+    "Icon": "licence/licence22.png",
+    "MaxLevel": 2,
+    "LevelCost": 500,
+    "LevelCostMuliplier": 1,
+    "UnlockedBySkill": 0,
+    "UnlockedEveryLevel": 3,
+    "SortingNumber": 8,
+    "LicenceColour": "000000"
+  }
+]

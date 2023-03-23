@@ -83,7 +83,7 @@ flutter:
     - assets/json/fr/
     - assets/json/ja/
     - assets/json/ru/
-    - assets/json/zh/
+    - assets/json/zh-hans/
     #
     - assets/images/menu/
     - assets/images/stats/

@@ -12,7 +12,10 @@ String addSpaceBeforeCapital(String orig) {
   for (int strArrIndex = 0; strArrIndex < strArr.length; strArrIndex++) {
     String strItem = strArr[strArrIndex];
     if (strArrIndex != 0 && strItem.contains(RegExp(r'[A-Z]'))) {
-      result.add(' ');
+      String prevStrItem = strArr[strArrIndex - 1];
+      if (prevStrItem != ' ') {
+        result.add(' ');
+      }
     }
     result.add(strItem);
   }
