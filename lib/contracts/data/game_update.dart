@@ -32,6 +32,6 @@ class GameUpdate {
         icon: readStringSafe(json, 'icon'),
         releaseDate: readDateSafe(json, 'releaseDate'),
         postUrl: readStringSafe(json, 'postUrl'),
-        appIds: readListSafe(json, 'appIds', (x) => x.toString()),
+        appIds: readListSafe(json, 'itemIds', (x) => x.toString()),
       );
 }

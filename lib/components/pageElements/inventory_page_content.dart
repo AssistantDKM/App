@@ -195,7 +195,7 @@ List<Widget> Function(
 
       allItemsPageNavigate(BuildContext navigateCtx) =>
           AllPossibleOutputsFromFuturePage<InventoryItem>(
-            () => allItemsPageFuture(navigateCtx, loadedPageItem.appId),
+            () => allItemsPageFuture(navigateCtx, loadedPageItem.item.appId),
             loadedItem.name,
             usagesPresenter,
             subtitle: getTranslations().fromKey(LocaleKey.usedToCreate),
