@@ -18,7 +18,7 @@ class MilestonesListPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String title = getTranslations().fromKey(LocaleKey.milestones);
+    String title = getTranslations().fromKey(LocaleKey.menuMilestones);
     return ItemsListPage<MilestoneItem>(
       analyticsEvent: analyticsEvent,
       title: title,

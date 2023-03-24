@@ -19,6 +19,7 @@ import '../../pages/licences_pages.dart';
 import '../../pages/misc/all_possible_outputs_future_page.dart';
 import '../../redux/misc/inventory_item_viewmodel.dart';
 import '../chip/effect_chip_presenter.dart';
+import '../tilePresenters/game_update_tile_presenter.dart';
 import '../tilePresenters/inventory_tile_presenter.dart';
 import '../tilePresenters/licence_tile_presenter.dart';
 import '../tilePresenters/required_item_tile_presenter.dart';
@@ -36,6 +37,29 @@ List<Widget> Function(
 ) {
   return (InventoryPageItem loadedPageItem, bool isInDetailPane) {
     InventoryItem loadedItem = loadedPageItem.item;
+
+    // print('${loadedItem.id}, // ${loadedItem.name}');
+
+    if (loadedItem.hidden == true && viewmodel.isPatron == false) {
+      return [
+        ConstrainedBox(
+          constraints: const BoxConstraints(
+            minHeight: minHeightOfDetailPageHeaderImage,
+          ),
+          child: const Center(
+            child: LocalImage(imagePath: AppImage.locked),
+          ),
+        ),
+        GenericItemName(obscureText(loadedItem.name)),
+        pageDefaultPadding(GenericItemDescription(
+          obscureText(loadedItem.description),
+        )),
+        const EmptySpace2x(),
+        const GenericItemDescription(
+          'This item exists in the game files but the item is not available in game. The developer(s) may not want this item publicly visible, it may be spoilers, unfinished work, etc. ',
+        ),
+      ];
+    }
 
     bool isMuseumPlaceable = loadedItem.appId.contains(AppJsonPrefix.bug) ||
         loadedItem.appId.contains(AppJsonPrefix.fish) ||
@@ -254,14 +278,18 @@ List<Widget> Function(
         .toList();
     descripWidgets.addAll(getCartItems(contentsContext, viewmodel, cartItems));
 
-    if (loadedItem.hidden == true && viewmodel.isPatron == false) {
-      return [
-        const Center(child: LocalImage(imagePath: AppImage.locked)),
-        GenericItemName(obscureText(loadedItem.name)),
-        pageDefaultPadding(GenericItemDescription(
-          obscureText(loadedItem.description),
-        )),
-      ];
+    if (loadedPageItem.fromUpdate != null) {
+      descripWidgets.add(const EmptySpace2x());
+      descripWidgets.add(GenericItemGroup(
+        getTranslations().fromKey(LocaleKey.addedInUpdate),
+      ));
+
+      descripWidgets.add(FlatCard(
+        child: gameUpdateItemDetailTilePresenter(
+          contentsContext,
+          loadedPageItem.fromUpdate!,
+        ),
+      ));
     }
 
     return descripWidgets;

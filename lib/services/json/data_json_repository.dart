@@ -36,7 +36,7 @@ class DataJsonRepository extends BaseJsonService {
     if (allItemsResult.hasFailed) {
       return ResultWithValue<GameUpdate>(
         false,
-        GameUpdate.fromJson('{}'),
+        GameUpdate.initial(),
         allItemsResult.errorMessage,
       );
     }
@@ -45,7 +45,7 @@ class DataJsonRepository extends BaseJsonService {
       if (allItemsResult.value.isEmpty) {
         return ResultWithValue<GameUpdate>(
           false,
-          GameUpdate.fromJson('{}'),
+          GameUpdate.initial(),
           'No update found',
         );
       }
@@ -58,7 +58,7 @@ class DataJsonRepository extends BaseJsonService {
           "DataJsonRepository getLatestMajorUpdate Exception: ${exception.toString()}");
       return ResultWithValue<GameUpdate>(
         false,
-        GameUpdate.fromJson('{}'),
+        GameUpdate.initial(),
         exception.toString(),
       );
     }
@@ -73,7 +73,7 @@ class DataJsonRepository extends BaseJsonService {
     if (allItemsResult.hasFailed) {
       return ResultWithValue<GameUpdate>(
         false,
-        GameUpdate.fromJson('{}'),
+        GameUpdate.initial(),
         allItemsResult.errorMessage,
       );
     }
@@ -86,7 +86,7 @@ class DataJsonRepository extends BaseJsonService {
       if (items.isEmpty) {
         return ResultWithValue<GameUpdate>(
           false,
-          GameUpdate.fromJson('{}'),
+          GameUpdate.initial(),
           'No update found',
         );
       }
@@ -97,7 +97,7 @@ class DataJsonRepository extends BaseJsonService {
           "DataJsonRepository getMajorUpdatesForItem Exception: ${exception.toString()}");
       return ResultWithValue<GameUpdate>(
         false,
-        GameUpdate.fromJson('{}'),
+        GameUpdate.initial(),
         exception.toString(),
       );
     }

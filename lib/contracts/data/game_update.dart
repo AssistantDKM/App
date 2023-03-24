@@ -23,15 +23,30 @@ class GameUpdate {
     required this.appIds,
   });
 
+  factory GameUpdate.initial() => GameUpdate(
+        guid: 'guid',
+        title: 'title',
+        icon: '',
+        releaseDate: DateTime(2023),
+        postUrl: '',
+        appIds: [],
+      );
+
   factory GameUpdate.fromJson(String str) =>
       GameUpdate.fromMap(json.decode(str));
 
-  factory GameUpdate.fromMap(Map<String, dynamic>? json) => GameUpdate(
-        guid: readStringSafe(json, 'guid'),
-        title: readStringSafe(json, 'title'),
-        icon: readStringSafe(json, 'icon'),
-        releaseDate: readDateSafe(json, 'releaseDate'),
-        postUrl: readStringSafe(json, 'postUrl'),
-        appIds: readListSafe(json, 'itemIds', (x) => x.toString()),
-      );
+  factory GameUpdate.fromMap(Map<String, dynamic>? json) {
+    if (json == null) {
+      return GameUpdate.initial();
+    }
+
+    return GameUpdate(
+      guid: readStringSafe(json, 'guid'),
+      title: readStringSafe(json, 'title'),
+      icon: readStringSafe(json, 'icon'),
+      releaseDate: readDateSafe(json, 'releaseDate'),
+      postUrl: readStringSafe(json, 'postUrl'),
+      appIds: readListSafe(json, 'itemIds', (x) => x.toString()),
+    );
+  }
 }

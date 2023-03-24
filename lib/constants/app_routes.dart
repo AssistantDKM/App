@@ -109,7 +109,7 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes(
 
     Routes.crafting: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.inventory,
-          appJsons: const [LocaleKey.itemsJson],
+          appJsons: const [LocaleKey.itemsJson, LocaleKey.furnitureJson],
           displayMuseumStatus: false,
           title: 'Items',
         ),

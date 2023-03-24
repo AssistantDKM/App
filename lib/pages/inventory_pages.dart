@@ -1,3 +1,4 @@
+import 'package:assistant_dinkum_app/contracts/data/game_update.dart';
 import 'package:assistant_dinkum_app/contracts/json/licence_item.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:collection/collection.dart';
@@ -117,6 +118,7 @@ Future<ResultWithValue<InventoryPageItem>> getPageItem(
     item: InventoryItem.fromJson('{}'),
     usages: List.empty(),
     requiredLicence: null,
+    fromUpdate: null,
   );
 
   InventoryRepository? service = getGenericRepoFromAppId(appId);
@@ -127,6 +129,10 @@ Future<ResultWithValue<InventoryPageItem>> getPageItem(
   var itemFuture = service.getItem(funcCtx, appId);
   var usagesFuture = service.getUsagesOfItem(funcCtx, appId);
   var licencesFuture = getLicenceRepo().getItems(funcCtx);
+  var gameUpdateFuture = getDataRepo().getGameUpdateThatItemWasAddedIn(
+    funcCtx,
+    appId,
+  );
 
   ResultWithValue<InventoryItem> itemResult = await itemFuture;
   if (itemResult.isSuccess) {
@@ -148,6 +154,11 @@ Future<ResultWithValue<InventoryPageItem>> getPageItem(
   ResultWithValue<List<InventoryItem>> usagesResult = await usagesFuture;
   if (itemResult.isSuccess) {
     result.usages = usagesResult.value;
+  }
+
+  ResultWithValue<GameUpdate> gameUpdateResult = await gameUpdateFuture;
+  if (gameUpdateResult.isSuccess) {
+    result.fromUpdate = gameUpdateResult.value;
   }
 
   return ResultWithValue(itemResult.isSuccess, result, '');

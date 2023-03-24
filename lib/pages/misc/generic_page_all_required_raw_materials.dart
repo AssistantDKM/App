@@ -71,11 +71,7 @@ class _GenericPageAllRequiredRawMaterialsWidget
   ) {
     List<Widget> widgets = List.empty(growable: true);
     if (widget.name.isNotEmpty) {
-      widgets.add(const EmptySpace1x());
-      widgets.add(GenericItemName(widget.name));
-      widgets.add(GenericItemText(
-        getTranslations().fromKey(LocaleKey.allRawMaterialsRequired),
-      ));
+      widgets.add(const EmptySpace2x());
     }
 
     widgets.add(Padding(

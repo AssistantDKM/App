@@ -59,22 +59,26 @@ Widget gameUpdateTilePresenter(
 
 Widget gameUpdateItemDetailTilePresenter(
   BuildContext tileCtx,
-  GameUpdate updateItem,
-) {
-  return FlatCard(
-    child: ListTile(
-      leading: LocalImage(
+  GameUpdate updateItem, {
+  void Function()? onTap,
+}) {
+  return ListTile(
+    leading: ClipRRect(
+      borderRadius: UIConstants.generalBorderRadius,
+      child: LocalImage(
         imagePath: updateItem.icon.replaceAll('.png', '-icon.png'),
         boxfit: BoxFit.fill,
       ),
-      title: Text(updateItem.title),
-      subtitle: Text(simpleDate(updateItem.releaseDate)),
-      onTap: () => getNavigation().navigateAwayFromHomeAsync(
-        tileCtx,
-        navigateTo: (_) => GameUpdatesDetailsPage(gameUpdate: updateItem),
-      ),
     ),
+    title: Text(updateItem.title),
+    subtitle: Text(simpleDate(updateItem.releaseDate)),
+    onTap: onTap ??
+        () => getNavigation().navigateAwayFromHomeAsync(
+              tileCtx,
+              navigateTo: (_) => GameUpdatesDetailsPage(gameUpdate: updateItem),
+            ),
   );
+}
 
   /*
   genericListTileWithSubtitle(
@@ -89,4 +93,3 @@ Widget gameUpdateItemDetailTilePresenter(
       ),
     ),
    */
-}
