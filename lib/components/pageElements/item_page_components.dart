@@ -6,7 +6,11 @@ import 'package:flutter/material.dart';
 import '../../constants/app_image.dart';
 import '../../constants/app_colour.dart';
 import '../../constants/app_misc.dart';
+import '../../constants/app_routes.dart';
+import '../../contracts/required_item.dart';
 import '../../helper/currency_helper.dart';
+import '../../redux/misc/inventory_item_viewmodel.dart';
+import '../tilePresenters/required_item_tile_presenter.dart';
 
 List<Widget> commonDetailPageHeaderWidgets(
   BuildContext detailPageCtx, {
@@ -127,4 +131,35 @@ Widget viewMoreButton(BuildContext context, int numLeftOver, viewMoreOnPress) {
       },
     ),
   );
+}
+
+List<Widget> getCartItems(
+  BuildContext context,
+  InventoryItemViewModel vm,
+  List<RequiredItem> cartItems,
+) {
+  List<Widget> cartWidgets = List.empty(growable: true);
+
+  if (cartItems.isNotEmpty) {
+    cartWidgets.add(const EmptySpace1x());
+    cartWidgets.add(
+      GenericItemGroup(getTranslations().fromKey(LocaleKey.cart)),
+    );
+    cartWidgets.addAll(
+      genericItemWithOverflowButton(
+        context,
+        cartItems,
+        (BuildContext cartCtx, RequiredItem cartItem) {
+          return requiredItemTilePresenter(
+            cartCtx,
+            appId: cartItem.appId,
+            quantity: cartItem.quantity,
+            onTap: () async => await getNavigation()
+                .navigateAsync(context, navigateToNamed: Routes.cart),
+          );
+        },
+      ),
+    );
+  }
+  return cartWidgets;
 }

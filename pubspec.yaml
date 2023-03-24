@@ -1,6 +1,6 @@
 name: assistant_dinkum_app
 description: Assistant for Dinkum
-version: 0.0.6+6 # dart scripts\version_num_script.dart
+version: 0.0.7+7 # dart scripts\version_num_script.dart
 publish_to: none
 
 environment:
@@ -29,6 +29,7 @@ dependencies:
   adaptive_theme: 3.1.1
   bitsdojo_window: 0.1.5
   breakpoint: 1.2.0
+  flutter_simple_treeview: 3.0.1
   path: 1.8.3
   settings_ui: 2.0.2
 
@@ -76,22 +77,24 @@ flutter:
     - assets/images/
     - assets/images/drawer/
 
-    # Ignore for Overwolf
+    # Start-Overwolf-Ignore
     - assets/json/
     - assets/json/en/
     - assets/json/fr/
     - assets/json/ja/
     - assets/json/ru/
-    - assets/json/zh/
+    - assets/json/zh-hans/
     #
     - assets/images/menu/
     - assets/images/stats/
     - assets/images/social/
+    - assets/images/updates/
     #
     - assets/images/inventory/
     - assets/images/licence/
     - assets/images/milestone/
     - assets/images/people/
+    # End-Overwolf-Ignore
 
   fonts:
     - family: Roboto

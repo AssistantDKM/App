@@ -2,7 +2,7 @@
   {
     "Id": 1,
     "AppId": "licence_1",
-    "Name": "Mining",
+    "Name": "Mining Licence",
     "Descriptions": [
       "Allows the holder to buy pickaxes and break rocks and ore deposits.",
       "Allows the holder to craft a better pickaxe.",
@@ -20,10 +20,10 @@
   {
     "Id": 2,
     "AppId": "licence_2",
-    "Name": "Logging",
+    "Name": "Logging Licence",
     "Descriptions": [
       "Allows the holder to buy axes and chop down trees.",
-      "Allows the holder to craft a better axe.",
+      "Allows the holder to craft a better axe and unlocks Brewing Licence",
       "Allows the holder to craft a better axe."
     ],
     "Icon": "licence/licence2.png",
@@ -38,7 +38,7 @@
   {
     "Id": 3,
     "AppId": "licence_3",
-    "Name": "Fishing",
+    "Name": "Fishing Licence",
     "Descriptions": [
       "Allows holder to buy fishing rods and catch fish.",
       "Allows the holder to see bubbles created by underwater creatures. Unlocks a new fishing rod recipe",
@@ -56,7 +56,7 @@
   {
     "Id": 4,
     "AppId": "licence_4",
-    "Name": "Hunting",
+    "Name": "Hunting Licence",
     "Descriptions": [
       "Allows the holder to craft basic weapons.",
       "Allows the holder to craft better weapons. Unlocks trapping Licence.",
@@ -74,7 +74,7 @@
   {
     "Id": 5,
     "AppId": "licence_5",
-    "Name": "LandScaping",
+    "Name": "Landscaping Licence",
     "Descriptions": [
       "Allows the holder to craft new pathing options.",
       "Allows the holder to craft new fencing options."
@@ -91,7 +91,7 @@
   {
     "Id": 6,
     "AppId": "licence_6",
-    "Name": "MetalDetecting",
+    "Name": "Metal Detecting",
     "Descriptions": [
       "Allows the holder to buy a metal detector and search for treasure around the island.",
       "Allows the holder to notice some buried items using sight alone."
@@ -108,7 +108,7 @@
   {
     "Id": 7,
     "AppId": "licence_7",
-    "Name": "Vehicle",
+    "Name": "Vehicle Licence",
     "Descriptions": [
       "Allows the holder to purchase and pilot water vehicles.",
       "Allows the holder to purchase and drive land vehicles.",
@@ -126,7 +126,7 @@
   {
     "Id": 8,
     "AppId": "licence_8",
-    "Name": "Commerce",
+    "Name": "Commerce Licence",
     "Descriptions": [
       "The holder will receive 5% more when selling items",
       "The holder will receive 10% more when selling items",
@@ -144,7 +144,7 @@
   {
     "Id": 9,
     "AppId": "licence_9",
-    "Name": "AnimalHandling",
+    "Name": "Handling Licence",
     "Descriptions": [
       "Allows the holder to buy and raise Chooks.",
       "Allows the holder to buy and raise Vombats.",
@@ -162,7 +162,7 @@
   {
     "Id": 10,
     "AppId": "licence_10",
-    "Name": "Bridge",
+    "Name": "Building Licence",
     "Descriptions": [
       "Allows the holder to craft simple bridges.",
       "Allows the holder to build Windmills to help speed up production tasks.",
@@ -180,7 +180,7 @@
   {
     "Id": 11,
     "AppId": "licence_11",
-    "Name": "Farming",
+    "Name": "Farming Licence",
     "Descriptions": [
       "Allows the holder to buy farming equipment and seeds.",
       "Allows the holder to craft fertilzer. Unlocks a new watercan recipe.",
@@ -198,7 +198,7 @@
   {
     "Id": 12,
     "AppId": "licence_12",
-    "Name": "Cargo",
+    "Name": "Cargo Licence",
     "Descriptions": [
       "Allows the holder to expand their pockets by 3 slots.",
       "Allows the holder to expand their pockets by 3 slots.",
@@ -216,7 +216,7 @@
   {
     "Id": 13,
     "AppId": "licence_13",
-    "Name": "DeepMining",
+    "Name": "Deep Mining Licence",
     "Descriptions": [
       "Unlocks the Mine Deed and allows access to the deep mines."
     ],
@@ -232,7 +232,7 @@
   {
     "Id": 14,
     "AppId": "licence_14",
-    "Name": "ToolBelt",
+    "Name": "Toolbelt Licence",
     "Descriptions": [
       "Allow the holder to expand their toolbelt slots by 1.",
       "Allow the holder to expand their toolbelt slots by 1.",
@@ -250,7 +250,7 @@
   {
     "Id": 15,
     "AppId": "licence_15",
-    "Name": "AnimalTrapping",
+    "Name": "Trapping Licence",
     "Descriptions": [
       "Allows the holder to craft and use animal traps and animal drop off points. Animals successfully dropped off will give a reward.",
       "Allows the holder to craft and use advanced animal traps."
@@ -267,7 +267,7 @@
   {
     "Id": 16,
     "AppId": "licence_16",
-    "Name": "Excavation",
+    "Name": "Excavation Licence",
     "Descriptions": [
       "Allows the holder to purchase and use shovels."
     ],
@@ -283,7 +283,7 @@
   {
     "Id": 17,
     "AppId": "licence_17",
-    "Name": "Irrigation",
+    "Name": "Irrigation Licence",
     "Descriptions": [
       "Allows the holder to craft sprinklers and water tanks.",
       "Allows the holder to craft improved sprinklers."
@@ -300,7 +300,7 @@
   {
     "Id": 18,
     "AppId": "licence_18",
-    "Name": "AgriculturalVehicle",
+    "Name": "Agricultural Vehicle Licence",
     "Descriptions": [
       "Allows the holder to purchase Agricultural Vehicles and use the Harvesting Attachment",
       "Allows the holder to use the Plowing Attachment on Agricultural Vehicles.",
@@ -318,7 +318,7 @@
   {
     "Id": 19,
     "AppId": "licence_19",
-    "Name": "SignWriting",
+    "Name": "Sign Writing Licence",
     "Descriptions": [
       "Unlocked the recipe for The Sign Writing Table and simple sign recipes",
       "Unlocks the recipes for advanced signs"
@@ -335,7 +335,7 @@
   {
     "Id": 20,
     "AppId": "licence_20",
-    "Name": "WaterBed",
+    "Name": "Water Scaping Licence",
     "Descriptions": [
       "Unlocks the recipes for Waterbeds. Used to create waterfalls."
     ],
@@ -351,7 +351,7 @@
   {
     "Id": 21,
     "AppId": "licence_21",
-    "Name": "Brewing",
+    "Name": "Brewing Licence",
     "Descriptions": [
       "Unlocks the Billy Kit recipe used for brewing drinks and jams.",
       "Unlocks the Keg recipe used for brewing advanced drinks."
@@ -368,7 +368,7 @@
   {
     "Id": 22,
     "AppId": "licence_22",
-    "Name": "AnimalProccessing",
+    "Name": "Animal Processing Licence",
     "Descriptions": [
       "Unlocks Cheese Making recipe for processing Milk.",
       "Unlocks Spinning Wheel recipe for processing Wool."

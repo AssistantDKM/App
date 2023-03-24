@@ -71,26 +71,32 @@ List<Widget> getDrawerItems(BuildContext context, DrawerSettingsViewModel vm) {
 }
 
 Widget _drawerItem(
-  BuildContext context, {
+  BuildContext drawerItemCtx, {
   required Widget image,
   required String title,
   String? navigateToNamed,
   Function(BuildContext)? onTap,
+  Function(BuildContext)? onLongPress,
 }) {
   ListTile tile = ListTile(
     key: Key('$image-${title.toString()}'),
     leading: image,
     title: Text(title),
     dense: true,
+    onLongPress: () {
+      if (onLongPress != null) onLongPress(drawerItemCtx);
+    },
     onTap: () async {
       if (onTap != null) {
-        onTap(context);
+        onTap(drawerItemCtx);
         return;
       }
 
       if (navigateToNamed != null) {
-        await getNavigation().navigateAwayFromHomeAsync(context,
-            navigateToNamed: navigateToNamed);
+        await getNavigation().navigateAwayFromHomeAsync(
+          drawerItemCtx,
+          navigateToNamed: navigateToNamed,
+        );
       }
     },
   );
@@ -106,6 +112,7 @@ List<Widget> _mapToDrawerItem(BuildContext context, List<CustomMenu> menus) {
       image: menu.drawerIcon,
       navigateToNamed: menu.navigateToNamed,
       onTap: menu.onTap,
+      onLongPress: menu.onLongPress,
     ));
   }
   return widgets;

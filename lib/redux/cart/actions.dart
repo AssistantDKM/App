@@ -9,6 +9,15 @@ class AddToCartAction extends PersistToStorage {
   });
 }
 
+class EditToCartAction extends PersistToStorage {
+  final String appId;
+  final int quantity;
+  EditToCartAction({
+    required this.appId,
+    required this.quantity,
+  });
+}
+
 class RemoveFromCartAction extends PersistToStorage {
   final String appId;
   RemoveFromCartAction(this.appId);

@@ -30,7 +30,9 @@ class FavouritesPage extends StatelessWidget {
   ) async {
     List<InventoryItem> reqItems = List.empty(growable: true);
     for (String favItem in viewModel.favourites) {
-      var details = await getGenericRepoFromAppId(favItem).getItem(
+      var repo = getGenericRepoFromAppId(favItem);
+      if (repo == null) continue;
+      var details = await repo.getItem(
         context,
         favItem,
       );

@@ -10,8 +10,8 @@ import '../pages/licences_pages.dart';
 import '../pages/milestones_pages.dart';
 import '../pages/people_pages.dart';
 import '../pages/settings_page.dart';
+import '../pages/updates/game_updates_page.dart';
 import 'analytics_event.dart';
-import 'app_json.dart';
 
 class Routes {
   static const String home = '/';
@@ -21,6 +21,7 @@ class Routes {
   static const String patronListPage = '/patronListPage';
   static const String favourites = '/favourites';
   static const String cart = '/cart';
+  static const String gameUpdates = '/gameUpdates';
   static const String newsPage = '/newsPage';
   static const String syncPage = '/syncPage';
   static const String feedback = '/feedback';
@@ -40,10 +41,12 @@ class Routes {
   static const String milestone = '/milestone';
 }
 
-Map<String, Widget Function(BuildContext)> initNamedRoutes() {
+Map<String, Widget Function(BuildContext)> initNamedRoutes(
+  void Function(Locale locale) onLocaleChange,
+) {
   Map<String, WidgetBuilder> routes = {
     Routes.home: (BuildContext pageContext) => HomePage(),
-    Routes.settings: (_) => SettingsPage(),
+    Routes.settings: (_) => SettingsPage(onLocaleChange),
     Routes.about: (_) => AboutPage(
           key: const Key('AboutPage'),
           appType: AssistantAppType.dkm,
@@ -106,14 +109,14 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
 
     Routes.crafting: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.inventory,
-          appJsons: const [LocaleKey.itemsJson],
+          appJsons: const [LocaleKey.itemsJson, LocaleKey.furnitureJson],
           displayMuseumStatus: false,
           title: 'Items',
         ),
     Routes.cooking: (_) => InventoryListPage(
           analyticsEvent: AnalyticsEvent.cooking,
           appJsons: const [LocaleKey.cookingJson],
-          displayMuseumStatus: true,
+          displayMuseumStatus: false,
           title: 'Cooking',
         ),
 
@@ -123,7 +126,8 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes() {
         ),
     Routes.licence: (_) => const LicencesListPage(),
     Routes.milestone: (_) => const MilestonesListPage(),
-    // Routes.cart: (_) => const CartPage(),
+    Routes.cart: (_) => const CartPage(),
+    Routes.gameUpdates: (_) => const GameUpdatesPage(),
   };
   return routes;
 }

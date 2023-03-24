@@ -16,10 +16,10 @@ class BaseGameItemRepository<T> extends BaseJsonService {
     required this.findItemById,
   });
 
-  Future<ResultWithValue<List<T>>> getItems(BuildContext context) async {
+  Future<ResultWithValue<List<T>>> getItems(BuildContext itemsCtx) async {
     try {
       List responseJson = await getListfromJson(
-        context,
+        itemsCtx,
         getTranslations().fromKey(appJson),
       );
       List<T> dataItems = responseJson
@@ -38,10 +38,10 @@ class BaseGameItemRepository<T> extends BaseJsonService {
   }
 
   Future<ResultWithValue<T>> getItem(
-    BuildContext context,
+    BuildContext itemCtx,
     String itemId,
   ) async {
-    ResultWithValue<List<T>> allItemsResult = await getItems(context);
+    ResultWithValue<List<T>> allItemsResult = await getItems(itemCtx);
 
     if (allItemsResult.hasFailed) {
       return ResultWithValue(

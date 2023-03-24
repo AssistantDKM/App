@@ -29,7 +29,7 @@ class LicencesListPage extends StatelessWidget {
     return StoreConnector<AppState, InventoryItemViewModel>(
       converter: (store) => InventoryItemViewModel.fromStore(store),
       builder: (_, viewModel) {
-        String title = 'licence'; //getTranslations().fromKey(LocaleKey.lice);
+        String title = getTranslations().fromKey(LocaleKey.menuLicences);
         var localPresenter = licenceTilePresenter(
           isPatron: viewModel.isPatron,
         );

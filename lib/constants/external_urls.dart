@@ -7,9 +7,9 @@ class DinkExternalUrls {
   static const String playground = 'https://playground.kurtlourens.com';
 
   static const String privacyPolicy =
-      'https://dinkumassistant.com/privacy_policy.html';
+      'https://dinkum.assistantapps.com/privacy_policy.html';
   static const String termsAndConditions =
-      'https://dinkumassistant.com/terms_and_conditions.html';
+      'https://dinkum.assistantapps.com/terms_and_conditions.html';
   static const String defaultProfilePic =
       'https://assistantapps.com/assets/favicon/android-icon-192x192.png';
 }

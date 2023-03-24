@@ -12,6 +12,7 @@ Widget Function(
   void Function()? onTap,
 }) cartTilePresenter({
   required bool isPatron,
+  required void Function(String appId, int origQuantity) onEdit,
   required void Function(String appId) onDelete,
 }) {
   return (
@@ -35,9 +36,12 @@ Widget Function(
     return itemBasePlainTilePresenter(
       leading: imgChild,
       title: item.name,
-      trailing: IconButton(
-        icon: const Icon(Icons.delete),
-        onPressed: () => onDelete(item.appId),
+      subtitle:
+          '${getTranslations().fromKey(LocaleKey.quantity)}: ${cart.quantity}',
+      trailing: popupMenu(
+        context,
+        onEdit: () => onEdit(item.appId, cart.quantity),
+        onDelete: () => onDelete(item.appId),
       ),
       onTap: onTap ??
           () => getNavigation().navigateAwayFromHomeAsync(

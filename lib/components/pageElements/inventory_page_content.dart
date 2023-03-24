@@ -10,6 +10,7 @@ import '../../contracts/json/inventory_item_consumable_buff.dart';
 import '../../contracts/json/inventory_item_craftable_required.dart';
 import '../../contracts/json/inventory_item_creature.dart';
 import '../../contracts/pageItem/inventory_page_item.dart';
+import '../../contracts/required_item.dart';
 import '../../helper/generic_repository_helper.dart';
 import '../../helper/patreon_helper.dart';
 import '../../helper/position_helper.dart';
@@ -18,6 +19,7 @@ import '../../pages/licences_pages.dart';
 import '../../pages/misc/all_possible_outputs_future_page.dart';
 import '../../redux/misc/inventory_item_viewmodel.dart';
 import '../chip/effect_chip_presenter.dart';
+import '../tilePresenters/game_update_tile_presenter.dart';
 import '../tilePresenters/inventory_tile_presenter.dart';
 import '../tilePresenters/licence_tile_presenter.dart';
 import '../tilePresenters/required_item_tile_presenter.dart';
@@ -35,6 +37,29 @@ List<Widget> Function(
 ) {
   return (InventoryPageItem loadedPageItem, bool isInDetailPane) {
     InventoryItem loadedItem = loadedPageItem.item;
+
+    // print('${loadedItem.id}, // ${loadedItem.name}');
+
+    if (loadedItem.hidden == true && viewmodel.isPatron == false) {
+      return [
+        ConstrainedBox(
+          constraints: const BoxConstraints(
+            minHeight: minHeightOfDetailPageHeaderImage,
+          ),
+          child: const Center(
+            child: LocalImage(imagePath: AppImage.locked),
+          ),
+        ),
+        GenericItemName(obscureText(loadedItem.name)),
+        pageDefaultPadding(GenericItemDescription(
+          obscureText(loadedItem.description),
+        )),
+        const EmptySpace2x(),
+        const GenericItemDescription(
+          'This item exists in the game files but the item is not available in game. The developer(s) may not want this item publicly visible, it may be spoilers, unfinished work, etc. ',
+        ),
+      ];
+    }
 
     bool isMuseumPlaceable = loadedItem.appId.contains(AppJsonPrefix.bug) ||
         loadedItem.appId.contains(AppJsonPrefix.fish) ||
@@ -112,7 +137,8 @@ List<Widget> Function(
         descripWidgets.add(FlatCard(
           child: requiredItemTilePresenter(
             contentsContext,
-            required,
+            appId: required.appId,
+            quantity: required.quantity,
             onTap: (isInDetailPane && updateDetailView != null)
                 ? () => updateDetailView(
                       InventoryDetailsPage(
@@ -193,13 +219,7 @@ List<Widget> Function(
 
       allItemsPageNavigate(BuildContext navigateCtx) =>
           AllPossibleOutputsFromFuturePage<InventoryItem>(
-            () => getGenericRepoFromAppId(loadedItem.appId)
-                .getUsagesOfItem(navigateCtx, loadedItem.appId)
-                .then(
-                  (result) => result.isSuccess //
-                      ? result.value
-                      : List.empty(),
-                ),
+            () => allItemsPageFuture(navigateCtx, loadedPageItem.item.appId),
             loadedItem.name,
             usagesPresenter,
             subtitle: getTranslations().fromKey(LocaleKey.usedToCreate),
@@ -234,7 +254,7 @@ List<Widget> Function(
     if (loadedPageItem.requiredLicence != null) {
       descripWidgets.add(const EmptySpace2x());
       descripWidgets.add(const GenericItemGroup(
-        'Required Licence',
+        'Required Licence', // TODO translate
       ));
       var localPresenter = licenceTilePresenter(isPatron: viewmodel.isPatron);
       descripWidgets.add(FlatCard(
@@ -253,16 +273,38 @@ List<Widget> Function(
       ));
     }
 
-    if (loadedItem.hidden == true && viewmodel.isPatron == false) {
-      return [
-        const Center(child: LocalImage(imagePath: AppImage.locked)),
-        GenericItemName(obscureText(loadedItem.name)),
-        pageDefaultPadding(GenericItemDescription(
-          obscureText(loadedItem.description),
-        )),
-      ];
+    List<RequiredItem> cartItems = viewmodel.cartItems
+        .where((RequiredItem ci) => ci.appId == loadedPageItem.item.appId)
+        .toList();
+    descripWidgets.addAll(getCartItems(contentsContext, viewmodel, cartItems));
+
+    if (loadedPageItem.fromUpdate != null) {
+      descripWidgets.add(const EmptySpace2x());
+      descripWidgets.add(GenericItemGroup(
+        getTranslations().fromKey(LocaleKey.addedInUpdate),
+      ));
+
+      descripWidgets.add(FlatCard(
+        child: gameUpdateItemDetailTilePresenter(
+          contentsContext,
+          loadedPageItem.fromUpdate!,
+        ),
+      ));
     }
 
     return descripWidgets;
   };
+}
+
+Future<List<InventoryItem>> allItemsPageFuture(
+  BuildContext navigateLocalCtx,
+  String appId,
+) async {
+  var genRepo = getGenericRepoFromAppId(appId);
+  if (genRepo == null) {
+    return Future.value(List.empty());
+  }
+
+  var result = await genRepo.getUsagesOfItem(navigateLocalCtx, appId);
+  return result.isSuccess ? result.value : List.empty();
 }
