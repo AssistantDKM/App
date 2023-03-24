@@ -25,6 +25,7 @@
   "kofi": "Ko-fi",
   "searchItems": "Search Items",
   "other": "Other",
+  "viewAllRawMaterialsRequired": "View All Raw Materials Required",
   "noItems": "No Items",
   "usedToCreate": "Used to create",
   "close": "Close",
@@ -102,6 +103,7 @@
   "defaultFont": "Default Font",
   "settingsFont": "Font",
   "translators": "Translators",
+  "addedInUpdate": "Added in update",
   "habitat": "Habitat",
   "habitatBushland": "Bushland",
   "habitatTropics": "Tropics",
@@ -139,5 +141,6 @@
   "menuMilestones": "Milestones",
   "menuFood": "Food",
   "menuCrafting": "Crafting",
-  "hashCode": "B66FD11176A514E90D922BEF82682C43"
+  "requiredLicence": "Required Licence",
+  "hashCode": "EAEB380307B006F6B6A51F6EC6D02871"
 }

@@ -25,6 +25,7 @@
   "kofi": "Ko-fi",
   "searchItems": "Поиск предметов",
   "other": "Прочее",
+  "viewAllRawMaterialsRequired": "Посмотреть все необходимые ресурсы",
   "noItems": "Нет предметов",
   "usedToCreate": "Используется для создания",
   "close": "Закрыть",
@@ -102,6 +103,7 @@
   "defaultFont": "Системный шрифт",
   "settingsFont": "Шрифт",
   "translators": "Переводчики",
+  "addedInUpdate": "Добавлено в обновлении",
   "habitat": "Habitat",
   "habitatBushland": "Bushland",
   "habitatTropics": "Tropics",
@@ -139,5 +141,6 @@
   "menuMilestones": "Вехи",
   "menuFood": "Еда",
   "menuCrafting": "Крафт",
-  "hashCode": "CE1F789DF9015EF4C35D62883BCD8062"
+  "requiredLicence": "Required Licence",
+  "hashCode": "A3AC4588A5284DC956681A2760E44632"
 }

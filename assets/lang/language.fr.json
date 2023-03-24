@@ -25,6 +25,7 @@
   "kofi": "Achetez-moi un ko-fi",
   "searchItems": "Rechercher des articles",
   "other": "Autre",
+  "viewAllRawMaterialsRequired": "Voir tous les matériaux requis",
   "noItems": "Pas d'objet",
   "usedToCreate": "Utilisé pour créer",
   "close": "Fermer",
@@ -102,6 +103,7 @@
   "defaultFont": "Police par defaut",
   "settingsFont": "Police",
   "translators": "Traducteurs",
+  "addedInUpdate": "Ajouté dans la mise à jour :",
   "habitat": "Habitat",
   "habitatBushland": "Bushland",
   "habitatTropics": "Tropics",
@@ -139,5 +141,6 @@
   "menuMilestones": "Jalons",
   "menuFood": "Nourriture",
   "menuCrafting": "Artisanat",
-  "hashCode": "4D1EA72497D08BFB65188A36CC2B432D"
+  "requiredLicence": "Required Licence",
+  "hashCode": "D6DE51AF0758CF8A1B596AFF1289A254"
 }

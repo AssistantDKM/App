@@ -25,6 +25,7 @@
   "kofi": "咖~啡",
   "searchItems": "搜索项目",
   "other": "其他",
+  "viewAllRawMaterialsRequired": "显示所有需要原料",
   "noItems": "无物品",
   "usedToCreate": "用于制作",
   "close": "关闭",
@@ -102,6 +103,7 @@
   "defaultFont": "默认字体",
   "settingsFont": "字体",
   "translators": "翻译人员",
+  "addedInUpdate": "添加于",
   "habitat": "Habitat",
   "habitatBushland": "Bushland",
   "habitatTropics": "Tropics",
@@ -139,5 +141,6 @@
   "menuMilestones": "里程碑",
   "menuFood": "食物",
   "menuCrafting": "制作",
-  "hashCode": "E28E15F1F95917FBCCE2A290E8C150F8"
+  "requiredLicence": "Required Licence",
+  "hashCode": "1FCC545F646A714D05EA6C486578A378"
 }

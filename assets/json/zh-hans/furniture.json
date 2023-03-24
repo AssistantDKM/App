@@ -5070,6 +5070,7 @@
   {
     "Id": 1088,
     "AppId": "furniture_1088",
+    "Hidden": true,
     "Icon": "inventory/furnitureUI_152.png",
     "Name": "Butterfly Orchid Pot",
     "Description": "A Butterfly Orchid  in a pot.",
@@ -5148,6 +5149,7 @@
   {
     "Id": 1119,
     "AppId": "furniture_1119",
+    "Hidden": true,
     "Icon": "inventory/allUI3_66.png",
     "Name": "Portable Roof",
     "Description": "It's a roof",
@@ -5268,6 +5270,7 @@
   {
     "Id": 1161,
     "AppId": "furniture_1161",
+    "Hidden": true,
     "Icon": "inventory/furnitureUI_159.png",
     "Name": "Fake Bread",
     "Description": "Display Bread",
@@ -5281,6 +5284,7 @@
   {
     "Id": 1162,
     "AppId": "furniture_1162",
+    "Hidden": true,
     "Icon": "inventory/furnitureUI_160.png",
     "Name": "Fake Wattle Brew",
     "Description": "Display Brew",

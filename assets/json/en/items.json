@@ -3759,7 +3759,6 @@
   {
     "Id": 399,
     "AppId": "item_399",
-    "Hidden": true,
     "Icon": "inventory/allUI_165.png",
     "Name": "Desert Pea",
     "Description": "A strange red flower",
@@ -4401,7 +4400,6 @@
   {
     "Id": 467,
     "AppId": "item_467",
-    "Hidden": true,
     "Icon": "inventory/allUI3_7.png",
     "Name": "Dog Kennel",
     "Description": "A house for a pupper.",
@@ -12111,6 +12109,7 @@
   {
     "Id": 1113,
     "AppId": "item_1113",
+    "Hidden": true,
     "Icon": "inventory/allUI3_141.png",
     "Name": "Mu Whistle",
     "Description": "Calls Mus to you",
@@ -13078,6 +13077,7 @@
   {
     "Id": 1180,
     "AppId": "item_1180",
+    "Hidden": true,
     "Icon": "inventory/allUI3_149.png",
     "Name": "Improved Dirt Printer",
     "Description": "All outta dirt. It needs charging.",
@@ -13265,6 +13265,7 @@
   {
     "Id": 1195,
     "AppId": "item_1195",
+    "Hidden": true,
     "Icon": "inventory/allUI3_143.png",
     "Name": "Improved Compactor",
     "Description": "It needs charging.",
