@@ -22,13 +22,13 @@ workflows:
         script: |
           echo $ENV_DART | base64 --decode > $CM_BUILD_DIR/lib/env.dart
 
-      - name: Run version number
-        script: |
-          dart $CM_BUILD_DIR/scripts/version_num_script.dart
-
       - name: Get Flutter packages
         script: |
           flutter packages pub get
+
+      - name: Run version number
+        script: |
+          dart $CM_BUILD_DIR/scripts/version_num_script.dart
 
       - name: Build AAB with Flutter
         script: |
