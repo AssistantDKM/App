@@ -112,16 +112,9 @@ class HomePage extends StatelessWidget {
                   ),
                   const EmptySpace2x(),
                   Center(
-                    child: ElevatedButton(
-                      style: ButtonStyle(
-                        backgroundColor: MaterialStateProperty.all<Color>(
-                          getTheme().getSecondaryColour(scaffoldContext),
-                        ),
-                      ),
-                      child: Text(
-                        getTranslations().fromKey(LocaleKey.noticeAccept),
-                      ),
-                      onPressed: () => viewModel.setHasAcceptedIntro(),
+                    child: PositiveButton(
+                      title: getTranslations().fromKey(LocaleKey.noticeAccept),
+                      onTap: () => viewModel.setHasAcceptedIntro(),
                     ),
                   ),
                 ],

@@ -90,6 +90,7 @@ List<Widget> Function(
     ];
 
     if (loadedItem.sellPrice > 0) {
+      descripWidgets.add(const EmptySpace1x());
       descripWidgets.add(dinkumPrice(contentsContext, loadedItem.sellPrice));
     }
 
