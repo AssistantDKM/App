@@ -2190,7 +2190,7 @@
     "Icon": "inventory/allUI3_67.png",
     "Name": "木牌",
     "Description": "Show an item off.",
-    "SellPrice": 808,
+    "SellPrice": 612,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Craftable": {
@@ -2209,11 +2209,6 @@
           "Id": 649,
           "AppId": "item_649",
           "Quantity": 1
-        },
-        {
-          "Id": 22,
-          "AppId": "item_22",
-          "Quantity": 2
         }
       ],
       "RecipeGiveThisAmount": 1,
@@ -4940,7 +4935,7 @@
     "Icon": "inventory/allUI3_66.png",
     "Name": "Hand Written sign",
     "Description": "Shows a message",
-    "SellPrice": 598,
+    "SellPrice": 612,
     "IsStackable": true,
     "Equipable": "NotEquipable",
     "Craftable": {
@@ -4956,8 +4951,8 @@
           "Quantity": 1
         },
         {
-          "Id": 22,
-          "AppId": "item_22",
+          "Id": 649,
+          "AppId": "item_649",
           "Quantity": 1
         }
       ],
@@ -5538,6 +5533,58 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1215,
+    "AppId": "furniture_1215",
+    "Icon": "inventory/furnitureUI_164.png",
+    "Name": "Bushlime Box",
+    "Description": "A decorative box of fruit",
+    "SellPrice": 440,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1216,
+    "AppId": "furniture_1216",
+    "Icon": "inventory/furnitureUI_165.png",
+    "Name": "Banana Box",
+    "Description": "A decorative box of fruit",
+    "SellPrice": 440,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1217,
+    "AppId": "furniture_1217",
+    "Icon": "inventory/furnitureUI_166.png",
+    "Name": "Apple Box",
+    "Description": "A decorative box of fruit",
+    "SellPrice": 440,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1218,
+    "AppId": "furniture_1218",
+    "Icon": "inventory/furnitureUI_167.png",
+    "Name": "Quandong Box",
+    "Description": "A decorative box of fruit",
+    "SellPrice": 440,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""

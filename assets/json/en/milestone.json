@@ -347,7 +347,7 @@
       1000
     ],
     "RewardPerLevel": 100,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 24,
@@ -362,7 +362,7 @@
       1000
     ],
     "RewardPerLevel": 100,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 25,
@@ -377,7 +377,7 @@
       1000
     ],
     "RewardPerLevel": 100,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 26,
@@ -422,7 +422,7 @@
       1000
     ],
     "RewardPerLevel": 100,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 29,
@@ -452,7 +452,7 @@
       1000
     ],
     "RewardPerLevel": 100,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 31,
@@ -840,7 +840,7 @@
       1000
     ],
     "RewardPerLevel": 100,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 57,
@@ -871,7 +871,7 @@
       1000
     ],
     "RewardPerLevel": 100,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 59,
@@ -886,7 +886,7 @@
       1000
     ],
     "RewardPerLevel": 100,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 60,
@@ -947,7 +947,7 @@
       1
     ],
     "RewardPerLevel": 200,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 64,
@@ -968,7 +968,7 @@
       10
     ],
     "RewardPerLevel": 1000,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 65,
@@ -998,7 +998,7 @@
       200
     ],
     "RewardPerLevel": 200,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 67,
@@ -1043,7 +1043,7 @@
       50
     ],
     "RewardPerLevel": 200,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 70,
@@ -1073,7 +1073,7 @@
       10
     ],
     "RewardPerLevel": 100,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 72,
@@ -1089,7 +1089,7 @@
       100
     ],
     "RewardPerLevel": 400,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 73,
@@ -1131,7 +1131,7 @@
       1
     ],
     "RewardPerLevel": 500,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 76,
@@ -1161,7 +1161,7 @@
       1000
     ],
     "RewardPerLevel": 100,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 78,
@@ -1177,7 +1177,7 @@
       1000
     ],
     "RewardPerLevel": 100,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 79,
@@ -1210,7 +1210,7 @@
       1000
     ],
     "RewardPerLevel": 100,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 81,
@@ -1222,7 +1222,7 @@
       1
     ],
     "RewardPerLevel": 250,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 82,
@@ -1234,7 +1234,7 @@
       20
     ],
     "RewardPerLevel": 100,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 83,
@@ -1341,7 +1341,7 @@
       20
     ],
     "RewardPerLevel": 250,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 90,
@@ -1356,7 +1356,7 @@
       50
     ],
     "RewardPerLevel": 200,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 91,
@@ -1371,7 +1371,7 @@
       1000
     ],
     "RewardPerLevel": 100,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 92,
@@ -1386,7 +1386,7 @@
       50
     ],
     "RewardPerLevel": 200,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 93,
@@ -1401,7 +1401,7 @@
       50
     ],
     "RewardPerLevel": 250,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 94,
@@ -1416,7 +1416,7 @@
       1000
     ],
     "RewardPerLevel": 100,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 95,
@@ -1431,7 +1431,7 @@
       1000
     ],
     "RewardPerLevel": 100,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 96,
@@ -1445,7 +1445,7 @@
       3
     ],
     "RewardPerLevel": 500,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": true
   },
   {
     "Id": 97,

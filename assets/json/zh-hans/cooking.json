@@ -3684,5 +3684,43 @@
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
+  },
+  {
+    "Id": 1220,
+    "AppId": "cooking_1220",
+    "Icon": "inventory/allUI3_160.png",
+    "Name": "Snag",
+    "Description": "A rare delicacy ",
+    "SellPrice": 1612,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 50,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 50,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
   }
 ]

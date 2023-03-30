@@ -979,7 +979,8 @@
         "Winter"
       ],
       "TimeOfDay": [
-        "All"
+        "Day",
+        "Night"
       ],
       "Rarity": "Rare"
     }
