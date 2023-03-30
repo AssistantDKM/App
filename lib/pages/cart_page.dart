@@ -120,6 +120,16 @@ class CartPage extends StatelessWidget {
           ),
         ),
       ));
+    } else {
+      widgets.add(const EmptySpace8x());
+      widgets.add(
+        Text(
+          getTranslations().fromKey(LocaleKey.noCartItems),
+          textAlign: TextAlign.center,
+          overflow: TextOverflow.ellipsis,
+          style: const TextStyle(fontSize: 20),
+        ),
+      );
     }
 
     return listWithScrollbar(
