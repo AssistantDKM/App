@@ -5,11 +5,13 @@ import 'required_item_tree_details.dart';
 class RequiredItemDetails extends RequiredItem {
   String icon;
   String name;
+  bool isHidden;
 
   RequiredItemDetails({
     required String appId,
     required this.icon,
     required this.name,
+    required this.isHidden,
     int quantity = 0,
   }) : super(appId: appId, quantity: quantity);
 
@@ -21,6 +23,7 @@ class RequiredItemDetails extends RequiredItem {
       appId: invItem.appId,
       icon: invItem.icon,
       name: invItem.name,
+      isHidden: invItem.hidden,
       quantity: quantity,
     );
   }
@@ -31,6 +34,7 @@ class RequiredItemDetails extends RequiredItem {
       appId: reqTree.appId,
       icon: reqTree.icon,
       name: reqTree.name,
+      isHidden: false,
       quantity: reqTree.quantity,
     );
   }
@@ -39,6 +43,7 @@ class RequiredItemDetails extends RequiredItem {
         appId: '',
         icon: '',
         name: '',
+        isHidden: true,
         quantity: 0,
       );
 

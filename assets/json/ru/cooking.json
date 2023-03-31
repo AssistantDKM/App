@@ -33,6 +33,53 @@
         }
       ]
     },
+    "ItemChange": [
+      {
+        "Type": "BillyCanFire",
+        "Item": {
+          "Id": 1121,
+          "AppId": "item_1121"
+        },
+        "AmountNeeded": 10,
+        "SecondsToComplete": 600,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 1174,
+          "AppId": "cooking_1174"
+        }
+      },
+      {
+        "Type": "CampFire",
+        "Item": {
+          "Id": 18,
+          "AppId": "item_18"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 8,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 577,
+          "AppId": "cooking_577"
+        }
+      },
+      {
+        "Type": "BBQ",
+        "Item": {
+          "Id": 13,
+          "AppId": "furniture_13"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 4,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 577,
+          "AppId": "cooking_577"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -81,6 +128,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -119,6 +167,23 @@
         }
       ]
     },
+    "ItemChange": [
+      {
+        "Type": "Mill",
+        "Item": {
+          "Id": 860,
+          "AppId": "furniture_860"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 180,
+        "DaysToComplete": 0,
+        "Cycles": 0,
+        "Output": {
+          "Id": 862,
+          "AppId": "cooking_862"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -157,6 +222,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -195,6 +261,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -233,6 +300,23 @@
         }
       ]
     },
+    "ItemChange": [
+      {
+        "Type": "Mill",
+        "Item": {
+          "Id": 860,
+          "AppId": "furniture_860"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 18,
+        "DaysToComplete": 0,
+        "Cycles": 10,
+        "Output": {
+          "Id": 344,
+          "AppId": "item_344"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -271,6 +355,38 @@
         }
       ]
     },
+    "ItemChange": [
+      {
+        "Type": "CampFire",
+        "Item": {
+          "Id": 18,
+          "AppId": "item_18"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 4,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 669,
+          "AppId": "cooking_669"
+        }
+      },
+      {
+        "Type": "BBQ",
+        "Item": {
+          "Id": 13,
+          "AppId": "furniture_13"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 2,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 669,
+          "AppId": "cooking_669"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -309,6 +425,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -347,6 +464,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -385,6 +503,53 @@
         }
       ]
     },
+    "ItemChange": [
+      {
+        "Type": "BillyCanFire",
+        "Item": {
+          "Id": 1121,
+          "AppId": "item_1121"
+        },
+        "AmountNeeded": 10,
+        "SecondsToComplete": 600,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 1173,
+          "AppId": "cooking_1173"
+        }
+      },
+      {
+        "Type": "CampFire",
+        "Item": {
+          "Id": 18,
+          "AppId": "item_18"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 8,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 576,
+          "AppId": "cooking_576"
+        }
+      },
+      {
+        "Type": "BBQ",
+        "Item": {
+          "Id": 13,
+          "AppId": "furniture_13"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 4,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 576,
+          "AppId": "cooking_576"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -423,6 +588,53 @@
         }
       ]
     },
+    "ItemChange": [
+      {
+        "Type": "BillyCanFire",
+        "Item": {
+          "Id": 1121,
+          "AppId": "item_1121"
+        },
+        "AmountNeeded": 10,
+        "SecondsToComplete": 600,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 1172,
+          "AppId": "cooking_1172"
+        }
+      },
+      {
+        "Type": "CampFire",
+        "Item": {
+          "Id": 18,
+          "AppId": "item_18"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 8,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 575,
+          "AppId": "cooking_575"
+        }
+      },
+      {
+        "Type": "BBQ",
+        "Item": {
+          "Id": 13,
+          "AppId": "furniture_13"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 4,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 575,
+          "AppId": "cooking_575"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -466,6 +678,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -504,6 +717,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -542,6 +756,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -580,6 +795,23 @@
         }
       ]
     },
+    "ItemChange": [
+      {
+        "Type": "Mill",
+        "Item": {
+          "Id": 860,
+          "AppId": "furniture_860"
+        },
+        "AmountNeeded": 4,
+        "SecondsToComplete": 180,
+        "DaysToComplete": 0,
+        "Cycles": 0,
+        "Output": {
+          "Id": 861,
+          "AppId": "cooking_861"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -618,6 +850,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -656,6 +889,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -694,6 +928,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -732,6 +967,38 @@
         }
       ]
     },
+    "ItemChange": [
+      {
+        "Type": "CampFire",
+        "Item": {
+          "Id": 18,
+          "AppId": "item_18"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 8,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 764,
+          "AppId": "cooking_764"
+        }
+      },
+      {
+        "Type": "BBQ",
+        "Item": {
+          "Id": 13,
+          "AppId": "furniture_13"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 4,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 764,
+          "AppId": "cooking_764"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -770,6 +1037,23 @@
         }
       ]
     },
+    "ItemChange": [
+      {
+        "Type": "CheeseMaker",
+        "Item": {
+          "Id": 635,
+          "AppId": "furniture_635"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 0,
+        "DaysToComplete": 1,
+        "Cycles": 1,
+        "Output": {
+          "Id": 636,
+          "AppId": "cooking_636"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -872,6 +1156,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -949,6 +1234,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1036,6 +1322,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1118,6 +1405,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1205,6 +1493,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1253,6 +1542,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1291,6 +1581,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1329,6 +1620,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1367,6 +1659,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1405,6 +1698,38 @@
         }
       ]
     },
+    "ItemChange": [
+      {
+        "Type": "CampFire",
+        "Item": {
+          "Id": 18,
+          "AppId": "item_18"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 8,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 763,
+          "AppId": "cooking_763"
+        }
+      },
+      {
+        "Type": "BBQ",
+        "Item": {
+          "Id": 13,
+          "AppId": "furniture_13"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 4,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 763,
+          "AppId": "cooking_763"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1443,6 +1768,23 @@
         }
       ]
     },
+    "ItemChange": [
+      {
+        "Type": "CheeseMaker",
+        "Item": {
+          "Id": 635,
+          "AppId": "furniture_635"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 0,
+        "DaysToComplete": 1,
+        "Cycles": 1,
+        "Output": {
+          "Id": 636,
+          "AppId": "cooking_636"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1481,6 +1823,23 @@
         }
       ]
     },
+    "ItemChange": [
+      {
+        "Type": "CheeseMaker",
+        "Item": {
+          "Id": 635,
+          "AppId": "furniture_635"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 0,
+        "DaysToComplete": 1,
+        "Cycles": 1,
+        "Output": {
+          "Id": 638,
+          "AppId": "cooking_638"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1519,6 +1878,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1562,6 +1922,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1600,6 +1961,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1638,6 +2000,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1715,6 +2078,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1797,6 +2161,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1879,6 +2244,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1966,6 +2332,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2048,6 +2415,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2096,6 +2464,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2139,6 +2508,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2177,6 +2547,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2215,6 +2586,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2253,6 +2625,53 @@
         }
       ]
     },
+    "ItemChange": [
+      {
+        "Type": "BillyCanFire",
+        "Item": {
+          "Id": 1121,
+          "AppId": "item_1121"
+        },
+        "AmountNeeded": 10,
+        "SecondsToComplete": 600,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 1175,
+          "AppId": "cooking_1175"
+        }
+      },
+      {
+        "Type": "CampFire",
+        "Item": {
+          "Id": 18,
+          "AppId": "item_18"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 8,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 771,
+          "AppId": "cooking_771"
+        }
+      },
+      {
+        "Type": "BBQ",
+        "Item": {
+          "Id": 13,
+          "AppId": "furniture_13"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 4,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 771,
+          "AppId": "cooking_771"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2291,6 +2710,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2329,6 +2749,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2367,6 +2788,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2405,6 +2827,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2443,6 +2866,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2481,6 +2905,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2519,6 +2944,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2586,6 +3012,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2658,6 +3085,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2745,6 +3173,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2817,6 +3246,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2909,6 +3339,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3006,6 +3437,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3059,6 +3491,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3102,6 +3535,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3145,6 +3579,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3183,6 +3618,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3221,6 +3657,38 @@
         }
       ]
     },
+    "ItemChange": [
+      {
+        "Type": "CampFire",
+        "Item": {
+          "Id": 18,
+          "AppId": "item_18"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 8,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 1015,
+          "AppId": "cooking_1015"
+        }
+      },
+      {
+        "Type": "BBQ",
+        "Item": {
+          "Id": 13,
+          "AppId": "furniture_13"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 4,
+        "DaysToComplete": 0,
+        "Cycles": 1,
+        "Output": {
+          "Id": 1015,
+          "AppId": "cooking_1015"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3259,6 +3727,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3302,6 +3771,23 @@
         }
       ]
     },
+    "ItemChange": [
+      {
+        "Type": "BillyCanFire",
+        "Item": {
+          "Id": 1121,
+          "AppId": "item_1121"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 600,
+        "DaysToComplete": 0,
+        "Cycles": 0,
+        "Output": {
+          "Id": 1036,
+          "AppId": "cooking_1036"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3350,6 +3836,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3398,6 +3885,23 @@
         }
       ]
     },
+    "ItemChange": [
+      {
+        "Type": "Keg",
+        "Item": {
+          "Id": 392,
+          "AppId": "furniture_392"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 0,
+        "DaysToComplete": 2,
+        "Cycles": 1,
+        "Output": {
+          "Id": 393,
+          "AppId": "cooking_393"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3441,6 +3945,23 @@
         }
       ]
     },
+    "ItemChange": [
+      {
+        "Type": "Keg",
+        "Item": {
+          "Id": 392,
+          "AppId": "furniture_392"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 0,
+        "DaysToComplete": 2,
+        "Cycles": 1,
+        "Output": {
+          "Id": 748,
+          "AppId": "cooking_748"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3489,6 +4010,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3537,6 +4059,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3585,6 +4108,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3633,6 +4157,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3681,6 +4206,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3719,6 +4245,7 @@
         }
       ]
     },
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""

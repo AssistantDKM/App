@@ -8,6 +8,7 @@
     "SellPrice": 2250,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -21,6 +22,7 @@
     "SellPrice": 1800,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -34,6 +36,7 @@
     "SellPrice": 450,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -47,6 +50,7 @@
     "SellPrice": 515,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -60,6 +64,7 @@
     "SellPrice": 530,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -73,6 +78,7 @@
     "SellPrice": 540,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -86,6 +92,7 @@
     "SellPrice": 540,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -99,6 +106,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -112,6 +120,7 @@
     "SellPrice": 4400,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -125,6 +134,7 @@
     "SellPrice": 730,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -138,6 +148,7 @@
     "SellPrice": 825,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -151,6 +162,7 @@
     "SellPrice": 6250,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -164,6 +176,7 @@
     "SellPrice": 1125,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -177,6 +190,7 @@
     "SellPrice": 165,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -190,6 +204,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -203,6 +218,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -216,6 +232,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -229,6 +246,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -242,6 +260,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -255,6 +274,7 @@
     "SellPrice": 400,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -268,6 +288,7 @@
     "SellPrice": 680,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -281,6 +302,7 @@
     "SellPrice": 510,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -294,6 +316,7 @@
     "SellPrice": 665,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -307,6 +330,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -320,6 +344,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -333,6 +358,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -346,6 +372,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -359,6 +386,7 @@
     "SellPrice": 903,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -372,6 +400,7 @@
     "SellPrice": 1200,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -385,6 +414,7 @@
     "SellPrice": 1130,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -398,6 +428,7 @@
     "SellPrice": 565,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -411,6 +442,7 @@
     "SellPrice": 1015,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -424,6 +456,7 @@
     "SellPrice": 2560,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -437,6 +470,7 @@
     "SellPrice": 1400,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -450,6 +484,7 @@
     "SellPrice": 1605,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -463,6 +498,7 @@
     "SellPrice": 995,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -476,6 +512,7 @@
     "SellPrice": 1675,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -489,6 +526,7 @@
     "SellPrice": 1675,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -502,6 +540,7 @@
     "SellPrice": 795,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -515,6 +554,7 @@
     "SellPrice": 425,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -528,6 +568,7 @@
     "SellPrice": 4000,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -541,6 +582,7 @@
     "SellPrice": 4000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -554,6 +596,7 @@
     "SellPrice": 825,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -567,6 +610,7 @@
     "SellPrice": 275,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -580,6 +624,7 @@
     "SellPrice": 165,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -593,6 +638,23 @@
     "SellPrice": 5000,
     "IsStackable": false,
     "Equipable": "Hat",
+    "ItemChange": [
+      {
+        "Type": "ChargingStation",
+        "Item": {
+          "Id": 856,
+          "AppId": "item_856"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 120,
+        "DaysToComplete": 0,
+        "Cycles": 0,
+        "Output": {
+          "Id": 130,
+          "AppId": "clothing_130"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -606,6 +668,7 @@
     "SellPrice": 12750,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -619,6 +682,7 @@
     "SellPrice": 3000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -632,6 +696,7 @@
     "SellPrice": 4500,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -645,6 +710,7 @@
     "SellPrice": 2500,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -658,6 +724,7 @@
     "SellPrice": 375,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -671,6 +738,7 @@
     "SellPrice": 2000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -684,6 +752,7 @@
     "SellPrice": 3000,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -697,6 +766,7 @@
     "SellPrice": 1200,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -710,6 +780,7 @@
     "SellPrice": 2500,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -723,6 +794,7 @@
     "SellPrice": 3000,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -736,6 +808,7 @@
     "SellPrice": 600,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -749,6 +822,7 @@
     "SellPrice": 375,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -762,6 +836,7 @@
     "SellPrice": 5940,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -775,6 +850,7 @@
     "SellPrice": 1695,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -788,6 +864,7 @@
     "SellPrice": 565,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -801,6 +878,7 @@
     "SellPrice": 1200,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -814,6 +892,7 @@
     "SellPrice": 750,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -827,6 +906,7 @@
     "SellPrice": 1075,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -840,6 +920,7 @@
     "SellPrice": 750,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -853,6 +934,7 @@
     "SellPrice": 1075,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -866,6 +948,7 @@
     "SellPrice": 580,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -879,6 +962,7 @@
     "SellPrice": 335,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -892,6 +976,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -905,6 +990,7 @@
     "SellPrice": 750,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -918,6 +1004,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -931,6 +1018,7 @@
     "SellPrice": 1180,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -944,6 +1032,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -957,6 +1046,7 @@
     "SellPrice": 2560,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -970,6 +1060,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -983,6 +1074,7 @@
     "SellPrice": 7200,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -996,6 +1088,7 @@
     "SellPrice": 465,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1009,6 +1102,7 @@
     "SellPrice": 1580,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1022,6 +1116,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1035,6 +1130,7 @@
     "SellPrice": 3025,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1048,6 +1144,7 @@
     "SellPrice": 4050,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1061,6 +1158,7 @@
     "SellPrice": 2400,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1074,6 +1172,7 @@
     "SellPrice": 975,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1087,6 +1186,7 @@
     "SellPrice": 1010,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1100,6 +1200,7 @@
     "SellPrice": 715,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1113,6 +1214,7 @@
     "SellPrice": 1250,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1126,6 +1228,7 @@
     "SellPrice": 1150,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1139,6 +1242,7 @@
     "SellPrice": 1400,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1152,6 +1256,7 @@
     "SellPrice": 2750,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1165,6 +1270,7 @@
     "SellPrice": 2075,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1178,6 +1284,7 @@
     "SellPrice": 2400,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1191,6 +1298,7 @@
     "SellPrice": 1200,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1204,6 +1312,7 @@
     "SellPrice": 750,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1217,6 +1326,7 @@
     "SellPrice": 1550,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1230,6 +1340,7 @@
     "SellPrice": 850,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1243,6 +1354,7 @@
     "SellPrice": 1200,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1256,6 +1368,7 @@
     "SellPrice": 1200,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1269,6 +1382,7 @@
     "SellPrice": 1200,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1282,6 +1396,7 @@
     "SellPrice": 657,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1295,6 +1410,7 @@
     "SellPrice": 3010,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1308,6 +1424,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1321,6 +1438,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1334,6 +1452,7 @@
     "SellPrice": 400,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1347,6 +1466,7 @@
     "SellPrice": 800,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1360,6 +1480,7 @@
     "SellPrice": 1125,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1373,6 +1494,7 @@
     "SellPrice": 1850,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1386,6 +1508,7 @@
     "SellPrice": 1850,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1399,6 +1522,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1412,6 +1536,7 @@
     "SellPrice": 16000,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1425,6 +1550,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1438,6 +1564,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1451,6 +1578,7 @@
     "SellPrice": 600,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1464,6 +1592,7 @@
     "SellPrice": 665,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1477,6 +1606,7 @@
     "SellPrice": 984,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1490,6 +1620,7 @@
     "SellPrice": 1034,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1503,6 +1634,7 @@
     "SellPrice": 934,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1516,6 +1648,7 @@
     "SellPrice": 375,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1529,6 +1662,7 @@
     "SellPrice": 375,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1542,6 +1676,7 @@
     "SellPrice": 530,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1555,6 +1690,7 @@
     "SellPrice": 403,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1568,6 +1704,7 @@
     "SellPrice": 1125,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1581,6 +1718,7 @@
     "SellPrice": 665,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1594,6 +1732,7 @@
     "SellPrice": 1300,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1607,6 +1746,7 @@
     "SellPrice": 1400,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1620,6 +1760,7 @@
     "SellPrice": 655,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1633,6 +1774,7 @@
     "SellPrice": 1207,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1646,6 +1788,7 @@
     "SellPrice": 1400,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1659,6 +1802,7 @@
     "SellPrice": 403,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1672,6 +1816,7 @@
     "SellPrice": 1507,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1685,6 +1830,7 @@
     "SellPrice": 407,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1698,6 +1844,7 @@
     "SellPrice": 1400,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1711,6 +1858,7 @@
     "SellPrice": 1350,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1724,6 +1872,7 @@
     "SellPrice": 1500,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1737,6 +1886,7 @@
     "SellPrice": 1500,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1750,6 +1900,7 @@
     "SellPrice": 1500,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1763,6 +1914,7 @@
     "SellPrice": 1500,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1776,6 +1928,7 @@
     "SellPrice": 1153,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1789,6 +1942,7 @@
     "SellPrice": 1507,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1802,6 +1956,7 @@
     "SellPrice": 1507,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1815,6 +1970,7 @@
     "SellPrice": 1507,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1828,6 +1984,7 @@
     "SellPrice": 1507,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1841,6 +1998,7 @@
     "SellPrice": 600,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1854,6 +2012,7 @@
     "SellPrice": 600,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1867,6 +2026,7 @@
     "SellPrice": 903,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1880,6 +2040,7 @@
     "SellPrice": 600,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1893,6 +2054,7 @@
     "SellPrice": 903,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1906,6 +2068,7 @@
     "SellPrice": 1765,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1919,6 +2082,7 @@
     "SellPrice": 2765,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1932,6 +2096,7 @@
     "SellPrice": 1800,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1945,6 +2110,7 @@
     "SellPrice": 1600,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1958,6 +2124,7 @@
     "SellPrice": 1396,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1971,6 +2138,7 @@
     "SellPrice": 765,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1984,6 +2152,7 @@
     "SellPrice": 765,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1997,6 +2166,7 @@
     "SellPrice": 22750,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2010,6 +2180,7 @@
     "SellPrice": 525,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2023,6 +2194,7 @@
     "SellPrice": 730,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2036,6 +2208,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2049,6 +2222,7 @@
     "SellPrice": 2525,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2062,6 +2236,7 @@
     "SellPrice": 12750,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2075,6 +2250,7 @@
     "SellPrice": 1800,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2088,6 +2264,7 @@
     "SellPrice": 3000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2101,6 +2278,7 @@
     "SellPrice": 3000,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2114,6 +2292,7 @@
     "SellPrice": 865,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2127,6 +2306,7 @@
     "SellPrice": 1065,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2140,6 +2320,7 @@
     "SellPrice": 1065,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2153,6 +2334,7 @@
     "SellPrice": 1125,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2166,6 +2348,7 @@
     "SellPrice": 1125,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2179,6 +2362,7 @@
     "SellPrice": 1225,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2192,6 +2376,7 @@
     "SellPrice": 1225,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2205,6 +2390,7 @@
     "SellPrice": 1125,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2218,6 +2404,7 @@
     "SellPrice": 250,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2231,6 +2418,7 @@
     "SellPrice": 1180,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2244,6 +2432,7 @@
     "SellPrice": 800,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2257,6 +2446,7 @@
     "SellPrice": 800,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2270,6 +2460,7 @@
     "SellPrice": 1180,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2283,6 +2474,7 @@
     "SellPrice": 800,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2296,6 +2488,7 @@
     "SellPrice": 800,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2309,6 +2502,7 @@
     "SellPrice": 525,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2322,6 +2516,7 @@
     "SellPrice": 525,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2335,6 +2530,7 @@
     "SellPrice": 525,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2348,6 +2544,7 @@
     "SellPrice": 1080,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2361,6 +2558,7 @@
     "SellPrice": 1180,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2374,6 +2572,7 @@
     "SellPrice": 1180,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2387,6 +2586,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2400,6 +2600,7 @@
     "SellPrice": 835,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -2421,6 +2622,7 @@
     "SellPrice": 1125,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2434,6 +2636,7 @@
     "SellPrice": 1905,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2447,6 +2650,7 @@
     "SellPrice": 6765,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2460,6 +2664,7 @@
     "SellPrice": 5400,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2473,6 +2678,7 @@
     "SellPrice": 9875,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2486,6 +2692,7 @@
     "SellPrice": 900,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2499,6 +2706,7 @@
     "SellPrice": 1800,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2512,6 +2720,7 @@
     "SellPrice": 1304,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2525,6 +2734,7 @@
     "SellPrice": 9875,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2538,6 +2748,7 @@
     "SellPrice": 2000,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2551,6 +2762,7 @@
     "SellPrice": 1800,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2564,6 +2776,7 @@
     "SellPrice": 2560,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2577,6 +2790,7 @@
     "SellPrice": 1450,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2590,6 +2804,7 @@
     "SellPrice": 2000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2603,6 +2818,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2616,6 +2832,7 @@
     "SellPrice": 525,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2629,6 +2846,7 @@
     "SellPrice": 1180,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2642,6 +2860,7 @@
     "SellPrice": 800,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2655,6 +2874,7 @@
     "SellPrice": 903,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2668,6 +2888,7 @@
     "SellPrice": 1304,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2681,6 +2902,7 @@
     "SellPrice": 515,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2694,6 +2916,7 @@
     "SellPrice": 515,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2707,6 +2930,7 @@
     "SellPrice": 2600,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2720,6 +2944,7 @@
     "SellPrice": 2600,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2733,6 +2958,7 @@
     "SellPrice": 2600,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2746,6 +2972,7 @@
     "SellPrice": 2600,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2759,6 +2986,7 @@
     "SellPrice": 2600,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2772,6 +3000,7 @@
     "SellPrice": 1600,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2785,6 +3014,7 @@
     "SellPrice": 1600,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2798,6 +3028,7 @@
     "SellPrice": 1600,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2811,6 +3042,7 @@
     "SellPrice": 3600,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2824,6 +3056,7 @@
     "SellPrice": 1250,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2837,6 +3070,7 @@
     "SellPrice": 1250,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2850,6 +3084,7 @@
     "SellPrice": 1250,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2863,6 +3098,7 @@
     "SellPrice": 1065,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2876,6 +3112,7 @@
     "SellPrice": 1065,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2889,6 +3126,7 @@
     "SellPrice": 1065,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2902,6 +3140,7 @@
     "SellPrice": 1304,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2915,6 +3154,7 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2928,6 +3168,7 @@
     "SellPrice": 1800,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2941,6 +3182,7 @@
     "SellPrice": 1100,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2954,6 +3196,7 @@
     "SellPrice": 5400,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2967,6 +3210,7 @@
     "SellPrice": 2560,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2980,6 +3224,7 @@
     "SellPrice": 1601,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2993,6 +3238,7 @@
     "SellPrice": 5400,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3006,6 +3252,7 @@
     "SellPrice": 5400,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3019,6 +3266,7 @@
     "SellPrice": 9875,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3032,6 +3280,7 @@
     "SellPrice": 12250,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3045,6 +3294,7 @@
     "SellPrice": 5940,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3058,6 +3308,7 @@
     "SellPrice": 12250,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3071,6 +3322,7 @@
     "SellPrice": 5940,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3084,6 +3336,23 @@
     "SellPrice": 5000,
     "IsStackable": false,
     "Equipable": "Hat",
+    "ItemChange": [
+      {
+        "Type": "ChargingStation",
+        "Item": {
+          "Id": 856,
+          "AppId": "item_856"
+        },
+        "AmountNeeded": 1,
+        "SecondsToComplete": 120,
+        "DaysToComplete": 0,
+        "Cycles": 0,
+        "Output": {
+          "Id": 130,
+          "AppId": "clothing_130"
+        }
+      }
+    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3097,6 +3366,7 @@
     "SellPrice": 9875,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3110,6 +3380,7 @@
     "SellPrice": 9875,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3123,6 +3394,7 @@
     "SellPrice": 1695,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3136,6 +3408,7 @@
     "SellPrice": 903,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3149,6 +3422,7 @@
     "SellPrice": 1200,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3162,6 +3436,7 @@
     "SellPrice": 1850,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3175,6 +3450,7 @@
     "SellPrice": 9875,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3188,6 +3464,7 @@
     "SellPrice": 2400,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3201,6 +3478,7 @@
     "SellPrice": 5120,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3214,6 +3492,7 @@
     "SellPrice": 1200,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3227,6 +3506,7 @@
     "SellPrice": 3700,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3240,6 +3520,7 @@
     "SellPrice": 2400,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3253,6 +3534,7 @@
     "SellPrice": 5120,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3266,6 +3548,7 @@
     "SellPrice": 3700,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3279,6 +3562,7 @@
     "SellPrice": 2160,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3292,6 +3576,7 @@
     "SellPrice": 2160,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3305,6 +3590,7 @@
     "SellPrice": 2000000,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3318,6 +3604,7 @@
     "SellPrice": 2000000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3331,6 +3618,7 @@
     "SellPrice": 2000000,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3344,6 +3632,7 @@
     "SellPrice": 32850,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3357,6 +3646,7 @@
     "SellPrice": 6020,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3370,6 +3660,7 @@
     "SellPrice": 8000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3383,6 +3674,7 @@
     "SellPrice": 8000,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3396,6 +3688,7 @@
     "SellPrice": 8000,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3409,6 +3702,7 @@
     "SellPrice": 1695,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3422,6 +3716,7 @@
     "SellPrice": 3110,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3435,6 +3730,7 @@
     "SellPrice": 22750,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3448,6 +3744,7 @@
     "SellPrice": 1620,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3461,6 +3758,7 @@
     "SellPrice": 2000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3474,6 +3772,7 @@
     "SellPrice": 1800,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3487,6 +3786,7 @@
     "SellPrice": 1800,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3500,6 +3800,7 @@
     "SellPrice": 1620,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3513,6 +3814,7 @@
     "SellPrice": 1600,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3526,6 +3828,7 @@
     "SellPrice": 975,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3539,6 +3842,7 @@
     "SellPrice": 1620,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3552,6 +3856,7 @@
     "SellPrice": 1800,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3565,6 +3870,7 @@
     "SellPrice": 22750,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3578,6 +3884,7 @@
     "SellPrice": 12750,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3591,6 +3898,7 @@
     "SellPrice": 3000,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3604,6 +3912,7 @@
     "SellPrice": 3000,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3617,6 +3926,7 @@
     "SellPrice": 1800,
     "IsStackable": true,
     "Equipable": "Shoes",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3630,6 +3940,7 @@
     "SellPrice": 3000,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3643,6 +3954,7 @@
     "SellPrice": 3600,
     "IsStackable": true,
     "Equipable": "Face",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3656,6 +3968,7 @@
     "SellPrice": 1620,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3669,6 +3982,7 @@
     "SellPrice": 903,
     "IsStackable": true,
     "Equipable": "Pants",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3682,6 +3996,7 @@
     "SellPrice": 1620,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3695,6 +4010,7 @@
     "SellPrice": 9875,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3708,6 +4024,7 @@
     "SellPrice": 1620,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3721,6 +4038,7 @@
     "SellPrice": 1620,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3734,6 +4052,7 @@
     "SellPrice": 1620,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3747,6 +4066,7 @@
     "SellPrice": 1620,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3760,6 +4080,7 @@
     "SellPrice": 1620,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3773,6 +4094,7 @@
     "SellPrice": 9875,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3786,6 +4108,7 @@
     "SellPrice": 9875,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3799,6 +4122,7 @@
     "SellPrice": 1620,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3812,6 +4136,7 @@
     "SellPrice": 9875,
     "IsStackable": true,
     "Equipable": "Hat",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3825,6 +4150,7 @@
     "SellPrice": 1620,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3838,6 +4164,7 @@
     "SellPrice": 1620,
     "IsStackable": true,
     "Equipable": "Shirt",
+    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""

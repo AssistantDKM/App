@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
@@ -16,6 +14,7 @@ import '../contracts/json/people_item.dart';
 import '../contracts/redux/app_state.dart';
 import '../integration/dependency_injection.dart';
 import '../redux/misc/inventory_item_viewmodel.dart';
+import '../redux/misc/raw_materials_viewmodel.dart';
 
 class PeopleListPage extends StatelessWidget {
   final String analyticsEvent;
@@ -31,8 +30,8 @@ class PeopleListPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return StoreConnector<AppState, InventoryItemViewModel>(
-      converter: (store) => InventoryItemViewModel.fromStore(store),
+    return StoreConnector<AppState, RawMaterialsViewModel>(
+      converter: (store) => RawMaterialsViewModel.fromStore(store),
       builder: (_, viewModel) {
         return ItemsListPage<PeopleItem>(
           analyticsEvent: analyticsEvent,
@@ -77,154 +76,160 @@ class PeopleDetailsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ItemDetailsPage<PeopleItem>(
-      title: title,
-      isInDetailPane: isInDetailPane,
-      getItemFunc: () => getPeopleRepo().getItem(context, itemId),
-      getName: (loadedItem) => loadedItem.name,
-      contractToWidgetList: (loadedItem, isInDetailPane) {
-        String imagePath = loadedItem.icon.isEmpty //
-            ? getPath().unknownImagePath
-            : loadedItem.icon;
+    return StoreConnector<AppState, InventoryItemViewModel>(
+      converter: (store) => InventoryItemViewModel.fromStore(store),
+      builder: (storeCtx, viewModel) => ItemDetailsPage<PeopleItem>(
+        title: title,
+        isInDetailPane: isInDetailPane,
+        getItemFunc: () => getPeopleRepo().getItem(context, itemId),
+        getName: (loadedItem) => loadedItem.name,
+        contractToWidgetList: (loadedItem, isInDetailPane) {
+          String imagePath = loadedItem.icon.isEmpty //
+              ? getPath().unknownImagePath
+              : loadedItem.icon;
 
-        List<Widget> descripWidgets = commonDetailPageHeaderWidgets(
-          context,
-          icon: imagePath,
-          name: loadedItem.name,
-        );
+          List<Widget> descripWidgets = commonDetailPageHeaderWidgets(
+            context,
+            icon: imagePath,
+            name: loadedItem.name,
+          );
 
-        bool hasReqSpend = loadedItem.spendBeforeMoveIn > 0;
-        bool hasReqRel = loadedItem.relationshipBeforeMove > 0;
-        bool hasReqValidRel = loadedItem.relationshipBeforeMove < 101;
-        if ((hasReqSpend || hasReqRel) && hasReqValidRel) {
-          descripWidgets.addAll([
-            const EmptySpace2x(),
-            GenericItemGroup(
-              getTranslations().fromKey(LocaleKey.requiredForDeed),
-            ),
-            FlatCard(
-              child: deedRequirementsTilePresenter(
-                context,
-                loadedItem.deed,
-                loadedItem.spendBeforeMoveIn,
-                loadedItem.relationshipBeforeMove,
-              ),
-            ),
-          ]);
-        }
-
-        if (loadedItem.favouriteFood.isNotEmpty ||
-            loadedItem.hatedFood.isNotEmpty) {
-          descripWidgets.addAll([
-            const EmptySpace2x(),
-            GenericItemGroup(
-              getTranslations().fromKey(LocaleKey.foodPreferences),
-            ),
-          ]);
-
-          if (loadedItem.favouriteFood.isNotEmpty) {
+          bool hasReqSpend = loadedItem.spendBeforeMoveIn > 0;
+          bool hasReqRel = loadedItem.relationshipBeforeMove > 0;
+          bool hasReqValidRel = loadedItem.relationshipBeforeMove < 101;
+          if ((hasReqSpend || hasReqRel) && hasReqValidRel) {
             descripWidgets.addAll([
-              FlatCard(
-                child: foodPreferenceTilePresenter(
-                  context,
-                  appId: loadedItem.favouriteFood,
-                  subtitle: getTranslations().fromKey(LocaleKey.favourite),
-                  trailing: AppImage.relationshipPlus,
-                ),
+              const EmptySpace2x(),
+              GenericItemGroup(
+                getTranslations().fromKey(LocaleKey.requiredForDeed),
               ),
-            ]);
-          }
-          if (loadedItem.hatedFood.isNotEmpty) {
-            descripWidgets.addAll([
               FlatCard(
-                child: foodPreferenceTilePresenter(
+                child: deedRequirementsTilePresenter(
                   context,
-                  appId: loadedItem.hatedFood,
-                  subtitle: getTranslations().fromKey(LocaleKey.hated),
-                  trailing: AppImage.relationshipMinus,
+                  loadedItem.deed,
+                  loadedItem.spendBeforeMoveIn,
+                  loadedItem.relationshipBeforeMove,
+                  isPatron: viewModel.isPatron,
                 ),
               ),
             ]);
           }
 
-          double tableSize = 64;
-          descripWidgets.addAll([
-            FlatCard(
-              child: Column(
-                children: [
-                  getBaseWidget().customDivider(),
-                  const EmptySpace1x(),
-                  Row(
-                    mainAxisSize: MainAxisSize.max,
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: [
-                      Column(
-                        children: [
-                          LocalImage(
-                            imagePath: AppImage.animalProduct,
-                            width: tableSize,
-                          ),
-                          const EmptySpace1x(),
-                          LocalImage(
-                            imagePath: loadedItem.hatesAnimalProducts
-                                ? AppImage.preferenceDislikes
-                                : AppImage.preferenceNothing,
-                          ),
-                        ],
-                      ),
-                      Column(
-                        children: [
-                          LocalImage(
-                            imagePath: AppImage.vegetable,
-                            width: tableSize,
-                          ),
-                          const EmptySpace1x(),
-                          LocalImage(
-                            imagePath: loadedItem.hatesVegetables
-                                ? AppImage.preferenceDislikes
-                                : AppImage.preferenceNothing,
-                          ),
-                        ],
-                      ),
-                      Column(
-                        children: [
-                          LocalImage(
-                            imagePath: AppImage.fruit,
-                            width: tableSize,
-                          ),
-                          const EmptySpace1x(),
-                          LocalImage(
-                            imagePath: loadedItem.hatesFruits
-                                ? AppImage.preferenceDislikes
-                                : AppImage.preferenceNothing,
-                          ),
-                        ],
-                      ),
-                      Column(
-                        children: [
-                          LocalImage(
-                            imagePath: AppImage.meat,
-                            width: tableSize,
-                          ),
-                          const EmptySpace1x(),
-                          LocalImage(
-                            imagePath: loadedItem.hatesMeat
-                                ? AppImage.preferenceDislikes
-                                : AppImage.preferenceNothing,
-                          ),
-                        ],
-                      ),
-                    ],
+          if (loadedItem.favouriteFood.isNotEmpty ||
+              loadedItem.hatedFood.isNotEmpty) {
+            descripWidgets.addAll([
+              const EmptySpace2x(),
+              GenericItemGroup(
+                getTranslations().fromKey(LocaleKey.foodPreferences),
+              ),
+            ]);
+
+            if (loadedItem.favouriteFood.isNotEmpty) {
+              descripWidgets.addAll([
+                FlatCard(
+                  child: foodPreferenceTilePresenter(
+                    context,
+                    appId: loadedItem.favouriteFood,
+                    subtitle: getTranslations().fromKey(LocaleKey.favourite),
+                    trailing: AppImage.relationshipPlus,
+                    isPatron: viewModel.isPatron,
                   ),
-                  const EmptySpace3x(),
-                ],
-              ),
-            ),
-          ]);
-        }
+                ),
+              ]);
+            }
+            if (loadedItem.hatedFood.isNotEmpty) {
+              descripWidgets.addAll([
+                FlatCard(
+                  child: foodPreferenceTilePresenter(
+                    context,
+                    appId: loadedItem.hatedFood,
+                    subtitle: getTranslations().fromKey(LocaleKey.hated),
+                    trailing: AppImage.relationshipMinus,
+                    isPatron: viewModel.isPatron,
+                  ),
+                ),
+              ]);
+            }
 
-        return descripWidgets;
-      },
+            double tableSize = 64;
+            descripWidgets.addAll([
+              FlatCard(
+                child: Column(
+                  children: [
+                    getBaseWidget().customDivider(),
+                    const EmptySpace1x(),
+                    Row(
+                      mainAxisSize: MainAxisSize.max,
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        Column(
+                          children: [
+                            LocalImage(
+                              imagePath: AppImage.animalProduct,
+                              width: tableSize,
+                            ),
+                            const EmptySpace1x(),
+                            LocalImage(
+                              imagePath: loadedItem.hatesAnimalProducts
+                                  ? AppImage.preferenceDislikes
+                                  : AppImage.preferenceNothing,
+                            ),
+                          ],
+                        ),
+                        Column(
+                          children: [
+                            LocalImage(
+                              imagePath: AppImage.vegetable,
+                              width: tableSize,
+                            ),
+                            const EmptySpace1x(),
+                            LocalImage(
+                              imagePath: loadedItem.hatesVegetables
+                                  ? AppImage.preferenceDislikes
+                                  : AppImage.preferenceNothing,
+                            ),
+                          ],
+                        ),
+                        Column(
+                          children: [
+                            LocalImage(
+                              imagePath: AppImage.fruit,
+                              width: tableSize,
+                            ),
+                            const EmptySpace1x(),
+                            LocalImage(
+                              imagePath: loadedItem.hatesFruits
+                                  ? AppImage.preferenceDislikes
+                                  : AppImage.preferenceNothing,
+                            ),
+                          ],
+                        ),
+                        Column(
+                          children: [
+                            LocalImage(
+                              imagePath: AppImage.meat,
+                              width: tableSize,
+                            ),
+                            const EmptySpace1x(),
+                            LocalImage(
+                              imagePath: loadedItem.hatesMeat
+                                  ? AppImage.preferenceDislikes
+                                  : AppImage.preferenceNothing,
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                    const EmptySpace3x(),
+                  ],
+                ),
+              ),
+            ]);
+          }
+
+          return descripWidgets;
+        },
+      ),
     );
   }
 }

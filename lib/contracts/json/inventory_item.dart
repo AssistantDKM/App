@@ -7,6 +7,7 @@ import 'dart:convert';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
 import '../interface/item_base_presenter.dart';
+import 'inventory_item_change.dart';
 import 'inventory_item_consumable.dart';
 import 'inventory_item_craftable.dart';
 import 'enum/equipable_type.dart';
@@ -22,6 +23,7 @@ class InventoryItem extends ItemBasePresenter {
   final InventoryItemConsumable consumable;
   final int requiredLicenceLevel;
   final InventoryItemCreature? creatureDetails;
+  final List<InventoryItemChange>? itemChanges;
 
   InventoryItem({
     required this.id,
@@ -36,6 +38,7 @@ class InventoryItem extends ItemBasePresenter {
     required this.consumable,
     required this.requiredLicenceLevel,
     required this.creatureDetails,
+    required this.itemChanges,
   }) : super(appId, name, icon);
 
   factory InventoryItem.fromJson(String str) =>
@@ -56,5 +59,10 @@ class InventoryItem extends ItemBasePresenter {
         consumable: InventoryItemConsumable.fromMap(json['Consumable']),
         requiredLicenceLevel: readIntSafe(json, 'RequiredLicenceLevel'),
         creatureDetails: InventoryItemCreature.fromMap(json['CreatureDetails']),
+        itemChanges: readListSafe(
+          json,
+          'ItemChange',
+          (x) => InventoryItemChange.fromMap(x),
+        ),
       );
 }

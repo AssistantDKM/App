@@ -31,4 +31,24 @@ class InventoryRepository extends BaseGameItemRepository<InventoryItem> {
       return false;
     });
   }
+
+  Future<ResultWithValue<List<InventoryItem>>> getDepositIntosOfItem(
+    BuildContext context,
+    String itemId,
+  ) {
+    return protectedGetUsagesOfItem(context, itemId,
+        filter: (InventoryItem iItem) {
+      // ignore: unnecessary_null_comparison
+      if (iItem.itemChanges == null) return false;
+      if (iItem.itemChanges!.isEmpty) return false;
+
+      for (var itemChange in iItem.itemChanges!) {
+        // ignore: unnecessary_null_comparison
+        if (itemChange.output == null) return false;
+        if (itemChange.output.appId == itemId) return true;
+      }
+
+      return false;
+    });
+  }
 }

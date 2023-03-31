@@ -9,7 +9,7 @@ import '../../contracts/json/inventory_item.dart';
 import '../../contracts/redux/app_state.dart';
 import '../../contracts/required_item.dart';
 import '../../helper/generic_repository_helper.dart';
-import '../../pages/inventory_pages.dart';
+import '../../helper/navigate_helper.dart';
 import '../../redux/misc/inventory_item_viewmodel.dart';
 import '../../services/json/inventory_repository.dart';
 
@@ -120,12 +120,10 @@ class GameUpdatesDetailsPage extends StatelessWidget {
           bodyCtx,
           gItem,
           detailIndex,
-          onTap: () => getNavigation().navigateAwayFromHomeAsync(
-            bodyCtx,
-            navigateTo: (_) {
-// if (gItem.appId.contains(AppJsonPrefix.item))
-              return InventoryDetailsPage(gItem.appId, title: gItem.name);
-            },
+          onTap: () => navigateToInventory(
+            context: bodyCtx,
+            item: gItem,
+            isPatron: viewModel.isPatron,
           ),
         ));
       }

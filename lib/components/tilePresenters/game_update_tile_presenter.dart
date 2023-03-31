@@ -2,7 +2,7 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../contracts/data/game_update.dart';
-import '../../pages/updates/game_updates_detail_page.dart';
+import '../../helper/navigate_helper.dart';
 
 Widget gameUpdateTilePresenter(
   BuildContext tileCtx,
@@ -44,12 +44,7 @@ Widget gameUpdateTilePresenter(
   );
 
   return InkWell(
-    onTap: onTap ??
-        () => getNavigation().navigateAwayFromHomeAsync(
-              tileCtx,
-              navigateTo: (_) =>
-                  GameUpdatesDetailsPage(gameUpdate: updateNewItems),
-            ),
+    onTap: onTap ?? () => navigateToGameUpdate(tileCtx, updateNewItems),
     child: Padding(
       padding: const EdgeInsets.all(12),
       child: content,
@@ -72,11 +67,7 @@ Widget gameUpdateItemDetailTilePresenter(
     ),
     title: Text(updateItem.title),
     subtitle: Text(simpleDate(updateItem.releaseDate)),
-    onTap: onTap ??
-        () => getNavigation().navigateAwayFromHomeAsync(
-              tileCtx,
-              navigateTo: (_) => GameUpdatesDetailsPage(gameUpdate: updateItem),
-            ),
+    onTap: onTap ?? () => navigateToGameUpdate(tileCtx, updateItem),
   );
 }
 

@@ -42,11 +42,13 @@
   "unknown": "Unknown",
   "add": "Add",
   "search": "Search",
+  "minutes": "{0} minutes",
   "settings": "Settings",
   "googlePlay": "Google Play",
   "appStore": "App Store",
   "allItems": "All Items",
   "news": "News",
+  "seconds": "{0} seconds",
   "discord": "Discord",
   "twitter": "Twitter",
   "contributors": "Contributors",
@@ -62,6 +64,7 @@
   "somethingWentWrong": "Something went wrong",
   "share": "Share",
   "feedback": "Feedback",
+  "newItemsAdded": "New Items Added",
   "favourites": "Favourites",
   "openCollective": "Open Collective",
   "privacyPolicy": "Privacy Policy",
@@ -103,6 +106,7 @@
   "defaultFont": "Default Font",
   "settingsFont": "Font",
   "translators": "Translators",
+  "viewPostOnline": "View post online",
   "addedInUpdate": "Added in update",
   "habitat": "Habitat",
   "habitatBushland": "Bushland",
@@ -142,5 +146,5 @@
   "menuFood": "Food",
   "menuCrafting": "Crafting",
   "requiredLicence": "Required Licence",
-  "hashCode": "EAEB380307B006F6B6A51F6EC6D02871"
+  "hashCode": "443E13DEAB24FD399546ECCBBB960DF9"
 }

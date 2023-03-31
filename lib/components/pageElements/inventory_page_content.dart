@@ -1,3 +1,4 @@
+import 'package:assistant_dinkum_app/contracts/json/inventory_item_change.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
@@ -12,15 +13,16 @@ import '../../contracts/json/inventory_item_creature.dart';
 import '../../contracts/pageItem/inventory_page_item.dart';
 import '../../contracts/required_item.dart';
 import '../../helper/generic_repository_helper.dart';
+import '../../helper/navigate_helper.dart';
 import '../../helper/patreon_helper.dart';
 import '../../helper/position_helper.dart';
 import '../../pages/inventory_pages.dart';
-import '../../pages/licences_pages.dart';
 import '../../pages/misc/all_possible_outputs_future_page.dart';
 import '../../redux/misc/inventory_item_viewmodel.dart';
 import '../chip/effect_chip_presenter.dart';
 import '../tilePresenters/game_update_tile_presenter.dart';
 import '../tilePresenters/inventory_tile_presenter.dart';
+import '../tilePresenters/item_change_tile_presenter.dart';
 import '../tilePresenters/licence_tile_presenter.dart';
 import '../tilePresenters/required_item_tile_presenter.dart';
 import 'inventory_item_favourites_icon.dart';
@@ -56,6 +58,7 @@ List<Widget> Function(
         )),
         const EmptySpace2x(),
         const GenericItemDescription(
+          //TODO translate
           'This item exists in the game files but the item is not available in game. The developer(s) may not want this item publicly visible, it may be spoilers, unfinished work, etc. ',
         ),
       ];
@@ -140,6 +143,7 @@ List<Widget> Function(
             contentsContext,
             appId: required.appId,
             quantity: required.quantity,
+            isPatron: viewmodel.isPatron,
             onTap: (isInDetailPane && updateDetailView != null)
                 ? () => updateDetailView(
                       InventoryDetailsPage(
@@ -229,7 +233,10 @@ List<Widget> Function(
                 ? () => updateDetailView(
                       InventoryDetailsPage(
                         loadedItem.appId,
-                        title: loadedItem.appId.toString(),
+                        title: (loadedItem.hidden == true &&
+                                viewmodel.isPatron == false)
+                            ? obscureText(loadedItem.appId.toString())
+                            : loadedItem.appId.toString(),
                         isInDetailPane: isInDetailPane,
                         updateDetailView: updateDetailView,
                       ),
@@ -244,12 +251,37 @@ List<Widget> Function(
           usagesPresenter,
           viewMoreOnPress: (isInDetailPane && updateDetailView != null)
               ? () => updateDetailView(allItemsPageNavigate(contentsContext))
-              : () => getNavigation().navigateAsync(
+              : () => getNavigation().navigateAwayFromHomeAsync(
                     contentsContext,
                     navigateTo: allItemsPageNavigate,
                   ),
         ),
       );
+    }
+
+    if (loadedPageItem.item.itemChanges != null &&
+        loadedPageItem.item.itemChanges!.isNotEmpty &&
+        loadedPageItem.itemChangeDetails != null &&
+        loadedPageItem.itemChangeDetails!.isNotEmpty &&
+        loadedPageItem.item.itemChanges!.length ==
+            loadedPageItem.itemChangeDetails!.length) {
+      descripWidgets.add(const EmptySpace2x());
+      descripWidgets.add(const GenericItemGroup(
+        'Process using', // TODO translate
+      ));
+
+      List<InventoryItemChange> itemChanges = loadedPageItem.item.itemChanges!;
+      for (int i = 0; i < itemChanges.length; i++) {
+        descripWidgets.add(itemChangeTilePresenter(
+          ctx: contentsContext,
+          itemChange: itemChanges[i],
+          currentAppId: loadedPageItem.item.appId,
+          details: loadedPageItem.itemChangeDetails![i],
+          isInDetailPane: isInDetailPane,
+          updateDetailView: updateDetailView,
+          isPatron: viewmodel.isPatron,
+        ));
+      }
     }
 
     if (loadedPageItem.requiredLicence != null) {
@@ -263,12 +295,9 @@ List<Widget> Function(
           contentsContext,
           loadedPageItem.requiredLicence!,
           0,
-          onTap: () => getNavigation().navigateAwayFromHomeAsync(
+          onTap: () => navigateToLicence(
             contentsContext,
-            navigateTo: (BuildContext navigateCtx) => LicenceDetailsPage(
-              loadedPageItem.requiredLicence!.appId,
-              title: loadedPageItem.requiredLicence!.name,
-            ),
+            loadedPageItem.requiredLicence!,
           ),
         ),
       ));
@@ -277,7 +306,12 @@ List<Widget> Function(
     List<RequiredItem> cartItems = viewmodel.cartItems
         .where((RequiredItem ci) => ci.appId == loadedPageItem.item.appId)
         .toList();
-    descripWidgets.addAll(getCartItems(contentsContext, viewmodel, cartItems));
+    descripWidgets.addAll(getCartItems(
+      contentsContext,
+      viewmodel,
+      cartItems,
+      viewmodel.isPatron,
+    ));
 
     if (loadedPageItem.fromUpdate != null) {
       descripWidgets.add(const EmptySpace2x());

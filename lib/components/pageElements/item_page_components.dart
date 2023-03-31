@@ -137,6 +137,7 @@ List<Widget> getCartItems(
   BuildContext context,
   InventoryItemViewModel vm,
   List<RequiredItem> cartItems,
+  bool isPatron,
 ) {
   List<Widget> cartWidgets = List.empty(growable: true);
 
@@ -154,8 +155,11 @@ List<Widget> getCartItems(
             cartCtx,
             appId: cartItem.appId,
             quantity: cartItem.quantity,
-            onTap: () async => await getNavigation()
-                .navigateAsync(context, navigateToNamed: Routes.cart),
+            isPatron: isPatron,
+            onTap: () => getNavigation().navigateAsync(
+              context,
+              navigateToNamed: Routes.cart,
+            ),
           );
         },
       ),
