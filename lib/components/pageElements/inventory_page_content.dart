@@ -1,4 +1,3 @@
-import 'package:assistant_dinkum_app/contracts/json/inventory_item_change.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
@@ -10,6 +9,7 @@ import '../../contracts/json/inventory_item_consumable.dart';
 import '../../contracts/json/inventory_item_consumable_buff.dart';
 import '../../contracts/json/inventory_item_craftable_required.dart';
 import '../../contracts/json/inventory_item_creature.dart';
+import '../../contracts/pageItem/inventory_item_change_page_item.dart';
 import '../../contracts/pageItem/inventory_page_item.dart';
 import '../../contracts/required_item.dart';
 import '../../helper/generic_repository_helper.dart';
@@ -270,13 +270,13 @@ List<Widget> Function(
         'Process using', // TODO translate
       ));
 
-      List<InventoryItemChange> itemChanges = loadedPageItem.item.itemChanges!;
-      for (int i = 0; i < itemChanges.length; i++) {
+      List<InventoryItemChangePageItem> itemChanges =
+          loadedPageItem.itemChangeDetails ?? List.empty();
+      for (var itemChangeDetail in itemChanges) {
         descripWidgets.add(itemChangeTilePresenter(
           ctx: contentsContext,
-          itemChange: itemChanges[i],
           currentAppId: loadedPageItem.item.appId,
-          details: loadedPageItem.itemChangeDetails![i],
+          details: itemChangeDetail,
           isInDetailPane: isInDetailPane,
           updateDetailView: updateDetailView,
           isPatron: viewmodel.isPatron,

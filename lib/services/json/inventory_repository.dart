@@ -14,22 +14,27 @@ class InventoryRepository extends BaseGameItemRepository<InventoryItem> {
           findItemById: (r, appId) => r.appId == appId,
         );
 
+  static bool getUsagesOfItemFilter(InventoryItem iItem, String itemId) {
+    // ignore: unnecessary_null_comparison
+    if (iItem.craftable == null) return false;
+    // ignore: unnecessary_null_comparison
+    if (iItem.craftable.requiredItems == null) return false;
+    if (iItem.craftable.requiredItems.isEmpty) return false;
+    if (iItem.craftable.requiredItems
+            .any((reqItem) => reqItem.appId == itemId) //
+        ) return true;
+    return false;
+  }
+
   Future<ResultWithValue<List<InventoryItem>>> getUsagesOfItem(
     BuildContext context,
     String itemId,
   ) {
-    return protectedGetUsagesOfItem(context, itemId,
-        filter: (InventoryItem iItem) {
-      // ignore: unnecessary_null_comparison
-      if (iItem.craftable == null) return false;
-      // ignore: unnecessary_null_comparison
-      if (iItem.craftable.requiredItems == null) return false;
-      if (iItem.craftable.requiredItems.isEmpty) return false;
-      if (iItem.craftable.requiredItems
-              .any((reqItem) => reqItem.appId == itemId) //
-          ) return true;
-      return false;
-    });
+    return protectedGetUsagesOfItem(
+      context,
+      itemId,
+      filter: (InventoryItem iItem) => getUsagesOfItemFilter(iItem, itemId),
+    );
   }
 
   Future<ResultWithValue<List<InventoryItem>>> getDepositIntosOfItem(

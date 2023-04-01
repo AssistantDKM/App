@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 
 import '../../constants/app_image.dart';
 import '../../contracts/json/enum/item_change_type.dart';
-import '../../contracts/json/inventory_item_change.dart';
 import '../../contracts/pageItem/inventory_item_change_page_item.dart';
 import 'item_base_tile_presenter.dart';
 
@@ -31,7 +30,6 @@ const itemsThatNeedAnItemFromLoadedItems = [
 Widget itemChangeTilePresenter({
   required BuildContext ctx,
   required String currentAppId,
-  required InventoryItemChange itemChange,
   required InventoryItemChangePageItem details,
   required bool isInDetailPane,
   void Function(Widget newDetailView)? updateDetailView,
@@ -43,7 +41,7 @@ Widget itemChangeTilePresenter({
     subtitle: getTranslations().fromKey(LocaleKey.unknown),
   );
 
-  if (itemsThatNeedAnItemFromLoadedItems.contains(itemChange.type)) {
+  if (itemsThatNeedAnItemFromLoadedItems.contains(details.type)) {
     if (details.outputDetails != null) {
       return FlatCard(
         child: itemBasePlainTilePresenter(
@@ -51,7 +49,7 @@ Widget itemChangeTilePresenter({
           title: details.itemDetails.name,
           subtitle: getTranslations()
               .fromKey(LocaleKey.seconds)
-              .replaceAll('{0}', itemChange.secondsToComplete.toString()),
+              .replaceAll('{0}', details.secondsToComplete.toString()),
           trailing: (currentAppId != details.outputDetails!.appId)
               ? LocalImage(imagePath: details.outputDetails!.icon)
               : null,
@@ -73,7 +71,7 @@ Widget itemChangeTilePresenter({
           title: details.itemDetails.name,
           subtitle: getTranslations()
               .fromKey(LocaleKey.seconds)
-              .replaceAll('{0}', itemChange.secondsToComplete.toString()),
+              .replaceAll('{0}', details.secondsToComplete.toString()),
           trailing: Text(details.outputTableDetails.length.toString()),
         ),
       );

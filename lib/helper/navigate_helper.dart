@@ -63,9 +63,10 @@ void navigateToInventoryOrUpdateView({
       item: item,
       isPatron: isPatron,
     );
+    return;
   }
 
-  updateDetailView!(
+  updateDetailView(
     InventoryDetailsPage(
       item.appId,
       title: item.name,

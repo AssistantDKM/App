@@ -1,5 +1,3 @@
-import 'package:assistant_dinkum_app/contracts/data/game_update.dart';
-import 'package:assistant_dinkum_app/contracts/json/licence_item.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
@@ -10,9 +8,9 @@ import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
 import '../components/tilePresenters/inventory_tile_presenter.dart';
 import '../constants/app_json.dart';
+import '../contracts/data/game_update.dart';
 import '../contracts/json/inventory_item.dart';
-import '../contracts/json/inventory_item_change.dart';
-import '../contracts/pageItem/inventory_item_change_page_item.dart';
+import '../contracts/json/licence_item.dart';
 import '../contracts/pageItem/inventory_page_item.dart';
 import '../contracts/redux/app_state.dart';
 import '../helper/future_helper.dart';
@@ -174,64 +172,10 @@ Future<ResultWithValue<InventoryPageItem>> getPageItem(
       result.itemChangeDetails = itemChangeDetails.value;
     }
   } catch (ex) {
-    getLog().d(ex.toString());
+    getLog().e(ex.toString());
   }
 
   return ResultWithValue(itemResult.isSuccess, result, '');
-}
-
-Future<ResultWithValue<List<InventoryItemChangePageItem>>>
-    getItemChangePageData(
-  BuildContext funcCtx,
-  List<InventoryItemChange>? itemChanges,
-) async {
-  if (itemChanges == null) {
-    return ResultWithValue<List<InventoryItemChangePageItem>>(
-      false,
-      List.empty(),
-      '',
-    );
-  }
-
-  List<InventoryItemChangePageItem> itemChangePageDatas =
-      List.empty(growable: true);
-  for (var itemChange in itemChanges) {
-    var itemDetailsFuture = getItemFromGenericRepoUsingAppId(
-      funcCtx,
-      itemChange.item.appId,
-    );
-    var outputDetailsFuture = getItemFromGenericRepoUsingAppId(
-      funcCtx,
-      itemChange.output.appId,
-    );
-
-    List<Future<ResultWithValue<InventoryItem>>> outputTableFutures =
-        List.empty(growable: true);
-    for (var outputTableRow in itemChange.outputTable) {
-      outputTableFutures.add(getItemFromGenericRepoUsingAppId(
-        funcCtx,
-        outputTableRow.appId,
-      ));
-    }
-
-    var itemDetailsResult = await itemDetailsFuture;
-    var outputDetailsResult = await outputDetailsFuture;
-    var outputTableResults = await Future.wait(outputTableFutures);
-
-    itemChangePageDatas.add(InventoryItemChangePageItem(
-      itemDetails: itemDetailsResult.value,
-      outputDetails: outputDetailsResult.isSuccess //
-          ? outputDetailsResult.value
-          : null,
-      outputTableDetails: outputTableResults.map((outT) => outT.value).toList(),
-    ));
-  }
-
-  return ResultWithValue<List<InventoryItemChangePageItem>>(
-    itemChangePageDatas.isNotEmpty,
-    itemChangePageDatas,
-    '',
-  );
 }
 
 Widget? getFloatingActionButton({
