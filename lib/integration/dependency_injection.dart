@@ -11,6 +11,7 @@ import '../services/base/theme_service.dart';
 import '../services/json/data_json_repository.dart';
 import '../services/json/inventory_repository.dart';
 import '../services/json/licence_repository.dart';
+import '../services/json/lookup_repository.dart';
 import '../services/json/milestone_repository.dart';
 import '../services/json/people_repository.dart';
 
@@ -38,6 +39,7 @@ void initDependencyInjection(EnvironmentSettings env) {
   getIt.registerSingleton(MilestoneRepository());
 
   getIt.registerSingleton(DataJsonRepository());
+  getIt.registerSingleton(LookupRepository());
 
   getIt.registerFactoryParam<InventoryRepository, LocaleKey, String>(
     (LocaleKey key, String unused) => InventoryRepository(key),
@@ -51,6 +53,7 @@ LicenceRepository getLicenceRepo() => getIt<LicenceRepository>();
 MilestoneRepository getMilestoneRepo() => getIt<MilestoneRepository>();
 
 DataJsonRepository getDataRepo() => getIt<DataJsonRepository>();
+LookupRepository getLookupRepo() => getIt<LookupRepository>();
 
 InventoryRepository getInventoryRepo(LocaleKey key) =>
     getIt<InventoryRepository>(param1: key, param2: 'di');

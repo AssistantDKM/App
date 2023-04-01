@@ -7,63 +7,59 @@ import 'dart:convert';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
 import 'enum/item_change_type.dart';
-import 'inventory_item_change_output.dart';
+import 'item_change_output.dart';
 
-class InventoryItemChange {
+class ItemChange {
   final ItemChangeType type;
-  final InventoryItemChangeOutput item;
+  final String toolAppId;
+  final String inputAppId;
   final int amountNeeded;
   final int secondsToComplete;
   final int daysToComplete;
   final int cycles;
-  final InventoryItemChangeOutput output;
+  final String outputAppId;
   final List<InventoryItemChangeOutput> outputTable;
 
-  InventoryItemChange({
+  ItemChange({
     required this.type,
-    required this.item,
+    required this.toolAppId,
+    required this.inputAppId,
     required this.amountNeeded,
     required this.secondsToComplete,
     required this.daysToComplete,
     required this.cycles,
-    required this.output,
+    required this.outputAppId,
     required this.outputTable,
   });
 
-  factory InventoryItemChange.fromJson(String str) =>
-      InventoryItemChange.fromMap(json.decode(str));
+  factory ItemChange.fromJson(String str) =>
+      ItemChange.fromMap(json.decode(str));
 
-  factory InventoryItemChange.fromMap(Map<String, dynamic>? json) {
+  factory ItemChange.fromMap(Map<String, dynamic>? json) {
     if (json == null) {
-      return InventoryItemChange(
+      return ItemChange(
         type: ItemChangeType.unknown,
-        item: InventoryItemChangeOutput(
-          id: 0,
-          appId: '',
-          percentageChance: null,
-        ),
+        toolAppId: '',
+        inputAppId: '',
         amountNeeded: 0,
         secondsToComplete: 0,
         daysToComplete: 0,
         cycles: 0,
-        output: InventoryItemChangeOutput(
-          id: 0,
-          appId: '',
-          percentageChance: null,
-        ),
+        outputAppId: '',
         outputTable: List.empty(),
       );
     }
 
-    return InventoryItemChange(
+    return ItemChange(
       type: itemChangeTypeValues.map[readStringSafe(json, 'Type').toString()] ??
           ItemChangeType.unknown,
-      item: InventoryItemChangeOutput.fromMap(json['Item']),
+      toolAppId: readStringSafe(json, 'ToolAppId'),
+      inputAppId: readStringSafe(json, 'InputAppId'),
       amountNeeded: readIntSafe(json, 'AmountNeeded'),
       secondsToComplete: readIntSafe(json, 'SecondsToComplete'),
       daysToComplete: readIntSafe(json, 'DaysToComplete'),
       cycles: readIntSafe(json, 'Cycles'),
-      output: InventoryItemChangeOutput.fromMap(json['Output']),
+      outputAppId: readStringSafe(json, 'OutputAppId'),
       outputTable: readListSafe(
         json,
         'OutputTable',

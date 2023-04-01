@@ -1,33 +1,37 @@
 import '../json/enum/item_change_type.dart';
 import '../json/inventory_item.dart';
-import '../json/inventory_item_change.dart';
-import '../json/inventory_item_change_output.dart';
+import '../json/item_change.dart';
+import '../json/item_change_output.dart';
 
-class InventoryItemChangePageItem extends InventoryItemChange {
-  final InventoryItem itemDetails;
+class ItemChangePageItem extends ItemChange {
+  final InventoryItem toolDetails;
+  final InventoryItem inputDetails;
   final InventoryItem? outputDetails;
   final List<InventoryItem> outputTableDetails;
 
-  InventoryItemChangePageItem({
+  ItemChangePageItem({
     required ItemChangeType type,
-    required InventoryItemChangeOutput item,
+    required String toolAppId,
+    required String inputAppId,
     required int amountNeeded,
     required int secondsToComplete,
     required int daysToComplete,
     required int cycles,
-    required InventoryItemChangeOutput output,
+    required String outputAppId,
     required List<InventoryItemChangeOutput> outputTable,
-    required this.itemDetails,
+    required this.toolDetails,
+    required this.inputDetails,
     required this.outputDetails,
     required this.outputTableDetails,
   }) : super(
           type: type,
-          item: item,
+          toolAppId: toolAppId,
+          inputAppId: inputAppId,
           amountNeeded: amountNeeded,
           secondsToComplete: secondsToComplete,
           daysToComplete: daysToComplete,
           cycles: cycles,
-          output: output,
+          outputAppId: outputAppId,
           outputTable: outputTable,
         );
 }

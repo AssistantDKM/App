@@ -8,38 +8,6 @@
     "SellPrice": 1290,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -69,38 +37,6 @@
     "SellPrice": 8416,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 5,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 5,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -130,38 +66,6 @@
     "SellPrice": 2784,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -191,38 +95,6 @@
     "SellPrice": 1200,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -251,38 +123,6 @@
     "SellPrice": 4320,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -311,38 +151,6 @@
     "SellPrice": 1560,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -371,38 +179,6 @@
     "SellPrice": 2346,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -432,38 +208,6 @@
     "SellPrice": 4384,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 3,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 3,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -491,38 +235,6 @@
     "SellPrice": 3498,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -550,38 +262,6 @@
     "SellPrice": 4160,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -609,38 +289,6 @@
     "SellPrice": 998,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -672,38 +320,6 @@
     "SellPrice": 7800,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 3,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 3,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -732,38 +348,6 @@
     "SellPrice": 24600,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 9,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 9,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -794,38 +378,6 @@
     "SellPrice": 1996,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -854,38 +406,6 @@
     "SellPrice": 3996,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -914,38 +434,6 @@
     "SellPrice": 1992,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -975,38 +463,6 @@
     "SellPrice": 2103,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -1036,38 +492,6 @@
     "SellPrice": 10400,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 6,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 6,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -1096,38 +520,6 @@
     "SellPrice": 1408,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -1155,38 +547,6 @@
     "SellPrice": 3396,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -1215,38 +575,6 @@
     "SellPrice": 3308,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -1274,38 +602,6 @@
     "SellPrice": 3908,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -1334,38 +630,6 @@
     "SellPrice": 4808,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 3,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 3,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -1393,38 +657,6 @@
     "SellPrice": 1708,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -1454,38 +686,6 @@
     "SellPrice": 4620,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -1515,38 +715,6 @@
     "SellPrice": 3200,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -1575,38 +743,6 @@
     "SellPrice": 16000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 6,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 6,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -1635,38 +771,6 @@
     "SellPrice": 100,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 997,
-          "AppId": "cooking_997"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 997,
-          "AppId": "cooking_997"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -1695,38 +799,6 @@
     "SellPrice": 7616,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 4,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 4,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -1755,38 +827,6 @@
     "SellPrice": 3960,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -1814,38 +854,6 @@
     "SellPrice": 20200,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 8,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 8,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -1874,38 +882,6 @@
     "SellPrice": 2508,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -1935,38 +911,6 @@
     "SellPrice": 3008,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -1994,38 +938,6 @@
     "SellPrice": 18060,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 10,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 10,
-        "Output": {
-          "Id": 969,
-          "AppId": "cooking_969"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -2053,38 +965,6 @@
     "SellPrice": 3870,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 12,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 6,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 970,
-          "AppId": "cooking_970"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",

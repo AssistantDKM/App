@@ -8,7 +8,6 @@
     "SellPrice": 500,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "Logging",
     "RequiredLicenceAppId": "licence_2",
     "RequiredLicenceLevel": 1,
@@ -23,7 +22,6 @@
     "SellPrice": 550,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -81,23 +79,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 6
     },
-    "ItemChange": [
-      {
-        "Type": "ChargingStation",
-        "Item": {
-          "Id": 856,
-          "AppId": "item_856"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 600,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 3,
-          "AppId": "item_3"
-        }
-      }
-    ],
     "RequiredLicence": "Logging",
     "RequiredLicenceAppId": "licence_2",
     "RequiredLicenceLevel": 3,
@@ -112,7 +93,6 @@
     "SellPrice": 630,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "Fishing",
     "RequiredLicenceAppId": "licence_3",
     "RequiredLicenceLevel": 1,
@@ -128,7 +108,6 @@
     "SellPrice": 450,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -142,7 +121,6 @@
     "SellPrice": 450,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "Excavation",
     "RequiredLicenceAppId": "licence_16",
     "RequiredLicenceLevel": 1,
@@ -157,7 +135,6 @@
     "SellPrice": 400,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "Farming",
     "RequiredLicenceAppId": "licence_11",
     "RequiredLicenceLevel": 1,
@@ -172,7 +149,6 @@
     "SellPrice": 600,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "Mining",
     "RequiredLicenceAppId": "licence_1",
     "RequiredLicenceLevel": 1,
@@ -187,23 +163,6 @@
     "SellPrice": 3000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "ChargingStation",
-        "Item": {
-          "Id": 856,
-          "AppId": "item_856"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 300,
-        "DaysToComplete": 0,
-        "Cycles": 0,
-        "Output": {
-          "Id": 9,
-          "AppId": "item_9"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -217,7 +176,6 @@
     "SellPrice": 5000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "Farming",
     "RequiredLicenceAppId": "licence_11",
     "RequiredLicenceLevel": 1,
@@ -261,7 +219,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -275,7 +232,6 @@
     "SellPrice": 10,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -289,23 +245,6 @@
     "SellPrice": 25,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CompostBin",
-        "Item": {
-          "Id": 703,
-          "AppId": "item_703"
-        },
-        "AmountNeeded": 8,
-        "SecondsToComplete": 0,
-        "DaysToComplete": 1,
-        "Cycles": 1,
-        "Output": {
-          "Id": 275,
-          "AppId": "item_275"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -343,7 +282,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -386,7 +324,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -429,7 +366,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -443,38 +379,6 @@
     "SellPrice": 400,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 16,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 19,
-          "AppId": "cooking_19"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 8,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 19,
-          "AppId": "cooking_19"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -512,7 +416,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -526,41 +429,6 @@
     "SellPrice": 100,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "StoneGrinder",
-        "Item": {
-          "Id": 27,
-          "AppId": "furniture_27"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 10,
-        "DaysToComplete": 0,
-        "Cycles": 3,
-        "OutputTable": [
-          {
-            "Id": 104,
-            "AppId": "item_104",
-            "PercentageChance": 1.0
-          },
-          {
-            "Id": 106,
-            "AppId": "item_106",
-            "PercentageChance": 15.0
-          },
-          {
-            "Id": 105,
-            "AppId": "item_105",
-            "PercentageChance": 32.0
-          },
-          {
-            "Id": 456,
-            "AppId": "item_456",
-            "PercentageChance": 52.0
-          }
-        ]
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -608,7 +476,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -622,23 +489,6 @@
     "SellPrice": 10,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "StoneGrinder",
-        "Item": {
-          "Id": 27,
-          "AppId": "furniture_27"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 10,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 12,
-          "AppId": "item_12"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -653,7 +503,6 @@
     "SellPrice": 0,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -696,7 +545,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -710,38 +558,6 @@
     "SellPrice": 100,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "TableSaw",
-        "Item": {
-          "Id": 304,
-          "AppId": "furniture_304"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 2,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 305,
-          "AppId": "item_305"
-        }
-      },
-      {
-        "Type": "ImprovedTableSaw",
-        "Item": {
-          "Id": 1189,
-          "AppId": "furniture_1189"
-        },
-        "AmountNeeded": 10,
-        "SecondsToComplete": 1,
-        "DaysToComplete": 0,
-        "Cycles": 10,
-        "Output": {
-          "Id": 305,
-          "AppId": "item_305"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -779,7 +595,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -842,7 +657,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -896,7 +710,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -911,7 +724,6 @@
     "SellPrice": 0,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -926,7 +738,6 @@
     "SellPrice": 0,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -979,7 +790,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -993,7 +803,6 @@
     "SellPrice": 200,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1008,7 +817,6 @@
     "SellPrice": 2844,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1071,7 +879,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1114,7 +921,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1128,23 +934,6 @@
     "SellPrice": 145,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "BillyCanFire",
-        "Item": {
-          "Id": 1121,
-          "AppId": "item_1121"
-        },
-        "AmountNeeded": 10,
-        "SecondsToComplete": 240,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 1126,
-          "AppId": "cooking_1126"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1158,23 +947,6 @@
     "SellPrice": 3300,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "ChargingStation",
-        "Item": {
-          "Id": 856,
-          "AppId": "item_856"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 300,
-        "DaysToComplete": 0,
-        "Cycles": 0,
-        "Output": {
-          "Id": 103,
-          "AppId": "item_103"
-        }
-      }
-    ],
     "RequiredLicence": "MetalDetecting",
     "RequiredLicenceAppId": "licence_6",
     "RequiredLicenceLevel": 1,
@@ -1189,7 +961,6 @@
     "SellPrice": 15000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1203,53 +974,6 @@
     "SellPrice": 50,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CrudeFurnace",
-        "Item": {
-          "Id": 458,
-          "AppId": "item_458"
-        },
-        "AmountNeeded": 5,
-        "SecondsToComplete": 60,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 114,
-          "AppId": "item_114"
-        }
-      },
-      {
-        "Type": "Furnace",
-        "Item": {
-          "Id": 115,
-          "AppId": "furniture_115"
-        },
-        "AmountNeeded": 5,
-        "SecondsToComplete": 30,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 114,
-          "AppId": "item_114"
-        }
-      },
-      {
-        "Type": "BlastFurnace",
-        "Item": {
-          "Id": 1188,
-          "AppId": "furniture_1188"
-        },
-        "AmountNeeded": 5,
-        "SecondsToComplete": 10,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 114,
-          "AppId": "item_114"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1263,38 +987,6 @@
     "SellPrice": 100,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "Furnace",
-        "Item": {
-          "Id": 115,
-          "AppId": "furniture_115"
-        },
-        "AmountNeeded": 5,
-        "SecondsToComplete": 40,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 113,
-          "AppId": "item_113"
-        }
-      },
-      {
-        "Type": "BlastFurnace",
-        "Item": {
-          "Id": 1188,
-          "AppId": "furniture_1188"
-        },
-        "AmountNeeded": 5,
-        "SecondsToComplete": 10,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 113,
-          "AppId": "item_113"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1308,7 +1000,6 @@
     "SellPrice": 200,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1356,7 +1047,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1370,7 +1060,6 @@
     "SellPrice": 350,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1384,7 +1073,6 @@
     "SellPrice": 2000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1398,7 +1086,6 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1412,7 +1099,6 @@
     "SellPrice": 285,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1427,7 +1113,6 @@
     "SellPrice": 10000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1442,7 +1127,6 @@
     "SellPrice": 10000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1456,7 +1140,6 @@
     "SellPrice": 550,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1519,7 +1202,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1534,7 +1216,6 @@
     "SellPrice": 250,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1597,7 +1278,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1650,7 +1330,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1664,7 +1343,6 @@
     "SellPrice": 300,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1707,7 +1385,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "Mining",
     "RequiredLicenceAppId": "licence_1",
     "RequiredLicenceLevel": 2,
@@ -1751,7 +1428,6 @@
       "LicenceLevelLearnt": 3,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "Mining",
     "RequiredLicenceAppId": "licence_1",
     "RequiredLicenceLevel": 3,
@@ -1766,23 +1442,6 @@
     "SellPrice": 20,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CompostBin",
-        "Item": {
-          "Id": 703,
-          "AppId": "item_703"
-        },
-        "AmountNeeded": 15,
-        "SecondsToComplete": 0,
-        "DaysToComplete": 2,
-        "Cycles": 0,
-        "Output": {
-          "Id": 275,
-          "AppId": "item_275"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1796,23 +1455,6 @@
     "SellPrice": 5,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CompostBin",
-        "Item": {
-          "Id": 703,
-          "AppId": "item_703"
-        },
-        "AmountNeeded": 25,
-        "SecondsToComplete": 0,
-        "DaysToComplete": 2,
-        "Cycles": 0,
-        "Output": {
-          "Id": 275,
-          "AppId": "item_275"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1826,23 +1468,6 @@
     "SellPrice": 80,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CompostBin",
-        "Item": {
-          "Id": 703,
-          "AppId": "item_703"
-        },
-        "AmountNeeded": 10,
-        "SecondsToComplete": 0,
-        "DaysToComplete": 2,
-        "Cycles": 0,
-        "Output": {
-          "Id": 275,
-          "AppId": "item_275"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1856,53 +1481,6 @@
     "SellPrice": 10,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 1,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 212,
-          "AppId": "item_212"
-        }
-      },
-      {
-        "Type": "CrudeFurnace",
-        "Item": {
-          "Id": 458,
-          "AppId": "item_458"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 1,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 212,
-          "AppId": "item_212"
-        }
-      },
-      {
-        "Type": "Furnace",
-        "Item": {
-          "Id": 115,
-          "AppId": "furniture_115"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 1,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 212,
-          "AppId": "item_212"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1951,7 +1529,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 100
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1965,7 +1542,6 @@
     "SellPrice": 10,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -1979,38 +1555,6 @@
     "SellPrice": 150,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "TableSaw",
-        "Item": {
-          "Id": 304,
-          "AppId": "furniture_304"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 2,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 306,
-          "AppId": "item_306"
-        }
-      },
-      {
-        "Type": "ImprovedTableSaw",
-        "Item": {
-          "Id": 1189,
-          "AppId": "furniture_1189"
-        },
-        "AmountNeeded": 10,
-        "SecondsToComplete": 1,
-        "DaysToComplete": 0,
-        "Cycles": 10,
-        "Output": {
-          "Id": 306,
-          "AppId": "item_306"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2024,7 +1568,6 @@
     "SellPrice": 600,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2067,7 +1610,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "Logging",
     "RequiredLicenceAppId": "licence_2",
     "RequiredLicenceLevel": 1,
@@ -2111,7 +1653,6 @@
       "LicenceLevelLearnt": 3,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "Logging",
     "RequiredLicenceAppId": "licence_2",
     "RequiredLicenceLevel": 1,
@@ -2127,7 +1668,6 @@
     "SellPrice": 10,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2142,7 +1682,6 @@
     "SellPrice": 10,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2157,7 +1696,6 @@
     "SellPrice": 10,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2210,7 +1748,6 @@
       "LicenceLevelLearnt": 3,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2263,7 +1800,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2277,7 +1813,6 @@
     "SellPrice": 3500,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2291,7 +1826,6 @@
     "SellPrice": 3650,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2329,7 +1863,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2372,7 +1905,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2387,7 +1919,6 @@
     "SellPrice": 25,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2425,7 +1956,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2440,7 +1970,6 @@
     "SellPrice": 0,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2488,7 +2017,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2502,23 +2030,6 @@
     "SellPrice": 1,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CompostBin",
-        "Item": {
-          "Id": 703,
-          "AppId": "item_703"
-        },
-        "AmountNeeded": 4,
-        "SecondsToComplete": 0,
-        "DaysToComplete": 1,
-        "Cycles": 1,
-        "Output": {
-          "Id": 275,
-          "AppId": "item_275"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2571,7 +2082,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2614,7 +2124,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2662,7 +2171,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2705,7 +2213,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2758,7 +2265,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2811,7 +2317,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2825,7 +2330,6 @@
     "SellPrice": 38,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -2839,161 +2343,6 @@
     "SellPrice": 1,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "GachaMachine",
-        "Item": {
-          "Id": 450,
-          "AppId": "item_450"
-        },
-        "AmountNeeded": 5000,
-        "SecondsToComplete": 0,
-        "DaysToComplete": 1,
-        "Cycles": 1,
-        "OutputTable": [
-          {
-            "Id": 104,
-            "AppId": "item_104",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 113,
-            "AppId": "item_113",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 114,
-            "AppId": "item_114",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 110,
-            "AppId": "item_110",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 351,
-            "AppId": "item_351",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 183,
-            "AppId": "item_183",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 184,
-            "AppId": "item_184",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 8,
-            "AppId": "item_8",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 460,
-            "AppId": "item_460",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 130,
-            "AppId": "clothing_130",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 387,
-            "AppId": "item_387",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 593,
-            "AppId": "item_593",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 594,
-            "AppId": "item_594",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 863,
-            "AppId": "item_863",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 236,
-            "AppId": "item_236",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 0,
-            "AppId": "item_0",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 216,
-            "AppId": "item_216",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 184,
-            "AppId": "item_184",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 4,
-            "AppId": "item_4",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 272,
-            "AppId": "item_272",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 351,
-            "AppId": "item_351",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 453,
-            "AppId": "item_453",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 115,
-            "AppId": "furniture_115",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 341,
-            "AppId": "item_341",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 345,
-            "AppId": "cooking_345",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 350,
-            "AppId": "cooking_350",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 637,
-            "AppId": "cooking_637",
-            "PercentageChance": 3.57
-          },
-          {
-            "Id": 226,
-            "AppId": "item_226",
-            "PercentageChance": 3.57
-          }
-        ]
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3007,38 +2356,6 @@
     "SellPrice": 175,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "TableSaw",
-        "Item": {
-          "Id": 304,
-          "AppId": "furniture_304"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 2,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 307,
-          "AppId": "item_307"
-        }
-      },
-      {
-        "Type": "ImprovedTableSaw",
-        "Item": {
-          "Id": 1189,
-          "AppId": "furniture_1189"
-        },
-        "AmountNeeded": 10,
-        "SecondsToComplete": 1,
-        "DaysToComplete": 0,
-        "Cycles": 10,
-        "Output": {
-          "Id": 307,
-          "AppId": "item_307"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3086,7 +2403,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3129,7 +2445,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3143,7 +2458,6 @@
     "SellPrice": 150,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3157,7 +2471,6 @@
     "SellPrice": 225,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3171,7 +2484,6 @@
     "SellPrice": 250,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3185,38 +2497,6 @@
     "SellPrice": 350,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 10,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 310,
-          "AppId": "cooking_310"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 5,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 310,
-          "AppId": "cooking_310"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3230,7 +2510,6 @@
     "SellPrice": 5000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3245,7 +2524,6 @@
     "SellPrice": 5000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3260,7 +2538,6 @@
     "SellPrice": 5000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3274,23 +2551,6 @@
     "SellPrice": 2,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "Mill",
-        "Item": {
-          "Id": 860,
-          "AppId": "furniture_860"
-        },
-        "AmountNeeded": 5,
-        "SecondsToComplete": 180,
-        "DaysToComplete": 0,
-        "Cycles": 0,
-        "Output": {
-          "Id": 344,
-          "AppId": "item_344"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3328,7 +2588,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3371,7 +2630,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3385,7 +2643,6 @@
     "SellPrice": 4,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3399,7 +2656,6 @@
     "SellPrice": 4,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3413,7 +2669,6 @@
     "SellPrice": 4,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3427,7 +2682,6 @@
     "SellPrice": 380,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3441,7 +2695,6 @@
     "SellPrice": 320,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3455,7 +2708,6 @@
     "SellPrice": 180,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3469,7 +2721,6 @@
     "SellPrice": 385,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3483,7 +2734,6 @@
     "SellPrice": 390,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3497,7 +2747,6 @@
     "SellPrice": 270,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3555,7 +2804,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 2
     },
-    "ItemChange": [],
     "RequiredLicence": "Vehicle",
     "RequiredLicenceAppId": "licence_7",
     "RequiredLicenceLevel": 2,
@@ -3614,7 +2862,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3677,7 +2924,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3720,7 +2966,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3758,7 +3003,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3796,7 +3040,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3854,7 +3097,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3897,7 +3139,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3940,7 +3181,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -3988,7 +3228,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4003,7 +3242,6 @@
     "SellPrice": 1250,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4018,7 +3256,6 @@
     "SellPrice": 25,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 0,
     "LicenceLevelText": ""
@@ -4066,7 +3303,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4119,7 +3355,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4133,7 +3368,6 @@
     "SellPrice": 4080,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -4204,7 +3438,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 4
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4218,7 +3451,6 @@
     "SellPrice": 525,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -4240,7 +3472,6 @@
     "SellPrice": 400000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4283,7 +3514,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4326,7 +3556,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4369,7 +3598,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4383,7 +3611,6 @@
     "SellPrice": 200,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4426,7 +3653,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4440,7 +3666,6 @@
     "SellPrice": 8000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4488,7 +3713,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4502,7 +3726,6 @@
     "SellPrice": 140,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4516,7 +3739,6 @@
     "SellPrice": 140,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4530,7 +3752,6 @@
     "SellPrice": 140,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4544,7 +3765,6 @@
     "SellPrice": 140,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4558,7 +3778,6 @@
     "SellPrice": 140,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4606,7 +3825,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4620,7 +3838,6 @@
     "SellPrice": 900,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4634,23 +3851,6 @@
     "SellPrice": 2150,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "SpinningWheel",
-        "Item": {
-          "Id": 633,
-          "AppId": "furniture_633"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 0,
-        "DaysToComplete": 1,
-        "Cycles": 1,
-        "Output": {
-          "Id": 634,
-          "AppId": "item_634"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4708,7 +3908,6 @@
       "LicenceLevelLearnt": 3,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4722,7 +3921,6 @@
     "SellPrice": 20000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4780,7 +3978,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 4
     },
-    "ItemChange": [],
     "RequiredLicence": "Commerce",
     "RequiredLicenceAppId": "licence_8",
     "RequiredLicenceLevel": 1,
@@ -4795,7 +3992,6 @@
     "SellPrice": 1280,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4843,7 +4039,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4886,7 +4081,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4929,7 +4123,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4943,7 +4136,6 @@
     "SellPrice": 800,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -4957,53 +4149,6 @@
     "SellPrice": 25,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CrudeFurnace",
-        "Item": {
-          "Id": 458,
-          "AppId": "item_458"
-        },
-        "AmountNeeded": 5,
-        "SecondsToComplete": 60,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 460,
-          "AppId": "item_460"
-        }
-      },
-      {
-        "Type": "Furnace",
-        "Item": {
-          "Id": 115,
-          "AppId": "furniture_115"
-        },
-        "AmountNeeded": 5,
-        "SecondsToComplete": 30,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 460,
-          "AppId": "item_460"
-        }
-      },
-      {
-        "Type": "BlastFurnace",
-        "Item": {
-          "Id": 1188,
-          "AppId": "furniture_1188"
-        },
-        "AmountNeeded": 5,
-        "SecondsToComplete": 10,
-        "DaysToComplete": 0,
-        "Cycles": 2,
-        "Output": {
-          "Id": 460,
-          "AppId": "item_460"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5017,7 +4162,6 @@
     "SellPrice": 50,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5065,7 +4209,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5113,7 +4256,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5127,23 +4269,6 @@
     "SellPrice": 500,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "TableSaw",
-        "Item": {
-          "Id": 304,
-          "AppId": "furniture_304"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 2,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 466,
-          "AppId": "item_466"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5158,7 +4283,6 @@
     "SellPrice": 0,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5172,7 +4296,6 @@
     "SellPrice": 0,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5215,7 +4338,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5258,7 +4380,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5272,38 +4393,6 @@
     "SellPrice": 275,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CrudeFurnace",
-        "Item": {
-          "Id": 458,
-          "AppId": "item_458"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 60,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 460,
-          "AppId": "item_460"
-        }
-      },
-      {
-        "Type": "Furnace",
-        "Item": {
-          "Id": 115,
-          "AppId": "furniture_115"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 30,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 460,
-          "AppId": "item_460"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5356,7 +4445,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5371,7 +4459,6 @@
     "SellPrice": 2025,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5434,7 +4521,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5477,7 +4563,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5520,7 +4605,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5563,7 +4647,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5621,7 +4704,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5635,7 +4717,6 @@
     "SellPrice": 3025,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5688,7 +4769,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5731,7 +4811,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5745,38 +4824,6 @@
     "SellPrice": 500,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 50,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 646,
-          "AppId": "cooking_646"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 25,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 646,
-          "AppId": "cooking_646"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5790,7 +4837,6 @@
     "SellPrice": 3090,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -5812,7 +4858,6 @@
     "SellPrice": 6120,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -5834,7 +4879,6 @@
     "SellPrice": 1320,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -5856,7 +4900,6 @@
     "SellPrice": 1480,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -5922,7 +4965,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -5980,7 +5022,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6038,7 +5079,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6096,7 +5136,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6139,7 +5178,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6182,7 +5220,6 @@
       "LicenceLevelLearnt": 3,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6225,7 +5262,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6268,7 +5304,6 @@
       "LicenceLevelLearnt": 3,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6282,7 +5317,6 @@
     "SellPrice": 1,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6296,7 +5330,6 @@
     "SellPrice": 1,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6354,23 +5387,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 6
     },
-    "ItemChange": [
-      {
-        "Type": "ChargingStation",
-        "Item": {
-          "Id": 856,
-          "AppId": "item_856"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 600,
-        "DaysToComplete": 0,
-        "Cycles": 0,
-        "Output": {
-          "Id": 599,
-          "AppId": "item_599"
-        }
-      }
-    ],
     "RequiredLicence": "Mining",
     "RequiredLicenceAppId": "licence_1",
     "RequiredLicenceLevel": 3,
@@ -6434,7 +5450,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 2
     },
-    "ItemChange": [],
     "RequiredLicence": "Vehicle",
     "RequiredLicenceAppId": "licence_7",
     "RequiredLicenceLevel": 2,
@@ -6449,7 +5464,6 @@
     "SellPrice": 1035,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -6471,7 +5485,6 @@
     "SellPrice": 745,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -6532,7 +5545,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "Vehicle",
     "RequiredLicenceAppId": "licence_7",
     "RequiredLicenceLevel": 1,
@@ -6547,23 +5559,6 @@
     "SellPrice": 5150,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "SpinningWheel",
-        "Item": {
-          "Id": 633,
-          "AppId": "furniture_633"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 0,
-        "DaysToComplete": 1,
-        "Cycles": 1,
-        "Output": {
-          "Id": 634,
-          "AppId": "item_634"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6577,7 +5572,6 @@
     "SellPrice": 485,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -6599,7 +5593,6 @@
     "SellPrice": 592,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -6621,7 +5614,6 @@
     "SellPrice": 1556,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -6643,7 +5635,6 @@
     "SellPrice": 635,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -6665,7 +5656,6 @@
     "SellPrice": 1642,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -6687,7 +5677,6 @@
     "SellPrice": 15090,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": "",
@@ -6709,38 +5698,6 @@
     "SellPrice": 625,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 32,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 647,
-          "AppId": "cooking_647"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 16,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 647,
-          "AppId": "cooking_647"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6754,7 +5711,6 @@
     "SellPrice": 90,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6768,38 +5724,6 @@
     "SellPrice": 280,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "TableSaw",
-        "Item": {
-          "Id": 304,
-          "AppId": "furniture_304"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 2,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 307,
-          "AppId": "item_307"
-        }
-      },
-      {
-        "Type": "ImprovedTableSaw",
-        "Item": {
-          "Id": 1189,
-          "AppId": "furniture_1189"
-        },
-        "AmountNeeded": 10,
-        "SecondsToComplete": 1,
-        "DaysToComplete": 0,
-        "Cycles": 10,
-        "Output": {
-          "Id": 307,
-          "AppId": "item_307"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6813,7 +5737,6 @@
     "SellPrice": 12500,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "DeepMining",
     "RequiredLicenceAppId": "licence_13",
     "RequiredLicenceLevel": 1,
@@ -6828,7 +5751,6 @@
     "SellPrice": 22,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6842,7 +5764,6 @@
     "SellPrice": 24,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6895,7 +5816,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6909,7 +5829,6 @@
     "SellPrice": 0,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6923,7 +5842,6 @@
     "SellPrice": 5250,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6937,7 +5855,6 @@
     "SellPrice": 49000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6951,7 +5868,6 @@
     "SellPrice": 59000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -6965,7 +5881,6 @@
     "SellPrice": 18000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7023,23 +5938,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 5
     },
-    "ItemChange": [
-      {
-        "Type": "ChargingStation",
-        "Item": {
-          "Id": 856,
-          "AppId": "item_856"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 600,
-        "DaysToComplete": 0,
-        "Cycles": 0,
-        "Output": {
-          "Id": 682,
-          "AppId": "item_682"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7097,7 +5995,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 10
     },
-    "ItemChange": [],
     "RequiredLicence": "Vehicle",
     "RequiredLicenceAppId": "licence_7",
     "RequiredLicenceLevel": 3,
@@ -7151,7 +6048,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7204,7 +6100,6 @@
       "LicenceLevelLearnt": 3,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7262,7 +6157,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7320,7 +6214,6 @@
       "LicenceLevelLearnt": 3,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7334,7 +6227,6 @@
     "SellPrice": 4,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7372,7 +6264,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7420,7 +6311,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7434,23 +6324,6 @@
     "SellPrice": 245,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "BillyCanFire",
-        "Item": {
-          "Id": 1121,
-          "AppId": "item_1121"
-        },
-        "AmountNeeded": 10,
-        "SecondsToComplete": 180,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 1127,
-          "AppId": "cooking_1127"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7493,7 +6366,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "Farming",
     "RequiredLicenceAppId": "licence_11",
     "RequiredLicenceLevel": 1,
@@ -7537,7 +6409,6 @@
       "LicenceLevelLearnt": 3,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "Farming",
     "RequiredLicenceAppId": "licence_11",
     "RequiredLicenceLevel": 1,
@@ -7591,7 +6462,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7606,7 +6476,6 @@
     "SellPrice": 450,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7621,7 +6490,6 @@
     "SellPrice": 450,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7636,7 +6504,6 @@
     "SellPrice": 450,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7650,23 +6517,6 @@
     "SellPrice": 2,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "Mill",
-        "Item": {
-          "Id": 860,
-          "AppId": "furniture_860"
-        },
-        "AmountNeeded": 5,
-        "SecondsToComplete": 180,
-        "DaysToComplete": 0,
-        "Cycles": 0,
-        "Output": {
-          "Id": 344,
-          "AppId": "item_344"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7680,23 +6530,6 @@
     "SellPrice": 2,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "Mill",
-        "Item": {
-          "Id": 860,
-          "AppId": "furniture_860"
-        },
-        "AmountNeeded": 5,
-        "SecondsToComplete": 180,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 344,
-          "AppId": "item_344"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7759,7 +6592,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7773,7 +6605,6 @@
     "SellPrice": 6570,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7826,7 +6657,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7840,23 +6670,6 @@
     "SellPrice": 400,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "Keg",
-        "Item": {
-          "Id": 392,
-          "AppId": "furniture_392"
-        },
-        "AmountNeeded": 10,
-        "SecondsToComplete": 0,
-        "DaysToComplete": 2,
-        "Cycles": 1,
-        "Output": {
-          "Id": 747,
-          "AppId": "cooking_747"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7914,7 +6727,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -7928,23 +6740,6 @@
     "SellPrice": 25,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CompostBin",
-        "Item": {
-          "Id": 703,
-          "AppId": "item_703"
-        },
-        "AmountNeeded": 2,
-        "SecondsToComplete": 0,
-        "DaysToComplete": 1,
-        "Cycles": 1,
-        "Output": {
-          "Id": 275,
-          "AppId": "item_275"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8002,7 +6797,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8040,7 +6834,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8078,7 +6871,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8116,7 +6908,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8159,7 +6950,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8202,7 +6992,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8245,7 +7034,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8288,7 +7076,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8331,7 +7118,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8369,7 +7155,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8412,7 +7197,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8455,7 +7239,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8493,7 +7276,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8536,7 +7318,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "Farming",
     "RequiredLicenceAppId": "licence_11",
     "RequiredLicenceLevel": 1,
@@ -8585,7 +7366,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8599,38 +7379,6 @@
     "SellPrice": 950,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 32,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 773,
-          "AppId": "cooking_773"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 16,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 773,
-          "AppId": "cooking_773"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8662,7 +7410,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 4
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 0,
     "LicenceLevelText": ""
@@ -8700,7 +7447,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8714,7 +7460,6 @@
     "SellPrice": 55,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8728,7 +7473,6 @@
     "SellPrice": 55,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8771,7 +7515,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "Fishing",
     "RequiredLicenceAppId": "licence_3",
     "RequiredLicenceLevel": 1,
@@ -8815,7 +7558,6 @@
       "LicenceLevelLearnt": 3,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "Fishing",
     "RequiredLicenceAppId": "licence_3",
     "RequiredLicenceLevel": 1,
@@ -8879,7 +7621,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8932,7 +7673,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -8990,7 +7730,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 1
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 0,
     "LicenceLevelText": ""
@@ -9004,7 +7743,6 @@
     "SellPrice": 261,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9018,7 +7756,6 @@
     "SellPrice": 10000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9076,7 +7813,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 8
     },
-    "ItemChange": [],
     "RequiredLicence": "AgriculturalVehicle",
     "RequiredLicenceAppId": "licence_18",
     "RequiredLicenceLevel": 1,
@@ -9091,23 +7827,6 @@
     "SellPrice": 10,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CompostBin",
-        "Item": {
-          "Id": 703,
-          "AppId": "item_703"
-        },
-        "AmountNeeded": 25,
-        "SecondsToComplete": 0,
-        "DaysToComplete": 2,
-        "Cycles": 0,
-        "Output": {
-          "Id": 275,
-          "AppId": "item_275"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9121,23 +7840,6 @@
     "SellPrice": 7,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CompostBin",
-        "Item": {
-          "Id": 703,
-          "AppId": "item_703"
-        },
-        "AmountNeeded": 25,
-        "SecondsToComplete": 0,
-        "DaysToComplete": 2,
-        "Cycles": 0,
-        "Output": {
-          "Id": 275,
-          "AppId": "item_275"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9151,23 +7853,6 @@
     "SellPrice": 10,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CompostBin",
-        "Item": {
-          "Id": 703,
-          "AppId": "item_703"
-        },
-        "AmountNeeded": 15,
-        "SecondsToComplete": 0,
-        "DaysToComplete": 2,
-        "Cycles": 0,
-        "Output": {
-          "Id": 275,
-          "AppId": "item_275"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9181,23 +7866,6 @@
     "SellPrice": 6,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CompostBin",
-        "Item": {
-          "Id": 703,
-          "AppId": "item_703"
-        },
-        "AmountNeeded": 25,
-        "SecondsToComplete": 0,
-        "DaysToComplete": 2,
-        "Cycles": 0,
-        "Output": {
-          "Id": 275,
-          "AppId": "item_275"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9250,7 +7918,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9303,7 +7970,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9356,7 +8022,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9409,7 +8074,6 @@
       "LicenceLevelLearnt": 3,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9462,7 +8126,6 @@
       "LicenceLevelLearnt": 3,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9510,7 +8173,6 @@
       "LicenceLevelLearnt": 3,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9558,7 +8220,6 @@
       "LicenceLevelLearnt": 3,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9572,7 +8233,6 @@
     "SellPrice": 810,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9586,7 +8246,6 @@
     "SellPrice": 680,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9600,7 +8259,6 @@
     "SellPrice": 15000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9614,7 +8272,6 @@
     "SellPrice": 25000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9662,7 +8319,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9676,38 +8332,6 @@
     "SellPrice": 2000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 16,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 852,
-          "AppId": "cooking_852"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 8,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 852,
-          "AppId": "cooking_852"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9765,7 +8389,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9779,7 +8402,6 @@
     "SellPrice": 15000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9837,7 +8459,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 5
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9875,7 +8496,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -9918,7 +8538,6 @@
       "LicenceLevelLearnt": 3,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "Farming",
     "RequiredLicenceAppId": "licence_11",
     "RequiredLicenceLevel": 1,
@@ -9933,23 +8552,6 @@
     "SellPrice": 900,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "BatStatue",
-        "Item": {
-          "Id": 0,
-          "AppId": "item_0"
-        },
-        "AmountNeeded": 20,
-        "SecondsToComplete": 15,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 955,
-          "AppId": "item_955"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10007,7 +8609,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10021,7 +8622,6 @@
     "SellPrice": 7500,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10035,7 +8635,6 @@
     "SellPrice": 400000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10050,7 +8649,6 @@
     "SellPrice": 120000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10098,7 +8696,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10146,7 +8743,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10160,7 +8756,6 @@
     "SellPrice": 55000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10174,7 +8769,6 @@
     "SellPrice": 55000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10217,7 +8811,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10260,7 +8853,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10303,7 +8895,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10346,7 +8937,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10361,7 +8951,6 @@
     "SellPrice": 3000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10404,7 +8993,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10418,7 +9006,6 @@
     "SellPrice": 3250,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10481,23 +9068,6 @@
       "LicenceLevelLearnt": 3,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [
-      {
-        "Type": "ChargingStation",
-        "Item": {
-          "Id": 856,
-          "AppId": "item_856"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 300,
-        "DaysToComplete": 0,
-        "Cycles": 0,
-        "Output": {
-          "Id": 906,
-          "AppId": "item_906"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10540,7 +9110,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10583,7 +9152,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10636,7 +9204,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10689,7 +9256,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10732,7 +9298,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10775,7 +9340,6 @@
       "LicenceLevelLearnt": 3,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10813,7 +9377,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10856,7 +9419,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10899,7 +9461,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10913,7 +9474,6 @@
     "SellPrice": 12500,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -10961,7 +9521,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11009,7 +9568,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11072,23 +9630,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 8
     },
-    "ItemChange": [
-      {
-        "Type": "ChargingStation",
-        "Item": {
-          "Id": 856,
-          "AppId": "item_856"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 600,
-        "DaysToComplete": 0,
-        "Cycles": 0,
-        "Output": {
-          "Id": 925,
-          "AppId": "item_925"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11102,7 +9643,6 @@
     "SellPrice": 15000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11150,7 +9690,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11208,7 +9747,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11223,7 +9761,6 @@
     "SellPrice": 540,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11237,7 +9774,6 @@
     "SellPrice": 500000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11295,7 +9831,6 @@
       "LicenceLevelLearnt": 4,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11309,23 +9844,6 @@
     "SellPrice": 12500,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CompostBin",
-        "Item": {
-          "Id": 703,
-          "AppId": "item_703"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 30,
-        "DaysToComplete": 0,
-        "Cycles": 8,
-        "Output": {
-          "Id": 275,
-          "AppId": "item_275"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11339,23 +9857,6 @@
     "SellPrice": 15500,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CompostBin",
-        "Item": {
-          "Id": 703,
-          "AppId": "item_703"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 30,
-        "DaysToComplete": 0,
-        "Cycles": 8,
-        "Output": {
-          "Id": 275,
-          "AppId": "item_275"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11413,7 +9914,6 @@
       "LicenceLevelLearnt": 4,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11471,7 +9971,6 @@
       "LicenceLevelLearnt": 4,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11514,7 +10013,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11528,23 +10026,6 @@
     "SellPrice": 25000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CompostBin",
-        "Item": {
-          "Id": 703,
-          "AppId": "item_703"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 30,
-        "DaysToComplete": 0,
-        "Cycles": 8,
-        "Output": {
-          "Id": 275,
-          "AppId": "item_275"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11587,7 +10068,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11630,7 +10110,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11668,7 +10147,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11711,7 +10189,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11754,7 +10231,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11797,7 +10273,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11811,7 +10286,6 @@
     "SellPrice": 8000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11854,7 +10328,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11897,7 +10370,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11945,7 +10417,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -11998,7 +10469,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12051,7 +10521,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12104,7 +10573,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12118,7 +10586,6 @@
     "SellPrice": 11025,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12132,7 +10599,6 @@
     "SellPrice": 10000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12146,7 +10612,6 @@
     "SellPrice": 4000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "Mining",
     "RequiredLicenceAppId": "licence_1",
     "RequiredLicenceLevel": 2,
@@ -12161,7 +10626,6 @@
     "SellPrice": 3750,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "Logging",
     "RequiredLicenceAppId": "licence_2",
     "RequiredLicenceLevel": 1,
@@ -12210,7 +10674,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12258,7 +10721,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12301,7 +10763,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12374,7 +10835,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12412,7 +10872,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12426,7 +10885,6 @@
     "SellPrice": 680,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12440,23 +10898,6 @@
     "SellPrice": 295,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 3,
-        "SecondsToComplete": 4,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 1035,
-          "AppId": "cooking_1035"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12509,7 +10950,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12552,7 +10992,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12595,7 +11034,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12643,7 +11081,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12691,7 +11128,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12734,7 +11170,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12802,7 +11237,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 10
     },
-    "ItemChange": [],
     "RequiredLicence": "Vehicle",
     "RequiredLicenceAppId": "licence_7",
     "RequiredLicenceLevel": 1,
@@ -12846,7 +11280,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12894,7 +11327,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12908,7 +11340,6 @@
     "SellPrice": 700,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12922,7 +11353,6 @@
     "SellPrice": 700,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12936,7 +11366,6 @@
     "SellPrice": 700,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12950,7 +11379,6 @@
     "SellPrice": 700,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -12993,7 +11421,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13036,7 +11463,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13079,7 +11505,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13093,7 +11518,6 @@
     "SellPrice": 700,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13107,7 +11531,6 @@
     "SellPrice": 240,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13155,7 +11578,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13169,7 +11591,6 @@
     "SellPrice": 500000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13183,7 +11604,6 @@
     "SellPrice": 700,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13197,7 +11617,6 @@
     "SellPrice": 700,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13240,7 +11659,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13254,7 +11672,6 @@
     "SellPrice": 2000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13268,7 +11685,6 @@
     "SellPrice": 5000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13316,7 +11732,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13330,7 +11745,6 @@
     "SellPrice": 30250,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13373,7 +11787,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13411,7 +11824,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13425,7 +11837,6 @@
     "SellPrice": 125,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13439,7 +11850,6 @@
     "SellPrice": 100,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13453,7 +11863,6 @@
     "SellPrice": 2200,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13501,7 +11910,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13564,7 +11972,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13617,23 +12024,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 6
     },
-    "ItemChange": [
-      {
-        "Type": "ChargingStation",
-        "Item": {
-          "Id": 856,
-          "AppId": "item_856"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 600,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 1108,
-          "AppId": "item_1108"
-        }
-      }
-    ],
     "RequiredLicence": "Logging",
     "RequiredLicenceAppId": "licence_2",
     "RequiredLicenceLevel": 3,
@@ -13648,23 +12038,6 @@
     "SellPrice": 1000000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "ChargingStation",
-        "Item": {
-          "Id": 856,
-          "AppId": "item_856"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 600,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 1108,
-          "AppId": "item_1108"
-        }
-      }
-    ],
     "RequiredLicence": "Logging",
     "RequiredLicenceAppId": "licence_2",
     "RequiredLicenceLevel": 3,
@@ -13679,7 +12052,6 @@
     "SellPrice": 3000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13717,7 +12089,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13731,7 +12102,6 @@
     "SellPrice": 3000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13775,7 +12145,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13789,7 +12158,6 @@
     "SellPrice": 1280,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13803,7 +12171,6 @@
     "SellPrice": 100,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13817,7 +12184,6 @@
     "SellPrice": 375,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13860,7 +12226,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13898,7 +12263,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13941,7 +12305,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13955,7 +12318,6 @@
     "SellPrice": 900,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -13969,7 +12331,6 @@
     "SellPrice": 4500,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "DeepMining",
     "RequiredLicenceAppId": "licence_13",
     "RequiredLicenceLevel": 1,
@@ -13984,7 +12345,6 @@
     "SellPrice": 12500,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14032,7 +12392,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14046,7 +12405,6 @@
     "SellPrice": 55000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14060,7 +12418,6 @@
     "SellPrice": 55000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14103,7 +12460,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14117,7 +12473,6 @@
     "SellPrice": 25,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14165,7 +12520,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14203,7 +12557,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14251,7 +12604,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14294,7 +12646,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14332,7 +12683,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14370,7 +12720,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14408,7 +12757,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14456,7 +12804,6 @@
       "LicenceLevelLearnt": 2,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14470,7 +12817,6 @@
     "SellPrice": 292,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14484,7 +12830,6 @@
     "SellPrice": 10,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14527,7 +12872,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14541,7 +12885,6 @@
     "SellPrice": 52500,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14555,23 +12898,6 @@
     "SellPrice": 1000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "BlastFurnace",
-        "Item": {
-          "Id": 1188,
-          "AppId": "furniture_1188"
-        },
-        "AmountNeeded": 5,
-        "SecondsToComplete": 240,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 1166,
-          "AppId": "item_1166"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14585,7 +12911,6 @@
     "SellPrice": 10000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14599,7 +12924,6 @@
     "SellPrice": 8125,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14613,38 +12937,6 @@
     "SellPrice": 400,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "CampFire",
-        "Item": {
-          "Id": 18,
-          "AppId": "item_18"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 16,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 1169,
-          "AppId": "cooking_1169"
-        }
-      },
-      {
-        "Type": "BBQ",
-        "Item": {
-          "Id": 13,
-          "AppId": "furniture_13"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 8,
-        "DaysToComplete": 0,
-        "Cycles": 1,
-        "Output": {
-          "Id": 1169,
-          "AppId": "cooking_1169"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14658,7 +12950,6 @@
     "SellPrice": 18000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14672,7 +12963,6 @@
     "SellPrice": 280,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14686,7 +12976,6 @@
     "SellPrice": 280,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14729,7 +13018,6 @@
       "LicenceLevelLearnt": 1,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14782,23 +13070,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 8
     },
-    "ItemChange": [
-      {
-        "Type": "ChargingStation",
-        "Item": {
-          "Id": 856,
-          "AppId": "item_856"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 600,
-        "DaysToComplete": 0,
-        "Cycles": 0,
-        "Output": {
-          "Id": 1179,
-          "AppId": "item_1179"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14813,23 +13084,6 @@
     "SellPrice": 1000000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "ChargingStation",
-        "Item": {
-          "Id": 856,
-          "AppId": "item_856"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 600,
-        "DaysToComplete": 0,
-        "Cycles": 0,
-        "Output": {
-          "Id": 1179,
-          "AppId": "item_1179"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14872,7 +13126,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14886,7 +13139,6 @@
     "SellPrice": 45000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -14939,23 +13191,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 6
     },
-    "ItemChange": [
-      {
-        "Type": "ChargingStation",
-        "Item": {
-          "Id": 856,
-          "AppId": "item_856"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 600,
-        "DaysToComplete": 0,
-        "Cycles": 0,
-        "Output": {
-          "Id": 1192,
-          "AppId": "item_1192"
-        }
-      }
-    ],
     "RequiredLicence": "Mining",
     "RequiredLicenceAppId": "licence_1",
     "RequiredLicenceLevel": 3,
@@ -14970,23 +13205,6 @@
     "SellPrice": 1000000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "ChargingStation",
-        "Item": {
-          "Id": 856,
-          "AppId": "item_856"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 600,
-        "DaysToComplete": 0,
-        "Cycles": 0,
-        "Output": {
-          "Id": 1192,
-          "AppId": "item_1192"
-        }
-      }
-    ],
     "RequiredLicence": "Mining",
     "RequiredLicenceAppId": "licence_1",
     "RequiredLicenceLevel": 3,
@@ -15040,23 +13258,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 5
     },
-    "ItemChange": [
-      {
-        "Type": "ChargingStation",
-        "Item": {
-          "Id": 856,
-          "AppId": "item_856"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 600,
-        "DaysToComplete": 0,
-        "Cycles": 0,
-        "Output": {
-          "Id": 1194,
-          "AppId": "item_1194"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -15071,23 +13272,6 @@
     "SellPrice": 1000000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [
-      {
-        "Type": "ChargingStation",
-        "Item": {
-          "Id": 856,
-          "AppId": "item_856"
-        },
-        "AmountNeeded": 1,
-        "SecondsToComplete": 600,
-        "DaysToComplete": 0,
-        "Cycles": 0,
-        "Output": {
-          "Id": 1194,
-          "AppId": "item_1194"
-        }
-      }
-    ],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -15101,7 +13285,6 @@
     "SellPrice": 2500,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -15115,7 +13298,6 @@
     "SellPrice": 55000,
     "IsStackable": true,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -15129,7 +13311,6 @@
     "SellPrice": 45000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -15172,7 +13353,6 @@
       "LicenceLevelLearnt": 0,
       "CrafterLevelLearnt": 0
     },
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
@@ -15186,7 +13366,6 @@
     "SellPrice": 3000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "ItemChange": [],
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""

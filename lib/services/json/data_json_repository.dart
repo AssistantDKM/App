@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 
 import '../../contracts/data/game_update.dart';
+import '../../contracts/json/enum/usage_key.dart';
+import '../../contracts/json/item_change.dart';
 
 class DataJsonRepository extends BaseJsonService {
   //
@@ -101,5 +103,114 @@ class DataJsonRepository extends BaseJsonService {
         exception.toString(),
       );
     }
+  }
+
+  Future<Map<String, List<UsageKey>>> loadLookupJson(
+    BuildContext context,
+  ) async {
+    dynamic responseJson =
+        await getJsonFromAssets(context, "data/usageLookup.json");
+    Map<String, dynamic> data = json.decode(responseJson);
+
+    Map<String, List<UsageKey>> result = <String, List<UsageKey>>{};
+    for (var dataKey in data.keys) {
+      result.putIfAbsent(dataKey, () {
+        List<UsageKey> enumKeys = List.empty(growable: true);
+        for (var listItem in data[dataKey]) {
+          UsageKey? enumKey = usageKeyTypeValues.map[listItem];
+          if (enumKey == null) continue;
+          enumKeys.add(enumKey);
+        }
+        return enumKeys;
+      });
+    }
+    return result;
+  }
+
+  Future<ResultWithValue<List<ItemChange>>> getItemChanges(
+    BuildContext context,
+  ) async {
+    try {
+      dynamic responseJson =
+          await getJsonFromAssets(context, "data/itemChanges.json");
+      List list = json.decode(responseJson);
+      List<ItemChange> trans = list //
+          .map((e) => ItemChange.fromMap(e))
+          .toList();
+      return ResultWithValue<List<ItemChange>>(true, trans, '');
+    } catch (exception) {
+      getLog().e(
+          "DataJsonRepository getItemChanges Exception: ${exception.toString()}");
+      return ResultWithValue<List<ItemChange>>(
+        false,
+        List.empty(),
+        exception.toString(),
+      );
+    }
+  }
+
+  Future<ResultWithValue<List<ItemChange>>> getItemChangesUsing(
+    BuildContext context,
+    String appId,
+  ) async {
+    ResultWithValue<List<ItemChange>> allItemsResult =
+        await getItemChanges(context);
+    if (allItemsResult.hasFailed) {
+      return ResultWithValue<List<ItemChange>>(
+        false,
+        List.empty(),
+        allItemsResult.errorMessage,
+      );
+    }
+
+    List<ItemChange> items =
+        allItemsResult.value.where((all) => all.inputAppId == appId).toList();
+
+    return ResultWithValue<List<ItemChange>>(items.isNotEmpty, items, '');
+  }
+
+  Future<ResultWithValue<List<ItemChange>>> getItemChangesOutputting(
+    BuildContext context,
+    String appId,
+  ) async {
+    ResultWithValue<List<ItemChange>> allItemsResult =
+        await getItemChanges(context);
+    if (allItemsResult.hasFailed) {
+      return ResultWithValue<List<ItemChange>>(
+        false,
+        List.empty(),
+        allItemsResult.errorMessage,
+      );
+    }
+
+    List<ItemChange> items = allItemsResult.value.where((all) {
+      if (all.outputAppId == appId) return true;
+      if (all.outputTable.any((tableItem) => tableItem.appId == appId)) {
+        return true;
+      }
+      return false;
+    }).toList();
+
+    return ResultWithValue<List<ItemChange>>(items.isNotEmpty, items, '');
+  }
+
+  Future<ResultWithValue<List<ItemChange>>> getItemChangesForTool(
+    BuildContext context,
+    String appId,
+  ) async {
+    ResultWithValue<List<ItemChange>> allItemsResult =
+        await getItemChanges(context);
+    if (allItemsResult.hasFailed) {
+      return ResultWithValue<List<ItemChange>>(
+        false,
+        List.empty(),
+        allItemsResult.errorMessage,
+      );
+    }
+
+    List<ItemChange> items =
+        allItemsResult.value.where((all) => all.toolAppId == appId).toList();
+
+    return ResultWithValue<List<ItemChange>>(items.isNotEmpty, items, '');
   }
 }

@@ -9,7 +9,7 @@ import '../../contracts/json/inventory_item_consumable.dart';
 import '../../contracts/json/inventory_item_consumable_buff.dart';
 import '../../contracts/json/inventory_item_craftable_required.dart';
 import '../../contracts/json/inventory_item_creature.dart';
-import '../../contracts/pageItem/inventory_item_change_page_item.dart';
+import '../../contracts/pageItem/item_change_page_item.dart';
 import '../../contracts/pageItem/inventory_page_item.dart';
 import '../../contracts/required_item.dart';
 import '../../helper/generic_repository_helper.dart';
@@ -259,20 +259,58 @@ List<Widget> Function(
       );
     }
 
-    if (loadedPageItem.item.itemChanges != null &&
-        loadedPageItem.item.itemChanges!.isNotEmpty &&
-        loadedPageItem.itemChangeDetails != null &&
-        loadedPageItem.itemChangeDetails!.isNotEmpty &&
-        loadedPageItem.item.itemChanges!.length ==
-            loadedPageItem.itemChangeDetails!.length) {
+    if (loadedPageItem.itemChangesUsing != null &&
+        loadedPageItem.itemChangesUsing!.isNotEmpty) {
       descripWidgets.add(const EmptySpace2x());
       descripWidgets.add(const GenericItemGroup(
         'Process using', // TODO translate
       ));
 
-      List<InventoryItemChangePageItem> itemChanges =
-          loadedPageItem.itemChangeDetails ?? List.empty();
-      for (var itemChangeDetail in itemChanges) {
+      List<ItemChangePageItem> itemChanges =
+          loadedPageItem.itemChangesUsing ?? List.empty();
+      for (ItemChangePageItem itemChangeDetail in itemChanges) {
+        descripWidgets.add(itemChangeTilePresenter(
+          ctx: contentsContext,
+          currentAppId: loadedPageItem.item.appId,
+          details: itemChangeDetail,
+          isInDetailPane: isInDetailPane,
+          updateDetailView: updateDetailView,
+          isPatron: viewmodel.isPatron,
+        ));
+      }
+    }
+
+    if (loadedPageItem.itemChangesFrom != null &&
+        loadedPageItem.itemChangesFrom!.isNotEmpty) {
+      descripWidgets.add(const EmptySpace2x());
+      descripWidgets.add(const GenericItemGroup(
+        'Process from', // TODO translate
+      ));
+
+      List<ItemChangePageItem> itemChanges =
+          loadedPageItem.itemChangesFrom ?? List.empty();
+      for (ItemChangePageItem itemChangeDetail in itemChanges) {
+        descripWidgets.add(itemChangeTilePresenter(
+          ctx: contentsContext,
+          currentAppId: loadedPageItem.item.appId,
+          details: itemChangeDetail,
+          isInDetailPane: isInDetailPane,
+          updateDetailView: updateDetailView,
+          isPatron: viewmodel.isPatron,
+        ));
+      }
+    }
+
+    if (loadedPageItem.itemChangesForTool != null &&
+        loadedPageItem.itemChangesForTool!.isNotEmpty) {
+      descripWidgets.add(const EmptySpace2x());
+      descripWidgets.add(const GenericItemGroup(
+        'Used to process', // TODO translate
+      ));
+
+      List<ItemChangePageItem> itemChanges =
+          loadedPageItem.itemChangesForTool ?? List.empty();
+      for (ItemChangePageItem itemChangeDetail in itemChanges) {
         descripWidgets.add(itemChangeTilePresenter(
           ctx: contentsContext,
           currentAppId: loadedPageItem.item.appId,
