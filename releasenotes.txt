@@ -1,1 +1,10 @@
-- Initial
+- 📦 Update game data for 0.6.5
+- ✨ Display Item Change recipes in the 3 different scenarios
+  - Process an item in, from and use the current item to process other items
+- 🎨 Rework inventory page loading (performance)
+- 🐛 Minor bug fixes
+⠀
+
+Submitted to App Stores 2023-03-04
+
+For more details on this update please visit the "What is New" page in the Apps or on the website
