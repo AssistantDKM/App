@@ -16,15 +16,15 @@ assignees: Khaoz-Topsy
   - [ ] Future date release date
   - [ ] Copy guid, paste into `assistantAppsSettings.dart`
 - [ ] Create Pull Request
-- [ ] [Queue](https://codemagic.io/app/5d9da9057a0a9500105180bf/workflow/5ef3374ec0adbfe0fdee431d/settings) CodeMagic build 
+- [ ] [Queue](https://codemagic.io/app/641d82730d82a528c46ca76a/settings) CodeMagic build 
 
 ---
 
 ### Later:
 - [ ] Merge Pull Request on successful build and deploy
-- [ ] Create Github release ([New Release](https://github.com/AssistantNMS/App/releases/new))
-  - [ ] Tag develop branch (2.x.x)
-  - [ ] Use appropriate tag (2.x.x)
+- [ ] Create Github release ([New Release](https://github.com/AssistantDKM/App/releases/new))
+  - [ ] Tag develop branch (1.x.x)
+  - [ ] Use appropriate tag (1.x.x)
   - [ ] Attach `.aab`
   - [ ] Attach `.apk`
   - [ ] Attach `.ipa`
