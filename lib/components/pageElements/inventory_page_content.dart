@@ -58,9 +58,8 @@ List<Widget> Function(
           obscureText(loadedItem.description),
         )),
         const EmptySpace2x(),
-        const GenericItemDescription(
-          //TODO translate
-          'This item exists in the game files but the item is not available in game. The developer(s) may not want this item publicly visible, it may be spoilers, unfinished work, etc. ',
+        GenericItemDescription(
+          getTranslations().fromKey(LocaleKey.itemHiddenButExistsInGameFiles),
         ),
       ];
     }
@@ -263,8 +262,8 @@ List<Widget> Function(
     if (loadedPageItem.itemChangesUsing != null &&
         loadedPageItem.itemChangesUsing!.isNotEmpty) {
       descripWidgets.add(const EmptySpace2x());
-      descripWidgets.add(const GenericItemGroup(
-        'Process in', // TODO translate
+      descripWidgets.add(GenericItemGroup(
+        getTranslations().fromKey(LocaleKey.processIn),
       ));
 
       List<ItemChangePageItem> itemChanges =
@@ -284,8 +283,8 @@ List<Widget> Function(
     if (loadedPageItem.itemChangesFrom != null &&
         loadedPageItem.itemChangesFrom!.isNotEmpty) {
       descripWidgets.add(const EmptySpace2x());
-      descripWidgets.add(const GenericItemGroup(
-        'Process from', // TODO translate
+      descripWidgets.add(GenericItemGroup(
+        getTranslations().fromKey(LocaleKey.processFrom),
       ));
 
       List<ItemChangePageItem> itemChanges =
@@ -305,8 +304,8 @@ List<Widget> Function(
     if (loadedPageItem.itemChangesForTool != null &&
         loadedPageItem.itemChangesForTool!.isNotEmpty) {
       descripWidgets.add(const EmptySpace2x());
-      descripWidgets.add(const GenericItemGroup(
-        'Used to process', // TODO translate
+      descripWidgets.add(GenericItemGroup(
+        getTranslations().fromKey(LocaleKey.usedToProcess),
       ));
 
       List<ItemChangePageItem> itemChanges =
@@ -325,8 +324,8 @@ List<Widget> Function(
 
     if (loadedPageItem.requiredLicence != null) {
       descripWidgets.add(const EmptySpace2x());
-      descripWidgets.add(const GenericItemGroup(
-        'Required Licence', // TODO translate
+      descripWidgets.add(GenericItemGroup(
+        getTranslations().fromKey(LocaleKey.requiredLicence),
       ));
       var localPresenter = licenceTilePresenter(isPatron: viewmodel.isPatron);
       descripWidgets.add(FlatCard(
