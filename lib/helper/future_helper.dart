@@ -41,11 +41,15 @@ ResultWithValue<List<ItemChangePageItem>> getItemChangesPageData(
   List<ItemChangePageItem> itemChangePageDatas = List.empty(growable: true);
   for (ItemChange itemChange in itemChanges) {
     var changeItem = getItemChangePageData(itemChange, allItems);
-    if (changeItem != null) {
-      itemChangePageDatas.add(changeItem);
-    }
+    if (changeItem == null) continue;
+
+    itemChangePageDatas.add(changeItem);
   }
 
+  itemChangePageDatas.sort(
+    (cpdA, cpdB) => cpdA.outputTableDetails.length
+        .compareTo(cpdB.outputTableDetails.length),
+  );
   return ResultWithValue<List<ItemChangePageItem>>(
     itemChangePageDatas.isNotEmpty,
     itemChangePageDatas,
@@ -68,10 +72,7 @@ ItemChangePageItem? getItemChangePageData(
           itemChange.outputTable.any((outT) => outT.appId == item.appId))
       .toList();
 
-  if (toolDetails == null ||
-      inputDetails == null ||
-      outputDetails == null ||
-      outputTableResults.isNotEmpty) {
+  if (toolDetails == null || inputDetails == null) {
     return null;
   }
 
@@ -85,7 +86,7 @@ ItemChangePageItem? getItemChangePageData(
     secondsToComplete: itemChange.secondsToComplete,
     daysToComplete: itemChange.daysToComplete,
     cycles: itemChange.cycles,
-    outputAppId: outputDetails.appId,
+    outputAppId: outputDetails?.appId ?? '',
     outputDetails: outputDetails,
     outputTable: itemChange.outputTable,
     outputTableDetails: outputTableResults,

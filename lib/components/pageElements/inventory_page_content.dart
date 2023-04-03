@@ -19,6 +19,7 @@ import '../../helper/position_helper.dart';
 import '../../pages/inventory_pages.dart';
 import '../../pages/misc/all_possible_outputs_future_page.dart';
 import '../../redux/misc/inventory_item_viewmodel.dart';
+import '../../services/json/inventory_repository.dart';
 import '../chip/effect_chip_presenter.dart';
 import '../tilePresenters/game_update_tile_presenter.dart';
 import '../tilePresenters/inventory_tile_presenter.dart';
@@ -263,13 +264,13 @@ List<Widget> Function(
         loadedPageItem.itemChangesUsing!.isNotEmpty) {
       descripWidgets.add(const EmptySpace2x());
       descripWidgets.add(const GenericItemGroup(
-        'Process using', // TODO translate
+        'Process in', // TODO translate
       ));
 
       List<ItemChangePageItem> itemChanges =
           loadedPageItem.itemChangesUsing ?? List.empty();
       for (ItemChangePageItem itemChangeDetail in itemChanges) {
-        descripWidgets.add(itemChangeTilePresenter(
+        descripWidgets.add(itemChangeUsingTilePresenter(
           ctx: contentsContext,
           currentAppId: loadedPageItem.item.appId,
           details: itemChangeDetail,
@@ -290,7 +291,7 @@ List<Widget> Function(
       List<ItemChangePageItem> itemChanges =
           loadedPageItem.itemChangesFrom ?? List.empty();
       for (ItemChangePageItem itemChangeDetail in itemChanges) {
-        descripWidgets.add(itemChangeTilePresenter(
+        descripWidgets.add(itemChangeFromTilePresenter(
           ctx: contentsContext,
           currentAppId: loadedPageItem.item.appId,
           details: itemChangeDetail,
@@ -311,7 +312,7 @@ List<Widget> Function(
       List<ItemChangePageItem> itemChanges =
           loadedPageItem.itemChangesForTool ?? List.empty();
       for (ItemChangePageItem itemChangeDetail in itemChanges) {
-        descripWidgets.add(itemChangeTilePresenter(
+        descripWidgets.add(itemChangeForToolTilePresenter(
           ctx: contentsContext,
           currentAppId: loadedPageItem.item.appId,
           details: itemChangeDetail,
@@ -373,11 +374,17 @@ Future<List<InventoryItem>> allItemsPageFuture(
   BuildContext navigateLocalCtx,
   String appId,
 ) async {
-  var genRepo = getGenericRepoFromAppId(appId);
-  if (genRepo == null) {
+  var allItems = await getAllGameItems(navigateLocalCtx);
+  if (allItems.isEmpty) {
     return Future.value(List.empty());
   }
 
-  var result = await genRepo.getUsagesOfItem(navigateLocalCtx, appId);
-  return result.isSuccess ? result.value : List.empty();
+  List<InventoryItem> result = List.empty(growable: true);
+  for (var item in allItems) {
+    if (InventoryRepository.getUsagesOfItemFilter(item, appId)) {
+      result.add(item);
+    }
+  }
+
+  return result;
 }

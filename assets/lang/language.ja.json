@@ -146,5 +146,11 @@
   "menuFood": "食べ物",
   "menuCrafting": "クラフト",
   "requiredLicence": "Required Licence",
-  "hashCode": "B0F653F1968B8F562C6F42EE9344454E"
+  "requirement": "Requirement: {0}",
+  "requirementInKm": "Requirement: {0} km",
+  "itemHiddenButExistsInGameFiles": "This item exists in the game files but the item is not available in game. The developer(s) may not want this item publicly visible, it may be spoilers, unfinished work, etc.",
+  "processIn": "Process in",
+  "processFrom": "Process from",
+  "usedToProcess": "Used to process",
+  "hashCode": "B766D6B206CBD8787C69563B38107347"
 }

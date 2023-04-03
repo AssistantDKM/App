@@ -10,12 +10,14 @@ Widget milestoneLevelTilePresenter(
   required int requiredAmount,
   required int rewardPerLevel,
 }) {
-  Widget topSection =
-      Text('Requirement: $prefix$requiredAmount$suffix'); //TODO translate
+  Widget topSection = Text(
+    'Requirement: $prefix$requiredAmount$suffix',
+  ); //TODO translate
 
   if (suffix == 'm') {
     topSection = Text(
-        'Requirement: ${(requiredAmount / 1000).toStringAsFixed(0)} km'); //TODO translate
+      'Requirement: ${(requiredAmount / 1000).toStringAsFixed(0)} km',
+    ); //TODO translate
   }
 
   return Padding(

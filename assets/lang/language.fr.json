@@ -146,5 +146,11 @@
   "menuFood": "Nourriture",
   "menuCrafting": "Artisanat",
   "requiredLicence": "Required Licence",
-  "hashCode": "47DB87C96392A58E9C76DE463E00D832"
+  "requirement": "Requirement: {0}",
+  "requirementInKm": "Requirement: {0} km",
+  "itemHiddenButExistsInGameFiles": "This item exists in the game files but the item is not available in game. The developer(s) may not want this item publicly visible, it may be spoilers, unfinished work, etc.",
+  "processIn": "Process in",
+  "processFrom": "Process from",
+  "usedToProcess": "Used to process",
+  "hashCode": "49F9EE1CB86AAAE86666070D3CBD00EB"
 }

@@ -75,6 +75,7 @@ class AllPossibleOutputsFromFuturePage<T> extends StatelessWidget {
         if (data.isEmpty) {
           return Container(
             margin: const EdgeInsets.only(top: 30),
+            width: double.infinity,
             child: Text(
               getTranslations().fromKey(LocaleKey.noItems),
               textAlign: TextAlign.center,

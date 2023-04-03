@@ -1650,16 +1650,6 @@
     "OutputAppId": "cooking_852"
   },
   {
-    "Type": "BatStatue",
-    "InputAppId": "item_859",
-    "ToolAppId": "item_0",
-    "AmountNeeded": 20,
-    "SecondsToComplete": 15,
-    "DaysToComplete": 0,
-    "Cycles": 1,
-    "OutputAppId": "item_955"
-  },
-  {
     "Type": "ChargingStation",
     "InputAppId": "item_906",
     "ToolAppId": "item_856",

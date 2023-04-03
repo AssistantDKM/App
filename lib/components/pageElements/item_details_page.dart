@@ -94,7 +94,7 @@ class ItemDetailsPage<T extends ItemBasePresenter> extends StatelessWidget {
 
     List<Widget> widgets = [const EmptySpace1x()];
     widgets.addAll(contractToWidgetList(snapshot.value, isInDetailPane));
-    widgets.add(const EmptySpace10x());
+    widgets.add(const EmptySpace(16));
 
     var listWidget = listWithScrollbar(
       itemCount: widgets.length,

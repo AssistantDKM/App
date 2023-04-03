@@ -146,5 +146,11 @@
   "menuFood": "Еда",
   "menuCrafting": "Крафт",
   "requiredLicence": "Required Licence",
-  "hashCode": "CB6AE9AE7B5CBB37B4C63FBA69BE6EA3"
+  "requirement": "Requirement: {0}",
+  "requirementInKm": "Requirement: {0} km",
+  "itemHiddenButExistsInGameFiles": "This item exists in the game files but the item is not available in game. The developer(s) may not want this item publicly visible, it may be spoilers, unfinished work, etc.",
+  "processIn": "Process in",
+  "processFrom": "Process from",
+  "usedToProcess": "Used to process",
+  "hashCode": "56A45B8A0740604F84F0C0071822251D"
 }
