@@ -1,0 +1,42 @@
+import '../../enum_base.dart';
+
+enum ItemChangeType {
+  unknown,
+  chargingStation,
+  compostBin,
+  campFire,
+  bbq,
+  stoneGrinder,
+  tableSaw,
+  gachaMachine,
+  furnace,
+  crudeFurnace,
+  keg,
+  spinningWheel,
+  cheeseMaker,
+  mill,
+  batStatue,
+  billyCanFire,
+  blastFurnace,
+  improvedTableSaw,
+}
+
+final itemChangeTypeValues = EnumValues({
+  'ChargingStation': ItemChangeType.chargingStation,
+  'CompostBin': ItemChangeType.compostBin,
+  'CampFire': ItemChangeType.campFire,
+  'BBQ': ItemChangeType.bbq,
+  'StoneGrinder': ItemChangeType.stoneGrinder,
+  'TableSaw': ItemChangeType.tableSaw,
+  'GachaMachine': ItemChangeType.gachaMachine,
+  'Furnace': ItemChangeType.furnace,
+  'CrudeFurnace': ItemChangeType.crudeFurnace,
+  'Keg': ItemChangeType.keg,
+  'SpinningWheel': ItemChangeType.spinningWheel,
+  'CheeseMaker': ItemChangeType.cheeseMaker,
+  'Mill': ItemChangeType.mill,
+  'BatStatue': ItemChangeType.batStatue,
+  'BillyCanFire': ItemChangeType.billyCanFire,
+  'BlastFurnace': ItemChangeType.blastFurnace,
+  'ImprovedTableSaw': ItemChangeType.improvedTableSaw,
+});

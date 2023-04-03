@@ -1,8 +1,8 @@
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
-import '../../pages/inventory_pages.dart';
 import '../../contracts/required_item_details.dart';
+import '../../helper/navigate_helper.dart';
 
 const double itemPadding = 16.0;
 
@@ -10,6 +10,7 @@ Widget requiredItemTreeDetailsRowPresenter(
   BuildContext context,
   RequiredItemDetails itemDetails,
   int cost,
+  bool isPatron,
 ) {
   Row rowWidget = Row(
     children: [
@@ -38,12 +39,11 @@ Widget requiredItemTreeDetailsRowPresenter(
   );
 
   Future Function() onTapFunc;
-  onTapFunc = () async => await getNavigation().navigateAsync(
-        context,
-        navigateTo: (context) => InventoryDetailsPage(
-          itemDetails.appId,
-          title: itemDetails.name,
-        ),
+  onTapFunc = () async => navigateToInventoryWithProps(
+        context: context,
+        appId: itemDetails.appId,
+        name: itemDetails.name,
+        obscure: (itemDetails.isHidden && isPatron != true),
       );
 
   return GestureDetector(

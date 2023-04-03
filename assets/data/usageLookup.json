@@ -1,0 +1,1403 @@
+{
+  "item_0": [
+    "HasUsedToCreate",
+    "RequiresLicence",
+    "ChangesItems"
+  ],
+  "item_3": [
+    "HasUsedToCreate",
+    "RequiresLicence",
+    "HasItemChange",
+    "HasFromItemChange"
+  ],
+  "item_4": [
+    "HasUsedToCreate",
+    "RequiresLicence"
+  ],
+  "item_6": [
+    "HasUsedToCreate",
+    "RequiresLicence"
+  ],
+  "item_7": [
+    "HasUsedToCreate",
+    "RequiresLicence"
+  ],
+  "item_8": [
+    "HasUsedToCreate",
+    "RequiresLicence"
+  ],
+  "item_9": [
+    "HasUsedToCreate",
+    "HasItemChange",
+    "HasFromItemChange"
+  ],
+  "item_10": [
+    "HasUsedToCreate",
+    "RequiresLicence"
+  ],
+  "item_12": [
+    "HasUsedToCreate",
+    "HasFromItemChange"
+  ],
+  "furniture_13": [
+    "ChangesItems"
+  ],
+  "item_14": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "cooking_17": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_18": [
+    "HasUsedToCreate",
+    "ChangesItems"
+  ],
+  "cooking_19": [
+    "HasFromItemChange"
+  ],
+  "item_21": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_22": [
+    "HasUsedToCreate"
+  ],
+  "item_23": [
+    "HasItemChange"
+  ],
+  "item_26": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "furniture_27": [
+    "HasUsedToCreate",
+    "ChangesItems"
+  ],
+  "cooking_28": [
+    "HasItemChange"
+  ],
+  "item_32": [
+    "HasUsedToCreate"
+  ],
+  "item_33": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_34": [
+    "HasUsedToCreate"
+  ],
+  "fish_48": [
+    "HasItemChange"
+  ],
+  "fish_49": [
+    "HasItemChange"
+  ],
+  "fish_50": [
+    "HasItemChange"
+  ],
+  "fish_52": [
+    "HasItemChange"
+  ],
+  "item_102": [
+    "HasItemChange"
+  ],
+  "item_103": [
+    "RequiresLicence",
+    "HasItemChange",
+    "HasFromItemChange"
+  ],
+  "item_104": [
+    "HasUsedToCreate"
+  ],
+  "item_105": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_106": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_107": [
+    "HasUsedToCreate"
+  ],
+  "cooking_111": [
+    "HasUsedToCreate"
+  ],
+  "item_113": [
+    "HasUsedToCreate",
+    "HasFromItemChange"
+  ],
+  "item_114": [
+    "HasUsedToCreate",
+    "HasFromItemChange"
+  ],
+  "furniture_115": [
+    "HasUsedToCreate",
+    "ChangesItems"
+  ],
+  "cooking_116": [
+    "HasUsedToCreate"
+  ],
+  "cooking_123": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_128": [
+    "RequiresLicence"
+  ],
+  "clothing_130": [
+    "HasItemChange",
+    "HasFromItemChange"
+  ],
+  "item_182": [
+    "HasUsedToCreate"
+  ],
+  "item_183": [
+    "HasUsedToCreate",
+    "RequiresLicence"
+  ],
+  "item_184": [
+    "RequiresLicence"
+  ],
+  "item_197": [
+    "HasItemChange"
+  ],
+  "item_198": [
+    "HasItemChange"
+  ],
+  "item_199": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "fish_200": [
+    "HasItemChange"
+  ],
+  "fish_201": [
+    "HasItemChange"
+  ],
+  "fish_202": [
+    "HasItemChange"
+  ],
+  "fish_203": [
+    "HasItemChange"
+  ],
+  "fish_204": [
+    "HasItemChange"
+  ],
+  "fish_205": [
+    "HasItemChange"
+  ],
+  "fish_206": [
+    "HasItemChange"
+  ],
+  "fish_207": [
+    "HasItemChange"
+  ],
+  "fish_208": [
+    "HasItemChange"
+  ],
+  "item_210": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_212": [
+    "HasUsedToCreate",
+    "HasFromItemChange"
+  ],
+  "item_213": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "cooking_215": [
+    "HasItemChange"
+  ],
+  "item_216": [
+    "HasUsedToCreate",
+    "RequiresLicence"
+  ],
+  "item_217": [
+    "RequiresLicence"
+  ],
+  "cooking_225": [
+    "HasUsedToCreate"
+  ],
+  "bug_228": [
+    "HasUsedToCreate"
+  ],
+  "item_236": [
+    "HasUsedToCreate"
+  ],
+  "item_246": [
+    "HasUsedToCreate"
+  ],
+  "cooking_247": [
+    "HasUsedToCreate"
+  ],
+  "item_271": [
+    "HasUsedToCreate"
+  ],
+  "item_272": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_275": [
+    "HasUsedToCreate",
+    "HasFromItemChange"
+  ],
+  "item_278": [
+    "HasUsedToCreate"
+  ],
+  "cooking_297": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_299": [
+    "HasItemChange"
+  ],
+  "cooking_300": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_301": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_303": [
+    "HasUsedToCreate"
+  ],
+  "furniture_304": [
+    "HasUsedToCreate",
+    "ChangesItems"
+  ],
+  "item_305": [
+    "HasUsedToCreate",
+    "HasFromItemChange"
+  ],
+  "item_306": [
+    "HasUsedToCreate",
+    "HasFromItemChange"
+  ],
+  "item_307": [
+    "HasUsedToCreate",
+    "HasFromItemChange"
+  ],
+  "item_308": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_309": [
+    "HasUsedToCreate"
+  ],
+  "cooking_310": [
+    "HasFromItemChange"
+  ],
+  "item_313": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_317": [
+    "HasUsedToCreate"
+  ],
+  "cooking_320": [
+    "HasUsedToCreate"
+  ],
+  "cooking_322": [
+    "HasUsedToCreate"
+  ],
+  "cooking_324": [
+    "HasItemChange"
+  ],
+  "cooking_327": [
+    "HasUsedToCreate"
+  ],
+  "cooking_328": [
+    "HasUsedToCreate"
+  ],
+  "cooking_330": [
+    "HasUsedToCreate"
+  ],
+  "fish_333": [
+    "HasItemChange"
+  ],
+  "fish_334": [
+    "HasItemChange"
+  ],
+  "fish_335": [
+    "HasItemChange"
+  ],
+  "fish_336": [
+    "HasItemChange"
+  ],
+  "fish_337": [
+    "HasItemChange"
+  ],
+  "fish_338": [
+    "HasItemChange"
+  ],
+  "fish_339": [
+    "HasItemChange"
+  ],
+  "item_340": [
+    "RequiresLicence"
+  ],
+  "item_344": [
+    "HasFromItemChange"
+  ],
+  "cooking_345": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "clothing_349": [
+    "HasUsedToCreate"
+  ],
+  "cooking_350": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "cooking_362": [
+    "HasUsedToCreate"
+  ],
+  "item_382": [
+    "HasUsedToCreate"
+  ],
+  "item_384": [
+    "HasUsedToCreate"
+  ],
+  "furniture_392": [
+    "HasUsedToCreate",
+    "ChangesItems"
+  ],
+  "cooking_393": [
+    "HasUsedToCreate",
+    "HasFromItemChange"
+  ],
+  "item_403": [
+    "HasItemChange"
+  ],
+  "item_450": [
+    "RequiresLicence",
+    "ChangesItems"
+  ],
+  "item_456": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_458": [
+    "ChangesItems"
+  ],
+  "item_460": [
+    "HasUsedToCreate",
+    "HasItemChange",
+    "HasFromItemChange"
+  ],
+  "item_466": [
+    "HasUsedToCreate",
+    "HasItemChange",
+    "HasFromItemChange"
+  ],
+  "fish_484": [
+    "HasItemChange"
+  ],
+  "cooking_575": [
+    "HasFromItemChange"
+  ],
+  "cooking_576": [
+    "HasFromItemChange"
+  ],
+  "cooking_577": [
+    "HasFromItemChange"
+  ],
+  "item_584": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_585": [
+    "HasUsedToCreate"
+  ],
+  "item_586": [
+    "HasUsedToCreate"
+  ],
+  "item_587": [
+    "HasUsedToCreate"
+  ],
+  "item_588": [
+    "HasUsedToCreate"
+  ],
+  "item_594": [
+    "HasUsedToCreate"
+  ],
+  "item_596": [
+    "HasUsedToCreate"
+  ],
+  "item_599": [
+    "HasUsedToCreate",
+    "RequiresLicence",
+    "HasItemChange",
+    "HasFromItemChange"
+  ],
+  "item_600": [
+    "RequiresLicence"
+  ],
+  "item_601": [
+    "HasUsedToCreate"
+  ],
+  "item_602": [
+    "HasUsedToCreate"
+  ],
+  "cooking_603": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_604": [
+    "RequiresLicence"
+  ],
+  "fish_605": [
+    "HasItemChange"
+  ],
+  "fish_606": [
+    "HasItemChange"
+  ],
+  "fish_607": [
+    "HasItemChange"
+  ],
+  "fish_608": [
+    "HasItemChange"
+  ],
+  "fish_609": [
+    "HasItemChange"
+  ],
+  "fish_610": [
+    "HasItemChange"
+  ],
+  "fish_611": [
+    "HasItemChange"
+  ],
+  "fish_612": [
+    "HasItemChange"
+  ],
+  "fish_613": [
+    "HasItemChange"
+  ],
+  "fish_628": [
+    "HasItemChange"
+  ],
+  "fish_629": [
+    "HasItemChange"
+  ],
+  "fish_632": [
+    "HasItemChange"
+  ],
+  "furniture_633": [
+    "ChangesItems"
+  ],
+  "item_634": [
+    "HasUsedToCreate",
+    "HasItemChange",
+    "HasFromItemChange"
+  ],
+  "furniture_635": [
+    "ChangesItems"
+  ],
+  "cooking_636": [
+    "HasUsedToCreate",
+    "HasItemChange",
+    "HasFromItemChange"
+  ],
+  "cooking_637": [
+    "HasItemChange"
+  ],
+  "cooking_638": [
+    "HasFromItemChange"
+  ],
+  "item_639": [
+    "HasUsedToCreate"
+  ],
+  "item_641": [
+    "HasUsedToCreate"
+  ],
+  "item_642": [
+    "HasUsedToCreate"
+  ],
+  "item_643": [
+    "HasUsedToCreate"
+  ],
+  "clothing_644": [
+    "HasUsedToCreate"
+  ],
+  "item_645": [
+    "HasUsedToCreate"
+  ],
+  "cooking_646": [
+    "HasFromItemChange"
+  ],
+  "cooking_647": [
+    "HasFromItemChange"
+  ],
+  "item_648": [
+    "HasItemChange"
+  ],
+  "item_649": [
+    "HasUsedToCreate"
+  ],
+  "item_650": [
+    "HasItemChange"
+  ],
+  "item_659": [
+    "RequiresLicence"
+  ],
+  "item_660": [
+    "HasUsedToCreate"
+  ],
+  "item_661": [
+    "HasUsedToCreate"
+  ],
+  "item_664": [
+    "HasUsedToCreate"
+  ],
+  "cooking_669": [
+    "HasFromItemChange"
+  ],
+  "item_682": [
+    "HasUsedToCreate",
+    "HasItemChange",
+    "HasFromItemChange"
+  ],
+  "item_684": [
+    "RequiresLicence"
+  ],
+  "item_689": [
+    "HasUsedToCreate"
+  ],
+  "item_698": [
+    "HasItemChange"
+  ],
+  "item_699": [
+    "HasUsedToCreate",
+    "RequiresLicence"
+  ],
+  "item_700": [
+    "RequiresLicence"
+  ],
+  "item_701": [
+    "RequiresLicence"
+  ],
+  "item_702": [
+    "RequiresLicence"
+  ],
+  "item_703": [
+    "ChangesItems"
+  ],
+  "item_707": [
+    "HasItemChange"
+  ],
+  "item_708": [
+    "HasItemChange"
+  ],
+  "item_746": [
+    "HasItemChange"
+  ],
+  "cooking_747": [
+    "HasUsedToCreate",
+    "HasFromItemChange"
+  ],
+  "cooking_748": [
+    "HasUsedToCreate",
+    "HasFromItemChange"
+  ],
+  "item_749": [
+    "HasUsedToCreate"
+  ],
+  "item_750": [
+    "HasItemChange"
+  ],
+  "item_760": [
+    "HasUsedToCreate"
+  ],
+  "item_761": [
+    "HasUsedToCreate"
+  ],
+  "item_762": [
+    "HasUsedToCreate"
+  ],
+  "cooking_763": [
+    "HasFromItemChange"
+  ],
+  "cooking_764": [
+    "HasFromItemChange"
+  ],
+  "item_768": [
+    "HasUsedToCreate",
+    "RequiresLicence"
+  ],
+  "cooking_770": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "cooking_771": [
+    "HasFromItemChange"
+  ],
+  "item_772": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "cooking_773": [
+    "HasFromItemChange"
+  ],
+  "item_774": [
+    "HasUsedToCreate"
+  ],
+  "item_778": [
+    "HasUsedToCreate",
+    "RequiresLicence"
+  ],
+  "item_779": [
+    "RequiresLicence"
+  ],
+  "item_799": [
+    "HasUsedToCreate"
+  ],
+  "item_801": [
+    "RequiresLicence"
+  ],
+  "furniture_813": [
+    "HasUsedToCreate"
+  ],
+  "item_814": [
+    "HasItemChange"
+  ],
+  "item_815": [
+    "HasItemChange"
+  ],
+  "item_816": [
+    "HasItemChange"
+  ],
+  "item_817": [
+    "HasItemChange"
+  ],
+  "cooking_843": [
+    "HasUsedToCreate"
+  ],
+  "cooking_845": [
+    "HasUsedToCreate"
+  ],
+  "clothing_847": [
+    "HasItemChange"
+  ],
+  "furniture_848": [
+    "HasUsedToCreate"
+  ],
+  "cooking_852": [
+    "HasFromItemChange"
+  ],
+  "item_853": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_856": [
+    "ChangesItems"
+  ],
+  "item_857": [
+    "HasUsedToCreate"
+  ],
+  "item_858": [
+    "RequiresLicence"
+  ],
+  "item_859": [
+    "HasItemChange"
+  ],
+  "furniture_860": [
+    "ChangesItems"
+  ],
+  "cooking_861": [
+    "HasUsedToCreate",
+    "HasFromItemChange"
+  ],
+  "cooking_862": [
+    "HasUsedToCreate",
+    "HasFromItemChange"
+  ],
+  "item_891": [
+    "HasUsedToCreate"
+  ],
+  "item_892": [
+    "HasUsedToCreate"
+  ],
+  "cooking_893": [
+    "HasUsedToCreate"
+  ],
+  "item_905": [
+    "HasUsedToCreate"
+  ],
+  "item_906": [
+    "HasItemChange",
+    "HasFromItemChange"
+  ],
+  "item_911": [
+    "HasUsedToCreate"
+  ],
+  "item_925": [
+    "HasUsedToCreate",
+    "HasItemChange",
+    "HasFromItemChange"
+  ],
+  "fish_954": [
+    "HasItemChange"
+  ],
+  "item_955": [
+    "HasFromItemChange"
+  ],
+  "item_957": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_958": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "item_963": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "cooking_969": [
+    "HasFromItemChange"
+  ],
+  "cooking_970": [
+    "HasFromItemChange"
+  ],
+  "cooking_997": [
+    "HasFromItemChange"
+  ],
+  "cooking_1014": [
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "cooking_1015": [
+    "HasFromItemChange"
+  ],
+  "item_1025": [
+    "RequiresLicence"
+  ],
+  "item_1026": [
+    "RequiresLicence"
+  ],
+  "item_1031": [
+    "IsInGameUpdate"
+  ],
+  "item_1032": [
+    "IsInGameUpdate"
+  ],
+  "item_1033": [
+    "IsInGameUpdate"
+  ],
+  "item_1034": [
+    "HasItemChange",
+    "IsInGameUpdate"
+  ],
+  "cooking_1035": [
+    "HasItemChange",
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "cooking_1036": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "item_1037": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1038": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1039": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1040": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1041": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1042": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1043": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1044": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1045": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1046": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1047": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1048": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1049": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1050": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1051": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1052": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1053": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1054": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1055": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1056": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1057": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1058": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1059": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1060": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1061": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1062": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1063": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1064": [
+    "IsInGameUpdate"
+  ],
+  "item_1065": [
+    "IsInGameUpdate"
+  ],
+  "item_1066": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1067": [
+    "IsInGameUpdate"
+  ],
+  "item_1068": [
+    "IsInGameUpdate"
+  ],
+  "item_1069": [
+    "IsInGameUpdate"
+  ],
+  "item_1070": [
+    "IsInGameUpdate"
+  ],
+  "item_1071": [
+    "RequiresLicence",
+    "IsInGameUpdate"
+  ],
+  "item_1072": [
+    "IsInGameUpdate"
+  ],
+  "item_1073": [
+    "IsInGameUpdate"
+  ],
+  "item_1074": [
+    "IsInGameUpdate"
+  ],
+  "item_1075": [
+    "IsInGameUpdate"
+  ],
+  "item_1076": [
+    "IsInGameUpdate"
+  ],
+  "item_1077": [
+    "IsInGameUpdate"
+  ],
+  "item_1078": [
+    "IsInGameUpdate"
+  ],
+  "item_1079": [
+    "IsInGameUpdate"
+  ],
+  "item_1080": [
+    "IsInGameUpdate"
+  ],
+  "item_1081": [
+    "IsInGameUpdate"
+  ],
+  "item_1082": [
+    "IsInGameUpdate"
+  ],
+  "item_1083": [
+    "IsInGameUpdate"
+  ],
+  "item_1084": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1085": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1086": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1087": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1088": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1089": [
+    "IsInGameUpdate"
+  ],
+  "item_1090": [
+    "IsInGameUpdate"
+  ],
+  "item_1091": [
+    "IsInGameUpdate"
+  ],
+  "item_1092": [
+    "IsInGameUpdate"
+  ],
+  "item_1093": [
+    "HasUsedToCreate",
+    "IsInGameUpdate"
+  ],
+  "item_1094": [
+    "HasUsedToCreate",
+    "IsInGameUpdate"
+  ],
+  "item_1095": [
+    "IsInGameUpdate"
+  ],
+  "item_1096": [
+    "IsInGameUpdate"
+  ],
+  "item_1097": [
+    "IsInGameUpdate"
+  ],
+  "item_1098": [
+    "IsInGameUpdate"
+  ],
+  "item_1099": [
+    "IsInGameUpdate"
+  ],
+  "item_1100": [
+    "IsInGameUpdate"
+  ],
+  "item_1101": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1102": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1103": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1104": [
+    "IsInGameUpdate"
+  ],
+  "item_1105": [
+    "IsInGameUpdate"
+  ],
+  "item_1106": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1107": [
+    "IsInGameUpdate"
+  ],
+  "item_1108": [
+    "RequiresLicence",
+    "HasItemChange",
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "item_1109": [
+    "RequiresLicence",
+    "HasItemChange",
+    "IsInGameUpdate"
+  ],
+  "item_1110": [
+    "IsInGameUpdate"
+  ],
+  "item_1111": [
+    "IsInGameUpdate"
+  ],
+  "item_1112": [
+    "IsInGameUpdate"
+  ],
+  "item_1113": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1114": [
+    "IsInGameUpdate"
+  ],
+  "item_1115": [
+    "IsInGameUpdate"
+  ],
+  "item_1116": [
+    "IsInGameUpdate"
+  ],
+  "item_1117": [
+    "IsInGameUpdate"
+  ],
+  "item_1118": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1119": [
+    "IsInGameUpdate"
+  ],
+  "item_1120": [
+    "IsInGameUpdate"
+  ],
+  "item_1121": [
+    "ChangesItems",
+    "IsInGameUpdate"
+  ],
+  "item_1122": [
+    "IsInGameUpdate"
+  ],
+  "item_1123": [
+    "RequiresLicence",
+    "IsInGameUpdate"
+  ],
+  "item_1124": [
+    "IsInGameUpdate"
+  ],
+  "item_1125": [
+    "IsInGameUpdate"
+  ],
+  "cooking_1126": [
+    "HasItemChange",
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "cooking_1127": [
+    "HasItemChange",
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "item_1128": [
+    "IsInGameUpdate"
+  ],
+  "item_1129": [
+    "IsInGameUpdate"
+  ],
+  "item_1130": [
+    "IsInGameUpdate"
+  ],
+  "item_1131": [
+    "HasUsedToCreate",
+    "IsInGameUpdate"
+  ],
+  "item_1132": [
+    "IsInGameUpdate"
+  ],
+  "item_1133": [
+    "IsInGameUpdate"
+  ],
+  "item_1134": [
+    "IsInGameUpdate"
+  ],
+  "item_1135": [
+    "IsInGameUpdate"
+  ],
+  "item_1136": [
+    "IsInGameUpdate"
+  ],
+  "item_1137": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1138": [
+    "IsInGameUpdate"
+  ],
+  "item_1139": [
+    "IsInGameUpdate"
+  ],
+  "item_1140": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1141": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1142": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1143": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1144": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1145": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1146": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1147": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1148": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1149": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1150": [
+    "IsInGameUpdate"
+  ],
+  "item_1151": [
+    "HasUsedToCreate",
+    "IsInGameUpdate"
+  ],
+  "clothing_1152": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1153": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1154": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1155": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1156": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1157": [
+    "IsInGameUpdate"
+  ],
+  "item_1158": [
+    "HasUsedToCreate",
+    "IsInGameUpdate"
+  ],
+  "furniture_1159": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1160": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1161": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1162": [
+    "IsInGameUpdate"
+  ],
+  "item_1163": [
+    "IsInGameUpdate"
+  ],
+  "item_1164": [
+    "IsInGameUpdate"
+  ],
+  "item_1165": [
+    "HasUsedToCreate",
+    "HasItemChange",
+    "IsInGameUpdate"
+  ],
+  "item_1166": [
+    "HasUsedToCreate",
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "item_1167": [
+    "IsInGameUpdate"
+  ],
+  "item_1168": [
+    "HasItemChange",
+    "IsInGameUpdate"
+  ],
+  "cooking_1169": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "item_1170": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1171": [
+    "IsInGameUpdate"
+  ],
+  "cooking_1172": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "cooking_1173": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "cooking_1174": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "cooking_1175": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "item_1176": [
+    "IsInGameUpdate"
+  ],
+  "item_1177": [
+    "IsInGameUpdate"
+  ],
+  "item_1178": [
+    "IsInGameUpdate"
+  ],
+  "item_1179": [
+    "HasItemChange",
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "item_1180": [
+    "HasItemChange",
+    "IsInGameUpdate"
+  ],
+  "item_1181": [
+    "IsInGameUpdate"
+  ],
+  "item_1182": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1183": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1184": [
+    "IsInGameUpdate"
+  ],
+  "bug_1185": [
+    "IsInGameUpdate"
+  ],
+  "bug_1186": [
+    "IsInGameUpdate"
+  ],
+  "bug_1187": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1188": [
+    "ChangesItems",
+    "IsInGameUpdate"
+  ],
+  "furniture_1189": [
+    "ChangesItems",
+    "IsInGameUpdate"
+  ],
+  "clothing_1190": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1191": [
+    "IsInGameUpdate"
+  ],
+  "item_1192": [
+    "RequiresLicence",
+    "HasItemChange",
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "item_1193": [
+    "RequiresLicence",
+    "HasItemChange",
+    "IsInGameUpdate"
+  ],
+  "item_1194": [
+    "HasItemChange",
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "item_1195": [
+    "HasItemChange",
+    "IsInGameUpdate"
+  ],
+  "clothing_1196": [
+    "IsInGameUpdate"
+  ],
+  "fish_1197": [
+    "HasItemChange",
+    "IsInGameUpdate"
+  ],
+  "clothing_1198": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1199": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1200": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1201": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1202": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1203": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1204": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1205": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1206": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1207": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1208": [
+    "IsInGameUpdate"
+  ],
+  "item_1209": [
+    "IsInGameUpdate"
+  ],
+  "item_1210": [
+    "IsInGameUpdate"
+  ],
+  "item_1211": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1212": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1213": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1214": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1215": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1216": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1217": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1218": [
+    "IsInGameUpdate"
+  ],
+  "item_1219": [
+    "IsInGameUpdate"
+  ],
+  "cooking_1220": [
+    "IsInGameUpdate"
+  ],
+  "item_1221": [
+    "IsInGameUpdate"
+  ]
+}

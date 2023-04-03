@@ -2,7 +2,7 @@ import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../contracts/pageItem/cart_item_page_item.dart';
-import '../../pages/inventory_pages.dart';
+import '../../helper/navigate_helper.dart';
 import 'item_base_tile_presenter.dart';
 import 'unknown_tile_presenter.dart';
 
@@ -44,12 +44,10 @@ Widget Function(
         onDelete: () => onDelete(item.appId),
       ),
       onTap: onTap ??
-          () => getNavigation().navigateAwayFromHomeAsync(
-                context,
-                navigateTo: (ctx) => InventoryDetailsPage(
-                  item.appId,
-                  title: item.name,
-                ),
+          () => navigateToInventory(
+                context: context,
+                item: item,
+                isPatron: isPatron,
               ),
     );
   };

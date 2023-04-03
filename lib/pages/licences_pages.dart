@@ -14,10 +14,10 @@ import '../contracts/json/licence_item.dart';
 import '../contracts/pageItem/licence_item_page_item.dart';
 import '../contracts/redux/app_state.dart';
 import '../helper/future_helper.dart';
+import '../helper/navigate_helper.dart';
 import '../helper/text_helper.dart';
 import '../integration/dependency_injection.dart';
 import '../redux/misc/inventory_item_viewmodel.dart';
-import 'inventory_pages.dart';
 
 class LicencesListPage extends StatelessWidget {
   final String analyticsEvent = AnalyticsEvent.licence;
@@ -133,12 +133,10 @@ class LicenceDetailsPage extends StatelessWidget {
                       storeCtx,
                       invItem,
                       0,
-                      onTap: () => getNavigation().navigateAwayFromHomeAsync(
-                        storeCtx,
-                        navigateTo: (ctx) => InventoryDetailsPage(
-                          invItem.appId,
-                          title: invItem.name,
-                        ),
+                      onTap: () => navigateToInventory(
+                        context: storeCtx,
+                        item: invItem,
+                        isPatron: viewModel.isPatron,
                       ),
                     ));
                   }

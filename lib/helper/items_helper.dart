@@ -40,6 +40,7 @@ Future<List<RequiredItemDetails>> getAllRequiredItemsForMultiple(
           appId: rawMaterialDetails.appId,
           icon: rawMaterialDetails.icon,
           name: rawMaterialDetails.name,
+          isHidden: rawMaterialDetails.isHidden,
           quantity: orig.quantity + rawMaterialDetails.quantity,
         ),
       );
@@ -50,6 +51,7 @@ Future<List<RequiredItemDetails>> getAllRequiredItemsForMultiple(
           appId: rawMaterialDetails.appId,
           icon: rawMaterialDetails.icon,
           name: rawMaterialDetails.name,
+          isHidden: rawMaterialDetails.isHidden,
           quantity: rawMaterialDetails.quantity,
         ),
       );
@@ -123,6 +125,7 @@ RequiredItemDetails toRequiredItemDetails(
       appId: requiredItem.appId,
       icon: invItem.icon,
       name: invItem.name,
+      isHidden: invItem.hidden,
       quantity: requiredItem.quantity,
     );
 

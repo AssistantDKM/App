@@ -5,13 +5,14 @@ import '../../constants/app_image.dart';
 import '../../contracts/json/inventory_item.dart';
 import '../../helper/currency_helper.dart';
 import '../../helper/generic_repository_helper.dart';
-import '../../pages/inventory_pages.dart';
+import '../../helper/navigate_helper.dart';
 
 Widget deedRequirementsTilePresenter(
   BuildContext context,
   String deedId,
   int spendBeforeMoveIn,
   int relationshipBeforeMove, {
+  required bool isPatron,
   void Function()? onTap,
 }) {
   return CachedFutureBuilder(
@@ -26,6 +27,7 @@ Widget deedRequirementsTilePresenter(
       result,
       spendBeforeMoveIn,
       relationshipBeforeMove,
+      isPatron,
       onTap,
     ),
   );
@@ -36,6 +38,7 @@ Widget deedRequirementsBodyTilePresenter(
   ResultWithValue<InventoryItem> invResult,
   int spendBeforeMoveIn,
   int relationshipBeforeMove,
+  bool isPatron,
   void Function()? onTap,
 ) {
   if (invResult.hasFailed) {
@@ -70,12 +73,10 @@ Widget deedRequirementsBodyTilePresenter(
       ],
     ),
     onTap: onTap ??
-        () => getNavigation().navigateAwayFromHomeAsync(
-              deedCtx,
-              navigateTo: (ctx) => InventoryDetailsPage(
-                invResult.value.appId,
-                title: invResult.value.name,
-              ),
+        () => navigateToInventory(
+              context: deedCtx,
+              item: invResult.value,
+              isPatron: isPatron,
             ),
   );
 }

@@ -1,13 +1,16 @@
 import 'package:assistant_dinkum_app/constants/app_padding.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_redux/flutter_redux.dart';
 
 import '../../components/scaffoldTemplates/generic_page_scaffold.dart';
 import '../../components/tilePresenters/required_item_tile_presenter.dart';
+import '../../contracts/redux/app_state.dart';
 import '../../contracts/required_item.dart';
 import '../../contracts/required_item_details.dart';
 import '../../contracts/required_item_tree_details.dart';
 import '../../helper/items_helper.dart';
+import '../../redux/misc/raw_materials_viewmodel.dart';
 import 'generic_page_all_required_raw_materials_tree_components.dart';
 
 class GenericPageAllRequiredRawMaterials extends StatefulWidget {
@@ -56,11 +59,19 @@ class _GenericPageAllRequiredRawMaterialsWidget
       ),
     );
 
-    return basicGenericPageScaffold(
-      context,
-      title: widget.name,
-      body: getBody(context, currentSelection, segmentedWidget),
-      // fab: getFloatingActionButton(context, controller, item.genericItem),
+    return StoreConnector<AppState, RawMaterialsViewModel>(
+      converter: (store) => RawMaterialsViewModel.fromStore(store),
+      builder: (storeCtx, viewModel) => basicGenericPageScaffold(
+        context,
+        title: widget.name,
+        body: getBody(
+          context,
+          currentSelection,
+          segmentedWidget,
+          viewModel.isPatron,
+        ),
+        // fab: getFloatingActionButton(context, controller, item.genericItem),
+      ),
     );
   }
 
@@ -68,6 +79,7 @@ class _GenericPageAllRequiredRawMaterialsWidget
     BuildContext context,
     int currentSelection,
     Widget segmentedWidget,
+    bool isPatron,
   ) {
     List<Widget> widgets = List.empty(growable: true);
     if (widget.name.isNotEmpty) {
@@ -88,7 +100,7 @@ class _GenericPageAllRequiredRawMaterialsWidget
             AsyncSnapshot<List<RequiredItemDetails>> snapshot) {
           List<Widget> listSpecificWidgets = [
             ...widgets,
-            ...getFlatListBody(builderContext, snapshot)
+            ...getFlatListBody(builderContext, snapshot, isPatron)
           ];
           return ContentHorizontalSpacing(
             child: listWithScrollbar(
@@ -107,7 +119,7 @@ class _GenericPageAllRequiredRawMaterialsWidget
             AsyncSnapshot<List<RequiredItemTreeDetails>> snapshot) {
           var treeSpecificWidgets = [
             ...widgets,
-            ...getTreeBody(builderContext, snapshot)
+            ...getTreeBody(builderContext, snapshot, isPatron)
           ];
           return ContentHorizontalSpacing(
             child: Column(
@@ -124,6 +136,7 @@ class _GenericPageAllRequiredRawMaterialsWidget
   List<Widget> getFlatListBody(
     BuildContext context,
     AsyncSnapshot<List<RequiredItemDetails>> snapshot,
+    bool isPatron,
   ) {
     Widget? errorWidget = asyncSnapshotHandler(context, snapshot);
     if (errorWidget != null) return [errorWidget];
@@ -135,6 +148,7 @@ class _GenericPageAllRequiredRawMaterialsWidget
         widgets.add(requiredItemDetailsBodyTilePresenter(
           context,
           details: item,
+          isPatron: isPatron,
         ));
       }
     } else {
@@ -159,6 +173,7 @@ class _GenericPageAllRequiredRawMaterialsWidget
   List<Widget> getTreeBody(
     BuildContext context,
     AsyncSnapshot<List<RequiredItemTreeDetails>> snapshot,
+    bool isPatron,
   ) {
     Widget? errorWidget = asyncSnapshotHandler(context, snapshot);
     if (errorWidget != null) return [errorWidget];
@@ -170,7 +185,7 @@ class _GenericPageAllRequiredRawMaterialsWidget
         child: ListView(
           shrinkWrap: true,
           children: [
-            getTree(context, snapshot.data!),
+            getTree(context, snapshot.data!, isPatron),
           ],
         ),
       ));

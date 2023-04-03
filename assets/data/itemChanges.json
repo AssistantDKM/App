@@ -1,0 +1,1912 @@
+[
+  {
+    "Type": "ChargingStation",
+    "InputAppId": "item_3",
+    "ToolAppId": "item_856",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 600,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_3"
+  },
+  {
+    "Type": "ChargingStation",
+    "InputAppId": "item_9",
+    "ToolAppId": "item_856",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 300,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "item_9"
+  },
+  {
+    "Type": "CompostBin",
+    "InputAppId": "item_14",
+    "ToolAppId": "item_703",
+    "AmountNeeded": 8,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 1,
+    "Cycles": 1,
+    "OutputAppId": "item_275"
+  },
+  {
+    "Type": "BillyCanFire",
+    "InputAppId": "cooking_17",
+    "ToolAppId": "item_1121",
+    "AmountNeeded": 10,
+    "SecondsToComplete": 600,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_1174"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "cooking_17",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 8,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_577"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "cooking_17",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 4,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_577"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "item_21",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 16,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_19"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "item_21",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 8,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_19"
+  },
+  {
+    "Type": "StoneGrinder",
+    "InputAppId": "item_23",
+    "ToolAppId": "furniture_27",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 10,
+    "DaysToComplete": 0,
+    "Cycles": 3,
+    "OutputTable": [
+      {
+        "AppId": "item_104",
+        "PercentageChance": 1.0
+      },
+      {
+        "AppId": "item_106",
+        "PercentageChance": 15.0
+      },
+      {
+        "AppId": "item_105",
+        "PercentageChance": 32.0
+      },
+      {
+        "AppId": "item_456",
+        "PercentageChance": 52.0
+      }
+    ]
+  },
+  {
+    "Type": "StoneGrinder",
+    "InputAppId": "item_26",
+    "ToolAppId": "furniture_27",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 10,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_12"
+  },
+  {
+    "Type": "Mill",
+    "InputAppId": "cooking_28",
+    "ToolAppId": "furniture_860",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 180,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "cooking_862"
+  },
+  {
+    "Type": "TableSaw",
+    "InputAppId": "item_33",
+    "ToolAppId": "furniture_304",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_305"
+  },
+  {
+    "Type": "ImprovedTableSaw",
+    "InputAppId": "item_33",
+    "ToolAppId": "furniture_1189",
+    "AmountNeeded": 10,
+    "SecondsToComplete": 1,
+    "DaysToComplete": 0,
+    "Cycles": 10,
+    "OutputAppId": "item_305"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_48",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_48",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_49",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 5,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_49",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 5,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_50",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_50",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_52",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_52",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "BillyCanFire",
+    "InputAppId": "item_102",
+    "ToolAppId": "item_1121",
+    "AmountNeeded": 10,
+    "SecondsToComplete": 240,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_1126"
+  },
+  {
+    "Type": "ChargingStation",
+    "InputAppId": "item_103",
+    "ToolAppId": "item_856",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 300,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "item_103"
+  },
+  {
+    "Type": "CrudeFurnace",
+    "InputAppId": "item_105",
+    "ToolAppId": "item_458",
+    "AmountNeeded": 5,
+    "SecondsToComplete": 60,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_114"
+  },
+  {
+    "Type": "Furnace",
+    "InputAppId": "item_105",
+    "ToolAppId": "furniture_115",
+    "AmountNeeded": 5,
+    "SecondsToComplete": 30,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_114"
+  },
+  {
+    "Type": "BlastFurnace",
+    "InputAppId": "item_105",
+    "ToolAppId": "furniture_1188",
+    "AmountNeeded": 5,
+    "SecondsToComplete": 10,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "item_114"
+  },
+  {
+    "Type": "Furnace",
+    "InputAppId": "item_106",
+    "ToolAppId": "furniture_115",
+    "AmountNeeded": 5,
+    "SecondsToComplete": 40,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_113"
+  },
+  {
+    "Type": "BlastFurnace",
+    "InputAppId": "item_106",
+    "ToolAppId": "furniture_1188",
+    "AmountNeeded": 5,
+    "SecondsToComplete": 10,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "item_113"
+  },
+  {
+    "Type": "Mill",
+    "InputAppId": "cooking_123",
+    "ToolAppId": "furniture_860",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 18,
+    "DaysToComplete": 0,
+    "Cycles": 10,
+    "OutputAppId": "item_344"
+  },
+  {
+    "Type": "ChargingStation",
+    "InputAppId": "clothing_130",
+    "ToolAppId": "item_856",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 120,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "clothing_130"
+  },
+  {
+    "Type": "CompostBin",
+    "InputAppId": "item_197",
+    "ToolAppId": "item_703",
+    "AmountNeeded": 15,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 2,
+    "Cycles": 0,
+    "OutputAppId": "item_275"
+  },
+  {
+    "Type": "CompostBin",
+    "InputAppId": "item_198",
+    "ToolAppId": "item_703",
+    "AmountNeeded": 25,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 2,
+    "Cycles": 0,
+    "OutputAppId": "item_275"
+  },
+  {
+    "Type": "CompostBin",
+    "InputAppId": "item_199",
+    "ToolAppId": "item_703",
+    "AmountNeeded": 10,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 2,
+    "Cycles": 0,
+    "OutputAppId": "item_275"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_200",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_200",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_201",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_201",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_202",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_202",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_203",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 3,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_203",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 3,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_204",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_204",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_205",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_205",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_206",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_206",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_207",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 3,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_207",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 3,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_208",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 9,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_208",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 9,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "item_210",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 1,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_212"
+  },
+  {
+    "Type": "CrudeFurnace",
+    "InputAppId": "item_210",
+    "ToolAppId": "item_458",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 1,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_212"
+  },
+  {
+    "Type": "Furnace",
+    "InputAppId": "item_210",
+    "ToolAppId": "furniture_115",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 1,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_212"
+  },
+  {
+    "Type": "TableSaw",
+    "InputAppId": "item_213",
+    "ToolAppId": "furniture_304",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_306"
+  },
+  {
+    "Type": "ImprovedTableSaw",
+    "InputAppId": "item_213",
+    "ToolAppId": "furniture_1189",
+    "AmountNeeded": 10,
+    "SecondsToComplete": 1,
+    "DaysToComplete": 0,
+    "Cycles": 10,
+    "OutputAppId": "item_306"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "cooking_215",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 4,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_669"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "cooking_215",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_669"
+  },
+  {
+    "Type": "CompostBin",
+    "InputAppId": "item_272",
+    "ToolAppId": "item_703",
+    "AmountNeeded": 4,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 1,
+    "Cycles": 1,
+    "OutputAppId": "item_275"
+  },
+  {
+    "Type": "BillyCanFire",
+    "InputAppId": "cooking_297",
+    "ToolAppId": "item_1121",
+    "AmountNeeded": 10,
+    "SecondsToComplete": 600,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_1173"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "cooking_297",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 8,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_576"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "cooking_297",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 4,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_576"
+  },
+  {
+    "Type": "GachaMachine",
+    "InputAppId": "item_299",
+    "ToolAppId": "item_450",
+    "AmountNeeded": 5000,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 1,
+    "Cycles": 1,
+    "OutputTable": [
+      {
+        "AppId": "item_104",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_113",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_114",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_110",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_351",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_183",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_184",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_8",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_460",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "clothing_130",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_387",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_593",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_594",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_863",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_236",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_0",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_216",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_184",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_4",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_272",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_351",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_453",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "furniture_115",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_341",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "cooking_345",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "cooking_350",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "cooking_637",
+        "PercentageChance": 3.57
+      },
+      {
+        "AppId": "item_226",
+        "PercentageChance": 3.57
+      }
+    ]
+  },
+  {
+    "Type": "BillyCanFire",
+    "InputAppId": "cooking_300",
+    "ToolAppId": "item_1121",
+    "AmountNeeded": 10,
+    "SecondsToComplete": 600,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_1172"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "cooking_300",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 8,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_575"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "cooking_300",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 4,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_575"
+  },
+  {
+    "Type": "TableSaw",
+    "InputAppId": "item_301",
+    "ToolAppId": "furniture_304",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_307"
+  },
+  {
+    "Type": "ImprovedTableSaw",
+    "InputAppId": "item_301",
+    "ToolAppId": "furniture_1189",
+    "AmountNeeded": 10,
+    "SecondsToComplete": 1,
+    "DaysToComplete": 0,
+    "Cycles": 10,
+    "OutputAppId": "item_307"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "item_308",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 10,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_310"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "item_308",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 5,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_310"
+  },
+  {
+    "Type": "Mill",
+    "InputAppId": "item_313",
+    "ToolAppId": "furniture_860",
+    "AmountNeeded": 5,
+    "SecondsToComplete": 180,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "item_344"
+  },
+  {
+    "Type": "Mill",
+    "InputAppId": "cooking_324",
+    "ToolAppId": "furniture_860",
+    "AmountNeeded": 4,
+    "SecondsToComplete": 180,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "cooking_861"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_333",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_333",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_334",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_334",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_335",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_335",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_336",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_336",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_337",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 6,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_337",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 6,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_338",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_338",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_339",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_339",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "cooking_345",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 8,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_764"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "cooking_345",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 4,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_764"
+  },
+  {
+    "Type": "CheeseMaker",
+    "InputAppId": "cooking_350",
+    "ToolAppId": "furniture_635",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 1,
+    "Cycles": 1,
+    "OutputAppId": "cooking_636"
+  },
+  {
+    "Type": "SpinningWheel",
+    "InputAppId": "item_403",
+    "ToolAppId": "furniture_633",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 1,
+    "Cycles": 1,
+    "OutputAppId": "item_634"
+  },
+  {
+    "Type": "CrudeFurnace",
+    "InputAppId": "item_456",
+    "ToolAppId": "item_458",
+    "AmountNeeded": 5,
+    "SecondsToComplete": 60,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_460"
+  },
+  {
+    "Type": "Furnace",
+    "InputAppId": "item_456",
+    "ToolAppId": "furniture_115",
+    "AmountNeeded": 5,
+    "SecondsToComplete": 30,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_460"
+  },
+  {
+    "Type": "BlastFurnace",
+    "InputAppId": "item_456",
+    "ToolAppId": "furniture_1188",
+    "AmountNeeded": 5,
+    "SecondsToComplete": 10,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "item_460"
+  },
+  {
+    "Type": "TableSaw",
+    "InputAppId": "item_460",
+    "ToolAppId": "furniture_304",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_466"
+  },
+  {
+    "Type": "CrudeFurnace",
+    "InputAppId": "item_466",
+    "ToolAppId": "item_458",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 60,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_460"
+  },
+  {
+    "Type": "Furnace",
+    "InputAppId": "item_466",
+    "ToolAppId": "furniture_115",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 30,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_460"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_484",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_484",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "item_584",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 50,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_646"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "item_584",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 25,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_646"
+  },
+  {
+    "Type": "ChargingStation",
+    "InputAppId": "item_599",
+    "ToolAppId": "item_856",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 600,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "item_599"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "cooking_603",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 8,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_763"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "cooking_603",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 4,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_763"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_605",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_605",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_606",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 3,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_606",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 3,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_607",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_607",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_608",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_608",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_609",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_609",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_610",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 6,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_610",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 6,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_611",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_997"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_611",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_997"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_612",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 4,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_612",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 4,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_613",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_613",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_628",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 8,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_628",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 8,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_629",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_629",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_632",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_632",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "SpinningWheel",
+    "InputAppId": "item_634",
+    "ToolAppId": "furniture_633",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 1,
+    "Cycles": 1,
+    "OutputAppId": "item_634"
+  },
+  {
+    "Type": "CheeseMaker",
+    "InputAppId": "cooking_636",
+    "ToolAppId": "furniture_635",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 1,
+    "Cycles": 1,
+    "OutputAppId": "cooking_636"
+  },
+  {
+    "Type": "CheeseMaker",
+    "InputAppId": "cooking_637",
+    "ToolAppId": "furniture_635",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 1,
+    "Cycles": 1,
+    "OutputAppId": "cooking_638"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "item_648",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 32,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_647"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "item_648",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 16,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_647"
+  },
+  {
+    "Type": "TableSaw",
+    "InputAppId": "item_650",
+    "ToolAppId": "furniture_304",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_307"
+  },
+  {
+    "Type": "ImprovedTableSaw",
+    "InputAppId": "item_650",
+    "ToolAppId": "furniture_1189",
+    "AmountNeeded": 10,
+    "SecondsToComplete": 1,
+    "DaysToComplete": 0,
+    "Cycles": 10,
+    "OutputAppId": "item_307"
+  },
+  {
+    "Type": "ChargingStation",
+    "InputAppId": "item_682",
+    "ToolAppId": "item_856",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 600,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "item_682"
+  },
+  {
+    "Type": "BillyCanFire",
+    "InputAppId": "item_698",
+    "ToolAppId": "item_1121",
+    "AmountNeeded": 10,
+    "SecondsToComplete": 180,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_1127"
+  },
+  {
+    "Type": "Mill",
+    "InputAppId": "item_707",
+    "ToolAppId": "furniture_860",
+    "AmountNeeded": 5,
+    "SecondsToComplete": 180,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "item_344"
+  },
+  {
+    "Type": "Mill",
+    "InputAppId": "item_708",
+    "ToolAppId": "furniture_860",
+    "AmountNeeded": 5,
+    "SecondsToComplete": 180,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_344"
+  },
+  {
+    "Type": "Keg",
+    "InputAppId": "item_746",
+    "ToolAppId": "furniture_392",
+    "AmountNeeded": 10,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 2,
+    "Cycles": 1,
+    "OutputAppId": "cooking_747"
+  },
+  {
+    "Type": "CompostBin",
+    "InputAppId": "item_750",
+    "ToolAppId": "item_703",
+    "AmountNeeded": 2,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 1,
+    "Cycles": 1,
+    "OutputAppId": "item_275"
+  },
+  {
+    "Type": "BillyCanFire",
+    "InputAppId": "cooking_770",
+    "ToolAppId": "item_1121",
+    "AmountNeeded": 10,
+    "SecondsToComplete": 600,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_1175"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "cooking_770",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 8,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_771"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "cooking_770",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 4,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_771"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "item_772",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 32,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_773"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "item_772",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 16,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_773"
+  },
+  {
+    "Type": "CompostBin",
+    "InputAppId": "item_814",
+    "ToolAppId": "item_703",
+    "AmountNeeded": 25,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 2,
+    "Cycles": 0,
+    "OutputAppId": "item_275"
+  },
+  {
+    "Type": "CompostBin",
+    "InputAppId": "item_815",
+    "ToolAppId": "item_703",
+    "AmountNeeded": 25,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 2,
+    "Cycles": 0,
+    "OutputAppId": "item_275"
+  },
+  {
+    "Type": "CompostBin",
+    "InputAppId": "item_816",
+    "ToolAppId": "item_703",
+    "AmountNeeded": 15,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 2,
+    "Cycles": 0,
+    "OutputAppId": "item_275"
+  },
+  {
+    "Type": "CompostBin",
+    "InputAppId": "item_817",
+    "ToolAppId": "item_703",
+    "AmountNeeded": 25,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 2,
+    "Cycles": 0,
+    "OutputAppId": "item_275"
+  },
+  {
+    "Type": "ChargingStation",
+    "InputAppId": "clothing_847",
+    "ToolAppId": "item_856",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 120,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "clothing_130"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "item_853",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 16,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_852"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "item_853",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 8,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_852"
+  },
+  {
+    "Type": "ChargingStation",
+    "InputAppId": "item_906",
+    "ToolAppId": "item_856",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 300,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "item_906"
+  },
+  {
+    "Type": "ChargingStation",
+    "InputAppId": "item_925",
+    "ToolAppId": "item_856",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 600,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "item_925"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_954",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 10,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_954",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 10,
+    "OutputAppId": "cooking_969"
+  },
+  {
+    "Type": "CompostBin",
+    "InputAppId": "item_957",
+    "ToolAppId": "item_703",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 30,
+    "DaysToComplete": 0,
+    "Cycles": 8,
+    "OutputAppId": "item_275"
+  },
+  {
+    "Type": "CompostBin",
+    "InputAppId": "item_958",
+    "ToolAppId": "item_703",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 30,
+    "DaysToComplete": 0,
+    "Cycles": 8,
+    "OutputAppId": "item_275"
+  },
+  {
+    "Type": "CompostBin",
+    "InputAppId": "item_963",
+    "ToolAppId": "item_703",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 30,
+    "DaysToComplete": 0,
+    "Cycles": 8,
+    "OutputAppId": "item_275"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "cooking_1014",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 8,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_1015"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "cooking_1014",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 4,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_1015"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "item_1034",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 3,
+    "SecondsToComplete": 4,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_1035"
+  },
+  {
+    "Type": "BillyCanFire",
+    "InputAppId": "cooking_1035",
+    "ToolAppId": "item_1121",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 600,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "cooking_1036"
+  },
+  {
+    "Type": "ChargingStation",
+    "InputAppId": "item_1108",
+    "ToolAppId": "item_856",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 600,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_1108"
+  },
+  {
+    "Type": "ChargingStation",
+    "InputAppId": "item_1109",
+    "ToolAppId": "item_856",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 600,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_1108"
+  },
+  {
+    "Type": "Keg",
+    "InputAppId": "cooking_1126",
+    "ToolAppId": "furniture_392",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 2,
+    "Cycles": 1,
+    "OutputAppId": "cooking_393"
+  },
+  {
+    "Type": "Keg",
+    "InputAppId": "cooking_1127",
+    "ToolAppId": "furniture_392",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 0,
+    "DaysToComplete": 2,
+    "Cycles": 1,
+    "OutputAppId": "cooking_748"
+  },
+  {
+    "Type": "BlastFurnace",
+    "InputAppId": "item_1165",
+    "ToolAppId": "furniture_1188",
+    "AmountNeeded": 5,
+    "SecondsToComplete": 240,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "item_1166"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "item_1168",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 16,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_1169"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "item_1168",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 8,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_1169"
+  },
+  {
+    "Type": "ChargingStation",
+    "InputAppId": "item_1179",
+    "ToolAppId": "item_856",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 600,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "item_1179"
+  },
+  {
+    "Type": "ChargingStation",
+    "InputAppId": "item_1180",
+    "ToolAppId": "item_856",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 600,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "item_1179"
+  },
+  {
+    "Type": "ChargingStation",
+    "InputAppId": "item_1192",
+    "ToolAppId": "item_856",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 600,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "item_1192"
+  },
+  {
+    "Type": "ChargingStation",
+    "InputAppId": "item_1193",
+    "ToolAppId": "item_856",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 600,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "item_1192"
+  },
+  {
+    "Type": "ChargingStation",
+    "InputAppId": "item_1194",
+    "ToolAppId": "item_856",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 600,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "item_1194"
+  },
+  {
+    "Type": "ChargingStation",
+    "InputAppId": "item_1195",
+    "ToolAppId": "item_856",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 600,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "item_1194"
+  },
+  {
+    "Type": "CampFire",
+    "InputAppId": "fish_1197",
+    "ToolAppId": "item_18",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 12,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BBQ",
+    "InputAppId": "fish_1197",
+    "ToolAppId": "furniture_13",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 6,
+    "DaysToComplete": 0,
+    "Cycles": 2,
+    "OutputAppId": "cooking_970"
+  }
+]

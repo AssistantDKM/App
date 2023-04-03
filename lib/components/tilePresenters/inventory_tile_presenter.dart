@@ -1,8 +1,8 @@
-import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../../contracts/interface/item_base_presenter.dart';
-import '../../pages/inventory_pages.dart';
+import '../../contracts/json/inventory_item.dart';
+import '../../helper/navigate_helper.dart';
 import '../pageElements/inventory_item_museum_tile.dart';
 import 'item_base_tile_presenter.dart';
 
@@ -45,7 +45,7 @@ Widget Function(
 
 Widget Function(
   BuildContext,
-  ItemBasePresenter,
+  InventoryItem,
 ) inventoryUsageTilePresenter(
   bool isPatron, {
   required bool isInDetailPane,
@@ -53,28 +53,19 @@ Widget Function(
 }) {
   return (
     BuildContext context,
-    ItemBasePresenter item,
+    InventoryItem item,
   ) {
     return itemBaseTilePresenter(
       item: item,
       index: 0,
       isPatron: isPatron,
-      onTap: (isInDetailPane && updateDetailView != null)
-          ? () => updateDetailView(
-                InventoryDetailsPage(
-                  item.appId,
-                  title: item.name,
-                  isInDetailPane: isInDetailPane,
-                  updateDetailView: updateDetailView,
-                ),
-              )
-          : () => getNavigation().navigateAwayFromHomeAsync(
-                context,
-                navigateTo: (ctx) => InventoryDetailsPage(
-                  item.appId,
-                  title: item.name,
-                ),
-              ),
+      onTap: () => navigateToInventoryOrUpdateView(
+        context: context,
+        item: item,
+        isPatron: isPatron,
+        isInDetailPane: isInDetailPane,
+        updateDetailView: updateDetailView,
+      ),
     );
   };
 }

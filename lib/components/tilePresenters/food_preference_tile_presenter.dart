@@ -3,13 +3,14 @@ import 'package:flutter/material.dart';
 
 import '../../contracts/json/inventory_item.dart';
 import '../../helper/generic_repository_helper.dart';
-import '../../pages/inventory_pages.dart';
+import '../../helper/navigate_helper.dart';
 
 Widget foodPreferenceTilePresenter(
   BuildContext context, {
   required String appId,
   required String subtitle,
   required String trailing,
+  required bool isPatron,
   void Function()? onTap,
 }) {
   return CachedFutureBuilder(
@@ -21,6 +22,7 @@ Widget foodPreferenceTilePresenter(
         result,
         subtitle,
         trailing,
+        isPatron,
         onTap,
       );
     },
@@ -28,10 +30,11 @@ Widget foodPreferenceTilePresenter(
 }
 
 Widget foodPreferenceBodyTilePresenter(
-  BuildContext context,
+  BuildContext foodCtx,
   ResultWithValue<InventoryItem> invResult,
   String subtitleText,
   String trailingImgPath,
+  bool isPatron,
   void Function()? onTap,
 ) {
   if (invResult.hasFailed) {
@@ -44,7 +47,7 @@ Widget foodPreferenceBodyTilePresenter(
 
   InventoryItem item = invResult.value;
   return genericListTileWithSubtitle(
-    context,
+    foodCtx,
     leadingImage: item.icon,
     name: item.name,
     subtitle: Text(subtitleText),
@@ -55,12 +58,10 @@ Widget foodPreferenceBodyTilePresenter(
       padding: const EdgeInsets.only(right: 8),
     ),
     onTap: onTap ??
-        () => getNavigation().navigateAwayFromHomeAsync(
-              context,
-              navigateTo: (ctx) => InventoryDetailsPage(
-                item.appId,
-                title: item.name,
-              ),
+        () => navigateToInventory(
+              context: foodCtx,
+              item: item,
+              isPatron: isPatron,
             ),
   );
 }

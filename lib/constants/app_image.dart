@@ -44,6 +44,21 @@ class AppImage {
   static const String preferenceDislikes = '${stats}dislikes.png';
   static const String preferenceNothing = '${stats}nothing.png';
 
+  static const String changes = 'changes/';
+  static const String bbq = '${changes}bbq.png';
+  static const String billyCanFire = '${changes}billyCanFire.png';
+  static const String blastFurnace = '${changes}blastFurnace.png';
+  static const String campFire = '${changes}campFire.png';
+  static const String chargingStation = '${changes}chargingStation.png';
+  static const String cheeseMaker = '${changes}cheeseMaker.png';
+  static const String crudeFurnace = '${changes}crudeFurnace.png';
+  static const String furnace = '${changes}furnace.png';
+  static const String gacha = '${changes}gacha.png';
+  static const String improvedTableSaw = '${changes}improvedTableSaw.png';
+  static const String keg = '${changes}keg.png';
+  static const String stoneGrinder = '${changes}stoneGrinder.png';
+  static const String tableSaw = '${changes}tableSaw.png';
+
   static const String animalsLogo = 'menu/animals.png';
   static const String bugsLogo = 'menu/bugs.png';
   static const String crittersLogo = 'menu/critters.png';

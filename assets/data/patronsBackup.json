@@ -180,12 +180,6 @@
     "url": "https://assistantapps.com"
   },
   {
-    "name": "ASG QUNARI",
-    "imageUrl": "https://cdn-usr.assistantapps.com/patreon/C3E7512CFA98BD65ABEBE44EA69EB57F.png",
-    "thumbnailUrl": "https://cdn-usr.assistantapps.com/patreon/C3E7512CFA98BD65ABEBE44EA69EB57F.png",
-    "url": "https://assistantapps.com"
-  },
-  {
     "name": "Gregory F. Hogg",
     "imageUrl": "https://cdn-usr.assistantapps.com/patreon/5F5291FC7D01BA7255B77A0B9647DD04.png",
     "thumbnailUrl": "https://cdn-usr.assistantapps.com/patreon/5F5291FC7D01BA7255B77A0B9647DD04.png",
@@ -228,12 +222,6 @@
     "url": "https://assistantapps.com"
   },
   {
-    "name": "CH10",
-    "imageUrl": "https://cdn-usr.assistantapps.com/patreon/02B3579E6CBD5A418C31156921539885.png",
-    "thumbnailUrl": "https://cdn-usr.assistantapps.com/patreon/02B3579E6CBD5A418C31156921539885.png",
-    "url": "https://assistantapps.com"
-  },
-  {
     "name": "MightyChicken",
     "imageUrl": "https://cdn-usr.assistantapps.com/patreon/F5340B555E6426381124C31489E7A1E5.png",
     "thumbnailUrl": "https://cdn-usr.assistantapps.com/patreon/F5340B555E6426381124C31489E7A1E5.png",
@@ -243,6 +231,12 @@
     "name": "Matthew Horn",
     "imageUrl": "https://cdn-usr.assistantapps.com/patreon/D0E0DD985143F36BDFC9DCE38CF3C940.png",
     "thumbnailUrl": "https://cdn-usr.assistantapps.com/patreon/D0E0DD985143F36BDFC9DCE38CF3C940.png",
+    "url": "https://assistantapps.com"
+  },
+  {
+    "name": "Stephanie Parsons",
+    "imageUrl": "https://cdn-usr.assistantapps.com/patreon/B4C1E8292B23811594B9F7D50B43C10A.png",
+    "thumbnailUrl": "https://cdn-usr.assistantapps.com/patreon/B4C1E8292B23811594B9F7D50B43C10A.png",
     "url": "https://assistantapps.com"
   },
   {
@@ -261,12 +255,6 @@
     "name": "Dillon Fletcher",
     "imageUrl": "https://cdn-usr.assistantapps.com/patreon/2B939F8876F617A2ED8EBA18E7748EAC.png",
     "thumbnailUrl": "https://cdn-usr.assistantapps.com/patreon/2B939F8876F617A2ED8EBA18E7748EAC.png",
-    "url": "https://assistantapps.com"
-  },
-  {
-    "name": "Stephanie Parsons",
-    "imageUrl": "https://cdn-usr.assistantapps.com/patreon/B4C1E8292B23811594B9F7D50B43C10A.png",
-    "thumbnailUrl": "https://cdn-usr.assistantapps.com/patreon/B4C1E8292B23811594B9F7D50B43C10A.png",
     "url": "https://assistantapps.com"
   }
 ]

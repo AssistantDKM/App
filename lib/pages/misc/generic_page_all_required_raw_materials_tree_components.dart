@@ -8,6 +8,7 @@ import '../../contracts/required_item_tree_details.dart';
 TreeView getTree(
   BuildContext context,
   List<RequiredItemTreeDetails> node,
+  bool isPatron,
 ) {
   List<TreeNode> parents = List.empty(growable: true);
   // TreeController controller = TreeController(allNodesExpanded: false);
@@ -19,12 +20,14 @@ TreeView getTree(
             context,
             RequiredItemDetails.toRequiredItemDetails(child),
             child.cost,
+            isPatron,
           ),
         ),
         children: child.children
             .map((ttn) => mapChildren(
                   context,
                   ttn,
+                  isPatron,
                 ))
             .toList(),
       ),
@@ -37,6 +40,7 @@ TreeView getTree(
 TreeNode mapChildren(
   BuildContext context,
   RequiredItemTreeDetails node,
+  bool isPatron,
 ) {
   List<TreeNode> children = List.empty(growable: true);
 
@@ -52,12 +56,14 @@ TreeNode mapChildren(
             context,
             RequiredItemDetails.toRequiredItemDetails(child),
             child.cost,
+            isPatron,
           ),
         ),
         children: childList
             .map((ttn) => mapChildren(
                   context,
                   ttn,
+                  isPatron,
                 ))
             .toList(),
       ),
@@ -69,6 +75,7 @@ TreeNode mapChildren(
         context,
         RequiredItemDetails.toRequiredItemDetails(node),
         node.cost,
+        isPatron,
       ),
     ),
     children: children,

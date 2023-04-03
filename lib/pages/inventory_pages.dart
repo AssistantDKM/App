@@ -1,5 +1,5 @@
-import 'package:assistant_dinkum_app/contracts/data/game_update.dart';
-import 'package:assistant_dinkum_app/contracts/json/licence_item.dart';
+import 'package:assistant_dinkum_app/contracts/json/enum/usage_key.dart';
+import 'package:assistant_dinkum_app/contracts/json/item_change.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
@@ -10,7 +10,9 @@ import '../components/pageElements/item_details_page.dart';
 import '../components/pageElements/item_list_page.dart';
 import '../components/tilePresenters/inventory_tile_presenter.dart';
 import '../constants/app_json.dart';
+import '../contracts/data/game_update.dart';
 import '../contracts/json/inventory_item.dart';
+import '../contracts/json/licence_item.dart';
 import '../contracts/pageItem/inventory_page_item.dart';
 import '../contracts/redux/app_state.dart';
 import '../helper/future_helper.dart';
@@ -117,43 +119,73 @@ Future<ResultWithValue<InventoryPageItem>> getPageItem(
   InventoryPageItem result = InventoryPageItem(
     item: InventoryItem.fromJson('{}'),
     usages: List.empty(),
+    itemChangesUsing: List.empty(),
+    itemChangesFrom: List.empty(),
+    itemChangesForTool: List.empty(),
     requiredLicence: null,
     fromUpdate: null,
   );
 
-  InventoryRepository? service = getGenericRepoFromAppId(appId);
-  if (service == null) {
-    return ResultWithValue(false, result, 'getGenericRepoFromAppId');
-  }
+  // print(getLookupRepo().getItemUsages(appId));
 
-  var itemFuture = service.getItem(funcCtx, appId);
-  var usagesFuture = service.getUsagesOfItem(funcCtx, appId);
-  var licencesFuture = getLicenceRepo().getItems(funcCtx);
-  var gameUpdateFuture = getDataRepo().getGameUpdateThatItemWasAddedIn(
-    funcCtx,
-    appId,
-  );
+  emptyListFuture<T>() =>
+      Future.value(ResultWithValue<List<T>>(false, List.empty(), ''));
 
-  ResultWithValue<InventoryItem> itemResult = await itemFuture;
-  if (itemResult.isSuccess) {
-    result.item = itemResult.value;
+  var itemsFuture = getAllGameItems(funcCtx);
 
-    if (result.item.craftable.licenceAppId.isNotEmpty) {
-      ResultWithValue<List<LicenceItem>> licencesResult = await licencesFuture;
-      if (licencesResult.isSuccess) {
-        var requiredLicence = licencesResult.value.firstWhereOrNull(
-          (licence) => licence.appId == result.item.craftable.licenceAppId,
-        );
-        if (requiredLicence != null) {
-          result.requiredLicence = requiredLicence;
-        }
-      }
+  var itemChangesUsingFuture =
+      getLookupRepo().itemHasUsage(appId, UsageKey.hasItemChange)
+          ? getDataRepo().getItemChangesUsing(funcCtx, appId)
+          : emptyListFuture<ItemChange>();
+  var itemChangesFromFuture =
+      getLookupRepo().itemHasUsage(appId, UsageKey.hasFromItemChange)
+          ? getDataRepo().getItemChangesOutputting(funcCtx, appId)
+          : emptyListFuture<ItemChange>();
+  var itemChangesForToolFuture =
+      getLookupRepo().itemHasUsage(appId, UsageKey.changesItems)
+          ? getDataRepo().getItemChangesForTool(funcCtx, appId)
+          : emptyListFuture<ItemChange>();
+
+  var licencesFuture =
+      getLookupRepo().itemHasUsage(appId, UsageKey.requiresLicence)
+          ? getLicenceRepo().getItems(funcCtx)
+          : emptyListFuture<LicenceItem>();
+
+  var gameUpdateFuture =
+      getLookupRepo().itemHasUsage(appId, UsageKey.requiresLicence)
+          ? getDataRepo().getGameUpdateThatItemWasAddedIn(funcCtx, appId)
+          : Future.value(
+              ResultWithValue<GameUpdate>(false, GameUpdate.initial(), ''));
+
+  bool hasUsedToCreate =
+      getLookupRepo().itemHasUsage(appId, UsageKey.hasUsedToCreate);
+
+  List<InventoryItem> allItems = await itemsFuture;
+  List<InventoryItem> usages = List.empty(growable: true);
+
+  for (InventoryItem item in allItems) {
+    if (item.appId == appId) {
+      result.item = item;
+    }
+
+    bool createsCurrentItem =
+        InventoryRepository.getUsagesOfItemFilter(item, appId);
+    if (hasUsedToCreate && createsCurrentItem) {
+      usages.add(item);
     }
   }
+  result.usages = usages;
 
-  ResultWithValue<List<InventoryItem>> usagesResult = await usagesFuture;
-  if (itemResult.isSuccess) {
-    result.usages = usagesResult.value;
+  if (result.item.craftable.licenceAppId.isNotEmpty) {
+    ResultWithValue<List<LicenceItem>> licencesResult = await licencesFuture;
+    if (licencesResult.isSuccess) {
+      var requiredLicence = licencesResult.value.firstWhereOrNull(
+        (licence) => licence.appId == result.item.craftable.licenceAppId,
+      );
+      if (requiredLicence != null) {
+        result.requiredLicence = requiredLicence;
+      }
+    }
   }
 
   ResultWithValue<GameUpdate> gameUpdateResult = await gameUpdateFuture;
@@ -161,7 +193,40 @@ Future<ResultWithValue<InventoryPageItem>> getPageItem(
     result.fromUpdate = gameUpdateResult.value;
   }
 
-  return ResultWithValue(itemResult.isSuccess, result, '');
+  var itemChangesUsingResult = await itemChangesUsingFuture;
+  if (itemChangesUsingResult.isSuccess) {
+    var itemChangeResult = getItemChangesPageData(
+      itemChangesUsingResult.value,
+      allItems,
+    );
+    result.itemChangesUsing = itemChangeResult.isSuccess //
+        ? itemChangeResult.value
+        : List.empty();
+  }
+
+  var itemChangesFromResult = await itemChangesFromFuture;
+  if (itemChangesFromResult.isSuccess) {
+    var itemChangeResult = getItemChangesPageData(
+      itemChangesFromResult.value,
+      allItems,
+    );
+    result.itemChangesFrom = itemChangeResult.isSuccess //
+        ? itemChangeResult.value
+        : List.empty();
+  }
+
+  var itemChangesForToolResult = await itemChangesForToolFuture;
+  if (itemChangesForToolResult.isSuccess) {
+    var itemChangeResult = getItemChangesPageData(
+      itemChangesForToolResult.value,
+      allItems,
+    );
+    result.itemChangesForTool = itemChangeResult.isSuccess //
+        ? itemChangeResult.value
+        : List.empty();
+  }
+
+  return ResultWithValue(true, result, '');
 }
 
 Widget? getFloatingActionButton({

@@ -9,6 +9,7 @@ import '../../constants/app_image.dart';
 import '../../constants/app_routes.dart';
 import '../../contracts/redux/app_state.dart';
 import '../../env/app_version_num.dart';
+import '../../integration/dependency_injection.dart';
 import '../../redux/setting/appshell_viewmodel.dart';
 import '../../theme/themes.dart';
 
@@ -39,6 +40,7 @@ class AppShell extends StatelessWidget {
         light: getDynamicTheme(Brightness.light),
         dark: getDynamicTheme(Brightness.dark),
         builder: (ThemeData theme, ThemeData darkTheme) {
+          getLookupRepo().loadLookups(storeCtx);
           return _androidApp(
             context,
             key: Key('app-shell-lang-${viewModel.selectedLanguage}'),

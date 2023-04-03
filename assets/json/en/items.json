@@ -12048,7 +12048,7 @@
     "AppId": "item_1110",
     "Icon": "inventory/allUI3_101.png",
     "Name": "Balloon",
-    "Description": "This isn't a flashlight... its a torch!",
+    "Description": "Who would have thought air could be so much fun?",
     "SellPrice": 3000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
@@ -13309,6 +13309,61 @@
     "Name": "Tongue Whip",
     "Description": "It licks",
     "SellPrice": 45000,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1219,
+    "AppId": "item_1219",
+    "Icon": "inventory/allUI3_161.png",
+    "Name": "Party Horn",
+    "Description": "Annoying and fun",
+    "SellPrice": 3098,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 306,
+          "AppId": "item_306",
+          "Quantity": 6
+        },
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 2
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 6,
+      "WorkPlaceConditions": "Blocked",
+      "CategoryEnum": 6,
+      "Category": "House",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 2,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1221,
+    "AppId": "item_1221",
+    "Icon": "inventory/allUI3_159.png",
+    "Name": "Balloon",
+    "Description": "Who would have thought air could be so much fun?",
+    "SellPrice": 3000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
     "RequiredLicence": "None",

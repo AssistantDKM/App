@@ -7,9 +7,9 @@ import 'dart:convert';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 
 import '../interface/item_base_presenter.dart';
+import 'enum/equipable_type.dart';
 import 'inventory_item_consumable.dart';
 import 'inventory_item_craftable.dart';
-import 'enum/equipable_type.dart';
 import 'inventory_item_creature.dart';
 
 class InventoryItem extends ItemBasePresenter {

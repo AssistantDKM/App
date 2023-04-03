@@ -95,6 +95,8 @@
       "item_1209",
       "item_1210",
       "item_1211",
+      "item_1219",
+      "item_1221",
       "bug_1185",
       "bug_1186",
       "bug_1187",
@@ -149,6 +151,10 @@
       "furniture_1189",
       "furniture_1199",
       "furniture_1214",
+      "furniture_1215",
+      "furniture_1216",
+      "furniture_1217",
+      "furniture_1218",
       "clothing_1107",
       "clothing_1141",
       "clothing_1142",
@@ -189,7 +195,8 @@
       "cooking_1172",
       "cooking_1173",
       "cooking_1174",
-      "cooking_1175"
+      "cooking_1175",
+      "cooking_1220"
     ]
   }
 ]

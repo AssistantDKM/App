@@ -9,12 +9,14 @@ class RequiredItemTreeDetails extends RequiredItemDetails {
     required quantity,
     required String icon,
     required String name,
+    required bool isHidden,
     required this.cost,
     required this.children,
   }) : super(
           appId: appId,
           icon: icon,
           name: name,
+          isHidden: isHidden,
           quantity: quantity,
         );
 
@@ -25,6 +27,7 @@ class RequiredItemTreeDetails extends RequiredItemDetails {
       appId: req.appId,
       icon: req.icon,
       name: req.name,
+      isHidden: req.isHidden,
       quantity: req.quantity,
       cost: cost,
       children: children,
