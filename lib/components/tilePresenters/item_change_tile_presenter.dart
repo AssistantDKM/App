@@ -7,6 +7,7 @@ import '../../contracts/json/enum/item_change_type.dart';
 import '../../contracts/json/inventory_item.dart';
 import '../../contracts/json/item_change_output.dart';
 import '../../contracts/pageItem/item_change_page_item.dart';
+import '../pageElements/item_page_components.dart';
 import 'item_base_tile_presenter.dart';
 
 const double itemChangeHeight = 48;
@@ -85,6 +86,7 @@ Widget itemChangeUsingTilePresenter({
             inputDetails: details.toolDetails,
             outputTableDetail: details.outputTableDetails[outputIndex],
             outputTable: details.outputTable[outputIndex],
+            amountNeeded: details.amountNeeded,
             isInDetailPane: isInDetailPane,
             isPatron: isInDetailPane,
             isGatcha: isPatron,
@@ -183,6 +185,7 @@ Widget itemChangeForToolTilePresenter({
         ctx,
         inputDetails: details.inputDetails,
         outputTableDetail: details.outputDetails!,
+        amountNeeded: details.amountNeeded,
         isInDetailPane: isInDetailPane,
         isPatron: isPatron,
         isGatcha: details.type == ItemChangeType.gachaMachine,
@@ -199,6 +202,7 @@ Widget itemChangeForToolTilePresenter({
             inputDetails: details.inputDetails,
             outputTableDetail: details.outputTableDetails[outputIndex],
             outputTable: details.outputTable[outputIndex],
+            amountNeeded: details.amountNeeded,
             isInDetailPane: isInDetailPane,
             isPatron: isPatron,
             isGatcha: details.type == ItemChangeType.gachaMachine,
@@ -221,6 +225,7 @@ Widget renderOutputTableTile(
   required InventoryItem inputDetails,
   required InventoryItem outputTableDetail,
   required InventoryItemChangeOutput outputTable,
+  required int amountNeeded,
   required bool isInDetailPane,
   required bool isPatron,
   required bool isGatcha,
@@ -231,6 +236,7 @@ Widget renderOutputTableTile(
     inputDetails: inputDetails,
     outputTableDetail: outputTableDetail,
     extraOutpuElem: Text('${outputTable.percentageChance}%'),
+    amountNeeded: amountNeeded,
     isInDetailPane: isInDetailPane,
     isPatron: isPatron,
     isGatcha: isGatcha,
@@ -242,6 +248,7 @@ Widget renderOutputTile(
   BuildContext ctx, {
   required InventoryItem inputDetails,
   required InventoryItem outputTableDetail,
+  required int amountNeeded,
   Widget? extraOutpuElem,
   required bool isInDetailPane,
   required bool isPatron,
@@ -263,6 +270,40 @@ Widget renderOutputTile(
         isPatron: isPatron,
       );
 
+  List<Widget> leftWidgets = List.empty(growable: true);
+  if (inputDetails.id == 299) {
+    leftWidgets = [
+      const EmptySpace1x(),
+      ConstrainedBox(
+        constraints: const BoxConstraints(minHeight: itemChangeHeight),
+        child: dinkumPriceInner(
+          ctx,
+          amount: amountNeeded,
+          mainAxisAlignment: MainAxisAlignment.start,
+        ),
+      ),
+      const EmptySpace1x(),
+    ];
+  } else {
+    leftWidgets = [
+      const EmptySpace1x(),
+      LocalImage(
+        imagePath: inputDetails.icon,
+        height: itemChangeHeight,
+      ),
+      const EmptySpace1x(),
+      Flexible(
+        fit: FlexFit.tight,
+        child: Text(
+          inputDetails.name,
+          overflow: TextOverflow.ellipsis,
+          textAlign: TextAlign.end,
+          maxLines: 1,
+        ),
+      ),
+    ];
+  }
+
   return FlatCard(
     child: Row(
       children: [
@@ -271,21 +312,7 @@ Widget renderOutputTile(
           fit: FlexFit.tight,
           child: InkWell(
             onTap: leftOnTap,
-            child: Row(
-              children: [
-                const EmptySpace1x(),
-                LocalImage(
-                  imagePath: inputDetails.icon,
-                  height: itemChangeHeight,
-                ),
-                const EmptySpace1x(),
-                Text(
-                  inputDetails.name,
-                  textAlign: TextAlign.end,
-                  maxLines: 1,
-                ),
-              ],
-            ),
+            child: Row(children: leftWidgets),
           ),
         ),
         const Icon(Icons.chevron_right_rounded),
@@ -297,10 +324,15 @@ Widget renderOutputTile(
             child: Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                Text(
-                  outputTableDetail.name,
-                  textAlign: TextAlign.end,
-                  maxLines: 1,
+                const EmptySpace1x(),
+                Flexible(
+                  fit: FlexFit.tight,
+                  child: Text(
+                    outputTableDetail.name,
+                    textAlign: TextAlign.end,
+                    overflow: TextOverflow.ellipsis,
+                    maxLines: 1,
+                  ),
                 ),
                 LocalImage(
                   imagePath: outputTableDetail.icon,
