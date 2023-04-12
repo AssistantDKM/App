@@ -55,11 +55,13 @@ List<Widget> getDrawerItems(BuildContext context, DrawerSettingsViewModel vm) {
     image: const ListTileImage(partialPath: AppImage.assistantApps),
     title: getTranslations().fromKey(LocaleKey.assistantApps),
     onTap: (_) {
-      adaptiveBottomModalSheet(
+      adaptiveListBottomModalSheet(
         context,
         hasRoundedCorners: true,
-        builder: (BuildContext innerC) => const AssistantAppsModalBottomSheet(
+        builder: (BuildContext innerC, ScrollController controller) =>
+            AssistantAppsModalBottomSheet(
           appType: AssistantAppType.dkm,
+          controller: controller,
         ),
       );
     },

@@ -18,8 +18,9 @@ Widget milestoneLevelTilePresenter(
 
   if (suffix == 'm') {
     topSection = Text(
-      getTranslations().fromKey(LocaleKey.requirementInKm).replaceAll(
-          '{0}', '${(requiredAmount / 1000).toStringAsFixed(0)} km'),
+      getTranslations()
+          .fromKey(LocaleKey.requirementInKm)
+          .replaceAll('{0}', (requiredAmount / 1000).toStringAsFixed(0)),
     );
   }
 

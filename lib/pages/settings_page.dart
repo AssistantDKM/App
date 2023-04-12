@@ -163,11 +163,10 @@ class SettingsPage extends StatelessWidget {
       SettingsTile.navigation(
         leading: const Icon(Icons.code),
         title: const Text('Logs'),
-        onPressed: (context) async {
-          adaptiveBottomModalSheet(
-            context,
-            hasRoundedCorners: true,
-            builder: (_) => const LogsModalBottomSheet(title: 'Logs'),
+        onPressed: (pressCtx) async {
+          getNavigation().navigateAwayFromHomeAsync(
+            pressCtx,
+            navigateTo: (navCtx) => const LogsViewPage(),
           );
         },
       ),
@@ -206,10 +205,11 @@ class SettingsPage extends StatelessWidget {
       SettingsTile.navigation(
         leading: const Icon(Icons.bug_report),
         title: const Text('Version info'),
-        onPressed: (BuildContext tapCtx) => adaptiveBottomModalSheet(
+        onPressed: (BuildContext tapCtx) => adaptiveListBottomModalSheet(
           tapCtx,
           hasRoundedCorners: true,
-          builder: (_) => const VersionDebugBottomSheet(),
+          builder: (_, ScrollController controller) =>
+              VersionDebugBottomSheet(controller: controller),
         ),
       ),
     );

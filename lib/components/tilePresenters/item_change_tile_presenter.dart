@@ -1,5 +1,6 @@
 import 'package:assistant_dinkum_app/helper/navigate_helper.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
+import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants/app_image.dart';
@@ -47,20 +48,11 @@ Widget itemChangeUsingTilePresenter({
 
   if (itemsThatNeedAnItemFromLoadedItems.contains(details.type)) {
     if (details.outputDetails != null) {
-      String subtitleStr = getTranslations()
-          .fromKey(LocaleKey.seconds)
-          .replaceAll('{0}', details.secondsToComplete.toString());
-      if (details.daysToComplete >= 1) {
-        subtitleStr = getTranslations()
-            .fromKey(LocaleKey.days)
-            .replaceAll('{0}', details.daysToComplete.toString());
-      }
-
       return FlatCard(
         child: itemBasePlainTilePresenter(
           leading: LocalImage(imagePath: details.toolDetails.icon),
           title: details.toolDetails.name,
-          subtitle: subtitleStr,
+          subtitle: getSubtitleStr(details),
           trailing: (currentAppId != details.outputDetails!.appId)
               ? LocalImage(imagePath: details.outputDetails!.icon)
               : null,
@@ -93,6 +85,30 @@ Widget itemChangeUsingTilePresenter({
             updateDetailView: updateDetailView,
           ),
         );
+
+        // var currItem = details.outputTableDetails[outputIndex];
+        // var currTblItem = details.outputTable[outputIndex];
+        // if (currItem.appId != currentAppId) continue;
+
+        // percWidgets.add(
+        //   FlatCard(
+        //     child: itemBasePlainTilePresenter(
+        //       leading: LocalImage(imagePath: details.toolDetails.icon),
+        //       title: details.toolDetails.name,
+        //       subtitle: getTranslations()
+        //            .fromKey(LocaleKey.percentage)
+        //            .replaceAll('{0}', currTblItem.percentageChance.toString()),
+        //       trailing: LocalImage(imagePath: currItem.icon),
+        //       onTap: () => navigateToInventoryOrUpdateView(
+        //         context: ctx,
+        //         item: currItem,
+        //         isInDetailPane: isInDetailPane,
+        //         updateDetailView: updateDetailView,
+        //         isPatron: isPatron,
+        //       ),
+        //     ),
+        //   ),
+        // );
       }
       return Column(
         mainAxisSize: MainAxisSize.min,
@@ -120,23 +136,12 @@ Widget itemChangeFromTilePresenter({
 
   if (itemsThatNeedAnItemFromLoadedItems.contains(details.type)) {
     if (details.outputDetails != null) {
-      String subtitleStr = getTranslations()
-          .fromKey(LocaleKey.seconds)
-          .replaceAll('{0}', details.secondsToComplete.toString());
-      if (details.daysToComplete >= 1) {
-        subtitleStr = getTranslations()
-            .fromKey(LocaleKey.days)
-            .replaceAll('{0}', details.daysToComplete.toString());
-      }
-
       return FlatCard(
         child: itemBasePlainTilePresenter(
-          leading: LocalImage(imagePath: details.toolDetails.icon),
-          title: details.toolDetails.name,
-          subtitle: subtitleStr,
-          trailing: (currentAppId != details.inputDetails.appId)
-              ? LocalImage(imagePath: details.inputDetails.icon)
-              : null,
+          leading: LocalImage(imagePath: details.inputDetails.icon),
+          title: details.inputDetails.name,
+          subtitle: getSubtitleStr(details),
+          trailing: LocalImage(imagePath: details.toolDetails.icon),
           onTap: (currentAppId != details.inputDetails.appId)
               ? () => navigateToInventoryOrUpdateView(
                     context: ctx,
@@ -149,6 +154,15 @@ Widget itemChangeFromTilePresenter({
         ),
       );
     } else if (details.outputTableDetails.isNotEmpty) {
+      String trailingStr = details.outputTableDetails.length.toString();
+      InventoryItemChangeOutput? tableItem = details.outputTable
+          .firstWhereOrNull((tblItem) => tblItem.appId == currentAppId);
+      if (tableItem != null) {
+        trailingStr = getTranslations()
+            .fromKey(LocaleKey.percentage)
+            .replaceAll('{0}', tableItem.percentageChance.toString());
+      }
+
       return FlatCard(
         child: itemBasePlainTilePresenter(
           leading: LocalImage(imagePath: details.toolDetails.icon),
@@ -156,7 +170,14 @@ Widget itemChangeFromTilePresenter({
           subtitle: getTranslations()
               .fromKey(LocaleKey.seconds)
               .replaceAll('{0}', details.secondsToComplete.toString()),
-          trailing: Text(details.outputTableDetails.length.toString()),
+          trailing: Text(trailingStr),
+          onTap: () => navigateToInventoryOrUpdateView(
+            context: ctx,
+            item: details.toolDetails,
+            isInDetailPane: isInDetailPane,
+            updateDetailView: updateDetailView,
+            isPatron: isPatron,
+          ),
         ),
       );
     }
@@ -230,17 +251,23 @@ Widget renderOutputTableTile(
   required bool isPatron,
   required bool isGatcha,
   required void Function(Widget)? updateDetailView,
+  Widget? chevronWidget,
 }) {
   return renderOutputTile(
     ctx,
     inputDetails: inputDetails,
     outputTableDetail: outputTableDetail,
-    extraOutpuElem: Text('${outputTable.percentageChance}%'),
+    extraOutpuElem: Text(
+      getTranslations()
+          .fromKey(LocaleKey.percentage)
+          .replaceAll('{0}', outputTable.percentageChance.toString()),
+    ),
     amountNeeded: amountNeeded,
     isInDetailPane: isInDetailPane,
     isPatron: isPatron,
     isGatcha: isGatcha,
     updateDetailView: updateDetailView,
+    chevronWidget: chevronWidget,
   );
 }
 
@@ -254,6 +281,7 @@ Widget renderOutputTile(
   required bool isPatron,
   required bool isGatcha,
   required void Function(Widget)? updateDetailView,
+  Widget? chevronWidget,
 }) {
   leftOnTap() => navigateToInventoryOrUpdateView(
         context: ctx,
@@ -297,7 +325,6 @@ Widget renderOutputTile(
         child: Text(
           inputDetails.name,
           overflow: TextOverflow.ellipsis,
-          textAlign: TextAlign.end,
           maxLines: 1,
         ),
       ),
@@ -315,7 +342,7 @@ Widget renderOutputTile(
             child: Row(children: leftWidgets),
           ),
         ),
-        const Icon(Icons.chevron_right_rounded),
+        chevronWidget ?? const Icon(Icons.chevron_right_rounded),
         Flexible(
           flex: 3,
           fit: FlexFit.tight,
@@ -349,4 +376,16 @@ Widget renderOutputTile(
       ],
     ),
   );
+}
+
+String getSubtitleStr(ItemChangePageItem details) {
+  String subtitleStr = getTranslations()
+      .fromKey(LocaleKey.seconds)
+      .replaceAll('{0}', details.secondsToComplete.toString());
+  if (details.daysToComplete >= 1) {
+    subtitleStr = getTranslations()
+        .fromKey(LocaleKey.days)
+        .replaceAll('{0}', details.daysToComplete.toString());
+  }
+  return subtitleStr;
 }
