@@ -64,6 +64,8 @@
   "somethingWentWrong": "Il y a eu une erreur",
   "share": "Partager",
   "feedback": "Retour",
+  "yes": "Oui",
+  "no": "Non",
   "newItemsAdded": "Nouveaux articles ajoutés",
   "favourites": "Favoris",
   "openCollective": "Collectif ouvert",
@@ -96,6 +98,7 @@
   "japanese": "Japon",
   "fairUseDisclaimer": "Fair Use Disclaimer: This app contains copyrighted material the use of which has not been specifically authorized by the copyright owner, {0}. I am making the content of the game available in order to improve the the player's experience when playing {1}. I believe this constitutes a 'fair use' of any such copyrighted material as provided for in section 107 of the US Copyright Law.\n\nAny of the trademarks or similar rights that are mentioned or used in any page are the property of their respective owners. Unless otherwise stated, Assistant for {1} is neither endorsed nor affiliated with any of the holders of any such rights, and as such cannot grant any rights to use any otherwise protected materials. \nCopyright 2020, Assistant for {1}",
   "appLanguage": "Langue",
+  "percentage": "{0}%",
   "translationPercentageComplete": "Traduction par language ",
   "useTranslationTool": "Utiliser l'outil de traduction ",
   "steamNews": "News Steam",
@@ -152,5 +155,6 @@
   "processIn": "Process in",
   "processFrom": "Process from",
   "usedToProcess": "Used to process",
-  "hashCode": "49F9EE1CB86AAAE86666070D3CBD00EB"
+  "shareContent": "I'm using the Assistant for Dinkum App! Available on Google Play, iOS App Store and Web! #Dinkum #AssistantDKM #Android #IOS",
+  "hashCode": "45E77D247FD5C5F8D2A20FBDA8C694B0"
 }
