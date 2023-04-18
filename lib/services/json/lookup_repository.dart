@@ -1,7 +1,7 @@
-import 'package:assistant_dinkum_app/integration/dependency_injection.dart';
 import 'package:flutter/material.dart';
 
 import '../../contracts/json/enum/usage_key.dart';
+import '../../integration/dependency_injection.dart';
 
 class LookupRepository {
   Map<String, List<UsageKey>> _internalLookup = <String, List<UsageKey>>{};

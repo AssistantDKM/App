@@ -1,6 +1,5 @@
-import 'package:assistant_dinkum_app/contracts/interface/item_base_presenter.dart';
-
 import '../data/game_update.dart';
+import '../interface/item_base_presenter.dart';
 import '../json/inventory_item.dart';
 import '../json/licence_item.dart';
 import 'item_change_page_item.dart';

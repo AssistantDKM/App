@@ -1,9 +1,9 @@
-import 'package:assistant_dinkum_app/redux/cart/selector.dart';
 import 'package:redux/redux.dart';
 
 import '../../contracts/redux/app_state.dart';
 import '../../contracts/required_item.dart';
 import '../cart/actions.dart';
+import '../cart/selector.dart';
 import '../museum/selector.dart';
 import '../setting/selector.dart';
 
