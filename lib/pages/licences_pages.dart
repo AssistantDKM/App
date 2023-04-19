@@ -1,4 +1,3 @@
-import 'package:assistant_dinkum_app/contracts/json/inventory_item.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
@@ -10,6 +9,7 @@ import '../components/tilePresenters/inventory_tile_presenter.dart';
 import '../components/tilePresenters/licence_tile_presenter.dart';
 import '../constants/analytics_event.dart';
 import '../constants/app_misc.dart';
+import '../contracts/json/inventory_item.dart';
 import '../contracts/json/licence_item.dart';
 import '../contracts/pageItem/licence_item_page_item.dart';
 import '../contracts/redux/app_state.dart';

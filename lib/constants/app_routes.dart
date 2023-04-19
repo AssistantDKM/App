@@ -8,6 +8,7 @@ import '../pages/inventory_pages.dart';
 import '../pages/home_page.dart';
 import '../pages/licences_pages.dart';
 import '../pages/milestones_pages.dart';
+import '../pages/misc/enhanced_what_is_new_page.dart';
 import '../pages/people_pages.dart';
 import '../pages/settings_page.dart';
 import '../pages/updates/game_updates_page.dart';
@@ -64,10 +65,7 @@ Map<String, Widget Function(BuildContext)> initNamedRoutes(
           },
         ),
     Routes.patronListPage: (_) => PatronListPage(AnalyticsEvent.patronListPage),
-    Routes.whatIsNew: (_) => WhatIsNewPage(
-          AnalyticsEvent.whatIsNewDetailPage,
-          selectedLanguage: 'en',
-        ),
+    Routes.whatIsNew: (_) => const EnhancedWhatIsNewPage(),
     Routes.favourites: (_) => FavouritesPage(),
     Routes.newsPage: (_) => SteamNewsPage(
           AnalyticsEvent.steamNewsPage,

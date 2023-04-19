@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Assistant for Dinkum"
-#define MyAppVersion "0.0.8"
+#define MyAppVersion "0.0.9"
 #define MyAppPublisher "AssistantApps"
 #define MyAppURL "https://dinkum.assistantapps.com/"
 #define MyAppExeName "assistant_dinkum_app.exe"
@@ -10,7 +10,7 @@
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{A8C3391C-5D14-4B8F-8010-E69C3D1C4DE5}
+AppId={{301FF487-656D-4CB8-995A-B28D8DF31B70}}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -20,12 +20,12 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf64}\AssistantDKM
 DisableProgramGroupPage=yes
-LicenseFile=C:\Development\Projects\AssistantDKM\assistantdkm_app\installers\LICENCE.txt
+LicenseFile=LICENCE.md
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=C:\Development\Projects\AssistantDKM\assistantdkm_app\installers
+OutputDir=installers
 OutputBaseFilename=AssistantDKM_setup
-SetupIconFile=C:\Development\Projects\AssistantDKM\assistantdkm_app\installers\favicon.ico
+SetupIconFile=assets/icon/favicon.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -48,16 +48,16 @@ Name: "spanish"; MessagesFile: "compiler:Languages\Spanish.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Development\Projects\AssistantDKM\assistantdkm_app\build\windows\runner\Release\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Development\Projects\AssistantDKM\assistantdkm_app\build\windows\runner\Release\bitsdojo_window_windows_plugin.lib"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Development\Projects\AssistantDKM\assistantdkm_app\build\windows\runner\Release\flutter_secure_storage_windows_plugin.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Development\Projects\AssistantDKM\assistantdkm_app\build\windows\runner\Release\flutter_windows.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Development\Projects\AssistantDKM\assistantdkm_app\build\windows\runner\Release\assistant_dinkum_app.exp"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Development\Projects\AssistantDKM\assistantdkm_app\build\windows\runner\Release\assistant_dinkum_app.lib"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Development\Projects\AssistantDKM\assistantdkm_app\build\windows\runner\Release\platform_device_id_windows_plugin.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Development\Projects\AssistantDKM\assistantdkm_app\build\windows\runner\Release\url_launcher_windows_plugin.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Development\Projects\AssistantDKM\assistantdkm_app\build\windows\runner\Release\share_plus_plugin.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Development\Projects\AssistantDKM\assistantdkm_app\build\windows\runner\Release\data\*"; DestDir: "{app}\data"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "build\windows\runner\Release\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "build\windows\runner\Release\bitsdojo_window_windows_plugin.lib"; DestDir: "{app}"; Flags: ignoreversion
+Source: "build\windows\runner\Release\flutter_secure_storage_windows_plugin.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "build\windows\runner\Release\flutter_windows.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "build\windows\runner\Release\assistant_dinkum_app.exp"; DestDir: "{app}"; Flags: ignoreversion
+Source: "build\windows\runner\Release\assistant_dinkum_app.lib"; DestDir: "{app}"; Flags: ignoreversion
+Source: "build\windows\runner\Release\platform_device_id_windows_plugin.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "build\windows\runner\Release\url_launcher_windows_plugin.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "build\windows\runner\Release\share_plus_plugin.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "build\windows\runner\Release\data\*"; DestDir: "{app}\data"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

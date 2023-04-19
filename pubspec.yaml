@@ -1,6 +1,6 @@
 name: assistant_dinkum_app
 description: Assistant for Dinkum
-version: 0.0.8+8 # dart scripts\version_num_script.dart
+version: 0.0.9+9 # dart scripts\version_num_script.dart
 publish_to: none
 
 environment:
@@ -20,35 +20,33 @@ dependencies:
     # path: 'C:\Development\Projects\AssistantApps\assistantapps_flutter_common'
 
   # Base
-  collection: 1.17.1
   get_it: 7.2.0
   flutter_redux: 0.10.0
   redux: 5.0.0
-  intl: 0.18.0
 
   # UI
-  adaptive_theme: 3.1.1
+  adaptive_theme: 3.2.0
   bitsdojo_window: 0.1.5
   breakpoint: 1.2.0
-  flutter_simple_treeview: 3.0.1
-  path: 1.8.3
+  flutter_simple_treeview: 3.0.2
   settings_ui: 2.0.2
+
+  # Misc
+  collection: 1.17.1
+  intl: 0.18.0
+  path: 1.8.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: 2.0.0
   pubspec_parse: 1.2.1
-  flutter_launcher_icons: 0.10.0
-  git: 2.0.0
+  flutter_launcher_icons: 0.13.0
+  msix: 3.10.1
+  git: 2.2.0
 
-dependency_overrides:
-  # flutter_staggered_grid_view: 0.6.2
-  intl: 0.18.0
-  collection: 1.17.1
-  google_fonts: 4.0.3
-  package_info_plus: 3.0.3
-  path: 1.8.3
+# dependency_overrides:
+#   win32: 4.1.0
 
 flutter_icons: ## flutter pub run flutter_launcher_icons:main
   ios: true
@@ -67,6 +65,18 @@ flutter_icons: ## flutter pub run flutter_launcher_icons:main
     generate: true
     image_path: 'assets/icon/fullSizeIcon-outline.png'
     icon_size: 64 # min:48, max:256, default: 48
+
+# flutter pub run msix:create
+msix_config: # https://pub.dev/documentation/msix/latest/
+  display_name: Assistant for Dinkum
+  publisher_display_name: AssistantApps
+  msix_version: 0.0.9.0
+  identity_name: notSureIfSecret
+  publisher: notSureIfSecret
+  logo_path: './assets/icon/fullSizeIcon.png'
+  languages: en
+  capabilities: internetClient
+  store: true
 
 flutter:
   uses-material-design: true

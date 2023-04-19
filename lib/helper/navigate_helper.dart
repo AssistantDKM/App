@@ -1,4 +1,3 @@
-import 'package:assistant_dinkum_app/helper/patreon_helper.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
@@ -8,6 +7,7 @@ import '../contracts/json/licence_item.dart';
 import '../pages/inventory_pages.dart';
 import '../pages/licences_pages.dart';
 import '../pages/updates/game_updates_detail_page.dart';
+import 'patreon_helper.dart';
 
 void navigateToLicence(
   BuildContext navCtx,

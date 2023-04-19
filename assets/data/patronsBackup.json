@@ -256,5 +256,23 @@
     "imageUrl": "https://cdn-usr.assistantapps.com/patreon/2B939F8876F617A2ED8EBA18E7748EAC.png",
     "thumbnailUrl": "https://cdn-usr.assistantapps.com/patreon/2B939F8876F617A2ED8EBA18E7748EAC.png",
     "url": "https://assistantapps.com"
+  },
+  {
+    "name": "Josh Haberman",
+    "imageUrl": "https://ui-avatars.com/api/?size=128&name=Josh Hab",
+    "thumbnailUrl": "https://ui-avatars.com/api/?size=128&name=Josh Hab",
+    "url": "https://assistantapps.com"
+  },
+  {
+    "name": "Arshad Omari",
+    "imageUrl": "https://ui-avatars.com/api/?size=128&name=Arshad O",
+    "thumbnailUrl": "https://ui-avatars.com/api/?size=128&name=Arshad O",
+    "url": "https://assistantapps.com"
+  },
+  {
+    "name": "Bob Hicks",
+    "imageUrl": "https://ui-avatars.com/api/?size=128&name=Bob Hick",
+    "thumbnailUrl": "https://ui-avatars.com/api/?size=128&name=Bob Hick",
+    "url": "https://assistantapps.com"
   }
 ]

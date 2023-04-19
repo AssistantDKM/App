@@ -163,8 +163,11 @@ class DataJsonRepository extends BaseJsonService {
       );
     }
 
-    List<ItemChange> items =
-        allItemsResult.value.where((all) => all.inputAppId == appId).toList();
+    List<ItemChange> items = allItemsResult.value.where((all) {
+      if (all.inputAppId == appId) return true;
+      // if (all.outputTable.any((tblItem) => tblItem.appId == appId)) return true;
+      return false;
+    }).toList();
 
     return ResultWithValue<List<ItemChange>>(items.isNotEmpty, items, '');
   }
@@ -185,9 +188,7 @@ class DataJsonRepository extends BaseJsonService {
 
     List<ItemChange> items = allItemsResult.value.where((all) {
       if (all.outputAppId == appId) return true;
-      if (all.outputTable.any((tableItem) => tableItem.appId == appId)) {
-        return true;
-      }
+      if (all.outputTable.any((tblItem) => tblItem.appId == appId)) return true;
       return false;
     }).toList();
 

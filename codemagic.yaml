@@ -9,6 +9,13 @@ workflows:
         PACKAGE_NAME: com.assistantapps.assistant_dinkum_app
         GOOGLE_PLAY_TRACK: 'alpha'
       flutter: master
+    triggering:
+      events:
+        - tag
+      branch_patterns:
+        - pattern: 'main'
+          include: true
+          source: true
     scripts:
       - name: Write keystore file
         script: |
@@ -32,12 +39,27 @@ workflows:
 
       - name: Build AAB with Flutter
         script: |
-          BUILD_NUMBER=$(($(google-play get-latest-build-number --package-name "$PACKAGE_NAME" --tracks="$GOOGLE_PLAY_TRACK") + 1))      
           flutter build appbundle --release \
-            --build-name=1.0.$BUILD_NUMBER \
-            --build-number=$BUILD_NUMBER
+            --build-name=$FLUTTER_BUILD_NAME \
+            --build-number=$FLUTTER_BUILD_NUMBER
+
+      # - name: Build APK with Flutter
+      #   script: |
+      #     flutter build apk --release \
+      #       --build-name=$FLUTTER_BUILD_NAME \
+      #       --build-number=$FLUTTER_BUILD_NUMBER
+
+      - name: Build universal apk
+        script: |
+          android-app-bundle build-universal-apk \
+            --bundle 'build/**/outputs/**/*.aab' \
+            --ks $CM_BUILD_DIR/keystore.jks \
+            --ks-pass $FCI_KEYSTORE_PASSWORD \
+            --ks-key-alias $FCI_KEY_ALIAS \
+            --key-pass $FCI_KEY_PASSWORD
     artifacts:
       - build/**/outputs/**/*.aab
+      - build/**/outputs/**/*.apk
       - build/**/outputs/**/mapping.txt
       - flutter_drive.log
     publishing:
@@ -65,31 +87,24 @@ workflows:
   #     xcode: latest
   #     cocoapods: default
   #   scripts:
-
   #     - name: Write GoogleServices file
   #       script: |
   #         echo $GOOGLE_SERVICES | base64 --decode > $CM_BUILD_DIR/android/app/google-services.json
-
   #     - name: Write env.dart file
   #       script: |
   #         echo $ENV_DART | base64 --decode > $CM_BUILD_DIR/lib/env.dart
-
   #     - name: Get Flutter packages
   #       script: |
   #         flutter packages pub get
-
   #     - name: Run version number
   #       script: |
   #         dart $CM_BUILD_DIR/scripts/version_num_script.dart
-
   #     - name: Set up code signing settings on Xcode project
   #       script: |
   #         xcode-project use-profiles
-          
   #     - name: Install pods
   #       script: |
   #         find . -name "Podfile" -execdir pod install \;
-          
   #     - name: Flutter build ipa and automatic versioning
   #       script: |
   #         flutter build ipa --release \

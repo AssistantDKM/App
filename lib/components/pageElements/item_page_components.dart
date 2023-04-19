@@ -77,19 +77,27 @@ Widget pageDefaultPadding(Widget inner) => Padding(
     );
 
 Widget dinkumPrice(BuildContext priceCtx, int price) {
-  Locale locale = Localizations.localeOf(priceCtx);
   return getBaseWidget().appChip(
-    label: Row(
-      mainAxisSize: MainAxisSize.min,
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        const LocalImage(imagePath: AppImage.coin, width: 32, height: 32),
-        const EmptySpace(0.25),
-        Text(formatCurrency(locale, price)),
-        const EmptySpace(0.5),
-      ],
-    ),
+    label: dinkumPriceInner(priceCtx, amount: price),
     backgroundColor: AppColour.moneyTagColour,
+  );
+}
+
+Widget dinkumPriceInner(
+  BuildContext priceCtx, {
+  required int amount,
+  MainAxisAlignment mainAxisAlignment = MainAxisAlignment.center,
+}) {
+  Locale locale = Localizations.localeOf(priceCtx);
+  return Row(
+    mainAxisSize: MainAxisSize.min,
+    mainAxisAlignment: mainAxisAlignment,
+    children: [
+      const LocalImage(imagePath: AppImage.coin, width: 32, height: 32),
+      const EmptySpace(0.25),
+      Text(formatCurrency(locale, amount)),
+      const EmptySpace(0.5),
+    ],
   );
 }
 

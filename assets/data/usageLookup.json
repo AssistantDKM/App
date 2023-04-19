@@ -2,6 +2,7 @@
   "item_0": [
     "HasUsedToCreate",
     "RequiresLicence",
+    "HasFromItemChange",
     "ChangesItems"
   ],
   "item_3": [
@@ -12,7 +13,8 @@
   ],
   "item_4": [
     "HasUsedToCreate",
-    "RequiresLicence"
+    "RequiresLicence",
+    "HasFromItemChange"
   ],
   "item_6": [
     "HasUsedToCreate",
@@ -24,7 +26,8 @@
   ],
   "item_8": [
     "HasUsedToCreate",
-    "RequiresLicence"
+    "RequiresLicence",
+    "HasFromItemChange"
   ],
   "item_9": [
     "HasUsedToCreate",
@@ -109,18 +112,24 @@
     "HasFromItemChange"
   ],
   "item_104": [
-    "HasUsedToCreate"
+    "HasUsedToCreate",
+    "HasFromItemChange"
   ],
   "item_105": [
     "HasUsedToCreate",
-    "HasItemChange"
+    "HasItemChange",
+    "HasFromItemChange"
   ],
   "item_106": [
     "HasUsedToCreate",
-    "HasItemChange"
+    "HasItemChange",
+    "HasFromItemChange"
   ],
   "item_107": [
     "HasUsedToCreate"
+  ],
+  "item_110": [
+    "HasFromItemChange"
   ],
   "cooking_111": [
     "HasUsedToCreate"
@@ -135,6 +144,7 @@
   ],
   "furniture_115": [
     "HasUsedToCreate",
+    "HasFromItemChange",
     "ChangesItems"
   ],
   "cooking_116": [
@@ -156,10 +166,12 @@
   ],
   "item_183": [
     "HasUsedToCreate",
-    "RequiresLicence"
+    "RequiresLicence",
+    "HasFromItemChange"
   ],
   "item_184": [
-    "RequiresLicence"
+    "RequiresLicence",
+    "HasFromItemChange"
   ],
   "item_197": [
     "HasItemChange"
@@ -215,7 +227,8 @@
   ],
   "item_216": [
     "HasUsedToCreate",
-    "RequiresLicence"
+    "RequiresLicence",
+    "HasFromItemChange"
   ],
   "item_217": [
     "RequiresLicence"
@@ -223,11 +236,15 @@
   "cooking_225": [
     "HasUsedToCreate"
   ],
+  "item_226": [
+    "HasFromItemChange"
+  ],
   "bug_228": [
     "HasUsedToCreate"
   ],
   "item_236": [
-    "HasUsedToCreate"
+    "HasUsedToCreate",
+    "HasFromItemChange"
   ],
   "item_246": [
     "HasUsedToCreate"
@@ -240,7 +257,8 @@
   ],
   "item_272": [
     "HasUsedToCreate",
-    "HasItemChange"
+    "HasItemChange",
+    "HasFromItemChange"
   ],
   "item_275": [
     "HasUsedToCreate",
@@ -342,19 +360,27 @@
   "item_340": [
     "RequiresLicence"
   ],
+  "item_341": [
+    "HasFromItemChange"
+  ],
   "item_344": [
     "HasFromItemChange"
   ],
   "cooking_345": [
     "HasUsedToCreate",
-    "HasItemChange"
+    "HasItemChange",
+    "HasFromItemChange"
   ],
   "clothing_349": [
     "HasUsedToCreate"
   ],
   "cooking_350": [
     "HasUsedToCreate",
-    "HasItemChange"
+    "HasItemChange",
+    "HasFromItemChange"
+  ],
+  "item_351": [
+    "HasFromItemChange"
   ],
   "cooking_362": [
     "HasUsedToCreate"
@@ -364,6 +390,9 @@
   ],
   "item_384": [
     "HasUsedToCreate"
+  ],
+  "item_387": [
+    "HasFromItemChange"
   ],
   "furniture_392": [
     "HasUsedToCreate",
@@ -380,9 +409,13 @@
     "RequiresLicence",
     "ChangesItems"
   ],
+  "item_453": [
+    "HasFromItemChange"
+  ],
   "item_456": [
     "HasUsedToCreate",
-    "HasItemChange"
+    "HasItemChange",
+    "HasFromItemChange"
   ],
   "item_458": [
     "ChangesItems"
@@ -425,8 +458,12 @@
   "item_588": [
     "HasUsedToCreate"
   ],
+  "item_593": [
+    "HasFromItemChange"
+  ],
   "item_594": [
-    "HasUsedToCreate"
+    "HasUsedToCreate",
+    "HasFromItemChange"
   ],
   "item_596": [
     "HasUsedToCreate"
@@ -506,7 +543,8 @@
     "HasFromItemChange"
   ],
   "cooking_637": [
-    "HasItemChange"
+    "HasItemChange",
+    "HasFromItemChange"
   ],
   "cooking_638": [
     "HasFromItemChange"
@@ -716,6 +754,9 @@
   ],
   "cooking_862": [
     "HasUsedToCreate",
+    "HasFromItemChange"
+  ],
+  "item_863": [
     "HasFromItemChange"
   ],
   "item_891": [

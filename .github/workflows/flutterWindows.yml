@@ -10,12 +10,12 @@ concurrency:
   group: 'pages'
   cancel-in-progress: true
 
-env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 on:
+  workflow_dispatch:
   push:
     branches: ['main']
+    tags:
+      - '*'
 
 jobs:
   build:
@@ -36,16 +36,16 @@ jobs:
         run: |
           $Env:ENV_DART | Out-File ./lib/env.dart
 
-      - name: Enable web
-        run: flutter config --enable-web
+      - name: Build Windows release version
+        run: flutter build windows --release
 
-      - name: Build release version
-        run: flutter build web -t lib/prod.dart --release
+      - name: Building the installer
+        shell: cmd
+        run: |
+          "%programfiles(x86)%\Inno Setup 6\iscc.exe" "assistantDKM.iss"
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v1
         with:
-          path: 'build/web'
-
-      - name: Deploy GitHub Pages site
-        uses: actions/deploy-pages@v1.2.2
+          name: AssistantDKM_setup.exe
+          path: 'installers/AssistantDKM_setup.exe'

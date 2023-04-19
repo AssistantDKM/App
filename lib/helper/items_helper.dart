@@ -1,8 +1,8 @@
-import 'package:assistant_dinkum_app/contracts/json/inventory_item_craftable_required.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 
 import '../contracts/json/inventory_item.dart';
+import '../contracts/json/inventory_item_craftable_required.dart';
 import '../contracts/required_item.dart';
 import '../contracts/required_item_details.dart';
 import '../contracts/required_item_tree_details.dart';

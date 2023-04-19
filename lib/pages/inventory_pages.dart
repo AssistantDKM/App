@@ -1,5 +1,3 @@
-import 'package:assistant_dinkum_app/contracts/json/enum/usage_key.dart';
-import 'package:assistant_dinkum_app/contracts/json/item_change.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
@@ -11,7 +9,9 @@ import '../components/pageElements/item_list_page.dart';
 import '../components/tilePresenters/inventory_tile_presenter.dart';
 import '../constants/app_json.dart';
 import '../contracts/data/game_update.dart';
+import '../contracts/json/enum/usage_key.dart';
 import '../contracts/json/inventory_item.dart';
+import '../contracts/json/item_change.dart';
 import '../contracts/json/licence_item.dart';
 import '../contracts/pageItem/inventory_page_item.dart';
 import '../contracts/redux/app_state.dart';

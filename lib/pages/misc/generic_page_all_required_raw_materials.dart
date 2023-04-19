@@ -1,10 +1,10 @@
-import 'package:assistant_dinkum_app/constants/app_padding.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
 import '../../components/scaffoldTemplates/generic_page_scaffold.dart';
 import '../../components/tilePresenters/required_item_tile_presenter.dart';
+import '../../constants/app_padding.dart';
 import '../../contracts/redux/app_state.dart';
 import '../../contracts/required_item.dart';
 import '../../contracts/required_item_details.dart';
