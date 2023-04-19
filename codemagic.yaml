@@ -73,6 +73,8 @@ workflows:
     integrations:
       app_store_connect: CodeMagic CICD Dinkum
     environment:
+      groups:
+        - prod
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.assistantapps.dinkum
@@ -104,7 +106,7 @@ workflows:
         script: |
           find . -name "Podfile" -execdir pod install \;
 
-      - name: Flutter build ipa and automatic versioning
+      - name: Flutter build ipa
         script: |
           flutter build ipa --release \
             --export-options-plist=/Users/builder/export_options.plist
