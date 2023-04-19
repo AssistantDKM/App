@@ -17,15 +17,6 @@ workflows:
           include: true
           source: true
     scripts:
-      - name: Set build name & number ENV
-        script: |
-          sh ./scripts/loadEnv.sh
-
-      - name: Display build name & number
-        script: |
-          echo "name: $FLUTTER_BUILD_NAME"
-          echo "num: $FLUTTER_BUILD_NUMBER"
-
       - name: Write keystore file
         script: |
           echo $FCI_KEYSTORE_FILE | base64 --decode > $CM_BUILD_DIR/keystore.jks
@@ -66,11 +57,13 @@ workflows:
             --ks-pass $FCI_KEYSTORE_PASSWORD \
             --ks-key-alias $FCI_KEY_ALIAS \
             --key-pass $FCI_KEY_PASSWORD
+
     artifacts:
       - build/**/outputs/**/*.aab
       - build/**/outputs/**/*.apk
       - build/**/outputs/**/mapping.txt
       - flutter_drive.log
+
     # publishing:
     #   google_play:
     #     credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
