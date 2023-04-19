@@ -7,15 +7,15 @@ permissions:
 
 # Allow one concurrent deployment
 concurrency:
-  group: 'pages'
+  group: 'build-web'
   cancel-in-progress: true
 
 on:
   workflow_dispatch:
   push:
-    branches: ['main']
     tags:
-      - '*'
+      - '0.*'
+      - '1.*'
 
 jobs:
   build:

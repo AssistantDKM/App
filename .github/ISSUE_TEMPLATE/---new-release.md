@@ -14,7 +14,7 @@ assignees: Khaoz-Topsy
 - [ ] Create new item in Admin tool
   - [ ] Copy content of `release_notes.txt` to Markdown
   - [ ] Future date release date
-  - [ ] Copy guid, paste into `assistantAppsSettings.dart`
+  - [ ] Copy guid, paste into `assistant_apps_settings.dart`
 - [ ] Create Pull Request
 - [ ] Tag **main** (1.x.x) _This should [queue CodeMagic build](https://codemagic.io/app/641d82730d82a528c46ca76a/settings) automatically_
 
