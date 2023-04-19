@@ -1,6 +1,6 @@
 name: assistant_dinkum_app
 description: Assistant for Dinkum
-version: 0.0.8+8 # dart scripts\version_num_script.dart
+version: 0.0.9+9 # dart scripts\version_num_script.dart
 publish_to: none
 
 environment:
@@ -41,10 +41,12 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: 2.0.0
   pubspec_parse: 1.2.1
-  flutter_launcher_icons: 0.12.0
+  flutter_launcher_icons: 0.13.0
+  msix: 3.10.1
   git: 2.2.0
 
 # dependency_overrides:
+#   win32: 4.1.0
 
 flutter_icons: ## flutter pub run flutter_launcher_icons:main
   ios: true
@@ -63,6 +65,18 @@ flutter_icons: ## flutter pub run flutter_launcher_icons:main
     generate: true
     image_path: 'assets/icon/fullSizeIcon-outline.png'
     icon_size: 64 # min:48, max:256, default: 48
+
+# flutter pub run msix:create
+msix_config: # https://pub.dev/documentation/msix/latest/
+  display_name: Assistant for Dinkum
+  publisher_display_name: AssistantApps
+  msix_version: 0.0.9.0
+  identity_name: notSureIfSecret
+  publisher: notSureIfSecret
+  logo_path: './assets/icon/fullSizeIcon.png'
+  languages: en
+  capabilities: internetClient
+  store: true
 
 flutter:
   uses-material-design: true

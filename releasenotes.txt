@@ -1,6 +1,4 @@
-- 📦 Update game data for 0.6.5
-- ✨ Display Item Change recipes in the 3 different scenarios
-  - Process an item in, from and use the current item to process other items
-- 🎨 Rework inventory page loading (performance)
+- ✨ Improve the display of the "process from" section
+- 🐛 Fix "What Is New" page for GithubWindows platform
 - 🐛 Minor bug fixes
 
