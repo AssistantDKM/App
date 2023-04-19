@@ -39,9 +39,7 @@ workflows:
 
       - name: Build AAB with Flutter
         script: |
-          flutter build appbundle --release \
-            --build-name=$FLUTTER_BUILD_NAME \
-            --build-number=$FLUTTER_BUILD_NUMBER
+          flutter build appbundle --release 
 
       # - name: Build APK with Flutter
       #   script: |
