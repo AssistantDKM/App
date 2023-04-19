@@ -17,6 +17,10 @@ workflows:
           include: true
           source: true
     scripts:
+      - name: Set build name & number ENV
+        script: |
+          sh ./scripts/loadEnv.sh
+
       - name: Display build name & number
         script: |
           echo "name: $FLUTTER_BUILD_NAME"
@@ -67,16 +71,16 @@ workflows:
       - build/**/outputs/**/*.apk
       - build/**/outputs/**/mapping.txt
       - flutter_drive.log
-    publishing:
-      google_play:
-        credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
-        track: $GOOGLE_PLAY_TRACK
-      slack:
-        channel: '#assistant-apps'
-        notify_on_build_start: true
-        notify:
-          success: true
-          failure: true
+    # publishing:
+    #   google_play:
+    #     credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
+    #     track: $GOOGLE_PLAY_TRACK
+    #   slack:
+    #     channel: '#assistant-apps'
+    #     notify_on_build_start: true
+    #     notify:
+    #       success: true
+    #       failure: true
 
   ios-workflow:
     name: iOS Workflow

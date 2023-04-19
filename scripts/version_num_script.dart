@@ -21,6 +21,7 @@ Future<void> main() async {
 
   await updatePubspecFile(pubSpecString, buildName);
   await writeBuildNumFile(buildNum, buildName, commit.keys.first);
+  await writeEnvScript(buildName, buildNum);
   await updateInnoFile(buildName);
   print('Done');
 }
@@ -62,4 +63,13 @@ Future updateInnoFile(String buildName) async {
 
   await innoFile.writeAsString(newDoc);
   print('Writing to innoSetup file Success');
+}
+
+Future writeEnvScript(String buildName, String buildNum) async {
+  print('Writing to loadEnv.sh');
+  final envScriptFile = File('./scripts/loadEnv.sh');
+  String contents = 'export FLUTTER_BUILD_NAME=$buildName\n';
+  contents += 'export FLUTTER_BUILD_NUMBER=$buildNum\n';
+  await envScriptFile.writeAsString(contents);
+  print('Writing to loadEnv.sh success');
 }
