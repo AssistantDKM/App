@@ -17,6 +17,11 @@ workflows:
           include: true
           source: true
     scripts:
+      - name: Display build name & number
+        script: |
+          echo "name: $FLUTTER_BUILD_NAME"
+          echo "num: $FLUTTER_BUILD_NUMBER"
+
       - name: Write keystore file
         script: |
           echo $FCI_KEYSTORE_FILE | base64 --decode > $CM_BUILD_DIR/keystore.jks
