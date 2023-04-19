@@ -52,7 +52,7 @@ Future updatePubspecFile(String doc, String buildNum) async {
 }
 
 Future updateInnoFile(String buildName) async {
-  final innoFile = File('./installers/assistantDKM.iss');
+  final innoFile = File('./assistantDKM.iss');
   String innoFileString = await innoFile.readAsString();
 
   RegExp appVersionReg = RegExp(r'#define\sMyAppVersion\s\"\d*\.\d*\.\d*\"');
