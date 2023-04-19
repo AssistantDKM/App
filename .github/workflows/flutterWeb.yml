@@ -10,16 +10,16 @@ concurrency:
   group: 'pages'
   cancel-in-progress: true
 
-env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 on:
+  workflow_dispatch:
   push:
     branches: ['main']
+    tags:
+      - '*'
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
