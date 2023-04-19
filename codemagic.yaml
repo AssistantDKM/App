@@ -41,12 +41,6 @@ workflows:
         script: |
           flutter build appbundle --release 
 
-      # - name: Build APK with Flutter
-      #   script: |
-      #     flutter build apk --release \
-      #       --build-name=$FLUTTER_BUILD_NAME \
-      #       --build-number=$FLUTTER_BUILD_NUMBER
-
       - name: Build universal apk
         script: |
           android-app-bundle build-universal-apk \
@@ -62,16 +56,16 @@ workflows:
       - build/**/outputs/**/mapping.txt
       - flutter_drive.log
 
-    # publishing:
-    #   google_play:
-    #     credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
-    #     track: $GOOGLE_PLAY_TRACK
-    #   slack:
-    #     channel: '#assistant-apps'
-    #     notify_on_build_start: true
-    #     notify:
-    #       success: true
-    #       failure: true
+    publishing:
+      google_play:
+        credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
+        track: $GOOGLE_PLAY_TRACK
+      slack:
+        channel: '#assistant-apps'
+        notify_on_build_start: true
+        notify:
+          success: true
+          failure: true
 
   ios-workflow:
     name: iOS Workflow
@@ -113,8 +107,6 @@ workflows:
       - name: Flutter build ipa and automatic versioning
         script: |
           flutter build ipa --release \
-            --build-name=$FLUTTER_BUILD_NAME \
-            --build-number=$FLUTTER_BUILD_NUMBER \
             --export-options-plist=/Users/builder/export_options.plist
 
     artifacts:
