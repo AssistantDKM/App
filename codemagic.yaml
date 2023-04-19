@@ -71,7 +71,7 @@ workflows:
     name: iOS Workflow
     max_build_duration: 120
     integrations:
-      app_store_connect: codemagic
+      app_store_connect: CodeMagic CICD Dinkum
     environment:
       ios_signing:
         distribution_type: app_store
@@ -125,3 +125,4 @@ workflows:
         auth: integration
         submit_to_testflight: true
         submit_to_app_store: false
+        release_type: SCHEDULED
