@@ -1,4 +1,4 @@
-name: Flutter Deploy
+name: Flutter Deploy - Windows
 
 permissions:
   contents: write
@@ -47,5 +47,5 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v1
         with:
-          name: AssistantDKM_setup.exe
+          name: AssistantDKM_setup
           path: 'installers/AssistantDKM_setup.exe'
