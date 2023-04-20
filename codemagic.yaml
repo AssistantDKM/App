@@ -81,6 +81,13 @@ workflows:
       flutter: master
       xcode: latest
       cocoapods: default
+    triggering:
+      events:
+        - tag
+      branch_patterns:
+        - pattern: 'main'
+          include: true
+          source: true
     scripts:
       - name: Write GoogleServices file
         script: |
