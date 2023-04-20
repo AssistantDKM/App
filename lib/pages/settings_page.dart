@@ -42,16 +42,18 @@ class SettingsPage extends StatelessWidget {
   }
 
   Widget getBody(BuildContext bodyCtx, SettingViewModel viewModel) {
-    return SettingsList(sections: [
-      SettingsSection(
-        title: Text(getTranslations().fromKey(LocaleKey.general)),
-        tiles: getCommonTiles(bodyCtx, viewModel),
-      ),
-      SettingsSection(
-        title: Text(getTranslations().fromKey(LocaleKey.other)),
-        tiles: getOtherTiles(bodyCtx, viewModel),
-      ),
-    ]);
+    return SettingsList(
+      sections: [
+        SettingsSection(
+          title: Text(getTranslations().fromKey(LocaleKey.general)),
+          tiles: getCommonTiles(bodyCtx, viewModel),
+        ),
+        SettingsSection(
+          title: Text(getTranslations().fromKey(LocaleKey.other)),
+          tiles: getOtherTiles(bodyCtx, viewModel),
+        ),
+      ],
+    );
   }
 
   List<AbstractSettingsTile> getCommonTiles(
@@ -73,14 +75,62 @@ class SettingsPage extends StatelessWidget {
           height: 50,
           child: getCountryFlag(currentLocale.countryCode),
         ),
-        onPressed: (context) async {
-          String? temp = await getTranslations().langaugeSelectionPage(context);
+        onPressed: (tapCtx) async {
+          String? temp = await getTranslations().langaugeSelectionPage(tapCtx);
           // if null, no language selected
           if (temp != null) {
-            var newLocale = getTranslations().getLocaleFromKey(temp);
-            onLocaleChange(newLocale);
+            Locale newLocale = getTranslations().getLocaleFromKey(temp);
+            LocalizationMap translationMap =
+                // ignore: use_build_context_synchronously
+                getTranslations().getCurrentLocalizationMap(tapCtx, temp);
 
-            viewModel.setSelectedLanguage(temp);
+            if (viewModel.selectedLanguage == temp) return;
+
+            onSuccess() {
+              onLocaleChange(newLocale);
+              viewModel.setSelectedLanguage(temp);
+            }
+
+            if (temp != 'en') {
+              // ignore: use_build_context_synchronously
+              getDialog().showSimpleDialog(
+                tapCtx,
+                getTranslations().fromKey(LocaleKey.translation),
+                Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    const LocalImage(
+                      imagePath: AppImage.translate,
+                      height: 150,
+                    ),
+                    Text(
+                      getTranslations()
+                          .fromKey(LocaleKey.translationIssue)
+                          .replaceAll('{0}',
+                              getTranslations().fromKey(translationMap.name))
+                          .replaceAll('{1}', 'Dinkum'),
+                    ),
+                  ],
+                ),
+                buttonBuilder: (BuildContext btnContext) {
+                  return [
+                    getDialog().simpleDialogCloseButton(
+                      btnContext,
+                      onTap: () => getNavigation().pop(btnContext),
+                    ),
+                    getDialog().simpleDialogPositiveButton(
+                      btnContext,
+                      onTap: () {
+                        getNavigation().pop(btnContext);
+                        onSuccess();
+                      },
+                    ),
+                  ];
+                },
+              );
+            } else {
+              onSuccess();
+            }
           }
         },
       ),

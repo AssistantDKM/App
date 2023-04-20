@@ -9,6 +9,7 @@ class AppImage {
   static const String customCursor = 'customCursor.png';
   static const String museum = 'museum.png';
   static const String locked = 'locked.png';
+  static const String translate = 'translate.png';
   static const String error = 'error.png';
 
   static const String drawerHeader = 'drawer/DrawerHeader.png';
