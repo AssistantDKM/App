@@ -20,6 +20,7 @@ class BaseWidgetService implements IBaseWidgetService {
         body: body,
         builder: builder,
         drawer: drawer,
+        disableOnWillPop: true,
         bottomNavigationBar: bottomNavigationBar,
         floatingActionButton: floatingActionButton,
         floatingActionButtonLocation: floatingActionButtonLocation,

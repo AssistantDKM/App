@@ -94,7 +94,7 @@ flutter:
     - assets/json/fr/
     - assets/json/ja/
     - assets/json/ru/
-    - assets/json/zh-hans/
+    - assets/json/zh/
     #
     - assets/images/menu/
     - assets/images/stats/
