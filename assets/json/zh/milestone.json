@@ -1,0 +1,1474 @@
+[
+  {
+    "Id": 1,
+    "AppId": "milestone_1",
+    "Name": "收获大师",
+    "Description": "Picking fruit and logs off the ground will get you far in this place. Here is a milestone for gathering lots of stuff up.",
+    "Icon": "milestone/milestone_Harvest.png",
+    "RequirementPerLevel": [
+      100,
+      500,
+      1000,
+      2000
+    ],
+    "RewardPerLevel": 50,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 2,
+    "AppId": "milestone_2",
+    "Name": "聊天盒",
+    "Description": "Being friendly and making friends is an adventure on it's own! Be sure to chat with everyone every day! You might learn something.",
+    "Icon": "milestone/milestone_TalkToPeople.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 3,
+    "AppId": "milestone_3",
+    "Name": "错误捕捉器",
+    "Description": "Catching bugs is a great activity. Here is a milestone for catching some of those creepy crawlies.",
+    "Icon": "milestone/milestone_CatchBugs.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 4,
+    "AppId": "milestone_4",
+    "Name": "疯狂制作",
+    "Description": "Crafting useful things yourself is a handy skill in a place starting off with nothing. Here is a milestone for crafting items.",
+    "Icon": "milestone/milestone_CraftAnything.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 5,
+    "AppId": "milestone_5",
+    "Name": "超级品尝师",
+    "Description": "Fruit? Meat? Fungus? It doesn't matter. Food will give you energy to keep doing your tasks all day long. Here is a milestone for eating things!",
+    "Icon": "milestone/milestone_EatSomething.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 6,
+    "AppId": "milestone_6",
+    "Name": "走来走去",
+    "Description": "Staying in one spot isn't generally considered exploring. You're going to cover some distance, that's for sure! Here is a milestone for travelling!",
+    "Icon": "milestone/milestone_TravelDistance.png",
+    "RequirementPerLevel": [
+      5000,
+      20000,
+      100000,
+      250000,
+      500000,
+      1000000,
+      5000000
+    ],
+    "RewardPerLevel": 200,
+    "IsVisibleOnList": true,
+    "Suffix": "m"
+  },
+  {
+    "Id": 7,
+    "AppId": "milestone_7",
+    "Name": "精明的购物者",
+    "Description": "Nothing wrong with spending some of that hard-earned dosh. Here is a milestone for spending Dinks.",
+    "Icon": "milestone/milestone_BuyItems.png",
+    "RequirementPerLevel": [
+      10000,
+      50000,
+      100000,
+      500000,
+      1500000
+    ],
+    "RewardPerLevel": 250,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 8,
+    "AppId": "milestone_8",
+    "Name": "企业家",
+    "Description": "Making that bread. That cold hard cash. Nothing wrong with making a bit of a profit. Here is a milestone selling stuff for money.",
+    "Icon": "milestone/milestone_SellItems.png",
+    "RequirementPerLevel": [
+      10000,
+      50000,
+      100000,
+      500000,
+      1500000
+    ],
+    "RewardPerLevel": 250,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 9,
+    "AppId": "milestone_9",
+    "Name": "烧烤大师",
+    "Description": "Chuck another steak on the barbie, mate. A milestone for grilling up some meat to eat!",
+    "Icon": "milestone/milestone_CookMeat.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 10,
+    "AppId": "milestone_10",
+    "Name": "绿拇指",
+    "Description": "Planting seeds in the red dirt. They grow up so fast. Here is a milestone for planting some seeds.",
+    "Icon": "milestone/milestone_PlantSeeds.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 11,
+    "AppId": "milestone_11",
+    "Name": "湿拇指",
+    "Description": "Watering plants is good for your soul and good for the plants general health. It's win-win. So here is a milestone for watering a lot of plants!",
+    "Icon": "milestone/milestone_WaterCrops.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 12,
+    "AppId": "milestone_12",
+    "Name": "ロックオン",
+    "Description": "Smashing rocks is hard work. But sometimes they have stuff in them! Here is a milestone for smashing rocks.",
+    "Icon": "milestone/milestone_SmashRocks.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 13,
+    "AppId": "milestone_13",
+    "Name": "鉱石か何もない",
+    "Description": "You've smashed a couple of them rocks filled with ore. Here is a milestone for smashing ore deposits.",
+    "Icon": "milestone/milestone_CollectOre.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 14,
+    "AppId": "milestone_14",
+    "Name": "做酒吧",
+    "Description": "Smelting. Oh, you've been smelting alright. Here is a milestone for smelting ore into bars.",
+    "Icon": "milestone/milestone_SmeltOre.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 15,
+    "AppId": "milestone_15",
+    "Name": "磨碎",
+    "Description": "Grinding rocks down into powder. Here is a milestone for using a stone grinder a bunch.",
+    "Icon": "milestone/milestone_GrindObjects.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 16,
+    "AppId": "milestone_16",
+    "Name": "木材！",
+    "Description": "Sometime trees get in the way and sometimes you just need to borrow their wood for a bit. Here is a milestone for chopping down trees.",
+    "Icon": "milestone/milestone_ChopDownTree.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 17,
+    "AppId": "milestone_17",
+    "Name": "陷入困境",
+    "Description": "You can't just chop a tree down and leave the stump. Here is a milestone for getting rid of the lil' stumps that are there after the tree falls down.",
+    "Icon": "milestone/milestone_ChopDownStump.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 18,
+    "AppId": "milestone_18",
+    "Name": "会好起来的",
+    "Description": "You like wood, right? But what about square wood? Here is a milestone for cutting wood into planks.",
+    "Icon": "milestone/milestone_CutPlanks.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 19,
+    "AppId": "milestone_19",
+    "Name": "鱼捕手",
+    "Description": "You've caught a bunch of fish. Here is a milestone for catching a bunch of fish!",
+    "Icon": "milestone/milestone_CatchFish.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 20,
+    "AppId": "milestone_20",
+    "Name": "割草机",
+    "Description": "No matter how much you clear it seems to come back. Mowing never ends. Here is a milestone for chopping grass.",
+    "Icon": "milestone/milestone_CutGrass.png",
+    "RequirementPerLevel": [
+      50,
+      250,
+      1000,
+      5000
+    ],
+    "RewardPerLevel": 50,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 21,
+    "AppId": "milestone_21",
+    "Name": "一切猎人",
+    "Description": "Hunting is sometimes necessary. Here is milestone for hunting creatures.",
+    "Icon": "milestone/milestone_HuntAnimals.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 22,
+    "AppId": "milestone_22",
+    "Name": "陷阱时间",
+    "Description": "Trapping animals for relocation is a kind way to deal with them. It's not easy to do, either! Here is a milestone for trapping an animal.",
+    "Icon": "milestone/milestone_TrapAnAnimal.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 23,
+    "AppId": "milestone_23",
+    "Name": "家具花式",
+    "Description": "Buying furniture for your home? Maybe a gift? Here is milestone for buying furniture.",
+    "Icon": "milestone/milestone_BuyFurniture.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 24,
+    "AppId": "milestone_24",
+    "Name": "墙变",
+    "Description": "New walls. Same old house. Here is a milestone for buying wallpaper.",
+    "Icon": "milestone/milestone_BuyWallpaper.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 25,
+    "AppId": "milestone_25",
+    "Name": "地板变化",
+    "Description": "Here is a milestone for buying flooring.",
+    "Icon": "milestone/milestone_BuyFlooring.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 26,
+    "AppId": "milestone_26",
+    "Name": "种子销售",
+    "Description": "Here is a milestone for buying seeds.",
+    "Icon": "milestone/milestone_BuySeeds.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 27,
+    "AppId": "milestone_27",
+    "Name": "收割者",
+    "Description": "Reap what you have sewn. Here is a milestone for harvesting crops.",
+    "Icon": "milestone/milestone_HarvestCrops.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 28,
+    "AppId": "milestone_28",
+    "Name": "最佳",
+    "Description": "Looking good in some new threads. Here is a milestone for buying clothes",
+    "Icon": "milestone/milestone_BuyShirt.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 29,
+    "AppId": "milestone_29",
+    "Name": "裤子",
+    "Description": "Cooked fruit. Sounds gross, I know. It might be... Anyway, here is a milestone for cooking fruit.",
+    "Icon": "milestone/milestone_CookSomeFruit.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 30,
+    "AppId": "milestone_30",
+    "Name": "鞋子",
+    "Description": "Mixing things all together to make something? You're a bloody chef, I'll tell you what. Here is a milestone for cooking at the cooking table.",
+    "Icon": "milestone/milestone_CookAtCookingTable.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 31,
+    "AppId": "milestone_31",
+    "Name": "面对",
+    "Description": "Always replace what you've taken. Here is a milestone for planting tree seeds.",
+    "Icon": "milestone/milestone_PlantTreeSeed.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 32,
+    "AppId": "milestone_32",
+    "Name": "路径工匠",
+    "Description": "What are fish doing in the ocean when they could be put to good use lining your pockets. Here is a milestone for selling fish.",
+    "Icon": "milestone/milestone_SellFish.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 33,
+    "AppId": "milestone_33",
+    "Name": "篱笆提琴手",
+    "Description": "Bugs are everywhere. For some reason, John wants them. Here is a milestone for selling bugs.",
+    "Icon": "milestone/milestone_SellBugs.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 34,
+    "AppId": "milestone_34",
+    "Name": "路径放置器",
+    "Description": "You've got to squeeze for every Dink you can. Even if it means dealing with shells. Here is a milestone for selling shells.",
+    "Icon": "milestone/milestone_SellShells.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 35,
+    "AppId": "milestone_35",
+    "Name": "围栏二传手",
+    "Description": "Farming has paid off. You've reaped what you have sown. Here is a milestone for selling plants.",
+    "Icon": "milestone/milestone_SellCrops.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 36,
+    "AppId": "milestone_36",
+    "Name": "考古学家",
+    "Description": "There is stuff everywhere underground. Here is a milestone for digging up treasure.",
+    "Icon": "milestone/milestone_DigUpTreasure.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 37,
+    "AppId": "milestone_37",
+    "Name": "埋果",
+    "Description": "Bury fruit and get a fruit tree! You beauty! Here is a milestone for burying fruit.",
+    "Icon": "milestone/milestone_BuryFruit.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 38,
+    "AppId": "milestone_38",
+    "Name": "珍珠采摘机",
+    "Description": "Here is a milestone for diving for treasure.",
+    "Icon": "milestone/milestone_DiveForTreasure.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      20,
+      50,
+      100
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 39,
+    "AppId": "milestone_39",
+    "Name": "宠物彼得",
+    "Description": "You treat your feathered and furred friends well. Here is a milestone for petting your animals.",
+    "Icon": "milestone/milestone_PetAnimals.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 40,
+    "AppId": "milestone_40",
+    "Name": "农场饲养者",
+    "Description": "You feed them every day so they will love you. Here is a milestone for feeding your animals.",
+    "Icon": "milestone/milestone_FeedAnimals.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 41,
+    "AppId": "milestone_41",
+    "Name": "深度矿工",
+    "Description": "Deep down in the shifting mines, it's dangerous... but you've been there a bunch! Here is a milestone for entering the mines.",
+    "Icon": "milestone/milestone_EnterMines.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      50,
+      100,
+      200
+    ],
+    "RewardPerLevel": 200,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 42,
+    "AppId": "milestone_42",
+    "Name": "乐于助人的朋友",
+    "Description": "You help anyone that asks, eh? Here is a milestone for doing a lot of favours.",
+    "Icon": "milestone/milestone_DoAFavourSomeone.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      50,
+      100,
+      200
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 43,
+    "AppId": "milestone_43",
+    "Name": "中毒的人",
+    "Description": "Being poisoned might not kill you, but it will take a lot of energy out of you. Here is a one time milestone for being poisoned. But try not to be from now on, okay?",
+    "Icon": "milestone/milestone_GetPoisoned.png",
+    "RequirementPerLevel": [
+      1
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 44,
+    "AppId": "milestone_44",
+    "Name": "损坏海绵",
+    "Description": "You sure can take a hit or two. Here is a milestone for taking damage.",
+    "Icon": "milestone/milestone_TakeDamage.png",
+    "RequirementPerLevel": [
+      50,
+      100,
+      500
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 45,
+    "AppId": "milestone_45",
+    "Name": "勤劳的人",
+    "Description": "Watch your energy. If you push yourself too far or if you stay out too late you will faint. You'll lose stuff if you pass out. Here's a milestone for fainting, but try not to from now on. ",
+    "Icon": "milestone/milestone_Faint.png",
+    "RequirementPerLevel": [
+      1
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 46,
+    "AppId": "milestone_46",
+    "Name": "笔友",
+    "Description": "The more friendly you are with someone the more likely they will send you mail! Here is a milestone for receiving letters.",
+    "Icon": "milestone/milestone_GetLetters.png",
+    "RequirementPerLevel": [
+      1,
+      15,
+      50
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 47,
+    "AppId": "milestone_47",
+    "Name": "家庭主妇",
+    "Description": "From tent, to house to even bigger house! Here is a milestone for upgrading your home.",
+    "Icon": "milestone/milestone_UpgradeHouse.png",
+    "RequirementPerLevel": [
+      1,
+      2,
+      3
+    ],
+    "RewardPerLevel": 750,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 48,
+    "AppId": "milestone_48",
+    "Name": "冒険者",
+    "Description": "Every adventure starts somewhere and yours starts here. Here is a milestone for placing the base tent.",
+    "Icon": "milestone/milestone_PlaceBaseTent.png",
+    "RequirementPerLevel": [
+      1
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 49,
+    "AppId": "milestone_49",
+    "Name": "露营者",
+    "Description": "A place to rest your head - Your new home for now. Here is a milestone for placing your tent.",
+    "Icon": "milestone/milestone_PlaceOwnTent.png",
+    "RequirementPerLevel": [
+      1
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 50,
+    "AppId": "milestone_50",
+    "Name": "城市规划师",
+    "Description": "Building the town - one building at a time. Here is a milestone for finishing a new building!",
+    "Icon": "milestone/milestone_CompleteABuilding.png",
+    "RequirementPerLevel": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "RewardPerLevel": 250,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 51,
+    "AppId": "milestone_51",
+    "Name": "配备",
+    "Description": "You can buy a lot of useful tools to help you! Here is a milestone for buying tools.",
+    "Icon": "milestone/milestone_BuyATool.png",
+    "RequirementPerLevel": [
+      5,
+      50,
+      250,
+      500,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 52,
+    "AppId": "milestone_52",
+    "Name": "粉碎",
+    "Description": "What are these things even made of? Here is a milestone for breaking tools.",
+    "Icon": "milestone/milestone_BreakATool.png",
+    "RequirementPerLevel": [
+      1,
+      25,
+      100,
+      500,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 53,
+    "AppId": "milestone_53",
+    "Name": "登上",
+    "Description": "You always go out of your way to help people who have posted on the bulletin board. Here is a milestone for completing tasks from the bulletin board.",
+    "Icon": "milestone/milestone_CompleteABulletinBoardRequest.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      50,
+      100,
+      200
+    ],
+    "RewardPerLevel": 200,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 54,
+    "AppId": "milestone_54",
+    "Name": "昆虫学家",
+    "Description": "You make sure you document all the different bugs you've caught. Here is a milestone for adding new species of bugs to your Pedia.",
+    "Icon": "milestone/milestone_AddNewBugToPedia.png",
+    "RequirementPerLevel": [
+      5,
+      10,
+      20,
+      25,
+      35
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 55,
+    "AppId": "milestone_55",
+    "Name": "鱼学家",
+    "Description": "You make sure you document all the different fish you've caught. Here is a milestone for adding new species of fish to your Pedia.",
+    "Icon": "milestone/milestone_AddNewFishToPedia.png",
+    "RequirementPerLevel": [
+      5,
+      10,
+      20,
+      25,
+      35
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 56,
+    "AppId": "milestone_56",
+    "Name": "产品处理器",
+    "Description": "You are documenting all the wildlife here on the island. Here is a milestone for adding a new animal to your Pedia.",
+    "Icon": "milestone/milestone_AddNewAnimalToPedia.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 57,
+    "AppId": "milestone_57",
+    "Name": "产品处理器",
+    "Description": "Take those animal products and make them better! Here is a milestone for making something from animal products.",
+    "Icon": "milestone/milestone_ProcessAnimalProduct.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      50,
+      100,
+      200
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 58,
+    "AppId": "milestone_58",
+    "Name": "鸡蛋精",
+    "Description": "They crack easy, but they sell for a bit! Here is a milestone for selling eggs.",
+    "Icon": "milestone/milestone_SellAnEgg.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 59,
+    "AppId": "milestone_59",
+    "Name": "野生播种机",
+    "Description": "You've gotta give back after you take. Here is a milestone for planting wild seeds for grass, bushes and trees.",
+    "Icon": "milestone/milestone_PlantWildSeeds.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 60,
+    "AppId": "milestone_60",
+    "Name": "野生播种机",
+    "Description": "Pick up some dirt, put it there. Here is a milestone for moving soil.",
+    "Icon": "milestone/milestone_SoilMover.png",
+    "RequirementPerLevel": [
+      25,
+      100,
+      250,
+      1000,
+      5000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 61,
+    "AppId": "milestone_61",
+    "Name": "野生播种机",
+    "Description": "What if you take the tools from John's shop and make them better? Here is a milestone for upgrading tools.",
+    "Icon": "milestone/milestone_CraftATool.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 62,
+    "AppId": "milestone_62",
+    "Name": "野生播种机",
+    "Description": "Travelling on foot is for fools. Here is a milestone for travelling in style via vehicle.",
+    "Icon": "milestone/milestone_TravelDistanceOnVehicle.png",
+    "RequirementPerLevel": [
+      5000,
+      20000,
+      100000,
+      250000,
+      500000,
+      1000000,
+      5000000
+    ],
+    "RewardPerLevel": 200,
+    "IsVisibleOnList": true,
+    "Suffix": "m"
+  },
+  {
+    "Id": 63,
+    "AppId": "milestone_63",
+    "Name": "野生播种机",
+    "Description": "Here is a milestone for getting haircuts.",
+    "Icon": "milestone/milestone_GetAHairCut.png",
+    "RequirementPerLevel": [
+      1
+    ],
+    "RewardPerLevel": 200,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 64,
+    "AppId": "milestone_64",
+    "Name": "野生播种机",
+    "Description": "Saving money in the bank. Clever. Here is a milestone for having a cold hard Mil.",
+    "Icon": "milestone/milestone_DepositMoneyIntoBank.png",
+    "RequirementPerLevel": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "RewardPerLevel": 1000,
+    "IsVisibleOnList": true,
+    "Suffix": ",000,000"
+  },
+  {
+    "Id": 65,
+    "AppId": "milestone_65",
+    "Name": "野生播种机",
+    "Description": "Giving an animal a new home is a great thing. Here is a milestone for buying a new animal friend.",
+    "Icon": "milestone/milestone_BuyAnAnimal.png",
+    "RequirementPerLevel": [
+      1,
+      5,
+      10
+    ],
+    "RewardPerLevel": 200,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 66,
+    "AppId": "milestone_66",
+    "Name": "野生播种机",
+    "Description": "Crab pots don't always catch crabs, but when they do, it's crab night! Here is a milestone for catching something in your crab pot.",
+    "Icon": "milestone/milestone_EmptyCrabPot.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      50,
+      100,
+      200
+    ],
+    "RewardPerLevel": 200,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 67,
+    "AppId": "milestone_67",
+    "Name": "野生播种机",
+    "Description": "Milestone for selling fossils.",
+    "Icon": "milestone/milestone_FossileFinder.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      20,
+      50
+    ],
+    "RewardPerLevel": 200,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 68,
+    "AppId": "milestone_68",
+    "Name": "野生播种机",
+    "Description": "Milestone for selling Wary Mu eggs.",
+    "Icon": "milestone/milestone_EggTheif.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      20,
+      50
+    ],
+    "RewardPerLevel": 200,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 69,
+    "AppId": "milestone_69",
+    "Name": "Hive Head",
+    "Description": "Beehives. You can smash 'em or sell them. Here is a milestone for selling a beehive.",
+    "Icon": "milestone/milestone_HiveFinder.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      20,
+      50
+    ],
+    "RewardPerLevel": 200,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 70,
+    "AppId": "milestone_70",
+    "Name": "Bee Keeper",
+    "Description": "Keeping your bee's happy and they will give you a little honey. Here is a milestone for collecting honey.",
+    "Icon": "milestone/milestone_CollectHoney.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      20,
+      50,
+      100
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 71,
+    "AppId": "milestone_71",
+    "Name": "Painter",
+    "Description": "Painting things gives them their own flair. Here is a milestone for making something your own with a nice paint job.",
+    "Icon": "milestone/milestone_PaintVehicle.png",
+    "RequirementPerLevel": [
+      1,
+      5,
+      10
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 72,
+    "AppId": "milestone_72",
+    "Name": "Shark Hunter",
+    "Description": "Going on a fishing trip but you caught a shark. Crikey! Here is a milestone for reeling in a beast.",
+    "Icon": "milestone/milestone_SharkHunter.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      20,
+      50,
+      100
+    ],
+    "RewardPerLevel": 400,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 73,
+    "AppId": "milestone_73",
+    "Name": "Shell Yeah",
+    "Description": "Shells are nature's way of littering. Here is a milestone for picking up those bad boys.",
+    "Icon": "milestone/milestone_CollectShells.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 74,
+    "AppId": "milestone_74",
+    "Name": "Brewmatic",
+    "Description": "Those flowers might be nice if I put them in a barrel and let they sit. Here is a milestone for brewing in a keg.",
+    "Icon": "milestone/milestone_BrewSomething.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 75,
+    "AppId": "milestone_75",
+    "Name": "Teleporter",
+    "Description": "Tele-Towers are handy. But are you still you? Oh well, here is a milestone for using the Tele-Towers.",
+    "Icon": "milestone/milestone_TeleportSomewhere.png",
+    "RequirementPerLevel": [
+      1
+    ],
+    "RewardPerLevel": 500,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 76,
+    "AppId": "milestone_76",
+    "Name": "Composter",
+    "Description": "Plants love old stinky stuff. Poop. Bones. They love it all. Here is a milestone for using the composter.",
+    "Icon": "milestone/milestone_UseCompostBin.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 77,
+    "AppId": "milestone_77",
+    "Name": "Wheelie Cool",
+    "Description": "Move dirt from here to there. Here is a milestone for using a Wheelbarrow.",
+    "Icon": "milestone/milestone_Wheelbarrow.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 78,
+    "AppId": "milestone_78",
+    "Name": "Lawn Master",
+    "Description": "Mowing the lawn. You're in suburbia now. Here is a milestone for mowing the law.",
+    "Icon": "milestone/milestone_LawnMower.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      200,
+      500,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 79,
+    "AppId": "milestone_79",
+    "Name": "Chopper Master",
+    "Description": "A helicopter? It flies? Here is a milestone for flying like a bird.",
+    "Icon": "milestone/milestone_FlyAHelicopter.png",
+    "RequirementPerLevel": [
+      5000,
+      20000,
+      100000,
+      250000,
+      500000,
+      1000000,
+      5000000
+    ],
+    "RewardPerLevel": 200,
+    "IsVisibleOnList": false,
+    "Suffix": "m"
+  },
+  {
+    "Id": 80,
+    "AppId": "milestone_80",
+    "Name": "Tractor Time",
+    "Description": "Now it's time to really farm. Here is a milestone for getting a tractor.",
+    "Icon": "milestone/milestone_GetATractor.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 81,
+    "AppId": "milestone_81",
+    "Name": "Bucket Head",
+    "Description": "A bucket on your head! You bloody galah. You're having a laugh. Here is a milestone for rockin a bucket on your head.",
+    "Icon": "milestone/milestone_PutBucketOnHead.png",
+    "RequirementPerLevel": [
+      1
+    ],
+    "RewardPerLevel": 250,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 82,
+    "AppId": "milestone_82",
+    "Name": "Photographer",
+    "Description": "Taking photos. Saving memories. Here is a milestone for taking some photos.",
+    "Icon": "milestone/milestone_Photographer.png",
+    "RequirementPerLevel": [
+      20
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 83,
+    "AppId": "milestone_83",
+    "Name": "滑翔机",
+    "Description": "Falling with style. Here is a milestone for hanging and gliding.",
+    "Icon": "milestone/milestone_HangGlide.png",
+    "RequirementPerLevel": [
+      5000,
+      20000,
+      100000,
+      250000,
+      500000,
+      1000000,
+      5000000
+    ],
+    "RewardPerLevel": 200,
+    "IsVisibleOnList": false,
+    "Suffix": "m"
+  },
+  {
+    "Id": 84,
+    "AppId": "milestone_84",
+    "Name": "锁匠",
+    "Description": "Unlocking doors with your keys. Where does the key go? Who knows. Here is a milestone for using keys.",
+    "Icon": "milestone/milestone_UnlockTreasure.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      20,
+      50
+    ],
+    "RewardPerLevel": 200,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 85,
+    "AppId": "milestone_85",
+    "Name": "乳制品好",
+    "Description": "Here is a milestone for milking Vombats.",
+    "Icon": "milestone/milestone_MilkAnimal.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 86,
+    "AppId": "milestone_86",
+    "Name": "Hairy Good",
+    "Description": "Here is a milestone for shearing Pleep.",
+    "Icon": "milestone/milestone_ShearAnimal.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 87,
+    "AppId": "milestone_87",
+    "Name": "Green Grocer",
+    "Description": "Here is a milestone for selling fruit.",
+    "Icon": "milestone/milestone_SellFruit.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 88,
+    "AppId": "milestone_88",
+    "Name": "Amber Cash",
+    "Description": "Here is a milestone for selling amber.",
+    "Icon": "milestone/milestone_SellAmber.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      20,
+      50
+    ],
+    "RewardPerLevel": 250,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 89,
+    "AppId": "milestone_89",
+    "Name": "Gift Giver",
+    "Description": "Birthdays are special for some reason. Here is a milestone for giving a birthday gift to someone.",
+    "Icon": "milestone/milestone_GiveBirthdayGift.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      20
+    ],
+    "RewardPerLevel": 250,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 90,
+    "AppId": "milestone_90",
+    "Name": "Ruby Runner",
+    "Description": "Here is a milestone for finding a Ruby and selling it.",
+    "Icon": "milestone/milestone_SellRuby.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      20,
+      50
+    ],
+    "RewardPerLevel": 200,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 91,
+    "AppId": "milestone_91",
+    "Name": "Thunderstruck",
+    "Description": "Sometimes the sky gets mad and starting throwing down bolts. Here is a milestone for getting hit by lightning.",
+    "Icon": "milestone/milestone_GetHitByLightning.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 92,
+    "AppId": "milestone_92",
+    "Name": "Thunder Eggo",
+    "Description": "Here is a milestone for finding a Thunder Egg and selling it.",
+    "Icon": "milestone/milestone_SellThunderEgg.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      20,
+      50
+    ],
+    "RewardPerLevel": 200,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 93,
+    "AppId": "milestone_93",
+    "Name": "Alpha Hunter",
+    "Description": "Alpha animals cause havoc. Here is a milestone for defeating an Alpha animal.",
+    "Icon": "milestone/milestone_HuntAlphaAnimal.png",
+    "RequirementPerLevel": [
+      1,
+      10,
+      20,
+      50
+    ],
+    "RewardPerLevel": 250,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 94,
+    "AppId": "milestone_94",
+    "Name": "Fishy Dish",
+    "Description": "Why keep your fish in an aquarium when you could keep them in your belly? Here is a milestone for cooking fish.",
+    "Icon": "milestone/milestone_CookFish.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 95,
+    "AppId": "milestone_95",
+    "Name": "Critter Catcher",
+    "Description": "It's brave it dive down and grab a random critter with your bare hands. Here is a milestone for catching underwater critters.",
+    "Icon": "milestone/milestone_CatchACritter.png",
+    "RequirementPerLevel": [
+      10,
+      50,
+      250,
+      1000
+    ],
+    "RewardPerLevel": 100,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 96,
+    "AppId": "milestone_96",
+    "Name": "Bug Comp Champ",
+    "Description": "Bug Comps are serious business. No Time for fun. Here is a milestone for placing in the Bug Comp.",
+    "Icon": "milestone/milestone_PlaceInBugComp.png",
+    "RequirementPerLevel": [
+      1,
+      2,
+      3
+    ],
+    "RewardPerLevel": 500,
+    "IsVisibleOnList": true
+  },
+  {
+    "Id": 97,
+    "AppId": "milestone_97",
+    "Name": "Giddy-Up",
+    "Description": "They aren't as pretty as vehicles, but riding an animal is good fun. Here is a milestone for riding an animal for a distance.",
+    "Icon": "milestone/milestone_RideAnAnimal.png",
+    "RequirementPerLevel": [
+      5000,
+      20000,
+      100000,
+      250000,
+      500000,
+      1000000,
+      5000000
+    ],
+    "RewardPerLevel": 200,
+    "IsVisibleOnList": false,
+    "Suffix": "m"
+  }
+]

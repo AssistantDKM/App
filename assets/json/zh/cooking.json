@@ -1,0 +1,3726 @@
+[
+  {
+    "Id": 17,
+    "AppId": "cooking_17",
+    "Icon": "inventory/allUI_197.png",
+    "Name": "布什石灰",
+    "Description": "酸酸但美味。",
+    "SellPrice": 90,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 2,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 3,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 19,
+    "AppId": "cooking_19",
+    "Icon": "inventory/allUI_205.png",
+    "Name": "熟透的牛排",
+    "Description": "因此，百胜。",
+    "SellPrice": 800,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 8,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 0,
+          "Level": 1,
+          "Seconds": 10
+        },
+        {
+          "Type": 1,
+          "Level": 1,
+          "Seconds": 10
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 28,
+    "AppId": "cooking_28",
+    "Icon": "inventory/allUI_198.png",
+    "Name": "甘蔗",
+    "Description": "如此甜蜜。你可以做糖出这个！",
+    "SellPrice": 560,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Vegetable",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 5,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 111,
+    "AppId": "cooking_111",
+    "Icon": "inventory/allUI_16.png",
+    "Name": "卷心菜",
+    "Description": "Cruchy或软。取决于你。",
+    "SellPrice": 1750,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Vegetable",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 116,
+    "AppId": "cooking_116",
+    "Icon": "inventory/allUI_17.png",
+    "Name": "胡萝卜",
+    "Description": "这是怎么回事，医务人员？",
+    "SellPrice": 475,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Vegetable",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 123,
+    "AppId": "cooking_123",
+    "Icon": "inventory/allUI_23.png",
+    "Name": "玉米",
+    "Description": "这是屁股",
+    "SellPrice": 358,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Vegetable",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 8,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 4,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 215,
+    "AppId": "cooking_215",
+    "Icon": "inventory/allUI_44.png",
+    "Name": "仙人掌图",
+    "Description": "仙人掌的果实。",
+    "SellPrice": 100,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": -5,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 2,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 225,
+    "AppId": "cooking_225",
+    "Icon": "inventory/allUI_55.png",
+    "Name": "蜜糖",
+    "Description": "甜棒。",
+    "SellPrice": 3100,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 15,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 247,
+    "AppId": "cooking_247",
+    "Icon": "inventory/allUI_70.png",
+    "Name": "发光的蘑菇",
+    "Description": "它为什么会发光？",
+    "SellPrice": 35,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": -5,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 297,
+    "AppId": "cooking_297",
+    "Icon": "inventory/allUI_86.png",
+    "Name": "香蕉",
+    "Description": "糊状的",
+    "SellPrice": 248,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 300,
+    "AppId": "cooking_300",
+    "Icon": "inventory/allUI_87.png",
+    "Name": "苹果",
+    "Description": "一天一。",
+    "SellPrice": 107,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 310,
+    "AppId": "cooking_310",
+    "Icon": "inventory/allUI_97.png",
+    "Name": "熟鸡腿",
+    "Description": "美味，如果你做饭。没有那么多，如果你不。",
+    "SellPrice": 700,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 1,
+          "Level": 1,
+          "Seconds": 10
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 320,
+    "AppId": "cooking_320",
+    "Icon": "inventory/allUI_104.png",
+    "Name": "羽衣甘蓝",
+    "Description": "健康。",
+    "SellPrice": 1520,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Vegetable",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 322,
+    "AppId": "cooking_322",
+    "Icon": "inventory/allUI_105.png",
+    "Name": "土豆",
+    "Description": "熬'时间，捣烂他们。",
+    "SellPrice": 640,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Vegetable",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 324,
+    "AppId": "cooking_324",
+    "Icon": "inventory/allUI_103.png",
+    "Name": "小麦",
+    "Description": "当它被研磨味道更好。",
+    "SellPrice": 216,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Vegetable",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 1,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 1,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 327,
+    "AppId": "cooking_327",
+    "Icon": "inventory/allUI_110.png",
+    "Name": "西瓜",
+    "Description": "如果我能进入它。",
+    "SellPrice": 3080,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 328,
+    "AppId": "cooking_328",
+    "Icon": "inventory/allUI_113.png",
+    "Name": "南瓜",
+    "Description": "这是鬼？",
+    "SellPrice": 3120,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Vegetable",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 10,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 330,
+    "AppId": "cooking_330",
+    "Icon": "inventory/allUI_114.png",
+    "Name": "洋葱",
+    "Description": "我得到的泪水。",
+    "SellPrice": 450,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Vegetable",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 2,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 8,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 345,
+    "AppId": "cooking_345",
+    "Icon": "inventory/allUI_131.png",
+    "Name": "鸡蛋",
+    "Description": "里面有什么？",
+    "SellPrice": 350,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "AnimalProduct",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 5,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 350,
+    "AppId": "cooking_350",
+    "Icon": "inventory/allUI_134.png",
+    "Name": "牛奶",
+    "Description": "奶油和美味！",
+    "SellPrice": 1500,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "AnimalProduct",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 360,
+    "AppId": "cooking_360",
+    "Icon": "inventory/allUI2_191.png",
+    "Name": "蛋糕",
+    "Description": "庆祝！",
+    "SellPrice": 5039,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 861,
+          "AppId": "cooking_861",
+          "Quantity": 1
+        },
+        {
+          "Id": 862,
+          "AppId": "cooking_862",
+          "Quantity": 1
+        },
+        {
+          "Id": 799,
+          "AppId": "item_799",
+          "Quantity": 1
+        },
+        {
+          "Id": 345,
+          "AppId": "cooking_345",
+          "Quantity": 1
+        },
+        {
+          "Id": 350,
+          "AppId": "cooking_350",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 8,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 30,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 30,
+          "Seconds": 0
+        },
+        {
+          "Type": 9,
+          "Level": 3,
+          "Seconds": 60
+        },
+        {
+          "Type": 8,
+          "Level": 2,
+          "Seconds": 240
+        },
+        {
+          "Type": 4,
+          "Level": 2,
+          "Seconds": 240
+        },
+        {
+          "Type": 3,
+          "Level": 2,
+          "Seconds": 240
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 361,
+    "AppId": "cooking_361",
+    "Icon": "inventory/allUI_146.png",
+    "Name": "鱼和薯条",
+    "Description": "从水和污垢。",
+    "SellPrice": 2900,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 772,
+          "AppId": "item_772",
+          "Quantity": 1
+        },
+        {
+          "Id": 322,
+          "AppId": "cooking_322",
+          "Quantity": 2
+        },
+        {
+          "Id": 17,
+          "AppId": "cooking_17",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 5,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 30,
+          "Seconds": 0
+        },
+        {
+          "Type": 7,
+          "Level": 3,
+          "Seconds": 1200
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 362,
+    "AppId": "cooking_362",
+    "Icon": "inventory/allUI_144.png",
+    "Name": "水果沙拉",
+    "Description": "好吃好吃。",
+    "SellPrice": 1388,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 17,
+          "AppId": "cooking_17",
+          "Quantity": 2
+        },
+        {
+          "Id": 300,
+          "AppId": "cooking_300",
+          "Quantity": 2
+        },
+        {
+          "Id": 297,
+          "AppId": "cooking_297",
+          "Quantity": 2
+        },
+        {
+          "Id": 770,
+          "AppId": "cooking_770",
+          "Quantity": 2
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 4,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 15,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 4,
+          "Level": 1,
+          "Seconds": 300
+        },
+        {
+          "Type": 8,
+          "Level": 1,
+          "Seconds": 300
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 363,
+    "AppId": "cooking_363",
+    "Icon": "inventory/allUI_143.png",
+    "Name": "田园沙拉",
+    "Description": "香脆和新鲜！",
+    "SellPrice": 3189,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 111,
+          "AppId": "cooking_111",
+          "Quantity": 1
+        },
+        {
+          "Id": 843,
+          "AppId": "cooking_843",
+          "Quantity": 1
+        },
+        {
+          "Id": 330,
+          "AppId": "cooking_330",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 4,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Vegetable",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 20,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 20,
+          "Seconds": 0
+        },
+        {
+          "Type": 0,
+          "Level": 1,
+          "Seconds": 240
+        },
+        {
+          "Type": 8,
+          "Level": 1,
+          "Seconds": 240
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 364,
+    "AppId": "cooking_364",
+    "Icon": "inventory/allUI_147.png",
+    "Name": "炖肉",
+    "Description": "在温暖的转向。",
+    "SellPrice": 2456,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 21,
+          "AppId": "item_21",
+          "Quantity": 1
+        },
+        {
+          "Id": 322,
+          "AppId": "cooking_322",
+          "Quantity": 1
+        },
+        {
+          "Id": 330,
+          "AppId": "cooking_330",
+          "Quantity": 1
+        },
+        {
+          "Id": 116,
+          "AppId": "cooking_116",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 5,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 45,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 5,
+          "Level": 1,
+          "Seconds": 180
+        },
+        {
+          "Type": 8,
+          "Level": 2,
+          "Seconds": 180
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 393,
+    "AppId": "cooking_393",
+    "Icon": "inventory/allUI_160.png",
+    "Name": "金合欢啤酒",
+    "Description": "令人耳目一新！",
+    "SellPrice": 6380,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 25,
+          "Seconds": 0
+        },
+        {
+          "Type": 3,
+          "Level": 2,
+          "Seconds": 600
+        },
+        {
+          "Type": 4,
+          "Level": 2,
+          "Seconds": 600
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 575,
+    "AppId": "cooking_575",
+    "Icon": "inventory/allUI_212.png",
+    "Name": "熟苹果",
+    "Description": "熟。好的。",
+    "SellPrice": 390,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 576,
+    "AppId": "cooking_576",
+    "Icon": "inventory/allUI_211.png",
+    "Name": "熟香蕉",
+    "Description": "尼斯和熟。",
+    "SellPrice": 290,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 577,
+    "AppId": "cooking_577",
+    "Icon": "inventory/allUI_213.png",
+    "Name": "熟布什石灰",
+    "Description": "酸味和熟。好吃。",
+    "SellPrice": 190,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 4,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 6,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 603,
+    "AppId": "cooking_603",
+    "Icon": "inventory/allUI_246.png",
+    "Name": "大鸡蛋",
+    "Description": "它是一个大的！",
+    "SellPrice": 545,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "AnimalProduct",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 10,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 636,
+    "AppId": "cooking_636",
+    "Icon": "inventory/allUI2_22.png",
+    "Name": "起司",
+    "Description": "旧时，硬牛奶",
+    "SellPrice": 2400,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "AnimalProduct",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 15,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 15,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 637,
+    "AppId": "cooking_637",
+    "Icon": "inventory/allUI2_23.png",
+    "Name": "优质的牛奶",
+    "Description": "很滑腻，非常好吃！",
+    "SellPrice": 2300,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "AnimalProduct",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 15,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 638,
+    "AppId": "cooking_638",
+    "Icon": "inventory/allUI2_24.png",
+    "Name": "高品质的奶酪",
+    "Description": "最好的硬牛奶存在。",
+    "SellPrice": 3500,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "AnimalProduct",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 20,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 20,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 646,
+    "AppId": "cooking_646",
+    "Icon": "inventory/allUI2_33.png",
+    "Name": "熟巨人鼓槌",
+    "Description": "它好大！",
+    "SellPrice": 1500,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 1,
+          "Level": 1,
+          "Seconds": 15
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 647,
+    "AppId": "cooking_647",
+    "Icon": "inventory/allUI2_35.png",
+    "Name": "熟肉制品鳄鱼",
+    "Description": "它有一个咬它。",
+    "SellPrice": 1750,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 25,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 10,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 669,
+    "AppId": "cooking_669",
+    "Icon": "inventory/allUI2_81.png",
+    "Name": "熟仙人掌图",
+    "Description": "仙人掌的果实。",
+    "SellPrice": 250,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 685,
+    "AppId": "cooking_685",
+    "Icon": "inventory/allUI2_54.png",
+    "Name": "肉饼",
+    "Description": "得到它哦！",
+    "SellPrice": 2288,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 861,
+          "AppId": "cooking_861",
+          "Quantity": 1
+        },
+        {
+          "Id": 21,
+          "AppId": "item_21",
+          "Quantity": 1
+        },
+        {
+          "Id": 308,
+          "AppId": "item_308",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 2,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 25,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 5,
+          "Level": 2,
+          "Seconds": 180
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 686,
+    "AppId": "cooking_686",
+    "Icon": "inventory/allUI_148.png",
+    "Name": "美味蛋糕",
+    "Description": "庆祝的最好方式！",
+    "SellPrice": 6560,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 603,
+          "AppId": "cooking_603",
+          "Quantity": 4
+        },
+        {
+          "Id": 862,
+          "AppId": "cooking_862",
+          "Quantity": 2
+        },
+        {
+          "Id": 362,
+          "AppId": "cooking_362",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 9,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "AnimalProduct",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 45,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 45,
+          "Seconds": 0
+        },
+        {
+          "Type": 9,
+          "Level": 3,
+          "Seconds": 180
+        },
+        {
+          "Type": 10,
+          "Level": 2,
+          "Seconds": 600
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 687,
+    "AppId": "cooking_687",
+    "Icon": "inventory/allUI2_53.png",
+    "Name": "Dagwood狗",
+    "Description": "，一个玉米热狗覆盖。",
+    "SellPrice": 1060,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 123,
+          "AppId": "cooking_123",
+          "Quantity": 1
+        },
+        {
+          "Id": 21,
+          "AppId": "item_21",
+          "Quantity": 1
+        },
+        {
+          "Id": 649,
+          "AppId": "item_649",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 1,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 15,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 25,
+          "Seconds": 0
+        },
+        {
+          "Type": 8,
+          "Level": 1,
+          "Seconds": 180
+        },
+        {
+          "Type": 5,
+          "Level": 1,
+          "Seconds": 180
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 690,
+    "AppId": "cooking_690",
+    "Icon": "inventory/allUI2_57.png",
+    "Name": "乳蛋饼",
+    "Description": "早餐蛋糕。",
+    "SellPrice": 4788,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 861,
+          "AppId": "cooking_861",
+          "Quantity": 1
+        },
+        {
+          "Id": 345,
+          "AppId": "cooking_345",
+          "Quantity": 1
+        },
+        {
+          "Id": 636,
+          "AppId": "cooking_636",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 3,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "AnimalProduct",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 20,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 30,
+          "Seconds": 0
+        },
+        {
+          "Type": 3,
+          "Level": 3,
+          "Seconds": 300
+        },
+        {
+          "Type": 4,
+          "Level": 3,
+          "Seconds": 300
+        },
+        {
+          "Type": 9,
+          "Level": 1,
+          "Seconds": 300
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 691,
+    "AppId": "cooking_691",
+    "Icon": "inventory/allUI2_58.png",
+    "Name": "肉上一棒。",
+    "Description": "这就像肉，但棘手。",
+    "SellPrice": 1612,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 21,
+          "AppId": "item_21",
+          "Quantity": 3
+        },
+        {
+          "Id": 649,
+          "AppId": "item_649",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 35,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 15,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 0,
+          "Level": 1,
+          "Seconds": 25
+        },
+        {
+          "Type": 1,
+          "Level": 1,
+          "Seconds": 25
+        },
+        {
+          "Type": 8,
+          "Level": 1,
+          "Seconds": 180
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 747,
+    "AppId": "cooking_747",
+    "Icon": "inventory/allUI2_77.png",
+    "Name": "Jelly Brew",
+    "Description": "A real pick me up.",
+    "SellPrice": 5000,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "AnimalProduct",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 50,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 50,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 10,
+          "Level": 1,
+          "Seconds": 240
+        },
+        {
+          "Type": 7,
+          "Level": 1,
+          "Seconds": 300
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 748,
+    "AppId": "cooking_748",
+    "Icon": "inventory/allUI2_76.png",
+    "Name": "Bottled Brush",
+    "Description": "Healthy.",
+    "SellPrice": 10780,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 25,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 0,
+          "Level": 2,
+          "Seconds": 240
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 763,
+    "AppId": "cooking_763",
+    "Icon": "inventory/allUI2_95.png",
+    "Name": "Big Fried Egg",
+    "Description": "Its a big one and it's fried!",
+    "SellPrice": 817,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "AnimalProduct",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 20,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 764,
+    "AppId": "cooking_764",
+    "Icon": "inventory/allUI2_94.png",
+    "Name": "Fried Egg",
+    "Description": "Sunny side up.",
+    "SellPrice": 525,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "AnimalProduct",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 10,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 770,
+    "AppId": "cooking_770",
+    "Icon": "inventory/allUI2_102.png",
+    "Name": "Quandong",
+    "Description": "Gone don eat it.",
+    "SellPrice": 110,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 3,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 2,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 771,
+    "AppId": "cooking_771",
+    "Icon": "inventory/allUI2_103.png",
+    "Name": "Cooked Quandong",
+    "Description": "Gone don cooked it.",
+    "SellPrice": 220,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 8,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 8,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 773,
+    "AppId": "cooking_773",
+    "Icon": "inventory/allUI2_107.png",
+    "Name": "Cooked Flake",
+    "Description": "Salty.",
+    "SellPrice": 1900,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 20,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 20,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 843,
+    "AppId": "cooking_843",
+    "Icon": "inventory/allUI2_158.png",
+    "Name": "Tomato",
+    "Description": "No one know if this is a fruit or not.",
+    "SellPrice": 351,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Vegetable",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 2,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 845,
+    "AppId": "cooking_845",
+    "Icon": "inventory/allUI2_160.png",
+    "Name": "Green Bean",
+    "Description": "Like beans in a case",
+    "SellPrice": 295,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 2,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 4,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 852,
+    "AppId": "cooking_852",
+    "Icon": "inventory/allUI2_167.png",
+    "Name": "Cooked Prime Meat",
+    "Description": "It's cooked perfectly.",
+    "SellPrice": 6000,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 50,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 10,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 861,
+    "AppId": "cooking_861",
+    "Icon": "inventory/allUI2_173.png",
+    "Name": "Flour",
+    "Description": "It's ready for baking.",
+    "SellPrice": 1080,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Vegetable",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 1,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 1,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 862,
+    "AppId": "cooking_862",
+    "Icon": "inventory/allUI2_174.png",
+    "Name": "Sugar",
+    "Description": "Sweet.",
+    "SellPrice": 840,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Vegetable",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 5,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 893,
+    "AppId": "cooking_893",
+    "Icon": "inventory/allUI2_193.png",
+    "Name": "Bread",
+    "Description": "Cooked Flour",
+    "SellPrice": 4050,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 861,
+          "AppId": "cooking_861",
+          "Quantity": 3
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 1,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 35,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 25,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 8,
+          "Level": 2,
+          "Seconds": 180
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 894,
+    "AppId": "cooking_894",
+    "Icon": "inventory/allUI2_194.png",
+    "Name": "Fairy Bread",
+    "Description": "Sugar Bread",
+    "SellPrice": 1790,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 893,
+          "AppId": "cooking_893",
+          "Quantity": 1
+        },
+        {
+          "Id": 862,
+          "AppId": "cooking_862",
+          "Quantity": 2
+        }
+      ],
+      "RecipeGiveThisAmount": 4,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 1,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 9,
+          "Level": 1,
+          "Seconds": 120
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 895,
+    "AppId": "cooking_895",
+    "Icon": "inventory/allUI2_195.png",
+    "Name": "Pastie",
+    "Description": "Hand held vegie pie",
+    "SellPrice": 4931,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 861,
+          "AppId": "cooking_861",
+          "Quantity": 1
+        },
+        {
+          "Id": 111,
+          "AppId": "cooking_111",
+          "Quantity": 1
+        },
+        {
+          "Id": 116,
+          "AppId": "cooking_116",
+          "Quantity": 1
+        },
+        {
+          "Id": 322,
+          "AppId": "cooking_322",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 2,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Vegetable",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 30,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 30,
+          "Seconds": 0
+        },
+        {
+          "Type": 3,
+          "Level": 3,
+          "Seconds": 180
+        },
+        {
+          "Type": 4,
+          "Level": 3,
+          "Seconds": 180
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 896,
+    "AppId": "cooking_896",
+    "Icon": "inventory/allUI2_192.png",
+    "Name": "Damper",
+    "Description": "Bush Bread",
+    "SellPrice": 3225,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 861,
+          "AppId": "cooking_861",
+          "Quantity": 1
+        },
+        {
+          "Id": 350,
+          "AppId": "cooking_350",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 1,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 25,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 15,
+          "Seconds": 0
+        },
+        {
+          "Type": 3,
+          "Level": 2,
+          "Seconds": 300
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 897,
+    "AppId": "cooking_897",
+    "Icon": "inventory/allUI2_196.png",
+    "Name": "Sausage Roll",
+    "Description": "Long way to the shop",
+    "SellPrice": 2850,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 861,
+          "AppId": "cooking_861",
+          "Quantity": 1
+        },
+        {
+          "Id": 345,
+          "AppId": "cooking_345",
+          "Quantity": 1
+        },
+        {
+          "Id": 21,
+          "AppId": "item_21",
+          "Quantity": 1
+        },
+        {
+          "Id": 330,
+          "AppId": "cooking_330",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 3,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "AnimalProduct",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 30,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 30,
+          "Seconds": 0
+        },
+        {
+          "Type": 8,
+          "Level": 2,
+          "Seconds": 300
+        },
+        {
+          "Type": 5,
+          "Level": 2,
+          "Seconds": 300
+        },
+        {
+          "Type": 9,
+          "Level": 1,
+          "Seconds": 300
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 898,
+    "AppId": "cooking_898",
+    "Icon": "inventory/allUI2_197.png",
+    "Name": "Prime Roast",
+    "Description": "All the best stuff on one plate",
+    "SellPrice": 12994,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 853,
+          "AppId": "item_853",
+          "Quantity": 1
+        },
+        {
+          "Id": 322,
+          "AppId": "cooking_322",
+          "Quantity": 3
+        },
+        {
+          "Id": 116,
+          "AppId": "cooking_116",
+          "Quantity": 2
+        },
+        {
+          "Id": 320,
+          "AppId": "cooking_320",
+          "Quantity": 1
+        },
+        {
+          "Id": 845,
+          "AppId": "cooking_845",
+          "Quantity": 3
+        },
+        {
+          "Id": 328,
+          "AppId": "cooking_328",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 2,
+      "WorkPlaceConditions": "CookingTable",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 5,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 50,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 50,
+          "Seconds": 0
+        },
+        {
+          "Type": 5,
+          "Level": 3,
+          "Seconds": 300
+        },
+        {
+          "Type": 8,
+          "Level": 3,
+          "Seconds": 300
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 927,
+    "AppId": "cooking_927",
+    "Icon": "inventory/allUI2_216.png",
+    "Name": "Mighty Spread",
+    "Description": "It's kinda salty.",
+    "SellPrice": 120000,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Vegetable",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 50,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 50,
+          "Seconds": 0
+        },
+        {
+          "Type": 5,
+          "Level": 3,
+          "Seconds": 1200
+        },
+        {
+          "Type": 8,
+          "Level": 3,
+          "Seconds": 1200
+        },
+        {
+          "Type": 0,
+          "Level": 3,
+          "Seconds": 60
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 969,
+    "AppId": "cooking_969",
+    "Icon": "inventory/allUI3_5.png",
+    "Name": "Cooked Freshwater Fish",
+    "Description": "Something fishy about this.",
+    "SellPrice": 2000,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 8,
+          "Level": 1,
+          "Seconds": 180
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 970,
+    "AppId": "cooking_970",
+    "Icon": "inventory/allUI3_6.png",
+    "Name": "Cooked Saltwater Fish",
+    "Description": "It's a bit salty.",
+    "SellPrice": 2800,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 15,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 5,
+          "Level": 1,
+          "Seconds": 180
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 997,
+    "AppId": "cooking_997",
+    "Icon": "inventory/allUI3_9.png",
+    "Name": "Cooked Blob Fish",
+    "Description": "It's so bad.",
+    "SellPrice": 201,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 1,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 1,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1014,
+    "AppId": "cooking_1014",
+    "Icon": "inventory/allUI3_21.png",
+    "Name": "Cherries",
+    "Description": "What can I put on top of these?",
+    "SellPrice": 117,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1015,
+    "AppId": "cooking_1015",
+    "Icon": "inventory/allUI3_22.png",
+    "Name": "Cooked Cherries",
+    "Description": "Chic-a-Cherry Cooked",
+    "SellPrice": 410,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1035,
+    "AppId": "cooking_1035",
+    "Icon": "inventory/allUI3_37.png",
+    "Name": "Roasted Coffee Beans",
+    "Description": "Brew for more energy",
+    "SellPrice": 3097,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 9,
+          "Level": 2,
+          "Seconds": 240
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1036,
+    "AppId": "cooking_1036",
+    "Icon": "inventory/allUI3_38.png",
+    "Name": "Coffee",
+    "Description": "Morning brown",
+    "SellPrice": 6194,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 25,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 1,
+          "Level": 2,
+          "Seconds": 300
+        },
+        {
+          "Type": 9,
+          "Level": 3,
+          "Seconds": 300
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1126,
+    "AppId": "cooking_1126",
+    "Icon": "inventory/allUI3_118.png",
+    "Name": "Wattle Tea",
+    "Description": "Refreshing!",
+    "SellPrice": 1595,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 25,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 3,
+          "Level": 1,
+          "Seconds": 150
+        },
+        {
+          "Type": 4,
+          "Level": 1,
+          "Seconds": 150
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1127,
+    "AppId": "cooking_1127",
+    "Icon": "inventory/allUI3_117.png",
+    "Name": "Bottle Brush Tea",
+    "Description": "Healthy.",
+    "SellPrice": 2695,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Fruit",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 20,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 0,
+          "Level": 1,
+          "Seconds": 60
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1169,
+    "AppId": "cooking_1169",
+    "Icon": "inventory/allUI3_125.png",
+    "Name": "Cooked Grub Meat",
+    "Description": "I should totally eat this.",
+    "SellPrice": 800,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Meat",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 8,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 0,
+          "Level": 1,
+          "Seconds": 10
+        },
+        {
+          "Type": 1,
+          "Level": 1,
+          "Seconds": 10
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1172,
+    "AppId": "cooking_1172",
+    "Icon": "inventory/allUI3_129.png",
+    "Name": "Apple Jam",
+    "Description": "Apple conserve",
+    "SellPrice": 3100,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 16,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 9,
+          "Level": 1,
+          "Seconds": 120
+        },
+        {
+          "Type": 0,
+          "Level": 1,
+          "Seconds": 60
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1173,
+    "AppId": "cooking_1173",
+    "Icon": "inventory/allUI3_128.png",
+    "Name": "Banana Jam",
+    "Description": "Banana conserve",
+    "SellPrice": 3100,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 17,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 9,
+          "Level": 1,
+          "Seconds": 120
+        },
+        {
+          "Type": 1,
+          "Level": 1,
+          "Seconds": 120
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1174,
+    "AppId": "cooking_1174",
+    "Icon": "inventory/allUI3_126.png",
+    "Name": "Lime Jam",
+    "Description": "Lime conserve",
+    "SellPrice": 3100,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 6,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 9,
+          "Level": 1,
+          "Seconds": 120
+        },
+        {
+          "Type": 1,
+          "Level": 1,
+          "Seconds": 120
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1175,
+    "AppId": "cooking_1175",
+    "Icon": "inventory/allUI3_127.png",
+    "Name": "Quandong Jam",
+    "Description": "Quandong conserve",
+    "SellPrice": 3100,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 6,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 9,
+          "Level": 1,
+          "Seconds": 120
+        },
+        {
+          "Type": 0,
+          "Level": 1,
+          "Seconds": 60
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1220,
+    "AppId": "cooking_1220",
+    "Icon": "inventory/allUI3_160.png",
+    "Name": "Snag",
+    "Description": "A rare delicacy ",
+    "SellPrice": 1612,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 50,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 50,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  }
+]

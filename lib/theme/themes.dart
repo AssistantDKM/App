@@ -1,3 +1,4 @@
+import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:flutter/cupertino.dart'
     show CupertinoThemeData, CupertinoTextThemeData;
 import 'package:flutter/material.dart';
@@ -16,14 +17,14 @@ ThemeData darkTheme() {
   );
 
   return base.copyWith(
+    platform: isApple ? TargetPlatform.iOS : null,
     brightness: Brightness.dark,
     primaryColor: darkColorScheme.primary,
     textTheme: _buildAppTextTheme(base.textTheme),
     primaryTextTheme: _buildAppTextTheme(base.primaryTextTheme),
-    pageTransitionsTheme: const PageTransitionsTheme(builders: {
-      TargetPlatform.android: CupertinoPageTransitionsBuilder(),
-      TargetPlatform.iOS: CupertinoPageTransitionsBuilder(),
-    }),
+    pageTransitionsTheme: const PageTransitionsTheme(
+      builders: UIConstants.pageTransitions,
+    ),
   );
 }
 

@@ -13,6 +13,7 @@ class LanguageService implements ILanguageService {
       LocalizationMap(LocaleKey.french, 'fr', 'fr'),
       LocalizationMap(LocaleKey.japanese, 'ja', 'jp'),
       LocalizationMap(LocaleKey.russian, 'ru', 'ru'),
+      LocalizationMap(LocaleKey.simplifiedChinese, 'zh-hans', 'cn'),
       LocalizationMap(LocaleKey.traditionalChinese, 'zh-hant', 'cn'),
     ];
     return supportedLanguageMaps;
