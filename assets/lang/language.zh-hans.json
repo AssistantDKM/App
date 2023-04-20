@@ -1,14 +1,14 @@
 {
-  "furnitureJson": "zh-hans/furniture.json",
-  "cookingJson": "zh-hans/cooking.json",
-  "milestoneJson": "zh-hans/milestone.json",
-  "bugsJson": "zh-hans/bugs.json",
-  "clothingJson": "zh-hans/clothing.json",
-  "fishJson": "zh-hans/fish.json",
-  "licenceJson": "zh-hans/licence.json",
-  "itemsJson": "zh-hans/items.json",
-  "critterJson": "zh-hans/critter.json",
-  "peopleJson": "zh-hans/people.json",
+  "furnitureJson": "zh/furniture.json",
+  "cookingJson": "zh/cooking.json",
+  "milestoneJson": "zh/milestone.json",
+  "bugsJson": "zh/bugs.json",
+  "clothingJson": "zh/clothing.json",
+  "fishJson": "zh/fish.json",
+  "licenceJson": "zh/licence.json",
+  "itemsJson": "zh/items.json",
+  "critterJson": "zh/critter.json",
+  "peopleJson": "zh/people.json",
   "loading": "加载中",
   "about": "关于",
   "aboutContent": "Why did I build this?\nI have really been enjoying creating apps with Flutter and I decided to try and build yet another app from scratch, to see if I could make an app that looks good across Android, iOS, Web and Desktop. \n\nP.S. I also have a blog, Inside my Mind - by Kurt Lourens. I haven't been making use of it as much as I could have, but I have some articles😋.",
@@ -156,5 +156,5 @@
   "processFrom": "Process from",
   "usedToProcess": "Used to process",
   "shareContent": "I'm using the Assistant for Dinkum App! Available on Google Play, iOS App Store and Web! #Dinkum #AssistantDKM #Android #IOS",
-  "hashCode": "851C0367B7820B51FF659A107DB6C4F6"
+  "hashCode": "89545511EAD2282AE44A42C1D7BC2C25"
 }
