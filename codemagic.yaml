@@ -7,7 +7,7 @@ workflows:
         - prod
       vars:
         PACKAGE_NAME: com.assistantapps.assistant_dinkum_app
-        GOOGLE_PLAY_TRACK: 'alpha'
+        GOOGLE_PLAY_TRACK: 'production'
       flutter: master
     triggering:
       events:
