@@ -1,4 +1,3 @@
-- ✨ Improve the display of the "process from" section
-- 🐛 Fix "What Is New" page for GithubWindows platform
+- 👷 Automation of Build and Release
 - 🐛 Minor bug fixes
 
