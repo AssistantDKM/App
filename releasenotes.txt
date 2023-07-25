@@ -1,3 +1,5 @@
-- 👷 Automation of Build and Release
-- 🐛 Minor bug fixes
+- ✨ Add Game updates page
+  - Display what update an item comes from
+- 🐛 Fix "Process from" display on item details page
+- 📦 Add new items from Mini Anniversary update
 
