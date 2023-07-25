@@ -2030,16 +2030,6 @@
     "OutputAppId": "cooking_852"
   },
   {
-    "Type": "BatStatue",
-    "InputAppId": "item_859",
-    "ToolAppId": "item_0",
-    "AmountNeeded": 20,
-    "SecondsToComplete": 15,
-    "DaysToComplete": 0,
-    "Cycles": 1,
-    "OutputAppId": "item_955"
-  },
-  {
     "Type": "Modeller",
     "InputAppId": "cooking_861",
     "ToolAppId": "furniture_1303",
