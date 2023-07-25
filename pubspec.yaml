@@ -32,7 +32,6 @@ dependencies:
   settings_ui: 2.0.2
 
   # Misc
-  collection: 1.17.1
   intl: 0.18.1
   path: 1.8.3
 
