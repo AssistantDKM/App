@@ -4,7 +4,7 @@
     "AppId": "bug_20",
     "Icon": "inventory/allUI_207.png",
     "Name": "Funnel Web Spider",
-    "Description": "Very poisonous. Ain't it cute?",
+    "Description": "Ain't it cute?",
     "SellPrice": 1020,
     "IsStackable": false,
     "Equipable": "NotEquipable",

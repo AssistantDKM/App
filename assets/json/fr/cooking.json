@@ -2148,7 +2148,7 @@
     "AppId": "cooking_763",
     "Icon": "inventory/allUI2_95.png",
     "Name": "Big Fried Egg",
-    "Description": "Its a big one and it's fried!",
+    "Description": "It's a big one and it's fried!",
     "SellPrice": 817,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -3716,6 +3716,49 @@
           "Type": 23,
           "Level": 0,
           "Seconds": 0
+        }
+      ]
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1238,
+    "AppId": "cooking_1238",
+    "Icon": "inventory/allUI3_176.png",
+    "Name": "Seaweed Soup",
+    "Description": "A salty treat",
+    "SellPrice": 400,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Consumable": {
+      "Type": "Unknown",
+      "Buffs": [
+        {
+          "Type": 20,
+          "Level": 5,
+          "Seconds": 0
+        },
+        {
+          "Type": 21,
+          "Level": 10,
+          "Seconds": 0
+        },
+        {
+          "Type": 22,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 23,
+          "Level": 0,
+          "Seconds": 0
+        },
+        {
+          "Type": 12,
+          "Level": 1,
+          "Seconds": 240
         }
       ]
     },

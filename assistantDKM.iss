@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Assistant for Dinkum"
-#define MyAppVersion "0.0.11"
+#define MyAppVersion "0.0.12"
 #define MyAppPublisher "AssistantApps"
 #define MyAppURL "https://dinkum.assistantapps.com/"
 #define MyAppExeName "assistant_dinkum_app.exe"

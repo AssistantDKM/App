@@ -58,6 +58,7 @@
     "ChangesItems"
   ],
   "cooking_19": [
+    "HasItemChange",
     "HasFromItemChange"
   ],
   "item_21": [
@@ -132,7 +133,8 @@
     "HasFromItemChange"
   ],
   "cooking_111": [
-    "HasUsedToCreate"
+    "HasUsedToCreate",
+    "HasItemChange"
   ],
   "item_113": [
     "HasUsedToCreate",
@@ -148,7 +150,8 @@
     "ChangesItems"
   ],
   "cooking_116": [
-    "HasUsedToCreate"
+    "HasUsedToCreate",
+    "HasItemChange"
   ],
   "cooking_123": [
     "HasUsedToCreate",
@@ -234,7 +237,8 @@
     "RequiresLicence"
   ],
   "cooking_225": [
-    "HasUsedToCreate"
+    "HasUsedToCreate",
+    "HasItemChange"
   ],
   "item_226": [
     "HasFromItemChange"
@@ -251,6 +255,9 @@
   ],
   "cooking_247": [
     "HasUsedToCreate"
+  ],
+  "item_252": [
+    "RequiresLicence"
   ],
   "item_271": [
     "HasUsedToCreate"
@@ -309,6 +316,7 @@
     "HasUsedToCreate"
   ],
   "cooking_310": [
+    "HasItemChange",
     "HasFromItemChange"
   ],
   "item_313": [
@@ -319,22 +327,27 @@
     "HasUsedToCreate"
   ],
   "cooking_320": [
-    "HasUsedToCreate"
+    "HasUsedToCreate",
+    "HasItemChange"
   ],
   "cooking_322": [
-    "HasUsedToCreate"
+    "HasUsedToCreate",
+    "HasItemChange"
   ],
   "cooking_324": [
     "HasItemChange"
   ],
   "cooking_327": [
-    "HasUsedToCreate"
+    "HasUsedToCreate",
+    "HasItemChange"
   ],
   "cooking_328": [
-    "HasUsedToCreate"
+    "HasUsedToCreate",
+    "HasItemChange"
   ],
   "cooking_330": [
-    "HasUsedToCreate"
+    "HasUsedToCreate",
+    "HasItemChange"
   ],
   "fish_333": [
     "HasItemChange"
@@ -382,8 +395,21 @@
   "item_351": [
     "HasFromItemChange"
   ],
+  "cooking_360": [
+    "HasItemChange"
+  ],
+  "cooking_361": [
+    "HasItemChange"
+  ],
   "cooking_362": [
-    "HasUsedToCreate"
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "cooking_363": [
+    "HasItemChange"
+  ],
+  "cooking_364": [
+    "HasItemChange"
   ],
   "item_382": [
     "HasUsedToCreate"
@@ -400,6 +426,7 @@
   ],
   "cooking_393": [
     "HasUsedToCreate",
+    "HasItemChange",
     "HasFromItemChange"
   ],
   "item_403": [
@@ -531,7 +558,6 @@
   ],
   "item_634": [
     "HasUsedToCreate",
-    "HasItemChange",
     "HasFromItemChange"
   ],
   "furniture_635": [
@@ -547,6 +573,7 @@
     "HasFromItemChange"
   ],
   "cooking_638": [
+    "HasItemChange",
     "HasFromItemChange"
   ],
   "item_639": [
@@ -571,6 +598,7 @@
     "HasFromItemChange"
   ],
   "cooking_647": [
+    "HasItemChange",
     "HasFromItemChange"
   ],
   "item_648": [
@@ -605,8 +633,23 @@
   "item_684": [
     "RequiresLicence"
   ],
+  "cooking_685": [
+    "HasItemChange"
+  ],
+  "cooking_686": [
+    "HasItemChange"
+  ],
+  "cooking_687": [
+    "HasItemChange"
+  ],
   "item_689": [
     "HasUsedToCreate"
+  ],
+  "cooking_690": [
+    "HasItemChange"
+  ],
+  "cooking_691": [
+    "HasItemChange"
   ],
   "item_698": [
     "HasItemChange"
@@ -638,10 +681,12 @@
   ],
   "cooking_747": [
     "HasUsedToCreate",
+    "HasItemChange",
     "HasFromItemChange"
   ],
   "cooking_748": [
     "HasUsedToCreate",
+    "HasItemChange",
     "HasFromItemChange"
   ],
   "item_749": [
@@ -660,9 +705,11 @@
     "HasUsedToCreate"
   ],
   "cooking_763": [
+    "HasItemChange",
     "HasFromItemChange"
   ],
   "cooking_764": [
+    "HasItemChange",
     "HasFromItemChange"
   ],
   "item_768": [
@@ -715,10 +762,12 @@
     "HasItemChange"
   ],
   "cooking_843": [
-    "HasUsedToCreate"
+    "HasUsedToCreate",
+    "HasItemChange"
   ],
   "cooking_845": [
-    "HasUsedToCreate"
+    "HasUsedToCreate",
+    "HasItemChange"
   ],
   "clothing_847": [
     "HasItemChange"
@@ -750,10 +799,12 @@
   ],
   "cooking_861": [
     "HasUsedToCreate",
+    "HasItemChange",
     "HasFromItemChange"
   ],
   "cooking_862": [
     "HasUsedToCreate",
+    "HasItemChange",
     "HasFromItemChange"
   ],
   "item_863": [
@@ -766,7 +817,23 @@
     "HasUsedToCreate"
   ],
   "cooking_893": [
-    "HasUsedToCreate"
+    "HasUsedToCreate",
+    "HasItemChange"
+  ],
+  "cooking_894": [
+    "HasItemChange"
+  ],
+  "cooking_895": [
+    "HasItemChange"
+  ],
+  "cooking_896": [
+    "HasItemChange"
+  ],
+  "cooking_897": [
+    "HasItemChange"
+  ],
+  "cooking_898": [
+    "HasItemChange"
   ],
   "item_905": [
     "HasUsedToCreate"
@@ -782,6 +849,9 @@
     "HasUsedToCreate",
     "HasItemChange",
     "HasFromItemChange"
+  ],
+  "cooking_927": [
+    "HasItemChange"
   ],
   "fish_954": [
     "HasItemChange"
@@ -842,6 +912,7 @@
     "IsInGameUpdate"
   ],
   "cooking_1036": [
+    "HasItemChange",
     "HasFromItemChange",
     "IsInGameUpdate"
   ],
@@ -1113,7 +1184,6 @@
     "IsInGameUpdate"
   ],
   "item_1123": [
-    "RequiresLicence",
     "IsInGameUpdate"
   ],
   "item_1124": [
@@ -1235,9 +1305,11 @@
     "IsInGameUpdate"
   ],
   "furniture_1161": [
+    "HasFromItemChange",
     "IsInGameUpdate"
   ],
   "furniture_1162": [
+    "HasFromItemChange",
     "IsInGameUpdate"
   ],
   "item_1163": [
@@ -1274,18 +1346,22 @@
     "IsInGameUpdate"
   ],
   "cooking_1172": [
+    "HasItemChange",
     "HasFromItemChange",
     "IsInGameUpdate"
   ],
   "cooking_1173": [
+    "HasItemChange",
     "HasFromItemChange",
     "IsInGameUpdate"
   ],
   "cooking_1174": [
+    "HasItemChange",
     "HasFromItemChange",
     "IsInGameUpdate"
   ],
   "cooking_1175": [
+    "HasItemChange",
     "HasFromItemChange",
     "IsInGameUpdate"
   ],
@@ -1421,15 +1497,19 @@
     "IsInGameUpdate"
   ],
   "furniture_1215": [
+    "HasFromItemChange",
     "IsInGameUpdate"
   ],
   "furniture_1216": [
+    "HasFromItemChange",
     "IsInGameUpdate"
   ],
   "furniture_1217": [
+    "HasFromItemChange",
     "IsInGameUpdate"
   ],
   "furniture_1218": [
+    "HasFromItemChange",
     "IsInGameUpdate"
   ],
   "item_1219": [
@@ -1439,6 +1519,363 @@
     "IsInGameUpdate"
   ],
   "item_1221": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1222": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1223": [
+    "IsInGameUpdate"
+  ],
+  "item_1224": [
+    "HasUsedToCreate",
+    "IsInGameUpdate"
+  ],
+  "clothing_1225": [
+    "IsInGameUpdate"
+  ],
+  "item_1226": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1227": [
+    "IsInGameUpdate"
+  ],
+  "item_1228": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1229": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1230": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1231": [
+    "IsInGameUpdate"
+  ],
+  "item_1232": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1233": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1234": [
+    "IsInGameUpdate"
+  ],
+  "item_1235": [
+    "IsInGameUpdate"
+  ],
+  "item_1236": [
+    "IsInGameUpdate"
+  ],
+  "item_1237": [
+    "HasItemChange",
+    "IsInGameUpdate"
+  ],
+  "cooking_1238": [
+    "HasItemChange",
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1239": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1240": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1241": [
+    "IsInGameUpdate"
+  ],
+  "item_1242": [
+    "IsInGameUpdate"
+  ],
+  "item_1243": [
+    "IsInGameUpdate"
+  ],
+  "item_1244": [
+    "IsInGameUpdate"
+  ],
+  "item_1245": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1246": [
+    "IsInGameUpdate"
+  ],
+  "item_1247": [
+    "IsInGameUpdate"
+  ],
+  "item_1248": [
+    "IsInGameUpdate"
+  ],
+  "item_1249": [
+    "IsInGameUpdate"
+  ],
+  "item_1250": [
+    "IsInGameUpdate"
+  ],
+  "item_1251": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1252": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1253": [
+    "IsInGameUpdate"
+  ],
+  "item_1254": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1255": [
+    "IsInGameUpdate"
+  ],
+  "item_1256": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1257": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1258": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1259": [
+    "IsInGameUpdate"
+  ],
+  "item_1260": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1261": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1262": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1263": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1264": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1265": [
+    "IsInGameUpdate"
+  ],
+  "item_1266": [
+    "RequiresLicence",
+    "IsInGameUpdate"
+  ],
+  "clothing_1267": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1268": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1269": [
+    "IsInGameUpdate"
+  ],
+  "clothing_1270": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1271": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1272": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1273": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1274": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1275": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1276": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1277": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1278": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1279": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1280": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1281": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1282": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1283": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "clothing_1284": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1285": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1286": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1287": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1288": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1289": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1290": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1291": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1292": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1293": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1294": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1295": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1296": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1297": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1298": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1299": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1300": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1301": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1302": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1303": [
+    "ChangesItems",
+    "IsInGameUpdate"
+  ],
+  "furniture_1304": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1305": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1306": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1307": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1308": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1309": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1310": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1311": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1312": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1313": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1314": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1315": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "item_1316": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1317": [
+    "IsInGameUpdate"
+  ],
+  "furniture_1318": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1319": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1320": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1321": [
+    "HasFromItemChange",
+    "IsInGameUpdate"
+  ],
+  "furniture_1322": [
+    "HasFromItemChange",
     "IsInGameUpdate"
   ]
 }

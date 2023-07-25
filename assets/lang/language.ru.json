@@ -37,7 +37,7 @@
   "cooking": "Кулинарные продукты",
   "ingredients": "Ингредиенты",
   "cookToCreate": "Приготовить {0} чтобы создать",
-  "cookingRecipe": "Приготовить, используя",
+  "cookingRecipe": "Изготавливается из",
   "viewXMore": "Посмотреть все (еще {0})",
   "unknown": "Не знаю",
   "add": "Добавить",
@@ -55,6 +55,7 @@
   "english": "English",
   "french": "Français",
   "russian": "Русский",
+  "simplifiedChinese": "Simplified Chinese",
   "traditionalChinese": "Traditional Chinese",
   "general": "Основные",
   "error": "Ошибка",
@@ -105,6 +106,7 @@
   "viewAllRequiredItems": "View All Required Items",
   "ok": "Ок",
   "cancel": "Отмена",
+  "translationIssue": "Please note that {1} is not completely translated for the language you have selected. There will be items that are not translated into {0}.",
   "minutesAbbrev": "{0} мин.",
   "defaultFont": "Системный шрифт",
   "settingsFont": "Шрифт",
@@ -156,5 +158,5 @@
   "processFrom": "Process from",
   "usedToProcess": "Used to process",
   "shareContent": "I'm using the Assistant for Dinkum App! Available on Google Play, iOS App Store and Web! #Dinkum #AssistantDKM #Android #IOS",
-  "hashCode": "1D0182A6E12097B2A7655355E85EEC88"
+  "hashCode": "AC9617E23E0602C3A5910ED13D6753DD"
 }

@@ -152,7 +152,7 @@ Future<ResultWithValue<InventoryPageItem>> getPageItem(
           : emptyListFuture<LicenceItem>();
 
   var gameUpdateFuture =
-      getLookupRepo().itemHasUsage(appId, UsageKey.requiresLicence)
+      getLookupRepo().itemHasUsage(appId, UsageKey.isInGameUpdate)
           ? getDataRepo().getGameUpdateThatItemWasAddedIn(funcCtx, appId)
           : Future.value(
               ResultWithValue<GameUpdate>(false, GameUpdate.initial(), ''));

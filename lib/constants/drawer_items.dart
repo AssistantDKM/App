@@ -86,13 +86,14 @@ List<CustomMenu> getMenuOptionsSection2(
     CustomMenu(
       icon: localGetFromIcon(Icons.new_releases_sharp),
       drawerIcon: localGetDrawerFromIcon(Icons.new_releases_sharp),
-      title: LocaleKey.news,
+      title: LocaleKey.steamNews,
       navigateToNamed: Routes.newsPage,
-      onLongPress: (BuildContext pressCtx) =>
-          getNavigation().navigateAwayFromHomeAsync(
-        pressCtx,
-        navigateToNamed: Routes.gameUpdates,
-      ),
+    ),
+    CustomMenu(
+      icon: localGetFromIcon(Icons.search),
+      drawerIcon: localGetDrawerFromIcon(Icons.search),
+      title: LocaleKey.newItemsAdded,
+      navigateToNamed: Routes.gameUpdates,
     ),
   ];
 }

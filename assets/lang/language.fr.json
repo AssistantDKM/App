@@ -55,6 +55,7 @@
   "english": "Anglais",
   "french": "Français",
   "russian": "Russe",
+  "simplifiedChinese": "Chinois simplifié",
   "traditionalChinese": "Chinois traditionnel",
   "general": "Général",
   "error": "Erreur",
@@ -105,6 +106,7 @@
   "viewAllRequiredItems": "Voir tous les items requis ",
   "ok": "Ok",
   "cancel": "Annuler ",
+  "translationIssue": "Veuillez noter que Scrap mechanic n'est pas complètement traduit pour la langue que vous avez sélectionnée. Il y aura des éléments qui ne seront pas traduits en {0}.",
   "minutesAbbrev": "{0} m",
   "defaultFont": "Police par defaut",
   "settingsFont": "Police",
@@ -156,5 +158,5 @@
   "processFrom": "Process from",
   "usedToProcess": "Used to process",
   "shareContent": "I'm using the Assistant for Dinkum App! Available on Google Play, iOS App Store and Web! #Dinkum #AssistantDKM #Android #IOS",
-  "hashCode": "45E77D247FD5C5F8D2A20FBDA8C694B0"
+  "hashCode": "7CF2E516323B8DDC08BE94A0011CF20C"
 }

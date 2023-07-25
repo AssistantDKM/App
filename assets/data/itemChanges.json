@@ -60,6 +60,26 @@
     "OutputAppId": "cooking_577"
   },
   {
+    "Type": "Modeller",
+    "InputAppId": "cooking_17",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 10,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "furniture_1215"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_19",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1279"
+  },
+  {
     "Type": "CampFire",
     "InputAppId": "item_21",
     "ToolAppId": "item_18",
@@ -125,6 +145,16 @@
     "DaysToComplete": 0,
     "Cycles": 0,
     "OutputAppId": "cooking_862"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_28",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "furniture_1271"
   },
   {
     "Type": "TableSaw",
@@ -297,6 +327,26 @@
     "OutputAppId": "item_113"
   },
   {
+    "Type": "Modeller",
+    "InputAppId": "cooking_111",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1272"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_116",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 3,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1273"
+  },
+  {
     "Type": "Mill",
     "InputAppId": "cooking_123",
     "ToolAppId": "furniture_860",
@@ -305,6 +355,16 @@
     "DaysToComplete": 0,
     "Cycles": 10,
     "OutputAppId": "item_344"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_123",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 2,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "furniture_1274"
   },
   {
     "Type": "ChargingStation",
@@ -597,6 +657,16 @@
     "OutputAppId": "cooking_669"
   },
   {
+    "Type": "Modeller",
+    "InputAppId": "cooking_225",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1311"
+  },
+  {
     "Type": "CompostBin",
     "InputAppId": "item_272",
     "ToolAppId": "item_703",
@@ -635,6 +705,16 @@
     "DaysToComplete": 0,
     "Cycles": 1,
     "OutputAppId": "cooking_576"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_297",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 10,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "furniture_1216"
   },
   {
     "Type": "GachaMachine",
@@ -790,6 +870,16 @@
     "OutputAppId": "cooking_575"
   },
   {
+    "Type": "Modeller",
+    "InputAppId": "cooking_300",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 10,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "furniture_1217"
+  },
+  {
     "Type": "TableSaw",
     "InputAppId": "item_301",
     "ToolAppId": "furniture_304",
@@ -830,6 +920,16 @@
     "OutputAppId": "cooking_310"
   },
   {
+    "Type": "Modeller",
+    "InputAppId": "cooking_310",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1280"
+  },
+  {
     "Type": "Mill",
     "InputAppId": "item_313",
     "ToolAppId": "furniture_860",
@@ -840,6 +940,26 @@
     "OutputAppId": "item_344"
   },
   {
+    "Type": "Modeller",
+    "InputAppId": "cooking_320",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1275"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_322",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 3,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1276"
+  },
+  {
     "Type": "Mill",
     "InputAppId": "cooking_324",
     "ToolAppId": "furniture_860",
@@ -848,6 +968,46 @@
     "DaysToComplete": 0,
     "Cycles": 0,
     "OutputAppId": "cooking_861"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_324",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 3,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "furniture_1283"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_327",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 2,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1301"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_328",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 2,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1302"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_330",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 3,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1300"
   },
   {
     "Type": "CampFire",
@@ -1010,6 +1170,16 @@
     "OutputAppId": "cooking_764"
   },
   {
+    "Type": "Modeller",
+    "InputAppId": "cooking_345",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 4,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "furniture_1294"
+  },
+  {
     "Type": "CheeseMaker",
     "InputAppId": "cooking_350",
     "ToolAppId": "furniture_635",
@@ -1018,6 +1188,66 @@
     "DaysToComplete": 1,
     "Cycles": 1,
     "OutputAppId": "cooking_636"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_360",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1281"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_361",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1295"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_362",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1296"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_363",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1297"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_364",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1298"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_393",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1162"
   },
   {
     "Type": "SpinningWheel",
@@ -1160,6 +1390,16 @@
     "OutputAppId": "cooking_763"
   },
   {
+    "Type": "Modeller",
+    "InputAppId": "cooking_603",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 4,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "furniture_1294"
+  },
+  {
     "Type": "CampFire",
     "InputAppId": "fish_605",
     "ToolAppId": "item_18",
@@ -1400,24 +1640,14 @@
     "OutputAppId": "cooking_969"
   },
   {
-    "Type": "SpinningWheel",
-    "InputAppId": "item_634",
-    "ToolAppId": "furniture_633",
-    "AmountNeeded": 1,
-    "SecondsToComplete": 0,
-    "DaysToComplete": 1,
-    "Cycles": 1,
-    "OutputAppId": "item_634"
-  },
-  {
-    "Type": "CheeseMaker",
+    "Type": "Modeller",
     "InputAppId": "cooking_636",
-    "ToolAppId": "furniture_635",
+    "ToolAppId": "furniture_1303",
     "AmountNeeded": 1,
-    "SecondsToComplete": 0,
-    "DaysToComplete": 1,
-    "Cycles": 1,
-    "OutputAppId": "cooking_636"
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1286"
   },
   {
     "Type": "CheeseMaker",
@@ -1428,6 +1658,36 @@
     "DaysToComplete": 1,
     "Cycles": 1,
     "OutputAppId": "cooking_638"
+  },
+  {
+    "Type": "CheeseMaker",
+    "InputAppId": "cooking_638",
+    "ToolAppId": "furniture_635",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 10,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_636"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_638",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "furniture_1286"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_647",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1287"
   },
   {
     "Type": "CampFire",
@@ -1480,6 +1740,56 @@
     "OutputAppId": "item_682"
   },
   {
+    "Type": "Modeller",
+    "InputAppId": "cooking_685",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1282"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_686",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1288"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_687",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1320"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_690",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1289"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_691",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1319"
+  },
+  {
     "Type": "BillyCanFire",
     "InputAppId": "item_698",
     "ToolAppId": "item_1121",
@@ -1520,6 +1830,26 @@
     "OutputAppId": "cooking_747"
   },
   {
+    "Type": "Modeller",
+    "InputAppId": "cooking_747",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1278"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_748",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1277"
+  },
+  {
     "Type": "CompostBin",
     "InputAppId": "item_750",
     "ToolAppId": "item_703",
@@ -1528,6 +1858,26 @@
     "DaysToComplete": 1,
     "Cycles": 1,
     "OutputAppId": "item_275"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_763",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1294"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_764",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1294"
   },
   {
     "Type": "BillyCanFire",
@@ -1558,6 +1908,16 @@
     "DaysToComplete": 0,
     "Cycles": 1,
     "OutputAppId": "cooking_771"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_770",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 10,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "furniture_1218"
   },
   {
     "Type": "CampFire",
@@ -1620,6 +1980,26 @@
     "OutputAppId": "item_275"
   },
   {
+    "Type": "Modeller",
+    "InputAppId": "cooking_843",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1285"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_845",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 3,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1318"
+  },
+  {
     "Type": "ChargingStation",
     "InputAppId": "clothing_847",
     "ToolAppId": "item_856",
@@ -1650,6 +2030,86 @@
     "OutputAppId": "cooking_852"
   },
   {
+    "Type": "Modeller",
+    "InputAppId": "cooking_861",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1304"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_862",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1305"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_893",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1161"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_894",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1293"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_895",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1292"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_896",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1290"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_897",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1291"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_898",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1299"
+  },
+  {
     "Type": "ChargingStation",
     "InputAppId": "item_906",
     "ToolAppId": "item_856",
@@ -1668,6 +2128,16 @@
     "DaysToComplete": 0,
     "Cycles": 0,
     "OutputAppId": "item_925"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_927",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1310"
   },
   {
     "Type": "CampFire",
@@ -1740,6 +2210,16 @@
     "OutputAppId": "cooking_1015"
   },
   {
+    "Type": "Modeller",
+    "InputAppId": "cooking_1014",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 10,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "furniture_1321"
+  },
+  {
     "Type": "BBQ",
     "InputAppId": "item_1034",
     "ToolAppId": "furniture_13",
@@ -1754,10 +2234,30 @@
     "InputAppId": "cooking_1035",
     "ToolAppId": "item_1121",
     "AmountNeeded": 1,
-    "SecondsToComplete": 600,
+    "SecondsToComplete": 300,
     "DaysToComplete": 0,
     "Cycles": 0,
     "OutputAppId": "cooking_1036"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_1035",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1306"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_1036",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1307"
   },
   {
     "Type": "ChargingStation",
@@ -1780,6 +2280,16 @@
     "OutputAppId": "item_1108"
   },
   {
+    "Type": "Modeller",
+    "InputAppId": "cooking_1126",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "furniture_1308"
+  },
+  {
     "Type": "Keg",
     "InputAppId": "cooking_1126",
     "ToolAppId": "furniture_392",
@@ -1788,6 +2298,16 @@
     "DaysToComplete": 2,
     "Cycles": 1,
     "OutputAppId": "cooking_393"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_1127",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "furniture_1309"
   },
   {
     "Type": "Keg",
@@ -1828,6 +2348,46 @@
     "DaysToComplete": 0,
     "Cycles": 1,
     "OutputAppId": "cooking_1169"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_1172",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1312"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_1173",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1314"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_1174",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1313"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_1175",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1315"
   },
   {
     "Type": "ChargingStation",
@@ -1908,5 +2468,25 @@
     "DaysToComplete": 0,
     "Cycles": 2,
     "OutputAppId": "cooking_970"
+  },
+  {
+    "Type": "BillyCanFire",
+    "InputAppId": "item_1237",
+    "ToolAppId": "item_1121",
+    "AmountNeeded": 10,
+    "SecondsToComplete": 180,
+    "DaysToComplete": 0,
+    "Cycles": 1,
+    "OutputAppId": "cooking_1238"
+  },
+  {
+    "Type": "Modeller",
+    "InputAppId": "cooking_1238",
+    "ToolAppId": "furniture_1303",
+    "AmountNeeded": 1,
+    "SecondsToComplete": 2,
+    "DaysToComplete": 0,
+    "Cycles": 0,
+    "OutputAppId": "furniture_1322"
   }
 ]

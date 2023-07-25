@@ -1,5 +1,11 @@
 [
   {
+    "guid": "06c75d87-1511-4137-8afe-7ace0878c4e0",
+    "username": "Jesiniel Nieves",
+    "type": "Paypal",
+    "date": "2021-10-04T19:10:00Z"
+  },
+  {
     "guid": "9d8a086c-6013-420b-be67-9283d9dd1246",
     "username": "Danilo Magro",
     "type": "BuyMeACoffee",

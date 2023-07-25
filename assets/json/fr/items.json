@@ -1913,15 +1913,16 @@
     "Id": 252,
     "AppId": "item_252",
     "Hidden": true,
-    "Icon": "inventory/allUI_41.png",
+    "Icon": "inventory/buttonIcons_6.png",
     "Name": "Ute",
     "Description": "Son un ute",
     "SellPrice": 25,
-    "IsStackable": true,
+    "IsStackable": false,
     "Equipable": "NotEquipable",
-    "RequiredLicence": "None",
-    "RequiredLicenceLevel": 1,
-    "LicenceLevelText": ""
+    "RequiredLicence": "Vehicle",
+    "RequiredLicenceAppId": "licence_7",
+    "RequiredLicenceLevel": 2,
+    "LicenceLevelText": "LVL II"
   },
   {
     "Id": 264,
@@ -5452,8 +5453,8 @@
     },
     "RequiredLicence": "Vehicle",
     "RequiredLicenceAppId": "licence_7",
-    "RequiredLicenceLevel": 2,
-    "LicenceLevelText": "LVL II"
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
   },
   {
     "Id": 601,
@@ -6236,7 +6237,7 @@
     "AppId": "item_696",
     "Icon": "inventory/allUI2_92.png",
     "Name": "Cement Fence",
-    "Description": "Its strong!",
+    "Description": "It's strong!",
     "SellPrice": 6,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -6419,7 +6420,7 @@
     "AppId": "item_703",
     "Icon": "inventory/allUI2_66.png",
     "Name": "Compost Bin",
-    "Description": "Turn poop and stuff into fertilizer",
+    "Description": "Turn poop and stuff into fertiliser",
     "SellPrice": 8056,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -7127,7 +7128,7 @@
     "AppId": "item_762",
     "Icon": "inventory/allUI2_93.png",
     "Name": "Tin Fence",
-    "Description": "Its strong!",
+    "Description": "It's strong!",
     "SellPrice": 171,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -7804,7 +7805,7 @@
       "Category": "Misc",
       "SubCategoryEnum": 0,
       "SubCategory": "None",
-      "TierLevel": 3,
+      "TierLevel": 4,
       "SkillEnum": 0,
       "Skill": "Farming",
       "LevelSkillLearnt": 0,
@@ -8083,7 +8084,7 @@
     "AppId": "item_839",
     "Icon": "inventory/allUI2_152.png",
     "Name": "Bone Bow",
-    "Description": "How do this even work?",
+    "Description": "How does this even work?",
     "SellPrice": 120000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
@@ -8561,7 +8562,7 @@
     "AppId": "item_863",
     "Icon": "inventory/allUI2_176.png",
     "Name": "Worm Farm",
-    "Description": "Creates fertilizer every now and again",
+    "Description": "Creates fertiliser every now and again",
     "SellPrice": 23938,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -8904,7 +8905,7 @@
     "AppId": "item_902",
     "Icon": "inventory/allUI2_201.png",
     "Name": "Copper Top Fence",
-    "Description": "Fany Fence",
+    "Description": "Fancy Fence",
     "SellPrice": 202,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -9923,7 +9924,7 @@
     "AppId": "item_960",
     "Icon": "inventory/allUI2_254.png",
     "Name": "Alpha Bat",
-    "Description": "Hows this?",
+    "Description": "How's this?",
     "SellPrice": 200000,
     "IsStackable": false,
     "Equipable": "NotEquipable",
@@ -10295,7 +10296,7 @@
     "AppId": "item_1002",
     "Icon": "inventory/allUI3_12.png",
     "Name": "Mushroom Path",
-    "Description": "It's glows a bit",
+    "Description": "It glows a bit",
     "SellPrice": 12,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -12272,7 +12273,7 @@
     "AppId": "item_1121",
     "Icon": "inventory/allUI3_92.png",
     "Name": "Billy Can Kit",
-    "Description": "Allows you make hot drinks and soups.",
+    "Description": "Make hot drinks, jams and soups.",
     "SellPrice": 1610,
     "IsStackable": true,
     "Equipable": "NotEquipable",
@@ -12331,8 +12332,7 @@
     "SellPrice": 4500,
     "IsStackable": false,
     "Equipable": "NotEquipable",
-    "RequiredLicence": "DeepMining",
-    "RequiredLicenceAppId": "licence_13",
+    "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
     "LicenceLevelText": ""
   },
@@ -12565,7 +12565,7 @@
     "Id": 1134,
     "AppId": "item_1134",
     "Icon": "inventory/allUI3_109.png",
-    "Name": "Market Stall",
+    "Name": "Hard Wood Market Stall",
     "Description": "A decorative stall for items",
     "SellPrice": 8078,
     "IsStackable": true,
@@ -13365,6 +13365,715 @@
     "Description": "Who would have thought air could be so much fun?",
     "SellPrice": 3000,
     "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1224,
+    "AppId": "item_1224",
+    "Icon": "inventory/allUI3_163.png",
+    "Name": "Prize Ticket",
+    "Description": "Can be redeemed for prizes",
+    "SellPrice": 0,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1226,
+    "AppId": "item_1226",
+    "Icon": "inventory/allUI3_164.png",
+    "Name": "Bubble Blower",
+    "Description": "The fun never pops",
+    "SellPrice": 500,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 1224,
+          "AppId": "item_1224",
+          "Quantity": 1
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 9,
+      "WorkPlaceConditions": "RaffleBox",
+      "CategoryEnum": 6,
+      "Category": "House",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1228,
+    "AppId": "item_1228",
+    "Icon": "inventory/allUI3_165.png",
+    "Name": "Frying pan",
+    "Description": "Not just for frying",
+    "SellPrice": 12500,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 1224,
+          "AppId": "item_1224",
+          "Quantity": 25
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 9,
+      "WorkPlaceConditions": "RaffleBox",
+      "CategoryEnum": 6,
+      "Category": "House",
+      "SubCategoryEnum": 2,
+      "SubCategory": "Weapon",
+      "TierLevel": 1,
+      "SkillEnum": 5,
+      "Skill": "Hunting",
+      "LevelSkillLearnt": 2,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_4",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1232,
+    "AppId": "item_1232",
+    "Icon": "inventory/allUI3_166.png",
+    "Name": "Raffle Wheel",
+    "Description": "Take it for a spin",
+    "SellPrice": 4000,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 1224,
+          "AppId": "item_1224",
+          "Quantity": 8
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 9,
+      "WorkPlaceConditions": "RaffleBox",
+      "CategoryEnum": 3,
+      "Category": "Decorations",
+      "SubCategoryEnum": 1,
+      "SubCategory": "Tools",
+      "TierLevel": 4,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1235,
+    "AppId": "item_1235",
+    "Icon": "inventory/allUI3_168.png",
+    "Name": "Velvet Rope Fence",
+    "Description": "Fancy rope used to separate things.",
+    "SellPrice": 312,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 1224,
+          "AppId": "item_1224",
+          "Quantity": 5
+        }
+      ],
+      "RecipeGiveThisAmount": 8,
+      "WorkPlaceConditionsEnum": 9,
+      "WorkPlaceConditions": "RaffleBox",
+      "CategoryEnum": 3,
+      "Category": "Decorations",
+      "SubCategoryEnum": 4,
+      "SubCategory": "Fence",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_5",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1236,
+    "AppId": "item_1236",
+    "Icon": "inventory/allUI3_169.png",
+    "Name": "Red Carpet Path",
+    "Description": "Roll it out",
+    "SellPrice": 156,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 1224,
+          "AppId": "item_1224",
+          "Quantity": 5
+        }
+      ],
+      "RecipeGiveThisAmount": 16,
+      "WorkPlaceConditionsEnum": 9,
+      "WorkPlaceConditions": "RaffleBox",
+      "CategoryEnum": 3,
+      "Category": "Decorations",
+      "SubCategoryEnum": 4,
+      "SubCategory": "Fence",
+      "TierLevel": -1,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_5",
+      "LicenceLevelLearnt": 1,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1237,
+    "AppId": "item_1237",
+    "Icon": "inventory/allUI3_175.png",
+    "Name": "Seaweed",
+    "Description": "It's like salty grass",
+    "SellPrice": 10,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1242,
+    "AppId": "item_1242",
+    "Icon": "inventory/allUI2_181.png",
+    "Name": "Blue Hang Glider",
+    "Description": "Float your day away.",
+    "SellPrice": 0,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 1224,
+          "AppId": "item_1224",
+          "Quantity": 150
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 6,
+      "WorkPlaceConditions": "Blocked",
+      "CategoryEnum": 0,
+      "Category": "None",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1243,
+    "AppId": "item_1243",
+    "Icon": "inventory/allUI_152.png",
+    "Name": "Pink Hang Glider",
+    "Description": "Float your day away.",
+    "SellPrice": 400000,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1244,
+    "AppId": "item_1244",
+    "Icon": "inventory/allUI_152.png",
+    "Name": "Orange Hang Glider",
+    "Description": "Float your day away.",
+    "SellPrice": 400000,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1245,
+    "AppId": "item_1245",
+    "Icon": "inventory/allUI_152.png",
+    "Name": "Purple Hang Glider",
+    "Description": "Float your day away.",
+    "SellPrice": 400000,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1247,
+    "AppId": "item_1247",
+    "Icon": "inventory/allUI3_174.png",
+    "Name": "Gum Wood Market Stall",
+    "Description": "A decorative stall for items",
+    "SellPrice": 7578,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 634,
+          "AppId": "item_634",
+          "Quantity": 1
+        },
+        {
+          "Id": 305,
+          "AppId": "item_305",
+          "Quantity": 4
+        },
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 4
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 0,
+      "WorkPlaceConditions": "None",
+      "CategoryEnum": 3,
+      "Category": "Decorations",
+      "SubCategoryEnum": 7,
+      "SubCategory": "Decoration",
+      "TierLevel": 3,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1248,
+    "AppId": "item_1248",
+    "Icon": "inventory/allUI3_173.png",
+    "Name": "Palm Wood Market Stall",
+    "Description": "A decorative stall for items",
+    "SellPrice": 7952,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 634,
+          "AppId": "item_634",
+          "Quantity": 1
+        },
+        {
+          "Id": 306,
+          "AppId": "item_306",
+          "Quantity": 4
+        },
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 4
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 0,
+      "WorkPlaceConditions": "None",
+      "CategoryEnum": 3,
+      "Category": "Decorations",
+      "SubCategoryEnum": 7,
+      "SubCategory": "Decoration",
+      "TierLevel": 3,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1249,
+    "AppId": "item_1249",
+    "Icon": "inventory/allUI3_172.png",
+    "Name": "Gum Wood Arch",
+    "Description": "Walk under it!",
+    "SellPrice": 945,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 305,
+          "AppId": "item_305",
+          "Quantity": 4
+        },
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 2
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 0,
+      "WorkPlaceConditions": "None",
+      "CategoryEnum": 3,
+      "Category": "Decorations",
+      "SubCategoryEnum": 5,
+      "SubCategory": "Gate",
+      "TierLevel": 3,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1250,
+    "AppId": "item_1250",
+    "Icon": "inventory/allUI3_170.png",
+    "Name": "Palm Wood Arch",
+    "Description": "Walk under it!",
+    "SellPrice": 1320,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 306,
+          "AppId": "item_306",
+          "Quantity": 4
+        },
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 2
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 0,
+      "WorkPlaceConditions": "None",
+      "CategoryEnum": 3,
+      "Category": "Decorations",
+      "SubCategoryEnum": 5,
+      "SubCategory": "Gate",
+      "TierLevel": 3,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1251,
+    "AppId": "item_1251",
+    "Icon": "inventory/allUI3_171.png",
+    "Name": "Hard Wood Arch",
+    "Description": "Walk under it!",
+    "SellPrice": 1445,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 307,
+          "AppId": "item_307",
+          "Quantity": 4
+        },
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 2
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 0,
+      "WorkPlaceConditions": "None",
+      "CategoryEnum": 3,
+      "Category": "Decorations",
+      "SubCategoryEnum": 5,
+      "SubCategory": "Gate",
+      "TierLevel": 3,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1254,
+    "AppId": "item_1254",
+    "Icon": "inventory/allUI_210.png",
+    "Name": "Wide Palm Wood Bridge",
+    "Description": "Maybe you could cross the water on this?",
+    "SellPrice": 5681,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 15
+        },
+        {
+          "Id": 306,
+          "AppId": "item_306",
+          "Quantity": 15
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 0,
+      "WorkPlaceConditions": "None",
+      "CategoryEnum": 3,
+      "Category": "Decorations",
+      "SubCategoryEnum": 6,
+      "SubCategory": "Bridge",
+      "TierLevel": 3,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": true,
+      "LicenceAppId": "licence_10",
+      "LicenceLevelLearnt": 1,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1256,
+    "AppId": "item_1256",
+    "Icon": "inventory/allUI3_177.png",
+    "Name": "Fairy Light Wall",
+    "Description": "Festive",
+    "SellPrice": 2500,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 1224,
+          "AppId": "item_1224",
+          "Quantity": 5
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 9,
+      "WorkPlaceConditions": "RaffleBox",
+      "CategoryEnum": 4,
+      "Category": "Light",
+      "SubCategoryEnum": 7,
+      "SubCategory": "Decoration",
+      "TierLevel": 0,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1260,
+    "AppId": "item_1260",
+    "Icon": "inventory/allUI3_178.png",
+    "Name": "Vine Wall",
+    "Description": "A nice backdrop",
+    "SellPrice": 134,
+    "IsStackable": true,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 306,
+          "AppId": "item_306",
+          "Quantity": 2
+        },
+        {
+          "Id": 1131,
+          "AppId": "item_1131",
+          "Quantity": 4
+        },
+        {
+          "Id": 22,
+          "AppId": "item_22",
+          "Quantity": 4
+        }
+      ],
+      "RecipeGiveThisAmount": 8,
+      "WorkPlaceConditionsEnum": 0,
+      "WorkPlaceConditions": "None",
+      "CategoryEnum": 3,
+      "Category": "Decorations",
+      "SubCategoryEnum": 4,
+      "SubCategory": "Fence",
+      "TierLevel": 5,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 2,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 2,
+      "CrafterLevelLearnt": 0
+    },
+    "RequiredLicence": "None",
+    "RequiredLicenceLevel": 1,
+    "LicenceLevelText": ""
+  },
+  {
+    "Id": 1266,
+    "AppId": "item_1266",
+    "Icon": "inventory/allUI3_162.png",
+    "Name": "Ute",
+    "Description": "Vroom Vroom",
+    "SellPrice": 160000,
+    "IsStackable": false,
+    "Equipable": "NotEquipable",
+    "Craftable": {
+      "RequiredItems": [
+        {
+          "Id": 384,
+          "AppId": "item_384",
+          "Quantity": 10
+        },
+        {
+          "Id": 639,
+          "AppId": "item_639",
+          "Quantity": 8
+        },
+        {
+          "Id": 113,
+          "AppId": "item_113",
+          "Quantity": 10
+        },
+        {
+          "Id": 645,
+          "AppId": "item_645",
+          "Quantity": 1
+        },
+        {
+          "Id": 587,
+          "AppId": "item_587",
+          "Quantity": 4
+        },
+        {
+          "Id": 466,
+          "AppId": "item_466",
+          "Quantity": 4
+        }
+      ],
+      "RecipeGiveThisAmount": 1,
+      "WorkPlaceConditionsEnum": 4,
+      "WorkPlaceConditions": "CraftingShop",
+      "CategoryEnum": 8,
+      "Category": "Misc",
+      "SubCategoryEnum": 0,
+      "SubCategory": "None",
+      "TierLevel": 3,
+      "SkillEnum": 0,
+      "Skill": "Farming",
+      "LevelSkillLearnt": 0,
+      "LearnThroughLicence": false,
+      "LicenceAppId": "licence_0",
+      "LicenceLevelLearnt": 0,
+      "CrafterLevelLearnt": 4
+    },
+    "RequiredLicence": "Vehicle",
+    "RequiredLicenceAppId": "licence_7",
+    "RequiredLicenceLevel": 2,
+    "LicenceLevelText": "LVL II"
+  },
+  {
+    "Id": 1316,
+    "AppId": "item_1316",
+    "Icon": "inventory/allUI3_181.png",
+    "Name": "River Reed Seed",
+    "Description": "A reed seed",
+    "SellPrice": 2,
+    "IsStackable": true,
     "Equipable": "NotEquipable",
     "RequiredLicence": "None",
     "RequiredLicenceLevel": 1,
