@@ -55,6 +55,7 @@
   "english": "英文",
   "french": "法文",
   "russian": "俄文",
+  "simplifiedChinese": "簡體中文",
   "traditionalChinese": "繁體中文",
   "general": "常規",
   "error": "錯誤",
@@ -105,6 +106,7 @@
   "viewAllRequiredItems": "View All Required Items",
   "ok": "Ok",
   "cancel": "Cancel",
+  "translationIssue": "Please note that {1} is not completely translated for the language you have selected. There will be items that are not translated into {0}.",
   "minutesAbbrev": "{0}m",
   "defaultFont": "預設字體",
   "settingsFont": "字體",
@@ -156,5 +158,5 @@
   "processFrom": "Process from",
   "usedToProcess": "Used to process",
   "shareContent": "I'm using the Assistant for Dinkum App! Available on Google Play, iOS App Store and Web! #Dinkum #AssistantDKM #Android #IOS",
-  "hashCode": "A642C6EADADC6A20C6664478AF3CCC52"
+  "hashCode": "BBBCBDB0382FD7EB3B473F5B2228245D"
 }

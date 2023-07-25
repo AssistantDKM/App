@@ -90,7 +90,8 @@
       5000000
     ],
     "RewardPerLevel": 200,
-    "IsVisibleOnList": true
+    "IsVisibleOnList": true,
+    "Suffix": "m"
   },
   {
     "Id": 7,
@@ -935,7 +936,8 @@
       5000000
     ],
     "RewardPerLevel": 200,
-    "IsVisibleOnList": true
+    "IsVisibleOnList": true,
+    "Suffix": "m"
   },
   {
     "Id": 63,
@@ -968,7 +970,8 @@
       10
     ],
     "RewardPerLevel": 1000,
-    "IsVisibleOnList": true
+    "IsVisibleOnList": true,
+    "Suffix": ",000,000"
   },
   {
     "Id": 65,
@@ -1195,7 +1198,8 @@
       5000000
     ],
     "RewardPerLevel": 200,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": false,
+    "Suffix": "m"
   },
   {
     "Id": 80,
@@ -1252,7 +1256,8 @@
       5000000
     ],
     "RewardPerLevel": 200,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": false,
+    "Suffix": "m"
   },
   {
     "Id": 84,
@@ -1463,6 +1468,7 @@
       5000000
     ],
     "RewardPerLevel": 200,
-    "IsVisibleOnList": false
+    "IsVisibleOnList": false,
+    "Suffix": "m"
   }
 ]
