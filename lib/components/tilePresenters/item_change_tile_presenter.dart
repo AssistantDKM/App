@@ -1,4 +1,3 @@
-import 'package:assistant_dinkum_app/helper/navigate_helper.dart';
 import 'package:assistantapps_flutter_common/assistantapps_flutter_common.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
@@ -8,6 +7,7 @@ import '../../contracts/json/enum/item_change_type.dart';
 import '../../contracts/json/inventory_item.dart';
 import '../../contracts/json/item_change_output.dart';
 import '../../contracts/pageItem/item_change_page_item.dart';
+import '../../helper/navigate_helper.dart';
 import '../pageElements/item_page_components.dart';
 import 'item_base_tile_presenter.dart';
 
@@ -30,6 +30,7 @@ const itemsThatNeedAnItemFromLoadedItems = [
   ItemChangeType.billyCanFire,
   ItemChangeType.blastFurnace,
   ItemChangeType.improvedTableSaw,
+  ItemChangeType.modeller,
 ];
 
 Widget itemChangeUsingTilePresenter({

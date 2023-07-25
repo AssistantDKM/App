@@ -19,6 +19,7 @@ enum ItemChangeType {
   billyCanFire,
   blastFurnace,
   improvedTableSaw,
+  modeller,
 }
 
 final itemChangeTypeValues = EnumValues({
@@ -39,4 +40,5 @@ final itemChangeTypeValues = EnumValues({
   'BillyCanFire': ItemChangeType.billyCanFire,
   'BlastFurnace': ItemChangeType.blastFurnace,
   'ImprovedTableSaw': ItemChangeType.improvedTableSaw,
+  'Modeller': ItemChangeType.modeller,
 });
