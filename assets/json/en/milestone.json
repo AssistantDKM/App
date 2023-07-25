@@ -18,7 +18,7 @@
     "Id": 2,
     "AppId": "milestone_2",
     "Name": "Chatterbox",
-    "Description": "Being friendly and making friends is an adventure on it's own! Be sure to chat with everyone every day! You might learn something.",
+    "Description": "Being friendly and making friends is an adventure on its own! Be sure to chat with everyone every day! You might learn something.",
     "Icon": "milestone/milestone_TalkToPeople.png",
     "RequirementPerLevel": [
       10,
@@ -90,8 +90,7 @@
       5000000
     ],
     "RewardPerLevel": 200,
-    "IsVisibleOnList": true,
-    "Suffix": "m"
+    "IsVisibleOnList": true
   },
   {
     "Id": 7,
@@ -159,7 +158,7 @@
     "Id": 11,
     "AppId": "milestone_11",
     "Name": "Wet Thumb",
-    "Description": "Watering plants is good for your soul and good for the plants general health. It's win-win. So here is a milestone for watering a lot of plants!",
+    "Description": "Watering plants is good for your soul and good for the plant's general health. It's win-win. So here is a milestone for watering a lot of plants!",
     "Icon": "milestone/milestone_WaterCrops.png",
     "RequirementPerLevel": [
       10,
@@ -309,7 +308,7 @@
     "Id": 21,
     "AppId": "milestone_21",
     "Name": "Everything Hunter",
-    "Description": "Hunting is sometimes necessary. Here is milestone for hunting creatures.",
+    "Description": "Hunting is sometimes necessary. Here is a milestone for hunting creatures.",
     "Icon": "milestone/milestone_HuntAnimals.png",
     "RequirementPerLevel": [
       10,
@@ -339,7 +338,7 @@
     "Id": 23,
     "AppId": "milestone_23",
     "Name": "Furniture Fancy",
-    "Description": "Buying furniture for your home? Maybe a gift? Here is milestone for buying furniture.",
+    "Description": "Buying furniture for your home? Maybe a gift? Here is a milestone for buying furniture.",
     "Icon": "milestone/milestone_BuyFurniture.png",
     "RequirementPerLevel": [
       10,
@@ -399,7 +398,7 @@
     "Id": 27,
     "AppId": "milestone_27",
     "Name": "Crop Taker",
-    "Description": "Reap what you have sewn. Here is a milestone for harvesting crops.",
+    "Description": "Reap what you have sown. Here is a milestone for harvesting crops.",
     "Icon": "milestone/milestone_HarvestCrops.png",
     "RequirementPerLevel": [
       10,
@@ -720,7 +719,7 @@
     "Id": 49,
     "AppId": "milestone_49",
     "Name": "Camper",
-    "Description": "A place to rest your head - Your new home for now. Here is a milestone for placing your tent.",
+    "Description": "A place to rest your head - your new home for now. Here is a milestone for placing your tent.",
     "Icon": "milestone/milestone_PlaceOwnTent.png",
     "RequirementPerLevel": [
       1
@@ -751,7 +750,7 @@
   {
     "Id": 51,
     "AppId": "milestone_51",
-    "Name": "Equiped",
+    "Name": "Equipped",
     "Description": "You can buy a lot of useful tools to help you! Here is a milestone for buying tools.",
     "Icon": "milestone/milestone_BuyATool.png",
     "RequirementPerLevel": [
@@ -936,8 +935,7 @@
       5000000
     ],
     "RewardPerLevel": 200,
-    "IsVisibleOnList": true,
-    "Suffix": "m"
+    "IsVisibleOnList": true
   },
   {
     "Id": 63,
@@ -970,8 +968,7 @@
       10
     ],
     "RewardPerLevel": 1000,
-    "IsVisibleOnList": true,
-    "Suffix": ",000,000"
+    "IsVisibleOnList": true
   },
   {
     "Id": 65,
@@ -1113,7 +1110,7 @@
     "Id": 74,
     "AppId": "milestone_74",
     "Name": "Brewmatic",
-    "Description": "Those flowers might be nice if I put them in a barrel and let they sit. Here is a milestone for brewing in a keg.",
+    "Description": "Why not make some tea in a Billy and then pop them in a keg? Here is a milestone for doing some brewing.",
     "Icon": "milestone/milestone_BrewSomething.png",
     "RequirementPerLevel": [
       10,
@@ -1198,8 +1195,7 @@
       5000000
     ],
     "RewardPerLevel": 200,
-    "IsVisibleOnList": false,
-    "Suffix": "m"
+    "IsVisibleOnList": false
   },
   {
     "Id": 80,
@@ -1256,8 +1252,7 @@
       5000000
     ],
     "RewardPerLevel": 200,
-    "IsVisibleOnList": false,
-    "Suffix": "m"
+    "IsVisibleOnList": false
   },
   {
     "Id": 84,
@@ -1427,7 +1422,7 @@
     "Id": 95,
     "AppId": "milestone_95",
     "Name": "Critter Catcher",
-    "Description": "It's brave it dive down and grab a random critter with your bare hands. Here is a milestone for catching underwater critters.",
+    "Description": "It's brave to dive down and grab a random critter with your bare hands. Here is a milestone for catching underwater critters.",
     "Icon": "milestone/milestone_CatchACritter.png",
     "RequirementPerLevel": [
       10,
@@ -1442,7 +1437,7 @@
     "Id": 96,
     "AppId": "milestone_96",
     "Name": "Bug Comp Champ",
-    "Description": "Bug Comps are serious business. No Time for fun. Here is a milestone for placing in the Bug Comp.",
+    "Description": "Bug Comps are serious business. No time for fun. Here is a milestone for placing in the Bug Comp.",
     "Icon": "milestone/milestone_PlaceInBugComp.png",
     "RequirementPerLevel": [
       1,
@@ -1468,7 +1463,6 @@
       5000000
     ],
     "RewardPerLevel": 200,
-    "IsVisibleOnList": false,
-    "Suffix": "m"
+    "IsVisibleOnList": false
   }
 ]
